@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Post } from "@/lib/db/types";
+import { MarkdownBodyEditor } from "./MarkdownBodyEditor";
 
 /**
  * Shared post-form component.
@@ -72,14 +73,10 @@ export function PostForm({ mode, initial, saved, action }: Props) {
             />
           </Field>
 
-          <Field label="Body" hint="Markdown. Supports headings, lists, links, blockquotes, code.">
-            <textarea
+          <Field label="Body" hint="Paste images and URLs directly. Toolbar buttons handle the rest.">
+            <MarkdownBodyEditor
               name="body"
-              required
-              rows={28}
-              defaultValue={initial?.body}
-              className="w-full bg-paper-3 border border-rule px-4 py-3 font-mono text-[13px] leading-[1.6] text-ink resize-y focus:outline-none focus:border-ink"
-              placeholder={"# Heading\n\nWrite your post in Markdown.\n\n## Subheading\n\n- bullet one\n- bullet two\n\n[Link text](https://example.com)"}
+              initial={initial?.body ?? ""}
             />
           </Field>
         </div>
