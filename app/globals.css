@@ -1,26 +1,120 @@
+/* ═══════════════════════════════════════════════════════════════
+   FieldSignal · locked-down Tailwind v4 theme
+   ───────────────────────────────────────────────────────────────
+   This file is the entire brand contract. The @theme block clears
+   Tailwind's defaults and replaces them with only the FieldSignal
+   tokens. Any class outside this allowlist is a compile error.
+
+     Allowed colors:    paper · paper-2 · paper-3 · ink · ink-2 ·
+                        ink-3 · brand · red · rule · rule-2
+     Allowed fonts:     sans (Inter) · mono (JetBrains Mono)
+     Allowed type:      display · page · section · wide · lede ·
+                        body · mono · micro
+     Allowed spacing:   4px base (p-1=4px, p-2=8px, ...)
+     Forbidden:         border-radius > 0, box-shadow, gradients
+   ═══════════════════════════════════════════════════════════════ */
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── Clear all defaults ─────────────────────────────────────── */
+  --color-*: initial;
+  --font-*: initial;
+  --text-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --blur-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+  --gradient-*: initial;
+
+  /* ── FieldSignal colors (the only ones that exist) ──────────── */
+  --color-paper:    #F2EFE6;
+  --color-paper-2:  #E8E4D5;
+  --color-paper-3:  #FCFAF2;
+  --color-ink:      #161613;
+  --color-ink-2:    #5A5852;
+  --color-ink-3:    #8B8980;
+  --color-brand:    #0080FF;
+  --color-red:      #D8312A;
+  --color-rule:     rgba(22, 22, 19, 0.12);
+  --color-rule-2:   rgba(22, 22, 19, 0.28);
+  --color-transparent: transparent;
+  --color-current:  currentColor;
+  --color-inherit:  inherit;
+
+  /* ── Two fonts only ─────────────────────────────────────────── */
+  --font-sans: var(--font-inter), 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+
+  /* ── 8-step type scale ──────────────────────────────────────── */
+  --text-display: 72px;
+  --text-display--line-height: 0.95;
+  --text-display--letter-spacing: -0.030em;
+  --text-display--font-weight: 500;
+
+  --text-page: 52px;
+  --text-page--line-height: 0.95;
+  --text-page--letter-spacing: -0.028em;
+  --text-page--font-weight: 500;
+
+  --text-section: 36px;
+  --text-section--line-height: 1;
+  --text-section--letter-spacing: -0.022em;
+  --text-section--font-weight: 500;
+
+  --text-wide: 24px;
+  --text-wide--line-height: 1.15;
+  --text-wide--letter-spacing: -0.012em;
+  --text-wide--font-weight: 600;
+
+  --text-lede: 19px;
+  --text-lede--line-height: 1.55;
+
+  --text-body: 15px;
+  --text-body--line-height: 1.65;
+
+  --text-mono: 11px;
+  --text-mono--line-height: 1.5;
+  --text-mono--letter-spacing: 0.06em;
+
+  --text-micro: 10px;
+  --text-micro--line-height: 1.7;
+  --text-micro--letter-spacing: 0.12em;
+
+  /* ── 4px-base spacing scale ─────────────────────────────────── */
+  --spacing: 4px;
+
+  /* ── Square corners only ────────────────────────────────────── */
+  --radius-none: 0;
+
+  /* No shadows. No gradients. No blur. Intentionally empty. */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ═══════════════════════════════════════════════════════════════
+   Global base styles
+   ═══════════════════════════════════════════════════════════════ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Brand rule: pure white is forbidden. If anything ever lands on
+   #FFFFFF, the base layer catches it visually. */

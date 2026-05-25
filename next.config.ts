@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
+import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Allow .mdx files to be treated as routes/imports
+  pageExtensions: ["ts", "tsx", "mdx"],
 };
 
-export default nextConfig;
+const withMDX = createMDX({
+  // Add markdown plugins here as the blog grows
+  // e.g. remarkGfm for tables, remarkSmartypants for typography
+});
+
+export default withMDX(nextConfig);

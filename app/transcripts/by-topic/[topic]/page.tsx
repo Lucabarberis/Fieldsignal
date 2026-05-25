@@ -1,0 +1,113 @@
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import { PageHeader } from "@/components/PageHeader";
+import { SectionBand } from "@/components/SectionBand";
+import { TileGrid } from "@/components/TileGrid";
+import { Tile } from "@/components/Tile";
+import { CtaBand } from "@/components/CtaBand";
+import { BreadcrumbSchema } from "@/components/SchemaOrg";
+import { pageMetadata } from "@/lib/seo";
+import { SITE } from "@/lib/site";
+import {
+  getAllTranscripts,
+  getTranscriptsByTopic,
+  getAllTranscriptTopicSlugs,
+} from "@/lib/db/transcripts";
+
+type Props = { params: Promise<{ topic: string }> };
+
+export async function generateStaticParams() {
+  const topics = await getAllTranscriptTopicSlugs();
+  return topics.map((t) => ({ topic: t.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { topic } = await params;
+  const all = await getAllTranscripts();
+  const label = all.find((t) => t.topicSlug === topic)?.topicLabel;
+  if (!label) return {};
+  return pageMetadata({
+    title: `${label} — Expert Interviews`,
+    description: `Curated expert call transcripts on ${label.toLowerCase()}. Anonymised, MNPI-screened, free previews on every transcript.`,
+    path: `/transcripts/by-topic/${topic}`,
+  });
+}
+
+export default async function TranscriptsByTopicPage({ params }: Props) {
+  const { topic } = await params;
+  const list = await getTranscriptsByTopic(topic);
+  if (list.length === 0) notFound();
+
+  const label = list[0].topicLabel;
+
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Transcripts", url: "/transcripts" },
+          { name: "By Topic", url: "/transcripts" },
+          { name: label, url: `/transcripts/by-topic/${topic}` },
+        ]}
+      />
+
+      <PageHeader
+        current={label}
+        title={label}
+        lede={
+          <>
+            Anonymised expert interviews on <b>{label.toLowerCase()}</b>. Free previews; full transcripts via €99/mo subscription.
+          </>
+        }
+        meta={[
+          { label: "Topic", value: label },
+          { label: "Transcripts", value: `${list.length}` },
+          { label: "Format", value: "Preview + gated" },
+          { label: "Subscription", value: "€99/mo" },
+        ]}
+      />
+
+      <SectionBand
+        num="01"
+        label={`${label} Transcripts`}
+        meta={`${list.length} available`}
+      />
+      <div className="p-9">
+        <TileGrid cols={3}>
+          {list.map((t) => (
+            <Tile
+              key={t.slug}
+              id={t.id}
+              name={t.expertRole.toUpperCase().slice(0, 60)}
+              meta={
+                <>
+                  {new Date(t.publishedAt).toLocaleDateString("en-GB", {
+                    year: "numeric",
+                    month: "short",
+                    day: "2-digit",
+                  })}
+                </>
+              }
+              cta="Read preview"
+              href={`/transcripts/${t.slug}`}
+              updated={`${t.wordCount.toLocaleString()} words`}
+            >
+              <p>{t.description}</p>
+            </Tile>
+          ))}
+        </TileGrid>
+      </div>
+
+      <CtaBand
+        title={
+          <>
+            Need a custom expert call on <span className="text-red">{label.toLowerCase()}</span>?
+          </>
+        }
+        meta={<>We&apos;ll source a similar operator within 72h.</>}
+        ctaLabel="Brief us"
+        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Custom call: " + label)}`}
+      />
+    </>
+  );
+}

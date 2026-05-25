@@ -1,0 +1,27 @@
+{
+  "slug": "ex-coo-payments-fintech-embedded-finance",
+  "id": "09",
+  "title": "Ex-COO, Payments Fintech — Embedded Finance Reality Post-Reset",
+  "description": "Recently-departed COO of a major payments-infrastructure fintech discusses embedded-finance economics post the 2023-2024 BaaS reset.",
+  "expertRole": "Recently-departed COO at a major payments-infrastructure fintech (Series D+, processing billions in annual volume)",
+  "companyContext": "Major payments-infrastructure fintech",
+  "companySlug": "major-payments-infrastructure-fintech",
+  "topicSlug": "embedded-finance-economics",
+  "topicLabel": "Embedded Finance Economics",
+  "industrySlugs": [
+    "financial-services",
+    "technology"
+  ],
+  "publishedAt": "2026-02-14",
+  "wordCount": 4700,
+  "preview": "I left in late 2025 after six years scaling the operations function. The embedded-finance category — what the broader market called Banking-as-a-Service or BaaS — has been through a brutal reset and the survivors look meaningfully different from the original pitch.\n\nThe 2019-2022 BaaS narrative was that every consumer-facing software company would embed financial services — bank accounts, debit cards, lending, payments — to deepen engagement and capture monetisation. The unit economics looked attractive: the embedding partner takes a cut of interchange and payment-processing revenue, the BaaS platform takes a cut, and the underlying bank takes its regulatory-required cut. Three layers, three margins, supposedly happy outcomes for all.\n\nThe practical reality through 2022-2024 was much harder. Compliance complexity was systematically underestimated. The non-bank embedding partners didn't have the regulatory operational maturity to manage AML, KYC and BSA obligations at scale. The BaaS platforms had to take more responsibility — and more cost — than the pitch decks projected. The underlying banks faced increased regulatory scrutiny and either pulled back from the BaaS partnership model or imposed materially stricter terms on their partners.\n\nThe 2023-2024 reset saw several BaaS platforms shut down or pivot dramatically. The major underlying banks — the Evolve, Cross River, Bancorp tier — imposed material partner-acceptance restrictions. By mid-2024, the BaaS market had consolidated to maybe four credible platforms serving institutional-grade embedding partners, with the long tail of consumer-app BaaS use cases largely orphaned or operating with material regulatory exposure.\n\nWhat survived the reset is a more mature embedded-finance category. The institutional-grade embedding partners — large fintechs, mid-market software platforms with serious compliance investment — get genuinely good economics with the surviving BaaS platforms. The compliance overhead is real but manageable. The unit economics are tighter than the original pitch but still favorable.\n\nLooking ahead to 2026-2027, I see two parallel motions. First, continued consolidation of BaaS-platform infrastructure to perhaps two or three durable players. Second, the emergence of vertical-specific embedded-finance offerings — financial services tailored for specific industries like construction or healthcare — that capture some of the use cases that horizontal BaaS struggled to serve.",
+  "gatedTeaser": "Full transcript includes specific BaaS unit-economic benchmarks, named platform comparisons across the surviving tier, and the operator's view on which embedded-finance categories will see the most growth through 2028.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "former-managing-director-investment-bank-fintech-coverage",
+    "ex-product-vp-saas-vertical-consolidation"
+  ],
+  "primaryKW": "embedded finance economics expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}

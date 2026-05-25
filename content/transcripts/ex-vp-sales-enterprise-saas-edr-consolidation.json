@@ -1,0 +1,26 @@
+{
+  "slug": "ex-vp-sales-enterprise-saas-edr-consolidation",
+  "id": "01",
+  "title": "Ex-VP Sales, Enterprise SaaS — EDR Vendor Consolidation",
+  "description": "Former VP Sales at a major endpoint detection and response (EDR) vendor discusses the consolidation dynamics reshaping mid-market cybersecurity buying through 2026.",
+  "expertRole": "Former VP Sales at a major endpoint detection and response (EDR) vendor",
+  "companyContext": "EDR vendor",
+  "companySlug": "major-edr-vendor",
+  "topicSlug": "edr-consolidation",
+  "topicLabel": "EDR Vendor Consolidation",
+  "industrySlugs": [
+    "technology"
+  ],
+  "publishedAt": "2026-04-12",
+  "wordCount": 4800,
+  "preview": "I left in late 2025 after eight years on the sales side, the last three running the mid-market team in EMEA. The consolidation story is real but it's not playing out the way the analysts are framing it. The headline is 'platform vendors are absorbing point solutions.' What's actually happening on the ground is more interesting.\n\nThe mid-market — call it €100M to €1B revenue companies — used to run four to seven separate security tools. EDR, SIEM, identity, email gateway, vulnerability management, sometimes more. By the end of 2024 the CISO conversation had shifted decisively. They didn't want seven contracts anymore. They wanted two or three. The expectation set on procurement was that the platform vendors should give them 60-70% of what the best-of-breed tools did, at a meaningfully lower total contract value, with one throat to choke.\n\nThe platform vendors — I won't name them, but you can guess — moved fast to meet this expectation. Microsoft, in particular, used E5 license bundling aggressively. By mid-2025 most of the mid-market deals I was working were against Microsoft's bundled offering rather than against another pure-play EDR vendor. Three years ago that wasn't the case at all.\n\nThe interesting question is whether the best-of-breed vendors hold their position. My view from the sales seat: in the very-large-enterprise tier — Fortune 500, regulated industries with explicit security maturity — yes, best-of-breed holds. The CISO can articulate to the board why a separate dedicated EDR with deeper telemetry matters, and they can fund the additional spend.\n\nIn the mid-market, the story is harder. The CISO is often a generalist; the security team is small; the value of best-of-breed is harder to articulate to a CFO who's seeing a 30% TCO reduction from the consolidation pitch. I think you'll see continued share erosion for the pure-plays in the mid-market through 2026 and 2027.\n\nThe wildcard is AI-driven security tooling. The platform vendors haven't caught up there yet. If the AI-security category produces a credible best-of-breed alternative in the next 18 months, that resets the consolidation conversation — because suddenly the platform vendors are missing a capability that matters strategically, not just marginally.",
+  "gatedTeaser": "Full transcript includes specific deal-economics breakdowns, named CISO buyer reactions to platform vs best-of-breed pitches, and the operator's view on which best-of-breed vendors will survive and which will be acquired.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "former-ciso-fortune-500-bank-sase-deployment",
+    "ex-product-vp-saas-vertical-consolidation"
+  ],
+  "primaryKW": "EDR vendor consolidation expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "former-ciso-fortune-500-bank-sase-deployment",
+  "id": "02",
+  "title": "Former CISO, Fortune 500 Bank — Multi-Year SASE Deployment Reality",
+  "description": "Recently-departed CISO of a major US bank discusses the practical reality of SASE (Secure Access Service Edge) deployment at enterprise scale through 2024-2025.",
+  "expertRole": "Recently-departed CISO of a major US-headquartered bank (top-15 US banks by assets)",
+  "companyContext": "Top-15 US bank",
+  "companySlug": "top-15-us-bank",
+  "topicSlug": "sase-deployment",
+  "topicLabel": "SASE Enterprise Deployment",
+  "industrySlugs": [
+    "financial-services",
+    "technology"
+  ],
+  "publishedAt": "2026-04-05",
+  "wordCount": 5200,
+  "preview": "I retired from the CISO role at the end of 2025. The previous three years had been dominated by the SASE transition — what the vendors called Secure Access Service Edge, and what we internally called 'the network re-architecture project that ate our budget for three years.'\n\nThe original 2023 pitch from the major SASE vendors was attractive: consolidate your firewall, VPN, secure web gateway, CASB and zero-trust network access into a single platform. Move security to the edge, follow the user rather than the network perimeter. Reduce vendor count from seven to two. Cut total cost. Improve user experience.\n\nThe reality of executing this at a top-15 bank was much harder than the pitch suggested. Three challenges dominated. First, vendor maturity gaps. The major SASE vendors all had strong components and weak components. Vendor A's CASB was excellent; their ZTNA was immature. Vendor B's ZTNA was excellent; their secure web gateway was a rebranded acquisition that hadn't been integrated yet. We ended up running two SASE vendors in parallel, which defeated the consolidation pitch entirely.\n\nSecond, the migration economics were brutal. The contractual savings from consolidating vendors were real — call it 25% reduction on the security network stack. But the migration cost — re-tooling our network engineering team, six months of dual-running with the legacy tools, internal change management for 80,000 users — wiped out the first three years of savings. By the end of the deployment, our finance team was openly questioning whether the ROI thesis was ever going to work out.\n\nThird, regulatory friction. Banks operate under specific data-residency and audit-trail requirements that some SASE architectures struggle with. We had to negotiate vendor-specific exceptions and dedicated tenants in ways that consumer-facing companies don't have to think about. The vendors hadn't built their platforms with financial-services compliance as a first-class concern; we paid the price in implementation friction.\n\nMy honest read: SASE is the right long-term architecture, but the vendor and tooling maturity is still 12-24 months behind where the analyst category sizing suggests. Mid-market companies adopting SASE today will have a smoother experience than we did. Large enterprises with complex regulatory exposure should plan for a longer, harder transition than the vendors will admit.",
+  "gatedTeaser": "Full transcript includes specific vendor evaluation criteria the bank used, named comparisons of major SASE vendors' strengths and weaknesses, and the regulatory exception negotiation playbook the team used.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "ex-vp-sales-enterprise-saas-edr-consolidation",
+    "former-managing-director-investment-bank-fintech-coverage"
+  ],
+  "primaryKW": "SASE enterprise deployment expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}

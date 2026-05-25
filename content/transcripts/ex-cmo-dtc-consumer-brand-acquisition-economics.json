@@ -1,0 +1,26 @@
+{
+  "slug": "ex-cmo-dtc-consumer-brand-acquisition-economics",
+  "id": "07",
+  "title": "Ex-CMO, DTC Consumer Brand — Acquisition Economics After iOS Reset",
+  "description": "Recently-departed CMO of a major DTC consumer brand discusses the post-iOS-14 acquisition-cost reality and what stabilised in 2024-2025.",
+  "expertRole": "Recently-departed CMO of a major US-headquartered DTC consumer brand in personal care",
+  "companyContext": "Major US DTC personal care brand",
+  "companySlug": "major-dtc-personal-care-brand",
+  "topicSlug": "dtc-acquisition-economics",
+  "topicLabel": "DTC Customer Acquisition Economics",
+  "industrySlugs": [
+    "consumer-and-retail"
+  ],
+  "publishedAt": "2026-02-28",
+  "wordCount": 4600,
+  "preview": "I left in mid-2025 after running marketing through what was the hardest stretch of my 18-year career in consumer brand work. The acquisition-economics reset that started with iOS 14 in 2021 effectively continued through 2024, and what stabilised is materially different from the pre-2021 paid-acquisition environment.\n\nPre-2021, the DTC brand playbook was relatively predictable: 50-70% of marketing spend went to Facebook and Instagram, customer acquisition cost ran €25-50 for most consumer-product categories, lifetime-value to CAC ratios sat comfortably at 3-5x for healthy brands, and the entire model scaled.\n\niOS 14's privacy changes broke this. The signal quality from Facebook degraded; attribution became materially less reliable; effective CAC at consistent quality nearly doubled for most brands I knew. The category response through 2022-2023 was chaotic: aggressive testing of TikTok, Snap, Reddit; experiments with affiliate channels; pulling back from paid-acquisition entirely in some cases.\n\nWhat stabilised by mid-2024 was a multi-channel reality. No single channel had recovered to pre-2021 economics, but the aggregate diversified mix could produce sustainable acquisition at higher but predictable CAC levels. The brands that survived this transition had three things in common: a willingness to operate at 30-50% lower brand margins; a real commitment to retention rather than acquisition; and the analytical sophistication to attribute multi-touch journeys honestly across degraded signal.\n\nTikTok Shop emerged through 2024 as the genuine new acquisition channel, though with material structural concerns about platform dependence and creator economics. The brands winning on TikTok Shop in 2025 had built dedicated creator-partnership operations that the prior paid-media playbook didn't require.\n\nLooking ahead to 2026, I see continued pressure on the pure-DTC acquisition model. The healthy brands have already pivoted toward omnichannel — retail wholesale, marketplace, retail partnerships — and treat their owned DTC channel as one of several rather than the dominant channel. Brands still operating as pure-DTC are facing structural headwinds that pure marketing optimisation can't fix.",
+  "gatedTeaser": "Full transcript includes specific CAC and LTV benchmarks across categories, named platform-economics comparisons, and the operator's view on which DTC sub-categories will see consolidation through 2027.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "ex-product-vp-saas-vertical-consolidation",
+    "former-md-medical-device-cardiovascular"
+  ],
+  "primaryKW": "DTC acquisition economics expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}

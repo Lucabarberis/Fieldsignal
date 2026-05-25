@@ -1,0 +1,26 @@
+{
+  "slug": "former-md-medical-device-cardiovascular",
+  "id": "06",
+  "title": "Former MD, Cardiology — Surgical Robotics Adoption Reality",
+  "description": "Recently-retired interventional cardiologist discusses the practical adoption dynamics of robotic cardiac procedures through 2025 and into 2026.",
+  "expertRole": "Recently-retired interventional cardiologist at a major US academic medical centre",
+  "companyContext": "Major US academic medical centre",
+  "companySlug": "major-us-academic-medical-centre",
+  "topicSlug": "surgical-robotics-adoption",
+  "topicLabel": "Surgical Robotics Adoption",
+  "industrySlugs": [
+    "healthcare-and-life-sciences"
+  ],
+  "publishedAt": "2026-03-07",
+  "wordCount": 4900,
+  "preview": "I retired from clinical practice at the end of 2025 after 28 years in interventional cardiology. The robotic cardiac procedure adoption story is more nuanced than the device-vendor marketing suggests.\n\nThe pitch from the robotics vendors over the last decade has been compelling: better precision, reduced operator fatigue, improved outcomes on selected procedures, expanded reach into geographic markets where senior interventionalists are scarce. Each of these claims has some empirical support.\n\nThe practical reality of adoption at a major academic centre is more complicated. First, the capital cost is significant — €1.5-2.5M per system, plus ongoing maintenance contracts at €100-200k annually. The system has to be used at high enough volume to amortise these costs across procedures, which means the centre has to commit to volume that may exceed actual clinical demand for robotic-specific procedures.\n\nSecond, the procedure-time penalty for robotic procedures is real and persistent. Even experienced operators who have done 200+ robotic cases take longer per case than they would in conventional approach. The time penalty narrows over time but doesn't disappear. For high-volume centres operating at capacity, this is a non-trivial operational cost.\n\nThird, the procedure selection has been narrower than the vendors initially projected. Robotic systems work well for specific procedure types and add little for others. By 2025, the consensus across the centres I knew well was that maybe 15-25% of interventional cardiology procedures are good candidates for robotic approach; the rest are better served conventionally.\n\nThe vendor response to these realities has been instructive. One major vendor has materially repositioned their commercial pitch — from 'robotic-as-default' to 'robotic-for-specific-indications.' That repositioning has reduced their projected installed base but improved the unit economics of their installed customer base, because each centre that buys is buying for genuine clinical need rather than aspirational future use.\n\nAdoption curve from here: I expect continued steady growth, particularly in the specific indications where robotic genuinely outperforms. But the hockey-stick adoption thesis that drove valuations in 2021-2022 was always optimistic and has corrected.",
+  "gatedTeaser": "Full transcript includes specific procedure-type breakdowns, named vendor comparisons on system reliability and clinical outcomes, and the operator's view on which procedure categories will see the most adoption growth through 2027.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "ex-commercial-director-pharma-biologic-launch",
+    "former-ciso-fortune-500-bank-sase-deployment"
+  ],
+  "primaryKW": "surgical robotics adoption expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}

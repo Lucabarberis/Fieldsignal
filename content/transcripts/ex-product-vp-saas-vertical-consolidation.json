@@ -1,0 +1,27 @@
+{
+  "slug": "ex-product-vp-saas-vertical-consolidation",
+  "id": "03",
+  "title": "Ex-Product VP, Vertical SaaS — Category Consolidation Through 2026",
+  "description": "Former VP Product at a leading vertical SaaS company discusses the consolidation dynamics reshaping vertical-SaaS market structure.",
+  "expertRole": "Former VP Product at a leading vertical SaaS company in the construction-tech category",
+  "companyContext": "Major construction-tech SaaS",
+  "companySlug": "major-construction-saas",
+  "topicSlug": "vertical-saas-consolidation",
+  "topicLabel": "Vertical SaaS Consolidation",
+  "industrySlugs": [
+    "technology",
+    "industrials-and-manufacturing"
+  ],
+  "publishedAt": "2026-03-28",
+  "wordCount": 4400,
+  "preview": "I left the company in late 2025 after building out the product organisation from 15 to 80 engineers. The vertical SaaS story over the last three years has been consolidation, but the dynamics are misunderstood.\n\nThe analyst narrative is that vertical SaaS is consolidating because end customers want fewer vendors. That's true but incomplete. The deeper driver is that the original vertical SaaS thesis — 'build the system of record for industry X' — turned out to have a ceiling that founders didn't expect.\n\nIn our category, construction tech, the addressable market for the core ERP-like system of record turned out to be smaller than the pitch decks suggested. Maybe 8,000-12,000 buyers globally with budgets that could sustain a full-featured platform. Once you took 30-40% share of that, your category leadership was uncontested but your growth thesis was exhausted. The path forward had to be adjacency — selling additional categories of software to your installed base.\n\nThe adjacency play turned out to be hard. Building a credible bid-management product alongside your project-management product required different engineering DNA, different domain expertise, different sales motion. Most of the vertical-SaaS category leaders found that organic adjacency expansion ran into execution friction that the founders had underestimated.\n\nThe practical result has been M&A. Category leaders acquired adjacent point solutions rather than building. By 2025, the construction-tech category had consolidated to three platforms each carrying 5-8 acquired products under one brand. The customer experience of these consolidated suites is variable — some integration work is excellent, some is window-dressing — but the procurement narrative ('one vendor, one contract') wins regardless of integration quality.\n\nThe interesting question for the next 24 months: will the consolidated platforms maintain their pricing power as private-equity-driven roll-ups continue, or will end-customer fatigue with platform-vendor pricing trigger a swing back toward best-of-breed? My read is that customers under €50M revenue will accept platform consolidation; customers over €500M will demand best-of-breed flexibility. The mid-market is the genuine swing.",
+  "gatedTeaser": "Full transcript includes specific category-leader naming, acquisition price-to-revenue multiples observed, and the operator's view on which two construction-tech platforms will dominate by 2028.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "ex-vp-sales-enterprise-saas-edr-consolidation",
+    "former-managing-director-investment-bank-fintech-coverage"
+  ],
+  "primaryKW": "vertical SaaS consolidation expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}

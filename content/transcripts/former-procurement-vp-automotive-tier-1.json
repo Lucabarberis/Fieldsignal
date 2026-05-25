@@ -1,0 +1,26 @@
+{
+  "slug": "former-procurement-vp-automotive-tier-1",
+  "id": "08",
+  "title": "Former Procurement VP, Automotive Tier 1 — EV Battery Supplier Economics",
+  "description": "Recently-departed VP Procurement at a major automotive Tier 1 discusses EV battery supplier dynamics and the procurement-side view through 2026.",
+  "expertRole": "Recently-departed VP Procurement at a major European automotive Tier 1 supplier",
+  "companyContext": "Major European automotive Tier 1",
+  "companySlug": "european-automotive-tier-1",
+  "topicSlug": "ev-battery-economics",
+  "topicLabel": "EV Battery Supplier Economics",
+  "industrySlugs": [
+    "industrials-and-manufacturing"
+  ],
+  "publishedAt": "2026-02-21",
+  "wordCount": 5300,
+  "preview": "I left the role at the end of 2025 after seven years running battery and powertrain procurement. The EV battery supplier landscape has been the most chaotic procurement environment I've operated in.\n\nThe 2021-2023 period was defined by capacity scarcity. The major battery cell vendors — the Korean and Chinese players, with the European entrants behind — couldn't supply demand. OEMs and Tier 1s were locking in long-term supply contracts at premium prices, pre-paying for capacity expansion, and accepting allocation rather than negotiating it.\n\nBy 2024 the dynamics had flipped. Battery capacity additions, particularly in China, outran demand growth. Cell pricing fell 25-40% depending on chemistry and form factor. The long-term contracts signed during scarcity now looked materially overpriced relative to spot.\n\nFor procurement, the 2024-2025 reset has been an opportunity but also a strategic complexity. The OEMs whose battery contracts came up for renewal could capture material cost reduction. Those locked in for another 2-3 years on legacy contracts faced internal pressure to renegotiate that the suppliers were reluctant to accommodate.\n\nThe supplier landscape itself has fragmented. The Korean cell makers — LG, Samsung, SK — are competing with each other harder than ever for the European and US OEM mandates. The Chinese players — CATL leading — have built dominant share in China and are pushing aggressively into European production through joint ventures. The European entrants — Northvolt's troubles being the headline — have struggled to scale to commercial viability.\n\nLooking ahead, I see three structural questions playing out through 2026-2028. First, will the European OEMs accept material Chinese-cell content in their EV programs, or will protectionist policy enforce decoupling? My procurement view: pragmatic acceptance dominates over policy ideology, particularly for cost-pressured volume programs. Second, do the European entrants achieve commercial-scale production this decade or do they remain demonstration projects? The Northvolt outcome will be decisive for category sentiment. Third, does solid-state battery technology emerge commercially in the next 5-7 years or does it remain laboratory-scale? Procurement views on this are highly variable; the realistic case is that early-mover programs ship limited volume by 2028-2029.",
+  "gatedTeaser": "Full transcript includes specific cell-pricing benchmarks across chemistries, named supplier-relationship dynamics across major OEM programs, and the operator's view on which battery suppliers will dominate by 2028.",
+  "gatedContent": "",
+  "relatedSlugs": [
+    "ex-product-vp-saas-vertical-consolidation",
+    "former-managing-director-investment-bank-fintech-coverage"
+  ],
+  "primaryKW": "EV battery supplier economics expert interview",
+  "status": "published",
+  "complianceConfirmed": true
+}
