@@ -5,7 +5,8 @@ import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
-import { getAllPostSlugs, getPostMeta } from "@/lib/posts";
+import { getAllPostSlugs, getPostMeta, getPost } from "@/lib/posts";
+import { MDXRemote } from "next-mdx-remote-client/rsc";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -29,11 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
-  const post = await getPostMeta(slug);
+  const post = await getPost(slug);
   if (!post) notFound();
-
-  // Dynamic import of the MDX file. Next.js statically resolves these at build.
-  const { default: PostBody } = await import(`@/content/blog/${slug}.mdx`);
 
   const publishedDate = new Date(post.publishedAt).toLocaleDateString("en-GB", {
     year: "numeric",
@@ -61,20 +59,20 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       <PageHeader
-        current={post.title}
+        current="Article"
         title={post.title}
         lede={post.description}
         meta={[
           { label: "Published", value: publishedDate },
           { label: "Author", value: post.author },
-          ...(post.primaryKeyword
-            ? [{ label: "Primary KW", value: post.primaryKeyword }]
+          ...(post.tags && post.tags.length > 0
+            ? [{ label: "Tags", value: post.tags.join(", ") }]
             : []),
         ]}
       />
 
-      <article className="px-9 py-12 max-w-4xl">
-        <PostBody />
+      <article className="prose px-9 py-12 max-w-4xl prose-headings:font-sans prose-headings:tracking-[-0.018em] prose-headings:text-ink prose-p:text-ink-2 prose-p:leading-[1.65] prose-a:text-ink prose-a:underline prose-a:decoration-rule-2 hover:prose-a:text-red hover:prose-a:decoration-red prose-strong:text-ink prose-blockquote:border-red prose-blockquote:text-ink-2 prose-code:text-ink prose-code:bg-paper-2 prose-code:before:content-none prose-code:after:content-none prose-code:px-1 prose-code:py-0.5">
+        <MDXRemote source={post.body} />
       </article>
 
       <CtaBand

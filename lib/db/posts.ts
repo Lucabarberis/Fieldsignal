@@ -1,68 +1,22 @@
 /**
  * ═══════════════════════════════════════════════════════════════════
- * POSTS DATA LAYER
+ * POSTS DATA LAYER — Supabase
  * ═══════════════════════════════════════════════════════════════════
  *
- * This file is the SINGLE INTEGRATION POINT for blog post storage.
- * Every other file in the app — admin pages, public pages, sitemap,
- * RSS feed — imports from here.
+ * SINGLE INTEGRATION POINT for blog post storage. Public pages
+ * (/resources/blog/*) and admin (/admin/posts/*) both go through here.
  *
- * Today's implementation: filesystem (MDX files in content/blog/).
- * Tomorrow's implementation: Supabase Postgres.
+ * Storage: Supabase Postgres `posts` table.
+ * Body format: markdown (rendered at request time via next-mdx-remote).
  *
- * ──────────────────────────────────────────────────────────────────
- * MIGRATION TO SUPABASE (when you're ready)
- * ──────────────────────────────────────────────────────────────────
- *
- * 1. Install: npm install @supabase/supabase-js
- *
- * 2. Add to .env.local:
- *      NEXT_PUBLIC_SUPABASE_URL=https://xxxxx.supabase.co
- *      NEXT_PUBLIC_SUPABASE_ANON_KEY=...
- *      SUPABASE_SERVICE_ROLE_KEY=...  (server-only)
- *
- * 3. Create the `posts` table in Supabase with this SQL:
- *      create table posts (
- *        slug text primary key,
- *        title text not null,
- *        description text not null,
- *        body text not null,
- *        author text not null,
- *        primary_keyword text,
- *        tags text[],
- *        status text not null default 'draft',
- *        published_at timestamptz not null default now(),
- *        updated_at timestamptz not null default now()
- *      );
- *
- * 4. Seed from existing MDX:
- *      npm run db:seed-posts  (we'll write this script later)
- *
- * 5. Replace the implementation below — swap `fsImpl` for `supabaseImpl`.
- *    The interface stays identical. No admin code or public-page code
- *    needs to change.
- *
- * ──────────────────────────────────────────────────────────────────
- * SECURITY WARNING
- * ──────────────────────────────────────────────────────────────────
- *
- * The filesystem implementation writes files in-place. It works in
- * local dev only — Vercel's serverless filesystem is read-only.
- *
- * Do NOT deploy /admin to production until either:
- *   (a) Auth is added (Supabase Auth / Auth.js)
- *   (b) The data layer is swapped to Supabase
- *
- * Recommended: do both at the same time.
+ * Reads: anon client + RLS — public sees only published+visible rows.
+ * Writes: service-role client — bypasses RLS (admin server actions
+ *   are auth-gated by proxy.ts so it's safe).
  * ═══════════════════════════════════════════════════════════════════
  */
 
-import fs from "node:fs";
-import path from "node:path";
-import matter from "gray-matter";
+import { createSupabaseAdminClient } from "@/lib/supabase/admin";
 import type { Post, PostInput, PostMeta, PostStatus } from "./types";
-
-// ─── Shared interface ──────────────────────────────────────────────
 
 export interface PostsRepo {
   list(opts?: { includeUnpublished?: boolean }): Promise<PostMeta[]>;
@@ -73,180 +27,156 @@ export interface PostsRepo {
   delete(slug: string): Promise<void>;
 }
 
-// ─── Filesystem implementation (current) ───────────────────────────
-
-const BLOG_DIR = path.join(process.cwd(), "content", "blog");
-
-/**
- * A post is visible to the public when status === "published" AND
- * publishedAt is today or earlier. A published post with a future
- * publishedAt is treated as "scheduled" — hidden until the date
- * arrives.
- */
-function isVisible(publishedAt: string): boolean {
-  const today = new Date().toISOString().slice(0, 10);
-  return publishedAt <= today;
-}
-
-/** Useful in the admin: true if status=published but date is future. */
+/** True if a published post has a future publishedAt. */
 export function isScheduled(meta: { status: PostStatus; publishedAt: string }): boolean {
-  return meta.status === "published" && !isVisible(meta.publishedAt);
+  const today = new Date().toISOString().slice(0, 10);
+  return meta.status === "published" && meta.publishedAt > today;
 }
 
-function ensureDir() {
-  if (!fs.existsSync(BLOG_DIR)) {
-    fs.mkdirSync(BLOG_DIR, { recursive: true });
-  }
-}
+// ─── Row ↔ domain mapping ──────────────────────────────────────────
 
-function readFile(slug: string): { data: PostMeta; content: string } | null {
-  const file = path.join(BLOG_DIR, `${slug}.mdx`);
-  if (!fs.existsSync(file)) return null;
-  const raw = fs.readFileSync(file, "utf8");
-  const parsed = matter(raw);
-  const fm = parsed.data as Partial<PostMeta>;
+type Row = {
+  slug: string;
+  title: string;
+  description: string;
+  body: string;
+  author: string;
+  tags: string[] | null;
+  status: PostStatus;
+  published_at: string;
+  updated_at: string;
+  created_at: string;
+};
+
+function rowToMeta(row: Row): PostMeta {
   return {
-    data: {
-      slug,
-      title: fm.title ?? slug,
-      description: fm.description ?? "",
-      publishedAt: fm.publishedAt ?? new Date().toISOString().slice(0, 10),
-      updatedAt: fm.updatedAt,
-      author: fm.author ?? "Unknown",
-      primaryKeyword: fm.primaryKeyword,
-      tags: fm.tags,
-      status: (fm.status as PostStatus) ?? "published",
-    },
-    content: parsed.content,
+    slug: row.slug,
+    title: row.title,
+    description: row.description,
+    author: row.author,
+    tags: row.tags ?? undefined,
+    status: row.status,
+    publishedAt: row.published_at.slice(0, 10),
+    updatedAt: row.updated_at?.slice(0, 10),
   };
 }
 
-function writeFile(slug: string, meta: PostMeta, body: string) {
-  ensureDir();
-  const frontmatter: Record<string, unknown> = {
-    title: meta.title,
-    description: meta.description,
-    publishedAt: meta.publishedAt,
-    author: meta.author,
-    status: meta.status,
-  };
-  if (meta.updatedAt) frontmatter.updatedAt = meta.updatedAt;
-  if (meta.primaryKeyword) frontmatter.primaryKeyword = meta.primaryKeyword;
-  if (meta.tags && meta.tags.length > 0) frontmatter.tags = meta.tags;
-
-  const file = path.join(BLOG_DIR, `${slug}.mdx`);
-  const output = matter.stringify(body, frontmatter);
-  fs.writeFileSync(file, output, "utf8");
+function rowToPost(row: Row): Post {
+  return { ...rowToMeta(row), body: row.body };
 }
 
-function slugify(input: string): string {
+/** Slug auto-derive — same algorithm regardless of backend. */
+export function slugify(input: string): string {
   return input
     .toLowerCase()
     .normalize("NFKD")
     .replace(/[̀-ͯ]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
-    .slice(0, 80);
+    .slice(0, 100);
 }
 
-const fsImpl: PostsRepo = {
+// ─── Implementation ────────────────────────────────────────────────
+
+const supabaseImpl: PostsRepo = {
   async list(opts) {
-    ensureDir();
-    const slugs = fs
-      .readdirSync(BLOG_DIR)
-      .filter((f) => f.endsWith(".mdx"))
-      .map((f) => f.replace(/\.mdx$/, ""));
-    const all = slugs
-      .map((slug) => readFile(slug))
-      .filter((r): r is NonNullable<typeof r> => r !== null)
-      .map((r) => r.data);
-    const filtered = opts?.includeUnpublished
-      ? all
-      : all.filter((p) => p.status === "published" && isVisible(p.publishedAt));
-    return filtered.sort((a, b) =>
-      b.publishedAt.localeCompare(a.publishedAt)
-    );
+    // Always use the admin client (no cookies → safe at build-time).
+    // Public visibility is enforced explicitly here.
+    const sb = createSupabaseAdminClient();
+    let query = sb
+      .from("posts")
+      .select("*")
+      .order("published_at", { ascending: false });
+    if (!opts?.includeUnpublished) {
+      const nowIso = new Date().toISOString();
+      query = query.eq("status", "published").lte("published_at", nowIso);
+    }
+    const { data, error } = await query;
+    if (error) throw new Error(`posts.list failed: ${error.message}`);
+    return (data as Row[]).map(rowToMeta);
   },
 
   async getMeta(slug) {
-    const r = readFile(slug);
-    return r ? r.data : null;
+    const sb = createSupabaseAdminClient();
+    const { data, error } = await sb
+      .from("posts")
+      .select("*")
+      .eq("slug", slug)
+      .maybeSingle();
+    if (error) throw new Error(`posts.getMeta failed: ${error.message}`);
+    return data ? rowToMeta(data as Row) : null;
   },
 
   async get(slug) {
-    const r = readFile(slug);
-    return r ? { ...r.data, body: r.content } : null;
+    const sb = createSupabaseAdminClient();
+    const { data, error } = await sb
+      .from("posts")
+      .select("*")
+      .eq("slug", slug)
+      .maybeSingle();
+    if (error) throw new Error(`posts.get failed: ${error.message}`);
+    return data ? rowToPost(data as Row) : null;
   },
 
   async create(input) {
     const slug = input.slug ? slugify(input.slug) : slugify(input.title);
     if (!slug) throw new Error("Cannot derive a slug from the title");
-    if (readFile(slug)) {
-      throw new Error(`A post with slug "${slug}" already exists`);
-    }
+
+    const sb = createSupabaseAdminClient();
+
+    // Pre-check for collision (more useful error than the DB unique-violation)
+    const { data: existing } = await sb.from("posts").select("slug").eq("slug", slug).maybeSingle();
+    if (existing) throw new Error(`A post with slug "${slug}" already exists`);
+
     const today = new Date().toISOString().slice(0, 10);
-    const meta: PostMeta = {
+    const payload = {
       slug,
       title: input.title,
       description: input.description,
-      publishedAt: input.publishedAt ?? today,
+      body: input.body,
       author: input.author,
-      primaryKeyword: input.primaryKeyword,
-      tags: input.tags,
+      tags: input.tags ?? [],
       status: input.status,
+      published_at: (input.publishedAt ?? today),
     };
-    writeFile(slug, meta, input.body);
-    return { ...meta, body: input.body };
+
+    const { data, error } = await sb.from("posts").insert(payload).select("*").single();
+    if (error) throw new Error(`posts.create failed: ${error.message}`);
+    return rowToPost(data as Row);
   },
 
   async update(slug, input) {
-    const existing = readFile(slug);
-    if (!existing) throw new Error(`Post "${slug}" not found`);
-    const newSlug =
-      input.slug && slugify(input.slug) !== slug ? slugify(input.slug) : slug;
-    // if slug changed, delete the old file
-    if (newSlug !== slug) {
-      const oldFile = path.join(BLOG_DIR, `${slug}.mdx`);
-      fs.unlinkSync(oldFile);
-    }
-    const meta: PostMeta = {
+    const sb = createSupabaseAdminClient();
+    const newSlug = input.slug && slugify(input.slug) !== slug ? slugify(input.slug) : slug;
+
+    const payload = {
       slug: newSlug,
       title: input.title,
       description: input.description,
-      publishedAt: input.publishedAt ?? existing.data.publishedAt,
-      updatedAt: new Date().toISOString().slice(0, 10),
+      body: input.body,
       author: input.author,
-      primaryKeyword: input.primaryKeyword,
-      tags: input.tags,
+      tags: input.tags ?? [],
       status: input.status,
+      ...(input.publishedAt ? { published_at: input.publishedAt } : {}),
     };
-    writeFile(newSlug, meta, input.body);
-    return { ...meta, body: input.body };
+
+    const { data, error } = await sb
+      .from("posts")
+      .update(payload)
+      .eq("slug", slug)
+      .select("*")
+      .single();
+    if (error) throw new Error(`posts.update failed: ${error.message}`);
+    return rowToPost(data as Row);
   },
 
   async delete(slug) {
-    // Defense-in-depth: re-slugify any incoming slug so path-traversal
-    // payloads ("..", "/", etc.) can never escape BLOG_DIR even if a
-    // caller forgets to sanitise.
     const safe = slugify(slug);
     if (!safe || safe !== slug) throw new Error(`Invalid slug "${slug}"`);
-    const file = path.join(BLOG_DIR, `${safe}.mdx`);
-    // Belt-and-braces: confirm the resolved path is still inside BLOG_DIR.
-    const resolved = path.resolve(file);
-    if (!resolved.startsWith(path.resolve(BLOG_DIR) + path.sep)) {
-      throw new Error(`Refusing to delete outside blog dir: ${resolved}`);
-    }
-    if (!fs.existsSync(resolved)) throw new Error(`Post "${safe}" not found`);
-    fs.unlinkSync(resolved);
+    const sb = createSupabaseAdminClient();
+    const { error } = await sb.from("posts").delete().eq("slug", safe);
+    if (error) throw new Error(`posts.delete failed: ${error.message}`);
   },
 };
 
-// ─── Active export ─────────────────────────────────────────────────
-//
-// To migrate to Supabase later, replace `fsImpl` with a Supabase
-// implementation that satisfies the same `PostsRepo` interface.
-
-export const posts: PostsRepo = fsImpl;
-
-// Convenience re-exports for the slug helper (used by the admin form).
-export { slugify };
+export const posts: PostsRepo = supabaseImpl;

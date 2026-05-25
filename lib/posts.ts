@@ -9,9 +9,9 @@
  */
 
 import { posts, isScheduled } from "@/lib/db/posts";
-import type { PostMeta } from "@/lib/db/types";
+import type { Post, PostMeta } from "@/lib/db/types";
 
-export type { PostMeta } from "@/lib/db/types";
+export type { Post, PostMeta } from "@/lib/db/types";
 
 /**
  * Slugs of all PUBLICLY VISIBLE posts. Used by generateStaticParams.
@@ -38,4 +38,13 @@ export async function getPostMeta(slug: string): Promise<PostMeta | null> {
 /** All publicly visible posts, newest first. */
 export async function getAllPosts(): Promise<PostMeta[]> {
   return posts.list();
+}
+
+/** Full post (meta + body) for a publicly visible post. */
+export async function getPost(slug: string): Promise<Post | null> {
+  const post = await posts.get(slug);
+  if (!post) return null;
+  if (post.status !== "published") return null;
+  if (isScheduled(post)) return null;
+  return post;
 }

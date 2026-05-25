@@ -23,7 +23,6 @@ function readForm(fd: FormData): PostInput {
   const description = String(fd.get("description") ?? "").trim();
   const slugInput = String(fd.get("slug") ?? "").trim();
   const author = String(fd.get("author") ?? "").trim();
-  const primaryKeyword = String(fd.get("primaryKeyword") ?? "").trim();
   const tagsRaw = String(fd.get("tags") ?? "").trim();
   const body = String(fd.get("body") ?? "");
   const publishedAt = String(fd.get("publishedAt") ?? "").trim();
@@ -48,7 +47,6 @@ function readForm(fd: FormData): PostInput {
     body,
     slug: slugInput || undefined,
     publishedAt: publishedAt || undefined,
-    primaryKeyword: primaryKeyword || undefined,
     tags,
     status,
   };

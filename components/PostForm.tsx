@@ -142,18 +142,6 @@ export function PostForm({ mode, initial, saved, action }: Props) {
           )}
 
           <Field
-            label="Primary keyword"
-            hint="Optional. The keyword this post targets for SEO."
-          >
-            <input
-              type="text"
-              name="primaryKeyword"
-              defaultValue={initial?.primaryKeyword ?? ""}
-              className="w-full bg-paper-3 border border-rule px-4 py-3 font-sans text-[15px] text-ink focus:outline-none focus:border-ink"
-            />
-          </Field>
-
-          <Field
             label="Tags"
             hint="Optional. Comma-separated."
           >
