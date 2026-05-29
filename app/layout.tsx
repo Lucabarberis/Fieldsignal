@@ -1,10 +1,23 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Masthead } from "@/components/Masthead";
 import { Footer } from "@/components/Footer";
 import { OrganizationSchema } from "@/components/SchemaOrg";
 import { SITE } from "@/lib/site";
+
+/**
+ * Analytics gate — only fire GA on the live production deploy, not on
+ * Vercel preview URLs or local dev. This keeps test traffic out of the
+ * analytics data.
+ *
+ *   VERCEL_ENV is set by Vercel automatically:
+ *     "production" → fieldsignalhq.com
+ *     "preview"    → preview-deploy-*.vercel.app
+ *     "development"→ local dev (also: undefined if not on Vercel)
+ */
+const ENABLE_ANALYTICS = process.env.VERCEL_ENV === "production";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -79,6 +92,24 @@ export default function RootLayout({
         <Masthead />
         <main className="flex-1">{children}</main>
         <Footer />
+
+        {/* Google Analytics 4 — production only */}
+        {ENABLE_ANALYTICS && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${SITE.gaId}');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

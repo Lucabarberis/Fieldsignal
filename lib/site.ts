@@ -15,6 +15,8 @@ export const SITE = {
   contactEmail: "miles@fieldsignalhq.com",
   hours: "Mon–Fri, 08:00–20:00 GMT",
   copyrightYear: 2026,
+  /** Google Analytics 4 measurement ID. Fires only on production Vercel deploys. */
+  gaId: "G-YC008HJRD5",
 } as const;
 
 export const NAV_LINKS = [
