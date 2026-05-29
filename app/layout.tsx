@@ -5,6 +5,7 @@ import "./globals.css";
 import { Masthead } from "@/components/Masthead";
 import { Footer } from "@/components/Footer";
 import { OrganizationSchema } from "@/components/SchemaOrg";
+import { Providers } from "./providers";
 import { SITE } from "@/lib/site";
 
 /**
@@ -88,12 +89,16 @@ export default function RootLayout({
       className={`${inter.variable} ${jetBrainsMono.variable}`}
     >
       <body className="min-h-screen flex flex-col bg-paper text-ink antialiased">
-        <OrganizationSchema />
-        <Masthead />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <Providers>
+          <OrganizationSchema />
+          <Masthead />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Providers>
 
-        {/* Google Analytics 4 — production only */}
+        {/* Google Analytics 4 — production only. PostHog runs in all
+            environments (gated by NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN
+            being set). */}
         {ENABLE_ANALYTICS && (
           <>
             <Script

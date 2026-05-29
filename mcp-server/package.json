@@ -1,0 +1,21 @@
+{
+  "name": "fieldsignal-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local MCP server giving Claude direct read/write access to FieldSignal's Supabase posts, transcripts, and storage.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "fieldsignal-mcp": "index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@supabase/supabase-js": "^2.106.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
