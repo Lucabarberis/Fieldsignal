@@ -62,7 +62,6 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
         meta={[
           { label: "Industry", value: ind.name },
           { label: "Transcripts", value: `${list.length}` },
-          { label: "Format", value: "Preview + gated" },
           { label: "Subscription", value: "€99/mo" },
         ]}
       />

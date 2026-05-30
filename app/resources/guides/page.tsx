@@ -36,8 +36,6 @@ export default function GuidesHubPage() {
         }
         meta={[
           { label: "Guides", value: `${guides.length}` },
-          { label: "Format", value: "Long-form, web-native" },
-          { label: "Last refreshed", value: "Q1 2026" },
           { label: "Gated downloads", value: "None" },
         ]}
       />

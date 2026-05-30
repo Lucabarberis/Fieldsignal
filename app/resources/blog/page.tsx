@@ -37,11 +37,6 @@ export default async function BlogIndexPage() {
         current="Blog"
         title="The FieldSignal Blog"
         lede="Weekly writing on primary research methods, expert network industry shifts and sector intelligence."
-        meta={[
-          { label: "Cadence", value: "Weekly" },
-          { label: "Length", value: "800–1,500 words" },
-          { label: "Format", value: "MDX · Markdown" },
-        ]}
       />
 
       <SectionBand

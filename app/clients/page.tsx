@@ -34,7 +34,7 @@ export default function ClientsHubPage() {
           </>
         }
         meta={[
-          { label: "Active segments", value: `${clients.length} (Wave 1)` },
+          { label: "Active segments", value: `${clients.length}` },
           { label: "Smallest cheque", value: "€500" },
           { label: "Largest engagement", value: "Annual programmes" },
         ]}

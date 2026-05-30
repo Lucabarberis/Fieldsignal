@@ -62,7 +62,6 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
         meta={[
           { label: "Topic", value: label },
           { label: "Transcripts", value: `${list.length}` },
-          { label: "Format", value: "Preview + gated" },
           { label: "Subscription", value: "€99/mo" },
         ]}
       />

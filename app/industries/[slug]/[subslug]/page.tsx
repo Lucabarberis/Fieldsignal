@@ -66,7 +66,6 @@ export default async function SubnichePage({ params }: Props) {
           { label: "Parent sector", value: parent.name },
           { label: "Expert types", value: `${sub.expertTypes.length}+` },
           { label: "Coverage", value: "Global" },
-          { label: "Primary keyword", value: sub.primaryKW },
         ]}
       />
 

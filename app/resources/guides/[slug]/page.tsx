@@ -62,7 +62,6 @@ export default async function GuidePage({ params }: Props) {
           { label: "Read time", value: g.readTime },
           { label: "Last updated", value: g.lastUpdated },
           { label: "Topic", value: g.primaryKW },
-          { label: "Format", value: "Long-form" },
         ]}
       />
 

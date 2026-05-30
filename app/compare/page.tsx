@@ -37,8 +37,6 @@ export default function CompareHubPage() {
         meta={[
           { label: "Comparisons", value: `${compares.length}` },
           { label: "Last refreshed", value: "Q1 2026" },
-          { label: "Affiliate spin", value: "None" },
-          { label: "Format", value: "Side-by-side" },
         ]}
       />
 

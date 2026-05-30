@@ -58,7 +58,6 @@ export default async function ExpertSubPage({ params }: Props) {
           { label: "For", value: "Experts" },
           { label: "Application", value: "5 minutes" },
           { label: "Payment", value: "5 business days" },
-          { label: "Primary keyword", value: page.primaryKW },
         ]}
       />
 

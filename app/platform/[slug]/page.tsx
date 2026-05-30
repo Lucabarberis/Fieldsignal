@@ -54,7 +54,6 @@ export default async function PlatformSubPage({ params }: Props) {
           { label: "Module", value: p.name },
           { label: "Status", value: "Shipping + roadmap" },
           { label: "Last updated", value: "Q1 2026" },
-          { label: "Primary keyword", value: p.primaryKW },
         ]}
       />
 

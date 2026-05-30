@@ -78,9 +78,6 @@ export default async function BlogPostPage({ params }: Props) {
         meta={[
           { label: "Published", value: publishedDate },
           { label: "Author", value: post.author },
-          ...(post.tags && post.tags.length > 0
-            ? [{ label: "Tags", value: post.tags.join(", ") }]
-            : []),
         ]}
       />
 

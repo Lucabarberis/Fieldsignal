@@ -67,7 +67,6 @@ export default async function GlossaryTermPage({ params }: Props) {
           { label: "Term", value: t.term },
           { label: "Section", value: "Glossary" },
           { label: "Last refreshed", value: "Q1 2026" },
-          { label: "Primary keyword", value: t.primaryKW },
         ]}
       />
 

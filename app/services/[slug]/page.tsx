@@ -70,7 +70,6 @@ export default async function ServiceDetailPage({ params }: Props) {
         meta={[
           { label: "Turnaround", value: service.turnaround ?? "Custom" },
           { label: "Pricing", value: priceLabel },
-          { label: "Format", value: service.name.toLowerCase().split(" ").map(w => w[0]?.toUpperCase() + w.slice(1)).join(" ") },
         ]}
       />
 

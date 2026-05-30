@@ -39,7 +39,6 @@ export default function GlossaryHubPage() {
         }
         meta={[
           { label: "Terms defined", value: `${glossary.length}` },
-          { label: "Format", value: "Definition + examples + FAQ" },
           { label: "Last refreshed", value: "Q1 2026" },
           { label: "Coverage", value: "Compliance · research · methodology" },
         ]}
