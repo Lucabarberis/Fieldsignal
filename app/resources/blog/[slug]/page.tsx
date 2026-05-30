@@ -16,6 +16,19 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
+/**
+ * Allow on-demand rendering of slugs not known at build time.
+ * Without this, a post created via the MCP after the last Vercel build
+ * would 404 until the next rebuild.
+ */
+export const dynamicParams = true;
+
+/**
+ * Re-fetch from Supabase every 60s. Lets edits to a post appear within
+ * a minute without requiring a redeploy.
+ */
+export const revalidate = 60;
+
 /** Per-post metadata. */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;

@@ -14,6 +14,12 @@ export const metadata = pageMetadata({
   path: "/resources/blog",
 });
 
+/**
+ * Re-fetch the post list from Supabase every 60s. New posts created via
+ * the MCP appear here within a minute, without needing a redeploy.
+ */
+export const revalidate = 60;
+
 export default async function BlogIndexPage() {
   const posts = await getAllPosts();
 
