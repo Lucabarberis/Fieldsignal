@@ -57,11 +57,15 @@ export const metadata: Metadata = {
     description: SITE.description,
     url: SITE.url,
     locale: "en_GB",
+    images: [
+      { url: "/og", width: 1200, height: 630, alt: `${SITE.name} — ${SITE.tagline}` },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
+    images: ["/og"],
   },
   robots: {
     index: true,

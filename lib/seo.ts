@@ -30,6 +30,12 @@ export function pageMetadata({
   noindex = false,
 }: Args): Metadata {
   const url = `${SITE.url}${path}`;
+  const ogImage = {
+    url: "/og",
+    width: 1200,
+    height: 630,
+    alt: `${SITE.name} — ${SITE.tagline}`,
+  };
   return {
     title,
     description,
@@ -40,11 +46,13 @@ export function pageMetadata({
       title: `${title} | ${SITE.name}`,
       description,
       siteName: SITE.name,
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${SITE.name}`,
       description,
+      images: ["/og"],
     },
     robots: noindex
       ? { index: false, follow: false }
