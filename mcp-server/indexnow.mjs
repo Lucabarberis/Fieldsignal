@@ -42,7 +42,13 @@ export async function pingIndexNow(urls) {
   try {
     const res = await fetch(API_ENDPOINT, {
       method: "POST",
-      headers: { "Content-Type": "application/json; charset=utf-8" },
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+        // Bing rejects requests with Node's default User-Agent with HTTP 403.
+        // Setting an explicit one makes the request behave like a real client.
+        "User-Agent": "FieldSignal-IndexNow/1.0 (+https://fieldsignalhq.com)",
+        "Accept": "*/*",
+      },
       body: JSON.stringify({
         host: HOST,
         key: INDEXNOW_KEY,
