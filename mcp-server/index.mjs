@@ -28,6 +28,7 @@ import {
   ListToolsRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
 import { createClient } from "@supabase/supabase-js";
+import { pingBlogPost } from "./indexnow.mjs";
 
 // ─── Supabase client ────────────────────────────────────────────────
 
@@ -446,6 +447,16 @@ const handlers = {
       .select("*")
       .single();
     if (error) throw new Error(`create_post failed: ${error.message}`);
+
+    // Notify IndexNow (Bing/Yandex) — fire-and-forget, never blocks the response.
+    // Only ping when the post is actually live (status=published, publishedAt <= today).
+    const isLive =
+      data.status === "published" &&
+      (data.published_at ?? "").slice(0, 10) <= todayISO();
+    if (isLive) {
+      pingBlogPost(data.slug).catch(() => {});
+    }
+
     return ok(rowToPost(data));
   },
 
@@ -474,6 +485,15 @@ const handlers = {
       .single();
     if (error) throw new Error(`update_post failed: ${error.message}`);
     if (!data) throw new Error(`No post with slug "${slug}"`);
+
+    // Notify IndexNow for any live post update so Bing re-crawls.
+    const isLive =
+      data.status === "published" &&
+      (data.published_at ?? "").slice(0, 10) <= todayISO();
+    if (isLive) {
+      pingBlogPost(data.slug).catch(() => {});
+    }
+
     return ok(rowToPost(data));
   },
 
