@@ -89,6 +89,19 @@ export default function RootLayout({
       className={`${inter.variable} ${jetBrainsMono.variable}`}
     >
       <body className="min-h-screen flex flex-col bg-paper text-ink antialiased">
+        {/* GTM noscript fallback — for the ~3% of visitors who block JS.
+            Google recommends placing it immediately after the opening <body>. */}
+        {ENABLE_ANALYTICS && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${SITE.gtmId}`}
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            />
+          </noscript>
+        )}
+
         <Providers>
           <OrganizationSchema />
           <Masthead />
@@ -101,6 +114,19 @@ export default function RootLayout({
             being set). */}
         {ENABLE_ANALYTICS && (
           <>
+            {/* Google Tag Manager — container GTM-56NGKGK4. Empty container
+                today; add tags (Facebook Pixel, TikTok, etc.) in the GTM UI
+                without redeploying. */}
+            <Script id="gtm" strategy="afterInteractive">
+              {`
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','${SITE.gtmId}');
+              `}
+            </Script>
+
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`}
               strategy="afterInteractive"

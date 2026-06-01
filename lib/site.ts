@@ -17,6 +17,8 @@ export const SITE = {
   copyrightYear: 2026,
   /** Google Analytics 4 measurement ID. Fires only on production Vercel deploys. */
   gaId: "G-YC008HJRD5",
+  /** Google Tag Manager container ID. Fires only on production Vercel deploys. */
+  gtmId: "GTM-56NGKGK4",
 } as const;
 
 export const NAV_LINKS = [
