@@ -7,6 +7,9 @@ import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import { getAllPostSlugs, getPostMeta, getPost } from "@/lib/posts";
 import { MDXRemote } from "next-mdx-remote-client/rsc";
+import remarkGfm from "remark-gfm";
+
+const mdxOptions = { mdxOptions: { remarkPlugins: [remarkGfm] } };
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -82,7 +85,7 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       <article className="prose px-9 py-12 max-w-4xl prose-headings:font-sans prose-headings:tracking-[-0.018em] prose-headings:text-ink prose-p:text-ink-2 prose-p:leading-[1.65] prose-a:text-ink prose-a:underline prose-a:decoration-rule-2 hover:prose-a:text-red hover:prose-a:decoration-red prose-strong:text-ink prose-blockquote:border-red prose-blockquote:text-ink-2 prose-code:text-ink prose-code:bg-paper-2 prose-code:before:content-none prose-code:after:content-none prose-code:px-1 prose-code:py-0.5">
-        <MDXRemote source={post.body} />
+        <MDXRemote source={post.body} options={mdxOptions} />
       </article>
 
       <CtaBand
