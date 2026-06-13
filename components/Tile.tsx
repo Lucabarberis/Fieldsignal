@@ -25,7 +25,7 @@ type Props = {
 
 export function Tile({ id, name, meta, cta, href, updated, children }: Props) {
   return (
-    <article className="bg-paper px-7 pt-6 pb-4 flex flex-col">
+    <article className="bg-paper px-5 pt-5 pb-4 sm:px-7 sm:pt-6 flex flex-col">
       <header>
         <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">
           {id}

@@ -40,7 +40,7 @@ export default function ContactHubPage() {
       />
 
       <SectionBand num="01" label="How To Reach Us" meta="3 paths in" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile
             id="01.1"
@@ -73,7 +73,7 @@ export default function ContactHubPage() {
       </div>
 
       <SectionBand num="02" label="Other Enquiries" meta="Routed direct to specialists" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile
             id="02.1"

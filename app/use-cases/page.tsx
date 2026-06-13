@@ -46,7 +46,7 @@ export default function UseCasesHubPage() {
         label="All Use Cases"
         meta={`${useCases.length} disciplines`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {useCases.map((u) => (
             <Tile

@@ -69,7 +69,7 @@ export default async function ExpertSubPage({ params }: Props) {
             label={s.heading}
             meta={i === 0 ? "Read this first" : "—"}
           />
-          <div className="px-9 py-8 max-w-4xl">
+          <div className="px-4 sm:px-9 py-8 max-w-4xl">
             <p className="font-sans text-[17px] leading-[1.55] text-ink-2">
               {s.body}
             </p>
@@ -85,7 +85,7 @@ export default async function ExpertSubPage({ params }: Props) {
             label="Requirements"
             meta={`${page.checklist.length} items`}
           />
-          <div className="px-9 py-8 max-w-4xl">
+          <div className="px-4 sm:px-9 py-8 max-w-4xl">
             <Checklist items={[...page.checklist]} />
           </div>
         </>
@@ -101,7 +101,7 @@ export default async function ExpertSubPage({ params }: Props) {
             label="Frequently Asked"
             meta={`${page.faq.length} questions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <article className="bg-paper px-7 pt-6 pb-5">
               <dl className="flex flex-col">
                 {page.faq.map((f, i) => (
@@ -138,7 +138,7 @@ export default async function ExpertSubPage({ params }: Props) {
             label="Other Pages For Experts"
             meta={`${siblings.length} more`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {siblings.map((s) => (
                 <Tile

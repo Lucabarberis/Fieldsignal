@@ -46,7 +46,7 @@ export default function PlatformHubPage() {
         label="Platform Modules"
         meta={`${platformPages.length} components`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {platformPages.map((p) => (
             <Tile

@@ -72,7 +72,7 @@ export default async function GlossaryTermPage({ params }: Props) {
 
       {/* ── 01 — Explanation paragraphs ───────────────────────────── */}
       <SectionBand num="01" label="In Depth" meta="3–5 paragraphs" />
-      <div className="px-9 py-8 max-w-4xl space-y-5">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-5">
         {t.explanation.map((p, i) => (
           <p key={i} className="font-sans text-[16px] leading-[1.65] text-ink-2">
             {p}
@@ -86,7 +86,7 @@ export default async function GlossaryTermPage({ params }: Props) {
         label="Examples"
         meta={`${t.examples.length} concrete cases`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...t.examples]} />
       </div>
 
@@ -96,7 +96,7 @@ export default async function GlossaryTermPage({ params }: Props) {
         label="Frequently Asked"
         meta={`${t.faq.length} questions`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <dl className="flex flex-col">
             {t.faq.map((f, i) => (
@@ -125,7 +125,7 @@ export default async function GlossaryTermPage({ params }: Props) {
       {(linkedService || linkedUseCase) && (
         <>
           <SectionBand num="04" label="See Also" meta="Where this applies" />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={2}>
               {linkedService && (
                 <Tile
@@ -162,7 +162,7 @@ export default async function GlossaryTermPage({ params }: Props) {
             label="Related Terms"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile
@@ -186,7 +186,7 @@ export default async function GlossaryTermPage({ params }: Props) {
       )}
 
       {/* ── Back-to-glossary link ──────────────────────────────── */}
-      <div className="px-9 py-6">
+      <div className="px-4 sm:px-9 py-6">
         <Link
           href="/resources/glossary"
           className="font-mono text-mono uppercase tracking-[0.12em] text-ink-2 hover:text-red transition-colors"

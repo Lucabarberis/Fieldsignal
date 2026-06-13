@@ -71,7 +71,7 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
         label={`${ind.name} Transcripts`}
         meta={`${list.length} available`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         {list.length === 0 ? (
           <p className="text-body text-ink-3">
             No transcripts in this category yet. Check back next week.

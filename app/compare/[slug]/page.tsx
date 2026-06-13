@@ -65,7 +65,7 @@ export default async function ComparePage({ params }: Props) {
 
       {/* ── 01 — Verdict (one-line) ───────────────────────────────── */}
       <SectionBand num="01" label="Verdict" meta="One sentence" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="font-sans text-[20px] leading-[1.45] text-ink">
           {cmp.verdict}
         </p>
@@ -77,7 +77,7 @@ export default async function ComparePage({ params }: Props) {
         label="Feature Comparison"
         meta={`${cmp.featureMatrix.length} rows`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <div className="grid grid-cols-[1fr_1fr_1fr] gap-x-6 pb-3 border-b border-rule">
             <div className="font-mono text-mono text-ink-3 uppercase tracking-[0.08em]">
@@ -111,7 +111,7 @@ export default async function ComparePage({ params }: Props) {
         label="Pricing Comparison"
         meta={`${cmp.pricingMatrix.length} rows`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <div className="grid grid-cols-[1fr_1fr_1fr] gap-x-6 pb-3 border-b border-rule">
             <div className="font-mono text-mono text-ink-3 uppercase tracking-[0.08em]">
@@ -145,7 +145,7 @@ export default async function ComparePage({ params }: Props) {
         label={`Choose ${competitor.name} If`}
         meta="When they win"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...cmp.chooseCompetitorIf]} />
       </div>
 
@@ -155,7 +155,7 @@ export default async function ComparePage({ params }: Props) {
         label="Choose FieldSignal If"
         meta="When we win"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...cmp.chooseFieldsignalIf]} />
       </div>
 
@@ -165,7 +165,7 @@ export default async function ComparePage({ params }: Props) {
         label="Switching Guide"
         meta={`${cmp.switchingSteps.length} steps`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <ol className="flex flex-col">
             {cmp.switchingSteps.map((step, i) => (
@@ -191,7 +191,7 @@ export default async function ComparePage({ params }: Props) {
         label="Frequently Asked"
         meta={`${cmp.faq.length} questions`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <dl className="flex flex-col">
             {cmp.faq.map((f, i) => (
@@ -220,7 +220,7 @@ export default async function ComparePage({ params }: Props) {
         label="Other Comparisons"
         meta={`${siblings.length} more`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {siblings.map((s) => {
             const sc = getCompetitor(s.competitorSlug);

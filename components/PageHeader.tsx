@@ -17,7 +17,7 @@ type Props = {
 
 export function PageHeader({ current, title, lede, meta }: Props) {
   return (
-    <section className="px-9 pt-16 pb-12 border-b border-rule">
+    <section className="px-4 sm:px-9 pt-10 pb-8 sm:pt-16 sm:pb-12 border-b border-rule">
       <nav
         aria-label="Breadcrumb"
         className="font-mono text-mono uppercase tracking-[0.08em] text-ink-3 mb-6 flex gap-2 flex-wrap"

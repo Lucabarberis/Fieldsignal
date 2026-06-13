@@ -87,7 +87,7 @@ export default async function TranscriptPage({ params }: Props) {
         label="Free Preview"
         meta={`${previewWords} words · free to read`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5 max-w-4xl">
           <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-3 uppercase">
             {t.expertRole}
@@ -111,8 +111,8 @@ export default async function TranscriptPage({ params }: Props) {
         label="Full Transcript"
         meta={`${gatedWords.toLocaleString()} more words · subscription required`}
       />
-      <div className="p-9">
-        <article className="bg-ink text-paper px-9 py-10 max-w-4xl">
+      <div className="p-4 sm:p-9">
+        <article className="bg-ink text-paper px-4 sm:px-9 py-10 max-w-4xl">
           <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-3 uppercase tracking-[0.08em]">
             02.1 — What&apos;s in the full transcript
           </div>
@@ -139,7 +139,7 @@ export default async function TranscriptPage({ params }: Props) {
         label="Compliance & Anonymity"
         meta="How this transcript was produced"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-body text-ink-2">
           This transcript is fully anonymised — expert identity is replaced with a
           role-based descriptor; client identity is removed. Content has been reviewed
@@ -164,7 +164,7 @@ export default async function TranscriptPage({ params }: Props) {
             label="Related Transcripts"
             meta={`${related.length} similar`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile

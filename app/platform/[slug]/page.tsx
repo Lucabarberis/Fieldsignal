@@ -63,7 +63,7 @@ export default async function PlatformSubPage({ params }: Props) {
         label="Shipping Today"
         meta={`${p.shipping.length} live capabilities`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...p.shipping]} />
       </div>
 
@@ -73,7 +73,7 @@ export default async function PlatformSubPage({ params }: Props) {
         label="On The Roadmap"
         meta={`${p.roadmap.length} planned`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-[13px] text-ink-3 mb-4">
           Honest disclosure: not yet shipping. Tracked publicly so buyers know what to expect.
         </p>
@@ -86,7 +86,7 @@ export default async function PlatformSubPage({ params }: Props) {
         label="Frequently Asked"
         meta={`${p.faq.length} questions`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <dl className="flex flex-col">
             {p.faq.map((f, i) => (
@@ -119,7 +119,7 @@ export default async function PlatformSubPage({ params }: Props) {
             label="Other Platform Modules"
             meta={`${siblings.length} more`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {siblings.map((s) => (
                 <Tile

@@ -45,7 +45,7 @@ export default function CompareHubPage() {
         label="Head-To-Head Reviews"
         meta={`${compares.length} comparisons`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {compares.map((c) => {
             const competitor = getCompetitor(c.competitorSlug);

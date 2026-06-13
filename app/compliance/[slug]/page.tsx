@@ -61,7 +61,7 @@ export default async function ComplianceSubPage({ params }: Props) {
             label={section.heading}
             meta={section.meta}
           />
-          <div className="px-9 py-8 max-w-4xl">
+          <div className="px-4 sm:px-9 py-8 max-w-4xl">
             {section.paragraphs?.map((p, j) => (
               <p key={j} className="text-body text-ink-2 mb-4">
                 {p}
@@ -83,7 +83,7 @@ export default async function ComplianceSubPage({ params }: Props) {
             label="Related Compliance Pages"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={2}>
               {related.map((r) => (
                 <Tile

@@ -7,7 +7,7 @@ export default async function DraftTranscriptsPage() {
   const { drafts, counts } = await loadAdminTranscripts();
 
   return (
-    <div className="px-9 py-12">
+    <div className="px-4 sm:px-9 py-12">
       <div className="flex items-end justify-between mb-8 flex-wrap gap-4">
         <div>
           <h1 className="font-sans font-medium text-section leading-[1] tracking-[-0.022em] text-ink">

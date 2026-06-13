@@ -84,7 +84,7 @@ export default async function AlternativePage({ params }: Props) {
             label={`What ${competitor.name} Does Well`}
             meta="The honest praise"
           />
-          <div className="px-9 py-8 max-w-4xl">
+          <div className="px-4 sm:px-9 py-8 max-w-4xl">
             <Checklist items={[...competitor.bestAt]} />
             <p className="text-body text-ink-3 mt-6 text-[13px]">
               Best fit: {competitor.bestFitBuyer}
@@ -101,7 +101,7 @@ export default async function AlternativePage({ params }: Props) {
             label={competitor ? `When ${competitor.name} Is The Right Answer` : "When An Incumbent Network Is Right"}
             meta="Be honest with yourself"
           />
-          <div className="px-9 py-8 max-w-4xl">
+          <div className="px-4 sm:px-9 py-8 max-w-4xl">
             <Checklist items={[...alt.whenIncumbentIsRight]} />
           </div>
         </>
@@ -113,7 +113,7 @@ export default async function AlternativePage({ params }: Props) {
         label="When FieldSignal Is The Right Answer"
         meta="Our genuine fit"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...alt.whenFieldSignalIsRight]} />
       </div>
 
@@ -123,7 +123,7 @@ export default async function AlternativePage({ params }: Props) {
         label="Self-Qualification"
         meta="Save us both time"
       />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         {alt.selfQualify.map((p, i) => (
           <p key={i} className="text-body text-ink-2">
             {p}
@@ -135,7 +135,7 @@ export default async function AlternativePage({ params }: Props) {
       {competitor && (
         <>
           <SectionBand num="05" label="Side-By-Side Facts" meta="What's public" />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={2}>
               <article className="bg-paper px-7 pt-6 pb-5">
                 <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">05.1</div>
@@ -174,7 +174,7 @@ export default async function AlternativePage({ params }: Props) {
       {categoryComparisons.length > 0 && (
         <>
           <SectionBand num="03" label="Reference Comparison" meta="3 leading networks" />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {categoryComparisons.map((c) => (
                 <article key={c.slug} className="bg-paper px-7 pt-6 pb-5">
@@ -202,7 +202,7 @@ export default async function AlternativePage({ params }: Props) {
         label="Frequently Asked"
         meta={`${alt.faq.length} questions`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <dl className="flex flex-col">
             {alt.faq.map((f, i) => (
@@ -231,7 +231,7 @@ export default async function AlternativePage({ params }: Props) {
         label="Other Alternatives Reviews"
         meta={`${siblings.length} more`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {siblings.map((s) => (
             <Tile

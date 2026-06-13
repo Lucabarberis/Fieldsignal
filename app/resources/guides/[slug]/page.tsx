@@ -67,7 +67,7 @@ export default async function GuidePage({ params }: Props) {
 
       {/* ── TL;DR ─────────────────────────────────────────────────── */}
       <SectionBand num="00" label="TL;DR" meta="Skip-friendly summary" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="font-sans text-[18px] leading-[1.55] text-ink border-l-4 border-red pl-6">
           {g.tldr}
         </p>
@@ -81,7 +81,7 @@ export default async function GuidePage({ params }: Props) {
             label={s.heading}
             meta="—"
           />
-          <div className="px-9 py-8 max-w-4xl">
+          <div className="px-4 sm:px-9 py-8 max-w-4xl">
             <p className="font-sans text-[16px] leading-[1.65] text-ink-2">
               {s.body}
             </p>
@@ -97,7 +97,7 @@ export default async function GuidePage({ params }: Props) {
             label="Related Guides"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile

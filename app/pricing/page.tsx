@@ -43,7 +43,7 @@ export default function PricingPage() {
       />
 
       <SectionBand num="01" label="Per-Call Pricing" meta="Single expert consultations" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="01.1" name="STANDARD CALL" meta={<><b>€500</b> · per call</>}>
             <p>60-minute call with a mid-seniority expert in your industry. 3–5 day turnaround. Transcript within 24 hours.</p>
@@ -58,7 +58,7 @@ export default function PricingPage() {
       </div>
 
       <SectionBand num="02" label="Project Packages" meta="Multi-call engagements" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="02.1" name="STARTER PACK" meta={<>From <b>€4,000</b> · 5 calls</>}>
             <p>5 expert calls within a single thesis. ~20% off per-call rate. Typical for thesis validation and quick channel checks.</p>
@@ -73,7 +73,7 @@ export default function PricingPage() {
       </div>
 
       <SectionBand num="03" label="Subscriptions" meta="Ongoing programmes" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="03.1" name="TRANSCRIPT LIBRARY" meta={<><b>€99</b> · per month</>}>
             <p>Search and download from 5,000+ anonymised expert transcripts. Free 300–500 word previews on every record. Cancel anytime.</p>
@@ -88,7 +88,7 @@ export default function PricingPage() {
       </div>
 
       <SectionBand num="04" label="What's Not Included" meta="The traps we don't set" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[
           "No mandatory annual retainer",
           "No fund-level or seat-level minimum spend",
@@ -99,7 +99,7 @@ export default function PricingPage() {
       </div>
 
       <SectionBand num="05" label="How To Engage" meta="3 paths in" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="05.1" name="REQUEST A SINGLE CALL"
                 cta="Request call"

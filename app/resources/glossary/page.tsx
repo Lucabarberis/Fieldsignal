@@ -49,7 +49,7 @@ export default function GlossaryHubPage() {
         label="All Terms (A–Z)"
         meta={`${glossary.length} entries`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {sorted.map((t, i) => (
             <Tile

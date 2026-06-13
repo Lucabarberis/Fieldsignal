@@ -50,7 +50,7 @@ export default async function ResourcesHubPage() {
         meta={`${resources.length} resource types`}
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {resources.map((r) => (
             <Tile
@@ -81,7 +81,7 @@ export default async function ResourcesHubPage() {
             label="Latest From The Blog"
             meta={`${recentPosts.length} recent post${recentPosts.length === 1 ? "" : "s"}`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {recentPosts.map((post, i) => (
                 <Tile

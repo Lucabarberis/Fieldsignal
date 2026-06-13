@@ -7,7 +7,7 @@ import { FOOTER_LINKS, SITE } from "@/lib/site";
 export function Footer() {
   return (
     <>
-      <footer className="bg-ink text-paper px-9 py-12 flex flex-wrap gap-6 justify-between items-start border-t-2 border-red">
+      <footer className="bg-ink text-paper px-4 sm:px-9 py-10 sm:py-12 flex flex-wrap gap-6 justify-between items-start border-t-2 border-red">
         <div className="flex flex-col gap-2">
           <span className="font-sans font-black text-brand uppercase tracking-[0.02em] text-[22px] leading-none">
             {SITE.name.toUpperCase()}
@@ -30,7 +30,7 @@ export function Footer() {
         </div>
       </footer>
 
-      <div className="bg-ink text-paper/40 px-9 py-4 flex flex-wrap justify-between gap-3 font-mono text-micro uppercase border-t border-paper/10">
+      <div className="bg-ink text-paper/40 px-4 sm:px-9 py-4 flex flex-wrap justify-between gap-3 font-mono text-micro uppercase border-t border-paper/10">
         <span>
           © {SITE.copyrightYear} {SITE.legalEntity}. All rights reserved.
         </span>

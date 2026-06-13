@@ -45,7 +45,7 @@ export default async function BlogIndexPage() {
         meta={`${posts.length} post${posts.length === 1 ? "" : "s"}`}
       />
 
-      <div className="px-9 py-8">
+      <div className="px-4 sm:px-9 py-8">
         {posts.length === 0 ? (
           <p className="text-body text-ink-3">No posts yet.</p>
         ) : (

@@ -47,7 +47,7 @@ export default function ServicesHubPage() {
         meta={`${services.length} engagement formats`}
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {services.map((s) => (
             <Tile
@@ -71,7 +71,7 @@ export default function ServicesHubPage() {
         meta="3-step intake"
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="02.1" name="SHARE THE BRIEF">
             <p>Email the team with sector, role, geography and decision timeline. We respond within one business day, usually faster.</p>

@@ -15,7 +15,7 @@ type Props = {
 
 export function CtaBand({ title, meta, ctaLabel, ctaHref }: Props) {
   return (
-    <section className="bg-ink text-paper border-t-2 border-red px-9 py-20">
+    <section className="bg-ink text-paper border-t-2 border-red px-4 py-14 sm:px-9 sm:py-20">
       <div className="max-w-5xl">
         <h2 className="font-sans font-medium text-[clamp(36px,5vw,52px)] leading-[1] tracking-[-0.028em]">
           {title}

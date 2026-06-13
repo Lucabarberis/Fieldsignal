@@ -46,7 +46,7 @@ export default function ClientsHubPage() {
         meta={`${clients.length} priority segments`}
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {clients.map((c) => (
             <Tile
@@ -70,7 +70,7 @@ export default function ClientsHubPage() {
         meta="Across all segments"
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="02.1" name="SAME COMPLIANCE">
             <p>Every client — from a seed-stage founder to a multi-billion fund — gets the same compliance framework. 6-month cooling-off, MNPI controls, 7-year audit trail.</p>

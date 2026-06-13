@@ -71,7 +71,7 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
         label={`${label} Transcripts`}
         meta={`${list.length} available`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {list.map((t) => (
             <Tile

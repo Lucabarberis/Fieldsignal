@@ -63,7 +63,7 @@ export default async function ClientDetailPage({ params }: Props) {
         label="Common Needs"
         meta={`${c.needs.length} buyer patterns`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...c.needs]} />
       </div>
 
@@ -72,7 +72,7 @@ export default async function ClientDetailPage({ params }: Props) {
         label="What We Provide"
         meta="Services tuned to this segment"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...c.whatWeProvide]} />
       </div>
 
@@ -81,7 +81,7 @@ export default async function ClientDetailPage({ params }: Props) {
         label="Typical Engagements"
         meta="Anonymised examples"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           {c.typicalEngagements.map((eng, i) => (
             <article key={eng} className="bg-paper px-7 pt-6 pb-5">
@@ -101,7 +101,7 @@ export default async function ClientDetailPage({ params }: Props) {
             label="Related Client Segments"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile

@@ -41,7 +41,7 @@ export default function TeamPage() {
       />
 
       <SectionBand num="01" label="Leadership" meta="Founders and senior leads" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="01.1" name="MILES — FOUNDER">
             <p>Former operator across FAANG-scale technology and growth-stage startups. Built FieldSignal after a decade of using — and being frustrated by — institutional expert networks priced for hedge funds, not founders.</p>
@@ -56,7 +56,7 @@ export default function TeamPage() {
       </div>
 
       <SectionBand num="02" label="Research Team" meta="30 across multiple regions" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="02.1" name="EUROPE (12)">
             <p>London, Paris, Frankfurt, Madrid. Former operators across SaaS, healthcare, financial services and consumer. Native EN, FR, DE, ES.</p>
@@ -71,7 +71,7 @@ export default function TeamPage() {
       </div>
 
       <SectionBand num="03" label="Backgrounds" meta="Where the team came from" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="03.1" name="OPERATORS">
             <p>Former engineering, product, sales and ops leaders from FAANG-scale technology, growth-stage SaaS, mid-market industrials, regional healthcare systems.</p>
@@ -86,7 +86,7 @@ export default function TeamPage() {
       </div>
 
       <SectionBand num="04" label="How We Work" meta="The senior-lead promise" />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
           Every FieldSignal engagement is led by a senior team member, regardless of cheque size. A €500 single-call enquiry from a seed-stage founder gets the same account lead a £100k programme from a multi-strat hedge fund gets.
         </p>

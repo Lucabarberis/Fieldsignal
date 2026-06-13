@@ -46,7 +46,7 @@ export default function ExpertsHubPage() {
         label="For Experts"
         meta={`${expertPages.length} pages`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {expertPages.map((p) => (
             <Tile

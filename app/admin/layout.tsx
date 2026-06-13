@@ -38,7 +38,7 @@ export default async function AdminLayout({
 
   return (
     <>
-      <div className="bg-paper-2 border-b-2 border-ink px-9 py-3 font-mono text-mono uppercase tracking-[0.12em] flex items-center gap-6 flex-wrap">
+      <div className="bg-paper-2 border-b-2 border-ink px-4 sm:px-9 py-3 font-mono text-mono uppercase tracking-[0.12em] flex items-center gap-6 flex-wrap">
         <Link
           href="/admin"
           className="text-ink font-semibold hover:text-red transition-colors"

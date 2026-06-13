@@ -58,7 +58,7 @@ export default function GetQuotePage() {
       />
 
       <SectionBand num="01" label="What To Include" meta="The 8 things we need" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[
           <><b>Project type</b> — diligence, VoC, panel, win-loss, custom</>,
           <><b>Sectors / sub-sectors</b> — what the project covers</>,
@@ -72,7 +72,7 @@ export default function GetQuotePage() {
       </div>
 
       <SectionBand num="02" label="What You Get Back" meta="The quote format" />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
           A concise quote document covering: scope, methodology mix, deliverables, milestones, total fee with line items, compliance addendum, and named senior account lead. No surprise fees. No retainer triggers.
         </p>

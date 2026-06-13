@@ -20,7 +20,7 @@ type Props = {
 
 export function WideTile({ id, name, steps }: Props) {
   return (
-    <article className="bg-paper px-7 pt-6 pb-4">
+    <article className="bg-paper px-5 pt-5 pb-4 sm:px-7 sm:pt-6">
       <header className="mb-4">
         <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">
           {id}

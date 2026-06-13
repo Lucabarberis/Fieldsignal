@@ -14,10 +14,10 @@ export default async function LoginPage({ searchParams }: Props) {
   const { error, next } = await searchParams;
 
   return (
-    <div className="min-h-[calc(100vh-100px)] flex items-center justify-center px-9 py-12 bg-paper-2">
+    <div className="min-h-[calc(100vh-100px)] flex items-center justify-center px-4 sm:px-9 py-12 bg-paper-2">
       <form
         action={signInAction}
-        className="w-full max-w-md bg-paper border border-rule p-9 space-y-6"
+        className="w-full max-w-md bg-paper border border-rule p-4 sm:p-9 space-y-6"
       >
         <div>
           <h1 className="font-sans font-medium text-section leading-[1] tracking-[-0.022em] text-ink">

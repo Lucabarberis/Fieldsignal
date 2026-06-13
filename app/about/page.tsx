@@ -42,7 +42,7 @@ export default function AboutPage() {
       />
 
       <SectionBand num="01" label="Why We Exist" meta="What we're breaking" />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
           For decades, primary research firms like GLG, AlphaSights, Third Bridge and Guidepoint have served only the very top of the market — hedge funds, large PE firms, Fortune 500 corporates. The model has been the same since the early 2000s: six-figure annual retainers, per-call rates of <span className="text-red">$500–1,500</span>, project minimums in the high tens of thousands.
         </p>
@@ -55,7 +55,7 @@ export default function AboutPage() {
       </div>
 
       <SectionBand num="02" label="What We Do" meta="Same quality, accessible pricing" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="02.1" name="EXPERT CALLS FROM €500">
             <p>Per-call pricing. No annual retainer. No project minimums. The same vetted operators, executives, and specialists you&apos;d reach through GLG or AlphaSights.</p>
@@ -70,7 +70,7 @@ export default function AboutPage() {
       </div>
 
       <SectionBand num="03" label="Who We Are" meta="Operators-turned-researchers" />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
           FieldSignal is built by former operators — researchers, product leaders and analysts who spent their careers inside the industries we now research. We know what a useful expert call sounds like because we have been the expert. We know what a useless expert call sounds like because we have sat through too many of those, too.
         </p>
@@ -102,7 +102,7 @@ export default function AboutPage() {
       </div>
 
       <SectionBand num="05" label="What's Different" meta="The boutique-network thesis" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[
           "Per-call pricing instead of annual retainers",
           "Senior account lead on every engagement, regardless of cheque size",

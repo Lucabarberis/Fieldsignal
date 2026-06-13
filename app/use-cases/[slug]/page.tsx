@@ -61,7 +61,7 @@ export default async function UseCasePage({ params }: Props) {
 
       {/* ── 01 — What it is ───────────────────────────────────────── */}
       <SectionBand num="01" label="What It Is" meta="Discipline definition" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="font-sans text-[17px] leading-[1.5] text-ink">
           {uc.whatItIs}
         </p>
@@ -73,7 +73,7 @@ export default async function UseCasePage({ params }: Props) {
         label="When To Run It"
         meta={`${uc.whenToRun.length} trigger moments`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...uc.whenToRun]} />
       </div>
 
@@ -83,7 +83,7 @@ export default async function UseCasePage({ params }: Props) {
         label="How FieldSignal Delivers"
         meta="Our approach"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...uc.howWeDeliver]} />
       </div>
 
@@ -93,7 +93,7 @@ export default async function UseCasePage({ params }: Props) {
         label="Sample Questions"
         meta={`${uc.sampleQuestions.length} examples`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <dl className="flex flex-col">
             {uc.sampleQuestions.map((q, i) => (
@@ -119,7 +119,7 @@ export default async function UseCasePage({ params }: Props) {
         label="Pricing & Timeline"
         meta="Honest ranges"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           <article className="bg-paper px-7 pt-6 pb-5">
             <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">
@@ -156,7 +156,7 @@ export default async function UseCasePage({ params }: Props) {
             label="Related Disciplines"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile

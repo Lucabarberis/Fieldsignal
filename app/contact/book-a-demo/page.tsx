@@ -56,7 +56,7 @@ export default function BookDemoPage() {
       />
 
       <SectionBand num="01" label="What We Cover" meta="The 4 sections of the demo" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[
           <><b>Search & discovery</b> — natural-language and faceted search across 50,000+ experts</>,
           <><b>Scheduling & call management</b> — brief, schedule, conduct, document</>,
@@ -66,7 +66,7 @@ export default function BookDemoPage() {
       </div>
 
       <SectionBand num="02" label="Who This Is For" meta="Best-fit audience" />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
           The demo is most useful for buyers planning to run <b>recurring primary research</b> at scale — hedge funds, PE firms, corporate strategy teams, consulting firms — where the platform features (search, transcripts, audit trail) deliver compounding value vs. ad-hoc per-call work.
         </p>

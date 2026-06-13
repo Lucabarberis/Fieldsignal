@@ -62,7 +62,7 @@ export default async function TranscriptsHubPage() {
         label="By Industry"
         meta={`${industrySlugs.length} sectors`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {industrySlugs.map((slug, i) => {
             const ind = industries.find((x) => x.slug === slug);
@@ -92,7 +92,7 @@ export default async function TranscriptsHubPage() {
         label="By Topic"
         meta={`${topics.length} topics`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {topics.map((t, i) => {
             const count = sorted.filter((tr) => tr.topicSlug === t.slug).length;
@@ -119,7 +119,7 @@ export default async function TranscriptsHubPage() {
         label="By Company Context"
         meta={`${companies.length} anonymised`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {companies.map((c, i) => {
             const count = sorted.filter((tr) => tr.companySlug === c.slug).length;
@@ -146,7 +146,7 @@ export default async function TranscriptsHubPage() {
         label="Recently Added"
         meta={`${Math.min(6, sorted.length)} latest`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {sorted.slice(0, 6).map((t) => (
             <Tile

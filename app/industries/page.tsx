@@ -51,7 +51,7 @@ export default function IndustriesHubPage() {
         meta={`${industries.length} sectors covered`}
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {industries.map((ind) => (
             <Tile
@@ -78,7 +78,7 @@ export default function IndustriesHubPage() {
         meta="Custom recruitment"
       />
 
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <header className="mb-4">
             <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">02.0</div>

@@ -45,7 +45,7 @@ export default function GuidesHubPage() {
         label="All Guides"
         meta={`${guides.length} long-form pieces`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {guides.map((g) => (
             <Tile

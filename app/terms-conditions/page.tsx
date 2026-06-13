@@ -15,7 +15,7 @@ export const metadata = pageMetadata({
 
 function Prose({ children }: { children: React.ReactNode }) {
   return (
-    <div className="px-9 py-8 max-w-4xl">
+    <div className="px-4 sm:px-9 py-8 max-w-4xl">
       <div className="text-body text-ink-2 space-y-4">{children}</div>
     </div>
   );

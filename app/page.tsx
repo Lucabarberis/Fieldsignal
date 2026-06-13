@@ -48,7 +48,7 @@ export default function HomePage() {
       <FAQSchema items={FAQS.map((f) => ({ question: f.q, answer: f.a }))} />
 
       {/* ── HERO ─────────────────────────────────────────────────── */}
-      <section className="px-9 pt-16 pb-20 border-b border-rule">
+      <section className="px-4 sm:px-9 pt-10 pb-12 sm:pt-16 sm:pb-20 border-b border-rule">
         <div className="font-mono text-mono uppercase tracking-[0.12em] text-ink-3 mb-8">
           Boutique competitive intelligence · Democratized expert networks
         </div>
@@ -74,7 +74,7 @@ export default function HomePage() {
         label="About Us"
         meta="Mission · what we're breaking"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <header className="mb-4">
             <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">01.0</div>
@@ -96,7 +96,7 @@ export default function HomePage() {
         label="Our Services"
         meta="6 engagement formats"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="02.1" name="EXPERT CONSULTATIONS">
             <p>One-hour consultations with carefully vetted industry professionals who have direct experience.</p>
@@ -126,7 +126,7 @@ export default function HomePage() {
         label="Our Methodology"
         meta="Recruitment · Compliance · Quality"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="03.1" name="EXPERT RECRUITMENT">
             <p>We recruit experts through three channels. LinkedIn outreach targets professionals with specific experience. Industry conferences provide direct access to thought leaders. Referrals from existing experts expand coverage in niche domains.</p>
@@ -149,7 +149,7 @@ export default function HomePage() {
         label="Our Business Sectors"
         meta="5 core sectors"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="04.1" name="TECHNOLOGY & SOFTWARE">
             <p>Coverage includes SaaS, enterprise software, cybersecurity, cloud infrastructure, and semiconductors. Strong network of engineers, product managers, sales leaders, and CTOs.</p>
@@ -181,7 +181,7 @@ export default function HomePage() {
         label="Our Process"
         meta="6 steps · scoping to delivery"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <WideTile
           id="05.0"
           name="OUR PROCESS"
@@ -203,7 +203,7 @@ export default function HomePage() {
         label="Our Compliance"
         meta="Framework · Agreements · Protocols · Barriers"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={4}>
           <Tile id="06.1" name="LEGAL FRAMEWORK">
             <p>FieldSignal operates under Hong Kong data protection law (PDPO) and aligns with international standards including GDPR. We maintain professional liability insurance of US$10 million. Terms of service align with ESMA and SFC guidelines. Regular audits ensure adherence.</p>
@@ -227,7 +227,7 @@ export default function HomePage() {
         label="Our Technology"
         meta="Proprietary database · real-time monitoring"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           <Tile id="07.1" name="EXPERT NETWORK MANAGEMENT">
             <p>Our proprietary database maintains profiles of over 50,000 professionals globally. Advanced search capabilities enable rapid identification of relevant expertise. Automated compliance screening ensures all experts meet regulatory requirements.</p>
@@ -245,7 +245,7 @@ export default function HomePage() {
         label="Our Differentiators"
         meta="6 reasons FieldSignal exists"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="08.1" name="DEMOCRATIZED ACCESS">
             <p>Traditional expert networks serve only large institutions with massive budgets. GLG and AlphaSights require six-figure annual commitments and charge $500–1,500 per consultation. We&apos;ve built a model that makes the same quality intelligence accessible to startups, SMEs, and mid-market companies.</p>
@@ -280,12 +280,12 @@ export default function HomePage() {
         label="Our Clients"
         meta="Seed-stage to Fortune 500 · treated equally"
       />
-      <div className="px-9 pt-6">
+      <div className="px-4 sm:px-9 pt-6">
         <p className="text-body text-ink max-w-4xl">
           We serve everyone from seed-stage startups to Fortune 500 companies — and treat them equally. Our democratic approach means a <span className="text-red">Series A founder gets the same quality service as a multi-billion dollar hedge fund</span>:
         </p>
       </div>
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={4}>
           <Tile id="09.1" name="STARTUPS & SCALE-UPS">
             <ul className="space-y-2">
@@ -329,7 +329,7 @@ export default function HomePage() {
         label="Our Team"
         meta="30 professionals · multi-time-zone · operator backgrounds"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="10.1" name="LEADERSHIP">
             <p>Former operators from leading technology companies and high-growth organizations. Combined experience spans product management, business development, and strategic operations at companies ranging from startups to FAANG enterprises.</p>
@@ -350,7 +350,7 @@ export default function HomePage() {
         label="FAQ"
         meta="Frequently asked questions"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-4">
           <header className="mb-6">
             <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">11.0</div>

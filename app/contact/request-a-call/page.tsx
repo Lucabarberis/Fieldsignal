@@ -56,7 +56,7 @@ export default function RequestCallPage() {
       />
 
       <SectionBand num="01" label="What To Include" meta="The 6 things we need" />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[
           <><b>Industry / sector</b> — e.g. enterprise SaaS, US hospital systems, EU specialty chemicals</>,
           <><b>Role / seniority</b> — e.g. CISO at a mid-market bank, ex-VP Sales at a hyperscaler</>,
@@ -68,7 +68,7 @@ export default function RequestCallPage() {
       </div>
 
       <SectionBand num="02" label="What Happens Next" meta="From email to call" />
-      <div className="px-9 py-8 max-w-4xl space-y-4">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
           You email us with the brief above. A senior researcher acknowledges within <b>4 hours</b> during business hours. Within 24–72 hours we send back 10–20 candidate profiles — anonymised role descriptions plus compliance clearance status.
         </p>

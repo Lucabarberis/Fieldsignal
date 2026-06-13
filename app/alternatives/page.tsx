@@ -49,7 +49,7 @@ export default function AlternativesHubPage() {
         label="Compared To Specific Networks"
         meta={`${competitorPages.length} head-to-head reviews`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {competitorPages.map((a) => (
             <Tile
@@ -72,7 +72,7 @@ export default function AlternativesHubPage() {
         label="By Buyer Type"
         meta={`${categoryPages.length} category guides`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {categoryPages.map((a) => (
             <Tile

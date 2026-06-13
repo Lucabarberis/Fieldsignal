@@ -15,7 +15,7 @@ export function SectionBand({ num, label, meta, id }: Props) {
   return (
     <div
       id={id}
-      className="bg-paper-2 px-9 py-3.5 border-y border-rule-2 flex justify-between items-center flex-wrap gap-2 font-mono text-mono uppercase"
+      className="bg-paper-2 px-4 sm:px-9 py-3.5 border-y border-rule-2 flex justify-between items-center flex-wrap gap-2 font-mono text-mono uppercase"
     >
       <span>
         <span className="text-red font-semibold">{num}</span>

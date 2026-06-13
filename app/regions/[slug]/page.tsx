@@ -70,7 +70,7 @@ export default async function RegionPage({ params }: Props) {
         label="Major Markets"
         meta={`${r.majorMarkets.length} hubs`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {r.majorMarkets.map((m, i) => (
             <article key={m} className="bg-paper px-7 pt-6 pb-5">
@@ -91,13 +91,13 @@ export default async function RegionPage({ params }: Props) {
         label="Coverage Strengths"
         meta={`${r.coverageStrengths.length} sectors`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...r.coverageStrengths]} />
       </div>
 
       {/* ── 03 — Languages + time zones ───────────────────────────── */}
       <SectionBand num="03" label="Languages & Coverage" meta="Native interviewing" />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           <article className="bg-paper px-7 pt-6 pb-5">
             <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">
@@ -132,7 +132,7 @@ export default async function RegionPage({ params }: Props) {
         label="Sample Projects"
         meta="Anonymised"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           {r.sampleProjects.map((p, i) => (
             <article key={p} className="bg-paper px-7 pt-6 pb-5">
@@ -151,7 +151,7 @@ export default async function RegionPage({ params }: Props) {
         label="Compliance"
         meta="Region-specific"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-body text-ink-2">{r.complianceNotes}</p>
       </div>
 
@@ -163,7 +163,7 @@ export default async function RegionPage({ params }: Props) {
             label="Other Regions"
             meta={`${siblings.length} more`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {siblings.map((s) => (
                 <Tile

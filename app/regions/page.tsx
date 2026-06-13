@@ -51,7 +51,7 @@ export default function RegionsHubPage() {
         label="Regional Benches"
         meta={`${regions.length} geographies`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {regions.map((r) => (
             <Tile

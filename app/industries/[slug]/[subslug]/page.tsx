@@ -75,7 +75,7 @@ export default async function SubnichePage({ params }: Props) {
         label="Expert Types We Cover"
         meta={`${sub.expertTypes.length} archetypes`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...sub.expertTypes]} />
       </div>
 
@@ -85,7 +85,7 @@ export default async function SubnichePage({ params }: Props) {
         label="Sample Questions"
         meta={`${sub.sampleQuestions.length} examples`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <article className="bg-paper px-7 pt-6 pb-5">
           <dl className="flex flex-col">
             {sub.sampleQuestions.map((q, i) => (
@@ -111,7 +111,7 @@ export default async function SubnichePage({ params }: Props) {
         label="Recent Project Examples"
         meta="Anonymised"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           {sub.recentProjects.map((p, i) => (
             <article key={p} className="bg-paper px-7 pt-6 pb-5">
@@ -130,7 +130,7 @@ export default async function SubnichePage({ params }: Props) {
         label="Compliance & Conflicts"
         meta="Sector-specific"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-body text-ink-2">
           Sector-specific compliance constraints are enforced before any call is
           scheduled — including MNPI rules for{" "}
@@ -173,7 +173,7 @@ export default async function SubnichePage({ params }: Props) {
             label={`Other ${parent.name.split(" ")[0]} Sub-Niches`}
             meta={`${siblings.length} more`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {siblings.map((s) => (
                 <Tile

@@ -78,7 +78,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         label="When To Use"
         meta="Use cases"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...service.whenToUse]} />
       </div>
 
@@ -87,7 +87,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         label="What You Get"
         meta="Deliverables"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...service.whatYouGet]} />
       </div>
 
@@ -96,7 +96,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         label="Sample Expert Profiles"
         meta="Recent placements"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           {service.sampleProfiles.map((profile, i) => (
             <article
@@ -117,7 +117,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         label="Compliance Footnote"
         meta="MNPI · attestations · audit"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-body text-ink-2">
           Every call runs under the same{" "}
           <Link href="/compliance" className="text-ink underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors">
@@ -134,7 +134,7 @@ export default async function ServiceDetailPage({ params }: Props) {
             label="Related Services"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile

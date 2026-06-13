@@ -70,7 +70,7 @@ export default async function IndustryDetailPage({ params }: Props) {
         label="Sub-Niches Covered"
         meta={`${ind.subniches.length} categories`}
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           {ind.subniches.map((sub, i) => {
             // Match the parent's display string to a sub-niche page by name
@@ -124,7 +124,7 @@ export default async function IndustryDetailPage({ params }: Props) {
         label="Expert Types We Cover"
         meta={`${ind.expertTypes.length} archetypes`}
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist items={[...ind.expertTypes]} />
       </div>
 
@@ -133,7 +133,7 @@ export default async function IndustryDetailPage({ params }: Props) {
         label="Recent Project Examples"
         meta="Anonymised"
       />
-      <div className="p-9">
+      <div className="p-4 sm:p-9">
         <TileGrid cols={2}>
           {ind.recentProjects.map((p, i) => (
             <article
@@ -154,7 +154,7 @@ export default async function IndustryDetailPage({ params }: Props) {
         label="Compliance & Conflicts"
         meta="Sector-specific"
       />
-      <div className="px-9 py-8 max-w-4xl">
+      <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-body text-ink-2">
           Sector-specific compliance constraints — such as MNPI rules for{" "}
           <strong>financial services</strong>, KOL restrictions for{" "}
@@ -174,7 +174,7 @@ export default async function IndustryDetailPage({ params }: Props) {
             label="Related Sectors"
             meta={`${related.length} suggestions`}
           />
-          <div className="p-9">
+          <div className="p-4 sm:p-9">
             <TileGrid cols={3}>
               {related.map((r) => (
                 <Tile
