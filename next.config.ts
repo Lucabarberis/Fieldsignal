@@ -34,6 +34,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: "/blog/:slug",
+        destination: "/resources/blog/:slug",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 const withMDX = createMDX({
