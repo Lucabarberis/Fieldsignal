@@ -77,6 +77,46 @@ export async function POST(request: Request) {
     return redirect("/contact?error=send");
   }
 
+  // Personal auto-reply from Miles. Best-effort: a failure here must not
+  // fail the submission. Body is fully static (plus a sanitised first
+  // name) so the form can't be abused to send arbitrary content.
+  try {
+    const firstName =
+      name
+        .split(/\s+/)[0]
+        .replace(/[^\p{L}\p{M}'’-]/gu, "")
+        .slice(0, 30) || "there";
+    const autoReplyFrom =
+      process.env.AUTOREPLY_FROM ?? `Miles at FieldSignal <${SITE.contactEmail}>`;
+
+    await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: autoReplyFrom,
+        to: [email],
+        subject: "Got your message",
+        text: [
+          `Hi ${firstName},`,
+          ``,
+          `Thanks for reaching out — your message just landed in my inbox, and I read every one personally.`,
+          ``,
+          `I'll come back to you shortly, usually within a few hours on business days. If it's urgent, just reply to this email and say so — I'll bump it up.`,
+          ``,
+          `Talking soon,`,
+          ``,
+          `Miles`,
+          `FieldSignal · fieldsignalhq.com`,
+        ].join("\n"),
+      }),
+    });
+  } catch (err) {
+    console.error("[contact] auto-reply failed", err);
+  }
+
   // Lead log — best-effort; a sheet failure must never lose the email.
   const webhook = process.env.SHEETS_WEBHOOK_URL;
   if (webhook) {
