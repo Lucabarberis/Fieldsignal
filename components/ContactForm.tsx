@@ -1,10 +1,9 @@
 import { SITE } from "@/lib/site";
 
 /**
- * Contact form — posts via FormSubmit.co straight to the contact inbox.
- * No backend, no API keys. First-ever submission triggers a one-time
- * activation email to the inbox that must be confirmed before entries
- * flow through.
+ * Contact form — posts to /api/contact, which emails the enquiry via
+ * Resend and (optionally) logs it to a Google Sheet. Plain HTML form,
+ * no client JS required.
  */
 
 const LABEL =
@@ -14,15 +13,7 @@ const FIELD =
 
 export function ContactForm() {
   return (
-    <form
-      action={`https://formsubmit.co/${SITE.contactEmail}`}
-      method="POST"
-      className="max-w-3xl"
-    >
-      <input type="hidden" name="_subject" value="New enquiry — fieldsignalhq.com" />
-      <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value={`${SITE.url}/contact/thank-you`} />
+    <form action="/api/contact" method="POST" className="max-w-3xl">
       {/* honeypot — bots fill it, humans never see it */}
       <input
         type="text"

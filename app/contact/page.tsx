@@ -14,7 +14,12 @@ export const metadata = pageMetadata({
   path: "/contact",
 });
 
-export default function ContactHubPage() {
+export default async function ContactHubPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
+  const { error } = await searchParams;
   return (
     <>
       <BreadcrumbSchema
@@ -41,6 +46,27 @@ export default function ContactHubPage() {
 
       <SectionBand num="01" label="Send a Message" meta="Straight to a senior researcher" />
       <div className="px-4 sm:px-9 py-8">
+        {error && (
+          <div className="max-w-3xl mb-7 border border-red bg-paper-3 px-5 py-4 font-mono text-mono text-ink">
+            <span className="text-red font-semibold uppercase tracking-[0.08em]">
+              {error === "invalid" ? "Check your details" : "Message not sent"}
+            </span>
+            <span className="text-ink-2">
+              {" — "}
+              {error === "invalid"
+                ? "please fill every field and use a valid email address."
+                : (
+                  <>
+                    something went wrong on our side. Email us directly at{" "}
+                    <a href={`mailto:${SITE.contactEmail}`} className="underline hover:text-red">
+                      {SITE.contactEmail}
+                    </a>
+                    .
+                  </>
+                )}
+            </span>
+          </div>
+        )}
         <ContactForm />
       </div>
 
