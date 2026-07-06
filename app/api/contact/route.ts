@@ -80,13 +80,28 @@ export async function POST(request: Request) {
   // Personal auto-reply from Miles. Best-effort: a failure here must not
   // fail the submission. Body is fully static (plus a sanitised first
   // name) so the form can't be abused to send arbitrary content.
-  let autoReplyStatus = "Failed";
+  const firstName =
+    name
+      .split(/\s+/)[0]
+      .replace(/[^\p{L}\p{M}'’-]/gu, "")
+      .slice(0, 30) || "there";
+  const replyText = [
+    `Hi ${firstName},`,
+    ``,
+    `Thanks for getting in touch. Your message is sitting in my inbox and I read every one myself.`,
+    ``,
+    `You'll hear back from me shortly, usually within a few hours on a weekday. If it can't wait, reply to this email and tell me and I'll get to yours first.`,
+    ``,
+    `Talking soon,`,
+    ``,
+    `Miles`,
+    `FieldSignal`,
+    `fieldsignalhq.com`,
+  ].join("\n");
+
+  // Recorded in the sheet: the exact text sent, or a failure marker.
+  let autoReplyRecord = "(auto reply failed to send)";
   try {
-    const firstName =
-      name
-        .split(/\s+/)[0]
-        .replace(/[^\p{L}\p{M}'’-]/gu, "")
-        .slice(0, 30) || "there";
     const autoReplyFrom =
       process.env.AUTOREPLY_FROM ?? `Miles at FieldSignal <${SITE.contactEmail}>`;
 
@@ -100,22 +115,10 @@ export async function POST(request: Request) {
         from: autoReplyFrom,
         to: [email],
         subject: "Got your message",
-        text: [
-          `Hi ${firstName},`,
-          ``,
-          `Thanks for getting in touch. Your message is sitting in my inbox and I read every one myself.`,
-          ``,
-          `You'll hear back from me shortly, usually within a few hours on a weekday. If it can't wait, reply to this email and tell me and I'll get to yours first.`,
-          ``,
-          `Talking soon,`,
-          ``,
-          `Miles`,
-          `FieldSignal`,
-          `fieldsignalhq.com`,
-        ].join("\n"),
+        text: replyText,
       }),
     });
-    if (reply.ok) autoReplyStatus = "Sent";
+    if (reply.ok) autoReplyRecord = replyText;
     else console.error("[contact] auto-reply error", reply.status, await reply.text());
   } catch (err) {
     console.error("[contact] auto-reply failed", err);
@@ -134,7 +137,7 @@ export async function POST(request: Request) {
           company,
           email,
           message,
-          autoReply: autoReplyStatus,
+          autoReply: autoReplyRecord,
         }),
       });
     } catch (err) {
