@@ -28,7 +28,7 @@ export const services: readonly Service[] = [
     name: "EXPERT CONSULTATIONS",
     title: "Expert Consultations - 1:1 Calls with Industry Specialists",
     description:
-      "One-hour calls with vetted operators, executives and specialists across 50,000+ professionals. Scheduled in 3 to 5 business days. From €500.",
+      "One-hour calls with vetted operators, executives and specialists across 50,000+ professionals. Scheduled in 3 to 5 business days.",
     oneLiner:
       "One-hour calls with vetted operators, executives and specialists. Scheduled in 3–5 business days.",
     pageLede:

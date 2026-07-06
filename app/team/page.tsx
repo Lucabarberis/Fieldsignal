@@ -88,7 +88,7 @@ export default function TeamPage() {
       <SectionBand num="04" label="How We Work" meta="The senior-lead promise" />
       <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
-          Every FieldSignal engagement is led by a senior team member, regardless of cheque size. A €500 single-call enquiry from a seed-stage founder gets the same account lead a £100k programme from a multi-strat hedge fund gets.
+          Every FieldSignal engagement is led by a senior team member, regardless of cheque size. A single-call enquiry from a seed-stage founder gets the same account lead as a full research programme from a multi-strat hedge fund.
         </p>
         <p className="text-body text-ink-2">
           We don&apos;t operate through junior coordinators or automated routing. We don&apos;t reserve senior attention for institutional clients. The model only works because we&apos;ve built a senior team large enough to staff every project this way.

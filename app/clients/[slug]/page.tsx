@@ -53,7 +53,7 @@ export default async function ClientDetailPage({ params }: Props) {
         lede={c.pageLede}
         meta={[
           { label: "Primary use", value: c.primaryKW },
-          { label: "Cheque size", value: "From €500" },
+          { label: "Minimum commitment", value: "None" },
           { label: "Engagement", value: "Per-call or programme" },
         ]}
       />

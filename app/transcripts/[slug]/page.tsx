@@ -128,7 +128,7 @@ export default async function TranscriptPage({ params }: Props) {
             href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Transcript subscription: " + t.topicLabel)}`}
             className="inline-block bg-red text-paper px-6 py-3 font-mono text-mono uppercase font-semibold tracking-[0.14em] hover:bg-paper hover:text-ink transition-colors"
           >
-            Subscribe — €99/mo
+            Subscribe to the library
           </a>
         </article>
       </div>

@@ -3,6 +3,7 @@ import { SectionBand } from "@/components/SectionBand";
 import { TileGrid } from "@/components/TileGrid";
 import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
+import { ContactForm } from "@/components/ContactForm";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
@@ -28,22 +29,26 @@ export default function ContactHubPage() {
         title="Talk to a senior researcher."
         lede={
           <>
-            One email, one inbox, one senior team. Direct line to <b>{SITE.contactEmail}</b> — response under 4 hours during {SITE.hours.toLowerCase()}.
+            One form, one inbox, one senior team. Your message lands directly with <b>{SITE.contactEmail}</b> — response under 4 hours, {SITE.hours}.
           </>
         }
         meta={[
           { label: "Email", value: SITE.contactEmail },
-          { label: "Hours", value: SITE.hours },
           { label: "Response time", value: "< 4h typical" },
-          { label: "Working week", value: "Mon – Fri" },
+          { label: "Working week", value: SITE.hours },
         ]}
       />
 
-      <SectionBand num="01" label="How To Reach Us" meta="3 paths in" />
+      <SectionBand num="01" label="Send a Message" meta="Straight to a senior researcher" />
+      <div className="px-4 sm:px-9 py-8">
+        <ContactForm />
+      </div>
+
+      <SectionBand num="02" label="How To Reach Us" meta="3 paths in" />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile
-            id="01.1"
+            id="02.1"
             name="REQUEST A CALL"
             cta="Request a call"
             href="/contact/request-a-call"
@@ -52,7 +57,7 @@ export default function ContactHubPage() {
             <p>Tell us the industry, role and decision you&apos;re researching. We propose 10–20 candidate experts within 24–72 hours.</p>
           </Tile>
           <Tile
-            id="01.2"
+            id="02.2"
             name="GET A QUOTE"
             cta="Get a quote"
             href="/contact/get-a-quote"
@@ -61,7 +66,7 @@ export default function ContactHubPage() {
             <p>Multi-call engagement or programme? Send us scope, sectors and timeline. Quote returned within one business day.</p>
           </Tile>
           <Tile
-            id="01.3"
+            id="02.3"
             name="BOOK A DEMO"
             cta="Book a demo"
             href="/contact/book-a-demo"
@@ -72,11 +77,11 @@ export default function ContactHubPage() {
         </TileGrid>
       </div>
 
-      <SectionBand num="02" label="Other Enquiries" meta="Routed direct to specialists" />
+      <SectionBand num="03" label="Other Enquiries" meta="Routed direct to specialists" />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile
-            id="02.1"
+            id="03.1"
             name="COMPLIANCE QUESTIONS"
             cta="Compliance email"
             href={`mailto:${SITE.contactEmail}?subject=Compliance%20enquiry`}
@@ -85,7 +90,7 @@ export default function ContactHubPage() {
             <p>Pre-engagement questionnaire, MNPI policy, audit access — anything our compliance lead should answer directly.</p>
           </Tile>
           <Tile
-            id="02.2"
+            id="03.2"
             name="JOIN AS AN EXPERT"
             cta="Expert application"
             href={`mailto:${SITE.contactEmail}?subject=Expert%20application`}
@@ -94,7 +99,7 @@ export default function ContactHubPage() {
             <p>5+ years of relevant industry experience, no active conflicts of interest, willing to attest per call. Apply directly.</p>
           </Tile>
           <Tile
-            id="02.3"
+            id="03.3"
             name="MEDIA & PRESS"
             cta="Press email"
             href={`mailto:${SITE.contactEmail}?subject=Press%20enquiry`}

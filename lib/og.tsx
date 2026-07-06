@@ -106,7 +106,7 @@ export function renderOgImage() {
             color: INK_2,
           }}
         >
-          Expert consultations · Panel calls · Surveys — from €500 per call
+          Expert consultations · Panel calls · Surveys — the democratized expert network
         </div>
       </div>
     ),

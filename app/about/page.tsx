@@ -30,7 +30,7 @@ export default function AboutPage() {
         title="The democratized expert network."
         lede={
           <>
-            FieldSignal is a boutique competitive intelligence firm on a mission to <b>democratize expert networks</b>. We exist because the same quality of primary research a hedge fund can buy should also be available to a three-person seed-stage team — at a price that doesn&apos;t require a six-figure annual retainer.
+            FieldSignal is a boutique competitive intelligence firm on a mission to <b>democratize expert networks</b>. We exist because the same quality of primary research a hedge fund can buy should also be available to a three-person seed-stage team — without the six-figure annual retainer.
           </>
         }
         meta={[
@@ -44,10 +44,10 @@ export default function AboutPage() {
       <SectionBand num="01" label="Why We Exist" meta="What we're breaking" />
       <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
-          For decades, primary research firms like GLG, AlphaSights, Third Bridge and Guidepoint have served only the very top of the market — hedge funds, large PE firms, Fortune 500 corporates. The model has been the same since the early 2000s: six-figure annual retainers, per-call rates of <span className="text-red">$500–1,500</span>, project minimums in the high tens of thousands.
+          For decades, primary research firms like GLG, AlphaSights, Third Bridge and Guidepoint have served only the very top of the market — hedge funds, large PE firms, Fortune 500 corporates. The model has been the same since the early 2000s: <span className="text-red">annual retainers, premium per-call rates and project minimums</span> that price out everyone below the institutional tier.
         </p>
         <p className="text-body text-ink-2">
-          That economics was justifiable when the only viable customer was an institutional investor with billions under management. It is no longer justifiable when a seed-stage founder, a small specialist hedge fund, or a corporate strategy team at a $50M business needs the exact same quality of primary research and cannot afford the institutional gatekeeping.
+          That economics was justifiable when the only viable customer was an institutional investor with billions under management. It is no longer justifiable when a seed-stage founder, a small specialist hedge fund, or a mid-market corporate strategy team needs the exact same quality of primary research and cannot afford the institutional gatekeeping.
         </p>
         <p className="text-body text-ink">
           We&apos;re breaking that model.
@@ -57,7 +57,7 @@ export default function AboutPage() {
       <SectionBand num="02" label="What We Do" meta="Same quality, accessible pricing" />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
-          <Tile id="02.1" name="EXPERT CALLS FROM €500">
+          <Tile id="02.1" name="EXPERT CALLS WITHOUT RETAINERS">
             <p>Per-call pricing. No annual retainer. No project minimums. The same vetted operators, executives, and specialists you&apos;d reach through GLG or AlphaSights.</p>
           </Tile>
           <Tile id="02.2" name="50,000+ VETTED EXPERTS">

@@ -36,7 +36,7 @@ export default function UseCasesHubPage() {
         meta={[
           { label: "Disciplines", value: `${useCases.length}` },
           { label: "Format", value: "Project or programme" },
-          { label: "Entry", value: "From €8,000" },
+          { label: "Entry point", value: "Single project" },
           { label: "Last refreshed", value: "Q1 2026" },
         ]}
       />

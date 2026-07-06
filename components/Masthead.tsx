@@ -49,7 +49,7 @@ export function Masthead() {
         </div>
 
         <Link
-          href={`mailto:${SITE.contactEmail}`}
+          href="/contact"
           className="hidden lg:inline-flex bg-red text-paper px-4 py-2.5 font-mono text-mono uppercase font-medium tracking-[0.14em] hover:bg-ink transition-colors flex-shrink-0"
         >
           Contact Us →
@@ -97,7 +97,7 @@ export function Masthead() {
             </Link>
           ))}
           <Link
-            href={`mailto:${SITE.contactEmail}`}
+            href="/contact"
             onClick={() => setOpen(false)}
             className="mt-3 inline-flex items-center justify-center bg-red text-paper px-4 py-3.5 font-mono text-mono uppercase font-medium tracking-[0.14em] hover:bg-ink transition-colors"
           >

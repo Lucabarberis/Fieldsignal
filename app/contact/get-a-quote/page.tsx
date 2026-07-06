@@ -9,7 +9,7 @@ import { SITE } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Get a Quote - Custom Pricing for Projects",
   description:
-    "Tell us scope, sectors and timeline. Quote returned within one business day. Project packages from €4,000.",
+    "Tell us scope, sectors and timeline. Quote returned within one business day.",
   path: "/contact/get-a-quote",
 });
 
@@ -50,8 +50,7 @@ export default function GetQuotePage() {
           </>
         }
         meta={[
-          { label: "Project from", value: "€4,000" },
-          { label: "Diligence sprint", value: "€15,000" },
+          { label: "Pricing", value: "Custom per scope" },
           { label: "Quote turnaround", value: "1 business day" },
           { label: "Commitment", value: "None until quote signed" },
         ]}

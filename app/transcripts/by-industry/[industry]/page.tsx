@@ -56,13 +56,13 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
         title={`${ind.name.split(" ")[0]} Transcripts`}
         lede={
           <>
-            Anonymised expert call transcripts across {ind.name.toLowerCase()}. Free previews; full transcripts via €99/mo subscription.
+            Anonymised expert call transcripts across {ind.name.toLowerCase()}. Free previews; full transcripts for subscribers.
           </>
         }
         meta={[
           { label: "Industry", value: ind.name },
           { label: "Transcripts", value: `${list.length}` },
-          { label: "Subscription", value: "€99/mo" },
+          { label: "Full access", value: "Subscription" },
         ]}
       />
 

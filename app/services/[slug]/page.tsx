@@ -43,10 +43,6 @@ export default async function ServiceDetailPage({ params }: Props) {
     .map((rs) => services.find((s) => s.slug === rs))
     .filter((s): s is NonNullable<typeof s> => s !== undefined);
 
-  const priceLabel = service.pricingFrom
-    ? `From ${service.pricingFrom.currency === "EUR" ? "€" : "$"}${service.pricingFrom.amount.toLocaleString()}`
-    : "On request";
-
   return (
     <>
       <BreadcrumbSchema
@@ -69,7 +65,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         lede={service.pageLede}
         meta={[
           { label: "Turnaround", value: service.turnaround ?? "Custom" },
-          { label: "Pricing", value: priceLabel },
+          { label: "Pricing", value: "Quoted per scope" },
         ]}
       />
 

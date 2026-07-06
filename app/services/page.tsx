@@ -36,7 +36,7 @@ export default function ServicesHubPage() {
         }
         meta={[
           { label: "Formats", value: `${services.length} services` },
-          { label: "Pricing", value: "From €500 per call" },
+          { label: "Pricing", value: "Per call, no retainers" },
           { label: "Turnaround", value: "3 days to 6 weeks" },
         ]}
       />

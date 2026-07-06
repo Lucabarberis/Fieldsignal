@@ -65,7 +65,7 @@ export default async function TranscriptsByCompanyPage({ params }: Props) {
           { label: "Company context", value: label },
           { label: "Transcripts", value: `${list.length}` },
           { label: "Anonymisation", value: "Expert + client" },
-          { label: "Subscription", value: "€99/mo" },
+          { label: "Full access", value: "Subscription" },
         ]}
       />
 

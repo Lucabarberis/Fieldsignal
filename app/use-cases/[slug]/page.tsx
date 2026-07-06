@@ -53,7 +53,6 @@ export default async function UseCasePage({ params }: Props) {
         lede={uc.pageLede}
         meta={[
           { label: "Discipline", value: uc.primaryKW },
-          { label: "Pricing", value: uc.pricingRange },
           { label: "Timeline", value: uc.timeline },
           { label: "Format", value: "Project or programme" },
         ]}

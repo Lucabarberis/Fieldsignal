@@ -11,7 +11,7 @@ import { SITE } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Affordable Expert Network for Primary Research",
   description:
-    "Expert consultations, panel calls and surveys without six-figure retainers. The expert network built for startups, SMEs and emerging funds. From €500 per call.",
+    "Expert consultations, panel calls and surveys without six-figure retainers. The expert network built for startups, SMEs and emerging funds.",
   path: "/",
 });
 
@@ -50,21 +50,42 @@ export default function HomePage() {
       {/* ── HERO ─────────────────────────────────────────────────── */}
       <section className="px-4 sm:px-9 pt-10 pb-12 sm:pt-16 sm:pb-20 border-b border-rule">
         <div className="font-mono text-mono uppercase tracking-[0.12em] text-ink-3 mb-8">
-          Boutique competitive intelligence · Democratized expert networks
+          Strategic Intelligence
         </div>
-        <h1 className="font-sans font-medium text-[clamp(40px,6vw,72px)] leading-[0.95] tracking-[-0.030em] text-ink max-w-5xl">
-          Strategic intelligence through{" "}
-          <span className="text-red">expert consultations</span>.
+        <h1 className="font-sans font-medium text-[clamp(40px,6vw,72px)] leading-[0.95] tracking-[-0.030em] text-ink max-w-[18ch]">
+          Someone already knows the{" "}
+          <span className="text-red">secrets</span>{" "}
+          you&apos;re after. We find them. On a call within days.
         </h1>
         <p className="mt-8 text-lede text-ink-2 max-w-3xl">
           We connect institutional clients, corporations, SMEs, and startups with the people who know your market best.
         </p>
         <Link
-          href={`mailto:${SITE.contactEmail}`}
+          href="/contact"
           className="inline-flex items-center gap-2 mt-10 bg-red text-paper px-6 py-3.5 font-mono text-mono uppercase font-medium tracking-[0.14em] hover:bg-ink transition-colors"
         >
           Contact Us →
         </Link>
+      </section>
+
+      {/* ── HERO VIDEO ───────────────────────────────────────────── */}
+      <section className="px-4 sm:px-9 pt-10 pb-14 sm:pt-14 sm:pb-20 border-b border-rule">
+        <div className="flex items-center gap-2 font-mono text-mono uppercase tracking-[0.12em] text-ink-3 mb-5">
+          <span className="text-red font-semibold">Watch</span>
+          <span className="text-rule-2">·</span>
+          <span>Dossier walkthrough</span>
+        </div>
+        <video
+          className="block w-full max-w-5xl border border-ink bg-ink"
+          controls
+          preload="none"
+          playsInline
+        >
+          <source
+            src="https://res.cloudinary.com/l0alnqxr/video/upload/q_auto/dossier-walkthrough_u3f9nw.mp4"
+            type="video/mp4"
+          />
+        </video>
       </section>
 
       {/* ── 01 · ABOUT ───────────────────────────────────────────── */}
@@ -84,7 +105,7 @@ export default function HomePage() {
             </div>
           </header>
           <p className="text-body text-ink-2 max-w-4xl">
-            FieldSignal is a boutique competitive intelligence firm on a mission to democratize expert networks. For decades, companies like GLG and AlphaSights have charged premium prices that only hedge funds and Fortune 500 companies could afford — often <span className="text-red">$500–1,500 per consultation</span> with minimum commitments in the six figures. We&apos;re breaking that model.
+            FieldSignal is a boutique competitive intelligence firm on a mission to democratize expert networks. For decades, companies like GLG and AlphaSights have charged premium prices that only hedge funds and Fortune 500 companies could afford. We&apos;re <span className="text-red">breaking that model</span>.
           </p>
         </article>
       </div>
@@ -248,7 +269,7 @@ export default function HomePage() {
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
           <Tile id="08.1" name="DEMOCRATIZED ACCESS">
-            <p>Traditional expert networks serve only large institutions with massive budgets. GLG and AlphaSights require six-figure annual commitments and charge $500–1,500 per consultation. We&apos;ve built a model that makes the same quality intelligence accessible to startups, SMEs, and mid-market companies.</p>
+            <p>Traditional expert networks serve only large institutions with massive budgets. We&apos;ve built a model that makes the same quality intelligence accessible to startups, SMEs, and mid-market companies.</p>
             <p className="text-ink-3 mt-3">Whether you&apos;re a three-person startup or a Fortune 500 company, you get the same service quality and access to our network.</p>
           </Tile>
           <Tile id="08.2" name="MISSION-DRIVEN: FREE INFORMATION">
@@ -390,7 +411,7 @@ export default function HomePage() {
           </>
         }
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaHref="/contact"
       />
     </>
   );

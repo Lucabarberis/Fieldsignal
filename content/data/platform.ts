@@ -75,11 +75,11 @@ export const platformPages: readonly PlatformPage[] = [
     oneLiner:
       "5,000+ anonymised expert transcripts, indexed by company, topic and industry.",
     pageLede:
-      "FieldSignal's transcript library gives subscribers searchable access to anonymised transcripts of past expert calls. Smaller than Tegus or Third Bridge Forum, but at €99/month rather than tens of thousands annually — positioned for opportunistic browsing alongside custom call work, not as a full substitute.",
+      "FieldSignal's transcript library gives subscribers searchable access to anonymised transcripts of past expert calls. Smaller than Tegus or Third Bridge Forum, but at a fraction of the cost — positioned for opportunistic browsing alongside custom call work, not as a full substitute.",
     shipping: [
       "5,000+ anonymised transcripts (growing weekly)",
       "Search by company, topic, industry, role",
-      "€99/month subscription tier for individual analysts",
+      "Monthly subscription tier for individual analysts",
       "Team subscription pricing for groups of 5+",
       "All transcripts anonymised at expert and client identity",
     ],
@@ -99,7 +99,7 @@ export const platformPages: readonly PlatformPage[] = [
         a: "Expert identity is replaced with role-based descriptors (e.g. 'former VP Sales at major payments processor'). Client identity is removed entirely. All transcripts are reviewed for MNPI exposure before publication.",
       },
       {
-        q: "What's the typical use case for €99/mo transcript access?",
+        q: "What's the typical use case for transcript-library access?",
         a: "Opportunistic context-building before commissioning custom calls. Browsing adjacent categories before a strategic decision. Investigating themes you saw mentioned in analyst reports.",
       },
     ],

@@ -44,13 +44,12 @@ export default function RequestCallPage() {
         title="Request an expert call."
         lede={
           <>
-            Tell us who you need to speak with. We&apos;ll propose <b>10–20 candidate experts</b> within 24–72 hours, vetted and compliance-cleared. From <b>€500 per call</b>.
+            Tell us who you need to speak with. We&apos;ll propose <b>10–20 candidate experts</b> within 24–72 hours, vetted and compliance-cleared.
           </>
         }
         meta={[
           { label: "Candidates proposed", value: "10–20" },
           { label: "Turnaround", value: "24–72h" },
-          { label: "Price from", value: "€500" },
           { label: "Commitment", value: "None" },
         ]}
       />

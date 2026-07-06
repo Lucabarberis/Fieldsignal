@@ -181,7 +181,7 @@ export default async function TranscriptsHubPage() {
       </div>
 
       <CtaBand
-        title={<>Want full transcripts? <span className="text-red">€99/mo subscription.</span></>}
+        title={<>Want full transcripts? <span className="text-red">Subscribe to the library.</span></>}
         meta={<>Searchable library access. Cancel anytime.</>}
         ctaLabel="Subscribe"
         ctaHref={`mailto:${SITE.contactEmail}?subject=Transcript%20library%20subscription`}

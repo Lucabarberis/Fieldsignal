@@ -27,7 +27,7 @@ export const clients: readonly Client[] = [
     name: "STARTUPS & SCALE-UPS",
     title: "Expert Network for Startups - Without the Six-Figure Retainer",
     description:
-      "Seed to Series D startups validating PMF, planning expansion, or running pre-fundraise diligence. From €500 per call, no minimums.",
+      "Seed to Series D startups validating PMF, planning expansion, or running pre-fundraise diligence. Per-call pricing, no minimums.",
     oneLiner:
       "Seed to Series D founders validating PMF, planning expansion, or running pre-fundraise diligence.",
     pageLede:
@@ -39,7 +39,7 @@ export const clients: readonly Client[] = [
       "Customer interviews you can't run yourself",
     ],
     whatWeProvide: [
-      "Per-call pricing from €500 — no annual retainer",
+      "Per-call pricing — no annual retainer",
       "10–20 candidate experts within 24–72 hours",
       "Compliance equivalent to GLG (yes — even for a seed team)",
       "Senior account lead on every project, regardless of cheque size",
@@ -225,7 +225,7 @@ export const clients: readonly Client[] = [
     oneLiner:
       "SMEs and family-owned firms entering new markets or assessing M&A.",
     pageLede:
-      "Family-run and small/medium businesses get the same operator-grade research as Fortune 500 strategy teams — without the enterprise pricing. Per-call from €500, no minimums. We've supported owners through everything from first international entry to pre-sale grooming.",
+      "Family-run and small/medium businesses get the same operator-grade research as Fortune 500 strategy teams — without the enterprise pricing. Per-call pricing, no minimums. We've supported owners through everything from first international entry to pre-sale grooming.",
     needs: [
       "Validate a new geographic or vertical entry before committing capex",
       "Pre-sale grooming research to understand market positioning",
@@ -233,7 +233,7 @@ export const clients: readonly Client[] = [
       "Acquisition-target diligence at a price an SME can afford",
     ],
     whatWeProvide: [
-      "Per-call pricing from €500, no annual commitment",
+      "Per-call pricing, no annual commitment",
       "Operator interviews in your target market, often the next week",
       "Plain-English findings — no consultancy-speak deliverables",
       "Compliance documentation acceptable to any acquirer's DD process",
@@ -265,7 +265,7 @@ export const clients: readonly Client[] = [
       "Customer reference work for sales-ops or category planning",
     ],
     whatWeProvide: [
-      "Per-call from €500 or programme pricing from €4,000",
+      "Per-call or programme pricing — no retainers",
       "Quarterly subscription option for active CI programmes",
       "Senior researcher on every engagement",
       "Independent VoC research integrated with your CRM",

@@ -56,13 +56,13 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
         title={label}
         lede={
           <>
-            Anonymised expert interviews on <b>{label.toLowerCase()}</b>. Free previews; full transcripts via €99/mo subscription.
+            Anonymised expert interviews on <b>{label.toLowerCase()}</b>. Free previews; full transcripts for subscribers.
           </>
         }
         meta={[
           { label: "Topic", value: label },
           { label: "Transcripts", value: `${list.length}` },
-          { label: "Subscription", value: "€99/mo" },
+          { label: "Full access", value: "Subscription" },
         ]}
       />
 

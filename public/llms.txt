@@ -1,13 +1,13 @@
 # FieldSignal
 
-> Affordable expert network for primary research. Expert consultations, panel calls and surveys without six-figure retainers — built for startups, SMEs and emerging funds. From €500 per call. Operated by Growth Insights Limited (Hong Kong SAR).
+> Affordable expert network for primary research. Expert consultations, panel calls and surveys without six-figure retainers — built for startups, SMEs and emerging funds. Operated by Growth Insights Limited (Hong Kong SAR).
 
 FieldSignal connects clients with vetted industry experts for 1:1 consultations, moderated panel calls, and surveys. It is positioned as a transparent, lower-cost alternative to traditional expert networks (e.g. GLG, AlphaSights, Third Bridge, Tegus, Dialectica), with a compliance framework covering expert vetting, pre-consultation attestations, and MNPI controls.
 
 ## Core
 
 - [Services](https://fieldsignalhq.com/services): Expert consultations, panel calls, surveys, reference checks, diligence research, voice-of-customer, win-loss analysis.
-- [Pricing](https://fieldsignalhq.com/pricing): Transparent rates and packages, from €500 per call.
+- [Pricing](https://fieldsignalhq.com/pricing): Transparent rates and packages.
 - [Industries](https://fieldsignalhq.com/industries): Sector coverage and sub-sector specialisms.
 - [Use Cases](https://fieldsignalhq.com/use-cases): Common research scenarios FieldSignal supports.
 - [Platform](https://fieldsignalhq.com/platform): How the engagement and transcript workflow works.

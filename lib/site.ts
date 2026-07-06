@@ -7,13 +7,13 @@ export const SITE = {
   name: "FieldSignal",
   tagline: "Competitive Intelligence, Unchained",
   description:
-    "Expert consultations, panel calls and surveys without six-figure retainers. The expert network built for startups, SMEs and emerging funds. From €500 per call.",
+    "Expert consultations, panel calls and surveys without six-figure retainers. The expert network built for startups, SMEs and emerging funds.",
   url: "https://fieldsignalhq.com",
   domain: "fieldsignalhq.com",
   legalEntity: "Growth Insights Limited",
   jurisdiction: "Hong Kong SAR",
   contactEmail: "miles@fieldsignalhq.com",
-  hours: "Mon–Fri, 08:00–20:00 GMT",
+  hours: "Mon–Fri",
   copyrightYear: 2026,
   /** Google Analytics 4 measurement ID. Fires only on production Vercel deploys. */
   gaId: "G-YC008HJRD5",
