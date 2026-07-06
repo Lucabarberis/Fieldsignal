@@ -58,16 +58,16 @@ export async function POST(request: Request) {
       from,
       to: [to],
       reply_to: email,
-      subject: `New enquiry — ${name}${company ? `, ${company}` : ""}`,
+      subject: `New enquiry: ${name}${company ? `, ${company}` : ""}`,
       text: [
         `Name:    ${name}`,
-        `Company: ${company || "—"}`,
+        `Company: ${company || "(not given)"}`,
         `Email:   ${email}`,
         ``,
         `Message:`,
         message,
         ``,
-        `— sent from the contact form at ${SITE.url}/contact`,
+        `Sent from the contact form at ${SITE.url}/contact`,
       ].join("\n"),
     }),
   });
@@ -80,6 +80,7 @@ export async function POST(request: Request) {
   // Personal auto-reply from Miles. Best-effort: a failure here must not
   // fail the submission. Body is fully static (plus a sanitised first
   // name) so the form can't be abused to send arbitrary content.
+  let autoReplyStatus = "Failed";
   try {
     const firstName =
       name
@@ -89,7 +90,7 @@ export async function POST(request: Request) {
     const autoReplyFrom =
       process.env.AUTOREPLY_FROM ?? `Miles at FieldSignal <${SITE.contactEmail}>`;
 
-    await fetch("https://api.resend.com/emails", {
+    const reply = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${apiKey}`,
@@ -102,17 +103,20 @@ export async function POST(request: Request) {
         text: [
           `Hi ${firstName},`,
           ``,
-          `Thanks for reaching out — your message just landed in my inbox, and I read every one personally.`,
+          `Thanks for getting in touch. Your message is sitting in my inbox and I read every one myself.`,
           ``,
-          `I'll come back to you shortly, usually within a few hours on business days. If it's urgent, just reply to this email and say so — I'll bump it up.`,
+          `You'll hear back from me shortly, usually within a few hours on a weekday. If it can't wait, reply to this email and tell me and I'll get to yours first.`,
           ``,
           `Talking soon,`,
           ``,
           `Miles`,
-          `FieldSignal · fieldsignalhq.com`,
+          `FieldSignal`,
+          `fieldsignalhq.com`,
         ].join("\n"),
       }),
     });
+    if (reply.ok) autoReplyStatus = "Sent";
+    else console.error("[contact] auto-reply error", reply.status, await reply.text());
   } catch (err) {
     console.error("[contact] auto-reply failed", err);
   }
@@ -130,6 +134,7 @@ export async function POST(request: Request) {
           company,
           email,
           message,
+          autoReply: autoReplyStatus,
         }),
       });
     } catch (err) {
