@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
+import { TrackFormSubmit } from "@/components/TrackFormSubmit";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 
@@ -13,6 +14,7 @@ export const metadata = pageMetadata({
 export default function ThankYouPage() {
   return (
     <>
+      <TrackFormSubmit />
       <PageHeader
         current="Thank you"
         title="Message received."
