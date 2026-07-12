@@ -4,9 +4,10 @@ import Script from "next/script";
 import "./globals.css";
 import { Masthead } from "@/components/Masthead";
 import { Footer } from "@/components/Footer";
-import { OrganizationSchema } from "@/components/SchemaOrg";
+import { OrganizationSchema, WebSiteSchema } from "@/components/SchemaOrg";
 import { Providers } from "./providers";
 import { SITE } from "@/lib/site";
+import { ogAlt } from "@/lib/og";
 
 /**
  * Analytics gate — only fire GA on the live production deploy, not on
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
     url: SITE.url,
     locale: "en_GB",
     images: [
-      { url: "/og", width: 1200, height: 630, alt: `${SITE.name} — ${SITE.tagline}` },
+      { url: "/og", width: 1200, height: 630, alt: ogAlt },
     ],
   },
   twitter: {
@@ -108,6 +109,7 @@ export default function RootLayout({
 
         <Providers>
           <OrganizationSchema />
+          <WebSiteSchema />
           <Masthead />
           <main className="flex-1">{children}</main>
           <Footer />

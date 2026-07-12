@@ -4,6 +4,7 @@ import { SITE } from "@/lib/site";
  * JSON-LD schema components per the SEO brief §2.5.
  *
  *   <OrganizationSchema />          ← sitewide, mounted in layout
+ *   <WebSiteSchema />               ← sitewide, mounted in layout
  *   <BreadcrumbSchema items={...}/> ← on every non-home page
  *   <FAQSchema items={...}/>        ← any page with FAQ block
  *   <ArticleSchema {...}/>          ← blog posts + guides
@@ -34,6 +35,21 @@ export function OrganizationSchema() {
     foundingLocation: {
       "@type": "Place",
       name: SITE.jurisdiction,
+    },
+  };
+  return <JsonLd data={data} />;
+}
+
+export function WebSiteSchema() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE.name,
+    url: SITE.url,
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
     },
   };
   return <JsonLd data={data} />;

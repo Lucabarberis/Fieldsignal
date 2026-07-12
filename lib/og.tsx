@@ -21,7 +21,7 @@ const RULE = "rgba(22, 22, 19, 0.12)";
 
 export const ogSize = { width: 1200, height: 630 };
 export const ogContentType = "image/png";
-export const ogAlt = `${SITE.name} — ${SITE.tagline}`;
+export const ogAlt = `${SITE.name} — ${SITE.tagline}. Expert consultations, panel calls and surveys — the democratized expert network.`;
 
 export function renderOgImage() {
   return new ImageResponse(

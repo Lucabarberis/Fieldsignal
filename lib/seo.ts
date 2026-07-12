@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/site";
+import { ogAlt } from "@/lib/og";
 
 /**
  * Page metadata helper. Centralises title/meta construction so every
@@ -34,7 +35,7 @@ export function pageMetadata({
     url: "/og",
     width: 1200,
     height: 630,
-    alt: `${SITE.name} — ${SITE.tagline}`,
+    alt: ogAlt,
   };
   return {
     title,
