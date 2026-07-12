@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { NAV_LINKS, NAV_PREVIEWS, SITE } from "@/lib/site";
 
@@ -10,9 +11,15 @@ import { NAV_LINKS, NAV_PREVIEWS, SITE } from "@/lib/site";
  * Sticky top bar. Blue wordmark left, mono nav centre (≥lg), ink CTA right.
  * Below lg the nav collapses behind a hamburger toggle so the bar stays
  * one row tall and does not eat the mobile viewport.
+ *
+ * Desktop nav items show a hover preview panel. Panel visibility is
+ * state-driven (not pure CSS :hover) so exactly one panel is open at a
+ * time and it closes deterministically on click and on route change.
  */
 export function Masthead() {
   const [open, setOpen] = useState(false);
+  const [preview, setPreview] = useState<string | null>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     if (!open) return;
@@ -21,6 +28,12 @@ export function Masthead() {
       document.body.style.overflow = "";
     };
   }, [open]);
+
+  // Close any open preview (and the mobile menu) when the route changes.
+  useEffect(() => {
+    setPreview(null);
+    setOpen(false);
+  }, [pathname]);
 
   return (
     <nav className="sticky top-0 z-50 bg-paper border-b border-ink">
@@ -38,32 +51,42 @@ export function Masthead() {
 
         <div className="hidden lg:flex gap-6 flex-wrap justify-center flex-1">
           {NAV_LINKS.map((link) => {
-            const preview = NAV_PREVIEWS[link.href];
+            const panel = NAV_PREVIEWS[link.href];
+            const isOpen = preview === link.href;
             return (
-              <div key={link.href} className="relative group">
+              <div
+                key={link.href}
+                className="relative"
+                onMouseEnter={() => setPreview(link.href)}
+                onMouseLeave={() => setPreview(null)}
+              >
                 <Link
                   href={link.href}
+                  onClick={() => setPreview(null)}
+                  onFocus={() => setPreview(link.href)}
                   className="font-mono text-micro text-ink-2 hover:text-ink uppercase font-medium transition-colors"
                 >
                   {link.label}
                 </Link>
 
-                {/* Hover / focus preview panel (desktop only) */}
-                {preview && (
-                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 hidden group-hover:block group-focus-within:block z-50">
+                {/* Hover preview panel (desktop only) — one at a time,
+                    closes on click and on route change */}
+                {panel && isOpen && (
+                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 z-50">
                     <div className="w-64 bg-paper-3 border border-ink p-5">
                       <div className="font-mono text-micro uppercase tracking-[0.12em] text-red font-semibold mb-2">
                         {link.label}
                       </div>
                       <p className="font-sans text-[13px] leading-[1.55] text-ink-2">
-                        {preview.blurb}
+                        {panel.blurb}
                       </p>
-                      {preview.sublinks && preview.sublinks.length > 0 && (
+                      {panel.sublinks && panel.sublinks.length > 0 && (
                         <div className="mt-3 pt-3 border-t border-rule flex flex-col gap-2">
-                          {preview.sublinks.map((s) => (
+                          {panel.sublinks.map((s) => (
                             <Link
                               key={s.href}
                               href={s.href}
+                              onClick={() => setPreview(null)}
                               className="font-mono text-micro uppercase tracking-[0.08em] text-ink hover:text-red transition-colors"
                             >
                               {s.label} →
