@@ -28,8 +28,69 @@ export const NAV_LINKS = [
   { href: "/transcripts", label: "Transcripts" },
   { href: "/pricing", label: "Pricing" },
   { href: "/alternatives", label: "Alternatives" },
+  { href: "/tools/expert-network-cost-estimator", label: "Tools" },
   { href: "/resources", label: "Resources" },
 ] as const;
+
+/**
+ * Hover preview panels for the masthead nav (desktop only).
+ * Keyed by NAV_LINKS href. Short blurb + up to three deep links.
+ */
+export const NAV_PREVIEWS: Record<
+  string,
+  { blurb: string; sublinks?: readonly { href: string; label: string }[] }
+> = {
+  "/services": {
+    blurb: "Expert consultations, panel calls and B2B surveys — scoped to your research question.",
+    sublinks: [
+      { href: "/services", label: "All services" },
+      { href: "/platform", label: "Platform" },
+    ],
+  },
+  "/industries": {
+    blurb: "Sector desks from software and fintech to medtech and industrials.",
+    sublinks: [{ href: "/industries", label: "Browse sectors" }],
+  },
+  "/use-cases": {
+    blurb: "Playbooks by decision: diligence, competitive intelligence, go-to-market.",
+    sublinks: [{ href: "/use-cases", label: "Browse use cases" }],
+  },
+  "/transcripts": {
+    blurb: "A searchable library of expert call transcripts, by industry, company and topic.",
+    sublinks: [{ href: "/transcripts", label: "Browse transcripts" }],
+  },
+  "/pricing": {
+    blurb: "Pay-per-use. No annual minimums, no six-figure retainers.",
+  },
+  "/alternatives": {
+    blurb: "How FieldSignal compares to GLG, AlphaSights, Third Bridge, Tegus and peers.",
+    sublinks: [
+      { href: "/alternatives", label: "Alternatives" },
+      { href: "/compare", label: "Head-to-head" },
+    ],
+  },
+  "/tools/expert-network-cost-estimator": {
+    blurb: "Free interactive tools built on our published research.",
+    sublinks: [
+      {
+        href: "/tools/expert-network-cost-estimator",
+        label: "Cost estimator",
+      },
+      {
+        href: "/resources/blog/expert-network-pricing-and-pay-benchmark-2026",
+        label: "Pricing & pay benchmark",
+      },
+    ],
+  },
+  "/resources": {
+    blurb: "Guides, the research glossary, and the FieldSignal blog.",
+    sublinks: [
+      { href: "/resources/blog", label: "Blog" },
+      { href: "/resources/guides", label: "Guides" },
+      { href: "/resources/glossary", label: "Glossary" },
+    ],
+  },
+};
 
 export const FOOTER_LINKS = [
   { href: "/about", label: "About" },
@@ -41,6 +102,7 @@ export const FOOTER_LINKS = [
   { href: "/alternatives", label: "Alternatives" },
   { href: "/compare", label: "Compare" },
   { href: "/transcripts", label: "Transcripts" },
+  { href: "/tools/expert-network-cost-estimator", label: "Cost Estimator" },
   { href: "/experts", label: "For Experts" },
   { href: "/resources/guides", label: "Guides" },
   { href: "/resources/glossary", label: "Glossary" },

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { NAV_LINKS, SITE } from "@/lib/site";
+import { NAV_LINKS, NAV_PREVIEWS, SITE } from "@/lib/site";
 
 /**
  * Component 1 of 7 — Masthead
@@ -37,15 +37,46 @@ export function Masthead() {
         </Link>
 
         <div className="hidden lg:flex gap-6 flex-wrap justify-center flex-1">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="font-mono text-micro text-ink-2 hover:text-ink uppercase font-medium transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const preview = NAV_PREVIEWS[link.href];
+            return (
+              <div key={link.href} className="relative group">
+                <Link
+                  href={link.href}
+                  className="font-mono text-micro text-ink-2 hover:text-ink uppercase font-medium transition-colors"
+                >
+                  {link.label}
+                </Link>
+
+                {/* Hover / focus preview panel (desktop only) */}
+                {preview && (
+                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 hidden group-hover:block group-focus-within:block z-50">
+                    <div className="w-64 bg-paper-3 border border-ink p-5">
+                      <div className="font-mono text-micro uppercase tracking-[0.12em] text-red font-semibold mb-2">
+                        {link.label}
+                      </div>
+                      <p className="font-sans text-[13px] leading-[1.55] text-ink-2">
+                        {preview.blurb}
+                      </p>
+                      {preview.sublinks && preview.sublinks.length > 0 && (
+                        <div className="mt-3 pt-3 border-t border-rule flex flex-col gap-2">
+                          {preview.sublinks.map((s) => (
+                            <Link
+                              key={s.href}
+                              href={s.href}
+                              className="font-mono text-micro uppercase tracking-[0.08em] text-ink hover:text-red transition-colors"
+                            >
+                              {s.label} →
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
 
         <Link

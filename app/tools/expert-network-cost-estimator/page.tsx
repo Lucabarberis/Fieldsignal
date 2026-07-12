@@ -2,6 +2,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { CtaBand } from "@/components/CtaBand";
 import { CostEstimator } from "@/components/CostEstimator";
+import { BackButton } from "@/components/BackButton";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
@@ -35,6 +36,10 @@ export default function CostEstimatorPage() {
           },
         ]}
       />
+
+      <div className="px-4 sm:px-9 pt-6">
+        <BackButton />
+      </div>
 
       <PageHeader
         current="Cost Estimator"
