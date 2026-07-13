@@ -14,23 +14,23 @@ import Link from "next/link";
 
 type Seniority = "early" | "mid" | "veteran";
 
-/** Client-side per-call bands (EUR) for full-service networks, 2026. */
+/** Per-call bands (USD) across the market, boutique to full-service, 2026. */
 const PER_CALL_BANDS: Record<Seniority, { lo: number; hi: number; label: string; desc: string }> = {
   early: {
-    lo: 500,
-    hi: 700,
+    lo: 200,
+    hi: 400,
     label: "Early career",
     desc: "Manager-level operators, 3–7 yrs (PMs, specialists, channel managers)",
   },
   mid: {
-    lo: 700,
-    hi: 1000,
+    lo: 300,
+    hi: 600,
     label: "Mid-career",
     desc: "Directors and VPs, 8–15 yrs (heads of function, regional leads)",
   },
   veteran: {
-    lo: 1000,
-    hi: 1500,
+    lo: 450,
+    hi: 800,
     label: "Veteran executive",
     desc: "C-level and 15+ yrs (former CEOs, CFOs, heads of regulatory)",
   },
@@ -39,16 +39,16 @@ const PER_CALL_BANDS: Record<Seniority, { lo: number; hi: number; label: string;
 /** Rush premium range applied on top of base bands (24–48h turnaround). */
 const RUSH = { lo: 1.1, hi: 1.3 };
 
-/** Typical annual minimum at large full-service networks (USD, converted ~EUR for display). */
-const ANNUAL_MINIMUM_EUR = 95_000;
+/** Typical annual minimum at large full-service networks (USD). */
+const ANNUAL_MINIMUM_USD = 100_000;
 
 /** Multi-call package discount band for 10+ call fixed-scope projects. */
 const PACKAGE_DISCOUNT = { lo: 0.2, hi: 0.4 };
 
-const eur = (n: number) =>
-  new Intl.NumberFormat("en-GB", {
+const usd = (n: number) =>
+  new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "EUR",
+    currency: "USD",
     maximumFractionDigits: 0,
   }).format(n);
 
@@ -71,7 +71,7 @@ export function CostEstimator() {
   const pkgHi = Math.round(totalHi * (1 - PACKAGE_DISCOUNT.lo));
 
   const effectiveRetainerPerCall = Math.round(
-    Math.max(ANNUAL_MINIMUM_EUR, totalHi) / calls,
+    Math.max(ANNUAL_MINIMUM_USD, totalHi) / calls,
   );
 
   return (
@@ -164,9 +164,9 @@ export function CostEstimator() {
         </div>
 
         <div className="mb-7">
-          <div className={LABEL}>Per call (full-service networks)</div>
+          <div className={LABEL}>Per call (industry range)</div>
           <div className="font-sans font-medium text-[clamp(26px,3vw,36px)] tracking-[-0.02em] text-ink">
-            {eur(perLo)} – {eur(perHi)}
+            {usd(perLo)} – {usd(perHi)}
           </div>
         </div>
 
@@ -175,13 +175,13 @@ export function CostEstimator() {
             Project total — {calls} {calls === 1 ? "call" : "calls"}, pay-per-use
           </div>
           <div className="font-sans font-medium text-[clamp(26px,3vw,36px)] tracking-[-0.02em] text-ink">
-            {eur(totalLo)} – {eur(totalHi)}
+            {usd(totalLo)} – {usd(totalHi)}
           </div>
           {showPackage && (
             <p className="font-sans text-[13px] leading-[1.55] text-ink-2 mt-2">
               Booked as a fixed-scope package (typical 20–40% discount):{" "}
               <b className="text-ink">
-                {eur(pkgLo)} – {eur(pkgHi)}
+                {usd(pkgLo)} – {usd(pkgHi)}
               </b>
             </p>
           )}
@@ -191,9 +191,9 @@ export function CostEstimator() {
           <div className={LABEL}>Same project under an annual-minimum retainer</div>
           <p className="font-sans text-[14px] leading-[1.6] text-ink-2">
             Large networks typically require six-figure annual commitments
-            (≈{eur(ANNUAL_MINIMUM_EUR)}+). If this project is your main usage,
+            (≈{usd(ANNUAL_MINIMUM_USD)}+). If this project is your main usage,
             these {calls} {calls === 1 ? "call" : "calls"} effectively cost{" "}
-            <b className="text-ink">≈{eur(effectiveRetainerPerCall)} per call</b>{" "}
+            <b className="text-ink">≈{usd(effectiveRetainerPerCall)} per call</b>{" "}
             — you pay for capacity you don't use.
           </p>
         </div>

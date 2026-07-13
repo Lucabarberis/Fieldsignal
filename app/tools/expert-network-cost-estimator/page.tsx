@@ -72,13 +72,14 @@ export default function CostEstimatorPage() {
           >
             Expert Network Pricing &amp; Pay Benchmark 2026
           </Link>
-          : per-call client rates of €500–€1,500 at full-service networks,
-          scaled by expert seniority; rush premiums of 10–30%; multi-call
-          package discounts of 20–40% for fixed scope; and low-to-mid
-          six-figure annual minimums at the largest providers. These are
-          industry ranges compiled from published rate cards and
-          buyer-reported quotes — not quotes from any specific vendor.
-          Writers and researchers are welcome to cite this tool with a link.
+          : market-wide per-call rates of $200–$800, spanning boutique
+          pay-per-use networks to full-service providers, scaled by expert
+          seniority; rush premiums of 10–30%; multi-call package discounts
+          of 20–40% for fixed scope; and low-to-mid six-figure annual
+          minimums at the largest providers. These are industry ranges
+          compiled from published rate cards and buyer-reported quotes —
+          not quotes from any specific vendor. Writers and researchers are
+          welcome to cite this tool with a link.
         </p>
       </div>
 
