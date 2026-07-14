@@ -132,7 +132,12 @@ export function SocialHub({ posts }: { posts: SocialPost[] }) {
       if (wave !== "all" && String(p.wave) !== wave) return false;
       if (status !== "all" && (statuses[p.key] ?? "todo") !== status) return false;
       if (q) {
-        const hay = [p.blogTitle, p.angle, ...p.fields.map((f) => f.text)]
+        const hay = [
+          p.blogTitle,
+          p.angle,
+          `${p.platform} #${p.postNum}`,
+          ...p.fields.map((f) => f.text),
+        ]
           .join(" ")
           .toLowerCase();
         if (!hay.includes(q)) return false;
@@ -237,6 +242,9 @@ export function SocialHub({ posts }: { posts: SocialPost[] }) {
                 >
                   {p.platform}
                 </span>
+                <span className="font-mono text-mono font-bold px-2 py-0.5 bg-ink text-paper">
+                  {p.platform} #{p.postNum}
+                </span>
                 <span className="font-mono text-mono uppercase tracking-[0.06em] px-2 py-0.5 bg-paper-2 text-ink-2">
                   Wave {p.wave}
                 </span>
@@ -315,13 +323,48 @@ export function SocialHub({ posts }: { posts: SocialPost[] }) {
                   </div>
                 ))}
 
-              {/* Body */}
-              <div
-                className={`border border-ink/15 bg-white px-4 py-3 my-2 font-sans text-[14.5px] leading-relaxed overflow-auto social-body ${
-                  isOpen ? "" : "max-h-[340px]"
-                }`}
-                dangerouslySetInnerHTML={{ __html: p.bodyHtml }}
-              />
+              {/* Body — X renders as a copyable post + reply chain; everything else as HTML */}
+              {p.tweets?.length ? (
+                <div className={`my-2 overflow-auto ${isOpen ? "" : "max-h-[420px]"}`}>
+                  {p.tweets.map((t, i) => {
+                    const n = t.text.length;
+                    return (
+                      <div key={i} className="border border-ink/15 bg-white mb-2">
+                        <div className="flex items-center gap-2 px-3 py-1.5 border-b border-ink/15 bg-paper">
+                          <span className="font-mono text-mono font-bold tracking-[0.08em] text-ink">
+                            {t.role}
+                          </span>
+                          <span
+                            className="font-mono text-mono ml-auto"
+                            style={{ color: n <= 280 ? "#1a7f37" : "#c0392b" }}
+                          >
+                            {n}/280
+                          </span>
+                          <button
+                            onClick={() => {
+                              copyPlain(t.text);
+                              flash(`Copied ${t.role.toLowerCase()}`);
+                            }}
+                            className="font-mono text-mono uppercase tracking-[0.06em] border border-ink bg-paper-3 px-2 py-0.5 hover:bg-ink hover:text-paper cursor-pointer"
+                          >
+                            Copy
+                          </button>
+                        </div>
+                        <p className="px-3 py-2 font-sans text-[14px] text-ink whitespace-pre-wrap break-words">
+                          {t.text}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div
+                  className={`border border-ink/15 bg-white px-4 py-3 my-2 font-sans text-[14.5px] leading-relaxed overflow-auto social-body ${
+                    isOpen ? "" : "max-h-[340px]"
+                  }`}
+                  dangerouslySetInnerHTML={{ __html: p.bodyHtml }}
+                />
+              )}
               <button
                 onClick={() => setExpanded((e) => ({ ...e, [p.key]: !isOpen }))}
                 className="font-sans text-[12px] text-ink-3 underline cursor-pointer"
@@ -334,7 +377,11 @@ export function SocialHub({ posts }: { posts: SocialPost[] }) {
                   onClick={() => onCopyBody(p)}
                   className="bg-ink text-paper px-4 py-2 font-mono text-mono uppercase tracking-[0.1em] hover:bg-red transition-colors cursor-pointer"
                 >
-                  {p.bodyCopyMode === "rich" ? "Copy body (formatted)" : "Copy body"}
+                  {p.tweets?.length
+                    ? "Copy whole chain"
+                    : p.bodyCopyMode === "rich"
+                      ? "Copy body (formatted)"
+                      : "Copy body"}
                 </button>
               </div>
 

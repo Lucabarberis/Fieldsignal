@@ -41,8 +41,16 @@ export interface SocialField {
   mode?: string;
 }
 
+/** One tweet in an X chain: the opening POST, then REPLY 1..N. */
+export interface Tweet {
+  role: string;
+  text: string;
+}
+
 export interface SocialPost {
   key: string;
+  /** Sequential number within its platform, e.g. X #12. Stable, for reference. */
+  postNum: number;
   platform: string;
   wave: number;
   blogNum: number;
@@ -51,6 +59,8 @@ export interface SocialPost {
   angle: string;
   notes: string;
   fields: SocialField[];
+  /** X only: the post + its replies, each individually copyable. */
+  tweets?: Tweet[];
   bodyHtml: string;
   bodyCopyHtml: string | null;
   bodyCopyText: string;
