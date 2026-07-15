@@ -135,7 +135,7 @@ export const clients: readonly Client[] = [
       "Quarterly sector pulses on positions you're tracking",
     ],
     whatWeProvide: [
-      "Per-call pricing, $500–1,500 depending on expert seniority",
+      "Per-call pricing, $200–800 depending on expert seniority",
       "Compliance equivalent to GLG (MNPI rules, 6-mo cooling-off, attestations)",
       "Pre-call attestation system for your compliance team",
       "Fund-AUM-aware pricing — no $250k annual minimums",
@@ -251,11 +251,11 @@ export const clients: readonly Client[] = [
     slug: "mid-market-enterprises",
     id: "01.8",
     name: "MID-MARKET ENTERPRISES",
-    title: "Expert Network for Mid-Market Enterprises (€10M to €500M Revenue)",
+    title: "Expert Network for Mid-Market Enterprises ($10M to $500M Revenue)",
     description:
       "Mid-market companies planning international expansion, assessing acquisitions or running competitive intelligence programs.",
     oneLiner:
-      "€10M to €500M revenue companies running CI programmes, M&A and expansion research.",
+      "$10M to $500M revenue companies running CI programmes, M&A and expansion research.",
     pageLede:
       "The mid-market is structurally underserved by GLG/AlphaSights pricing. We pick up where the boutique-consulting bench leaves off — independent operator interviews, customer reference work and competitive intelligence at fund-economics cheque sizes.",
     needs: [
@@ -271,9 +271,9 @@ export const clients: readonly Client[] = [
       "Independent VoC research integrated with your CRM",
     ],
     typicalEngagements: [
-      "€80M SaaS company — quarterly CI programme, 3 categories",
-      "€200M industrial — German market entry, 12 channel interviews",
-      "€350M services group — acquisition target diligence, 2 targets",
+      "$80M SaaS company — quarterly CI programme, 3 categories",
+      "$200M industrial — German market entry, 12 channel interviews",
+      "$350M services group — acquisition target diligence, 2 targets",
       "Mid-market healthcare — competitive teardown of category leader",
     ],
     relatedSlugs: ["fortune-500-corporations", "corporate-strategy-teams", "small-and-medium-businesses"],

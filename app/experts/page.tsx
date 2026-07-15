@@ -30,12 +30,12 @@ export default function ExpertsHubPage() {
         title="Get paid for what you know."
         lede={
           <>
-            FieldSignal exists because serious buyers want to talk to operators who&apos;ve actually done the job — not consultants explaining it. <b>€150–€1,500 per call. Paid in 5 business days. No exclusivity agreements.</b>
+            FieldSignal exists because serious buyers want to talk to operators who&apos;ve actually done the job — not consultants explaining it. <b>$75–$800 per call. Paid in 5 business days. No exclusivity agreements.</b>
           </>
         }
         meta={[
           { label: "Application", value: "5 minutes" },
-          { label: "Rate range", value: "€150–€1,500 / call" },
+          { label: "Rate range", value: "$75–$800 / call" },
           { label: "Payment", value: "Within 5 business days" },
           { label: "Network size", value: "50,000+" },
         ]}

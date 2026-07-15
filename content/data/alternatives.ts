@@ -62,7 +62,7 @@ export const alternatives: readonly AlternativeContent[] = [
       },
       {
         q: "What's the cheapest GLG alternative?",
-        a: "FieldSignal is one of the most accessible — per-call from €500 with no retainer. Other affordable options include NewtonX (survey-first) and the Tegus transcript subscription (transcripts only, no custom calls).",
+        a: "FieldSignal is one of the most accessible — per-call from $200 with no retainer. Other affordable options include NewtonX (survey-first) and the Tegus transcript subscription (transcripts only, no custom calls).",
       },
       {
         q: "Does GLG have the best compliance?",
@@ -131,7 +131,7 @@ export const alternatives: readonly AlternativeContent[] = [
     ],
     whenFieldSignalIsRight: [
       "You use Third Bridge mostly for per-call work, not Forum",
-      "You'd swap Forum for a smaller transcript library at €99/mo",
+      "You'd swap Forum for a smaller transcript library at $99/mo",
       "You want lower-friction per-call pricing",
       "You're a smaller buyer where Forum's subscription tier is overkill",
     ],
@@ -216,7 +216,7 @@ export const alternatives: readonly AlternativeContent[] = [
     whenFieldSignalIsRight: [
       "You consume 5–20 transcripts a year — a fraction of Tegus' subscription cost",
       "You also need custom expert calls Tegus doesn't sell",
-      "You want a self-serve €99/mo entry point",
+      "You want a self-serve $99/mo entry point",
       "You're not running automated AI-driven research at scale",
     ],
     selfQualify: [
@@ -234,7 +234,7 @@ export const alternatives: readonly AlternativeContent[] = [
       },
       {
         q: "Is FieldSignal's library competitive with Tegus?",
-        a: "No — Tegus is the leader on transcript depth. FieldSignal's library is smaller (5,000+) but accessible at €99/mo for buyers who don't need 100,000.",
+        a: "No — Tegus is the leader on transcript depth. FieldSignal's library is smaller (5,000+) but accessible at $99/mo for buyers who don't need 100,000.",
       },
     ],
     primaryKW: "Tegus alternatives",
@@ -259,7 +259,7 @@ export const alternatives: readonly AlternativeContent[] = [
       "You need to commission custom expert calls, not just search a library",
       "You want per-call pricing without an enterprise platform subscription",
       "Your team is small and the seat-license model is overkill",
-      "You'd rather pay €99/mo for transcripts than tens of thousands for a platform",
+      "You'd rather pay $99/mo for transcripts than tens of thousands for a platform",
     ],
     selfQualify: [
       "AlphaSense and FieldSignal solve different problems. AlphaSense is a search platform; FieldSignal commissions primary research. Many serious shops use both.",
@@ -276,7 +276,7 @@ export const alternatives: readonly AlternativeContent[] = [
       },
       {
         q: "What's the cheapest AlphaSense alternative?",
-        a: "Depends what you need. For broker research search alone, alternatives include Sentieo and visible alpha tools. For transcripts only, Tegus + AlphaSense is now consolidated; FieldSignal at €99/mo serves the budget end.",
+        a: "Depends what you need. For broker research search alone, alternatives include Sentieo and visible alpha tools. For transcripts only, Tegus + AlphaSense is now consolidated; FieldSignal at $99/mo serves the budget end.",
       },
     ],
     primaryKW: "AlphaSense alternatives",
@@ -379,8 +379,8 @@ export const alternatives: readonly AlternativeContent[] = [
       "The largest expert networks — GLG, AlphaSights, Third Bridge, Guidepoint — operate on annual retainers in the six figures. For most buyers, that's an immediate disqualifier. Here are the seven networks that genuinely offer per-call pricing at accessible cheque sizes.",
     whenIncumbentIsRight: [],
     whenFieldSignalIsRight: [
-      "Per-call from €500, no annual commitment",
-      "Project packages from €4,000 with no retainer trigger",
+      "Per-call from $200, no annual commitment",
+      "Project packages from $900 with no retainer trigger",
       "Same compliance framework as the Big Four expert networks",
       "Senior researcher direct, regardless of cheque size",
     ],
@@ -399,7 +399,7 @@ export const alternatives: readonly AlternativeContent[] = [
       },
       {
         q: "What's the cheapest per-call rate available?",
-        a: "FieldSignal's standard rate starts at €500. Below that, you're typically dealing with non-vetted freelance platforms (not what we recommend for investor-grade work).",
+        a: "FieldSignal's standard rate starts at $200. Below that, you're typically dealing with non-vetted freelance platforms (not what we recommend for investor-grade work).",
       },
     ],
     primaryKW: "affordable expert networks",
@@ -416,7 +416,7 @@ export const alternatives: readonly AlternativeContent[] = [
       "For decades, expert networks treated startups as not worth the friction. The economics of a six-figure annual retainer are absurd for a 5-person seed-stage team. The model has shifted in the last few years — here are the six networks genuinely set up for founders.",
     whenIncumbentIsRight: [],
     whenFieldSignalIsRight: [
-      "From €500 per call — a single Series A diligence enquiry costs less than a hire",
+      "From $200 per call — a single Series A diligence enquiry costs less than a hire",
       "No annual minimum",
       "Senior researcher direct, no junior account manager between you and the expert",
       "Built specifically for founders who need to validate a thesis quickly",

@@ -110,7 +110,7 @@ export const competitors: readonly Competitor[] = [
     fieldsignalDifferent: [
       "Lower-friction per-call pricing without Forum subscription bundling",
       "Direct briefing access to senior researcher",
-      "Smaller transcript library, but at €99/mo vs Forum's ~$25k+ tier",
+      "Smaller transcript library, but at $99/mo vs Forum's ~$25k+ tier",
     ],
     bestFitBuyer: "PE and consulting buyers who want analyst-led research narrative, not just raw calls.",
   },
@@ -161,7 +161,7 @@ export const competitors: readonly Competitor[] = [
     ],
     fieldsignalDifferent: [
       "Per-call custom expert sourcing at fraction of subscription cost",
-      "€99/mo transcript access vs Tegus full subscription",
+      "$99/mo transcript access vs Tegus full subscription",
       "Lower-friction for buyers who need 5–20 transcripts/yr not 200",
     ],
     bestFitBuyer: "Active buy-side teams with high transcript consumption and AI-search workflows.",

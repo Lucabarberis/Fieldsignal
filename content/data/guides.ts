@@ -125,7 +125,7 @@ export const guides: readonly Guide[] = [
       {
         heading: "Subscription pricing",
         body:
-          "Transcript-library subscriptions (Tegus, Third Bridge Forum, AlphaSense) start in the high tens of thousands annually for institutional access. Boutique transcript access (FieldSignal at €99/mo) is a fraction of this but with less editorial polish and a smaller library. Survey/panel subscriptions from NewtonX et al are bespoke per programme.",
+          "Transcript-library subscriptions (Tegus, Third Bridge Forum, AlphaSense) start in the high tens of thousands annually for institutional access. Boutique transcript access (FieldSignal at $99/mo) is a fraction of this but with less editorial polish and a smaller library. Survey/panel subscriptions from NewtonX et al are bespoke per programme.",
       },
       {
         heading: "What drives a fair quote",

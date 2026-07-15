@@ -184,7 +184,7 @@ export const services: readonly Service[] = [
       "Final report with findings, anti-thesis and recommendations",
     ],
     sampleProfiles: [
-      "Pre-LOI commercial DD for a €200M PE deal",
+      "Pre-LOI commercial DD for a $200M PE deal",
       "Market entry programme for a US SaaS expanding into APAC",
       "Annual CI programme for a corporate strategy team",
       "Multi-region channel research for a fintech repositioning",

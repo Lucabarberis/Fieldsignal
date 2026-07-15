@@ -701,7 +701,7 @@ export const glossary: readonly GlossaryTerm[] = [
       "An expert transcript library is a searchable archive of anonymised expert-call transcripts, organised by company, industry, topic and time. Subscriptions provide access to read past consultations without commissioning new calls.",
     explanation: [
       "Transcript libraries are a fundamentally different product from custom expert calls. Custom calls answer your specific question; transcript libraries let you browse what other buyers' experts have said on adjacent topics.",
-      "The market leader is Tegus (acquired by AlphaSense in 2024), with 100,000+ transcripts and best-in-class AI-driven thematic search. Third Bridge's Forum offers analyst-led transcripts with higher editorial polish but smaller volume. Boutique providers like FieldSignal offer smaller libraries at much lower price points (€99/month vs $25k+/year subscriptions).",
+      "The market leader is Tegus (acquired by AlphaSense in 2024), with 100,000+ transcripts and best-in-class AI-driven thematic search. Third Bridge's Forum offers analyst-led transcripts with higher editorial polish but smaller volume. Boutique providers like FieldSignal offer smaller libraries at much lower price points ($99/month vs $25k+/year subscriptions).",
       "Workflow value is heavily tilted toward active buy-side analysts who consume 100+ transcripts per year and benefit from AI thematic search across the corpus. For occasional users (5-20 transcripts/year), full-tier subscriptions are uneconomic; lower-tier or per-transcript access is more efficient.",
       "Compliance considerations: transcripts are anonymised (expert identity replaced with role-based descriptors). Buyer identity is removed entirely. Discussion content is reviewed for MNPI before publication; calls flagged with potential MNPI exposure are excluded from the public library.",
     ],
@@ -709,7 +709,7 @@ export const glossary: readonly GlossaryTerm[] = [
       "A hedge-fund analyst reads 8 Tegus transcripts on a competitor's channel partners ahead of earnings",
       "A PE associate browses Third Bridge Forum transcripts on a target category as pre-CDD context",
       "A corporate strategy team subscribes to a transcript library for ongoing competitive awareness",
-      "An emerging-manager fund uses €99/mo boutique library access for opportunistic browsing",
+      "An emerging-manager fund uses $99/mo boutique library access for opportunistic browsing",
     ],
     faq: [
       {
@@ -2061,7 +2061,7 @@ export const glossary: readonly GlossaryTerm[] = [
       "Programme-side ROI: a corporate VoC programme costing €60k per year that informs product roadmap changes contributing to retention improvement. Measured through programme-level outcome metrics over multi-year windows.",
     ],
     examples: [
-      "A hedge fund attributing $1.2M of position alpha to a €15k thesis-validation expert engagement",
+      "A hedge fund attributing $1.2M of position alpha to a $15k thesis-validation expert engagement",
       "A PE buyer avoiding an unfit acquisition based on CDD findings — €50k research spend saving a €40M+ investment",
       "A corporate strategy team accelerating market-entry decision by 6 months via expert work — opportunity cost saved",
       "An ongoing VoC programme costing €80k/yr that demonstrably reduced churn by an amount exceeding programme cost",

@@ -49,7 +49,7 @@ export const expertPages: readonly ExpertPage[] = [
       {
         heading: "How rates are set",
         body:
-          "Rates are set by seniority and category — currently ranging from €150/hour for early-career specialists to €1,500/hour for senior C-level executives in scarce categories. We don't haggle. The rate is yours; we charge clients a separate sourcing fee on top.",
+          "Rates are set by seniority and category — currently ranging from $75/hour for early-career specialists to $800/hour for senior C-level executives in scarce categories. We don't haggle. The rate is yours; we charge clients a separate sourcing fee on top.",
       },
     ],
     checklist: [
@@ -110,23 +110,23 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "payment-and-rates",
     id: "03",
     name: "PAYMENT & RATES",
-    title: "Expert Payment and Rates - €150 to €1,500 per Call",
+    title: "Expert Payment and Rates - $75 to $800 per Call",
     description:
       "Rates set by experience and category. Paid within 5 business days. No platform fees taken from your rate.",
     oneLiner:
-      "€150–€1,500 per call by seniority and category. Paid in 5 business days. No platform-fee deduction from your rate.",
+      "$75–$800 per call by seniority and category. Paid in 5 business days. No platform-fee deduction from your rate.",
     pageLede:
       "We don't haggle on rates and we don't deduct platform fees from what you earn. The rate set during onboarding is what you receive, paid via bank transfer within 5 business days of every call.",
     sections: [
       {
         heading: "Rate framework",
         body:
-          "Rates are set by two factors: seniority of operating experience (years in role + level) and category scarcity (how rare your specific expertise is in our network). Most experts are in the €300–€800/hour range. The top tier (€1,000–€1,500/hour) is reserved for ex-C-suite executives in highly scarce categories.",
+          "Rates are set by two factors: seniority of operating experience (years in role + level) and category scarcity (how rare your specific expertise is in our network). Most experts are in the $150–$400/hour range. The top tier ($500–$800/hour) is reserved for ex-C-suite executives in highly scarce categories.",
       },
       {
         heading: "Payment timing",
         body:
-          "Payment is processed within 5 business days of the call. Bank transfer in EUR, GBP or USD. No payment threshold — you're paid for every individual call, not aggregated monthly.",
+          "Payment is processed within 5 business days of the call. Bank transfer in USD. No payment threshold — you're paid for every individual call, not aggregated monthly.",
       },
       {
         heading: "No deductions",
@@ -166,7 +166,7 @@ export const expertPages: readonly ExpertPage[] = [
       {
         heading: "Conflicts of interest",
         body:
-          "Disclose proactively if you have a current commercial relationship with the topic company (board seat, advisory role, current consulting engagement, equity holdings >€100k). We'll then decide whether the call can proceed with disclosure or whether you should decline.",
+          "Disclose proactively if you have a current commercial relationship with the topic company (board seat, advisory role, current consulting engagement, equity holdings >$100k). We'll then decide whether the call can proceed with disclosure or whether you should decline.",
       },
       {
         heading: "Client identity confidentiality",
@@ -270,7 +270,7 @@ export const expertPages: readonly ExpertPage[] = [
       },
       {
         q: "Can I refer colleagues?",
-        a: "Yes. See /experts/refer-an-expert — we pay €100 for each successful referral who completes their first paid call.",
+        a: "Yes. See /experts/refer-an-expert — we pay $100 for each successful referral who completes their first paid call.",
       },
       {
         q: "Do I need to record calls?",
@@ -283,13 +283,13 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "refer-an-expert",
     id: "07",
     name: "REFER AN EXPERT",
-    title: "Refer an Expert - €100 per Successful Referral",
+    title: "Refer an Expert - $100 per Successful Referral",
     description:
-      "Refer a colleague to the network. €100 per referral who completes their first paid call.",
+      "Refer a colleague to the network. $100 per referral who completes their first paid call.",
     oneLiner:
-      "€100 per successful referral. Email us with their name and category — we do the rest.",
+      "$100 per successful referral. Email us with their name and category — we do the rest.",
     pageLede:
-      "Most of our best experts come from referrals. If a colleague would be useful in the network, refer them. €100 lands in your account when their first paid call is complete — no caps, no quarterly minimums.",
+      "Most of our best experts come from referrals. If a colleague would be useful in the network, refer them. $100 lands in your account when their first paid call is complete — no caps, no quarterly minimums.",
     sections: [
       {
         heading: "How to refer",
@@ -299,7 +299,7 @@ export const expertPages: readonly ExpertPage[] = [
       {
         heading: "When you get paid",
         body:
-          "Payment of €100 is processed within 5 business days of your referral completing their first paid call. We notify you proactively when the payment is triggered.",
+          "Payment of $100 is processed within 5 business days of your referral completing their first paid call. We notify you proactively when the payment is triggered.",
       },
       {
         heading: "What counts as a successful referral",

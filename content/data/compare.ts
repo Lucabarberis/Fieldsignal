@@ -63,13 +63,13 @@ export const compares: readonly CompareContent[] = [
       { feature: "Time to first call", fieldsignal: "48–72h typical", competitor: "Same-day possible" },
       { feature: "Account model", fieldsignal: "Senior researcher direct", competitor: "Account-managed (multi-tier)" },
       { feature: "Compliance framework", fieldsignal: "Documented, audit-ready", competitor: "Enterprise-grade, integrations standard" },
-      { feature: "Transcript library", fieldsignal: "€99/mo add-on", competitor: "Premium tier, ~$25k+/yr" },
+      { feature: "Transcript library", fieldsignal: "$99/mo add-on", competitor: "Premium tier, ~$25k+/yr" },
       { feature: "Survey panels", fieldsignal: "Not offered", competitor: "Yes, at scale" },
       { feature: "Geographic depth", fieldsignal: "Strong EU + global on demand", competitor: "All regions, 24/7 coverage" },
     ],
     pricingMatrix: [
       { feature: "Pricing model", fieldsignal: "Per-call, per-project, or subscription", competitor: "Annual retainer + per-call" },
-      { feature: "Per-call range", fieldsignal: "€500–1,500", competitor: "$500–1,500" },
+      { feature: "Per-call range", fieldsignal: "$200–800", competitor: "$500–1,500" },
       { feature: "Annual minimum", fieldsignal: "None", competitor: "Six figures typical" },
       { feature: "Published rates", fieldsignal: "Yes — public pricing page", competitor: "Bespoke, NDA-gated" },
     ],
@@ -85,7 +85,7 @@ export const compares: readonly CompareContent[] = [
       "You want transparent published pricing without an NDA",
       "You want the senior researcher on every call, not a junior account manager",
       "You need EU-jurisdictional contracting and GDPR documentation as standard",
-      "You want optional transcript library access at €99/mo, not $25k/yr",
+      "You want optional transcript library access at $99/mo, not $25k/yr",
     ],
     switchingSteps: [
       "Email us with your three most recent GLG project briefs (sanitised)",
@@ -97,7 +97,7 @@ export const compares: readonly CompareContent[] = [
     faq: [
       {
         q: "Will I lose access to GLG's transcript library if I switch?",
-        a: "Yes — GLG's premium tier transcripts are proprietary. FieldSignal offers a €99/mo independent transcript library, which most former-GLG buyers find sufficient for opportunistic browsing.",
+        a: "Yes — GLG's premium tier transcripts are proprietary. FieldSignal offers a $99/mo independent transcript library, which most former-GLG buyers find sufficient for opportunistic browsing.",
       },
       {
         q: "Can FieldSignal source the same experts GLG can?",
@@ -138,7 +138,7 @@ export const compares: readonly CompareContent[] = [
     ],
     pricingMatrix: [
       { feature: "Pricing model", fieldsignal: "Per-call, per-project, subscription", competitor: "Annual retainer + per-call" },
-      { feature: "Per-call range", fieldsignal: "€500–1,500", competitor: "$600–1,400" },
+      { feature: "Per-call range", fieldsignal: "$200–800", competitor: "$600–1,400" },
       { feature: "Annual minimum", fieldsignal: "None", competitor: "Six figures typical" },
       { feature: "Published rates", fieldsignal: "Yes — public pricing", competitor: "Bespoke" },
     ],
@@ -206,8 +206,8 @@ export const compares: readonly CompareContent[] = [
     ],
     pricingMatrix: [
       { feature: "Pricing model", fieldsignal: "Per-call, per-project, subscription", competitor: "Subscription + per-call" },
-      { feature: "Per-call range", fieldsignal: "€500–1,500", competitor: "$500–1,200" },
-      { feature: "Transcript access", fieldsignal: "€99/mo (independent library)", competitor: "Bundled in Forum subscription" },
+      { feature: "Per-call range", fieldsignal: "$200–800", competitor: "$500–1,200" },
+      { feature: "Transcript access", fieldsignal: "$99/mo (independent library)", competitor: "Bundled in Forum subscription" },
       { feature: "Annual minimum", fieldsignal: "None", competitor: "Mid-five to six figures typical" },
     ],
     chooseCompetitorIf: [
@@ -224,7 +224,7 @@ export const compares: readonly CompareContent[] = [
     ],
     switchingSteps: [
       "Tell us how many transcripts vs custom calls you actually used last year",
-      "We'll quote bundled custom calls + transcript library (€99/mo) vs your Forum spend",
+      "We'll quote bundled custom calls + transcript library ($99/mo) vs your Forum spend",
       "Maintain Forum for 60 days while you onboard us — no rush",
       "Single MSA, no annual minimum on the FieldSignal side",
       "First custom call inside 72h",
@@ -244,7 +244,7 @@ export const compares: readonly CompareContent[] = [
       },
       {
         q: "Why is FieldSignal's transcript library so much cheaper?",
-        a: "Because we don't claim Forum-level editorial. €99/mo gives you searchable access to raw transcripts. If you need polished analyst summaries on top, Forum is still the right product.",
+        a: "Because we don't claim Forum-level editorial. $99/mo gives you searchable access to raw transcripts. If you need polished analyst summaries on top, Forum is still the right product.",
       },
     ],
     primaryKW: "FieldSignal vs Third Bridge",
@@ -272,7 +272,7 @@ export const compares: readonly CompareContent[] = [
     ],
     pricingMatrix: [
       { feature: "Pricing model", fieldsignal: "Per-call, per-project, subscription", competitor: "Annual retainer + per-call" },
-      { feature: "Per-call range", fieldsignal: "€500–1,500", competitor: "$500–1,500" },
+      { feature: "Per-call range", fieldsignal: "$200–800", competitor: "$500–1,500" },
       { feature: "Annual minimum", fieldsignal: "None", competitor: "Six figures typical" },
       { feature: "Published rates", fieldsignal: "Yes", competitor: "Bespoke" },
     ],
@@ -325,7 +325,7 @@ export const compares: readonly CompareContent[] = [
     name: "FIELDSIGNAL vs TEGUS",
     title: "FieldSignal vs Tegus - Custom Calls vs Transcript Library",
     description:
-      "Tegus' AI-indexed transcript library vs FieldSignal's custom calls + €99/mo transcripts. When each wins, honestly.",
+      "Tegus' AI-indexed transcript library vs FieldSignal's custom calls + $99/mo transcripts. When each wins, honestly.",
     pageLede:
       "Tegus (now part of AlphaSense) built the largest searchable transcript library in the category — AI-indexed, investor-workflow-first. FieldSignal's custom calls + lightweight transcript library are positioned for buyers who need bespoke sourcing more than searchable archives.",
     verdict:
@@ -338,9 +338,9 @@ export const compares: readonly CompareContent[] = [
       { feature: "Investor workflow", fieldsignal: "Brief → call → notes", competitor: "Search → read → annotate" },
     ],
     pricingMatrix: [
-      { feature: "Pricing model", fieldsignal: "Per-call + €99/mo transcripts", competitor: "Annual subscription (transcripts)" },
-      { feature: "Per-call range", fieldsignal: "€500–1,500", competitor: "Custom (calls supported separately)" },
-      { feature: "Transcript-only access", fieldsignal: "€99/mo", competitor: "Tens of thousands annually" },
+      { feature: "Pricing model", fieldsignal: "Per-call + $99/mo transcripts", competitor: "Annual subscription (transcripts)" },
+      { feature: "Per-call range", fieldsignal: "$200–800", competitor: "Custom (calls supported separately)" },
+      { feature: "Transcript-only access", fieldsignal: "$99/mo", competitor: "Tens of thousands annually" },
       { feature: "Annual minimum", fieldsignal: "None", competitor: "Tens of thousands annually" },
     ],
     chooseCompetitorIf: [
@@ -352,14 +352,14 @@ export const compares: readonly CompareContent[] = [
     chooseFieldsignalIf: [
       "Your annual mix is 70%+ custom calls, 30% transcripts",
       "Tegus subscription costs more than you're getting out of it",
-      "You want transcript access at €99/mo for occasional reference",
+      "You want transcript access at $99/mo for occasional reference",
       "Senior-researcher-direct briefing is part of your buying criteria",
     ],
     switchingSteps: [
       "Audit your last 12 months of Tegus usage — transcripts read vs custom calls",
       "If custom calls > 30% of value, FieldSignal likely cheaper at lower commitment",
       "Add FieldSignal as second vendor — don't drop Tegus mid-cycle",
-      "Sign single MSA, €99/mo transcript add-on optional",
+      "Sign single MSA, $99/mo transcript add-on optional",
       "First custom call inside 72h",
     ],
     faq: [
@@ -377,7 +377,7 @@ export const compares: readonly CompareContent[] = [
       },
       {
         q: "Why is FieldSignal so much cheaper for transcripts?",
-        a: "Because we're not selling AI search or analyst-curated metadata. €99/mo gets you searchable raw transcripts. If you need Tegus-level tooling, the price gap is justified.",
+        a: "Because we're not selling AI search or analyst-curated metadata. $99/mo gets you searchable raw transcripts. If you need Tegus-level tooling, the price gap is justified.",
       },
     ],
     primaryKW: "FieldSignal vs Tegus",
@@ -405,7 +405,7 @@ export const compares: readonly CompareContent[] = [
     ],
     pricingMatrix: [
       { feature: "Pricing model", fieldsignal: "Per-call, per-project, subscription", competitor: "Annual retainer + per-call" },
-      { feature: "Per-call range", fieldsignal: "€500–1,500", competitor: "$500–1,200" },
+      { feature: "Per-call range", fieldsignal: "$200–800", competitor: "$500–1,200" },
       { feature: "Annual minimum", fieldsignal: "None", competitor: "Five to six figures" },
       { feature: "Published rates", fieldsignal: "Yes", competitor: "Bespoke" },
     ],

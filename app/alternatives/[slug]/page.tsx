@@ -159,7 +159,7 @@ export default async function AlternativePage({ params }: Props) {
                 <dl className="space-y-3 text-[13px]">
                   <Row label="Network size" value="50,000+ experts" />
                   <Row label="Pricing model" value="Per-call · per-project · subscription" />
-                  <Row label="Per-call range" value="€500–1,500" />
+                  <Row label="Per-call range" value="$200–800" />
                   <Row label="Annual minimum" value="None" />
                   <Row label="HQ" value={SITE.jurisdiction} />
                   <Row label="Founded" value="2024" />

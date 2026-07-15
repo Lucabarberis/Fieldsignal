@@ -12,7 +12,7 @@ import { SITE } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Expert Network Pricing - Transparent Rates and Packages",
   description:
-    "Per-call pricing from €500. Project packages from €4,000. Subscription plans for ongoing research. No annual retainers. No hidden minimums.",
+    "Per-call pricing from $200. Project packages from $900. Subscription plans for ongoing research. No annual retainers. No hidden minimums.",
   path: "/pricing",
 });
 
@@ -31,13 +31,13 @@ export default function PricingPage() {
         title="Transparent pricing."
         lede={
           <>
-            Per-call rates from <b>€500</b>. Project packages from <b>€4,000</b>. Subscription plans for ongoing research. <b>No annual retainers. No hidden minimums.</b>
+            Per-call rates from <b>$200</b>. Project packages from <b>$900</b>. Subscription plans for ongoing research. <b>No annual retainers. No hidden minimums.</b>
           </>
         }
         meta={[
-          { label: "Smallest cheque", value: "€500" },
+          { label: "Smallest cheque", value: "$200" },
           { label: "Largest cheque", value: "Custom annual" },
-          { label: "Currency", value: "EUR · USD · GBP" },
+          { label: "Currency", value: "USD" },
           { label: "Payment terms", value: "Net 30" },
         ]}
       />
@@ -45,13 +45,13 @@ export default function PricingPage() {
       <SectionBand num="01" label="Per-Call Pricing" meta="Single expert consultations" />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
-          <Tile id="01.1" name="STANDARD CALL" meta={<><b>€500</b> · per call</>}>
+          <Tile id="01.1" name="STANDARD CALL" meta={<><b>$200</b> · per call</>}>
             <p>60-minute call with a mid-seniority expert in your industry. 3–5 day turnaround. Transcript within 24 hours.</p>
           </Tile>
-          <Tile id="01.2" name="SENIOR CALL" meta={<><b>€900</b> · per call</>}>
+          <Tile id="01.2" name="SENIOR CALL" meta={<><b>$400</b> · per call</>}>
             <p>60-minute call with a senior operator (Director / VP-level). Common for buyer interviews, ex-employee diligence.</p>
           </Tile>
-          <Tile id="01.3" name="C-SUITE CALL" meta={<><b>€1,500</b> · per call</>}>
+          <Tile id="01.3" name="C-SUITE CALL" meta={<><b>$800</b> · per call</>}>
             <p>60-minute call with a C-suite or board-level expert. Reserved for sensitive diligence and high-stakes strategic questions.</p>
           </Tile>
         </TileGrid>
@@ -60,13 +60,13 @@ export default function PricingPage() {
       <SectionBand num="02" label="Project Packages" meta="Multi-call engagements" />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
-          <Tile id="02.1" name="STARTER PACK" meta={<>From <b>€4,000</b> · 5 calls</>}>
+          <Tile id="02.1" name="STARTER PACK" meta={<>From <b>$900</b> · 5 calls</>}>
             <p>5 expert calls within a single thesis. ~20% off per-call rate. Typical for thesis validation and quick channel checks.</p>
           </Tile>
-          <Tile id="02.2" name="DILIGENCE SPRINT" meta={<>From <b>€15,000</b> · 15+ calls</>}>
+          <Tile id="02.2" name="DILIGENCE SPRINT" meta={<>From <b>$6,000</b> · 15+ calls</>}>
             <p>15–30 calls in a 2-week sprint. Customer, channel and ex-employee research bundled. Findings deck included.</p>
           </Tile>
-          <Tile id="02.3" name="MANAGEMENT REFS" meta={<>From <b>€6,500</b> · per exec</>}>
+          <Tile id="02.3" name="MANAGEMENT REFS" meta={<>From <b>$2,600</b> · per exec</>}>
             <p>5–8 off-list references per executive, anonymised composite report. Common for pre-IC / pre-close diligence.</p>
           </Tile>
         </TileGrid>
@@ -75,10 +75,10 @@ export default function PricingPage() {
       <SectionBand num="03" label="Subscriptions" meta="Ongoing programmes" />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
-          <Tile id="03.1" name="TRANSCRIPT LIBRARY" meta={<><b>€99</b> · per month</>}>
+          <Tile id="03.1" name="TRANSCRIPT LIBRARY" meta={<><b>$99</b> · per month</>}>
             <p>Search and download from 5,000+ anonymised expert transcripts. Free 300–500 word previews on every record. Cancel anytime.</p>
           </Tile>
-          <Tile id="03.2" name="RESEARCH SUBSCRIPTION" meta={<>From <b>€2,500</b> · per month</>}>
+          <Tile id="03.2" name="RESEARCH SUBSCRIPTION" meta={<>From <b>$1,200</b> · per month</>}>
             <p>Monthly call credits, transcript access, dedicated researcher. Common for emerging hedge funds and active corp-dev teams.</p>
           </Tile>
           <Tile id="03.3" name="ENTERPRISE" meta={<>Custom · annual</>}>
