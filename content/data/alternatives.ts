@@ -23,6 +23,13 @@ export type AlternativeContent = {
   selfQualify: readonly string[];
   /** FAQ for FAQ schema + rendered block. */
   faq: readonly { q: string; a: string }[];
+  /**
+   * Slug of the in-depth "is <competitor> legit" review post, if one exists.
+   * Renders as a contextual link — these commercial pages are the strongest
+   * internal source we can point at the review posts, which are the pages
+   * actually earning organic positions.
+   */
+  reviewPostSlug?: string;
   primaryKW: string;
 };
 
@@ -69,6 +76,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "GLG has the longest-running compliance program, but the substantive controls — MNPI policy, attestations, exclusion lists, audit retention — are equivalent across all reputable networks. FieldSignal mirrors GLG's framework explicitly.",
       },
     ],
+    reviewPostSlug: "is-glg-legit-honest-reviews-and-buyer-assessment",
     primaryKW: "GLG alternatives",
   },
   {
@@ -153,6 +161,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "Third Bridge sells per-call separately, but the value-per-dollar is much stronger when bundled. If you don't need Forum, look elsewhere.",
       },
     ],
+    reviewPostSlug: "is-third-bridge-legit-an-honest-review",
     primaryKW: "Third Bridge alternatives",
   },
   {
@@ -237,6 +246,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "No — Tegus is the leader on transcript depth. FieldSignal's library is smaller (5,000+) but accessible at $99/mo for buyers who don't need 100,000.",
       },
     ],
+    reviewPostSlug: "is-tegus-legit-a-buyer-s-review",
     primaryKW: "Tegus alternatives",
   },
   {

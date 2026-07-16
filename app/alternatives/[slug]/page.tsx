@@ -89,6 +89,19 @@ export default async function AlternativePage({ params }: Props) {
             <p className="text-body text-ink-3 mt-6 text-[13px]">
               Best fit: {competitor.bestFitBuyer}
             </p>
+            {alt.reviewPostSlug && (
+              <p className="font-sans text-[15px] leading-[1.6] text-ink-2 mt-6 border-l-4 border-red pl-5">
+                Still deciding whether {competitor.name} is worth it? Read our
+                full{" "}
+                <Link
+                  href={`/resources/blog/${alt.reviewPostSlug}`}
+                  className="text-ink underline underline-offset-2 hover:text-red transition-colors"
+                >
+                  honest {competitor.name} review
+                </Link>{" "}
+                — pricing, compliance and where it falls short.
+              </p>
+            )}
           </div>
         </>
       )}
