@@ -38,7 +38,11 @@ export function pageMetadata({
     alt: ogAlt,
   };
   return {
-    title,
+    // The root layout's `title.template` only applies to CHILD segments, so a
+    // title set in app/page.tsx (same segment as app/layout.tsx) renders with
+    // no brand suffix. Force the brand on for the homepage — it is the single
+    // most important place for the brand name to appear.
+    title: path === "/" ? { absolute: `${title} | ${SITE.name}` } : title,
     description,
     alternates: { canonical: url },
     openGraph: {
