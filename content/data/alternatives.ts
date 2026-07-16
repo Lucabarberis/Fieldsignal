@@ -204,6 +204,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "FieldSignal for per-call work, Tegus for transcript-only. Pick the model that matches your usage.",
       },
     ],
+    reviewPostSlug: "is-guidepoint-legit-an-honest-buyer-s-review",
     primaryKW: "Guidepoint alternatives",
   },
   {
@@ -289,6 +290,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "Depends what you need. For broker research search alone, alternatives include Sentieo and visible alpha tools. For transcripts only, Tegus + AlphaSense is now consolidated; FieldSignal at $99/mo serves the budget end.",
       },
     ],
+    reviewPostSlug: "alphasense-reviews-an-honest-2026-assessment",
     primaryKW: "AlphaSense alternatives",
   },
   {
@@ -331,6 +333,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "Per-call pricing is comparable. FieldSignal's differentiator is no annual minimum at all, which suits smaller buyers.",
       },
     ],
+    reviewPostSlug: "coleman-research-expert-network-profile-and-alternatives",
     primaryKW: "Coleman Research alternatives",
   },
   {
@@ -373,6 +376,7 @@ export const alternatives: readonly AlternativeContent[] = [
         a: "Yes — see /services/expert-surveys. We're stronger on qualitative-quant blend; NewtonX is stronger on pure-quant at speed.",
       },
     ],
+    reviewPostSlug: "newtonx-professional-b2b-research-without-six-figure-retainers",
     primaryKW: "NewtonX alternatives",
   },
 
