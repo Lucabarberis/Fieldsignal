@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { Masthead } from "@/components/Masthead";
 import { Footer } from "@/components/Footer";
@@ -172,6 +174,14 @@ export default function RootLayout({
                 src="https://px.ads.linkedin.com/collect/?pid=9177522&fmt=gif"
               />
             </noscript>
+
+            {/* Vercel Web Analytics — pageviews, referrers, top pages.
+                Needs Analytics enabled on the project in the Vercel
+                dashboard for data to land. */}
+            <Analytics />
+
+            {/* Vercel Speed Insights — real-user Core Web Vitals. */}
+            <SpeedInsights />
           </>
         )}
       </body>
