@@ -186,3 +186,48 @@ export function LocalBusinessSchema({
   }
   return <JsonLd data={data} />;
 }
+
+export type TeamMember = {
+  /** Full name as it should appear in search results. */
+  name: string;
+  jobTitle: string;
+  /** Absolute-from-root path to the headshot, e.g. "/team/foo.jpg". */
+  photo: string;
+  /** LinkedIn profile URL — emitted as `sameAs` to link the entity. */
+  linkedin: string;
+  /** City the team member works from, if disclosed. */
+  location?: string;
+};
+
+/**
+ * Emits one Person node per team member, each `worksFor` the organisation
+ * and `sameAs` their LinkedIn profile. This is what lets Google associate
+ * the named individuals on /team with their real-world identities rather
+ * than treating them as loose strings.
+ */
+export function TeamSchema({ members }: { members: readonly TeamMember[] }) {
+  const data = {
+    "@context": "https://schema.org",
+    "@graph": members.map((m) => {
+      const person: Record<string, unknown> = {
+        "@type": "Person",
+        "@id": `${SITE.url}/team#${m.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+        name: m.name,
+        jobTitle: m.jobTitle,
+        image: `${SITE.url}${m.photo}`,
+        url: `${SITE.url}/team`,
+        sameAs: [m.linkedin],
+        worksFor: {
+          "@type": "Organization",
+          name: SITE.name,
+          url: SITE.url,
+        },
+      };
+      if (m.location) {
+        person.workLocation = { "@type": "Place", name: m.location };
+      }
+      return person;
+    }),
+  };
+  return <JsonLd data={data} />;
+}
