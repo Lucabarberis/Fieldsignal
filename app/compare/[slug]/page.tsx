@@ -59,7 +59,6 @@ export default async function ComparePage({ params }: Props) {
           { label: "Comparing to", value: competitor.name },
           { label: "Founded", value: String(competitor.founded) },
           { label: "HQ", value: competitor.hq },
-          { label: "Last refreshed", value: "Q1 2026" },
         ]}
       />
 
@@ -232,7 +231,6 @@ export default async function ComparePage({ params }: Props) {
                 meta={sc ? <b className="text-ink">vs {sc.name}</b> : undefined}
                 cta="Read"
                 href={`/compare/${s.slug}`}
-                updated="Q1 2026"
               >
                 <p>{s.description}</p>
               </Tile>

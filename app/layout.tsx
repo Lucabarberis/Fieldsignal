@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
@@ -77,7 +77,18 @@ export const metadata: Metadata = {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
     ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
+};
+
+/**
+ * themeColor lives on the viewport export in this Next version — setting it
+ * inside `metadata` is ignored. Brand blue tints mobile browser chrome.
+ */
+export const viewport: Viewport = {
+  themeColor: "#0080FF",
 };
 
 export default function RootLayout({

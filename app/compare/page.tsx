@@ -36,7 +36,6 @@ export default function CompareHubPage() {
         }
         meta={[
           { label: "Comparisons", value: `${compares.length}` },
-          { label: "Last refreshed", value: "Q1 2026" },
         ]}
       />
 
@@ -57,7 +56,6 @@ export default function CompareHubPage() {
                 meta={competitor ? <b className="text-ink">vs {competitor.name}</b> : undefined}
                 cta="Read comparison"
                 href={`/compare/${c.slug}`}
-                updated="Q1 2026"
               >
                 <p>{c.description}</p>
               </Tile>

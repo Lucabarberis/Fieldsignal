@@ -32,6 +32,12 @@ export function OrganizationSchema() {
     email: SITE.contactEmail,
     description: SITE.description,
     slogan: SITE.tagline,
+    // Absolute URL required: consumers resolve `logo` outside page context.
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE.url}/fieldsignal-logo.svg`,
+    },
+    image: `${SITE.url}/og`,
     foundingLocation: {
       "@type": "Place",
       name: SITE.jurisdiction,
@@ -109,7 +115,11 @@ export function ArticleSchema({
     headline,
     description,
     datePublished,
-    dateModified: dateModified ?? datePublished,
+    // `updatedAt` is a row-touch timestamp, so for scheduled posts it can
+    // predate publication. A dateModified earlier than datePublished is
+    // incoherent to search/AI engines — clamp it to the later of the two.
+    dateModified:
+      dateModified && dateModified > datePublished ? dateModified : datePublished,
     author: { "@type": "Person", name: author },
     publisher: {
       "@type": "Organization",
@@ -141,13 +151,11 @@ export function ServiceSchema({ name, description, url, priceFrom }: ServiceProp
       url: SITE.url,
     },
   };
-  if (priceFrom) {
-    data.offers = {
-      "@type": "Offer",
-      price: priceFrom.amount,
-      priceCurrency: priceFrom.currency,
-    };
-  }
+  // Deliberately no `offers`/`price`: machine-readable prices here get
+  // surfaced as SERP rich results, which conflicts with the site's
+  // price-placement policy (rates live on /pricing and comparison tables).
+  // `priceFrom` is retained in the props for callers but not emitted.
+  void priceFrom;
   return <JsonLd data={data} />;
 }
 
@@ -155,7 +163,8 @@ type LocalBusinessProps = {
   regionName: string;
   description: string;
   url: string;
-  areaServed: string;
+  /** Markets served. Emitted as discrete Place entities, not one string. */
+  areaServed: readonly string[];
   /** Languages offered for the engagement (e.g. ["en", "fr", "de"]). */
   availableLanguage?: readonly string[];
 };
@@ -178,7 +187,7 @@ export function LocalBusinessSchema({
     },
     description,
     url,
-    areaServed,
+    areaServed: areaServed.map((a) => ({ "@type": "Place", name: a })),
     email: SITE.contactEmail,
   };
   if (availableLanguage && availableLanguage.length > 0) {

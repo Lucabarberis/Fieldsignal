@@ -39,7 +39,6 @@ export default function GlossaryHubPage() {
         }
         meta={[
           { label: "Terms defined", value: `${glossary.length}` },
-          { label: "Last refreshed", value: "Q1 2026" },
           { label: "Coverage", value: "Compliance · research · methodology" },
         ]}
       />
@@ -59,7 +58,6 @@ export default function GlossaryHubPage() {
               meta={<b className="text-ink">{t.term}</b>}
               cta="Read definition"
               href={`/resources/glossary/${t.slug}`}
-              updated="Q1 2026"
             >
               <p>{t.definition.length > 140 ? t.definition.slice(0, 137) + "…" : t.definition}</p>
             </Tile>

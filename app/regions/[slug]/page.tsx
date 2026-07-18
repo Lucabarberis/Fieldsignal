@@ -48,7 +48,7 @@ export default async function RegionPage({ params }: Props) {
         regionName={r.name}
         description={r.description}
         url={`${SITE.url}/regions/${slug}`}
-        areaServed={r.majorMarkets.join(", ")}
+        areaServed={r.majorMarkets}
         availableLanguage={r.languages}
       />
 

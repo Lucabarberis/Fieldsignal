@@ -20,6 +20,8 @@ import type { Post, PostInput, PostMeta, PostStatus } from "./types";
 
 export interface PostsRepo {
   list(opts?: { includeUnpublished?: boolean }): Promise<PostMeta[]>;
+  /** Slugs only. Avoids pulling every post body when just the set is needed. */
+  listSlugs(): Promise<string[]>;
   getMeta(slug: string): Promise<PostMeta | null>;
   get(slug: string): Promise<Post | null>;
   create(input: PostInput): Promise<Post>;
@@ -47,6 +49,10 @@ type Row = {
   updated_at: string;
   created_at: string;
 };
+
+/** Every column PostMeta needs — deliberately excludes the heavy `body`. */
+const META_COLUMNS =
+  "slug, title, description, author, tags, status, published_at, updated_at";
 
 function rowToMeta(row: Row): PostMeta {
   return {
@@ -83,9 +89,13 @@ const supabaseImpl: PostsRepo = {
     // Always use the admin client (no cookies → safe at build-time).
     // Public visibility is enforced explicitly here.
     const sb = createSupabaseAdminClient();
+    // Explicit column list, NOT `*`: this returns PostMeta, so `body` is
+    // discarded by rowToMeta anyway. Selecting it pulled every article's
+    // full text on each call — megabytes per query, and the likely cause
+    // of `canceling statement due to statement timeout` during builds.
     let query = sb
       .from("posts")
-      .select("*")
+      .select(META_COLUMNS)
       .order("published_at", { ascending: false });
     if (!opts?.includeUnpublished) {
       const nowIso = new Date().toISOString();
@@ -94,6 +104,18 @@ const supabaseImpl: PostsRepo = {
     const { data, error } = await query;
     if (error) throw new Error(`posts.list failed: ${error.message}`);
     return (data as Row[]).map(rowToMeta);
+  },
+
+  async listSlugs() {
+    const sb = createSupabaseAdminClient();
+    const nowIso = new Date().toISOString();
+    const { data, error } = await sb
+      .from("posts")
+      .select("slug")
+      .eq("status", "published")
+      .lte("published_at", nowIso);
+    if (error) throw new Error(`posts.listSlugs failed: ${error.message}`);
+    return (data as { slug: string }[]).map((r) => r.slug);
   },
 
   async getMeta(slug) {

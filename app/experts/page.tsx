@@ -56,7 +56,6 @@ export default function ExpertsHubPage() {
               meta={<b className="text-ink">{p.primaryKW}</b>}
               cta="Read"
               href={`/experts/${p.slug}`}
-              updated="Q1 2026"
             >
               <p>{p.oneLiner}</p>
             </Tile>

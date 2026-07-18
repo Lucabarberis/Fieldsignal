@@ -18,8 +18,30 @@ export type { Post, PostMeta } from "@/lib/db/types";
  * Excludes drafts and scheduled posts (status=published, future date).
  */
 export async function getAllPostSlugs(): Promise<string[]> {
-  const all = await posts.list();
-  return all.map((p) => p.slug);
+  return posts.listSlugs();
+}
+
+/**
+ * Memoised set of publicly visible slugs, for callers that need it on EVERY
+ * post render (body-link validation). Without the memo a full static build
+ * issues one query per post; the underlying `posts` table already times out
+ * on large statements, so the naive version makes builds fail.
+ *
+ * TTL matches the blog route's `revalidate`, so a newly published post
+ * becomes linkable within the same window its page becomes visible.
+ */
+const SLUGS_TTL_MS = 60_000;
+let slugCache: { at: number; value: Promise<ReadonlySet<string>> } | null = null;
+
+export function getPublishedSlugSet(): Promise<ReadonlySet<string>> {
+  const now = Date.now();
+  if (!slugCache || now - slugCache.at > SLUGS_TTL_MS) {
+    slugCache = {
+      at: now,
+      value: posts.listSlugs().then((s) => new Set(s)),
+    };
+  }
+  return slugCache.value;
 }
 
 /**

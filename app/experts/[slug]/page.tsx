@@ -147,7 +147,6 @@ export default async function ExpertSubPage({ params }: Props) {
                   name={s.name}
                   cta="Read"
                   href={`/experts/${s.slug}`}
-                  updated="Q1 2026"
                 >
                   <p>{s.oneLiner}</p>
                 </Tile>

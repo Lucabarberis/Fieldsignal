@@ -70,7 +70,6 @@ export default async function AlternativePage({ params }: Props) {
               ]
             : [
                 { label: "Format", value: "Category guide" },
-                { label: "Last refreshed", value: "Q1 2026" },
                 { label: "Affiliate spin", value: "None" },
               ]
         }
@@ -253,7 +252,6 @@ export default async function AlternativePage({ params }: Props) {
               name={s.name}
               cta="Read"
               href={`/alternatives/${s.slug}`}
-              updated="Q1 2026"
             >
               <p>{s.description}</p>
             </Tile>

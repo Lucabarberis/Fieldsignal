@@ -5,11 +5,20 @@ import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
-import { getAllPostSlugs, getPostMeta, getPost } from "@/lib/posts";
+import {
+  getAllPostSlugs,
+  getPostMeta,
+  getPost,
+  getPublishedSlugSet,
+} from "@/lib/posts";
+import { makeMdxComponents } from "@/components/MdxLink";
 import { MDXRemote } from "next-mdx-remote-client/rsc";
 import remarkGfm from "remark-gfm";
+import { remarkGlossaryLinks } from "@/lib/mdx/remark-glossary-links";
 
-const mdxOptions = { mdxOptions: { remarkPlugins: [remarkGfm] } };
+const mdxOptions = {
+  mdxOptions: { remarkPlugins: [remarkGfm, remarkGlossaryLinks] },
+};
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -49,6 +58,11 @@ export default async function BlogPostPage({ params }: Props) {
   const post = await getPost(slug);
   if (!post) notFound();
 
+  // Body links are rewritten to canonical paths, and links to posts that
+  // aren't publicly visible are de-linked rather than left to 404.
+  // Memoised — this runs on every post render, including static builds.
+  const publishedSlugs = await getPublishedSlugSet();
+
   const publishedDate = new Date(post.publishedAt).toLocaleDateString("en-GB", {
     year: "numeric",
     month: "long",
@@ -85,7 +99,11 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       <article className="prose px-4 sm:px-9 py-12 max-w-4xl prose-headings:font-sans prose-headings:tracking-[-0.018em] prose-headings:text-ink prose-p:text-ink-2 prose-p:leading-[1.65] prose-a:text-ink prose-a:underline prose-a:decoration-rule-2 hover:prose-a:text-red hover:prose-a:decoration-red prose-strong:text-ink prose-blockquote:border-red prose-blockquote:text-ink-2 prose-code:text-ink prose-code:bg-paper-2 prose-code:before:content-none prose-code:after:content-none prose-code:px-1 prose-code:py-0.5">
-        <MDXRemote source={post.body} options={mdxOptions} />
+        <MDXRemote
+          source={post.body}
+          options={mdxOptions}
+          components={makeMdxComponents(publishedSlugs)}
+        />
       </article>
 
       <CtaBand

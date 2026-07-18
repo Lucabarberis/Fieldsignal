@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ind) return {};
   return pageMetadata({
     title: `${ind.name} Expert Call Transcripts`,
-    description: `Browse anonymised expert call transcripts across ${ind.name.toLowerCase()}. Free previews, full transcripts on subscription.`,
+    description: `Browse anonymised expert call transcripts across ${ind.name}. Free previews, full transcripts on subscription.`,
     path: `/transcripts/by-industry/${industry}`,
   });
 }
@@ -56,7 +56,7 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
         title={`${ind.name.split(" ")[0]} Transcripts`}
         lede={
           <>
-            Anonymised expert call transcripts across {ind.name.toLowerCase()}. Free previews; full transcripts for subscribers.
+            Anonymised expert call transcripts across {ind.name}. Free previews; full transcripts for subscribers.
           </>
         }
         meta={[
@@ -102,7 +102,7 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
       <CtaBand
         title={
           <>
-            Need a custom <span className="text-red">{ind.name.toLowerCase()}</span> expert call?
+            Need a custom <span className="text-red">{ind.name}</span> expert call?
           </>
         }
         meta={<>We&apos;ll source within 72h. Senior researcher direct.</>}

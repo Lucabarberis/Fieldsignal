@@ -37,7 +37,6 @@ export default function UseCasesHubPage() {
           { label: "Disciplines", value: `${useCases.length}` },
           { label: "Format", value: "Project or programme" },
           { label: "Entry point", value: "Single project" },
-          { label: "Last refreshed", value: "Q1 2026" },
         ]}
       />
 

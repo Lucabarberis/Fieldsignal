@@ -39,7 +39,6 @@ export default function AlternativesHubPage() {
         meta={[
           { label: "Competitors reviewed", value: `${competitorPages.length}` },
           { label: "Category guides", value: `${categoryPages.length}` },
-          { label: "Last refreshed", value: "Q1 2026" },
           { label: "Affiliate links", value: "None" },
         ]}
       />
@@ -59,7 +58,6 @@ export default function AlternativesHubPage() {
               meta={<b className="text-ink">{a.primaryKW}</b>}
               cta="Read review"
               href={`/alternatives/${a.slug}`}
-              updated="Q1 2026"
             >
               <p>{a.description}</p>
             </Tile>
@@ -82,7 +80,6 @@ export default function AlternativesHubPage() {
               meta={<b className="text-ink">{a.primaryKW}</b>}
               cta="Read guide"
               href={`/alternatives/${a.slug}`}
-              updated="Q1 2026"
             >
               <p>{a.description}</p>
             </Tile>

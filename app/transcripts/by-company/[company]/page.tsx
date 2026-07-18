@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!label) return {};
   return pageMetadata({
     title: `${label} — Expert Interviews and Transcripts`,
-    description: `Anonymised expert interviews discussing ${label.toLowerCase()}. Competitive position, customer feedback, channel dynamics.`,
+    description: `Anonymised expert interviews discussing ${label}. Competitive position, customer feedback, channel dynamics.`,
     path: `/transcripts/by-company/${company}`,
   });
 }
@@ -58,7 +58,7 @@ export default async function TranscriptsByCompanyPage({ params }: Props) {
         title={`${label} transcripts`}
         lede={
           <>
-            Anonymised expert interviews referencing {label.toLowerCase()}. <b>All identities anonymised, all content MNPI-screened.</b>
+            Anonymised expert interviews referencing {label}. <b>All identities anonymised, all content MNPI-screened.</b>
           </>
         }
         meta={[

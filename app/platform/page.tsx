@@ -56,7 +56,6 @@ export default function PlatformHubPage() {
               meta={<b className="text-ink">{p.primaryKW}</b>}
               cta="Learn more"
               href={`/platform/${p.slug}`}
-              updated="Q1 2026"
             >
               <p>{p.oneLiner}</p>
             </Tile>

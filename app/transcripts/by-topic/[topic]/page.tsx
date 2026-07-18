@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!label) return {};
   return pageMetadata({
     title: `${label} — Expert Interviews`,
-    description: `Curated expert call transcripts on ${label.toLowerCase()}. Anonymised, MNPI-screened, free previews on every transcript.`,
+    description: `Curated expert call transcripts on ${label}. Anonymised, MNPI-screened, free previews on every transcript.`,
     path: `/transcripts/by-topic/${topic}`,
   });
 }
@@ -56,7 +56,7 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
         title={label}
         lede={
           <>
-            Anonymised expert interviews on <b>{label.toLowerCase()}</b>. Free previews; full transcripts for subscribers.
+            Anonymised expert interviews on <b>{label}</b>. Free previews; full transcripts for subscribers.
           </>
         }
         meta={[
@@ -100,7 +100,7 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
       <CtaBand
         title={
           <>
-            Need a custom expert call on <span className="text-red">{label.toLowerCase()}</span>?
+            Need a custom expert call on <span className="text-red">{label}</span>?
           </>
         }
         meta={<>We&apos;ll source a similar operator within 72h.</>}

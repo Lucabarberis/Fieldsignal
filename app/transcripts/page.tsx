@@ -133,7 +133,7 @@ export default async function TranscriptsHubPage() {
                 href={`/transcripts/by-company/${c.slug}`}
                 updated="Live"
               >
-                <p>Transcripts referencing {c.label.toLowerCase()}.</p>
+                <p>Transcripts referencing {c.label}.</p>
               </Tile>
             );
           })}

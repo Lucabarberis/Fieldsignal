@@ -66,7 +66,6 @@ export default async function GlossaryTermPage({ params }: Props) {
         meta={[
           { label: "Term", value: t.term },
           { label: "Section", value: "Glossary" },
-          { label: "Last refreshed", value: "Q1 2026" },
         ]}
       />
 

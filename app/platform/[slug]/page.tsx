@@ -53,7 +53,6 @@ export default async function PlatformSubPage({ params }: Props) {
         meta={[
           { label: "Module", value: p.name },
           { label: "Status", value: "Shipping + roadmap" },
-          { label: "Last updated", value: "Q1 2026" },
         ]}
       />
 
@@ -128,7 +127,6 @@ export default async function PlatformSubPage({ params }: Props) {
                   name={s.name}
                   cta="Learn more"
                   href={`/platform/${s.slug}`}
-                  updated="Q1 2026"
                 >
                   <p>{s.oneLiner}</p>
                 </Tile>
