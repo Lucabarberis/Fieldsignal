@@ -66,7 +66,7 @@ const RESEARCHERS: readonly TeamMember[] = [
 const BIOS: Record<string, React.ReactNode> = {
   "Miles O'Sullivan": (
     <p>
-      Former operator across FAANG-scale technology and growth-stage startups. Built FieldSignal after a decade of using — and being frustrated by — institutional expert networks priced for hedge funds, not founders.
+      Former operator across FAANG-scale technology and growth-stage startups. Spent a decade using institutional expert networks, and being frustrated by them, before building FieldSignal as the alternative.
     </p>
   ),
   "Phosia Chenangat": (
@@ -132,6 +132,7 @@ export default function TeamPage() {
               key={m.name}
               id={`02.${i + 1}`}
               name={m.name}
+              layout="wide"
               role={m.jobTitle}
               photo={m.photo}
               linkedin={m.linkedin}
