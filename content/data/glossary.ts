@@ -66,7 +66,7 @@ export const glossary: readonly GlossaryTerm[] = [
       },
       {
         q: "How much does it cost to use one?",
-        a: "From €500 per call at the boutique end up to six-figure annual retainers at the institutional end. Per-call pricing without minimums is now widely available; the retainer-only model is rare.",
+        a: "From $200 per call at the boutique end up to six-figure annual retainers at the institutional end. Per-call pricing without minimums is now widely available; the retainer-only model is rare.",
       },
     ],
     linkedServiceSlug: "expert-consultations",

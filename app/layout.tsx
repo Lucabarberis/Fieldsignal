@@ -46,13 +46,6 @@ export const metadata: Metadata = {
   description: SITE.description,
   applicationName: SITE.name,
   authors: [{ name: SITE.legalEntity }],
-  keywords: [
-    "expert network",
-    "primary research",
-    "competitive intelligence",
-    "expert consultations",
-    "due diligence",
-  ],
   openGraph: {
     type: "website",
     siteName: SITE.name,

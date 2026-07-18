@@ -58,7 +58,8 @@ export default function HomePage() {
           you&apos;re after. We find them. On a call within days.
         </h1>
         <p className="mt-8 text-lede text-ink-2 max-w-3xl">
-          We connect institutional clients, corporations, SMEs, and startups with the people who know your market best.
+          FieldSignal is an expert network for primary research — connecting institutional
+          clients, corporations, SMEs and startups with the people who know your market best.
         </p>
         <Link
           href="/contact"
