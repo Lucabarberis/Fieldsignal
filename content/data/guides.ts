@@ -19,8 +19,6 @@ export type Guide = {
   readTime: string;
   /** ISO date for ArticleSchema (machine-readable). */
   publishedAt: string;
-  /** "Last updated" label for the page meta (human display). */
-  lastUpdated: string;
   /** Body sections — render as numbered SectionBands. */
   sections: readonly { heading: string; body: string }[];
   /** Optional pull-quote / TL;DR at the top. */
@@ -44,7 +42,6 @@ export const guides: readonly Guide[] = [
       "Most expert network buyers learn by getting burned on the first three projects. This guide compresses that learning into the fundamentals that matter — how to brief, how to scope, how to spot a bad call early, and how to extract real value from the engagement.",
     readTime: "12 min read",
     publishedAt: "2026-01-15",
-    lastUpdated: "Q1 2026",
     tldr: "The brief is the lever. Bad briefs make bad calls inevitable. Spend 30 minutes on the brief before the first call and you'll cut your dud-call rate in half.",
     sections: [
       {
@@ -104,7 +101,6 @@ export const guides: readonly Guide[] = [
       "Expert network pricing is notoriously opaque. Most providers refuse to publish rates and use bespoke quotes to maximise per-client value extraction. This guide breaks down what the major networks actually charge, what drives the differences, and how to evaluate whether you're getting a fair deal.",
     readTime: "10 min read",
     publishedAt: "2026-01-22",
-    lastUpdated: "Q1 2026",
     tldr: "Three pricing axes: per-call rate (€500–€1,500 typical), annual minimum (zero to six figures), and bundled subscription components (transcripts, surveys). Sub-€50k/year buyers should reject any annual minimum — boutiques exist precisely for this profile.",
     sections: [
       {
@@ -159,7 +155,6 @@ export const guides: readonly Guide[] = [
       "Expert network compliance is not optional. The institutional buyers (hedge funds, asset managers, large corporates) require it; the smaller buyers ignore it at their peril. This guide walks through the five compliance elements every reputable network must operate, and the specific things you should verify before signing an MSA.",
     readTime: "11 min read",
     publishedAt: "2026-01-29",
-    lastUpdated: "Q1 2026",
     tldr: "Five required elements: MNPI screening, cooling-off enforcement, NDA disclosure, conflict screening, per-call attestation. Missing any of them = walk away.",
     sections: [
       {
@@ -224,7 +219,6 @@ export const guides: readonly Guide[] = [
       "Most expert calls underperform because the questions are too generic, too leading, or too dependent on the expert's memory. The templates below come from 200+ structured expert engagements and are designed to surface ground-truth insight quickly. Adapt to your context — don't read them as a script.",
     readTime: "15 min read",
     publishedAt: "2026-02-05",
-    lastUpdated: "Q1 2026",
     tldr: "Three rules: ask about specific past behaviour not future opinion, ask for examples before asking for patterns, save the killer question for after rapport. Templates below.",
     sections: [
       {
@@ -289,7 +283,6 @@ export const guides: readonly Guide[] = [
       "Most research budgets are spent on the wrong type of research for the decision being made. This guide gives you a practical framework for choosing between primary (calls, surveys, interviews) and secondary (analyst reports, broker research, public filings) by use case.",
     readTime: "8 min read",
     publishedAt: "2026-02-12",
-    lastUpdated: "Q1 2026",
     tldr: "Default: secondary first to map the landscape, primary second to test the specific hypothesis that matters. Skip secondary only when speed matters more than context.",
     sections: [
       {
@@ -344,7 +337,6 @@ export const guides: readonly Guide[] = [
       "Most expert network RFPs are too generic to produce useful comparison. The vendors all answer 'yes' to every capability question; differentiation gets lost. This template focuses on the 22 evaluation criteria that actually predict project success.",
     readTime: "11 min read",
     publishedAt: "2026-02-19",
-    lastUpdated: "Q1 2026",
     tldr: "Don't ask 'can you do X?' (everyone says yes). Ask 'show me a sample of X' or 'walk me through how X works in practice.' Sample-based questions cut through marketing.",
     sections: [
       {
@@ -404,7 +396,6 @@ export const guides: readonly Guide[] = [
       "Most CI frameworks taught in MBA programmes are too generic to produce useful intelligence in real continuous programmes. The seven below are tested in actual buyer-facing CI work and produce findings that survive in front of a CEO or IC.",
     readTime: "13 min read",
     publishedAt: "2026-02-26",
-    lastUpdated: "Q1 2026",
     tldr: "Pick 2-3 frameworks for your programme, not 7. Each framework has a specific lens. Mixing too many produces noise.",
     sections: [
       {
@@ -469,7 +460,6 @@ export const guides: readonly Guide[] = [
       "Most VoC programmes inside companies are either glorified NPS surveys or one-off projects that fade after the first year. This guide walks through how to design a programmatic VoC engine that produces continuously useful insight — and the specific governance choices that determine whether the programme survives year 2.",
     readTime: "12 min read",
     publishedAt: "2026-03-05",
-    lastUpdated: "Q1 2026",
     tldr: "Programmatic = quarterly cadence, third-party interviewers, 15-40 calls per cycle, structured findings, executive review every 90 days. Anything less is project-based VoC pretending to be a programme.",
     sections: [
       {

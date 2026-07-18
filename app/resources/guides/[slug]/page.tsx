@@ -60,7 +60,6 @@ export default async function GuidePage({ params }: Props) {
         lede={g.pageLede}
         meta={[
           { label: "Read time", value: g.readTime },
-          { label: "Last updated", value: g.lastUpdated },
           { label: "Topic", value: g.primaryKW },
         ]}
       />
