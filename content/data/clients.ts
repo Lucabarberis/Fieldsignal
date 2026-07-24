@@ -25,7 +25,7 @@ export const clients: readonly Client[] = [
     slug: "startups-and-scaleups",
     id: "01.1",
     name: "STARTUPS & SCALE-UPS",
-    title: "Expert Network for Startups - Without the Six-Figure Retainer",
+    title: "Expert Network for Startups",
     description:
       "Seed to Series D startups validating PMF, planning expansion, or running pre-fundraise diligence. Per-call pricing, no minimums.",
     oneLiner:
@@ -57,7 +57,7 @@ export const clients: readonly Client[] = [
     slug: "venture-capital",
     id: "01.2",
     name: "VENTURE CAPITAL",
-    title: "Expert Network for Venture Capital - Diligence at Fund Economics",
+    title: "Expert Network for Venture Capital",
     description:
       "Pre-investment diligence, market sizing and management references for seed through growth-stage funds. Per-call or quarterly subscriptions.",
     oneLiner:
@@ -89,7 +89,7 @@ export const clients: readonly Client[] = [
     slug: "private-equity",
     id: "01.3",
     name: "PRIVATE EQUITY",
-    title: "Expert Network for Private Equity - From Sourcing to Exit",
+    title: "Expert Network for Private Equity",
     description:
       "Buy-side and sell-side commercial diligence, management checks and portfolio research for PE funds across small-cap to mega-cap.",
     oneLiner:
@@ -121,7 +121,7 @@ export const clients: readonly Client[] = [
     slug: "hedge-funds",
     id: "01.4",
     name: "HEDGE FUNDS",
-    title: "Expert Network for Hedge Funds - Built for Emerging Managers",
+    title: "Expert Network for Hedge Funds",
     description:
       "Single-stock primary research, channel checks and rapid expert calls. Compliance equivalent to GLG. Priced for $50M to $500M AUM funds.",
     oneLiner:
@@ -153,7 +153,7 @@ export const clients: readonly Client[] = [
     slug: "management-consulting",
     id: "01.5",
     name: "MANAGEMENT CONSULTING",
-    title: "Expert Network for Strategy Consultants - Speed and Precision",
+    title: "Expert Network for Strategy Consultants",
     description:
       "Tier 1 to boutique consulting firms running market entry, due diligence and growth strategy engagements.",
     oneLiner:
@@ -219,7 +219,7 @@ export const clients: readonly Client[] = [
     slug: "small-and-medium-businesses",
     id: "01.7",
     name: "SMEs & FAMILY-RUN",
-    title: "Expert Network for SMEs - Family-Run to Mid-Market",
+    title: "Expert Network for SMEs",
     description:
       "SME and family-owned firms entering new markets or assessing M&A. Operator-grade research without enterprise pricing.",
     oneLiner:
@@ -347,7 +347,7 @@ export const clients: readonly Client[] = [
     slug: "family-offices",
     id: "01.11",
     name: "FAMILY OFFICES",
-    title: "Expert Network for Family Offices - Direct Deal Diligence",
+    title: "Expert Network for Family Offices",
     description:
       "Direct-investment diligence, manager selection and category research for single and multi-family offices.",
     oneLiner:

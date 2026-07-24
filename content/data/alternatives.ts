@@ -40,7 +40,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "01",
     competitorSlug: "glg",
     name: "GLG ALTERNATIVES",
-    title: "GLG Alternatives 2026 - 7 Honest Competitors Compared",
+    title: "GLG Alternatives 2026",
     description:
       "Six expert networks compared on pricing, compliance and turnaround. Includes when GLG is still the right answer and when it isn't.",
     pageLede:
@@ -84,7 +84,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "02",
     competitorSlug: "alphasights",
     name: "ALPHASIGHTS ALTERNATIVES",
-    title: "AlphaSights Alternatives 2026 - Compared on Price and Service",
+    title: "AlphaSights Alternatives 2026",
     description:
       "Side-by-side comparison of AlphaSights vs FieldSignal, GLG, Third Bridge, Guidepoint and Coleman. No affiliate spin.",
     pageLede:
@@ -126,7 +126,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "03",
     competitorSlug: "third-bridge",
     name: "THIRD BRIDGE ALTERNATIVES",
-    title: "Third Bridge Alternatives 2026 - Transcript and Call Networks",
+    title: "Third Bridge Alternatives 2026",
     description:
       "Direct comparison of Third Bridge vs Tegus, GLG, AlphaSights and FieldSignal. Focused on transcript depth and analyst-led research.",
     pageLede:
@@ -169,7 +169,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "04",
     competitorSlug: "guidepoint",
     name: "GUIDEPOINT ALTERNATIVES",
-    title: "Guidepoint Alternatives 2026 - Cheaper Generalist Networks",
+    title: "Guidepoint Alternatives 2026",
     description:
       "Six alternatives for teams using Guidepoint for breadth. Compared on cost, geographic depth and compliance.",
     pageLede:
@@ -212,7 +212,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "05",
     competitorSlug: "tegus",
     name: "TEGUS ALTERNATIVES",
-    title: "Tegus Alternatives 2026 - Transcript Library Comparison",
+    title: "Tegus Alternatives 2026",
     description:
       "Compare Tegus and AlphaSense to Third Bridge, GLG, AlphaSights and FieldSignal on transcript depth, AI search and call access.",
     pageLede:
@@ -255,7 +255,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "06",
     competitorSlug: "alphasense",
     name: "ALPHASENSE ALTERNATIVES",
-    title: "AlphaSense Alternatives 2026 - Investment Research Platforms",
+    title: "AlphaSense Alternatives 2026",
     description:
       "Alternatives to AlphaSense for investment research, transcript search and document analysis.",
     pageLede:
@@ -298,7 +298,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "07",
     competitorSlug: "coleman-research",
     name: "COLEMAN RESEARCH ALTERNATIVES",
-    title: "Coleman Research Alternatives 2026 - Compared on Pricing",
+    title: "Coleman Research Alternatives 2026",
     description:
       "Honest comparison of Coleman vs FieldSignal, Mosaic, Maven and the Big Four expert networks.",
     pageLede:
@@ -341,7 +341,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "08",
     competitorSlug: "newtonx",
     name: "NEWTONX ALTERNATIVES",
-    title: "NewtonX Alternatives 2026 - B2B Survey Networks Compared",
+    title: "NewtonX Alternatives 2026",
     description:
       "Alternatives to NewtonX for B2B expert surveys. Compared on panel build, fielding speed and analysis depth.",
     pageLede:
@@ -386,7 +386,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "09",
     category: "affordable",
     name: "AFFORDABLE EXPERT NETWORKS",
-    title: "Affordable Expert Networks - Without the Six-Figure Retainer",
+    title: "Affordable Expert Networks",
     description:
       "Seven expert networks that don't require annual retainers. Compared on per-call pricing, project minimums and quality.",
     pageLede:
@@ -423,7 +423,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "10",
     category: "startups",
     name: "EXPERT NETWORKS FOR STARTUPS",
-    title: "Best Expert Networks for Startups - From Seed to Series C",
+    title: "Best Expert Networks for Startups",
     description:
       "Six expert networks ranked for early-stage founders. Compared on minimums, speed and willingness to take small projects.",
     pageLede:
@@ -460,7 +460,7 @@ export const alternatives: readonly AlternativeContent[] = [
     id: "11",
     category: "small-funds",
     name: "EXPERT NETWORKS FOR SMALL FUNDS",
-    title: "Expert Networks for Small Funds - For $50M to $500M AUM",
+    title: "Expert Networks for Small Funds",
     description:
       "Six networks suited to emerging hedge funds, micro-cap PE and small VC funds. Compared on minimums, compliance and call rates.",
     pageLede:

@@ -51,7 +51,7 @@ export const compares: readonly CompareContent[] = [
     id: "01",
     competitorSlug: "glg",
     name: "FIELDSIGNAL vs GLG",
-    title: "FieldSignal vs GLG - Boutique vs Institutional Expert Network",
+    title: "FieldSignal vs GLG - Boutique vs Institutional",
     description:
       "Honest head-to-head on price, network depth, turnaround and compliance. When GLG is right. When FieldSignal is.",
     pageLede:
@@ -121,7 +121,7 @@ export const compares: readonly CompareContent[] = [
     id: "02",
     competitorSlug: "alphasights",
     name: "FIELDSIGNAL vs ALPHASIGHTS",
-    title: "FieldSignal vs AlphaSights - Boutique vs Speed-First Service",
+    title: "FieldSignal vs AlphaSights - Boutique vs Speed",
     description:
       "Where AlphaSights' speed and account model wins. Where FieldSignal's per-call pricing and senior contact win. Honest comparison.",
     pageLede:
@@ -190,7 +190,7 @@ export const compares: readonly CompareContent[] = [
     id: "03",
     competitorSlug: "third-bridge",
     name: "FIELDSIGNAL vs THIRD BRIDGE",
-    title: "FieldSignal vs Third Bridge - Calls vs Transcript Library",
+    title: "FieldSignal vs Third Bridge - Calls vs Library",
     description:
       "Third Bridge's Forum library vs FieldSignal's custom calls + lightweight transcripts. Where each genuinely wins.",
     pageLede:
@@ -256,7 +256,7 @@ export const compares: readonly CompareContent[] = [
     id: "04",
     competitorSlug: "guidepoint",
     name: "FIELDSIGNAL vs GUIDEPOINT",
-    title: "FieldSignal vs Guidepoint - Boutique vs Generalist Breadth",
+    title: "FieldSignal vs Guidepoint - Focused vs Broad",
     description:
       "Guidepoint's multi-region scale vs FieldSignal's per-project depth. When each is genuinely the right answer.",
     pageLede:
@@ -323,7 +323,7 @@ export const compares: readonly CompareContent[] = [
     id: "05",
     competitorSlug: "tegus",
     name: "FIELDSIGNAL vs TEGUS",
-    title: "FieldSignal vs Tegus - Custom Calls vs Transcript Library",
+    title: "FieldSignal vs Tegus - Custom Calls vs Library",
     description:
       "Tegus' AI-indexed transcript library vs FieldSignal's custom calls + $99/mo transcripts. When each wins, honestly.",
     pageLede:
@@ -389,7 +389,7 @@ export const compares: readonly CompareContent[] = [
     id: "06",
     competitorSlug: "coleman-research",
     name: "FIELDSIGNAL vs COLEMAN RESEARCH",
-    title: "FieldSignal vs Coleman Research - Healthcare and Beyond",
+    title: "FieldSignal vs Coleman - Healthcare and Beyond",
     description:
       "Coleman's healthcare bench vs FieldSignal's broader EU coverage and unbundled pricing. Where each is the right call.",
     pageLede:

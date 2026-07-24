@@ -35,7 +35,7 @@ export const guides: readonly Guide[] = [
     slug: "how-to-use-an-expert-network",
     id: "01",
     name: "HOW TO USE AN EXPERT NETWORK",
-    title: "How to Use an Expert Network - 2026 Buyer's Guide",
+    title: "How to Use an Expert Network",
     description:
       "A practical guide to running expert research projects — briefing, scheduling, compliance, deliverables. For first-time and experienced buyers.",
     oneLiner:
@@ -112,7 +112,7 @@ export const guides: readonly Guide[] = [
     slug: "expert-network-pricing-explained",
     id: "02",
     name: "EXPERT NETWORK PRICING EXPLAINED",
-    title: "Expert Network Pricing Explained - What You Actually Pay",
+    title: "Expert Network Pricing Explained",
     description:
       "Per-call rates, retainers, project packages and subscription pricing across the major expert networks. What you actually pay and why.",
     oneLiner:
@@ -184,7 +184,7 @@ export const guides: readonly Guide[] = [
     slug: "expert-network-compliance-101",
     id: "03",
     name: "EXPERT NETWORK COMPLIANCE 101",
-    title: "Expert Network Compliance 101 - MNPI, GDPR and ESMA",
+    title: "Expert Network Compliance 101",
     description:
       "The compliance framework every expert network must operate under — and what to verify before signing an MSA. MNPI, GDPR, ESMA, audit trail.",
     oneLiner:
@@ -266,7 +266,7 @@ export const guides: readonly Guide[] = [
     slug: "expert-interview-question-templates",
     id: "04",
     name: "EXPERT INTERVIEW QUESTION TEMPLATES",
-    title: "Expert Interview Question Templates - 50+ Examples",
+    title: "Expert Interview Question Templates",
     description:
       "Tested question templates for expert calls across competitive intel, market sizing, win-loss, due diligence and product research.",
     oneLiner:
@@ -344,7 +344,7 @@ export const guides: readonly Guide[] = [
     slug: "primary-vs-secondary-research",
     id: "05",
     name: "PRIMARY vs SECONDARY RESEARCH",
-    title: "Primary vs Secondary Research - When to Use Each",
+    title: "Primary vs Secondary Research",
     description:
       "Practical framework for choosing primary research (expert calls, surveys, interviews) vs secondary research (analyst reports, broker research) by use case.",
     oneLiner:
@@ -412,7 +412,7 @@ export const guides: readonly Guide[] = [
     slug: "buying-an-expert-network-rfp-template",
     id: "06",
     name: "BUYING AN EXPERT NETWORK (RFP TEMPLATE)",
-    title: "Buying an Expert Network - RFP Template and Scoring",
+    title: "Buying an Expert Network",
     description:
       "Practical RFP template + scoring rubric for buying expert network services. 22 evaluation criteria, weighted, with example answers.",
     oneLiner:
@@ -485,7 +485,7 @@ export const guides: readonly Guide[] = [
     slug: "competitive-intelligence-frameworks",
     id: "07",
     name: "COMPETITIVE INTELLIGENCE FRAMEWORKS",
-    title: "Competitive Intelligence Frameworks - 7 That Actually Work",
+    title: "Competitive Intelligence Frameworks",
     description:
       "Seven CI frameworks tested across 30+ continuous CI programmes. When each works, where each fails, and how to combine them.",
     oneLiner:
@@ -563,7 +563,7 @@ export const guides: readonly Guide[] = [
     slug: "running-a-voice-of-customer-program",
     id: "08",
     name: "RUNNING A VOICE OF CUSTOMER PROGRAM",
-    title: "Running a Voice of Customer Program - Step-by-Step",
+    title: "Running a Voice of Customer Program",
     description:
       "Step-by-step guide to designing and running a programmatic VoC programme that surfaces what customers won't tell your account team.",
     oneLiner:

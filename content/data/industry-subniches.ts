@@ -33,7 +33,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "saas",
     id: "01.1.1",
     name: "SAAS",
-    title: "SaaS Expert Network - Operators, PMs and Buyers on Demand",
+    title: "SaaS Expert Network",
     description:
       "Speak with SaaS operators, PMs, RevOps leaders and end-buyers. Coverage across horizontal SaaS, vertical SaaS and PLG-led companies.",
     pageLede:
@@ -64,7 +64,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "cybersecurity",
     id: "01.1.2",
     name: "CYBERSECURITY",
-    title: "Cybersecurity Expert Network - CISOs, Practitioners and Buyers",
+    title: "Cybersecurity Expert Network",
     description:
       "CISOs, security architects, SOC analysts and infosec procurement on demand. EDR, SIEM, SASE, identity and cloud security depth.",
     pageLede:
@@ -95,7 +95,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "cloud-infrastructure",
     id: "01.1.3",
     name: "CLOUD INFRASTRUCTURE",
-    title: "Cloud Infrastructure Experts - AWS, Azure, GCP and Beyond",
+    title: "Cloud Infrastructure Experts",
     description:
       "Hyperscaler buyers, FinOps leaders, platform engineers and cloud architects. Workload migration, spend optimization, multi-cloud strategy.",
     pageLede:
@@ -125,7 +125,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "semiconductors",
     id: "01.1.4",
     name: "SEMICONDUCTORS",
-    title: "Semiconductor Expert Network - Foundry, Design, Equipment",
+    title: "Semiconductor Expert Network",
     description:
       "Foundry operators, fabless executives, equipment OEMs and packaging specialists. Coverage across logic, memory, analog and power.",
     pageLede:
@@ -156,7 +156,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "ai-and-machine-learning",
     id: "01.1.5",
     name: "AI & MACHINE LEARNING",
-    title: "AI and Machine Learning Expert Network - Builders and Buyers",
+    title: "AI and Machine Learning Expert Network",
     description:
       "ML engineers, AI product leaders, data platform architects and enterprise buyers. Foundation models, vertical AI, ML-Ops, GPU economics.",
     pageLede:
@@ -187,7 +187,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "developer-tools",
     id: "01.1.6",
     name: "DEVELOPER TOOLS",
-    title: "Developer Tools Expert Network - DevEx, CI/CD, Observability",
+    title: "Developer Tools Expert Network",
     description:
       "Platform engineering leaders, DevEx managers, SRE leads and developer-buyer panels for tooling categories from IDE to observability.",
     pageLede:
@@ -218,7 +218,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "fintech-software",
     id: "01.1.7",
     name: "FINTECH SOFTWARE",
-    title: "Fintech Software Expert Network - Payments, Lending, Risk",
+    title: "Fintech Software Expert Network",
     description:
       "Software-focused fintech operators across payments, lending, treasury, compliance and risk. Distinct from broader fintech industry page.",
     pageLede:
@@ -251,7 +251,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "pharmaceuticals",
     id: "01.2.1",
     name: "PHARMACEUTICALS",
-    title: "Pharma Expert Network - Commercial, Clinical, Market Access",
+    title: "Pharma Expert Network",
     description:
       "Pharma commercial leaders, market access specialists, clinical investigators and prescribers across small molecule and biologics.",
     pageLede:
@@ -282,7 +282,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "medical-devices",
     id: "01.2.2",
     name: "MEDICAL DEVICES",
-    title: "Medical Device Expert Network - Surgeons, GPOs, Buyers",
+    title: "Medical Device Expert Network",
     description:
       "Surgeons, hospital procurement leaders, GPO contracts experts and device sales leaders across surgical, cardio, ortho and diagnostics.",
     pageLede:
@@ -313,7 +313,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "digital-health",
     id: "01.2.3",
     name: "DIGITAL HEALTH",
-    title: "Digital Health Expert Network - Telehealth, EHR, Payor Tech",
+    title: "Digital Health Expert Network",
     description:
       "Telehealth founders, EHR-integrated SaaS operators, payor tech leaders and clinical informatics specialists.",
     pageLede:
@@ -344,7 +344,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "biotech",
     id: "01.2.4",
     name: "BIOTECH",
-    title: "Biotech Expert Network - Clinical, CRO, BD and Investors",
+    title: "Biotech Expert Network",
     description:
       "Biotech BD leaders, CRO operators, clinical operations specialists and ex-pharma R&D leads for due diligence and category research.",
     pageLede:
@@ -375,7 +375,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "hospital-systems",
     id: "01.2.5",
     name: "HOSPITAL SYSTEMS",
-    title: "Hospital Systems Expert Network - Administrators, IDNs, Networks",
+    title: "Hospital Systems Expert Network",
     description:
       "C-suite hospital administrators, IDN procurement leaders, service-line VPs and clinical chiefs across US, UK and European systems.",
     pageLede:
@@ -408,7 +408,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "investment-banking",
     id: "01.3.1",
     name: "INVESTMENT BANKING",
-    title: "Investment Banking Expert Network - Ex-Bankers and Coverage Leads",
+    title: "Investment Banking Expert Network",
     description:
       "Ex-MDs, coverage bankers and capital markets specialists across M&A, ECM, DCM and leveraged finance.",
     pageLede:
@@ -439,7 +439,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "asset-management",
     id: "01.3.2",
     name: "ASSET MANAGEMENT",
-    title: "Asset Management Expert Network - PMs, Distribution, Allocators",
+    title: "Asset Management Expert Network",
     description:
       "Ex-PMs, distribution leaders, allocators and operations executives across traditional and alternative asset management.",
     pageLede:
@@ -470,7 +470,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "fintech",
     id: "01.3.3",
     name: "FINTECH",
-    title: "Fintech Expert Network - Payments, Lending, Wealth, Insurtech",
+    title: "Fintech Expert Network",
     description:
       "Fintech founders, banking-as-a-service operators, payments specialists and insurtech executives across consumer and B2B fintech.",
     pageLede:
@@ -501,7 +501,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "insurance",
     id: "01.3.4",
     name: "INSURANCE",
-    title: "Insurance Expert Network - Underwriters, Brokers, Insurtech",
+    title: "Insurance Expert Network",
     description:
       "Underwriters, broker leaders, claims specialists, reinsurance veterans and insurtech founders across P&C, life and health.",
     pageLede:
@@ -532,7 +532,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "crypto-and-digital-assets",
     id: "01.3.5",
     name: "CRYPTO & DIGITAL ASSETS",
-    title: "Crypto and Digital Asset Expert Network - Builders, Buyers, Regulators",
+    title: "Crypto and Digital Asset Expert Network",
     description:
       "Exchange operators, custody specialists, DeFi protocol leads and policy specialists across the digital asset stack.",
     pageLede:
@@ -565,7 +565,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "cpg",
     id: "01.4.1",
     name: "CPG",
-    title: "CPG Expert Network - Brand, Sales, Supply Chain, Trade",
+    title: "CPG Expert Network",
     description:
       "Brand managers, trade marketing leaders, supply chain VPs and category buyers across food, beverage, personal care and household.",
     pageLede:
@@ -596,7 +596,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "ecommerce-and-dtc",
     id: "01.4.2",
     name: "DTC & ECOMMERCE",
-    title: "DTC and Ecommerce Expert Network - Founders, CMOs, Operators",
+    title: "DTC and Ecommerce Expert Network",
     description:
       "DTC founders, ecommerce CMOs, marketplace operators and last-mile leaders across consumer ecommerce verticals.",
     pageLede:
@@ -627,7 +627,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "restaurants-and-hospitality",
     id: "01.4.3",
     name: "RESTAURANTS & HOSPITALITY",
-    title: "Restaurant and Hospitality Expert Network - Operators, Franchisees",
+    title: "Restaurant and Hospitality Expert Network",
     description:
       "Multi-unit operators, franchisees, hotel general managers, F&B directors and back-of-house leaders.",
     pageLede:
@@ -658,7 +658,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "luxury-goods",
     id: "01.4.4",
     name: "LUXURY GOODS",
-    title: "Luxury Goods Expert Network - Brand, Retail, Wholesale",
+    title: "Luxury Goods Expert Network",
     description:
       "Brand leaders, luxury retail VPs, wholesale buyers and travel-retail specialists across fashion, watches, jewelry and beauty.",
     pageLede:
@@ -689,7 +689,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "grocery-and-food",
     id: "01.4.5",
     name: "GROCERY & FOOD",
-    title: "Grocery and Food Expert Network - Retail, Wholesale, Foodservice",
+    title: "Grocery and Food Expert Network",
     description:
       "Grocery category buyers, foodservice distributors, private-label specialists and supermarket merchandisers.",
     pageLede:
@@ -722,7 +722,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "automotive",
     id: "01.5.1",
     name: "AUTOMOTIVE",
-    title: "Automotive Expert Network - OEMs, Tier 1s, EVs and Aftermarket",
+    title: "Automotive Expert Network",
     description:
       "OEM engineering leaders, Tier 1 supplier executives, EV battery specialists and aftermarket distribution experts.",
     pageLede:
@@ -753,7 +753,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "aerospace-and-defense",
     id: "01.5.2",
     name: "AEROSPACE & DEFENSE",
-    title: "Aerospace and Defense Expert Network - OEMs, MRO, Suppliers",
+    title: "Aerospace and Defense Expert Network",
     description:
       "Airframer engineers, MRO leaders, defense procurement specialists and Tier 1/2 aerospace suppliers across commercial and defense.",
     pageLede:
@@ -784,7 +784,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "chemicals",
     id: "01.5.3",
     name: "CHEMICALS",
-    title: "Chemicals Expert Network - Specialty, Petchem, Coatings",
+    title: "Chemicals Expert Network",
     description:
       "Specialty chemicals operators, petchem traders, coatings formulators and procurement leads for chemical buyers.",
     pageLede:
@@ -815,7 +815,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "logistics-and-supply-chain",
     id: "01.5.4",
     name: "LOGISTICS & SUPPLY CHAIN",
-    title: "Logistics Expert Network - Freight, 3PL, Warehousing",
+    title: "Logistics Expert Network",
     description:
       "Freight forwarders, 3PL executives, warehousing operators and last-mile specialists across ocean, air, rail and road.",
     pageLede:
@@ -846,7 +846,7 @@ export const industrySubniches: readonly IndustrySubniche[] = [
     slug: "construction",
     id: "01.5.5",
     name: "CONSTRUCTION",
-    title: "Construction Expert Network - Contractors, Materials, ConTech",
+    title: "Construction Expert Network",
     description:
       "GCs, subcontractor leaders, building products buyers and ConTech buyers across residential, commercial and infrastructure.",
     pageLede:

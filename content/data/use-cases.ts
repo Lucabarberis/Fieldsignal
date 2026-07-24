@@ -36,7 +36,7 @@ export const useCases: readonly UseCase[] = [
     slug: "competitive-intelligence",
     id: "01",
     name: "COMPETITIVE INTELLIGENCE",
-    title: "Competitive Intelligence Services - Continuous CI Programs",
+    title: "Competitive Intelligence Services",
     description:
       "Always-on competitive intelligence backed by expert interviews, channel checks and structured tracking. Monthly briefings and battle cards.",
     oneLiner:
@@ -72,7 +72,7 @@ export const useCases: readonly UseCase[] = [
     slug: "market-sizing",
     id: "02",
     name: "MARKET SIZING",
-    title: "Market Sizing Research - Bottom-Up TAM, SAM, SOM",
+    title: "Market Sizing Research",
     description:
       "Bottom-up market sizing combining expert interviews with desk research. TAM, SAM and SOM validated by operators in the category.",
     oneLiner:
@@ -108,7 +108,7 @@ export const useCases: readonly UseCase[] = [
     slug: "new-market-entry",
     id: "03",
     name: "NEW MARKET ENTRY",
-    title: "New Market Entry Research - Geographic and Vertical Expansion",
+    title: "New Market Entry Research",
     description:
       "Localized expert interviews, channel checks and regulatory research for geographic and vertical expansion decisions.",
     oneLiner:
@@ -144,7 +144,7 @@ export const useCases: readonly UseCase[] = [
     slug: "m-and-a-due-diligence",
     id: "04",
     name: "M&A DUE DILIGENCE",
-    title: "M&A Due Diligence Research - Pre-Deal Primary Research",
+    title: "M&A Due Diligence Research",
     description:
       "Pre-LOI and pre-close primary research for strategic and financial acquirers. Customer calls, supplier interviews, management references.",
     oneLiner:
@@ -180,7 +180,7 @@ export const useCases: readonly UseCase[] = [
     slug: "commercial-due-diligence",
     id: "05",
     name: "COMMERCIAL DUE DILIGENCE",
-    title: "Commercial Due Diligence - Primary Research for PE Deals",
+    title: "Commercial Due Diligence",
     description:
       "Buy-side and sell-side commercial due diligence built on expert interviews. Standard 2-week sprint, custom timelines for complex targets.",
     oneLiner:
@@ -216,7 +216,7 @@ export const useCases: readonly UseCase[] = [
     slug: "voice-of-customer",
     id: "06",
     name: "VOICE OF CUSTOMER",
-    title: "Voice of Customer Research - Programmatic Customer Interviews",
+    title: "Voice of Customer Research",
     description:
       "Programmatic, third-party run customer interviews. Independent feedback your customers won't give you directly.",
     oneLiner:
@@ -252,7 +252,7 @@ export const useCases: readonly UseCase[] = [
     slug: "win-loss-analysis",
     id: "07",
     name: "WIN-LOSS ANALYSIS",
-    title: "Win Loss Analysis - Independent Win-Loss Programs",
+    title: "Win Loss Analysis",
     description:
       "Trained interviewers conducting 15 to 50 win-loss calls per quarter. Findings shipped as dashboards and quarterly briefings.",
     oneLiner:
@@ -288,7 +288,7 @@ export const useCases: readonly UseCase[] = [
     slug: "pricing-research",
     id: "08",
     name: "PRICING RESEARCH",
-    title: "Pricing Research - Willingness to Pay and Competitive Pricing",
+    title: "Pricing Research",
     description:
       "Customer and channel interviews to test pricing, packaging and discount structures. Van Westendorp, conjoint and qualitative methods.",
     oneLiner:
@@ -324,7 +324,7 @@ export const useCases: readonly UseCase[] = [
     slug: "channel-and-distribution-research",
     id: "09",
     name: "CHANNEL & DISTRIBUTION",
-    title: "Channel and Distribution Research - Distributor and Reseller Insights",
+    title: "Channel and Distribution Research",
     description:
       "Distributor, reseller and broker interviews to map channel economics, partner satisfaction and category dynamics.",
     oneLiner:
@@ -360,7 +360,7 @@ export const useCases: readonly UseCase[] = [
     slug: "management-reference-checks",
     id: "10",
     name: "MANAGEMENT REFERENCE CHECKS",
-    title: "Management Reference Checks - Off-List Reference Calls",
+    title: "Management Reference Checks",
     description:
       "Off-list reference calls with former colleagues, customers and partners. For pre-IC, pre-hire and pre-close decisions.",
     oneLiner:
@@ -396,7 +396,7 @@ export const useCases: readonly UseCase[] = [
     slug: "investment-thesis-validation",
     id: "11",
     name: "INVESTMENT THESIS VALIDATION",
-    title: "Investment Thesis Validation - Primary Research for Investors",
+    title: "Investment Thesis Validation",
     description:
       "Test the assumptions underlying your investment thesis with structured expert and customer research before you commit capital.",
     oneLiner:
@@ -432,7 +432,7 @@ export const useCases: readonly UseCase[] = [
     slug: "product-launch-research",
     id: "12",
     name: "PRODUCT LAUNCH RESEARCH",
-    title: "Product Launch Research - Customer and Channel Validation",
+    title: "Product Launch Research",
     description:
       "Validate positioning, pricing and channel strategy before launch. Customer interviews, channel feedback and competitive teardown.",
     oneLiner:
@@ -468,7 +468,7 @@ export const useCases: readonly UseCase[] = [
     slug: "customer-research",
     id: "13",
     name: "CUSTOMER RESEARCH",
-    title: "Customer Research - B2B and B2C Customer Insights",
+    title: "Customer Research",
     description:
       "Programmatic and ad-hoc customer interviews for buyers in SaaS, fintech, healthcare and industrial verticals.",
     oneLiner:
@@ -504,7 +504,7 @@ export const useCases: readonly UseCase[] = [
     slug: "regulatory-and-policy-research",
     id: "14",
     name: "REGULATORY & POLICY",
-    title: "Regulatory and Policy Research - Ex-Regulators and Policy Specialists",
+    title: "Regulatory and Policy Research",
     description:
       "Ex-regulators, policy specialists and industry counsel on demand. For sectors where rule changes drive value.",
     oneLiner:
@@ -540,7 +540,7 @@ export const useCases: readonly UseCase[] = [
     slug: "supplier-and-procurement-research",
     id: "15",
     name: "SUPPLIER & PROCUREMENT",
-    title: "Supplier and Procurement Research - Vendor Selection and Spend",
+    title: "Supplier and Procurement Research",
     description:
       "Supplier interviews, procurement leader panels and category buyer surveys for vendor selection and category planning.",
     oneLiner:

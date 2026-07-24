@@ -36,7 +36,7 @@ export const regions: readonly Region[] = [
     slug: "united-kingdom",
     id: "01",
     name: "UNITED KINGDOM",
-    title: "Expert Network UK - London and Regional Coverage",
+    title: "Expert Network UK",
     description:
       "UK-headquartered with 15,000+ specialists across London, Manchester, Edinburgh and beyond. FCA-aware compliance for UK financial clients.",
     oneLiner:
@@ -68,7 +68,7 @@ export const regions: readonly Region[] = [
     slug: "europe",
     id: "02",
     name: "EUROPE",
-    title: "European Expert Network - EU Coverage in 14 Languages",
+    title: "European Expert Network",
     description:
       "Expert depth across DACH, France, Italy, Iberia, Benelux and Nordics. GDPR-native operations and EU-based data residency.",
     oneLiner:
@@ -133,7 +133,7 @@ export const regions: readonly Region[] = [
     slug: "middle-east-and-north-africa",
     id: "04",
     name: "MIDDLE EAST & NORTH AFRICA",
-    title: "MENA Expert Network - GCC and North Africa Specialists",
+    title: "MENA Expert Network",
     description:
       "Regional expert depth across GCC, Egypt, Morocco and Turkey. Arabic-language interviews and on-the-ground operators.",
     oneLiner:
@@ -197,7 +197,7 @@ export const regions: readonly Region[] = [
     slug: "southeast-asia",
     id: "06",
     name: "SOUTHEAST ASIA",
-    title: "Southeast Asia Expert Network - Indonesia, Thailand, Vietnam, Philippines",
+    title: "Southeast Asia Expert Network",
     description:
       "Operator-level coverage across ASEAN-6. Local-language interviews and ground-truth research for funds expanding into the region.",
     oneLiner:
@@ -229,7 +229,7 @@ export const regions: readonly Region[] = [
     slug: "latin-america",
     id: "07",
     name: "LATIN AMERICA",
-    title: "LATAM Expert Network - Brazil, Mexico, Andean and Southern Cone",
+    title: "LATAM Expert Network",
     description:
       "Spanish and Portuguese-language interviews across LATAM's six largest markets. Coverage gaps filled by local recruitment partners.",
     oneLiner:
@@ -261,7 +261,7 @@ export const regions: readonly Region[] = [
     slug: "africa",
     id: "08",
     name: "AFRICA",
-    title: "Africa Expert Network - Sub-Saharan and North Africa",
+    title: "Africa Expert Network",
     description:
       "English, French and Portuguese-language coverage across Nigeria, Kenya, South Africa, Egypt and francophone West Africa.",
     oneLiner:

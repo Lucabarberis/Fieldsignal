@@ -38,7 +38,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "01",
     term: "Expert Network",
     name: "EXPERT NETWORK",
-    title: "What Is an Expert Network? - FieldSignal Glossary",
+    title: "What Is an Expert Network?",
     description:
       "An expert network connects buyers with vetted operating professionals for paid 1:1 consultations. Definition, examples and FAQ.",
     definition:
@@ -79,7 +79,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "02",
     term: "Key Opinion Leader (KOL)",
     name: "KOL",
-    title: "What Is a KOL? Key Opinion Leader Definition - FieldSignal",
+    title: "What Is a KOL?",
     description:
       "Key Opinion Leader (KOL) — a recognised expert whose endorsement or analysis carries weight in a category. Common in healthcare and pharma.",
     definition:
@@ -120,7 +120,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "03",
     term: "Material Non-Public Information (MNPI)",
     name: "MNPI",
-    title: "What Is MNPI? Material Non-Public Information - FieldSignal",
+    title: "What Is MNPI?",
     description:
       "MNPI — Material Non-Public Information. Information that, if public, would move a security's price. Cannot be discussed in expert calls.",
     definition:
@@ -162,7 +162,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "04",
     term: "Primary Research",
     name: "PRIMARY RESEARCH",
-    title: "What Is Primary Research? Definition + Examples - FieldSignal",
+    title: "What Is Primary Research?",
     description:
       "Primary research is original data collected directly from operators, customers, channels — vs secondary research which uses existing published sources.",
     definition:
@@ -203,7 +203,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "05",
     term: "Secondary Research",
     name: "SECONDARY RESEARCH",
-    title: "What Is Secondary Research? Definition + Examples - FieldSignal",
+    title: "What Is Secondary Research?",
     description:
       "Secondary research synthesises existing published sources — analyst reports, broker research, regulatory filings, industry databases.",
     definition:
@@ -244,7 +244,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "06",
     term: "Panel Call",
     name: "PANEL CALL",
-    title: "What Is a Panel Call? Group Expert Calls - FieldSignal",
+    title: "What Is a Panel Call?",
     description:
       "A panel call is a structured group consultation — one buyer with 3-6 experts simultaneously. Used for cross-perspective insight in a single session.",
     definition:
@@ -285,7 +285,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "07",
     term: "Management Reference Check",
     name: "MANAGEMENT REFERENCE CHECK",
-    title: "What Is a Management Reference Check? - FieldSignal",
+    title: "What Is a Management Reference Check?",
     description:
       "Off-list reference calls with former colleagues, customers and partners of a target executive — used in M&A, pre-IC, pre-hire decisions.",
     definition:
@@ -326,7 +326,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "08",
     term: "Chinese Wall (Information Barrier)",
     name: "CHINESE WALL",
-    title: "What Is a Chinese Wall? Information Barriers Explained",
+    title: "What Is a Chinese Wall?",
     description:
       "A Chinese wall is an internal compartmentalisation barrier separating teams that could otherwise create conflicts of interest.",
     definition:
@@ -367,7 +367,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "09",
     term: "Expert Attestation",
     name: "EXPERT ATTESTATION",
-    title: "What Is an Expert Attestation? Per-Call Compliance Explained",
+    title: "What Is an Expert Attestation?",
     description:
       "An expert attestation is a per-call confirmation by the expert that they have no MNPI, NDA conflict or undisclosed commercial conflict on the topic.",
     definition:
@@ -408,7 +408,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "10",
     term: "Commercial Due Diligence (CDD)",
     name: "CDD",
-    title: "What Is Commercial Due Diligence (CDD)? - FieldSignal",
+    title: "What Is Commercial Due Diligence (CDD)?",
     description:
       "Commercial Due Diligence (CDD) assesses a target's competitive position, customer base, market dynamics and growth thesis via primary research.",
     definition:
@@ -490,7 +490,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "12",
     term: "Win-Loss Analysis",
     name: "WIN-LOSS",
-    title: "What Is Win-Loss Analysis? Definition + Process",
+    title: "What Is Win-Loss Analysis?",
     description:
       "Win-loss analysis is structured third-party interviewing of recent buyers (wins and losses) to surface the actual decision criteria driving outcomes.",
     definition:
@@ -572,7 +572,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "14",
     term: "TAM, SAM, SOM",
     name: "TAM SAM SOM",
-    title: "What Is TAM SAM SOM? Total Addressable Market Explained",
+    title: "What Is TAM SAM SOM?",
     description:
       "TAM (total addressable market), SAM (serviceable addressable market) and SOM (serviceable obtainable market) — the three layers of market sizing.",
     definition:
@@ -612,7 +612,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "15",
     term: "Channel Check",
     name: "CHANNEL CHECK",
-    title: "What Is a Channel Check? - FieldSignal Glossary",
+    title: "What Is a Channel Check?",
     description:
       "A channel check is a primary-research interview with distributors, resellers or other channel intermediaries to map channel economics and dynamics.",
     definition:
@@ -653,7 +653,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "16",
     term: "Expert Survey",
     name: "EXPERT SURVEY",
-    title: "What Is an Expert Survey? B2B Quantitative Research",
+    title: "What Is an Expert Survey?",
     description:
       "An expert survey is a structured quantitative panel of vetted industry experts — used when scale and statistical reliability matter alongside operator quality.",
     definition:
@@ -694,7 +694,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "17",
     term: "Transcript Library",
     name: "TRANSCRIPT LIBRARY",
-    title: "What Is an Expert Transcript Library? - FieldSignal",
+    title: "What Is an Expert Transcript Library?",
     description:
       "A transcript library is a searchable archive of past expert-call transcripts, organised by company, industry and topic.",
     definition:
@@ -776,7 +776,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "19",
     term: "Non-Disclosure Agreement (NDA)",
     name: "NDA",
-    title: "What Is an NDA? Non-Disclosure Agreements in Expert Networks",
+    title: "What Is an NDA?",
     description:
       "An NDA (non-disclosure agreement) is a contract restricting disclosure of confidential information. NDA conflicts must be disclosed in expert calls.",
     definition:
@@ -899,7 +899,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "22",
     term: "Expert Vetting",
     name: "EXPERT VETTING",
-    title: "What Is Expert Vetting? How Networks Verify Experts",
+    title: "What Is Expert Vetting?",
     description:
       "Expert vetting is the verification process every expert undergoes before joining a network — identity, employment, conflicts, ratings.",
     definition:
@@ -940,7 +940,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "23",
     term: "Due Diligence",
     name: "DUE DILIGENCE",
-    title: "What Is Due Diligence? Types and Process - FieldSignal",
+    title: "What Is Due Diligence?",
     description:
       "Due diligence is the systematic pre-transaction investigation of a target's commercial, financial, legal, technical and regulatory position.",
     definition:
@@ -981,7 +981,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "24",
     term: "Customer Interview",
     name: "CUSTOMER INTERVIEW",
-    title: "What Is a Customer Interview? B2B Reference Calls",
+    title: "What Is a Customer Interview?",
     description:
       "A customer interview is a structured primary-research conversation with a current or former customer of a topic company. Used in DD, VoC and CI.",
     definition:
@@ -1022,7 +1022,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "25",
     term: "Expert Recruitment",
     name: "EXPERT RECRUITMENT",
-    title: "What Is Expert Recruitment? Sourcing for Networks",
+    title: "What Is Expert Recruitment?",
     description:
       "Expert recruitment is the active sourcing process expert networks use to identify, qualify and onboard new experts into their pool.",
     definition:
@@ -1063,7 +1063,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "26",
     term: "Qualitative Research",
     name: "QUALITATIVE RESEARCH",
-    title: "What Is Qualitative Research? Definition + Methods",
+    title: "What Is Qualitative Research?",
     description:
       "Qualitative research uses interviews, focus groups and observation to surface meaning, perception and motivation — contrasted with quantitative research.",
     definition:
@@ -1104,7 +1104,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "27",
     term: "Quantitative Research",
     name: "QUANTITATIVE RESEARCH",
-    title: "What Is Quantitative Research? B2B Survey Methods",
+    title: "What Is Quantitative Research?",
     description:
       "Quantitative research uses statistical methods (surveys, panels, structured questionnaires) to produce measurable findings on a defined population.",
     definition:
@@ -1145,7 +1145,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "28",
     term: "Alternative Data",
     name: "ALTERNATIVE DATA",
-    title: "What Is Alternative Data? Investment Research Sources",
+    title: "What Is Alternative Data?",
     description:
       "Alternative data is non-traditional information used in investment research — web scraping, satellite imagery, transaction data, expert calls.",
     definition:
@@ -1186,7 +1186,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "29",
     term: "Expert Rating",
     name: "EXPERT RATING",
-    title: "What Is an Expert Rating? Network Quality Signals",
+    title: "What Is an Expert Rating?",
     description:
       "An expert rating is the performance score a network applies to each expert based on buyer feedback after each call — used in matching and quality control.",
     definition:
@@ -1227,7 +1227,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "30",
     term: "Reference Call",
     name: "REFERENCE CALL",
-    title: "What Is a Reference Call? Off-List vs On-List Refs",
+    title: "What Is a Reference Call?",
     description:
       "A reference call is a structured 1:1 conversation with someone who has direct experience with the topic person, company or product. On-list vs off-list distinction is critical.",
     definition:
@@ -1270,7 +1270,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "31",
     term: "Paid Expert",
     name: "PAID EXPERT",
-    title: "What Is a Paid Expert? Expert Network Compensation",
+    title: "What Is a Paid Expert?",
     description:
       "A paid expert is a vetted operating professional compensated for participating in expert network consultations — typically €150-€1,500 per hour.",
     definition:
@@ -1311,7 +1311,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "32",
     term: "Free Expert",
     name: "FREE EXPERT",
-    title: "What Is a Free Expert? Why Networks Pay - FieldSignal",
+    title: "What Is a Free Expert?",
     description:
       "A free expert is an operator who participates in expert consultations without payment. Reliable in informal relationships, weaker for formal expert-network use.",
     definition:
@@ -1352,7 +1352,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "33",
     term: "B2B Survey",
     name: "B2B SURVEY",
-    title: "What Is a B2B Survey? Structured Buyer-Side Research",
+    title: "What Is a B2B Survey?",
     description:
       "A B2B survey is a structured quantitative research instrument administered to vetted business professionals — typically 50-300 respondents.",
     definition:
@@ -1393,7 +1393,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "34",
     term: "KOL Panel",
     name: "KOL PANEL",
-    title: "What Is a KOL Panel? Multi-Expert Group Consultations",
+    title: "What Is a KOL Panel?",
     description:
       "A KOL panel is a structured group consultation with 3-6 Key Opinion Leaders in a specific field. Common in pharma, healthcare and other regulated industries.",
     definition:
@@ -1434,7 +1434,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "35",
     term: "Ground Truth",
     name: "GROUND TRUTH",
-    title: "What Is Ground Truth in Primary Research? - FieldSignal",
+    title: "What Is Ground Truth in Primary Research?",
     description:
       "Ground truth is operator-level reality on the ground — what's actually happening in a category, not what's reported in analyst coverage or press.",
     definition:
@@ -1475,7 +1475,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "36",
     term: "Expert Sourcing",
     name: "EXPERT SOURCING",
-    title: "What Is Expert Sourcing? How Networks Find the Right Experts",
+    title: "What Is Expert Sourcing?",
     description:
       "Expert sourcing is the process by which a network identifies, qualifies and presents candidate experts for a specific buyer brief. Distinct from recruitment.",
     definition:
@@ -1516,7 +1516,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "37",
     term: "Expert Profile",
     name: "EXPERT PROFILE",
-    title: "What Is an Expert Profile? Anonymised Expert Summaries",
+    title: "What Is an Expert Profile?",
     description:
       "An expert profile is the anonymised summary of an expert's background presented to a buyer before a call — typically role, seniority, employers, expertise areas.",
     definition:
@@ -1557,7 +1557,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "38",
     term: "Expert Exclusion List",
     name: "EXCLUSION LIST",
-    title: "What Is an Expert Exclusion List? Buyer-Side Compliance",
+    title: "What Is an Expert Exclusion List?",
     description:
       "An exclusion list is the buyer-defined list of companies whose employees and ex-employees cannot be matched to that buyer's expert briefs.",
     definition:
@@ -1598,7 +1598,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "39",
     term: "Technical Due Diligence (TDD)",
     name: "TECHNICAL DD",
-    title: "What Is Technical Due Diligence? Tech Stack Assessment",
+    title: "What Is Technical Due Diligence?",
     description:
       "Technical Due Diligence (TDD) assesses a target's technology stack, product architecture, engineering practices and IP position pre-transaction.",
     definition:
@@ -1639,7 +1639,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "40",
     term: "Regulatory Due Diligence",
     name: "REGULATORY DD",
-    title: "What Is Regulatory Due Diligence? - FieldSignal Glossary",
+    title: "What Is Regulatory Due Diligence?",
     description:
       "Regulatory due diligence assesses a target's regulatory exposure, compliance posture and pending regulatory changes likely to affect the investment thesis.",
     definition:
@@ -1721,7 +1721,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "42",
     term: "B2B Customer Interview",
     name: "B2B CUSTOMER INTERVIEW",
-    title: "What Is a B2B Customer Interview? - FieldSignal",
+    title: "What Is a B2B Customer Interview?",
     description:
       "A B2B customer interview is a structured conversation with a business buyer about their purchase decisions, vendor relationships and category perception.",
     definition:
@@ -1762,7 +1762,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "43",
     term: "Sell-Side Research",
     name: "SELL-SIDE RESEARCH",
-    title: "What Is Sell-Side Research? Investment Bank Analyst Work",
+    title: "What Is Sell-Side Research?",
     description:
       "Sell-side research is published equity research produced by investment-bank analysts for clients — distinct from buy-side research conducted internally by investors.",
     definition:
@@ -1803,7 +1803,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "44",
     term: "Buy-Side Research",
     name: "BUY-SIDE RESEARCH",
-    title: "What Is Buy-Side Research? Investor Internal Analysis",
+    title: "What Is Buy-Side Research?",
     description:
       "Buy-side research is internal investment analysis conducted by hedge funds, asset managers and other allocators for their own use — uncompromised by external-publication conflicts.",
     definition:
@@ -1885,7 +1885,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "46",
     term: "Ground Intelligence",
     name: "GROUND INTELLIGENCE",
-    title: "What Is Ground Intelligence? - FieldSignal Glossary",
+    title: "What Is Ground Intelligence?",
     description:
       "Ground intelligence is operator-level, region-specific or category-specific signal that can't be obtained from desk research — typically via primary interviews.",
     definition:
@@ -1926,7 +1926,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "47",
     term: "Channel Intelligence",
     name: "CHANNEL INTELLIGENCE",
-    title: "What Is Channel Intelligence? Distributor Insight",
+    title: "What Is Channel Intelligence?",
     description:
       "Channel intelligence is structured insight derived from distributors, resellers, brokers and other channel intermediaries on competitive dynamics they observe.",
     definition:
@@ -1967,7 +1967,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "48",
     term: "Supplier Intelligence",
     name: "SUPPLIER INTELLIGENCE",
-    title: "What Is Supplier Intelligence? Vendor-Side Insight",
+    title: "What Is Supplier Intelligence?",
     description:
       "Supplier intelligence is structured insight on a buyer's supplier base — gathered via supplier interviews, procurement-peer panels and category-buyer research.",
     definition:
@@ -2008,7 +2008,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "49",
     term: "Primary Intelligence",
     name: "PRIMARY INTELLIGENCE",
-    title: "What Is Primary Intelligence? - FieldSignal Glossary",
+    title: "What Is Primary Intelligence?",
     description:
       "Primary intelligence is structured competitive, customer or channel insight derived from primary sources — operators, customers, channel partners, ex-employees.",
     definition:
@@ -2049,7 +2049,7 @@ export const glossary: readonly GlossaryTerm[] = [
     id: "50",
     term: "Expert Network ROI",
     name: "EXPERT NETWORK ROI",
-    title: "What Is Expert Network ROI? Measuring Programme Value",
+    title: "What Is Expert Network ROI?",
     description:
       "Expert network ROI is the measurable return on expert-network spend — typically expressed through deal economics, avoided losses or programme-level productivity gains.",
     definition:

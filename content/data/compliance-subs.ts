@@ -32,7 +32,7 @@ export const complianceSubs: readonly ComplianceSub[] = [
     slug: "mnpi-policy",
     id: "01",
     name: "MNPI POLICY",
-    title: "MNPI Policy - Material Non-Public Information Controls",
+    title: "MNPI Policy",
     description:
       "No discussion of material non-public information. 6+ months cooling-off rule. Real-time monitoring and exclusion lists for 2,000+ insiders.",
     pageLede:
@@ -100,7 +100,7 @@ export const complianceSubs: readonly ComplianceSub[] = [
     slug: "legal-framework",
     id: "02",
     name: "LEGAL FRAMEWORK",
-    title: "Legal Framework - GDPR, UK DPA and ESMA Aligned",
+    title: "Legal Framework",
     description:
       "Operating under UK and EU data protection law, ESMA-aligned terms, US$10M professional liability insurance, regular external audits.",
     pageLede:

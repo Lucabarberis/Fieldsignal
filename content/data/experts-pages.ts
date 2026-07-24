@@ -65,7 +65,7 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "how-it-works",
     id: "02",
     name: "HOW IT WORKS",
-    title: "How It Works for Experts - From Application to First Call",
+    title: "How It Works for Experts",
     description:
       "What happens after you apply, how clients find you, how calls are scheduled, how you get paid.",
     oneLiner:
@@ -110,7 +110,7 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "payment-and-rates",
     id: "03",
     name: "PAYMENT & RATES",
-    title: "Expert Payment and Rates - $75 to $800 per Call",
+    title: "Expert Payment and Rates",
     description:
       "Rates set by experience and category. Paid within 5 business days. No platform fees taken from your rate.",
     oneLiner:
@@ -145,7 +145,7 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "code-of-conduct",
     id: "04",
     name: "CODE OF CONDUCT",
-    title: "Expert Code of Conduct - What You Can and Cannot Discuss",
+    title: "Expert Code of Conduct",
     description:
       "Clear rules on confidentiality, NDAs, MNPI and conflicts of interest. Read this before your first call.",
     oneLiner:
@@ -185,7 +185,7 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "compliance-for-experts",
     id: "05",
     name: "COMPLIANCE FOR EXPERTS",
-    title: "Compliance Rules for Experts - Attestations and Restrictions",
+    title: "Compliance Rules for Experts",
     description:
       "Per-call attestations, 6-month cooling-off, NDA disclosure and exclusion-list rules. Mandatory reading.",
     oneLiner:
@@ -225,7 +225,7 @@ export const expertPages: readonly ExpertPage[] = [
     slug: "expert-faq",
     id: "06",
     name: "EXPERT FAQ",
-    title: "Expert FAQ - Common Questions From Network Members",
+    title: "Expert FAQ",
     description:
       "Answers to the questions experts ask most often. Payment, scheduling, compliance, taxes and dispute resolution.",
     oneLiner:

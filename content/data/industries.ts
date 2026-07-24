@@ -23,7 +23,7 @@ export const industries: readonly Industry[] = [
     slug: "technology",
     id: "01.1",
     name: "TECHNOLOGY & SOFTWARE",
-    title: "Technology Expert Network - SaaS, Cyber, Cloud, AI, Semis",
+    title: "Technology Expert Network",
     description:
       "Access engineers, PMs, CTOs and revenue leaders across SaaS, cybersecurity, cloud, semiconductors, AI and developer tools.",
     oneLiner:
@@ -64,7 +64,7 @@ export const industries: readonly Industry[] = [
     slug: "healthcare-and-life-sciences",
     id: "01.2",
     name: "HEALTHCARE & LIFE SCIENCES",
-    title: "Healthcare Expert Network - Pharma, Devices, Digital, Hospitals",
+    title: "Healthcare Expert Network",
     description:
       "KOLs, payors, hospital administrators, clinical researchers and pharma executives across the full healthcare value chain.",
     oneLiner:
@@ -99,7 +99,7 @@ export const industries: readonly Industry[] = [
     slug: "financial-services",
     id: "01.3",
     name: "FINANCIAL SERVICES",
-    title: "Financial Services Expert Network - Banking, Asset Mgmt, Fintech",
+    title: "Financial Services Expert Network",
     description:
       "Investment bankers, asset managers, compliance leaders, fintech founders and insurance specialists across global markets.",
     oneLiner:
@@ -134,7 +134,7 @@ export const industries: readonly Industry[] = [
     slug: "consumer-and-retail",
     id: "01.4",
     name: "CONSUMER & RETAIL",
-    title: "Consumer and Retail Expert Network - CPG, Ecom, Restaurants, Luxury",
+    title: "Consumer and Retail Expert Network",
     description:
       "Brand managers, supply chain leaders, store managers and merchandisers across CPG, DTC, restaurants, grocery and luxury.",
     oneLiner:
@@ -204,7 +204,7 @@ export const industries: readonly Industry[] = [
     slug: "energy-and-utilities",
     id: "01.6",
     name: "ENERGY & UTILITIES",
-    title: "Energy and Utilities Expert Network - Power, Renewables, Oil & Gas",
+    title: "Energy and Utilities Expert Network",
     description:
       "Utility executives, renewables developers, oil and gas operators, grid specialists and energy storage buyers.",
     oneLiner:
@@ -237,7 +237,7 @@ export const industries: readonly Industry[] = [
     slug: "telecommunications-and-media",
     id: "01.7",
     name: "TELECOM & MEDIA",
-    title: "Telecom and Media Expert Network - Carriers, Networks, Content",
+    title: "Telecom and Media Expert Network",
     description:
       "Telco network engineers, MNO commercial leaders, content distribution specialists and media operators.",
     oneLiner:
@@ -266,7 +266,7 @@ export const industries: readonly Industry[] = [
     slug: "real-estate-and-proptech",
     id: "01.8",
     name: "REAL ESTATE & PROPTECH",
-    title: "Real Estate and PropTech Expert Network - CRE, Residential, PropTech",
+    title: "Real Estate and PropTech Expert Network",
     description:
       "Commercial real estate brokers, residential developers, REIT executives and PropTech buyers and operators.",
     oneLiner:
@@ -295,7 +295,7 @@ export const industries: readonly Industry[] = [
     slug: "education-and-edtech",
     id: "01.9",
     name: "EDUCATION & EDTECH",
-    title: "Education and EdTech Expert Network - K-12, Higher Ed, EdTech",
+    title: "Education and EdTech Expert Network",
     description:
       "School administrators, district buyers, higher-ed leaders and EdTech founders across K-12, HE, workforce learning and certifications.",
     oneLiner:

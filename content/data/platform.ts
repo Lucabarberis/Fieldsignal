@@ -29,7 +29,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "expert-database",
     id: "01",
     name: "EXPERT DATABASE",
-    title: "The Expert Database - 50,000+ Vetted Professionals",
+    title: "The Expert Database",
     description:
       "Searchable database of vetted experts across 80+ sectors. Filter by industry, role, geography and compliance status.",
     oneLiner:
@@ -69,7 +69,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "transcript-library",
     id: "02",
     name: "TRANSCRIPT LIBRARY",
-    title: "Transcript Library - 5,000+ Anonymized Expert Interviews",
+    title: "Transcript Library",
     description:
       "Searchable library of past expert calls, indexed by company, topic and industry.",
     oneLiner:
@@ -109,7 +109,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "search-and-discovery",
     id: "03",
     name: "SEARCH & DISCOVERY",
-    title: "Search and Discovery - Find the Right Expert in Minutes",
+    title: "Search and Discovery",
     description:
       "Natural-language and faceted search across the expert database. Surface candidates pre-vetted for compliance.",
     oneLiner:
@@ -148,7 +148,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "compliance-tools",
     id: "04",
     name: "COMPLIANCE TOOLS",
-    title: "Compliance Tools - Real-Time Monitoring and Audit Trail",
+    title: "Compliance Tools",
     description:
       "Pre-call attestations, real-time call monitoring, exclusion-list screening and 7-year audit trails.",
     oneLiner:
@@ -189,7 +189,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "scheduling-and-call-management",
     id: "05",
     name: "SCHEDULING & CALL MANAGEMENT",
-    title: "Scheduling and Call Management - From Brief to Briefing",
+    title: "Scheduling and Call Management",
     description:
       "Brief, schedule, conduct and document expert calls inside one workflow. Calendar sync, recording and AI transcription.",
     oneLiner:
@@ -230,7 +230,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "integrations",
     id: "06",
     name: "INTEGRATIONS",
-    title: "Integrations - Slack, Salesforce, Notion, Google Drive",
+    title: "Integrations",
     description:
       "Connect FieldSignal to your existing research workflow. Slack notifications, Salesforce sync, Notion and Drive exports.",
     oneLiner:
@@ -269,7 +269,7 @@ export const platformPages: readonly PlatformPage[] = [
     slug: "api",
     id: "07",
     name: "API",
-    title: "API - Programmatic Access for Quant and Research Teams",
+    title: "API",
     description:
       "REST API for searching experts, scheduling calls, retrieving transcripts and syncing with internal research systems.",
     oneLiner:

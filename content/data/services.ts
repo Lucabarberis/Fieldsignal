@@ -26,7 +26,7 @@ export const services: readonly Service[] = [
     slug: "expert-consultations",
     id: "01.1",
     name: "EXPERT CONSULTATIONS",
-    title: "Expert Consultations - 1:1 Calls with Industry Specialists",
+    title: "Expert Consultations - 1:1 Specialist Calls",
     description:
       "One-hour calls with vetted operators, executives and specialists across 50,000+ professionals. Scheduled in 3 to 5 business days.",
     oneLiner:
@@ -60,7 +60,7 @@ export const services: readonly Service[] = [
     slug: "panel-calls",
     id: "01.2",
     name: "PANEL CALLS",
-    title: "Panel Calls - Multi-Expert Discussions on Strategic Questions",
+    title: "Panel Calls - Multi-Expert Discussions",
     description:
       "Facilitated 90-minute panels with 3 to 6 market participants. Use for category shifts, regulatory questions and competitive dynamics.",
     oneLiner:
@@ -94,7 +94,7 @@ export const services: readonly Service[] = [
     slug: "expert-surveys",
     id: "01.3",
     name: "EXPERT SURVEYS",
-    title: "Expert Surveys - 20 to 200 Respondent Quantitative Research",
+    title: "Expert Surveys - 20-200 Respondents",
     description:
       "Targeted surveys across screened industry participants. Survey design, panel build, fielding and analysis in 2 to 4 weeks.",
     oneLiner:
@@ -128,7 +128,7 @@ export const services: readonly Service[] = [
     slug: "management-reference-checks",
     id: "01.4",
     name: "MANAGEMENT REFERENCE CHECKS",
-    title: "Management Reference Checks - Investor-Grade Diligence Calls",
+    title: "Management Reference Checks - Diligence Calls",
     description:
       "Off-list reference calls with former colleagues, customers and partners of target executives. Critical for pre-IC and pre-close diligence.",
     oneLiner:
@@ -162,7 +162,7 @@ export const services: readonly Service[] = [
     slug: "custom-intelligence-projects",
     id: "01.5",
     name: "CUSTOM INTELLIGENCE PROJECTS",
-    title: "Custom Intelligence Projects - Bespoke Primary Research",
+    title: "Custom Intelligence Projects",
     description:
       "Multi-methodology engagements combining calls, panels, surveys and desk research. Scoped to your investment thesis or strategic question.",
     oneLiner:
@@ -196,7 +196,7 @@ export const services: readonly Service[] = [
     slug: "transcript-library-access",
     id: "01.6",
     name: "TRANSCRIPT LIBRARY ACCESS",
-    title: "Expert Interview Transcripts - 5,000+ Anonymized Calls",
+    title: "Expert Interview Transcripts - 5,000+ Calls",
     description:
       "Searchable library of anonymized expert call transcripts across tech, healthcare, financial services, consumer and industrials.",
     oneLiner:
@@ -230,7 +230,7 @@ export const services: readonly Service[] = [
     slug: "diligence-research",
     id: "01.7",
     name: "DUE DILIGENCE RESEARCH",
-    title: "Due Diligence Research - Pre-Investment and Pre-Acquisition",
+    title: "Due Diligence Research - Pre-Investment",
     description:
       "Combined expert calls, surveys and reference checks for buy-side diligence. Standard 2-week sprint, custom timelines for complex targets.",
     oneLiner:
@@ -264,7 +264,7 @@ export const services: readonly Service[] = [
     slug: "voice-of-customer",
     id: "01.8",
     name: "VOICE OF CUSTOMER RESEARCH",
-    title: "Voice of Customer Research - B2B Customer Interview Programs",
+    title: "Voice of Customer Research - B2B Interviews",
     description:
       "Programmatic customer interviews for SaaS, fintech and industrial vendors. Identify churn drivers, expansion paths and category positioning.",
     oneLiner:
@@ -298,7 +298,7 @@ export const services: readonly Service[] = [
     slug: "win-loss-analysis",
     id: "01.9",
     name: "WIN LOSS ANALYSIS",
-    title: "Win Loss Analysis - Interviews with Won and Lost Deals",
+    title: "Win Loss Analysis - Won and Lost Deals",
     description:
       "Independent win-loss programs run by trained interviewers. 15 to 50 interviews per quarter, dashboards and quarterly briefings.",
     oneLiner:
