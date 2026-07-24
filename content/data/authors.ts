@@ -107,50 +107,86 @@ export function articleAuthor(author: Author, siteUrl: string) {
   };
 }
 
-/** The three senior researchers, in a fixed order for stable round-robin. */
-const RESEARCHERS: AuthorKey[] = ["adrian", "guildy", "francisca"];
+/**
+ * ─── Byline attribution by topic beat ──────────────────────────────
+ *
+ * Every post/guide belongs to one editorial BEAT, chosen from its tags (with
+ * a slug fallback), and each beat has a fixed owner. This keeps authorship
+ * TOPIC-SUITED — a person only ever appears on content in their beat —
+ * instead of a random spread, and it covers scheduled posts automatically:
+ * a not-yet-live post is attributed by its own tags the moment it publishes.
+ *
+ * To reassign, change one row of BEAT_OWNER or move a tag between the sets.
+ */
 
-/** Compliance / legal / regulatory topics → Head of Compliance. */
-const COMPLIANCE = /compliance|mnpi|conflict|chinese-wall|attestation|cooling-off|regulat|\bnda\b|exclusion|legal-framework/;
+type Beat = "compliance" | "positioning" | "vendor" | "diligence" | "methods";
+
+const BEAT_OWNER: Record<Beat, AuthorKey> = {
+  compliance: "phosia", // Head of Compliance — regulatory / MNPI / legal
+  positioning: "miles", // Founder — category & competitive-positioning pieces
+  vendor: "guildy", // Expert-network landscape: competitor/platform profiles, CI
+  diligence: "adrian", // Diligence & industry research: DD, M&A, PE/VC, sectors
+  methods: "francisca", // Research methods & market research: surveys, VoC, pricing
+};
 
 /**
- * Founder-voice topics → CEO. Category-defining and competitive-positioning
- * pieces where the founder is the natural voice. Kept deliberately narrow so
- * the bulk distributes to the research team.
+ * A post's beat is chosen from its PRIMARY (first) tag — the CMS orders tags
+ * by topic, so the first is what the piece is actually about. This avoids the
+ * failure mode of "any tag matches", where a methodology post that also
+ * carries a secondary `due-diligence` audience tag gets miscredited to the
+ * diligence author. Compliance (any position) and founder-positioning (by
+ * slug) still take precedence, because those are editorial requirements, not
+ * merely topic.
  */
-const FOUNDER =
-  /expert-networks?-in-20|best-expert-networks|expert-network-consulting-without|glg-alternatives-which|expert-calls?-for-|expert-call-access-without|expert-call-transcripts-without|without-(the-)?six-figure-retainer/;
+const VENDOR_TAGS = new Set([
+  "alternatives", "expert-networks", "expert-network", "alphasense", "tegus",
+  "glg", "guidepoint", "third-bridge", "slingshot", "prosapient", "newtonx",
+  "mosaic", "lynk", "inex-one", "atheneum", "deepbench", "visasq", "maven",
+  "coleman", "capvision", "catalant", "consulting", "transcripts",
+  "vendor-comparison", "competitive-intelligence",
+]);
+const DILIGENCE_TAGS = new Set([
+  "due-diligence", "m-and-a", "private-equity", "equity-research",
+  "corporate-development", "hedge-funds",
+  // Sector/industry deep-dives sit with the diligence & industry-research beat.
+  "sectors", "pharmaceutical", "pharma", "healthcare", "technology",
+  "semiconductor", "automotive", "energy", "retail", "cpg", "ecommerce",
+  "real-estate", "defense", "climate-tech", "financial-services", "insurance",
+  "esg",
+]);
+// Everything else (methods, market-research, customer-research, pricing,
+// market-sizing, kol, b2b, brand, and the generic buyers/none) → methods beat.
 
-/**
- * Stable, dependency-free hash of a slug → an even, deterministic index.
- * (No Math.random — builds must be reproducible.)
- */
-function hashIndex(slug: string, mod: number): number {
-  let h = 0;
-  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) >>> 0;
-  return h % mod;
+const POSITIONING =
+  /best-expert-networks|glg-alternatives-which|expert-networks?-in-20|without-(the-)?six-figure-retainer|expert-call-access-without|expert-call-transcripts-without|expert-network-consulting-without|expert-calls?-for-[a-z-]+-without/;
+
+function postBeat(slug: string, tags: readonly string[] = []): Beat {
+  if (tags.includes("compliance")) return "compliance";
+  if (POSITIONING.test(slug) || tags.includes("founders")) return "positioning";
+  const primary = tags[0] ?? "";
+  if (VENDOR_TAGS.has(primary)) return "vendor";
+  if (DILIGENCE_TAGS.has(primary)) return "diligence";
+  return "methods";
+}
+
+/** Author for a blog post, from its topic tags (slug as tiebreak). */
+export function authorForPost(post: {
+  slug: string;
+  tags?: readonly string[];
+}): Author {
+  return AUTHORS[BEAT_OWNER[postBeat(post.slug, post.tags ?? [])]];
 }
 
 /**
- * Author for a blog post, by slug. Compliance topics go to Phosia, a narrow
- * set of category/positioning pieces to Miles, and everything else is spread
- * evenly across the three researchers by a stable hash.
- */
-export function authorForPostSlug(slug: string): Author {
-  if (COMPLIANCE.test(slug)) return AUTHORS.phosia;
-  if (FOUNDER.test(slug)) return AUTHORS.miles;
-  return AUTHORS[RESEARCHERS[hashIndex(slug, RESEARCHERS.length)]];
-}
-
-/**
- * Author for a guide, by slug. Guides are buyer-facing how-tos; the compliance
- * guide goes to Phosia, the two buyer-strategy guides to Miles, and the
- * research-methodology guides to the research team.
+ * Author for a guide, by slug — guides carry no tags. Mapped to the same
+ * beats: the compliance guide to Phosia, buyer/pricing how-tos to the
+ * founder, the vendor-evaluation RFP to the vendor beat, and the
+ * research-methodology guides to the methods beat.
  */
 export function authorForGuideSlug(slug: string): Author {
-  if (COMPLIANCE.test(slug)) return AUTHORS.phosia;
-  if (/how-to-use-an-expert-network|pricing-explained|rfp-template/.test(slug)) {
-    return AUTHORS.miles;
-  }
-  return AUTHORS[RESEARCHERS[hashIndex(slug, RESEARCHERS.length)]];
+  let beat: Beat = "methods";
+  if (/compliance/.test(slug)) beat = "compliance";
+  else if (/how-to-use-an-expert-network|pricing-explained/.test(slug)) beat = "positioning";
+  else if (/rfp-template/.test(slug)) beat = "vendor";
+  return AUTHORS[BEAT_OWNER[beat]];
 }

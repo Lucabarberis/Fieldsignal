@@ -14,7 +14,7 @@ import {
 } from "@/lib/posts";
 import { makeMdxComponents } from "@/components/MdxLink";
 import {
-  authorForPostSlug,
+  authorForPost,
   articleAuthor,
   personAnchor,
 } from "@/content/data/authors";
@@ -75,9 +75,10 @@ export default async function BlogPostPage({ params }: Props) {
     day: "numeric",
   });
 
-  // Byline is attributed editorially (see content/data/authors.ts), not from
-  // the DB `author` field — every row still carries the legacy "Miles".
-  const author = authorForPostSlug(slug);
+  // Byline is attributed editorially by topic (see content/data/authors.ts),
+  // from the post's own tags — not the DB `author` field, which still carries
+  // the legacy "Miles" on every row.
+  const author = authorForPost({ slug, tags: post.tags });
   const profileUrl = `/team#${personAnchor(author.name)}`;
 
   return (
