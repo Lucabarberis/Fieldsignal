@@ -6,6 +6,7 @@ import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import { getAllPosts } from "@/lib/posts";
+import { authorForPost } from "@/content/data/authors";
 
 export const metadata = pageMetadata({
   title: "The FieldSignal Blog",
@@ -65,7 +66,7 @@ export default async function BlogIndexPage() {
                       month: "short",
                       day: "2-digit",
                     })}{" "}
-                    · {post.author}
+                    · {authorForPost({ slug: post.slug, tags: post.tags }).name}
                   </div>
                   <h2 className="font-sans font-medium text-wide leading-[1.15] tracking-[-0.012em] text-ink mb-3">
                     {post.title}

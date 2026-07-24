@@ -9,6 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import { resources } from "@/content/data/resources";
 import { getAllPosts } from "@/lib/posts";
+import { authorForPost } from "@/content/data/authors";
 
 export const metadata = pageMetadata({
   title: "Resources - Guides, Blog, Reports and Glossary",
@@ -95,7 +96,7 @@ export default async function ResourcesHubPage() {
                         month: "short",
                         day: "2-digit",
                       })}{" "}
-                      · {post.author}
+                      · {authorForPost({ slug: post.slug, tags: post.tags }).name}
                     </>
                   }
                   cta="Read post"
