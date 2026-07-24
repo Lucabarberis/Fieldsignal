@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
@@ -9,6 +10,11 @@ import { BreadcrumbSchema, ArticleSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import { guides, getGuide } from "@/content/data/guides";
+import {
+  authorForGuideSlug,
+  articleAuthor,
+  personAnchor,
+} from "@/content/data/authors";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -36,6 +42,9 @@ export default async function GuidePage({ params }: Props) {
     .map((rs) => getGuide(rs))
     .filter((x): x is NonNullable<typeof x> => x !== undefined);
 
+  const author = authorForGuideSlug(slug);
+  const profileUrl = `/team#${personAnchor(author.name)}`;
+
   return (
     <>
       <BreadcrumbSchema
@@ -51,7 +60,7 @@ export default async function GuidePage({ params }: Props) {
         description={g.description}
         url={`${SITE.url}/resources/guides/${slug}`}
         datePublished={g.publishedAt}
-        author="Miles"
+        author={articleAuthor(author, SITE.url)}
       />
 
       <PageHeader
@@ -61,6 +70,14 @@ export default async function GuidePage({ params }: Props) {
         meta={[
           { label: "Read time", value: g.readTime },
           { label: "Topic", value: g.primaryKW },
+          {
+            label: "Author",
+            value: (
+              <Link href={profileUrl} className="hover:text-red transition-colors">
+                {author.name}
+              </Link>
+            ),
+          },
         ]}
       />
 

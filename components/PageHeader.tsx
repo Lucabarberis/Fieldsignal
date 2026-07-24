@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type React from "react";
 
 /**
  * Component 2 of 7 — Page Header (for sub-pages)
@@ -6,7 +7,7 @@ import Link from "next/link";
  * Breadcrumb + display title + optional lede + meta strip.
  * Use on every non-homepage page.
  */
-type MetaItem = { label: string; value: string };
+type MetaItem = { label: string; value: React.ReactNode };
 
 type Props = {
   current: string;            // displayed at the end of the breadcrumb

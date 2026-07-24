@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { CtaBand } from "@/components/CtaBand";
@@ -12,6 +13,11 @@ import {
   getPublishedSlugSet,
 } from "@/lib/posts";
 import { makeMdxComponents } from "@/components/MdxLink";
+import {
+  authorForPostSlug,
+  articleAuthor,
+  personAnchor,
+} from "@/content/data/authors";
 import { MDXRemote } from "next-mdx-remote-client/rsc";
 import remarkGfm from "remark-gfm";
 import { remarkGlossaryLinks } from "@/lib/mdx/remark-glossary-links";
@@ -69,6 +75,11 @@ export default async function BlogPostPage({ params }: Props) {
     day: "numeric",
   });
 
+  // Byline is attributed editorially (see content/data/authors.ts), not from
+  // the DB `author` field — every row still carries the legacy "Miles".
+  const author = authorForPostSlug(slug);
+  const profileUrl = `/team#${personAnchor(author.name)}`;
+
   return (
     <>
       <BreadcrumbSchema
@@ -85,7 +96,7 @@ export default async function BlogPostPage({ params }: Props) {
         url={`${SITE.url}/resources/blog/${slug}`}
         datePublished={post.publishedAt}
         dateModified={post.updatedAt}
-        author={post.author}
+        author={articleAuthor(author, SITE.url)}
       />
 
       <PageHeader
@@ -94,7 +105,14 @@ export default async function BlogPostPage({ params }: Props) {
         lede={post.description}
         meta={[
           { label: "Published", value: publishedDate },
-          { label: "Author", value: post.author },
+          {
+            label: "Author",
+            value: (
+              <Link href={profileUrl} className="hover:text-red transition-colors">
+                {author.name}
+              </Link>
+            ),
+          },
         ]}
       />
 

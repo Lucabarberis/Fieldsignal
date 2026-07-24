@@ -33,6 +33,8 @@ type Props = {
   layout?: "stacked" | "wide";
   /** Set on above-the-fold portraits so they are not lazy-loaded. */
   priority?: boolean;
+  /** DOM id for deep-linking (e.g. article bylines → this person's tile). */
+  anchorId?: string;
   /** Optional bio. Omit rather than inventing copy for someone. */
   children?: React.ReactNode;
 };
@@ -46,6 +48,7 @@ export function PersonTile({
   location,
   layout = "stacked",
   priority = false,
+  anchorId,
   children,
 }: Props) {
   const alt = `${name}, ${role} at FieldSignal${location ? `, based in ${location}` : ""}`;
@@ -109,10 +112,11 @@ export function PersonTile({
 
   return (
     <article
+      id={anchorId}
       className={
         layout === "wide"
-          ? "bg-paper flex flex-col sm:flex-row"
-          : "bg-paper flex flex-col"
+          ? "bg-paper flex flex-col sm:flex-row scroll-mt-24"
+          : "bg-paper flex flex-col scroll-mt-24"
       }
     >
       {portrait}

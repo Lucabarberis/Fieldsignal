@@ -92,14 +92,43 @@ export function FAQSchema({ items }: { items: FAQItem[] }) {
   return <JsonLd data={data} />;
 }
 
+/**
+ * A named author with a verifiable identity. When the `@id` matches a Person
+ * node elsewhere on the site (e.g. TeamSchema on /team), engines resolve them
+ * to the same entity.
+ */
+type ArticleAuthor = {
+  name: string;
+  /** Canonical entity id — set equal to the person's /team `@id` to unify. */
+  id?: string;
+  /** Profile URL for the author. */
+  url?: string;
+  jobTitle?: string;
+  /** External identity links (e.g. LinkedIn). */
+  sameAs?: readonly string[];
+  image?: string;
+};
+
 type ArticleProps = {
   headline: string;
   description: string;
   url: string;
   datePublished: string;
   dateModified?: string;
-  author: string;
+  /** A bare name (e.g. anonymised transcripts) or a full identity. */
+  author: string | ArticleAuthor;
 };
+
+function authorNode(author: string | ArticleAuthor) {
+  if (typeof author === "string") return { "@type": "Person", name: author };
+  const node: Record<string, unknown> = { "@type": "Person", name: author.name };
+  if (author.id) node["@id"] = author.id;
+  if (author.url) node.url = author.url;
+  if (author.jobTitle) node.jobTitle = author.jobTitle;
+  if (author.sameAs && author.sameAs.length) node.sameAs = [...author.sameAs];
+  if (author.image) node.image = author.image;
+  return node;
+}
 
 export function ArticleSchema({
   headline,
@@ -120,7 +149,7 @@ export function ArticleSchema({
     // incoherent to search/AI engines — clamp it to the later of the two.
     dateModified:
       dateModified && dateModified > datePublished ? dateModified : datePublished,
-    author: { "@type": "Person", name: author },
+    author: authorNode(author),
     publisher: {
       "@type": "Organization",
       name: SITE.name,

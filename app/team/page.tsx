@@ -4,9 +4,10 @@ import { TileGrid } from "@/components/TileGrid";
 import { Tile } from "@/components/Tile";
 import { PersonTile } from "@/components/PersonTile";
 import { CtaBand } from "@/components/CtaBand";
-import { BreadcrumbSchema, TeamSchema, type TeamMember } from "@/components/SchemaOrg";
+import { BreadcrumbSchema, TeamSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
+import { AUTHORS, personAnchor, type Author } from "@/content/data/authors";
 
 export const metadata = pageMetadata({
   title: "Meet the FieldSignal Team - Operators, Researchers, Compliance",
@@ -16,47 +17,13 @@ export const metadata = pageMetadata({
 });
 
 /**
- * Single source of truth for the named team — drives both the visible
- * tiles and the Person JSON-LD, so the two can never drift apart.
+ * Named team is sourced from the shared author registry
+ * (content/data/authors.ts), so the visible tiles, the Person JSON-LD here,
+ * and every article byline that links back to it stay in lockstep.
  */
-const LEADERSHIP: readonly TeamMember[] = [
-  {
-    name: "Miles O'Sullivan",
-    jobTitle: "CEO / Founder",
-    photo: "/team/miles-osullivan-ceo-founder-fieldsignal.jpg",
-    linkedin: "https://www.linkedin.com/in/miles-o-sullivan/",
-  },
-  {
-    name: "Phosia Chenangat",
-    jobTitle: "Head of Compliance",
-    photo: "/team/phosia-chenangat-head-of-compliance-fieldsignal.jpg",
-    linkedin: "https://www.linkedin.com/in/phosia-chenangat-0a90282b1/",
-  },
-];
-
-const RESEARCHERS: readonly TeamMember[] = [
-  {
-    name: "Adrian S Wibowo",
-    jobTitle: "Senior Researcher",
-    photo: "/team/adrian-s-wibowo-senior-researcher-fieldsignal.jpg",
-    linkedin: "https://www.linkedin.com/in/adrianswibowo/",
-    location: "Jakarta",
-  },
-  {
-    name: "Guildy Harvey",
-    jobTitle: "Senior Researcher",
-    photo: "/team/guildy-harvey-senior-researcher-fieldsignal.jpg",
-    linkedin: "https://www.linkedin.com/in/guildyharvey/",
-    location: "New Zealand",
-  },
-  {
-    name: "Francisca Florin",
-    jobTitle: "Senior Researcher",
-    photo: "/team/francisca-florin-senior-researcher-fieldsignal.jpg",
-    linkedin: "https://www.linkedin.com/in/francisca-florin-27160a260/",
-    location: "Kuala Lumpur",
-  },
-];
+const PEOPLE: readonly Author[] = Object.values(AUTHORS);
+const LEADERSHIP = PEOPLE.filter((a) => a.group === "leadership");
+const RESEARCHERS = PEOPLE.filter((a) => a.group === "research");
 
 /**
  * Bios are optional and only present where we have copy we can stand
@@ -110,6 +77,7 @@ export default function TeamPage() {
             <PersonTile
               key={m.name}
               id={`01.${i + 1}`}
+              anchorId={personAnchor(m.name)}
               name={m.name}
               layout="wide"
               role={m.jobTitle}
@@ -131,6 +99,7 @@ export default function TeamPage() {
             <PersonTile
               key={m.name}
               id={`02.${i + 1}`}
+              anchorId={personAnchor(m.name)}
               name={m.name}
               layout="wide"
               role={m.jobTitle}
