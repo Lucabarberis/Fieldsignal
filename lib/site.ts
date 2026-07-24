@@ -15,6 +15,14 @@ export const SITE = {
   contactEmail: "miles@fieldsignalhq.com",
   hours: "Mon–Fri",
   copyrightYear: 2026,
+  /** Public LinkedIn company page — emitted as schema sameAs and linked in the footer. */
+  linkedin: "https://www.linkedin.com/company/109816165/",
+  /** Registered address of the operating entity (Growth Insights Limited). */
+  address: {
+    street: "Unit 1603, 16/F, The L. Plaza, 367–375 Queen's Road Central, Sheung Wan",
+    locality: "Hong Kong",
+    country: "HK",
+  },
   /** Google Analytics 4 measurement ID. Fires only on production Vercel deploys. */
   gaId: "G-YC008HJRD5",
   /** Google Tag Manager container ID. Fires only on production Vercel deploys. */

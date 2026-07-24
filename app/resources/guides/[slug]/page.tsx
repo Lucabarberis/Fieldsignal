@@ -6,7 +6,7 @@ import { SectionBand } from "@/components/SectionBand";
 import { TileGrid } from "@/components/TileGrid";
 import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
-import { BreadcrumbSchema, ArticleSchema } from "@/components/SchemaOrg";
+import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import { guides, getGuide } from "@/content/data/guides";
@@ -62,6 +62,9 @@ export default async function GuidePage({ params }: Props) {
         datePublished={g.publishedAt}
         author={articleAuthor(author, SITE.url)}
       />
+      {g.faq && g.faq.length > 0 && (
+        <FAQSchema items={g.faq.map((f) => ({ question: f.q, answer: f.a }))} />
+      )}
 
       <PageHeader
         current={g.name}
@@ -104,6 +107,43 @@ export default async function GuidePage({ params }: Props) {
           </div>
         </div>
       ))}
+
+      {/* ── FAQ ──────────────────────────────────────────────────── */}
+      {g.faq && g.faq.length > 0 && (
+        <>
+          <SectionBand
+            num={String(g.sections.length + 1).padStart(2, "0")}
+            label="Frequently Asked"
+            meta={`${g.faq.length} questions`}
+          />
+          <div className="p-4 sm:p-9">
+            <article className="bg-paper px-7 pt-6 pb-5">
+              <dl className="flex flex-col">
+                {g.faq.map((f, i) => (
+                  <div
+                    key={f.q}
+                    className={`grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 py-4 ${
+                      i > 0 ? "border-t border-rule" : ""
+                    }`}
+                  >
+                    <dt className="font-mono text-mono text-red font-semibold opacity-[0.78] mt-0.5">
+                      Q.{String(i + 1).padStart(2, "0")}
+                    </dt>
+                    <div>
+                      <p className="font-sans font-semibold text-ink text-[15px] mb-1">
+                        {f.q}
+                      </p>
+                      <p className="text-[13px] leading-[1.55] text-ink-2">
+                        {f.a}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </dl>
+            </article>
+          </div>
+        </>
+      )}
 
       {/* ── Related guides ─────────────────────────────────────── */}
       {related.length > 0 && (

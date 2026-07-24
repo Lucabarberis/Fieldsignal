@@ -25,6 +25,8 @@ export type Guide = {
   tldr: string;
   /** Optional related-guide slugs for cross-link block. */
   relatedSlugs: readonly string[];
+  /** FAQ block — rendered visibly and as FAQPage schema. */
+  faq?: readonly { q: string; a: string }[];
   primaryKW: string;
 };
 
@@ -86,6 +88,24 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["expert-network-pricing-explained", "expert-network-compliance-101", "buying-an-expert-network-rfp-template"],
+    faq: [
+      {
+        q: "What is an expert network?",
+        a: "An expert network is a marketplace that connects buyers — funds, corporates and consulting firms — with vetted operating professionals for paid 1:1 consultations. The network handles sourcing, vetting, scheduling, compliance and payment. The largest players are GLG, AlphaSights, Guidepoint, Third Bridge and Tegus; boutiques like FieldSignal sit alongside them with different economics.",
+      },
+      {
+        q: "How many expert calls do I need for a project?",
+        a: "Default to 5–10 calls for a focused question, 15–25 for a market-sizing or channel-research project, and 25+ for a full commercial-diligence sprint. Five well-prepared calls almost always beat fifteen rushed ones.",
+      },
+      {
+        q: "How do I get matched with the right experts?",
+        a: "The brief drives expert quality more than anything else. A strong brief states the decision being made, the 5–7 specific questions you need answered, the type of expert (role, seniority, geography), the experts to avoid, and a kill-criterion. Spend about 30 minutes on it.",
+      },
+      {
+        q: "How can I tell if an expert call is going badly?",
+        a: "The first five minutes are diagnostic — a good expert can articulate their direct experience with the topic in under 90 seconds. If they're hedging or citing public sources, end the call politely and ask the network for a replacement, usually available within 24 hours.",
+      },
+    ],
     primaryKW: "how to use an expert network",
   },
   {
@@ -140,6 +160,24 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["buying-an-expert-network-rfp-template", "how-to-use-an-expert-network", "expert-networks-for-vcs"],
+    faq: [
+      {
+        q: "How much does an expert network charge per call?",
+        a: "Per-call rates across the major networks cluster between €500 and €1,500 for a 60-minute consultation, varying with expert seniority and category scarcity. Headline rates are similar across GLG, AlphaSights, Third Bridge, Guidepoint and Coleman — the real cost differentiator is everything else.",
+      },
+      {
+        q: "What are the main expert-network pricing models?",
+        a: "Three axes: the per-call rate, an annual minimum or retainer (anywhere from zero to six figures), and bundled subscription components such as transcript libraries or surveys.",
+      },
+      {
+        q: "Should I accept an annual minimum?",
+        a: "Sub-$50k/year buyers should reject any annual minimum. The big networks require commitments well above $100k/year, so you pay for capacity you won't use; boutiques like FieldSignal don't impose minimums — you pay only for what you use.",
+      },
+      {
+        q: "What are the red flags in expert-network pricing?",
+        a: "Vendors who won't reveal per-call rates until contract signature, aggressive year-2 escalator clauses without volume protection, and bundled commitments that force in products you don't need.",
+      },
+    ],
     primaryKW: "expert network pricing",
   },
   {
@@ -204,6 +242,24 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["how-to-use-an-expert-network", "buying-an-expert-network-rfp-template", "expert-network-pricing-explained"],
+    faq: [
+      {
+        q: "What compliance elements should every expert network have?",
+        a: "Five: MNPI screening, cooling-off enforcement, NDA and confidentiality disclosure, conflict-of-interest screening, and per-call attestation with a retained audit trail. If any one is missing, walk away.",
+      },
+      {
+        q: "What is the cooling-off period in an expert network?",
+        a: "A standard 6-month cooling-off period applies from a person's departure date before a former employee of a publicly-traded company can be matched to a brief discussing that specific employer. Some networks enforce 12 months for sensitive sectors; 3 months is common for non-public employers.",
+      },
+      {
+        q: "What is MNPI, and why can't it be discussed on a call?",
+        a: "Material non-public information cannot be discussed in expert calls. The expert must attest before the call that they hold no MNPI on the topic, and the network must screen briefs against current-employee restrictions and active inside-list periods. Any vendor that doesn't screen for MNPI is unfit for institutional use.",
+      },
+      {
+        q: "What should I verify before signing the MSA?",
+        a: "Ask for an anonymised sample audit-trail record, the most recent external compliance audit report, the cooling-off policy in writing, the conflict-of-interest disclosure threshold in writing, and confirmation of data residency and standard contractual clauses. Reputable vendors supply these within 48 hours.",
+      },
+    ],
     primaryKW: "expert network compliance",
   },
   {
@@ -268,6 +324,20 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["how-to-use-an-expert-network", "running-a-voice-of-customer-program", "win-loss-analysis-template"],
+    faq: [
+      {
+        q: "What are the rules for asking experts good questions?",
+        a: "Three: ask about specific past behaviour rather than future opinion, ask for examples before asking for patterns, and save the killer question for after you've built rapport.",
+      },
+      {
+        q: "How do I test whether an expert is the right one in the first minutes?",
+        a: "Open with 'In 60 seconds, what's your direct experience with [topic]?' — it tests within the first 90 seconds whether you have the right expert, followed by when they last worked directly on it and what the situation was.",
+      },
+      {
+        q: "What are the highest-value questions to end an expert call with?",
+        a: "Three closing questions: 'Who else should I talk to who's done this from a different angle?', 'What question should I have asked that I didn't?', and 'If you were running this research, what would you do next?' — often the single highest-ROI minute of the call.",
+      },
+    ],
     primaryKW: "expert interview questions",
   },
   {
@@ -322,6 +392,20 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["how-to-use-an-expert-network", "competitive-intelligence-frameworks", "commercial-due-diligence-playbook"],
+    faq: [
+      {
+        q: "What's the difference between primary and secondary research?",
+        a: "Secondary research — analyst reports, broker research, filings, public databases — is best for landscape mapping, established categories and quantitative benchmarks. Primary research — expert calls, customer interviews, surveys, channel checks — is best for operator reality, emerging categories, and ground-truthing assumptions where the published narrative is suspect.",
+      },
+      {
+        q: "Should I do secondary or primary research first?",
+        a: "Default to secondary first to map the landscape cheaply, then primary to test the specific hypotheses that matter. Skip secondary only when speed matters more than completeness, or when the category is so new that no worthwhile secondary research exists.",
+      },
+      {
+        q: "How much should I budget for primary vs secondary research?",
+        a: "Secondary runs roughly €10–€50k/year per seat for database access; primary runs €500–€1,500 per call, or €10–€40k per project package. For a typical strategic decision you'd spend about €5k on secondary and €15–€30k on primary — reversing that ratio usually means under-investing in primary.",
+      },
+    ],
     primaryKW: "primary vs secondary research",
   },
   {
@@ -381,6 +465,20 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["expert-network-pricing-explained", "expert-network-compliance-101", "how-to-use-an-expert-network"],
+    faq: [
+      {
+        q: "How should I structure an expert-network RFP?",
+        a: "Cover five sections: network and supply, compliance, service model, pricing transparency, and operating maturity. A suggested scoring weight: compliance 25%, service model and account team 25%, pricing transparency 20%, coverage relevant to your use case 20%, and references and operating maturity 10%.",
+      },
+      {
+        q: "What's the best way to compare vendors in an RFP?",
+        a: "Don't ask 'can you do X?' — everyone says yes. Ask 'show me a sample of X' or 'walk me through how X works in practice.' Sample-based questions cut through marketing.",
+      },
+      {
+        q: "Should I run a paid pilot before choosing a vendor?",
+        a: "Yes. After the RFP narrows to 2–3 finalists, run a paid pilot with each — same brief, deliverable and timeline, roughly €5–10k per finalist. It tells you more about vendor fit than any document-based RFP.",
+      },
+    ],
     primaryKW: "expert network RFP",
   },
   {
@@ -445,6 +543,20 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["primary-vs-secondary-research", "win-loss-analysis-template", "running-a-voice-of-customer-program"],
+    faq: [
+      {
+        q: "How many competitive-intelligence frameworks should a programme use?",
+        a: "Pick 2–3, not 7. Each framework has a specific lens, and mixing too many produces noise. A typical mid-market B2B programme might run channel-side reality, lost-deal post-mortems and pricing telemetry.",
+      },
+      {
+        q: "What are the main competitive-intelligence frameworks?",
+        a: "Seven common ones: channel-side reality, lost-deal post-mortems, customer-base health monitoring, ex-employee operating signal, pricing telemetry, product-comparison teardowns, and strategic-narrative tracking. Each has its own cadence and best-fit use case.",
+      },
+      {
+        q: "What do good CI deliverables look like?",
+        a: "A monthly executive briefing of 1–2 pages with 4–5 specific findings and recommendations, a quarterly deep-dive on one priority competitor, an annual programme review, and live battle cards refreshed every 90 days.",
+      },
+    ],
     primaryKW: "competitive intelligence frameworks",
   },
   {
@@ -509,6 +621,20 @@ export const guides: readonly Guide[] = [
       },
     ],
     relatedSlugs: ["competitive-intelligence-frameworks", "win-loss-analysis-template", "expert-interview-question-templates"],
+    faq: [
+      {
+        q: "What makes a Voice-of-Customer programme 'programmatic'?",
+        a: "A recurring cycle with a fixed methodology and structured findings that compare period-over-period — typically a quarterly cadence, third-party interviewers, 15–40 calls per cycle, and an executive review every 90 days. Anything less is project-based VoC pretending to be a programme.",
+      },
+      {
+        q: "Should I use internal or third-party interviewers for VoC?",
+        a: "Use third-party interviewers. Customers won't tell your account or product team the truth, partly out of politeness and partly to protect the relationship. Independent interviewers get materially more candid answers, at roughly €500–€800 per call all-in including synthesis.",
+      },
+      {
+        q: "What most determines whether a VoC programme survives?",
+        a: "A 60-minute quarterly executive review where 4–5 senior leaders read the findings, discuss action and assign owners. Programmes without this discipline usually fade within 12 months; those with it compound.",
+      },
+    ],
     primaryKW: "voice of customer program",
   },
 ] as const;

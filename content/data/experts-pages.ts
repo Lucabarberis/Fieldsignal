@@ -232,34 +232,12 @@ export const expertPages: readonly ExpertPage[] = [
       "Answers to what experts actually ask: payment, scheduling, compliance, taxes, disputes.",
     pageLede:
       "Direct answers to the questions experts ask most often. If your question isn't covered here, contact us — we'll usually respond within one business day.",
-    sections: [
-      {
-        heading: "Frequency of calls",
-        body:
-          "Most active experts do 5–20 calls per year. Highly sought-after categories can see 30+ calls per year. We don't impose a minimum activity requirement; you accept or decline each brief as it suits you.",
-      },
-      {
-        heading: "Tax handling",
-        body:
-          "You are responsible for your own tax handling. We issue a payment record for each call (showing date, amount and our entity details). Most experts handle expert-network income as self-employed/sole-trader income; consult your accountant for your jurisdiction.",
-      },
-      {
-        heading: "Conflicts with current employer",
-        body:
-          "If your current employer prohibits external paid consulting, you cannot accept calls without going through their approval process. We can't help you bypass that — it's your responsibility to know your employer's policy.",
-      },
-      {
-        heading: "Dispute resolution",
-        body:
-          "Disputes are rare. If a client and expert disagree about whether a call delivered value, we handle the situation directly with both parties — the expert is paid for delivered time regardless of client satisfaction (unless the call breaches the code of conduct).",
-      },
-      {
-        heading: "Leaving the network",
-        body:
-          "You can leave the network at any time by emailing us. We'll remove your profile within 5 business days. Past call records are retained per the 7-year audit-trail requirement (anonymised after departure if requested).",
-      },
-    ],
+    sections: [],
     faq: [
+      {
+        q: "How many calls will I get as an expert?",
+        a: "Most active experts do 5–20 calls per year. Highly sought-after categories can see 30+ calls per year. We don't impose a minimum activity requirement; you accept or decline each brief as it suits you.",
+      },
       {
         q: "Do I have to sign an exclusivity agreement?",
         a: "No. You can be on multiple expert networks. We don't ask about other networks and don't prohibit working with them.",
@@ -269,12 +247,28 @@ export const expertPages: readonly ExpertPage[] = [
         a: "Notify us as early as possible. We'll reschedule with the client. Repeated missed calls without notice will result in removal from the active expert pool.",
       },
       {
-        q: "Can I refer colleagues?",
-        a: "Yes. See /experts/refer-an-expert — we pay $100 for each successful referral who completes their first paid call.",
+        q: "How is tax on my expert earnings handled?",
+        a: "You are responsible for your own tax handling. We issue a payment record for each call (showing date, amount and our entity details). Most experts handle expert-network income as self-employed/sole-trader income; consult your accountant for your jurisdiction.",
+      },
+      {
+        q: "What if my current employer prohibits paid consulting?",
+        a: "If your current employer prohibits external paid consulting, you cannot accept calls without going through their approval process. We can't help you bypass that — it's your responsibility to know your employer's policy.",
       },
       {
         q: "Do I need to record calls?",
         a: "No. Recording is at the client's request and requires your explicit consent before each call. You can decline recording without penalty.",
+      },
+      {
+        q: "How are disputes about a call resolved?",
+        a: "Disputes are rare. If a client and expert disagree about whether a call delivered value, we handle the situation directly with both parties — the expert is paid for delivered time regardless of client satisfaction (unless the call breaches the code of conduct).",
+      },
+      {
+        q: "Can I refer colleagues to the network?",
+        a: "Yes. See /experts/refer-an-expert — we pay $100 for each successful referral who completes their first paid call.",
+      },
+      {
+        q: "How do I leave the network?",
+        a: "You can leave the network at any time by emailing us. We'll remove your profile within 5 business days. Past call records are retained per the 7-year audit-trail requirement (anonymised after departure if requested).",
       },
     ],
     primaryKW: "expert network FAQ",

@@ -27,6 +27,14 @@ export function Footer() {
               {link.label}
             </Link>
           ))}
+          <a
+            href={SITE.linkedin}
+            target="_blank"
+            rel="noopener noreferrer me"
+            className="font-mono text-mono text-paper/60 hover:text-paper uppercase transition-colors"
+          >
+            LinkedIn
+          </a>
         </div>
       </footer>
 

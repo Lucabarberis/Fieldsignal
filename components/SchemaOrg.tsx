@@ -38,6 +38,15 @@ export function OrganizationSchema() {
       url: `${SITE.url}/fieldsignal-logo.svg`,
     },
     image: `${SITE.url}/og`,
+    // sameAs links the brand entity to its off-site profiles so search/AI
+    // engines can corroborate it. Registered address of the operating entity.
+    sameAs: [SITE.linkedin],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: SITE.address.street,
+      addressLocality: SITE.address.locality,
+      addressCountry: SITE.address.country,
+    },
     foundingLocation: {
       "@type": "Place",
       name: SITE.jurisdiction,
