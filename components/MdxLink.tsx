@@ -46,8 +46,9 @@ export function makeMdxComponents(publishedSlugs?: ReadonlySet<string>) {
       );
     }
 
+    // External links (incl. auto-inserted citations) open in a new tab.
     return (
-      <a href={canonical} {...rest}>
+      <a href={canonical} target="_blank" rel="noopener noreferrer" {...rest}>
         {children}
       </a>
     );

@@ -21,9 +21,12 @@ import {
 import { MDXRemote } from "next-mdx-remote-client/rsc";
 import remarkGfm from "remark-gfm";
 import { remarkGlossaryLinks } from "@/lib/mdx/remark-glossary-links";
+import { remarkExternalCitations } from "@/lib/mdx/remark-external-citations";
 
 const mdxOptions = {
-  mdxOptions: { remarkPlugins: [remarkGfm, remarkGlossaryLinks] },
+  mdxOptions: {
+    remarkPlugins: [remarkGfm, remarkGlossaryLinks, remarkExternalCitations],
+  },
 };
 
 type Props = { params: Promise<{ slug: string }> };
