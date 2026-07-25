@@ -1142,40 +1142,40 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Creator platform · travel guides",
     title: "GTM Channel Discovery — Creator Platform",
     description:
-      "A platform for travel creators tested cold outbound, Meta ads and Google ads to find which acquisition channel actually signed active creators and why the others failed.",
+      "A platform for travel creators tested outbound, Meta ads, Google ads, influencer partnerships and creator referral to find which channel actually signed active creators and why the others failed.",
     oneLiner:
-      "A travel-creator platform tested outbound, Meta and Google to find which channel actually signed quality creators.",
+      "A travel-creator platform tested five channels to find which one actually signed quality, publishing creators.",
     pageLede:
       "The company lets travel creators build and sell interactive guides to their followers. Growth depended on signing creators who already had an audience. The team was ready to spend on paid acquisition but had no read on which channel would deliver. The brief was simple: find which GTM channel works, which doesn't and why, before the budget went in.",
     sector: "Creator economy / travel-tech",
     engagementType: "GTM channel discovery",
     timeline: "6 weeks",
     challenge:
-      "The platform needed creators with real audiences, not sign-ups who would never publish. Paid budget was limited and could not be spread across three channels on faith. The team needed to know which channel produced active, audience-carrying creators and why the others did not, before committing spend.",
+      "The platform needed creators with real audiences, not sign-ups who would never publish. Paid budget was limited and could not be spread across every channel on faith. The team needed to know which channels produced active, audience-carrying creators and why the others did not, before committing spend.",
     approach: [
-      "Ran the same offer across three channels in parallel: cold outbound, Meta ads and Google ads",
+      "Tested five channels against one goal: cold outbound, Meta ads, Google ads, influencer partnerships and creator referral",
       "Defined a real success metric — creators who published a guide, not raw sign-ups",
-      "Held targeting tight: outbound went to mid-tier travel creators with proven audiences",
+      "Held targeting tight — outbound and referral aimed at mid-tier creators with proven audiences",
       "Cut each channel the moment its qualified-signup signal stalled",
     ],
     delivered: [
-      "A ranked read on which channel produced publishing creators",
+      "A ranked read on which channels produced publishing creators",
       "The reason each channel won or lost, tied to how creators actually get discovered",
-      "A budget plan that concentrated spend on the one channel that worked",
+      "A budget plan that concentrated spend on the channels that worked",
     ],
     outcome: [
-      "Outbound won — personal outreach to identifiable creators produced the only reliable flow of active sign-ups",
+      "Outbound won, and creator referral compounded it — signed creators introduced peers at near-zero cost",
       "Google lost: creators do not search for a way to sell travel guides, so there was no intent to capture",
-      "Meta lost: interest targeting could not isolate creators-with-audiences, so cost per active creator ran too high",
+      "Meta and broad influencer spend lost: neither could isolate creators with real audiences, so cost per active creator ran too high",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel", value: "Outbound" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels", value: "Outbound + referral" },
       { label: "Weakest channel", value: "Google (no intent)" },
       { label: "Timeline", value: "6 weeks" },
     ],
     quote: {
-      text: "We almost split the budget three ways. The test showed only one channel actually brought in creators who published, and exactly why the other two never could. That saved us months of wasted spend.",
+      text: "We almost split the budget five ways. The test showed which channels actually brought in creators who published, and exactly why the rest never could. That saved us months of wasted spend.",
       role: "Head of Growth",
     },
     relatedSlugs: [
@@ -1193,34 +1193,34 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Gen-AI SaaS · fashion e-commerce imaging",
     title: "GTM Channel Discovery — AI Imaging SaaS",
     description:
-      "An AI product-imagery SaaS for fashion brands tested cold outbound, Meta ads and Google ads to find which channel reached its real buyer and why.",
+      "An AI product-imagery SaaS for fashion brands tested outbound, LinkedIn ads, Google search, Meta ads and brand partnerships to find which channel reached its real buyer and why.",
     oneLiner:
-      "An AI fashion-imaging SaaS tested outbound, Meta and Google to find which channel reached brand buyers.",
+      "An AI fashion-imaging SaaS tested five channels to find which one reached brand and e-commerce buyers.",
     pageLede:
       "The company generates on-model fashion imagery with AI, replacing physical photoshoots. Its buyers are e-commerce and brand teams at fashion retailers. The founders were spending across paid channels with no clear read on what worked. The brief: find which GTM channel actually reaches the buyer, which doesn't and why.",
     sector: "Generative-AI SaaS / fashion e-commerce",
     engagementType: "GTM channel discovery",
     timeline: "6 weeks",
     challenge:
-      "The buyer was a specific person — an e-commerce or brand lead at a fashion retailer — but the team was fishing for them across three very different channels. They needed to know where that buyer actually engages, and where paid spend was simply the wrong context, before scaling the budget.",
+      "The buyer was a specific person — an e-commerce or brand lead at a fashion retailer — but the team was fishing for them across several very different channels. They needed to know where that buyer actually engages, and where paid spend was simply the wrong context, before scaling the budget.",
     approach: [
-      "Tested cold outbound, Meta ads and Google search against the same qualified-demo goal",
+      "Tested five channels to a qualified-demo goal: cold outbound, LinkedIn ads, Google search, Meta ads and brand partnerships",
       "Pointed outbound directly at e-commerce and brand leads at target retailers",
       "Measured to booked demos with real buyers, not form-fills",
       "Compared channels on qualified pipeline, then reallocated fast",
     ],
     delivered: [
-      "A ranked read on which channel produced demos with real buyers",
+      "A ranked read on which channels produced demos with real buyers",
       "The reason each channel won or lost, tied to how fashion brands buy software",
       "A concentrated plan built around the channels that produced pipeline",
     ],
     outcome: [
       "Outbound won: a named, reachable buyer responded to targeted, specific outreach",
-      "Google search worked as a secondary channel — a small but real stream of brands already looking for AI imagery",
-      "Meta lost: brand decision-makers do not buy production software from a social feed, so spend converted poorly",
+      "Google search and brand partnerships worked as secondary channels — real, if smaller, streams of in-market demand",
+      "Meta lost and LinkedIn ads underdelivered: the right audience, but the wrong context and too costly to convert brand buyers",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
+      { label: "Channels tested", value: "5" },
       { label: "Winning channel", value: "Outbound" },
       { label: "Weakest channel", value: "Meta" },
       { label: "Timeline", value: "6 weeks" },
@@ -1244,35 +1244,35 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Vertical SaaS · self-storage operators",
     title: "GTM Channel Discovery — Vertical SaaS",
     description:
-      "A self-storage management SaaS tested cold outbound, Meta ads and Google ads and found that search intent, not social, drove qualified demand.",
+      "A self-storage management SaaS tested Google search, review directories, cold outbound, Meta ads and partner integrations and found search intent, not social, drove qualified demand.",
     oneLiner:
-      "A self-storage management SaaS tested outbound, Meta and Google to find where its operator buyers convert.",
+      "A self-storage management SaaS tested five channels to find where its operator buyers actually convert.",
     pageLede:
       "The company sells cloud software that runs self-storage and valet-storage businesses. Its buyers are facility operators. The team wanted to scale acquisition but was unsure whether to push outbound, social or search. The brief: find which GTM channel works for this operator buyer, which doesn't and why.",
     sector: "Vertical SaaS / self-storage",
     engagementType: "GTM channel discovery",
     timeline: "5 weeks",
     challenge:
-      "Self-storage operators are a defined buyer with a known category of software. The question was whether demand should be captured from existing search intent, created through paid social or driven by outbound. The team needed to know which of those actually produced trials before spend scaled.",
+      "Self-storage operators are a defined buyer with a known category of software. The question was whether demand should be captured from existing search intent, created through paid social or driven by outbound. The team needed to know which channels actually produced trials before spend scaled.",
     approach: [
-      "Ran cold outbound, Meta ads and Google search side by side to a free-trial goal",
+      "Ran five channels to a free-trial goal: Google search, review directories, cold outbound, Meta ads and partner integrations",
       "Tested whether operators were actively searching for the category or needed to be reached cold",
       "Tracked trials that reached real activation, not just sign-ups",
       "Read each channel against the operator's actual buying behaviour",
     ],
     delivered: [
-      "A ranked read on which channel produced activated trials",
+      "A ranked read on which channels produced activated trials",
       "The reason search beat the others for this established-category buyer",
       "A plan concentrating spend on capturing existing demand",
     ],
     outcome: [
-      "Google search and SEO won: operators actively search for storage management software, so there was strong intent to capture",
-      "Outbound worked as a secondary channel for multi-site operators, but at a slower pace",
+      "Google search and review directories won: operators actively look for storage software and trust peer-review sites, so intent was strong to capture",
+      "Outbound and partner integrations worked as secondary channels, especially for multi-site operators",
       "Meta lost: operators do not evaluate back-office software from a social feed, so the spend produced little",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel", value: "Google / search" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels", value: "Search + directories" },
       { label: "Weakest channel", value: "Meta" },
       { label: "Timeline", value: "5 weeks" },
     ],
@@ -1295,35 +1295,35 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Marketplace · pay-per-click PR",
     title: "GTM Channel Discovery — PR Marketplace",
     description:
-      "A pay-per-click PR marketplace tested cold outbound, Meta ads and Google ads and found outbound beat paid for reaching brand marketers and why.",
+      "A pay-per-click PR marketplace tested outbound, LinkedIn, Google, agency partnerships and content to find which channel reached brand marketers and why paid search and social failed.",
     oneLiner:
-      "A performance-PR marketplace tested outbound, Meta and Google to find which channel reached brand and agency buyers.",
+      "A performance-PR marketplace tested five channels to find which one reached brand and agency buyers.",
     pageLede:
       "The company runs a marketplace where brands pay publishers per click for editorial coverage. Its buyers are performance marketers and PR leads at consumer brands and agencies. Because the model was new, no one was searching for it. The brief: find which GTM channel actually reaches these buyers, which doesn't and why.",
     sector: "Media / PR marketplace",
     engagementType: "GTM channel discovery",
     timeline: "7 weeks",
     challenge:
-      "The product created a new category, so buyers did not yet search for it by name. The team needed to know whether to educate the market through paid channels or reach an identifiable buyer directly. The test had to show which of the three channels produced real advertiser sign-ups before scaling.",
+      "The product created a new category, so buyers did not yet search for it by name. The team needed to know whether to educate the market through paid channels or reach an identifiable buyer directly. The test had to show which channels produced real advertiser sign-ups before scaling.",
     approach: [
-      "Tested cold outbound, Meta ads and Google search against a qualified-advertiser goal",
+      "Tested five channels to a qualified-advertiser goal: cold outbound, LinkedIn, Google, agency partnerships and content",
       "Aimed outbound at performance-marketing and PR leads at DTC brands and their agencies",
       "Measured to brands that launched a first campaign, not just registrations",
       "Compared channels on real activation and cut the laggards",
     ],
     delivered: [
-      "A ranked read on which channel produced advertisers who launched",
+      "A ranked read on which channels produced advertisers who launched",
       "The reason a new-category product could not rely on search or social",
-      "A plan built around targeted outbound to a known buyer",
+      "A plan built around targeted outbound and agency partnerships",
     ],
     outcome: [
-      "Outbound won: the buyer was identifiable and the novel model needed a direct, specific explanation",
+      "Outbound won, and agency partnerships scaled it — one agency onboarded brought many brands at once",
       "Google lost: no one searches for a category they do not know exists, so there was no intent to capture",
-      "Meta lost: B2B marketers do not adopt a new media channel from an Instagram ad, so spend wasted",
+      "LinkedIn and content underdelivered: useful for credibility but too slow to produce advertisers who launched",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel", value: "Outbound" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels", value: "Outbound + partnerships" },
       { label: "Weakest channel", value: "Google (no category search)" },
       { label: "Timeline", value: "7 weeks" },
     ],
@@ -1346,9 +1346,9 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Marketplace · live expert lessons",
     title: "GTM Channel Discovery — Skills Marketplace",
     description:
-      "A live-lessons marketplace tested cold outbound, Meta ads and Google ads and found search converted buyers while social only filled the top of the funnel.",
+      "A live-lessons marketplace tested Google, Meta, TikTok, creator referral and SEO and found search converted buyers while paid social only filled the top of the funnel.",
     oneLiner:
-      "A live-lessons marketplace tested outbound, Meta and Google to find which channel converted learners and creators.",
+      "A live-lessons marketplace tested five channels to find which converted learners and which brought creators.",
     pageLede:
       "The company runs a marketplace for booking live lessons and masterclasses from experts. It has two sides — learners who buy and creators who teach. Growth spend was going out with no clear read on returns. The brief: find which GTM channel works for each side, which doesn't and why.",
     sector: "Marketplace / online learning",
@@ -1357,25 +1357,25 @@ export const caseStudies: readonly CaseStudy[] = [
     challenge:
       "A two-sided marketplace has to acquire buyers and supply, and the same channel rarely serves both. The team needed to know where paying learners actually convert, where creators come from and which channels were burning budget on attention that never turned into bookings.",
     approach: [
-      "Split the test by side: learner demand across Meta and Google, creator supply through outbound",
-      "Measured the demand side to completed bookings, not clicks or installs",
+      "Split five channels by side: learner demand across Google, Meta, TikTok and SEO; creator supply through referral",
+      "Measured the demand side to completed bookings, not clicks or views",
       "Tested whether learner intent lived in search or could be created on social",
       "Read creator acquisition on published, active teachers",
     ],
     delivered: [
-      "A ranked read on which channel converted paying learners",
+      "A ranked read on which channels converted paying learners",
       "A clear split between demand-side and supply-side channels",
       "The reason social filled the funnel but search closed it",
     ],
     outcome: [
-      "Google won on the demand side: learners search for the exact skill they want, so intent converted to bookings",
-      "Meta filled the top of the funnel cheaply but converted weakly — attention without purchase intent",
-      "Outbound won on the supply side: creators responded to direct, specific outreach",
+      "Google and SEO won on demand: learners search for the exact skill they want, so intent converted to bookings",
+      "Meta and TikTok filled the funnel cheaply but converted weakly — attention without purchase intent",
+      "Creator referral won on supply: active teachers introduced other experts far cheaper than paid acquisition",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel (demand)", value: "Google" },
-      { label: "Weakest for conversion", value: "Meta" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channel (demand)", value: "Google / SEO" },
+      { label: "Weakest for conversion", value: "Paid social" },
       { label: "Timeline", value: "6 weeks" },
     ],
     quote: {
@@ -1397,9 +1397,9 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Hardware + SaaS · fleet driver safety",
     title: "GTM Channel Discovery — Fleet-Safety Hardware",
     description:
-      "A fleet driver-safety hardware and software company tested cold outbound, Meta ads and Google ads and found direct sales, not paid ads, drove pipeline.",
+      "A fleet driver-safety hardware and software company tested outbound, industry events, LinkedIn, Google and Meta and found direct sales and events, not paid ads, drove pipeline.",
     oneLiner:
-      "A fleet driver-safety company tested outbound, Meta and Google to find which channel reached enterprise fleet buyers.",
+      "A fleet driver-safety company tested five channels to find which reached enterprise fleet buyers.",
     pageLede:
       "The company makes a wearable device and dashboard that detects driver drowsiness for commercial fleets. Its buyers are fleet and safety managers at logistics operators. Paid ads were being tried with no clear return. The brief: find which GTM channel works for this enterprise buyer, which doesn't and why.",
     sector: "Fleet safety / hardware + SaaS",
@@ -1408,24 +1408,24 @@ export const caseStudies: readonly CaseStudy[] = [
     challenge:
       "The buyer set was small, the deal was considered and the sale involved hardware and a long cycle. The team needed to know whether paid channels could ever reach fleet decision-makers, or whether budget belonged in direct sales and pilots, before spending further on ads.",
     approach: [
-      "Tested cold outbound, Meta ads and Google search against a qualified-pilot goal",
+      "Tested five channels to a qualified-pilot goal: cold outbound, industry events, LinkedIn, Google and Meta",
       "Aimed outbound at fleet and safety managers at target logistics operators",
       "Measured to booked pilots and qualified sales conversations, not clicks",
-      "Compared paid reach against direct outreach for an enterprise buyer",
+      "Compared paid reach against direct outreach and in-person events",
     ],
     delivered: [
-      "A ranked read on which channel produced qualified fleet conversations",
+      "A ranked read on which channels produced qualified fleet conversations",
       "The reason an enterprise hardware sale resists broad paid channels",
-      "A plan moving budget from ads into targeted outbound and pilots",
+      "A plan moving budget from ads into targeted outbound, events and pilots",
     ],
     outcome: [
-      "Outbound and direct sales won: a small, identifiable buyer set responded to targeted outreach and pilot offers",
-      "Google captured a thin stream of intent from fleets already researching fatigue monitoring",
+      "Outbound and industry events won: a small, identifiable buyer set responded to targeted outreach and met the product in person",
+      "Google and LinkedIn captured a thin stream of intent from fleets already researching fatigue monitoring",
       "Meta lost outright: fleet safety managers do not buy enterprise hardware from a social ad",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel", value: "Outbound / sales" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels", value: "Outbound + events" },
       { label: "Weakest channel", value: "Meta" },
       { label: "Timeline", value: "8 weeks" },
     ],
@@ -1448,9 +1448,9 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Consumer app · social + shop-to-earn rewards",
     title: "GTM Channel Discovery — Consumer Social App",
     description:
-      "A consumer social-rewards app tested cold outbound, Meta ads and Google ads and found Meta drove installs while search fell flat, and outbound built the partner side.",
+      "A consumer social-rewards app tested Meta, TikTok, Google, referral loops and partner outbound and found paid social and referral drove installs while search fell flat.",
     oneLiner:
-      "A consumer social-rewards app tested outbound, Meta and Google to find which channel drove installs and partners.",
+      "A consumer social-rewards app tested five channels to find which drove installs and which built the partner side.",
     pageLede:
       "The company runs a consumer social app with a shop-and-earn rewards layer, plus a partner side of retailers funding the rewards. It needed users and partners, and its paid spend had no clear read. The brief: find which GTM channel works for each side, which doesn't and why.",
     sector: "Consumer social / rewards app",
@@ -1459,24 +1459,24 @@ export const caseStudies: readonly CaseStudy[] = [
     challenge:
       "A consumer app needs cheap, high-volume installs, while the partner side needs targeted B2B outreach. The team needed to know which channel drove quality installs, whether anyone searched for a brand-new social app and where the retail-partner pipeline actually came from.",
     approach: [
-      "Split the test: consumer installs across Meta and Google, retail partners through outbound",
+      "Split five channels: consumer installs across Meta, TikTok, Google and referral loops; retail partners through outbound",
       "Measured installs to active, engaged users rather than raw downloads",
       "Tested whether search demand existed for a new social app at all",
       "Read partner acquisition on booked retailer conversations",
     ],
     delivered: [
-      "A ranked read on which channel drove engaged installs",
-      "A clear split between the consumer channel and the partner channel",
+      "A ranked read on which channels drove engaged installs",
+      "A clear split between the consumer channels and the partner channel",
       "The reason a new consumer app cannot rely on search",
     ],
     outcome: [
-      "Meta won on the consumer side: interest and geo targeting drove engaged installs at a workable cost",
-      "Google lost: no one searches for a social app that did not exist in their mind yesterday",
-      "Outbound won on the partner side: retailers responded to a direct, specific pitch",
+      "Meta won on the consumer side, and referral loops compounded it — engaged users invited more at near-zero cost",
+      "TikTok added cheap top-funnel reach but converted below Meta on engaged installs",
+      "Google lost: no one searches for a social app that did not exist in their mind yesterday, and outbound won the partner side",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel (users)", value: "Meta" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels (users)", value: "Meta + referral" },
       { label: "Weakest channel", value: "Google" },
       { label: "Timeline", value: "6 weeks" },
     ],
@@ -1499,9 +1499,9 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "DTC brand · functional wellness drinks",
     title: "GTM Channel Discovery — DTC Beverage Brand",
     description:
-      "A DTC functional-beverage brand tested cold outbound, Meta ads and Google ads and found social drove discovery while outbound opened retail, and search stayed thin early.",
+      "A DTC functional-beverage brand tested Meta, TikTok, influencer content, Google and retail outreach and found social and influencer drove discovery while outbound opened retail.",
     oneLiner:
-      "A DTC wellness-drinks brand tested outbound, Meta and Google to find which channel drove sales and stockists.",
+      "A DTC wellness-drinks brand tested five channels to find which drove sales and which opened stockists.",
     pageLede:
       "The company is a direct-to-consumer brand making science-backed functional drinks, sold online and through retail. It needed consumer demand and retail stockists, and wanted to know where to put its budget. The brief: find which GTM channel works for each goal, which doesn't and why.",
     sector: "DTC / functional beverages",
@@ -1510,24 +1510,24 @@ export const caseStudies: readonly CaseStudy[] = [
     challenge:
       "A new consumer beverage has to build demand people do not yet know to look for, while also landing wholesale stockists. The team needed to know whether social, search or outreach drove real sales and retail interest, before scaling spend behind any of them.",
     approach: [
-      "Split the test: consumer demand across Meta and Google, retail stockists through outbound",
+      "Split five channels: consumer demand across Meta, TikTok, influencer content and Google; retail stockists through outbound",
       "Measured consumer channels to purchases, not clicks or reach",
       "Tested whether category search existed yet for a novel functional drink",
       "Read the retail side on stockist conversations and trials",
     ],
     delivered: [
-      "A ranked read on which channel drove consumer purchases",
-      "A clear split between the demand channel and the wholesale channel",
+      "A ranked read on which channels drove consumer purchases",
+      "A clear split between the demand channels and the wholesale channel",
       "The reason a discovery product leans on social, not search, early on",
     ],
     outcome: [
-      "Meta won on demand: visual, creator-style content drove trial for a product people discover rather than search for",
+      "Meta, TikTok and influencer content won on demand: visual, creator-style content drove trial for a product people discover rather than search for",
       "Google stayed thin early — category search barely existed, and only branded terms converted",
       "Outbound won for retail: buyers at stockists responded to a direct, specific pitch",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel (demand)", value: "Meta" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels (demand)", value: "Meta + influencer" },
       { label: "Weakest channel", value: "Google (thin search)" },
       { label: "Timeline", value: "6 weeks" },
     ],
@@ -1550,9 +1550,9 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Fintech · escrow for high-value sales",
     title: "GTM Channel Discovery — Escrow Fintech",
     description:
-      "A secure-payments fintech for high-value sales tested cold outbound, Meta ads and Google ads and found partnerships and outbound beat consumer ads.",
+      "A secure-payments fintech for high-value sales tested outbound, platform partnerships, Google, Meta and trust content and found partnerships and outbound beat consumer ads.",
     oneLiner:
-      "A secure-payments fintech tested outbound, Meta and Google to find which channel drove real transactions.",
+      "A secure-payments fintech tested five channels to find which actually drove completed transactions.",
     pageLede:
       "The company provides digital escrow and secure payments for high-value sales such as used vehicles. It sells both to consumers completing a sale and to the platforms and dealers that could distribute it. The brief: find which GTM channel works, which doesn't and why.",
     sector: "Fintech / secure payments",
@@ -1561,24 +1561,24 @@ export const caseStudies: readonly CaseStudy[] = [
     challenge:
       "A trust-and-transaction product is not an impulse buy, and its volume can come either from consumers one deal at a time or from platforms that embed it. The team needed to know whether paid consumer channels worked, or whether budget belonged in partnerships and outbound, before scaling.",
     approach: [
-      "Tested cold outbound, Meta ads and Google search, alongside a partnership motion",
+      "Tested five channels to a completed-transaction goal: cold outbound, platform partnerships, Google, Meta and trust content",
       "Aimed outbound at marketplaces and dealers who could distribute the product",
       "Measured to completed secured transactions, not clicks",
       "Compared one-at-a-time consumer acquisition against embedded distribution",
     ],
     delivered: [
-      "A ranked read on which channel drove completed transactions",
+      "A ranked read on which channels drove completed transactions",
       "The reason a trust product distributes better through platforms than ads",
       "A plan concentrating on partnerships and targeted outbound",
     ],
     outcome: [
-      "Outbound and platform partnerships won: embedding the product where the sale already happens drove real volume",
-      "Google captured a thin stream of consumers already searching for a safe way to pay",
+      "Platform partnerships and outbound won: embedding the product where the sale already happens drove real volume",
+      "Google and trust content captured a thin stream of consumers already searching for a safe way to pay",
       "Meta lost: a high-trust transaction is not something people commit to from a social ad",
     ],
     metrics: [
-      { label: "Channels tested", value: "3" },
-      { label: "Winning channel", value: "Outbound / partners" },
+      { label: "Channels tested", value: "5" },
+      { label: "Winning channels", value: "Partnerships + outbound" },
       { label: "Weakest channel", value: "Meta" },
       { label: "Timeline", value: "7 weeks" },
     ],
