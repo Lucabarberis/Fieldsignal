@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
+import { TranscriptHubFaq } from "@/components/TranscriptHubFaq";
 import { TileGrid } from "@/components/TileGrid";
 import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
@@ -98,6 +99,8 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
           </TileGrid>
         )}
       </div>
+
+      <TranscriptHubFaq label={ind.name} sectionNum="02" items={list} />
 
       <CtaBand
         title={

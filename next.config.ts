@@ -4,10 +4,8 @@ import createMDX from "@next/mdx";
 /**
  * Baseline security headers, applied to every route.
  *
- * Conservative set — does NOT include a Content-Security-Policy, which would
- * need an allowlist for GTM, GA4, the LinkedIn Insight tag and PostHog and
- * risks silently breaking analytics. HSTS is also set by Vercel; declaring it
- * here keeps the config self-documenting.
+ * HSTS is also set by Vercel; declaring it here keeps the config
+ * self-documenting.
  */
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -23,6 +21,33 @@ const securityHeaders = [
   },
 ];
 
+/**
+ * Content-Security-Policy in REPORT-ONLY mode.
+ *
+ * Deliberately not enforced yet: a live CSP that missed a source would
+ * silently break analytics. Report-only lets the browser flag violations
+ * (visible in the console / any report endpoint) without blocking anything,
+ * so we can watch for a clean period before promoting it to an enforced
+ * `Content-Security-Policy`. Allowlist covers the known third parties:
+ * GTM + GA4 (googletagmanager/google-analytics), the LinkedIn Insight tag
+ * (licdn / px.ads.linkedin.com), PostHog (*.posthog.com) and Vercel Speed
+ * Insights (va.vercel-scripts.com / vitals.vercel-insights.com).
+ * 'unsafe-inline' is required by the inline GTM/GA bootstrap and Next's
+ * inline hydration; a nonce-based tightening can follow once enforced.
+ */
+const cspReportOnly = [
+  "default-src 'self'",
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://snap.licdn.com https://*.posthog.com https://va.vercel-scripts.com",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: https:",
+  "font-src 'self' data:",
+  "connect-src 'self' https://*.posthog.com https://*.google-analytics.com https://www.googletagmanager.com https://px.ads.linkedin.com https://vitals.vercel-insights.com https://va.vercel-scripts.com",
+  "frame-src 'self' https://www.googletagmanager.com",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+].join("; ");
+
 const nextConfig: NextConfig = {
   // Allow .mdx files to be treated as routes/imports
   pageExtensions: ["ts", "tsx", "mdx"],
@@ -30,7 +55,13 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/:path*",
-        headers: securityHeaders,
+        headers: [
+          ...securityHeaders,
+          {
+            key: "Content-Security-Policy-Report-Only",
+            value: cspReportOnly,
+          },
+        ],
       },
     ];
   },
