@@ -108,9 +108,9 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "European seed fund, sub-$100M AUM",
     title: "Seed VC Pre-IC Diligence: Vertical SaaS",
     description:
-      "How a European seed fund pressure-tested a vertical-SaaS thesis with five operator calls before its investment committee, in nine working days.",
+      "How a European seed fund pressure-tested a vertical-SaaS thesis with five operator calls in the nine working days before its investment committee.",
     oneLiner:
-      "A seed fund pressure-tested a vertical-SaaS thesis with five operator calls before IC, turnaround under two weeks.",
+      "A seed fund pressure-tested a vertical-SaaS thesis with five operator calls before IC, all in under two weeks.",
     pageLede:
       "A seed fund was two weeks from an investment committee on a construction-tech company. The pitch claimed a large, underserved buyer base, but the partners had no independent read on whether the category ceiling was where the founder said it was. They needed operator ground-truth, fast, without a six-figure network retainer they could never justify at seed cheque sizes.",
     sector: "Vertical SaaS / construction technology",
@@ -163,7 +163,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "A growth fund sized a category-creating embedded-finance bet with a nine-operator panel before leading a Series B.",
     pageLede:
-      "There was no analyst report to buy. The company was creating a category. The fund was being asked to lead the round at a price that only made sense if the market was several times larger than any comparable. The partners needed a bottom-up read on demand from all three sides of the market, platforms, sponsor banks and merchants.",
+      "There was no analyst report to buy. The company was creating a category. The fund was being asked to lead the round at a price that only made sense if the market was several times larger than any comparable. The partners needed a bottom-up read on demand from all three sides of the market: platforms, sponsor banks and merchants.",
     sector: "Fintech / embedded finance",
     engagementType: "Bottom-up market sizing",
     timeline: "3 weeks",
@@ -210,11 +210,11 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Multi-stage fund, $1.2B AUM",
     title: "Off-List Founder References: Growth VC",
     description:
-      "Before a competitive term sheet, a multi-stage fund ran an off-list reference programme on a repeat founder, eight calls the founder didn't pick.",
+      "Before a competitive term sheet, a multi-stage fund ran an off-list reference programme on a repeat founder: eight calls the founder didn't pick.",
     oneLiner:
-      "Before a competitive term sheet, a fund ran eight off-list references on a repeat founder, people the founder didn't choose.",
+      "Before a competitive term sheet, a fund ran eight off-list references on a repeat founder, all people the founder didn't choose.",
     pageLede:
-      "The on-list references were, predictably, glowing, the founder had chosen every one. In a competitive process the fund had 48 hours to decide whether to pre-empt, and the real question was what people who had worked with the founder but weren't on the list would say. That is precisely the work an expert network is built to do compliantly.",
+      "The on-list references were, predictably, glowing. The founder had chosen every one. In a competitive process the fund had 48 hours to decide whether to pre-empt, and the real question was what people who had worked with the founder but weren't on the list would say. That is precisely the work an expert network is built to do compliantly.",
     sector: "Founder / management references",
     engagementType: "Off-list reference programme",
     timeline: "6 days",
@@ -265,7 +265,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "A climate fund stress-tested a novel process technology with independent scientists and plant engineers before its first cheque.",
     pageLede:
-      "The company's whole story turned on whether a new process could hold its efficiency at commercial scale. The fund's partners were strong on markets and capital, but none could independently judge the underlying science or the scale-up path. Getting that wrong at Series A in deep-tech is not a haircut, it's the whole position.",
+      "The company's whole story turned on whether a new process could hold its efficiency at commercial scale. The fund's partners were strong on markets and capital, but none could independently judge the underlying science or the scale-up path. Getting that wrong at Series A in deep-tech is not a haircut. It's the whole position.",
     sector: "Climate / industrial process technology",
     engagementType: "Technical & scale-up diligence panel",
     timeline: "4 weeks",
@@ -294,7 +294,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Output", value: "Ranked risk register" },
     ],
     quote: {
-      text: "The science was real. The question was whether it survived a commercial plant, and that's an engineering judgment our partnership genuinely couldn't make alone. The panel let us structure the milestones around the risks that actually mattered.",
+      text: "The science was real. The question was whether it survived a commercial plant, and that's an engineering judgment our partnership couldn't make alone. The panel let us structure the milestones around the risks that actually mattered.",
       role: "Founding Partner",
     },
     relatedSlugs: [
@@ -316,7 +316,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "Before leading a healthtech Series A, a sector fund ran a teardown with the clinicians and buyers who actually evaluate the category.",
     pageLede:
-      "The company looked differentiated on the deck. The fund's question was whether it looked differentiated to the people who actually sign the contracts, clinical leaders and health-system procurement teams who see every vendor in the category. Winning that buyer is the whole game, and founders are rarely the most objective narrators of their own competitive position.",
+      "The company looked differentiated on the deck. The fund's question was whether it looked differentiated to the people who actually sign the contracts: clinical leaders and health-system procurement teams who see every vendor in the category. Winning that buyer is the whole game, and founders are rarely the most objective judges of their own competitive position.",
     sector: "Healthtech / clinical software",
     engagementType: "Competitive teardown",
     timeline: "2 weeks",
@@ -365,16 +365,16 @@ export const caseStudies: readonly CaseStudy[] = [
     fundProfile: "Mid-market buyout fund, €900M vehicle",
     title: "Commercial Due Diligence: Industrials Buyout",
     description:
-      "A mid-market fund ran expert-led commercial due diligence on an industrials target, customer, competitor and channel calls feeding a live CDD process.",
+      "A mid-market fund ran expert-led commercial due diligence on an industrials target, with customer, competitor and channel calls feeding a live CDD process.",
     oneLiner:
       "A mid-market fund fed expert-led customer, competitor and channel calls into a live industrials CDD in exclusivity.",
     pageLede:
-      "The fund was in exclusivity on an industrials manufacturer and its consultants were running a full commercial due diligence. What the deal team wanted alongside it was direct, unfiltered access to the target's customers, competitors and distributors, the primary voices that either confirm or quietly puncture a management growth plan before the money moves.",
+      "The fund was in exclusivity on an industrials manufacturer and its consultants were running a full commercial due diligence. What the deal team wanted alongside it was direct, unfiltered access to the target's customers, competitors and distributors. Those are the voices that either confirm or quietly puncture a management growth plan before the money moves.",
     sector: "Industrials / manufacturing",
     engagementType: "Expert-led commercial due diligence",
     timeline: "3.5 weeks",
     challenge:
-      "Management's plan leaned on customer retention and a pricing story the deal team could not yet independently verify. Inside exclusivity, with a hard clock, the fund needed direct primary evidence from the people on the other side of the target's invoices, its customers, its rivals and its channel, to confirm or challenge the base case underwriting the deal.",
+      "Management's plan leaned on customer retention and a pricing story the deal team could not yet independently verify. Inside exclusivity, with a hard clock, the fund needed direct evidence from the people on the other side of the target's invoices: its customers, its rivals and its channel. That evidence would confirm or challenge the base case underwriting the deal.",
     approach: [
       "Aligned the call plan to the specific lines in the model most sensitive to being wrong: retention, pricing and share",
       "Sourced fourteen experts across the target's customers, two direct competitors and its distribution channel",
@@ -387,7 +387,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A channel-level view of how the target really competes, versus how management described it",
     ],
     outcome: [
-      "The fund used the findings to renegotiate, the retention picture was softer than the CIM implied",
+      "The fund used the findings to renegotiate. The retention picture was softer than the CIM implied",
       "Two customer-concentration risks surfaced in the calls were written into the SPA protections",
       "The primary-research layer became a standing part of the fund's CDD on every platform deal",
     ],
@@ -449,7 +449,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Output", value: "Red-teamed 100-day plan" },
     ],
     quote: {
-      text: "The deal wasn't the risk, the separation was. Talking to people who'd actually stood up the same functions after a carve-out changed our sequencing and, frankly, our timeline. Better to learn it before close.",
+      text: "The deal wasn't the risk. The separation was. Talking to people who'd actually stood up the same functions after a carve-out changed our sequencing and, frankly, our timeline. Better to learn that before close than after.",
       role: "Operating Partner",
     },
     relatedSlugs: [
@@ -531,7 +531,7 @@ export const caseStudies: readonly CaseStudy[] = [
     approach: [
       "Reduced the thesis to one testable question: is the underlying demand recoverable, or structurally gone?",
       "Sourced nine channel experts: retail category buyers, two distributors and a former sales lead at the brand",
-      "Moved fast given the situation timeline, first calls inside 48 hours, full read in ten days",
+      "Moved fast given the situation: first calls inside 48 hours, full read in ten days",
       "Kept strictly to general market and channel knowledge, screened before the notes reached the desk",
     ],
     delivered: [
@@ -540,7 +540,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The channel's view on which competitors had permanently taken the lost share",
     ],
     outcome: [
-      "The fund passed, the channel's verdict was that the demand loss was structural, not just balance-sheet driven",
+      "The fund passed. The channel's verdict was that the demand loss was structural, not just balance-sheet driven",
       "The ten-day read cost a fraction of the diligence a full process would have consumed on a deal that died anyway",
       "The channel-check format became the fund's fast first screen on distressed consumer names",
     ],
@@ -578,16 +578,16 @@ export const caseStudies: readonly CaseStudy[] = [
     engagementType: "Independent re-underwrite",
     timeline: "3 weeks",
     challenge:
-      "The continuation vehicle's price rested on the GP's forward growth case for an asset the GP had held for years. The incoming investor needed to independently test whether the remaining runway was real, from customers, competitors and end-market experts who had no stake in the roll-over closing at the sponsor's preferred mark.",
+      "The continuation vehicle's price rested on the GP's forward growth case for an asset the GP had held for years. The incoming investor needed to independently test whether the remaining runway was real, drawing on customers, competitors and end-market experts who had no stake in the roll-over closing at the sponsor's preferred mark.",
     approach: [
       "Anchored the calls to the GP's forward thesis, testing each growth driver against independent evidence",
       "Sourced eleven experts across the asset's customers, competitors and its end-market",
-      "Deliberately used sources with no relationship to the sponsor to keep the read genuinely independent",
+      "Deliberately used sources with no relationship to the sponsor, to keep the read independent",
       "Compared the operator view of remaining runway against the GP's projections, driver by driver",
     ],
     delivered: [
       "An independent read on each pillar of the GP's forward growth case",
-      "A customer and competitor view on how much runway the asset genuinely had left",
+      "A customer and competitor view on how much runway the asset really had left",
       "A clear map of where the independent evidence supported the GP mark and where it didn't",
     ],
     outcome: [
@@ -626,7 +626,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "A long/short fund tested a retailer's same-store-sales momentum with channel checks ahead of earnings.",
     pageLede:
-      "The fund was long a specialty retailer into a print, and the bull case rested on same-store-sales momentum holding. Sell-side notes were mixed and the tape gave no edge. The PM wanted an independent read from the people who see store-level demand week to week, suppliers, former store operators and distributors. Nothing an insider could share was in scope.",
+      "The fund was long a specialty retailer into a print, and the bull case rested on same-store-sales momentum holding. Sell-side notes were mixed and the tape gave no edge. The PM wanted an independent read from the people who see store-level demand week to week: suppliers, former store operators and distributors. Nothing an insider could share was in scope.",
     sector: "Consumer retail (public equity)",
     engagementType: "Pre-earnings channel checks",
     timeline: "8 days",
@@ -634,7 +634,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The position needed conviction before earnings, and consensus was clustered with no edge in it. The PM needed an independent, ground-level read on whether same-store momentum was real or rolling over. It had to be sourced fast and screened hard, so nothing approached material non-public information.",
     approach: [
       "Framed the checks around one variable: is same-store demand accelerating or decelerating quarter on quarter?",
-      "Sourced eight channel sources, suppliers, former store operators and regional distributors",
+      "Sourced eight channel sources: suppliers, former store operators and regional distributors",
       "Held every call to general market observation, with an MNPI screen before any note reached the desk",
       "Excluded current employees and anyone who could see unreleased company figures",
     ],
@@ -685,7 +685,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "Reported metrics lagged reality, and management framed retention optimistically. The fund needed to test the core short thesis, accelerating churn and downgrades, with the people making the renewal decision. The risk was shorting on a narrative the customers would contradict.",
     approach: [
       "Reduced the thesis to one testable claim: is net revenue retention deteriorating faster than reported?",
-      "Sourced nine sources, current customers, churned customers and two former sales operators",
+      "Sourced nine sources: current customers, churned customers and two former sales operators",
       "Asked customers directly about renewal, seat expansion and competitive displacement",
       "Screened every call for MNPI and excluded anyone with access to unreleased figures",
     ],
@@ -733,10 +733,10 @@ export const caseStudies: readonly CaseStudy[] = [
     engagementType: "Regulatory-odds diligence",
     timeline: "9 days",
     challenge:
-      "Deal-closure odds drove the whole trade, and public commentary was noisy and conflicted. The desk needed a structured, independent read on the regulatory path, block risk, remedies and timeline, from people who understood how the relevant agencies actually decide. Getting the probability wrong meant mispricing the spread.",
+      "Deal-closure odds drove the whole trade, and public commentary was noisy and conflicted. The desk needed a structured, independent read on the regulatory path: block risk, remedies and timeline. It had to come from people who understood how the relevant agencies actually decide. Getting the probability wrong meant mispricing the spread.",
     approach: [
       "Framed the calls around three questions: block risk, likely remedies and realistic timeline",
-      "Sourced six experts, former competition-agency staff and two antitrust economists",
+      "Sourced six experts: former competition-agency staff and two antitrust economists",
       "Kept every call to public filings and general regulatory expertise, never deal-confidential material",
       "Reconciled differing views into a probability range rather than a single point",
     ],
@@ -789,7 +789,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The entry case was built on desk research and internal optimism. The team needed independent, in-market evidence on real demand, the workable route to market and how incumbents would respond. The risk was committing capital to a plan that looked clean on a slide and failed on the ground.",
     approach: [
       "Structured the interviews around four load-bearing assumptions: demand, route to market, regulation and competitor response",
-      "Sourced eleven in-market operators, former country managers, distributors and regulatory advisers",
+      "Sourced eleven in-market operators: former country managers, distributors and regulatory advisers",
       "Tested each assumption against people who had built or sold in the region",
       "Separated durable structural barriers from problems capital could solve",
     ],
@@ -799,7 +799,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A competitor-response map based on how incumbents had reacted to prior entrants",
     ],
     outcome: [
-      "The team entered, but through a partnership model operators judged faster than building direct",
+      "The team went in, but through a partnership model that operators reckoned was faster than building direct",
       "Two regulatory barriers surfaced in the calls reshaped the phasing of the entry",
       "The validated route to market went straight into the board business case",
     ],
@@ -832,7 +832,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "A strategic acquirer tested a target's standalone story and its cross-sell revenue case with expert-led diligence.",
     pageLede:
-      "A strategic acquirer was close on a bolt-on. Unlike a financial buyer, the corp-dev team had a second question beyond whether the target was healthy, would the cross-sell revenue case survive contact with the two companies' customers? Bankers modelled the upside. The team wanted the market to test it.",
+      "A strategic acquirer was close on a bolt-on. Unlike a financial buyer, the corp-dev team had a second question beyond whether the target was healthy. Would the cross-sell revenue case survive contact with the two companies' customers? Bankers modelled the upside. The team wanted the market to test it.",
     sector: "Technology / M&A",
     engagementType: "Strategic acquisition diligence",
     timeline: "4 weeks",
@@ -883,7 +883,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "A consumer-goods incumbent sized the real threat from a challenger category with value-chain expert interviews.",
     pageLede:
-      "The challenger brands were small but growing fast, and the board wanted to know whether they were a fad or a structural threat. Internal views split between ignore it and panic. The strategy team wanted an evidence-based read from across the value chain, retailers, former challenger operators and channel experts, before recommending a response.",
+      "The challenger brands were small but growing fast, and the board wanted to know whether they were a fad or a structural threat. Internal views split between ignore it and panic. Before recommending a response, the strategy team wanted an evidence-based read from across the value chain: retailers, former challenger operators and channel experts.",
     sector: "Consumer goods",
     engagementType: "Disruption threat assessment",
     timeline: "4 weeks",
@@ -891,7 +891,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The incumbent had to decide whether to acquire, compete or ignore a rising category. Internal opinion was polarised and no one had independent evidence on the challengers' real durability. The risk was over-reacting to a fad or under-reacting to a structural shift. Both are expensive mistakes at scale.",
     approach: [
       "Framed the scan around one question: is the challenger category a structural shift or a cycle?",
-      "Sourced nine experts, retail category buyers, former challenger-brand operators and channel distributors",
+      "Sourced nine experts: retail category buyers, former challenger-brand operators and channel distributors",
       "Tested whether the challengers' growth rested on durable advantages or temporary tailwinds",
       "Kept the interviews to general market knowledge, screened before delivery",
     ],
@@ -901,7 +901,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A retailer view on how much shelf the category would hold three years out",
     ],
     outcome: [
-      "The scan judged the shift structural, the incumbent moved to acquire rather than wait it out",
+      "The scan judged the shift structural. The incumbent moved to acquire rather than wait it out",
       "One assumed challenger advantage proved shallow, narrowing the response to a focused set of moves",
       "The disruption-scan format became the strategy team's standard threat-assessment tool",
     ],
@@ -965,7 +965,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Screening", value: "MNPI, per call" },
     ],
     quote: {
-      text: "Our analysis was never the problem, sourcing the right operators in ten days was. They filled that gap so cleanly our client never saw a seam.",
+      text: "Our analysis was never the problem. Sourcing the right operators in ten days was. They filled that gap so cleanly our client never saw a seam.",
       role: "Engagement Manager",
     },
     relatedSlugs: [
@@ -1040,7 +1040,7 @@ export const caseStudies: readonly CaseStudy[] = [
     oneLiner:
       "A Series A SaaS company tested a pricing overhaul with willingness-to-pay interviews before repricing.",
     pageLede:
-      "The founders suspected they were under-priced, but a reprice done blind risked stalling growth. Before changing the model, they wanted evidence on how target buyers actually value the product, what they would pay, what they would walk from and which features justified a premium. Guessing at price is how good products leak revenue.",
+      "The founders suspected they were under-priced, but a reprice done blind risked stalling growth. Before changing the model, they wanted evidence on how target buyers actually value the product: what they would pay, what they would walk from and which features justify a premium. Guessing at price is how good products leak revenue.",
     sector: "Vertical SaaS",
     engagementType: "Pricing / willingness-to-pay research",
     timeline: "2 weeks",
