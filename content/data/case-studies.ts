@@ -1,9 +1,9 @@
 /**
- * Case studies — anonymised, representative composites.
+ * Case studies, anonymised, representative composites.
  *
  * Every entry below is a composite drawn from typical FieldSignal engagements.
  * Client identities are removed and figures are illustrative of the format and
- * scale of work we run — not a record of a single named mandate. This mirrors
+ * scale of work we run, not a record of a single named mandate. This mirrors
  * the anonymity standard used across the transcripts library (see /compliance).
  *
  * Wave 1 ships Venture Capital and Private Equity. The `direct` category is
@@ -12,7 +12,7 @@
  * Hub /resources/case-studies iterates this. /resources/case-studies/[slug] renders the detail.
  *
  * House rule: no engagement prices here. Metrics are operational
- * (calls, turnaround, coverage), never rate cards — pricing lives on /pricing.
+ * (calls, turnaround, coverage), never rate cards, pricing lives on /pricing.
  */
 
 export type CaseStudyCategory =
@@ -26,7 +26,7 @@ export type CaseStudyCategory =
 
 export type CaseStudy = {
   slug: string;
-  id: string;                 // e.g. "VC-01" — shown as the tile id
+  id: string;                 // e.g. "VC-01", shown as the tile id
   category: CaseStudyCategory;
   name: string;               // tile NAME (uppercased short label)
   fundProfile: string;        // anonymised descriptor, e.g. "€2bn growth-equity fund"
@@ -58,7 +58,7 @@ export const CASE_STUDY_CATEGORIES: readonly {
     key: "venture-capital",
     label: "Venture Capital",
     num: "01",
-    blurb: "Per-deal diligence for seed through growth — thesis validation, market sizing, off-list founder references and competitive teardowns.",
+    blurb: "Per-deal diligence for seed through growth, thesis validation, market sizing, off-list founder references and competitive teardowns.",
   },
   {
     key: "private-equity",
@@ -70,7 +70,7 @@ export const CASE_STUDY_CATEGORIES: readonly {
     key: "hedge-funds",
     label: "Hedge Funds",
     num: "03",
-    blurb: "Public-markets primary research — channel checks, thesis testing and event-driven reads, produced under strict MNPI screening.",
+    blurb: "Public-markets primary research, channel checks, thesis testing and event-driven reads, produced under strict MNPI screening.",
   },
   {
     key: "corporate",
@@ -88,7 +88,7 @@ export const CASE_STUDY_CATEGORIES: readonly {
     key: "startups",
     label: "Startups & Scale-Ups",
     num: "06",
-    blurb: "Pricing, supply-side and product validation for founders — the same research quality the funds get, no retainer required.",
+    blurb: "Pricing, supply-side and product validation for founders, the same research quality the funds get, no retainer required.",
   },
   {
     key: "direct",
@@ -104,15 +104,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "seed-vertical-saas-pre-ic",
     id: "VC-01",
     category: "venture-capital",
-    name: "SEED VC — VERTICAL SAAS THESIS",
+    name: "SEED VC · VERTICAL SAAS THESIS",
     fundProfile: "European seed fund, sub-$100M AUM",
-    title: "Seed VC Pre-IC Diligence — Vertical SaaS",
+    title: "Seed VC Pre-IC Diligence: Vertical SaaS",
     description:
-      "How a European seed fund pressure-tested a vertical-SaaS thesis with five operator calls before its investment committee — in nine working days.",
+      "How a European seed fund pressure-tested a vertical-SaaS thesis with five operator calls before its investment committee, in nine working days.",
     oneLiner:
-      "A seed fund pressure-tested a vertical-SaaS thesis with five operator calls before IC — turnaround under two weeks.",
+      "A seed fund pressure-tested a vertical-SaaS thesis with five operator calls before IC, turnaround under two weeks.",
     pageLede:
-      "A seed fund was two weeks from an investment committee on a construction-tech company. The pitch claimed a large, underserved buyer base — but the partners had no independent read on whether the category ceiling was where the founder said it was. They needed operator ground-truth, fast, without a six-figure network retainer they could never justify at seed cheque sizes.",
+      "A seed fund was two weeks from an investment committee on a construction-tech company. The pitch claimed a large, underserved buyer base, but the partners had no independent read on whether the category ceiling was where the founder said it was. They needed operator ground-truth, fast, without a six-figure network retainer they could never justify at seed cheque sizes.",
     sector: "Vertical SaaS / construction technology",
     engagementType: "Pre-IC validation sprint",
     timeline: "9 working days",
@@ -120,7 +120,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The fund's thesis rested on a total addressable market the founder put at tens of thousands of buyers. The partners suspected the real ceiling was far lower once you stripped out firms without the budget to sustain a full platform. With the IC date fixed, they had no time to build a research programme and no appetite for an annual subscription to a large expert network.",
     approach: [
       "Scoped the single decision the calls had to inform: is the sustainable-budget buyer base large enough to support the growth case?",
-      "Sourced five operators inside 72 hours — former heads of product and revenue at category-leading construction-tech platforms",
+      "Sourced five operators inside 72 hours, former heads of product and revenue at category-leading construction-tech platforms",
       "Ran structured 45-minute calls against a shared question set, so answers were comparable rather than anecdotal",
       "Screened every call for MNPI before the notes reached the deal team",
     ],
@@ -130,7 +130,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A named list of the adjacency risks operators flagged in the same category",
     ],
     outcome: [
-      "The fund proceeded — but re-cut the ownership target after the calls narrowed the near-term TAM",
+      "The fund proceeded, but re-cut the ownership target after the calls narrowed the near-term TAM",
       "The synthesis went into the IC memo as the independent-diligence section",
       "The partners returned per-deal for the next two term sheets rather than signing a retainer",
     ],
@@ -155,20 +155,20 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "series-b-fintech-market-sizing",
     id: "VC-02",
     category: "venture-capital",
-    name: "GROWTH VC — EMBEDDED-FINANCE TAM",
+    name: "GROWTH VC · EMBEDDED-FINANCE TAM",
     fundProfile: "Growth fund, $600M vehicle",
-    title: "Growth VC Market Sizing — Embedded Finance",
+    title: "Growth VC Market Sizing: Embedded Finance",
     description:
       "A growth fund sized a category-creating embedded-finance bet with a mixed panel of platform, banking and merchant operators before leading a Series B.",
     oneLiner:
       "A growth fund sized a category-creating embedded-finance bet with a nine-operator panel before leading a Series B.",
     pageLede:
-      "There was no analyst report to buy. The company was creating a category. The fund was being asked to lead the round at a price that only made sense if the market was several times larger than any comparable. The partners needed a bottom-up read on demand from all three sides of the market — platforms, sponsor banks and merchants.",
+      "There was no analyst report to buy. The company was creating a category. The fund was being asked to lead the round at a price that only made sense if the market was several times larger than any comparable. The partners needed a bottom-up read on demand from all three sides of the market, platforms, sponsor banks and merchants.",
     sector: "Fintech / embedded finance",
     engagementType: "Bottom-up market sizing",
     timeline: "3 weeks",
     challenge:
-      "Top-down sizing was worthless for a category that didn't exist yet. The fund needed to triangulate real adoption intent from platforms deciding whether to embed financial products, the banks that would sponsor them and the merchants who would ultimately use them — and to separate genuine pull from vendor optimism.",
+      "Top-down sizing was worthless for a category that didn't exist yet. The fund needed to triangulate real adoption intent from platforms deciding whether to embed financial products, the banks that would sponsor them and the merchants who would ultimately use them, and to separate genuine pull from vendor optimism.",
     approach: [
       "Split the panel across all three sides of the market so the estimate was triangulated, not single-sourced",
       "Sourced nine operators: heads of platform partnerships, two former sponsor-bank programme leads and merchant-side finance owners",
@@ -206,23 +206,23 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "growth-founder-references",
     id: "VC-03",
     category: "venture-capital",
-    name: "GROWTH VC — OFF-LIST FOUNDER REFERENCES",
+    name: "GROWTH VC · OFF-LIST FOUNDER REFERENCES",
     fundProfile: "Multi-stage fund, $1.2B AUM",
-    title: "Off-List Founder References — Growth VC",
+    title: "Off-List Founder References: Growth VC",
     description:
-      "Before a competitive term sheet, a multi-stage fund ran an off-list reference programme on a repeat founder — eight calls the founder didn't pick.",
+      "Before a competitive term sheet, a multi-stage fund ran an off-list reference programme on a repeat founder, eight calls the founder didn't pick.",
     oneLiner:
-      "Before a competitive term sheet, a fund ran eight off-list references on a repeat founder — people the founder didn't choose.",
+      "Before a competitive term sheet, a fund ran eight off-list references on a repeat founder, people the founder didn't choose.",
     pageLede:
-      "The on-list references were, predictably, glowing — the founder had chosen every one. In a competitive process the fund had 48 hours to decide whether to pre-empt, and the real question was what people who had worked with the founder but weren't on the list would say. That is precisely the work an expert network is built to do compliantly.",
+      "The on-list references were, predictably, glowing, the founder had chosen every one. In a competitive process the fund had 48 hours to decide whether to pre-empt, and the real question was what people who had worked with the founder but weren't on the list would say. That is precisely the work an expert network is built to do compliantly.",
     sector: "Founder / management references",
     engagementType: "Off-list reference programme",
     timeline: "6 days",
     challenge:
-      "The fund was being asked to pre-empt a hot round on the strength of a repeat founder. The provided references were self-selected and uniformly positive. The partners needed candid, independent perspectives from former colleagues, direct reports and counterparties the founder had not nominated — gathered without breaching confidentiality or straying into anything the sources couldn't properly share.",
+      "The fund was being asked to pre-empt a hot round on the strength of a repeat founder. The provided references were self-selected and uniformly positive. The partners needed candid, independent perspectives from former colleagues, direct reports and counterparties the founder had not nominated, gathered without breaching confidentiality or straying into anything the sources couldn't properly share.",
     approach: [
       "Mapped the founder's operating history to identify the roles most likely to hold a candid, first-hand view",
-      "Sourced eight off-list references — former direct reports, a prior co-founder and two commercial counterparties",
+      "Sourced eight off-list references, former direct reports, a prior co-founder and two commercial counterparties",
       "Briefed every source on scope limits up front: conduct and capability, never confidential or non-public company information",
       "Delivered notes attributed by role only, so the deal team read patterns rather than names",
     ],
@@ -232,7 +232,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A compliance record documenting scope and consent for every call",
     ],
     outcome: [
-      "The fund pre-empted — but wrote a specific board-level support plan around the two recurring concerns",
+      "The fund pre-empted, but wrote a specific board-level support plan around the two recurring concerns",
       "The off-list view materially changed the deal team's confidence versus the on-list references alone",
       "The reference format became the fund's standard for every pre-emptive growth deal",
     ],
@@ -257,20 +257,20 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "climate-deeptech-technical-panel",
     id: "VC-04",
     category: "venture-capital",
-    name: "DEEP-TECH VC — TECHNICAL DILIGENCE PANEL",
+    name: "DEEP-TECH VC · TECHNICAL DILIGENCE PANEL",
     fundProfile: "Climate deep-tech fund, first institutional vehicle",
-    title: "Technical Diligence Panel — Deep-Tech VC",
+    title: "Technical Diligence Panel: Deep-Tech VC",
     description:
       "A climate deep-tech fund stress-tested a novel process technology with a panel of independent scientists and plant engineers before its first cheque.",
     oneLiner:
       "A climate fund stress-tested a novel process technology with independent scientists and plant engineers before its first cheque.",
     pageLede:
-      "The company's whole story turned on whether a new process could hold its efficiency at commercial scale. The fund's partners were strong on markets and capital, but none could independently judge the underlying science or the scale-up path. Getting that wrong at Series A in deep-tech is not a haircut — it's the whole position.",
+      "The company's whole story turned on whether a new process could hold its efficiency at commercial scale. The fund's partners were strong on markets and capital, but none could independently judge the underlying science or the scale-up path. Getting that wrong at Series A in deep-tech is not a haircut, it's the whole position.",
     sector: "Climate / industrial process technology",
     engagementType: "Technical & scale-up diligence panel",
     timeline: "4 weeks",
     challenge:
-      "The core claim was a step-change in process efficiency. The fund needed independent experts who understood both the underlying chemistry and the brutal realities of moving from pilot to commercial plant — and who had no stake in the company or its competitors. The risk was funding a lab result that would never survive an industrial environment.",
+      "The core claim was a step-change in process efficiency. The fund needed independent experts who understood both the underlying chemistry and the brutal realities of moving from pilot to commercial plant, and who had no stake in the company or its competitors. The risk was funding a lab result that would never survive an industrial environment.",
     approach: [
       "Split the diligence into two questions: does the science work in principle, and does it hold at commercial scale. Staffed each with the right expert",
       "Sourced a panel of six: two independent process scientists, three plant and scale-up engineers and one permitting specialist",
@@ -308,15 +308,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "healthtech-competitive-teardown",
     id: "VC-05",
     category: "venture-capital",
-    name: "SERIES A LEAD — HEALTHTECH TEARDOWN",
+    name: "SERIES A LEAD · HEALTHTECH TEARDOWN",
     fundProfile: "Sector-focused fund, $400M AUM",
-    title: "Competitive Teardown — Healthtech Series A",
+    title: "Competitive Teardown: Healthtech Series A",
     description:
       "Before leading a healthtech Series A, a sector fund ran a competitive teardown with clinicians and health-system buyers who evaluate the category.",
     oneLiner:
       "Before leading a healthtech Series A, a sector fund ran a teardown with the clinicians and buyers who actually evaluate the category.",
     pageLede:
-      "The company looked differentiated on the deck. The fund's question was whether it looked differentiated to the people who actually sign the contracts — clinical leaders and health-system procurement teams who see every vendor in the category. Winning that buyer is the whole game, and founders are rarely the most objective narrators of their own competitive position.",
+      "The company looked differentiated on the deck. The fund's question was whether it looked differentiated to the people who actually sign the contracts, clinical leaders and health-system procurement teams who see every vendor in the category. Winning that buyer is the whole game, and founders are rarely the most objective narrators of their own competitive position.",
     sector: "Healthtech / clinical software",
     engagementType: "Competitive teardown",
     timeline: "2 weeks",
@@ -330,7 +330,7 @@ export const caseStudies: readonly CaseStudy[] = [
     ],
     delivered: [
       "A buyer-ranked competitive map showing where the company genuinely led and where it didn't",
-      "The three switching triggers buyers named most often — and which the company could actually pull",
+      "The three switching triggers buyers named most often, and which the company could actually pull",
       "An independent read on the incumbents' real defensive strengths versus the deck's version",
     ],
     outcome: [
@@ -345,7 +345,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Commitment", value: "Per-deal" },
     ],
     quote: {
-      text: "Founders grade their own competitive position. Buyers grade it honestly. We wanted the people who actually choose between these products to tell us where the real edge was — before we led the round, not after.",
+      text: "Founders grade their own competitive position. Buyers grade it honestly. We wanted the people who actually choose between these products to tell us where the real edge was, before we led the round, not after.",
       role: "Partner, healthtech practice",
     },
     relatedSlugs: [
@@ -361,20 +361,20 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "midmarket-industrials-cdd",
     id: "PE-01",
     category: "private-equity",
-    name: "MID-MARKET PE — INDUSTRIALS CDD",
+    name: "MID-MARKET PE · INDUSTRIALS CDD",
     fundProfile: "Mid-market buyout fund, €900M vehicle",
-    title: "Commercial Due Diligence — Industrials Buyout",
+    title: "Commercial Due Diligence: Industrials Buyout",
     description:
-      "A mid-market fund ran expert-led commercial due diligence on an industrials target — customer, competitor and channel calls feeding a live CDD process.",
+      "A mid-market fund ran expert-led commercial due diligence on an industrials target, customer, competitor and channel calls feeding a live CDD process.",
     oneLiner:
       "A mid-market fund fed expert-led customer, competitor and channel calls into a live industrials CDD in exclusivity.",
     pageLede:
-      "The fund was in exclusivity on an industrials manufacturer and its consultants were running a full commercial due diligence. What the deal team wanted alongside it was direct, unfiltered access to the target's customers, competitors and distributors — the primary voices that either confirm or quietly puncture a management growth plan before the money moves.",
+      "The fund was in exclusivity on an industrials manufacturer and its consultants were running a full commercial due diligence. What the deal team wanted alongside it was direct, unfiltered access to the target's customers, competitors and distributors, the primary voices that either confirm or quietly puncture a management growth plan before the money moves.",
     sector: "Industrials / manufacturing",
     engagementType: "Expert-led commercial due diligence",
     timeline: "3.5 weeks",
     challenge:
-      "Management's plan leaned on customer retention and a pricing story the deal team could not yet independently verify. Inside exclusivity, with a hard clock, the fund needed direct primary evidence from the people on the other side of the target's invoices — its customers, its rivals and its channel — to confirm or challenge the base case underwriting the deal.",
+      "Management's plan leaned on customer retention and a pricing story the deal team could not yet independently verify. Inside exclusivity, with a hard clock, the fund needed direct primary evidence from the people on the other side of the target's invoices, its customers, its rivals and its channel, to confirm or challenge the base case underwriting the deal.",
     approach: [
       "Aligned the call plan to the specific lines in the model most sensitive to being wrong: retention, pricing and share",
       "Sourced fourteen experts across the target's customers, two direct competitors and its distribution channel",
@@ -387,7 +387,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A channel-level view of how the target really competes, versus how management described it",
     ],
     outcome: [
-      "The fund used the findings to renegotiate — the retention picture was softer than the CIM implied",
+      "The fund used the findings to renegotiate, the retention picture was softer than the CIM implied",
       "Two customer-concentration risks surfaced in the calls were written into the SPA protections",
       "The primary-research layer became a standing part of the fund's CDD on every platform deal",
     ],
@@ -412,15 +412,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "software-carveout-value-creation",
     id: "PE-02",
     category: "private-equity",
-    name: "LARGE-CAP PE — SOFTWARE CARVE-OUT",
+    name: "LARGE-CAP PE · SOFTWARE CARVE-OUT",
     fundProfile: "Large-cap fund, multi-billion flagship",
-    title: "Value-Creation Input — Software Carve-Out",
+    title: "Value-Creation Input: Software Carve-Out",
     description:
-      "A large-cap fund used operator calls to pressure-test the 100-day plan for a software carve-out — standing up functions the parent used to provide.",
+      "A large-cap fund used operator calls to pressure-test the 100-day plan for a software carve-out, standing up functions the parent used to provide.",
     oneLiner:
       "A large-cap fund pressure-tested a software carve-out's 100-day plan with operators who'd run the same separation.",
     pageLede:
-      "The asset was strong; the risk was the separation. Carving a software business out of a large parent means standing up sales, finance and product functions the parent quietly provided — on a clock, without breaking the customer base. The fund wanted operators who had personally run that exact playbook before the 100-day plan was locked.",
+      "The asset was strong; the risk was the separation. Carving a software business out of a large parent means standing up sales, finance and product functions the parent quietly provided, on a clock, without breaking the customer base. The fund wanted operators who had personally run that exact playbook before the 100-day plan was locked.",
     sector: "Software / carve-outs",
     engagementType: "Value-creation & separation planning",
     timeline: "5 weeks",
@@ -449,7 +449,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Output", value: "Red-teamed 100-day plan" },
     ],
     quote: {
-      text: "The deal wasn't the risk — the separation was. Talking to people who'd actually stood up the same functions after a carve-out changed our sequencing and, frankly, our timeline. Better to learn it before close.",
+      text: "The deal wasn't the risk, the separation was. Talking to people who'd actually stood up the same functions after a carve-out changed our sequencing and, frankly, our timeline. Better to learn it before close.",
       role: "Operating Partner",
     },
     relatedSlugs: [
@@ -463,20 +463,20 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "buy-and-build-services-mapping",
     id: "PE-03",
     category: "private-equity",
-    name: "BUY-AND-BUILD — FRAGMENTED SERVICES MAP",
+    name: "BUY-AND-BUILD · FRAGMENTED SERVICES MAP",
     fundProfile: "Buy-and-build specialist, €500M fund",
-    title: "Market Mapping — Buy-and-Build Services Roll-Up",
+    title: "Market Mapping: Buy-and-Build Services Roll-Up",
     description:
       "A buy-and-build fund mapped a fragmented B2B services market with operator interviews to prioritise acquisition targets and test the roll-up thesis.",
     oneLiner:
       "A buy-and-build fund mapped a fragmented services market with operators to prioritise targets and stress-test the roll-up thesis.",
     pageLede:
-      "Roll-ups live or die on two questions the data room can't answer: is the market actually fragmented in a way that rewards consolidation, and are the tuck-in targets genuinely integrable? Before committing to a platform in a fragmented B2B services category, the fund wanted operators who knew the sub-sector's real structure — not just what the pitch deck asserted.",
+      "Roll-ups live or die on two questions the data room can't answer: is the market actually fragmented in a way that rewards consolidation, and are the tuck-in targets genuinely integrable? Before committing to a platform in a fragmented B2B services category, the fund wanted operators who knew the sub-sector's real structure, not just what the pitch deck asserted.",
     sector: "B2B services / roll-up",
     engagementType: "Market mapping & thesis validation",
     timeline: "4 weeks",
     challenge:
-      "The consolidation thesis assumed a long tail of sub-scale operators that could be tucked in and margin-improved. The fund needed to know whether that fragmentation was real and durable, whether customers would tolerate consolidation and which target profiles would actually integrate rather than fight the platform — before it anchored on a platform acquisition.",
+      "The consolidation thesis assumed a long tail of sub-scale operators that could be tucked in and margin-improved. The fund needed to know whether that fragmentation was real and durable, whether customers would tolerate consolidation and which target profiles would actually integrate rather than fight the platform, before it anchored on a platform acquisition.",
     approach: [
       "Defined the sub-sector's real boundaries with operators before mapping any targets",
       "Sourced ten experts: former owner-operators, a sector M&A adviser and two large-customer procurement leads",
@@ -500,7 +500,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Thesis tested", value: "Fragmentation + integrability" },
     ],
     quote: {
-      text: "Every roll-up deck says the market is fragmented. Operators tell you whether it's fragmented in a way you can actually consolidate — and which tuck-ins will integrate versus which will fight you for three years.",
+      text: "Every roll-up deck says the market is fragmented. Operators tell you whether it's fragmented in a way you can actually consolidate, and which tuck-ins will integrate versus which will fight you for three years.",
       role: "Managing Partner",
     },
     relatedSlugs: [
@@ -514,9 +514,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "consumer-brand-channel-checks",
     id: "PE-04",
     category: "private-equity",
-    name: "SPECIAL SITUATIONS — CONSUMER CHANNEL CHECKS",
+    name: "SPECIAL SITUATIONS · CONSUMER CHANNEL CHECKS",
     fundProfile: "Special-situations fund, opportunistic mandate",
-    title: "Channel Checks — Special-Situations Consumer Brand",
+    title: "Channel Checks: Special-Situations Consumer Brand",
     description:
       "A special-situations fund ran retail and distributor channel checks on a distressed consumer brand to judge whether the demand signal was recoverable.",
     oneLiner:
@@ -531,7 +531,7 @@ export const caseStudies: readonly CaseStudy[] = [
     approach: [
       "Reduced the thesis to one testable question: is the underlying demand recoverable, or structurally gone?",
       "Sourced nine channel experts: retail category buyers, two distributors and a former sales lead at the brand",
-      "Moved fast given the situation timeline — first calls inside 48 hours, full read in ten days",
+      "Moved fast given the situation timeline, first calls inside 48 hours, full read in ten days",
       "Kept strictly to general market and channel knowledge, screened before the notes reached the desk",
     ],
     delivered: [
@@ -540,7 +540,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The channel's view on which competitors had permanently taken the lost share",
     ],
     outcome: [
-      "The fund passed — the channel's verdict was that the demand loss was structural, not just balance-sheet driven",
+      "The fund passed, the channel's verdict was that the demand loss was structural, not just balance-sheet driven",
       "The ten-day read cost a fraction of the diligence a full process would have consumed on a deal that died anyway",
       "The channel-check format became the fund's fast first screen on distressed consumer names",
     ],
@@ -551,7 +551,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Decision", value: "Informed a pass" },
     ],
     quote: {
-      text: "The financials told us the brand was cheap. The channel told us why — and that it wasn't coming back. That's a pass we were very glad to make before we'd sunk real diligence into it.",
+      text: "The financials told us the brand was cheap. The channel told us why, and that it wasn't coming back. That's a pass we were very glad to make before we'd sunk real diligence into it.",
       role: "Portfolio Manager",
     },
     relatedSlugs: [
@@ -565,20 +565,20 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "continuation-fund-reunderwrite",
     id: "PE-05",
     category: "private-equity",
-    name: "SECONDARIES — CONTINUATION-FUND RE-UNDERWRITE",
+    name: "SECONDARIES · CONTINUATION-FUND RE-UNDERWRITE",
     fundProfile: "Secondaries / GP-led specialist",
-    title: "Re-Underwrite — Continuation Fund Diligence",
+    title: "Re-Underwrite: Continuation Fund Diligence",
     description:
       "A secondaries investor re-underwrote a single-asset continuation fund using independent expert calls to test the GP's forward growth story.",
     oneLiner:
       "A secondaries investor re-underwrote a single-asset continuation fund with independent calls testing the GP's forward story.",
     pageLede:
-      "GP-led continuation deals carry a built-in tension: the sponsor knows the asset better than anyone and has every incentive to frame the forward story favourably. As the incoming secondaries investor, the fund needed an independent view of the remaining growth runway — not a re-reading of the GP's own materials — before pricing the roll-over.",
+      "GP-led continuation deals carry a built-in tension: the sponsor knows the asset better than anyone and has every incentive to frame the forward story favourably. As the incoming secondaries investor, the fund needed an independent view of the remaining growth runway, not a re-reading of the GP's own materials, before pricing the roll-over.",
     sector: "Secondaries / GP-led",
     engagementType: "Independent re-underwrite",
     timeline: "3 weeks",
     challenge:
-      "The continuation vehicle's price rested on the GP's forward growth case for an asset the GP had held for years. The incoming investor needed to independently test whether the remaining runway was real — from customers, competitors and end-market experts who had no stake in the roll-over closing at the sponsor's preferred mark.",
+      "The continuation vehicle's price rested on the GP's forward growth case for an asset the GP had held for years. The incoming investor needed to independently test whether the remaining runway was real, from customers, competitors and end-market experts who had no stake in the roll-over closing at the sponsor's preferred mark.",
     approach: [
       "Anchored the calls to the GP's forward thesis, testing each growth driver against independent evidence",
       "Sourced eleven experts across the asset's customers, competitors and its end-market",
@@ -618,15 +618,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "hedge-fund-retail-channel-checks",
     id: "HF-01",
     category: "hedge-funds",
-    name: "L/S EQUITY — RETAIL CHANNEL CHECKS",
+    name: "L/S EQUITY · RETAIL CHANNEL CHECKS",
     fundProfile: "Long/short equity fund, $2B AUM",
-    title: "Channel Checks — Long/Short Equity, Retail",
+    title: "Channel Checks: Long/Short Equity, Retail",
     description:
       "A long/short fund tested a retailer's same-store-sales momentum with supplier and store-level channel checks ahead of earnings, under strict MNPI screening.",
     oneLiner:
       "A long/short fund tested a retailer's same-store-sales momentum with channel checks ahead of earnings.",
     pageLede:
-      "The fund was long a specialty retailer into a print, and the bull case rested on same-store-sales momentum holding. Sell-side notes were mixed and the tape gave no edge. The PM wanted an independent read from the people who see store-level demand week to week — suppliers, former store operators and distributors. Nothing an insider could share was in scope.",
+      "The fund was long a specialty retailer into a print, and the bull case rested on same-store-sales momentum holding. Sell-side notes were mixed and the tape gave no edge. The PM wanted an independent read from the people who see store-level demand week to week, suppliers, former store operators and distributors. Nothing an insider could share was in scope.",
     sector: "Consumer retail (public equity)",
     engagementType: "Pre-earnings channel checks",
     timeline: "8 days",
@@ -634,7 +634,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The position needed conviction before earnings, and consensus was clustered with no edge in it. The PM needed an independent, ground-level read on whether same-store momentum was real or rolling over. It had to be sourced fast and screened hard, so nothing approached material non-public information.",
     approach: [
       "Framed the checks around one variable: is same-store demand accelerating or decelerating quarter on quarter?",
-      "Sourced eight channel sources — suppliers, former store operators and regional distributors",
+      "Sourced eight channel sources, suppliers, former store operators and regional distributors",
       "Held every call to general market observation, with an MNPI screen before any note reached the desk",
       "Excluded current employees and anyone who could see unreleased company figures",
     ],
@@ -669,9 +669,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "hedge-fund-short-thesis-software",
     id: "HF-02",
     category: "hedge-funds",
-    name: "L/S EQUITY — SHORT THESIS TESTING",
+    name: "L/S EQUITY · SHORT THESIS TESTING",
     fundProfile: "Equity hedge fund, multi-strategy",
-    title: "Short Thesis Testing — Enterprise Software",
+    title: "Short Thesis Testing: Enterprise Software",
     description:
       "Before sizing a short, a hedge fund tested whether an enterprise-software company's net revenue retention was deteriorating, via customer and ex-operator calls.",
     oneLiner:
@@ -682,10 +682,10 @@ export const caseStudies: readonly CaseStudy[] = [
     engagementType: "Short-thesis validation",
     timeline: "2 weeks",
     challenge:
-      "Reported metrics lagged reality, and management framed retention optimistically. The fund needed to test the core short thesis — accelerating churn and downgrades — with the people making the renewal decision. The risk was shorting on a narrative the customers would contradict.",
+      "Reported metrics lagged reality, and management framed retention optimistically. The fund needed to test the core short thesis, accelerating churn and downgrades, with the people making the renewal decision. The risk was shorting on a narrative the customers would contradict.",
     approach: [
       "Reduced the thesis to one testable claim: is net revenue retention deteriorating faster than reported?",
-      "Sourced nine sources — current customers, churned customers and two former sales operators",
+      "Sourced nine sources, current customers, churned customers and two former sales operators",
       "Asked customers directly about renewal, seat expansion and competitive displacement",
       "Screened every call for MNPI and excluded anyone with access to unreleased figures",
     ],
@@ -720,23 +720,23 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "hedge-fund-merger-antitrust-read",
     id: "HF-03",
     category: "hedge-funds",
-    name: "EVENT-DRIVEN — ANTITRUST READ",
+    name: "EVENT-DRIVEN · ANTITRUST READ",
     fundProfile: "Event-driven fund, merger-arbitrage book",
-    title: "Antitrust Read — Event-Driven / Merger Arb",
+    title: "Antitrust Read: Event-Driven / Merger Arb",
     description:
       "A merger-arbitrage desk commissioned independent expert calls on the antitrust and regulatory odds of a pending deal before sizing the spread.",
     oneLiner:
       "A merger-arb desk sized a spread using independent expert reads on the deal's antitrust odds.",
     pageLede:
-      "The spread on a pending merger was wide because the market doubted it would clear. The desk's entire return depended on one probability: would antitrust regulators block or clear the deal? The team wanted independent expertise — former agency staff and antitrust economists — to pressure-test their own read before sizing the position.",
+      "The spread on a pending merger was wide because the market doubted it would clear. The desk's entire return depended on one probability: would antitrust regulators block or clear the deal? The team wanted independent expertise, former agency staff and antitrust economists, to pressure-test their own read before sizing the position.",
     sector: "Event-driven / regulatory",
     engagementType: "Regulatory-odds diligence",
     timeline: "9 days",
     challenge:
-      "Deal-closure odds drove the whole trade, and public commentary was noisy and conflicted. The desk needed a structured, independent read on the regulatory path — block risk, remedies and timeline — from people who understood how the relevant agencies actually decide. Getting the probability wrong meant mispricing the spread.",
+      "Deal-closure odds drove the whole trade, and public commentary was noisy and conflicted. The desk needed a structured, independent read on the regulatory path, block risk, remedies and timeline, from people who understood how the relevant agencies actually decide. Getting the probability wrong meant mispricing the spread.",
     approach: [
       "Framed the calls around three questions: block risk, likely remedies and realistic timeline",
-      "Sourced six experts — former competition-agency staff and two antitrust economists",
+      "Sourced six experts, former competition-agency staff and two antitrust economists",
       "Kept every call to public filings and general regulatory expertise, never deal-confidential material",
       "Reconciled differing views into a probability range rather than a single point",
     ],
@@ -773,9 +773,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "corporate-market-entry-strategy",
     id: "CORP-01",
     category: "corporate",
-    name: "CORPORATE STRATEGY — MARKET ENTRY",
+    name: "CORPORATE STRATEGY · MARKET ENTRY",
     fundProfile: "Fortune 500 industrial, strategy team",
-    title: "Market Entry — Corporate Strategy",
+    title: "Market Entry: Corporate Strategy",
     description:
       "A Fortune 500 industrial's strategy team validated a new-geography market entry with in-market operator interviews before committing capital.",
     oneLiner:
@@ -789,7 +789,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The entry case was built on desk research and internal optimism. The team needed independent, in-market evidence on real demand, the workable route to market and how incumbents would respond. The risk was committing capital to a plan that looked clean on a slide and failed on the ground.",
     approach: [
       "Structured the interviews around four load-bearing assumptions: demand, route to market, regulation and competitor response",
-      "Sourced eleven in-market operators — former country managers, distributors and regulatory advisers",
+      "Sourced eleven in-market operators, former country managers, distributors and regulatory advisers",
       "Tested each assumption against people who had built or sold in the region",
       "Separated durable structural barriers from problems capital could solve",
     ],
@@ -799,7 +799,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A competitor-response map based on how incumbents had reacted to prior entrants",
     ],
     outcome: [
-      "The team entered — but through a partnership model operators judged faster than building direct",
+      "The team entered, but through a partnership model operators judged faster than building direct",
       "Two regulatory barriers surfaced in the calls reshaped the phasing of the entry",
       "The validated route to market went straight into the board business case",
     ],
@@ -824,15 +824,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "corporate-dev-acquisition-diligence",
     id: "CORP-02",
     category: "corporate",
-    name: "CORP DEV — ACQUISITION DILIGENCE",
+    name: "CORP DEV · ACQUISITION DILIGENCE",
     fundProfile: "Global technology acquirer, corp-dev team",
-    title: "Acquisition Diligence — Corporate Development",
+    title: "Acquisition Diligence: Corporate Development",
     description:
       "A strategic acquirer's corp-dev team ran expert-led commercial diligence on a target, testing both standalone performance and the post-deal cross-sell revenue the model assumed.",
     oneLiner:
       "A strategic acquirer tested a target's standalone story and its cross-sell revenue case with expert-led diligence.",
     pageLede:
-      "A strategic acquirer was close on a bolt-on. Unlike a financial buyer, the corp-dev team had a second question beyond whether the target was healthy — would the cross-sell revenue case survive contact with the two companies' customers? Bankers modelled the upside. The team wanted the market to test it.",
+      "A strategic acquirer was close on a bolt-on. Unlike a financial buyer, the corp-dev team had a second question beyond whether the target was healthy, would the cross-sell revenue case survive contact with the two companies' customers? Bankers modelled the upside. The team wanted the market to test it.",
     sector: "Technology / M&A",
     engagementType: "Strategic acquisition diligence",
     timeline: "4 weeks",
@@ -840,7 +840,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The deal model leaned on cross-sell revenue the internal team could not independently verify. Corp dev needed evidence on two fronts: the target's standalone commercial health, and whether customers would actually buy the combined offering. Overpaying for revenue that never materialises is the classic strategic-M&A failure.",
     approach: [
       "Split the diligence into two questions: is the standalone story real, and does the cross-sell revenue hold with customers",
-      "Sourced ten experts — the target's customers, two competitors and shared-channel partners",
+      "Sourced ten experts, the target's customers, two competitors and shared-channel partners",
       "Tested the specific cross-sell assumptions the deal model depended on",
       "Held every call to general market knowledge, screened before delivery",
     ],
@@ -875,15 +875,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "corporate-disruption-threat-scan",
     id: "CORP-03",
     category: "corporate",
-    name: "CORPORATE STRATEGY — DISRUPTION SCAN",
+    name: "CORPORATE STRATEGY · DISRUPTION SCAN",
     fundProfile: "Global consumer-goods company",
-    title: "Disruption Scan — Corporate Strategy",
+    title: "Disruption Scan: Corporate Strategy",
     description:
       "A consumer-goods incumbent sized the real threat from a fast-growing challenger category with expert interviews across the value chain.",
     oneLiner:
       "A consumer-goods incumbent sized the real threat from a challenger category with value-chain expert interviews.",
     pageLede:
-      "The challenger brands were small but growing fast, and the board wanted to know whether they were a fad or a structural threat. Internal views split between ignore it and panic. The strategy team wanted an evidence-based read from across the value chain — retailers, former challenger operators and channel experts — before recommending a response.",
+      "The challenger brands were small but growing fast, and the board wanted to know whether they were a fad or a structural threat. Internal views split between ignore it and panic. The strategy team wanted an evidence-based read from across the value chain, retailers, former challenger operators and channel experts, before recommending a response.",
     sector: "Consumer goods",
     engagementType: "Disruption threat assessment",
     timeline: "4 weeks",
@@ -891,7 +891,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The incumbent had to decide whether to acquire, compete or ignore a rising category. Internal opinion was polarised and no one had independent evidence on the challengers' real durability. The risk was over-reacting to a fad or under-reacting to a structural shift. Both are expensive mistakes at scale.",
     approach: [
       "Framed the scan around one question: is the challenger category a structural shift or a cycle?",
-      "Sourced nine experts — retail category buyers, former challenger-brand operators and channel distributors",
+      "Sourced nine experts, retail category buyers, former challenger-brand operators and channel distributors",
       "Tested whether the challengers' growth rested on durable advantages or temporary tailwinds",
       "Kept the interviews to general market knowledge, screened before delivery",
     ],
@@ -901,7 +901,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A retailer view on how much shelf the category would hold three years out",
     ],
     outcome: [
-      "The scan judged the shift structural — the incumbent moved to acquire rather than wait it out",
+      "The scan judged the shift structural, the incumbent moved to acquire rather than wait it out",
       "One assumed challenger advantage proved shallow, narrowing the response to a focused set of moves",
       "The disruption-scan format became the strategy team's standard threat-assessment tool",
     ],
@@ -928,9 +928,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "consulting-cdd-expert-calls",
     id: "MC-01",
     category: "management-consulting",
-    name: "STRATEGY FIRM — CDD EXPERT CALLS",
+    name: "STRATEGY FIRM · CDD EXPERT CALLS",
     fundProfile: "Global strategy consultancy",
-    title: "CDD Expert Calls — Strategy Consultancy",
+    title: "CDD Expert Calls: Strategy Consultancy",
     description:
       "A strategy consultancy running commercial due diligence for a PE client sourced and ran expert calls fast enough to hit the deal timeline.",
     oneLiner:
@@ -965,7 +965,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Screening", value: "MNPI, per call" },
     ],
     quote: {
-      text: "Our analysis was never the problem — sourcing the right operators in ten days was. They filled that gap so cleanly our client never saw a seam.",
+      text: "Our analysis was never the problem, sourcing the right operators in ten days was. They filled that gap so cleanly our client never saw a seam.",
       role: "Engagement Manager",
     },
     relatedSlugs: [
@@ -979,9 +979,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "boutique-consulting-niche-experts",
     id: "MC-02",
     category: "management-consulting",
-    name: "BOUTIQUE FIRM — NICHE OPERATOR PANEL",
+    name: "BOUTIQUE FIRM · NICHE OPERATOR PANEL",
     fundProfile: "Boutique strategy consultancy",
-    title: "Niche Operator Panel — Boutique Consultancy",
+    title: "Niche Operator Panel: Boutique Consultancy",
     description:
       "A boutique consultancy on a growth-strategy project sourced hard-to-reach niche operators it could not find through its own network.",
     oneLiner:
@@ -1032,15 +1032,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "startup-pricing-research",
     id: "STARTUP-01",
     category: "startups",
-    name: "SERIES A SAAS — PRICING RESEARCH",
+    name: "SERIES A SAAS · PRICING RESEARCH",
     fundProfile: "Series A vertical-SaaS company",
-    title: "Pricing Research — Series A SaaS",
+    title: "Pricing Research: Series A SaaS",
     description:
       "A Series A SaaS company tested a pricing overhaul with willingness-to-pay interviews among its target buyers before repricing.",
     oneLiner:
       "A Series A SaaS company tested a pricing overhaul with willingness-to-pay interviews before repricing.",
     pageLede:
-      "The founders suspected they were under-priced, but a reprice done blind risked stalling growth. Before changing the model, they wanted evidence on how target buyers actually value the product — what they would pay, what they would walk from and which features justified a premium. Guessing at price is how good products leak revenue.",
+      "The founders suspected they were under-priced, but a reprice done blind risked stalling growth. Before changing the model, they wanted evidence on how target buyers actually value the product, what they would pay, what they would walk from and which features justified a premium. Guessing at price is how good products leak revenue.",
     sector: "Vertical SaaS",
     engagementType: "Pricing / willingness-to-pay research",
     timeline: "2 weeks",
@@ -1058,7 +1058,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "The price points most likely to trigger churn or resistance",
     ],
     outcome: [
-      "The company repriced upward — but tiered the model to each segment's distinct willingness to pay",
+      "The company repriced upward, but tiered the model to each segment's distinct willingness to pay",
       "Two features assumed to be premium turned out to be table stakes, and were bundled",
       "The reprice landed without the churn the founders had feared",
     ],
@@ -1083,15 +1083,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "startup-marketplace-supply-validation",
     id: "STARTUP-02",
     category: "startups",
-    name: "SEED MARKETPLACE — SUPPLY-SIDE CHECK",
+    name: "SEED MARKETPLACE · SUPPLY-SIDE CHECK",
     fundProfile: "Seed-stage marketplace",
-    title: "Supply-Side Validation — Seed Marketplace",
+    title: "Supply-Side Validation: Seed Marketplace",
     description:
       "A seed marketplace validated supply-side willingness to join before scaling demand, through interviews with the operators it needed as suppliers.",
     oneLiner:
       "A seed marketplace validated supply-side buy-in before scaling demand, via interviews with target suppliers.",
     pageLede:
-      "The marketplace's demand side was working. The open question — the one that kills marketplaces — was whether enough quality suppliers would join and stay. Before spending to scale demand, the founders wanted candid input from the exact operators they needed as supply: would they list, on what terms and what would make them leave.",
+      "The marketplace's demand side was working. The open question, the one that kills marketplaces, was whether enough quality suppliers would join and stay. Before spending to scale demand, the founders wanted candid input from the exact operators they needed as supply: would they list, on what terms and what would make them leave.",
     sector: "Marketplace",
     engagementType: "Supply-side validation",
     timeline: "12 days",
@@ -1138,9 +1138,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-travel-creator-platform",
     id: "GTM-01",
     category: "direct",
-    name: "TRAVEL-CREATOR PLATFORM — CHANNEL TEST",
+    name: "TRAVEL-CREATOR PLATFORM · CHANNEL TEST",
     fundProfile: "Creator platform · travel guides",
-    title: "GTM Channel Discovery — Creator Platform",
+    title: "GTM Channel Discovery: Creator Platform",
     description:
       "A platform for travel creators tested outbound, Meta ads, Google ads, influencer partnerships and creator referral to find which channel actually signed active creators and why the others failed.",
     oneLiner:
@@ -1154,17 +1154,17 @@ export const caseStudies: readonly CaseStudy[] = [
       "The platform needed creators with real audiences, not sign-ups who would never publish. Paid budget was limited and could not be spread across every channel on faith. The team needed to know which channels produced active, audience-carrying creators and why the others did not, before committing spend.",
     approach: [
       "Tested five channels against one goal: cold outbound, Meta ads, Google ads, influencer partnerships and creator referral",
-      "Defined a real success metric — creators who published a guide, not raw sign-ups",
-      "Held targeting tight — outbound and referral aimed at mid-tier creators with proven audiences",
+      "Set the bar at creators who actually published a guide, not just anyone who signed up",
+      "Kept the targeting tight, with outbound and referral going to mid-tier creators who already had an audience",
       "Cut each channel the moment its qualified-signup signal stalled",
     ],
     delivered: [
-      "A ranked read on which channels produced publishing creators",
-      "The reason each channel won or lost, tied to how creators actually get discovered",
-      "A budget plan that concentrated spend on the channels that worked",
+      "A clear ranking of the channels that brought in publishing creators",
+      "Why each channel won or lost, based on how creators actually get found",
+      "A budget plan that put the money behind the channels that worked",
     ],
     outcome: [
-      "Outbound won, and creator referral compounded it — signed creators introduced peers at near-zero cost",
+      "Outbound won. Referral made it cheaper still, since the creators who signed up kept introducing others for almost nothing",
       "Google lost: creators do not search for a way to sell travel guides, so there was no intent to capture",
       "Meta and broad influencer spend lost: neither could isolate creators with real audiences, so cost per active creator ran too high",
     ],
@@ -1189,9 +1189,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-ai-fashion-imaging",
     id: "GTM-02",
     category: "direct",
-    name: "AI FASHION IMAGING — CHANNEL TEST",
+    name: "AI FASHION IMAGING · CHANNEL TEST",
     fundProfile: "Gen-AI SaaS · fashion e-commerce imaging",
-    title: "GTM Channel Discovery — AI Imaging SaaS",
+    title: "GTM Channel Discovery: AI Imaging SaaS",
     description:
       "An AI product-imagery SaaS for fashion brands tested outbound, LinkedIn ads, Google search, Meta ads and brand partnerships to find which channel reached its real buyer and why.",
     oneLiner:
@@ -1202,7 +1202,7 @@ export const caseStudies: readonly CaseStudy[] = [
     engagementType: "GTM channel discovery",
     timeline: "6 weeks",
     challenge:
-      "The buyer was a specific person — an e-commerce or brand lead at a fashion retailer — but the team was fishing for them across several very different channels. They needed to know where that buyer actually engages, and where paid spend was simply the wrong context, before scaling the budget.",
+      "The buyer was one specific person: an e-commerce or brand lead at a fashion retailer. The team was chasing that buyer across several very different channels with no idea which one actually landed. They needed to know where the buyer pays attention, and where the money was just going to the wrong place, before scaling.",
     approach: [
       "Tested five channels to a qualified-demo goal: cold outbound, LinkedIn ads, Google search, Meta ads and brand partnerships",
       "Pointed outbound directly at e-commerce and brand leads at target retailers",
@@ -1210,14 +1210,14 @@ export const caseStudies: readonly CaseStudy[] = [
       "Compared channels on qualified pipeline, then reallocated fast",
     ],
     delivered: [
-      "A ranked read on which channels produced demos with real buyers",
-      "The reason each channel won or lost, tied to how fashion brands buy software",
-      "A concentrated plan built around the channels that produced pipeline",
+      "A ranking of the channels that produced demos with real buyers",
+      "Why each channel won or lost, based on how fashion brands actually buy software",
+      "A plan built around the channels that produced pipeline",
     ],
     outcome: [
-      "Outbound won: a named, reachable buyer responded to targeted, specific outreach",
-      "Google search and brand partnerships worked as secondary channels — real, if smaller, streams of in-market demand",
-      "Meta lost and LinkedIn ads underdelivered: the right audience, but the wrong context and too costly to convert brand buyers",
+      "Outbound won: a named, reachable buyer answered targeted, specific outreach",
+      "Google search and brand partnerships pulled their weight too, bringing smaller but real streams of brands who were already looking",
+      "Meta lost, and LinkedIn ads cost too much for what they returned. Both reached people, just not where a brand actually buys production software",
     ],
     metrics: [
       { label: "Channels tested", value: "5" },
@@ -1240,9 +1240,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-self-storage-saas",
     id: "GTM-03",
     category: "direct",
-    name: "SELF-STORAGE SAAS — CHANNEL TEST",
+    name: "SELF-STORAGE SAAS · CHANNEL TEST",
     fundProfile: "Vertical SaaS · self-storage operators",
-    title: "GTM Channel Discovery — Vertical SaaS",
+    title: "GTM Channel Discovery: Vertical SaaS",
     description:
       "A self-storage management SaaS tested Google search, review directories, cold outbound, Meta ads and partner integrations and found search intent, not social, drove qualified demand.",
     oneLiner:
@@ -1277,7 +1277,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Timeline", value: "5 weeks" },
     ],
     quote: {
-      text: "Our category already has demand — people search for exactly what we sell. The test showed us to capture that intent, not manufacture it on social. Meta was the wrong room entirely.",
+      text: "Our category already has demand. People search for exactly what we sell. The test told us to go capture that, not try to manufacture it on social. Meta was the wrong room.",
       role: "Managing Director",
     },
     relatedSlugs: [
@@ -1291,9 +1291,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-performance-pr-marketplace",
     id: "GTM-04",
     category: "direct",
-    name: "PERFORMANCE-PR MARKETPLACE — CHANNEL TEST",
+    name: "PERFORMANCE-PR MARKETPLACE · CHANNEL TEST",
     fundProfile: "Marketplace · pay-per-click PR",
-    title: "GTM Channel Discovery — PR Marketplace",
+    title: "GTM Channel Discovery: PR Marketplace",
     description:
       "A pay-per-click PR marketplace tested outbound, LinkedIn, Google, agency partnerships and content to find which channel reached brand marketers and why paid search and social failed.",
     oneLiner:
@@ -1317,7 +1317,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A plan built around targeted outbound and agency partnerships",
     ],
     outcome: [
-      "Outbound won, and agency partnerships scaled it — one agency onboarded brought many brands at once",
+      "Outbound won. Agency partnerships then scaled it fast, because one agency could bring a batch of brands with it",
       "Google lost: no one searches for a category they do not know exists, so there was no intent to capture",
       "LinkedIn and content underdelivered: useful for credibility but too slow to produce advertisers who launched",
     ],
@@ -1328,7 +1328,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Timeline", value: "7 weeks" },
     ],
     quote: {
-      text: "We invented a category, which meant nobody was searching for us yet. The test made it obvious — reach the exact buyer directly and explain it, don't wait for them to Google a thing they've never heard of.",
+      text: "We invented a category, so nobody was searching for us yet. The test made it obvious. Go to the exact buyer, explain it to them directly, and stop waiting for people to Google something they've never heard of.",
       role: "VP Marketing",
     },
     relatedSlugs: [
@@ -1342,15 +1342,15 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-live-lessons-marketplace",
     id: "GTM-05",
     category: "direct",
-    name: "LIVE-LESSONS MARKETPLACE — CHANNEL TEST",
+    name: "LIVE-LESSONS MARKETPLACE · CHANNEL TEST",
     fundProfile: "Marketplace · live expert lessons",
-    title: "GTM Channel Discovery — Skills Marketplace",
+    title: "GTM Channel Discovery: Skills Marketplace",
     description:
       "A live-lessons marketplace tested Google, Meta, TikTok, creator referral and SEO and found search converted buyers while paid social only filled the top of the funnel.",
     oneLiner:
       "A live-lessons marketplace tested five channels to find which converted learners and which brought creators.",
     pageLede:
-      "The company runs a marketplace for booking live lessons and masterclasses from experts. It has two sides — learners who buy and creators who teach. Growth spend was going out with no clear read on returns. The brief: find which GTM channel works for each side, which doesn't and why.",
+      "The company runs a marketplace for booking live lessons and masterclasses from experts. It has two sides, learners who buy and creators who teach. Growth spend was going out with no clear read on returns. The brief: find which GTM channel works for each side, which doesn't and why.",
     sector: "Marketplace / online learning",
     engagementType: "GTM channel discovery",
     timeline: "6 weeks",
@@ -1369,7 +1369,7 @@ export const caseStudies: readonly CaseStudy[] = [
     ],
     outcome: [
       "Google and SEO won on demand: learners search for the exact skill they want, so intent converted to bookings",
-      "Meta and TikTok filled the funnel cheaply but converted weakly — attention without purchase intent",
+      "Meta and TikTok filled the top of the funnel cheaply but rarely closed a booking. Plenty of attention, not much intent to buy",
       "Creator referral won on supply: active teachers introduced other experts far cheaper than paid acquisition",
     ],
     metrics: [
@@ -1393,9 +1393,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-fleet-safety-hardware",
     id: "GTM-06",
     category: "direct",
-    name: "FLEET-SAFETY HARDWARE — CHANNEL TEST",
+    name: "FLEET-SAFETY HARDWARE · CHANNEL TEST",
     fundProfile: "Hardware + SaaS · fleet driver safety",
-    title: "GTM Channel Discovery — Fleet-Safety Hardware",
+    title: "GTM Channel Discovery: Fleet-Safety Hardware",
     description:
       "A fleet driver-safety hardware and software company tested outbound, industry events, LinkedIn, Google and Meta and found direct sales and events, not paid ads, drove pipeline.",
     oneLiner:
@@ -1419,7 +1419,7 @@ export const caseStudies: readonly CaseStudy[] = [
       "A plan moving budget from ads into targeted outbound, events and pilots",
     ],
     outcome: [
-      "Outbound and industry events won: a small, identifiable buyer set responded to targeted outreach and met the product in person",
+      "Outbound and industry events won. A small, known set of buyers answered direct outreach and wanted to see the product in person",
       "Google and LinkedIn captured a thin stream of intent from fleets already researching fatigue monitoring",
       "Meta lost outright: fleet safety managers do not buy enterprise hardware from a social ad",
     ],
@@ -1430,7 +1430,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Timeline", value: "8 weeks" },
     ],
     quote: {
-      text: "We were running consumer-style ads for an enterprise fleet sale. The test made the mismatch obvious — our buyers are a short, named list, and they answer direct outreach, not an Instagram ad.",
+      text: "We were running consumer-style ads for an enterprise fleet sale. The test made the mismatch obvious. Our buyers are a short, named list, and they answer a direct approach, not an Instagram ad.",
       role: "Founder and CEO",
     },
     relatedSlugs: [
@@ -1444,9 +1444,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-social-rewards-app",
     id: "GTM-07",
     category: "direct",
-    name: "SOCIAL REWARDS APP — CHANNEL TEST",
+    name: "SOCIAL REWARDS APP · CHANNEL TEST",
     fundProfile: "Consumer app · social + shop-to-earn rewards",
-    title: "GTM Channel Discovery — Consumer Social App",
+    title: "GTM Channel Discovery: Consumer Social App",
     description:
       "A consumer social-rewards app tested Meta, TikTok, Google, referral loops and partner outbound and found paid social and referral drove installs while search fell flat.",
     oneLiner:
@@ -1470,9 +1470,9 @@ export const caseStudies: readonly CaseStudy[] = [
       "The reason a new consumer app cannot rely on search",
     ],
     outcome: [
-      "Meta won on the consumer side, and referral loops compounded it — engaged users invited more at near-zero cost",
-      "TikTok added cheap top-funnel reach but converted below Meta on engaged installs",
-      "Google lost: no one searches for a social app that did not exist in their mind yesterday, and outbound won the partner side",
+      "Meta won on the consumer side. Referral loops made it cheaper still, as engaged users kept pulling in new ones",
+      "TikTok added cheap top-of-funnel reach but converted below Meta on engaged installs",
+      "Google lost, because nobody searches for a social app they have never heard of. Outbound, meanwhile, won the partner side",
     ],
     metrics: [
       { label: "Channels tested", value: "5" },
@@ -1495,9 +1495,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-dtc-wellness-beverage",
     id: "GTM-08",
     category: "direct",
-    name: "DTC WELLNESS BEVERAGE — CHANNEL TEST",
+    name: "DTC WELLNESS BEVERAGE · CHANNEL TEST",
     fundProfile: "DTC brand · functional wellness drinks",
-    title: "GTM Channel Discovery — DTC Beverage Brand",
+    title: "GTM Channel Discovery: DTC Beverage Brand",
     description:
       "A DTC functional-beverage brand tested Meta, TikTok, influencer content, Google and retail outreach and found social and influencer drove discovery while outbound opened retail.",
     oneLiner:
@@ -1521,9 +1521,9 @@ export const caseStudies: readonly CaseStudy[] = [
       "The reason a discovery product leans on social, not search, early on",
     ],
     outcome: [
-      "Meta, TikTok and influencer content won on demand: visual, creator-style content drove trial for a product people discover rather than search for",
-      "Google stayed thin early — category search barely existed, and only branded terms converted",
-      "Outbound won for retail: buyers at stockists responded to a direct, specific pitch",
+      "Meta, TikTok and influencer content won on demand. People discover a drink like this rather than search for it, so content from creators is what drove the trials",
+      "Google stayed thin early. Category search barely existed, and only branded terms converted",
+      "Outbound won for retail: buyers at stockists answered a direct, specific pitch",
     ],
     metrics: [
       { label: "Channels tested", value: "5" },
@@ -1532,7 +1532,7 @@ export const caseStudies: readonly CaseStudy[] = [
       { label: "Timeline", value: "6 weeks" },
     ],
     quote: {
-      text: "People don't search for a drink they've never heard of — they discover it. Social created that discovery, outbound opened the retail doors and search only worked once people knew our name.",
+      text: "People don't search for a drink they've never heard of. They stumble onto it. Social got us that discovery, outbound opened the retail doors, and search only worked once people already knew the name.",
       role: "Co-Founder",
     },
     relatedSlugs: [
@@ -1546,9 +1546,9 @@ export const caseStudies: readonly CaseStudy[] = [
     slug: "gtm-escrow-payments-fintech",
     id: "GTM-09",
     category: "direct",
-    name: "ESCROW PAYMENTS FINTECH — CHANNEL TEST",
+    name: "ESCROW PAYMENTS FINTECH · CHANNEL TEST",
     fundProfile: "Fintech · escrow for high-value sales",
-    title: "GTM Channel Discovery — Escrow Fintech",
+    title: "GTM Channel Discovery: Escrow Fintech",
     description:
       "A secure-payments fintech for high-value sales tested outbound, platform partnerships, Google, Meta and trust content and found partnerships and outbound beat consumer ads.",
     oneLiner:

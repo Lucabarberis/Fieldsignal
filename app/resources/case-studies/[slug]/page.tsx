@@ -140,8 +140,8 @@ export default async function CaseStudyPage({ params }: Props) {
             This is a representative, anonymised composite of a go-to-market engagement.
             The client is described by what it does, never named, and the channel results
             illustrate the pattern we found rather than one account&apos;s exact figures.
-            Each study reflects real engagement structure — channels tested in parallel and
-            measured to qualified pipeline, not vanity metrics.{" "}
+            Each study reflects real engagement structure: channels were tested in parallel
+            and measured against qualified pipeline, not vanity metrics.{" "}
             <a
               href="/contact"
               className="text-ink underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors"
@@ -154,7 +154,7 @@ export default async function CaseStudyPage({ params }: Props) {
           <p className="text-body text-ink-2">
             This is a representative, anonymised composite of a typical{" "}
             {categoryLabel.toLowerCase()} engagement. Client identity is removed and the
-            figures illustrate the format and scale of the work — they are not a record of
+            figures illustrate the format and scale of the work. They are not a record of
             a single named mandate. Every expert call is scoped to general market knowledge,
             screened for material non-public information before findings reach a deal team,
             and documented for audit.{" "}
@@ -206,7 +206,7 @@ export default async function CaseStudyPage({ params }: Props) {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(cs.name + " — enquiry")}`}
+        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(cs.name + " enquiry")}`}
       />
     </>
   );
