@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { TileGrid } from "@/components/TileGrid";
 import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
+import { TranscriptBody, parseTurns } from "@/components/TranscriptBody";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
@@ -47,9 +49,11 @@ export default async function TranscriptPage({ params }: Props) {
     .map((s) => industries.find((i) => i.slug === s)?.name ?? s)
     .join(" · ");
 
-  // Approximate preview word count (display only)
-  const previewWords = t.preview.split(/\s+/).length;
-  const gatedWords = t.wordCount - previewWords;
+  // Approximate preview word count (display only). Speaker markers ("Q:"/"A:")
+  // are structure, not prose, so they're stripped before counting.
+  const previewWords = parseTurns(t.preview)
+    .reduce((n, turn) => n + turn.text.split(/\s+/).filter(Boolean).length, 0);
+  const gatedWords = Math.max(0, t.wordCount - previewWords);
 
   return (
     <>
@@ -92,16 +96,9 @@ export default async function TranscriptPage({ params }: Props) {
           <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-3 uppercase">
             {t.expertRole}
           </div>
-          <div className="prose prose-ink max-w-none">
-            {t.preview.split(/\n\n+/).map((para, i) => (
-              <p
-                key={i}
-                className="font-sans text-[16px] leading-[1.65] text-ink-2 mb-5"
-              >
-                {para}
-              </p>
-            ))}
-          </div>
+          {/* No `prose` wrapper here — TranscriptBody sets its own type and
+              spacing, and prose's <p> margins break the marker/text baseline. */}
+          <TranscriptBody body={t.preview} />
         </article>
       </div>
 
@@ -146,12 +143,12 @@ export default async function TranscriptPage({ params }: Props) {
           for MNPI (material non-public information) exposure before publication; calls
           flagged with potential MNPI risk are excluded from the library entirely.
           {" "}
-          <a
+          <Link
             href="/compliance"
             className="text-ink underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors"
           >
             See our compliance framework
-          </a>{" "}
+          </Link>{" "}
           for full detail.
         </p>
       </div>
