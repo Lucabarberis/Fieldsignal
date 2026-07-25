@@ -15,7 +15,14 @@
  * (calls, turnaround, coverage), never rate cards — pricing lives on /pricing.
  */
 
-export type CaseStudyCategory = "venture-capital" | "private-equity" | "direct";
+export type CaseStudyCategory =
+  | "venture-capital"
+  | "private-equity"
+  | "hedge-funds"
+  | "corporate"
+  | "management-consulting"
+  | "startups"
+  | "direct";
 
 export type CaseStudy = {
   slug: string;
@@ -60,9 +67,33 @@ export const CASE_STUDY_CATEGORIES: readonly {
     blurb: "Commercial due diligence, value-creation input and buy-and-build market mapping for buyout, special-situations and secondaries funds.",
   },
   {
+    key: "hedge-funds",
+    label: "Hedge Funds",
+    num: "03",
+    blurb: "Public-markets primary research — channel checks, thesis testing and event-driven reads, produced under strict MNPI screening.",
+  },
+  {
+    key: "corporate",
+    label: "Corporates & Strategy",
+    num: "04",
+    blurb: "Market entry, acquisition diligence and disruption scans for corporate strategy and corporate development teams.",
+  },
+  {
+    key: "management-consulting",
+    label: "Management Consulting",
+    num: "05",
+    blurb: "Expert sourcing for consultancies running client diligence and growth strategy against a deadline.",
+  },
+  {
+    key: "startups",
+    label: "Startups & Scale-Ups",
+    num: "06",
+    blurb: "Pricing, supply-side and product validation for founders — the same research quality the funds get, no retainer required.",
+  },
+  {
     key: "direct",
     label: "Direct Clients",
-    num: "03",
+    num: "07",
     blurb: "Corporates, consultancies and operating teams commissioning primary research directly. Studies published as they are cleared.",
   },
 ];
@@ -580,5 +611,523 @@ export const caseStudies: readonly CaseStudy[] = [
       "consumer-brand-channel-checks",
     ],
     primaryKW: "continuation fund due diligence",
+  },
+
+  // ─────────────────────────────── HEDGE FUNDS ───────────────────────────
+  {
+    slug: "hedge-fund-retail-channel-checks",
+    id: "HF-01",
+    category: "hedge-funds",
+    name: "L/S EQUITY — RETAIL CHANNEL CHECKS",
+    fundProfile: "Long/short equity fund, $2B AUM",
+    title: "Channel Checks — Long/Short Equity, Retail",
+    description:
+      "A long/short fund tested a retailer's same-store-sales momentum with supplier and store-level channel checks ahead of earnings, under strict MNPI screening.",
+    oneLiner:
+      "A long/short fund tested a retailer's same-store-sales momentum with channel checks ahead of earnings.",
+    pageLede:
+      "The fund was long a specialty retailer into a print, and the bull case rested on same-store-sales momentum holding. Sell-side notes were mixed and the tape gave no edge. The PM wanted an independent read from the people who see store-level demand week to week — suppliers, former store operators and distributors. Nothing an insider could share was in scope.",
+    sector: "Consumer retail (public equity)",
+    engagementType: "Pre-earnings channel checks",
+    timeline: "8 days",
+    challenge:
+      "The position needed conviction before earnings, and consensus was clustered with no edge in it. The PM needed an independent, ground-level read on whether same-store momentum was real or rolling over. It had to be sourced fast and screened hard, so nothing approached material non-public information.",
+    approach: [
+      "Framed the checks around one variable: is same-store demand accelerating or decelerating quarter on quarter?",
+      "Sourced eight channel sources — suppliers, former store operators and regional distributors",
+      "Held every call to general market observation, with an MNPI screen before any note reached the desk",
+      "Excluded current employees and anyone who could see unreleased company figures",
+    ],
+    delivered: [
+      "Eight anonymised channel notes plus a one-page read on the momentum question",
+      "A directional signal on same-store demand independent of sell-side consensus",
+      "A documented compliance trail confirming scope and MNPI screening on every call",
+    ],
+    outcome: [
+      "The read gave the PM independent support to hold the position through the print",
+      "One supplier signal flagged a softening region the sell-side had missed",
+      "The channel-check format became a standing pre-earnings tool for the book's larger positions",
+    ],
+    metrics: [
+      { label: "Channel sources", value: "8" },
+      { label: "Turnaround", value: "8 days" },
+      { label: "Screening", value: "MNPI, pre-delivery" },
+      { label: "Lens", value: "Same-store momentum" },
+    ],
+    quote: {
+      text: "We don't pay for tips. We pay for an independent read on demand that the tape doesn't give us, screened so hard it's boring. That's exactly what came back.",
+      role: "Portfolio Manager",
+    },
+    relatedSlugs: [
+      "hedge-fund-short-thesis-software",
+      "hedge-fund-merger-antitrust-read",
+      "consumer-brand-channel-checks",
+    ],
+    primaryKW: "hedge fund channel checks",
+  },
+  {
+    slug: "hedge-fund-short-thesis-software",
+    id: "HF-02",
+    category: "hedge-funds",
+    name: "L/S EQUITY — SHORT THESIS TESTING",
+    fundProfile: "Equity hedge fund, multi-strategy",
+    title: "Short Thesis Testing — Enterprise Software",
+    description:
+      "Before sizing a short, a hedge fund tested whether an enterprise-software company's net revenue retention was deteriorating, via customer and ex-operator calls.",
+    oneLiner:
+      "Before sizing a short, a fund tested whether a software company's revenue retention was quietly deteriorating.",
+    pageLede:
+      "The short thesis was simple: a once-sticky software platform was losing seats to a cheaper competitor, and net revenue retention was eroding faster than the company let on. Before sizing the position, the fund needed evidence from the company's own customers. Are they renewing, downgrading or leaving? The answer had to come from inside strict compliance limits.",
+    sector: "Enterprise software (public equity)",
+    engagementType: "Short-thesis validation",
+    timeline: "2 weeks",
+    challenge:
+      "Reported metrics lagged reality, and management framed retention optimistically. The fund needed to test the core short thesis — accelerating churn and downgrades — with the people making the renewal decision. The risk was shorting on a narrative the customers would contradict.",
+    approach: [
+      "Reduced the thesis to one testable claim: is net revenue retention deteriorating faster than reported?",
+      "Sourced nine sources — current customers, churned customers and two former sales operators",
+      "Asked customers directly about renewal, seat expansion and competitive displacement",
+      "Screened every call for MNPI and excluded anyone with access to unreleased figures",
+    ],
+    delivered: [
+      "Nine anonymised call notes plus a synthesis on the retention trajectory",
+      "A customer-grounded read on whether churn was accelerating or stabilising",
+      "A named list of the competitive displacement patterns customers described",
+    ],
+    outcome: [
+      "The calls supported the thesis but flagged one stable segment, so the fund sized the short smaller than planned",
+      "The displacement pattern gave the PM a concrete catalyst to monitor",
+      "The fund re-ran the same customers two quarters later to track the trend",
+    ],
+    metrics: [
+      { label: "Sources", value: "9" },
+      { label: "Timeline", value: "2 weeks" },
+      { label: "Focus", value: "Net revenue retention" },
+      { label: "Screening", value: "MNPI, per call" },
+    ],
+    quote: {
+      text: "The thesis was right in three segments and wrong in one. That nuance is the difference between a sized short and a blow-up. The customers told us before the print did.",
+      role: "Analyst",
+    },
+    relatedSlugs: [
+      "hedge-fund-retail-channel-checks",
+      "hedge-fund-merger-antitrust-read",
+      "healthtech-competitive-teardown",
+    ],
+    primaryKW: "short thesis expert calls",
+  },
+  {
+    slug: "hedge-fund-merger-antitrust-read",
+    id: "HF-03",
+    category: "hedge-funds",
+    name: "EVENT-DRIVEN — ANTITRUST READ",
+    fundProfile: "Event-driven fund, merger-arbitrage book",
+    title: "Antitrust Read — Event-Driven / Merger Arb",
+    description:
+      "A merger-arbitrage desk commissioned independent expert calls on the antitrust and regulatory odds of a pending deal before sizing the spread.",
+    oneLiner:
+      "A merger-arb desk sized a spread using independent expert reads on the deal's antitrust odds.",
+    pageLede:
+      "The spread on a pending merger was wide because the market doubted it would clear. The desk's entire return depended on one probability: would antitrust regulators block or clear the deal? The team wanted independent expertise — former agency staff and antitrust economists — to pressure-test their own read before sizing the position.",
+    sector: "Event-driven / regulatory",
+    engagementType: "Regulatory-odds diligence",
+    timeline: "9 days",
+    challenge:
+      "Deal-closure odds drove the whole trade, and public commentary was noisy and conflicted. The desk needed a structured, independent read on the regulatory path — block risk, remedies and timeline — from people who understood how the relevant agencies actually decide. Getting the probability wrong meant mispricing the spread.",
+    approach: [
+      "Framed the calls around three questions: block risk, likely remedies and realistic timeline",
+      "Sourced six experts — former competition-agency staff and two antitrust economists",
+      "Kept every call to public filings and general regulatory expertise, never deal-confidential material",
+      "Reconciled differing views into a probability range rather than a single point",
+    ],
+    delivered: [
+      "Six anonymised expert notes plus a structured read on block risk, remedies and timeline",
+      "An independent probability range for deal closure the desk could size against",
+      "A view on which remedy package regulators were most likely to demand",
+    ],
+    outcome: [
+      "The desk sized the spread to the expert probability range, not the market's implied panic",
+      "The likely-remedy view told the team which asset sales to watch as closure signals",
+      "The format became the desk's standard first step on every large-cap merger-arb name",
+    ],
+    metrics: [
+      { label: "Experts", value: "6" },
+      { label: "Timeline", value: "9 days" },
+      { label: "Output", value: "Closure probability range" },
+      { label: "Basis", value: "Public filings only" },
+    ],
+    quote: {
+      text: "The market priced fear. We wanted a probability. Six people who understand how these agencies actually decide gave us a range we could size against.",
+      role: "Head of Event-Driven",
+    },
+    relatedSlugs: [
+      "hedge-fund-retail-channel-checks",
+      "hedge-fund-short-thesis-software",
+      "midmarket-industrials-cdd",
+    ],
+    primaryKW: "merger arbitrage regulatory diligence",
+  },
+
+  // ─────────────────────────── CORPORATES & STRATEGY ─────────────────────
+  {
+    slug: "corporate-market-entry-strategy",
+    id: "CORP-01",
+    category: "corporate",
+    name: "CORPORATE STRATEGY — MARKET ENTRY",
+    fundProfile: "Fortune 500 industrial, strategy team",
+    title: "Market Entry — Corporate Strategy",
+    description:
+      "A Fortune 500 industrial's strategy team validated a new-geography market entry with in-market operator interviews before committing capital.",
+    oneLiner:
+      "A Fortune 500 strategy team validated a new-geography entry with in-market operators before committing capital.",
+    pageLede:
+      "The strategy team had board backing to enter a new region, but the business case rested on assumptions no one internally could test. Local demand, route to market, regulatory friction and competitor response all sat outside the company's experience. Before committing capital, they wanted operators who had actually built in that market.",
+    sector: "Industrials / new-market entry",
+    engagementType: "Market-entry validation",
+    timeline: "5 weeks",
+    challenge:
+      "The entry case was built on desk research and internal optimism. The team needed independent, in-market evidence on real demand, the workable route to market and how incumbents would respond. The risk was committing capital to a plan that looked clean on a slide and failed on the ground.",
+    approach: [
+      "Structured the interviews around four load-bearing assumptions: demand, route to market, regulation and competitor response",
+      "Sourced eleven in-market operators — former country managers, distributors and regulatory advisers",
+      "Tested each assumption against people who had built or sold in the region",
+      "Separated durable structural barriers from problems capital could solve",
+    ],
+    delivered: [
+      "Eleven operator interviews plus a synthesis mapped to the four assumptions",
+      "An independent read on the realistic route to market and its friction points",
+      "A competitor-response map based on how incumbents had reacted to prior entrants",
+    ],
+    outcome: [
+      "The team entered — but through a partnership model operators judged faster than building direct",
+      "Two regulatory barriers surfaced in the calls reshaped the phasing of the entry",
+      "The validated route to market went straight into the board business case",
+    ],
+    metrics: [
+      { label: "Operator interviews", value: "11" },
+      { label: "Timeline", value: "5 weeks" },
+      { label: "Assumptions tested", value: "4" },
+      { label: "Output", value: "Route-to-market map" },
+    ],
+    quote: {
+      text: "Our slide said build direct. The operators who'd actually done it said partner first, build later. That one input changed the entire entry plan, and probably saved us a write-off.",
+      role: "VP Corporate Strategy",
+    },
+    relatedSlugs: [
+      "corporate-dev-acquisition-diligence",
+      "corporate-disruption-threat-scan",
+      "series-b-fintech-market-sizing",
+    ],
+    primaryKW: "market entry expert interviews",
+  },
+  {
+    slug: "corporate-dev-acquisition-diligence",
+    id: "CORP-02",
+    category: "corporate",
+    name: "CORP DEV — ACQUISITION DILIGENCE",
+    fundProfile: "Global technology acquirer, corp-dev team",
+    title: "Acquisition Diligence — Corporate Development",
+    description:
+      "A strategic acquirer's corp-dev team ran expert-led commercial diligence on a target, testing both standalone performance and the post-deal cross-sell revenue the model assumed.",
+    oneLiner:
+      "A strategic acquirer tested a target's standalone story and its cross-sell revenue case with expert-led diligence.",
+    pageLede:
+      "A strategic acquirer was close on a bolt-on. Unlike a financial buyer, the corp-dev team had a second question beyond whether the target was healthy — would the cross-sell revenue case survive contact with the two companies' customers? Bankers modelled the upside. The team wanted the market to test it.",
+    sector: "Technology / M&A",
+    engagementType: "Strategic acquisition diligence",
+    timeline: "4 weeks",
+    challenge:
+      "The deal model leaned on cross-sell revenue the internal team could not independently verify. Corp dev needed evidence on two fronts: the target's standalone commercial health, and whether customers would actually buy the combined offering. Overpaying for revenue that never materialises is the classic strategic-M&A failure.",
+    approach: [
+      "Split the diligence into two questions: is the standalone story real, and does the cross-sell revenue hold with customers",
+      "Sourced ten experts — the target's customers, two competitors and shared-channel partners",
+      "Tested the specific cross-sell assumptions the deal model depended on",
+      "Held every call to general market knowledge, screened before delivery",
+    ],
+    delivered: [
+      "Ten anonymised call notes plus a synthesis split by standalone and cross-sell findings",
+      "An independent read on whether customers would adopt the combined offering",
+      "A flag on the two cross-sell assumptions least supported by the market",
+    ],
+    outcome: [
+      "The team proceeded but re-based the revenue case on the assumptions the market actually supported",
+      "One cross-sell assumption the model relied on was cut after customers rejected it",
+      "The two-question format became corp dev's template for every strategic bolt-on",
+    ],
+    metrics: [
+      { label: "Expert calls", value: "10" },
+      { label: "Timeline", value: "4 weeks" },
+      { label: "Lens", value: "Standalone + cross-sell" },
+      { label: "Screening", value: "MNPI, pre-delivery" },
+    ],
+    quote: {
+      text: "A financial buyer asks if the target is healthy. We also have to ask if the cross-sell revenue is real. The customers told us which half of the model to trust.",
+      role: "Head of Corporate Development",
+    },
+    relatedSlugs: [
+      "corporate-market-entry-strategy",
+      "corporate-disruption-threat-scan",
+      "midmarket-industrials-cdd",
+    ],
+    primaryKW: "corporate development due diligence",
+  },
+  {
+    slug: "corporate-disruption-threat-scan",
+    id: "CORP-03",
+    category: "corporate",
+    name: "CORPORATE STRATEGY — DISRUPTION SCAN",
+    fundProfile: "Global consumer-goods company",
+    title: "Disruption Scan — Corporate Strategy",
+    description:
+      "A consumer-goods incumbent sized the real threat from a fast-growing challenger category with expert interviews across the value chain.",
+    oneLiner:
+      "A consumer-goods incumbent sized the real threat from a challenger category with value-chain expert interviews.",
+    pageLede:
+      "The challenger brands were small but growing fast, and the board wanted to know whether they were a fad or a structural threat. Internal views split between ignore it and panic. The strategy team wanted an evidence-based read from across the value chain — retailers, former challenger operators and channel experts — before recommending a response.",
+    sector: "Consumer goods",
+    engagementType: "Disruption threat assessment",
+    timeline: "4 weeks",
+    challenge:
+      "The incumbent had to decide whether to acquire, compete or ignore a rising category. Internal opinion was polarised and no one had independent evidence on the challengers' real durability. The risk was over-reacting to a fad or under-reacting to a structural shift. Both are expensive mistakes at scale.",
+    approach: [
+      "Framed the scan around one question: is the challenger category a structural shift or a cycle?",
+      "Sourced nine experts — retail category buyers, former challenger-brand operators and channel distributors",
+      "Tested whether the challengers' growth rested on durable advantages or temporary tailwinds",
+      "Kept the interviews to general market knowledge, screened before delivery",
+    ],
+    delivered: [
+      "Nine anonymised interviews plus a verdict on the category's structural durability",
+      "A read on which challenger advantages the incumbent could neutralise and which it could not",
+      "A retailer view on how much shelf the category would hold three years out",
+    ],
+    outcome: [
+      "The scan judged the shift structural — the incumbent moved to acquire rather than wait it out",
+      "One assumed challenger advantage proved shallow, narrowing the response to a focused set of moves",
+      "The disruption-scan format became the strategy team's standard threat-assessment tool",
+    ],
+    metrics: [
+      { label: "Experts", value: "9" },
+      { label: "Timeline", value: "4 weeks" },
+      { label: "Question", value: "Structural vs cyclical" },
+      { label: "Output", value: "Threat verdict" },
+    ],
+    quote: {
+      text: "Half the room said fad, half said crisis. Nine people across the value chain gave us the evidence to stop arguing and act. It was structural, and we moved.",
+      role: "Chief Strategy Officer",
+    },
+    relatedSlugs: [
+      "corporate-market-entry-strategy",
+      "corporate-dev-acquisition-diligence",
+      "healthtech-competitive-teardown",
+    ],
+    primaryKW: "disruption threat assessment",
+  },
+
+  // ─────────────────────────── MANAGEMENT CONSULTING ─────────────────────
+  {
+    slug: "consulting-cdd-expert-calls",
+    id: "MC-01",
+    category: "management-consulting",
+    name: "STRATEGY FIRM — CDD EXPERT CALLS",
+    fundProfile: "Global strategy consultancy",
+    title: "CDD Expert Calls — Strategy Consultancy",
+    description:
+      "A strategy consultancy running commercial due diligence for a PE client sourced and ran expert calls fast enough to hit the deal timeline.",
+    oneLiner:
+      "A consultancy running CDD for a PE client sourced and ran expert calls fast enough to hit the deal clock.",
+    pageLede:
+      "The consultancy had won a commercial due diligence mandate for a private-equity client, on a compressed timeline. Their analysis was strong. The bottleneck was primary voices. They needed sector experts sourced and called fast, with compliance solid enough to stand behind in front of their client's investment committee.",
+    sector: "Management consulting (CDD)",
+    engagementType: "Expert sourcing for client CDD",
+    timeline: "2.5 weeks",
+    challenge:
+      "The deal clock was fixed and the CDD needed primary evidence the team could not gather alone in time. The consultancy needed a partner to source niche operators quickly and run compliant calls. The primary-research layer had to be defensible to the PE client's IC, not a gap in the report.",
+    approach: [
+      "Aligned sourcing to the CDD's key questions rather than running generic interviews",
+      "Sourced twelve experts across the target's customers, competitors and channel inside the deadline",
+      "Ran calls to the consultancy's question set, delivering notes their team folded into the report",
+      "Screened every call for MNPI so the output stood up to client-side compliance review",
+    ],
+    delivered: [
+      "Twelve anonymised call notes structured to the CDD's evidence framework",
+      "Primary-research inputs the consultancy delivered under its own brand to the client",
+      "A compliance trail the PE client's IC could rely on",
+    ],
+    outcome: [
+      "The consultancy hit the deal timeline with a defensible primary-research section",
+      "The PE client's IC accepted the primary evidence without follow-up gaps",
+      "The consultancy made FieldSignal its standing sourcing partner for CDD mandates",
+    ],
+    metrics: [
+      { label: "Expert calls", value: "12" },
+      { label: "Timeline", value: "2.5 weeks" },
+      { label: "Delivery", value: "White-label to client" },
+      { label: "Screening", value: "MNPI, per call" },
+    ],
+    quote: {
+      text: "Our analysis was never the problem — sourcing the right operators in ten days was. They filled that gap so cleanly our client never saw a seam.",
+      role: "Engagement Manager",
+    },
+    relatedSlugs: [
+      "boutique-consulting-niche-experts",
+      "midmarket-industrials-cdd",
+      "corporate-dev-acquisition-diligence",
+    ],
+    primaryKW: "expert network for consultants",
+  },
+  {
+    slug: "boutique-consulting-niche-experts",
+    id: "MC-02",
+    category: "management-consulting",
+    name: "BOUTIQUE FIRM — NICHE OPERATOR PANEL",
+    fundProfile: "Boutique strategy consultancy",
+    title: "Niche Operator Panel — Boutique Consultancy",
+    description:
+      "A boutique consultancy on a growth-strategy project sourced hard-to-reach niche operators it could not find through its own network.",
+    oneLiner:
+      "A boutique consultancy sourced hard-to-reach niche operators its own network couldn't reach.",
+    pageLede:
+      "The boutique had deep expertise but a small network. A growth-strategy project for a client hinged on a narrow sub-sector where the firm knew no operators personally. Rather than pad the report with second-hand research, the partners wanted to put real practitioners in front of the analysis.",
+    sector: "Boutique consulting",
+    engagementType: "Niche expert sourcing",
+    timeline: "3 weeks",
+    challenge:
+      "The project needed first-hand input from a niche the firm could not reach through its own contacts. A large network's scale would normally be overkill for a boutique. The partners needed targeted access to a handful of specific operators, without a network-scale retainer.",
+    approach: [
+      "Defined the exact operator profile the project needed before sourcing anyone",
+      "Sourced seven niche specialists the firm's own network could not reach",
+      "Ran focused calls the consultants used directly in their client analysis",
+      "Kept the engagement per-project, with no retainer the boutique could not justify",
+    ],
+    delivered: [
+      "Seven anonymised specialist interviews matched precisely to the project scope",
+      "First-hand practitioner input the firm built into its client recommendations",
+      "Access on a per-project basis, sized to a boutique's economics",
+    ],
+    outcome: [
+      "The firm delivered a recommendation grounded in real operator input, not desk research",
+      "The client extended the engagement on the strength of the primary evidence",
+      "The boutique now sources niche experts per project rather than declining the work",
+    ],
+    metrics: [
+      { label: "Specialists", value: "7" },
+      { label: "Timeline", value: "3 weeks" },
+      { label: "Commitment", value: "Per-project" },
+      { label: "Fit", value: "Exact-profile sourcing" },
+    ],
+    quote: {
+      text: "A big network is built for big retainers. We needed seven very specific people for one project. That's the access we could never get on our own, and now we don't have to.",
+      role: "Founding Partner",
+    },
+    relatedSlugs: [
+      "consulting-cdd-expert-calls",
+      "startup-pricing-research",
+      "seed-vertical-saas-pre-ic",
+    ],
+    primaryKW: "expert network for boutique consultancies",
+  },
+
+  // ─────────────────────────── STARTUPS & SCALE-UPS ──────────────────────
+  {
+    slug: "startup-pricing-research",
+    id: "STARTUP-01",
+    category: "startups",
+    name: "SERIES A SAAS — PRICING RESEARCH",
+    fundProfile: "Series A vertical-SaaS company",
+    title: "Pricing Research — Series A SaaS",
+    description:
+      "A Series A SaaS company tested a pricing overhaul with willingness-to-pay interviews among its target buyers before repricing.",
+    oneLiner:
+      "A Series A SaaS company tested a pricing overhaul with willingness-to-pay interviews before repricing.",
+    pageLede:
+      "The founders suspected they were under-priced, but a reprice done blind risked stalling growth. Before changing the model, they wanted evidence on how target buyers actually value the product — what they would pay, what they would walk from and which features justified a premium. Guessing at price is how good products leak revenue.",
+    sector: "Vertical SaaS",
+    engagementType: "Pricing / willingness-to-pay research",
+    timeline: "2 weeks",
+    challenge:
+      "The company was repricing on instinct, not evidence. The founders needed a real read on buyer willingness to pay, price sensitivity and the features that justified a premium, from the exact buyers they sell to. A mispriced reprice could cap growth or trigger churn.",
+    approach: [
+      "Framed the research around three questions: willingness to pay, price sensitivity and premium drivers",
+      "Sourced ten target buyers matching the company's core segment",
+      "Ran structured willingness-to-pay interviews rather than open-ended feedback",
+      "Screened for buyers with real budget authority, not end users",
+    ],
+    delivered: [
+      "Ten buyer interviews plus a willingness-to-pay range by segment",
+      "A read on which features buyers would actually pay a premium for",
+      "The price points most likely to trigger churn or resistance",
+    ],
+    outcome: [
+      "The company repriced upward — but tiered the model to each segment's distinct willingness to pay",
+      "Two features assumed to be premium turned out to be table stakes, and were bundled",
+      "The reprice landed without the churn the founders had feared",
+    ],
+    metrics: [
+      { label: "Buyer interviews", value: "10" },
+      { label: "Timeline", value: "2 weeks" },
+      { label: "Focus", value: "Willingness to pay" },
+      { label: "Commitment", value: "Per-project" },
+    ],
+    quote: {
+      text: "We were about to reprice on a hunch. Ten of our actual buyers told us where the ceiling really was, and which features they'd never pay extra for. That saved us from a churn event.",
+      role: "Co-Founder and CEO",
+    },
+    relatedSlugs: [
+      "startup-marketplace-supply-validation",
+      "seed-vertical-saas-pre-ic",
+      "healthtech-competitive-teardown",
+    ],
+    primaryKW: "pricing research expert interviews",
+  },
+  {
+    slug: "startup-marketplace-supply-validation",
+    id: "STARTUP-02",
+    category: "startups",
+    name: "SEED MARKETPLACE — SUPPLY-SIDE CHECK",
+    fundProfile: "Seed-stage marketplace",
+    title: "Supply-Side Validation — Seed Marketplace",
+    description:
+      "A seed marketplace validated supply-side willingness to join before scaling demand, through interviews with the operators it needed as suppliers.",
+    oneLiner:
+      "A seed marketplace validated supply-side buy-in before scaling demand, via interviews with target suppliers.",
+    pageLede:
+      "The marketplace's demand side was working. The open question — the one that kills marketplaces — was whether enough quality suppliers would join and stay. Before spending to scale demand, the founders wanted candid input from the exact operators they needed as supply: would they list, on what terms and what would make them leave.",
+    sector: "Marketplace",
+    engagementType: "Supply-side validation",
+    timeline: "12 days",
+    challenge:
+      "Marketplaces fail when supply won't show up at the terms the model assumes. The founders needed honest input from target suppliers on their willingness to join, the economics they required and their loyalty to incumbents. That evidence had to come before pouring money into demand that supply could not serve.",
+    approach: [
+      "Reduced the question to supply intent: will they list, on what terms and what makes them leave",
+      "Sourced eight operators from the exact supplier pool the marketplace needed",
+      "Asked directly about take-rate tolerance, onboarding friction and incumbent loyalty",
+      "Kept the engagement per-project, sized to a seed budget",
+    ],
+    delivered: [
+      "Eight supplier interviews plus a read on realistic supply-side buy-in",
+      "The take-rate and terms suppliers would actually accept",
+      "The onboarding frictions most likely to stall supply growth",
+    ],
+    outcome: [
+      "The founders adjusted the take-rate to the level suppliers would accept before scaling demand",
+      "Two onboarding frictions surfaced early went onto the roadmap ahead of the demand push",
+      "The validation gave the team evidence for its supply assumptions in the next fundraise",
+    ],
+    metrics: [
+      { label: "Supplier interviews", value: "8" },
+      { label: "Timeline", value: "12 days" },
+      { label: "Focus", value: "Supply-side buy-in" },
+      { label: "Commitment", value: "Per-project" },
+    ],
+    quote: {
+      text: "Everyone told us to scale demand. The suppliers told us our take-rate would have driven them off the platform. We fixed the model before we spent the money, not after.",
+      role: "Co-Founder",
+    },
+    relatedSlugs: [
+      "startup-pricing-research",
+      "seed-vertical-saas-pre-ic",
+      "series-b-fintech-market-sizing",
+    ],
+    primaryKW: "marketplace supply-side validation",
   },
 ];
