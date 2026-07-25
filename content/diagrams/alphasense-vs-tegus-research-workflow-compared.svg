@@ -1,0 +1,97 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="alphasense-vs-tegus-research-workflow-compared-t alphasense-vs-tegus-research-workflow-compared-d">
+  <title id="alphasense-vs-tegus-research-workflow-compared-t">AlphaSense vs Tegus: capability scorecard across seven criteria</title>
+  <desc id="alphasense-vs-tegus-research-workflow-compared-d">Illustrative two-column scorecard. AlphaSense wins document search with over 500 million indexed documents, immediate results and Excel-linked modelling tools. Tegus wins expert transcripts with over 260,000 transcripts across 35,000-plus companies, direct expert booking and private company coverage, but calls require scheduling. Neither platform publishes pricing; both are quote-based enterprise contracts.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · CAPABILITY SCORECARD</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Document search vs expert transcripts</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">AlphaSense indexes documents. Tegus interviews people. Neither posts a price.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Scorecard header band ===== -->
+  <rect x="40" y="158" width="800" height="34" fill="#E8E4D5"/>
+  <text x="52" y="179" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.08em">CRITERION</text>
+  <text x="532" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">ALPHASENSE</text>
+  <text x="737" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">TEGUS</text>
+  <line x1="40" y1="192" x2="840" y2="192" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Column dividers -->
+  <line x1="430" y1="158" x2="430" y2="486" stroke="#161613" stroke-opacity="0.12"/>
+  <line x1="635" y1="158" x2="635" y2="486" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 1 — document search ===== -->
+  <text x="52" y="214" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">DOCUMENT SEARCH</text>
+  <path d="M 526 202 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="532" y="220" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">500M+ DOCUMENTS INDEXED</text>
+  <line x1="730" y1="202" x2="744" y2="202" stroke="#8B8980" stroke-width="1"/>
+  <text x="737" y="220" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">TRANSCRIPT SEARCH ONLY</text>
+  <line x1="40" y1="234" x2="840" y2="234" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 2 — expert transcripts ===== -->
+  <text x="52" y="256" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">EXPERT TRANSCRIPTS</text>
+  <line x1="525" y1="244" x2="539" y2="244" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="262" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">LIMITED PRE-ACQUISITION</text>
+  <path d="M 731 244 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="262" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">260,000+ TRANSCRIPTS</text>
+  <line x1="40" y1="276" x2="840" y2="276" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 3 — private company data ===== -->
+  <text x="52" y="298" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">PRIVATE COMPANY DATA</text>
+  <line x1="525" y1="286" x2="539" y2="286" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="304" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">MINIMAL COVERAGE</text>
+  <path d="M 731 286 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="304" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">35,000+ COMPANIES</text>
+  <line x1="40" y1="318" x2="840" y2="318" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 4 — booking an expert ===== -->
+  <text x="52" y="340" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">BOOK AN EXPERT CALL</text>
+  <line x1="525" y1="328" x2="539" y2="328" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="346" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">NOT A CORE FEATURE</text>
+  <path d="M 731 328 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="346" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">DIRECT BOOKING</text>
+  <line x1="40" y1="360" x2="840" y2="360" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 5 — time to insight ===== -->
+  <text x="52" y="382" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">TIME TO INSIGHT</text>
+  <path d="M 526 370 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="532" y="388" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">IMMEDIATE, VIA SEARCH</text>
+  <line x1="730" y1="370" x2="744" y2="370" stroke="#8B8980" stroke-width="1"/>
+  <text x="737" y="388" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">REQUIRES SCHEDULING</text>
+  <line x1="40" y1="402" x2="840" y2="402" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 6 — spreadsheet workflow ===== -->
+  <text x="52" y="424" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">SPREADSHEET WORKFLOW</text>
+  <path d="M 526 412 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="532" y="430" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">TABLE EXPLORER, EXCEL</text>
+  <line x1="730" y1="412" x2="744" y2="412" stroke="#8B8980" stroke-width="1"/>
+  <text x="737" y="430" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">NOT A TEGUS FEATURE</text>
+  <line x1="40" y1="444" x2="840" y2="444" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 7 — published pricing ===== -->
+  <text x="52" y="466" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">PUBLISHED PRICING</text>
+  <line x1="525" y1="454" x2="539" y2="454" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="472" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">UNDISCLOSED · QUOTE ONLY</text>
+  <line x1="730" y1="454" x2="744" y2="454" stroke="#8B8980" stroke-width="1"/>
+  <text x="737" y="472" text-anchor="middle" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">UNDISCLOSED · QUOTE ONLY</text>
+  <line x1="40" y1="486" x2="840" y2="486" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Closing verdict -->
+  <text x="40" y="508" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">TEGUS WINS PRIMARY RESEARCH · ALPHASENSE WINS DOCUMENT SCALE · BOTH NEED ENTERPRISE CONTRACTS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · post figures · AlphaSense acquired Tegus in 2024</text>
+</svg>

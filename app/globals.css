@@ -119,6 +119,16 @@
     color: inherit;
     text-decoration: none;
   }
+
+  /* Inlined post diagrams (see lib/diagrams.ts). The generated SVGs carry no
+     width/height so they scale by viewBox to the content column. Their own
+     class selectors are scoped under this class, so the generic .ink / .mono
+     names inside them cannot reach the rest of the page. */
+  .fs-diagram {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Brand rule: pure white is forbidden. If anything ever lands on

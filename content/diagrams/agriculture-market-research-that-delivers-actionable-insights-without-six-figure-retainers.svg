@@ -1,0 +1,90 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="agriculture-market-research-that-delivers-actionable-insights-without-six-figure-retainers-t agriculture-market-research-that-delivers-actionable-insights-without-six-figure-retainers-d">
+  <title id="agriculture-market-research-that-delivers-actionable-insights-without-six-figure-retainers-t">Agriculture research: annual cost by expert call volume</title>
+  <desc id="agriculture-market-research-that-delivers-actionable-insights-without-six-figure-retainers-d">Illustrative chart. Traditional expert network retainers carry flat annual minimums of $20k to $80k+. FieldSignal pay-per-use cost rises with each call, from $200 to $800 per call. At the $800 top rate, 25 calls a year equals the $20k floor, and most agriculture projects run 3 to 15 calls.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · AGRICULTURE RESEARCH COST BY CALL VOLUME</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Agriculture research: cost by call volume</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Retainer minimums run $20k to $80k+. Pay-per-use runs $200 to $800 a call.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810, y 168..470. Y = annual cost, $0 at 470, $100k at 168 (3.02px per $1k).
+       X = expert calls per year, 0 at 110, 120 at 810 (5.833px per call). ===== -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="168" x2="810" y2="168" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="171" text-anchor="end">$100k</text>
+    <line x1="110" y1="228.4" x2="810" y2="228.4" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="231.4" text-anchor="end">$80k</text>
+    <line x1="110" y1="288.8" x2="810" y2="288.8" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="291.8" text-anchor="end">$60k</text>
+    <line x1="110" y1="349.2" x2="810" y2="349.2" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="352.2" text-anchor="end">$40k</text>
+    <line x1="110" y1="409.6" x2="810" y2="409.6" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="412.6" text-anchor="end">$20k</text>
+    <text x="102" y="474" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="168" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks (0,20,40,60,80,100,120 calls) -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="227" y="490">20</text>
+    <text x="343" y="490">40</text>
+    <text x="460" y="490">60</text>
+    <text x="577" y="490">80</text>
+    <text x="693" y="490">100</text>
+    <text x="810" y="490">120</text>
+  </g>
+
+  <!-- FieldSignal pay-per-use TOTAL COST BAND from published tiers.
+       Lower edge $200/call: 120 calls = $24k -> (810,397.5). Upper edge $800/call: 120 calls = $96k -> (810,180).
+       Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 810,180 810,397.5" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="397.5" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="810" y2="180" stroke="#161613" stroke-width="1.25"/>
+  <text x="430" y="372" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY-PER-USE</text>
+  <text x="430" y="388" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 TO $800 PER CALL · NO MINIMUM</text>
+  <text x="380" y="272" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 PER CALL · C-SUITE</text>
+  <text x="500" y="448" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 PER CALL · STANDARD</text>
+
+  <!-- Retainer minimums: flat $20k floor and $80k+ high end — thin dashed ink-2 (weight and style, not colour) -->
+  <line x1="110" y1="228.4" x2="810" y2="228.4" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="110" y1="409.6" x2="810" y2="409.6" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="808" y="245" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">HIGH END $80k+</text>
+  <text x="808" y="425" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">LOW END $20k</text>
+  <text x="126" y="196" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">TRADITIONAL NETWORK RETAINERS</text>
+  <text x="126" y="212" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">ANNUAL MINIMUM $20k TO $80k+ · FLAT</text>
+
+  <!-- Typical agriculture project size, priced at published rates -->
+  <text x="126" y="306" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">MOST PROJECTS: 3 TO 15 CALLS</text>
+  <text x="126" y="320" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">= $600 TO $12,000 AT PUBLISHED RATES</text>
+
+  <!-- Crossover: $800/call meets the $20k floor at 25 calls (25 x $800 = $20,000) -->
+  <circle cx="255.8" cy="409.6" r="4.5" fill="#161613"/>
+  <line x1="255.8" y1="409.6" x2="255.8" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="248" y="376" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">BREAK-EVEN 25 CALLS</text>
+  <text x="248" y="390" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">VS THE $20k FLOOR</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · rates per /pricing · minimums per cited benchmark</text>
+</svg>

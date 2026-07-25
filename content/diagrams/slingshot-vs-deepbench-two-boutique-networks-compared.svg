@@ -1,0 +1,111 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="slingshot-vs-deepbench-two-boutique-networks-compared-t slingshot-vs-deepbench-two-boutique-networks-compared-d">
+  <title id="slingshot-vs-deepbench-two-boutique-networks-compared-t">Slingshot Insights vs DeepBench scored across seven buyer criteria</title>
+  <desc id="slingshot-vs-deepbench-two-boutique-networks-compared-d">Illustrative scorecard. Slingshot Insights scores strong on entry price (free tier or $49 per month), healthcare sector depth, compliance records and operating status. DeepBench scores strong on sourcing speed, Asia-Pacific reach and fee transparency, and weaker on per-call cost ($800 to $1,000 per executed call per G2 reviews), expert volume of 1 to 2 proposals per project, and documented MNPI protocols. Both publish fee detail.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · BOUTIQUE NETWORK SCORECARD</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Slingshot Insights vs DeepBench</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Slingshot wins on healthcare depth. DeepBench wins on reach and fee clarity.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Scorecard: criterion x 40..430, column A x 430..635, column B x 635..840 ===== -->
+  <!-- Header band -->
+  <rect x="40" y="158" width="800" height="34" fill="#E8E4D5"/>
+  <text x="52" y="179" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">CRITERION</text>
+  <text x="532" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">SLINGSHOT INSIGHTS</text>
+  <text x="737" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">DEEPBENCH</text>
+  <line x1="40" y1="192" x2="840" y2="192" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Row hairlines (rowH 44) -->
+  <g stroke="#161613" stroke-opacity="0.12" stroke-width="1">
+    <line x1="40" y1="236" x2="840" y2="236"/>
+    <line x1="40" y1="280" x2="840" y2="280"/>
+    <line x1="40" y1="324" x2="840" y2="324"/>
+    <line x1="40" y1="368" x2="840" y2="368"/>
+    <line x1="40" y1="412" x2="840" y2="412"/>
+    <line x1="40" y1="456" x2="840" y2="456"/>
+    <line x1="40" y1="500" x2="840" y2="500"/>
+    <line x1="430" y1="158" x2="430" y2="500"/>
+    <line x1="635" y1="158" x2="635" y2="500"/>
+  </g>
+
+  <!-- Criterion labels + basis notes -->
+  <g class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">
+    <text x="52" y="214">ENTRY PRICE</text>
+    <text x="52" y="258">SOURCING SPEED</text>
+    <text x="52" y="302">SECTOR DEPTH</text>
+    <text x="52" y="346">GEOGRAPHIC REACH</text>
+    <text x="52" y="390">COMPLIANCE TRAIL</text>
+    <text x="52" y="434">FEE TRANSPARENCY</text>
+    <text x="52" y="478">OPERATING STATUS</text>
+  </g>
+  <g class="mono ink3" font-size="9" font-weight="500" letter-spacing="0.06em">
+    <text x="52" y="227">WHAT ONE ENGAGEMENT COSTS</text>
+    <text x="52" y="271">TIME TO A LIVE EXPERT CALL</text>
+    <text x="52" y="315">BENCH DEPTH INSIDE ONE DOMAIN</text>
+    <text x="52" y="359">COVERAGE OUTSIDE NORTH AMERICA</text>
+    <text x="52" y="403">RECORDS A COMPLIANCE TEAM CAN AUDIT</text>
+    <text x="52" y="447">WHAT EACH SIDE PUBLISHES ON FEES</text>
+    <text x="52" y="491">WHO RUNS THE NETWORK TODAY</text>
+  </g>
+
+  <!-- Verdict marks: heavy ink check = strong, thin ink-3 dash = weak -->
+  <g fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square">
+    <!-- Slingshot: entry price, sector depth, compliance, fee transparency, operating status -->
+    <path d="M 526 204 l 4.5 5 l 8 -11"/>
+    <path d="M 526 292 l 4.5 5 l 8 -11"/>
+    <path d="M 526 380 l 4.5 5 l 8 -11"/>
+    <path d="M 526 424 l 4.5 5 l 8 -11"/>
+    <path d="M 526 468 l 4.5 5 l 8 -11"/>
+    <!-- DeepBench: sourcing speed, geographic reach, fee transparency -->
+    <path d="M 731 248 l 4.5 5 l 8 -11"/>
+    <path d="M 731 336 l 4.5 5 l 8 -11"/>
+    <path d="M 731 424 l 4.5 5 l 8 -11"/>
+  </g>
+  <g stroke="#8B8980" stroke-width="1">
+    <!-- Slingshot weaker: sourcing speed, geographic reach -->
+    <line x1="525" y1="248" x2="539" y2="248"/>
+    <line x1="525" y1="336" x2="539" y2="336"/>
+    <!-- DeepBench weaker: entry price, sector depth, compliance, operating status -->
+    <line x1="730" y1="204" x2="744" y2="204"/>
+    <line x1="730" y1="292" x2="744" y2="292"/>
+    <line x1="730" y1="380" x2="744" y2="380"/>
+    <line x1="730" y1="468" x2="744" y2="468"/>
+  </g>
+
+  <!-- Verdict phrases -->
+  <g class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="532" y="223">FREE TIER OR $49/MONTH</text>
+    <text x="532" y="267">PROJECT MUST FILL FIRST</text>
+    <text x="532" y="311">HEALTHCARE KOL BENCH</text>
+    <text x="532" y="355">MOSTLY NORTH AMERICA</text>
+    <text x="532" y="399">HUMAN TRANSCRIBED CALLS</text>
+    <text x="532" y="443">TIER PRICING PUBLISHED</text>
+    <text x="532" y="487">RUNS ITS OWN PLATFORM</text>
+
+    <text x="737" y="223">$800-1,000 PER CALL</text>
+    <text x="737" y="267">DIRECT EXPERT SEARCH</text>
+    <text x="737" y="311">1-2 EXPERTS PER PROJECT</text>
+    <text x="737" y="355">ASIA-PACIFIC STRENGTH</text>
+    <text x="737" y="399">THIN PUBLIC MNPI DETAIL</text>
+    <text x="737" y="443">SHOWS EXPERT PAY + CUT</text>
+    <text x="737" y="487">ACQUIRED BY BRIDGER 2024</text>
+  </g>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · vendor pricing pages and published G2 reviews</text>
+</svg>

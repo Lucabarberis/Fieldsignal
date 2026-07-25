@@ -1,0 +1,83 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="asian-market-research-from-us-without-six-figure-retainers-t asian-market-research-from-us-without-six-figure-retainers-d">
+  <title id="asian-market-research-from-us-without-six-figure-retainers-t">Asia expert calls vs. a $100k retainer: annual cost by call volume</title>
+  <desc id="asian-market-research-from-us-without-six-figure-retainers-d">Illustrative chart. Major expert networks hold a flat $100k+ annual retainer minimum regardless of usage. FieldSignal's pay-per-use cost rises with each call, inside a band from $200 to $800 per Asia call. The $800 upper edge meets the retainer at 125 calls a year, and most Asia projects need 3 to 6 calls.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · ANNUAL COST BY ASIA CALL VOLUME</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Asia expert calls vs. a $100k retainer</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Asia calls run $200 to $800 each. Major networks want $100k+ up front.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810, y 168..470. x = 110 + calls*2.8 (0..250 calls).
+       y = 470 - cost*0.00201333 ($0..$150k). $50k = 100.67px. ===== -->
+  <!-- Horizontal gridlines + Y ticks -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="168" x2="810" y2="168" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="171" text-anchor="end">$150k</text>
+    <line x1="110" y1="268.7" x2="810" y2="268.7" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="271.7" text-anchor="end">$100k</text>
+    <line x1="110" y1="369.3" x2="810" y2="369.3" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="372.3" text-anchor="end">$50k</text>
+    <text x="102" y="474" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="168" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks (0,50,100,150,200,250 calls) -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="250" y="490">50</text>
+    <text x="390" y="490">100</text>
+    <text x="530" y="490">150</text>
+    <text x="670" y="490">200</text>
+    <text x="810" y="490">250</text>
+  </g>
+
+  <!-- FieldSignal pay-per-use TOTAL COST BAND: $200/call (lower edge) to $800/call (upper edge).
+       Lower $200/call: (110,470)->(810,369.3 = $50k @250 calls).
+       Upper $800/call: (110,470)->(635,168 = $150k @187.5 calls), then clipped along the top.
+       Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 635,168 810,168 810,369.3" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="369.3" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="635" y2="168" stroke="#161613" stroke-width="1.25"/>
+
+  <!-- Series label, inside the band -->
+  <text x="520" y="316" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY-PER-USE</text>
+  <text x="520" y="330" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 TO $800 PER ASIA CALL</text>
+
+  <!-- Band edge labels -->
+  <text x="388" y="300" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 · SENIOR EXPERT</text>
+  <text x="442" y="458" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 · STANDARD CALL</text>
+
+  <!-- Major networks: flat $100k+ annual retainer — thin dashed ink-2 (weight/style, not colour) -->
+  <line x1="110" y1="268.7" x2="810" y2="268.7" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="806" y="262" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">MAJOR NETWORKS — $100k+ RETAINER</text>
+
+  <!-- Crossover: $800/call meets the $100k retainer at 125 calls -->
+  <circle cx="460" cy="268.7" r="4.5" fill="#161613"/>
+  <line x1="460" y1="268.7" x2="460" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="448" y="222" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">BREAK-EVEN — 125 CALLS AT $800</text>
+  <text x="448" y="236" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">TYPICAL ASIA PROJECT — 3 TO 6 CALLS</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">ASIA EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · $200–$800 per call · $100k+ retainer per post</text>
+</svg>

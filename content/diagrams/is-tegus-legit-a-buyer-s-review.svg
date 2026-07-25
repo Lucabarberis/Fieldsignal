@@ -1,0 +1,69 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="is-tegus-legit-a-buyer-s-review-t is-tegus-legit-a-buyer-s-review-d">
+  <title id="is-tegus-legit-a-buyer-s-review-t">Is Tegus legit? A buyer's assessment across five dimensions</title>
+  <desc id="is-tegus-legit-a-buyer-s-review-d">Illustrative assessment table. Five dimensions are judged in writing, with no score or rating. Legitimacy: Tegus was founded in 2016 and bought by AlphaSense for $930 million in 2024, with over 300 staff and more than 25,000 client calls a year. Compliance is a formal process; the real risk is recruiter impersonation. Pricing is a subscription commitment plus per-call fees, with public data points of roughly a $25,000 starter fee and $550 per published call. The weakest point is transcript reuse: calls are recorded and resold to all clients with names redacted. Best fit is high-volume diligence teams. Bottom line: legit, not a scam, but cost and transcript reuse are the real trade-offs.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · FIVE BUYER-SIDE DIMENSIONS</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Is Tegus legit? A buyer's assessment</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Yes. The real questions are cost, contract structure and transcript reuse.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Header band: x 40..840, y 158..188 ===== -->
+  <rect x="40" y="158" width="800" height="30" fill="#E8E4D5"/>
+  <text x="52" y="177" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">DIMENSION</text>
+  <text x="316" y="177" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">ASSESSMENT</text>
+  <line x1="40" y1="188" x2="840" y2="188" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Rows: rowH 56, tops at 188 / 244 / 300 / 356 / 412 ===== -->
+
+  <!-- Row 1 — legitimacy -->
+  <text x="52" y="212" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">LEGITIMACY</text>
+  <text x="316" y="210" class="sans ink" font-size="14">Legit. Founded 2016, bought by AlphaSense for $930M in 2024.</text>
+  <text x="316" y="228" class="sans ink2" font-size="13">Over 300 staff. Facilitates 25,000+ client calls a year.</text>
+  <line x1="40" y1="244" x2="840" y2="244" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 2 — compliance -->
+  <text x="52" y="268" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">COMPLIANCE</text>
+  <text x="316" y="266" class="sans ink" font-size="14">Formal. Training, conflict disclosure, recorded calls.</text>
+  <text x="316" y="284" class="sans ink2" font-size="13">The real risk is recruiter impersonation, not the platform.</text>
+  <line x1="40" y1="300" x2="840" y2="300" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 3 — pricing and contract -->
+  <text x="52" y="324" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">PRICING &amp; CONTRACT</text>
+  <text x="316" y="322" class="sans ink" font-size="14">Opaque. Annual subscription commitment plus per-call fees.</text>
+  <text x="316" y="340" class="sans ink2" font-size="13">Public data points: ~$25k starter fee, $550 per published call.</text>
+  <line x1="40" y1="356" x2="840" y2="356" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 4 — transcript reuse (weakest point) -->
+  <text x="52" y="380" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">TRANSCRIPT REUSE</text>
+  <text x="316" y="378" class="sans ink" font-size="14">Weakest point. Calls are recorded and resold to all clients.</text>
+  <text x="316" y="396" class="sans ink2" font-size="13">Names are redacted. The substance stays on the record.</text>
+  <line x1="40" y1="412" x2="840" y2="412" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 5 — best-fit buyer -->
+  <text x="52" y="436" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">BEST-FIT BUYER</text>
+  <text x="316" y="434" class="sans ink" font-size="14">High-volume teams that want the 260,000+ transcript archive.</text>
+  <text x="316" y="452" class="sans ink2" font-size="13">Overkill for a handful of expert calls a year.</text>
+
+  <!-- ===== Bottom line ===== -->
+  <line x1="40" y1="470" x2="840" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="52" y="490" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">BOTTOM LINE</text>
+  <text x="52" y="508" class="sans ink" font-size="15">Legit, not a scam. Cost and transcript reuse are the real trade-offs.</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · figures as stated in the post</text>
+</svg>

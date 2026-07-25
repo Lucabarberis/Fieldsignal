@@ -1,0 +1,82 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="expert-calls-for-private-equity-without-six-figure-retainers-t expert-calls-for-private-equity-without-six-figure-retainers-d">
+  <title id="expert-calls-for-private-equity-without-six-figure-retainers-t">PE diligence cost: pay-per-use calls vs a reported expert network retainer</title>
+  <desc id="expert-calls-for-private-equity-without-six-figure-retainers-d">Illustrative line chart. FieldSignal pay-per-use cost rises with volume as a band between $200 per standard call and $800 per C-suite call, with senior calls at $400 inside that band. Reported expert network retainers sit flat at $50,000 to $100,000 or more a year. At the top $800 rate, about 62 calls a year reaches the $50,000 floor, so a mid-market deal team running fewer calls pays less than any retainer.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · PE DILIGENCE COST BY CALL VOLUME</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">PE diligence without a six-figure retainer</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Each call costs $200 to $800. Reported retainers run $50k to $100k+ a year.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810 (0..100 calls, 7px/call), y 168..470 ($125k..$0, 2.416px per $1k) ===== -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="168" x2="810" y2="168" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="171" text-anchor="end">$125k</text>
+    <line x1="110" y1="228.4" x2="810" y2="228.4" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="231.4" text-anchor="end">$100k</text>
+    <line x1="110" y1="288.8" x2="810" y2="288.8" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="291.8" text-anchor="end">$75k</text>
+    <line x1="110" y1="349.2" x2="810" y2="349.2" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="352.2" text-anchor="end">$50k</text>
+    <line x1="110" y1="409.6" x2="810" y2="409.6" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="412.6" text-anchor="end">$25k</text>
+    <text x="102" y="474" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="168" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks (0,20,40,60,80,100 calls per year) -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="250" y="490">20</text>
+    <text x="390" y="490">40</text>
+    <text x="530" y="490">60</text>
+    <text x="670" y="490">80</text>
+    <text x="810" y="490">100</text>
+  </g>
+
+  <!-- FieldSignal pay-per-use TOTAL COST BAND from published tiers.
+       Lower edge $200/call: 100 calls = $20k -> (810,421.7). Upper edge $800/call: 100 calls = $80k -> (810,276.7).
+       Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 810,276.7 810,421.7" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="276.7" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="810" y2="421.7" stroke="#161613" stroke-width="1.25"/>
+  <text x="570" y="392" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY-PER-USE</text>
+  <text x="570" y="406" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">NO RETAINER · NO MINIMUM</text>
+  <text x="808" y="264" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 · C-SUITE CALL</text>
+  <text x="808" y="452" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 · STANDARD CALL</text>
+
+  <!-- Reported retainer range: flat at $50k and $100k+ a year — thin dashed ink-2 (weight and style, not colour) -->
+  <line x1="110" y1="228.4" x2="810" y2="228.4" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="118" y="222" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">RETAINER — $100k+ PER YEAR REPORTED</text>
+  <line x1="110" y1="349.2" x2="810" y2="349.2" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="118" y="343" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">RETAINER — $50k PER YEAR REPORTED</text>
+
+  <!-- Crossover: $800/call meets the $50k floor at 62.5 calls -> x = 110 + 62.5*7 = 547.5 -->
+  <circle cx="547.5" cy="349.2" r="4.5" fill="#161613"/>
+  <line x1="547.5" y1="349.2" x2="547.5" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="539" y="306" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">BREAK-EVEN — ~62 C-SUITE CALLS</text>
+  <text x="539" y="320" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">62 x $800 = $49.6k A YEAR</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · call rates per /pricing · retainer range as reported</text>
+</svg>

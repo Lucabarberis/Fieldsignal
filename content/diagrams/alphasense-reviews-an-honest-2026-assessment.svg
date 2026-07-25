@@ -1,0 +1,75 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="alphasense-reviews-an-honest-2026-assessment-t alphasense-reviews-an-honest-2026-assessment-d">
+  <title id="alphasense-reviews-an-honest-2026-assessment-t">AlphaSense: an honest buyer assessment across six dimensions</title>
+  <desc id="alphasense-reviews-an-honest-2026-assessment-d">Illustrative assessment panel. Six rows judge AlphaSense on operating history, search and content, pricing transparency, learning curve, primary research scope and best-fit buyer. Strengths: 6,500+ customers, 88% of the S&amp;P 100, $600M ARR, 500M+ documents from 10,000+ sources. Limits: pricing is quote-based with public contract data spanning $12k to $51k a year, a steep learning curve, and no fresh expert interviews. Bottom line: right for daily users, wrong for occasional ones.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · BUYER ASSESSMENT BY DIMENSION</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">AlphaSense: an honest buyer assessment</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Powerful search, enterprise pricing and a steep curve for small teams.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Panel header band: x 40..840, y 158..188 ===== -->
+  <rect x="40" y="158" width="800" height="30" fill="#E8E4D5"/>
+  <text x="52" y="177" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">DIMENSION</text>
+  <text x="316" y="177" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">ASSESSMENT</text>
+  <line x1="40" y1="188" x2="840" y2="188" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Rows: 6 rows, rowH 47, tops at 188 235 282 329 376 423 ===== -->
+
+  <!-- Row 1 — top 188 -->
+  <text x="52" y="212" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">OPERATING HISTORY</text>
+  <text x="316" y="210" class="sans ink" font-size="14">Established. 6,500+ customers and 88% of the S&amp;P 100.</text>
+  <text x="316" y="228" class="sans ink2" font-size="13">Crossed $600M ARR by June 2026. No legitimacy question.</text>
+  <line x1="40" y1="235" x2="840" y2="235" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 2 — top 235 -->
+  <text x="52" y="259" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">SEARCH AND CONTENT</text>
+  <text x="316" y="257" class="sans ink" font-size="14">The strongest part. 500M+ documents, 10,000+ sources.</text>
+  <text x="316" y="275" class="sans ink2" font-size="13">Reviewers praise AI search over manual PDF review.</text>
+  <line x1="40" y1="282" x2="840" y2="282" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 3 — top 282 -->
+  <text x="52" y="306" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">PRICING TRANSPARENCY</text>
+  <text x="316" y="304" class="sans ink" font-size="14">Quote-based and undisclosed. Annual contracts only.</text>
+  <text x="316" y="322" class="sans ink2" font-size="13">Public data spans $12k to $51k a year, median $18,375.</text>
+  <line x1="40" y1="329" x2="840" y2="329" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 4 — top 329 -->
+  <text x="52" y="353" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">LEARNING CURVE</text>
+  <text x="316" y="351" class="sans ink" font-size="14">Steep. New users hit feature overload before setup.</text>
+  <text x="316" y="369" class="sans ink2" font-size="13">Broad searches create decision fatigue, not answers.</text>
+  <line x1="40" y1="376" x2="840" y2="376" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 5 — top 376 -->
+  <text x="52" y="400" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">PRIMARY RESEARCH</text>
+  <text x="316" y="398" class="sans ink" font-size="14">Out of scope. Transcripts are existing, not fresh.</text>
+  <text x="316" y="416" class="sans ink2" font-size="13">200,000+ Tegus transcripts. No new expert interviews.</text>
+  <line x1="40" y1="423" x2="840" y2="423" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 6 — top 423 -->
+  <text x="52" y="447" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">BEST-FIT BUYER</text>
+  <text x="316" y="445" class="sans ink" font-size="14">Multi-analyst teams using it daily. Not occasional buyers.</text>
+  <text x="316" y="463" class="sans ink2" font-size="13">Founders and single-associate funds rarely clear the cost.</text>
+
+  <!-- ===== Bottom line ===== -->
+  <line x1="40" y1="470" x2="840" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="52" y="490" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">BOTTOM LINE</text>
+  <text x="52" y="508" class="sans ink" font-size="15">Powerful and expensive. Right for daily users, wrong for occasional ones.</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · public reviews and contract data via Prospeo</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="expert-network-pricing-and-pay-benchmark-2026-t expert-network-pricing-and-pay-benchmark-2026-d">
+  <title id="expert-network-pricing-and-pay-benchmark-2026-t">Expert network cost by call volume, 2026 benchmark</title>
+  <desc id="expert-network-pricing-and-pay-benchmark-2026-d">Illustrative line chart. Pay-per-use cost rises from zero with every call, between $200 and $800 per call. A full-service annual minimum sits flat at $100k or more whatever the volume. The top pay-per-use rate only reaches that minimum at 125 calls a year; the standard rate at 500.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · ANNUAL COST BY CALL VOLUME · 2026</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">The 2026 expert network cost benchmark</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Pay-per-use runs $200 to $800 per call. Six-figure minimums stay flat.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810, y 168..470. Y scale: $0 at 470, $200k at 168 ($50k = 75.5px).
+       X scale: 0 calls at 110, 200 calls at 810 (1 call = 3.5px). ===== -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="168" x2="810" y2="168" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="171" text-anchor="end">$200k</text>
+    <line x1="110" y1="243.5" x2="810" y2="243.5" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="246.5" text-anchor="end">$150k</text>
+    <line x1="110" y1="319" x2="810" y2="319" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="322" text-anchor="end">$100k</text>
+    <line x1="110" y1="394.5" x2="810" y2="394.5" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="397.5" text-anchor="end">$50k</text>
+    <text x="102" y="473" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="168" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks: 0..200 calls in steps of 25 -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="197.5" y="490">25</text>
+    <text x="285" y="490">50</text>
+    <text x="372.5" y="490">75</text>
+    <text x="460" y="490">100</text>
+    <text x="547.5" y="490">125</text>
+    <text x="635" y="490">150</text>
+    <text x="722.5" y="490">175</text>
+    <text x="810" y="490">200</text>
+  </g>
+
+  <!-- Pay-per-use TOTAL COST BAND: $200/call lower edge, $800/call upper edge, from published tiers.
+       Lower: 200 calls x $200 = $40k -> (810,409.6). Upper: 200 calls x $800 = $160k -> (810,228.4).
+       Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 810,228.4 810,409.6" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="409.6" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="810" y2="228.4" stroke="#161613" stroke-width="1.25"/>
+  <text x="300" y="420" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY-PER-USE</text>
+  <text x="300" y="434" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 TO $800, NO MINIMUM</text>
+  <text x="808" y="214" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 · C-SUITE CALL</text>
+  <text x="808" y="434" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 · STANDARD CALL</text>
+  <text x="808" y="452" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">$100k BUYS 500 STANDARD CALLS</text>
+
+  <!-- Full-service annual minimum: flat $100k floor — thin dashed ink-2 (weight and style, not colour) -->
+  <line x1="110" y1="319" x2="810" y2="319" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="808" y="311" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">ANNUAL MINIMUM — $100k+, FLAT</text>
+  <text x="808" y="337" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">LOW-TO-MID SIX FIGURES IS TYPICAL</text>
+
+  <!-- Crossover: $800 x 125 calls = $100k -->
+  <circle cx="547.5" cy="319" r="4.5" fill="#161613"/>
+  <line x1="547.5" y1="319" x2="547.5" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="539" y="286" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">UNDER 125 TOP-RATE CALLS A YEAR,</text>
+  <text x="539" y="300" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">PAY-PER-USE COSTS LESS</text>
+
+  <!-- Context note: headline per-call rates, set apart by a hairline -->
+  <line x1="130" y1="180" x2="352" y2="180" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="130" y="198" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">HEADLINE RATES ARE SIMILAR</text>
+  <text x="130" y="214" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">€500 TO €1,500 AT THE BIG FIVE</text>
+  <text x="130" y="228" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">QUOTE-BASED, RARELY PUBLISHED</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · FieldSignal /pricing and 2026 benchmark ranges</text>
+</svg>

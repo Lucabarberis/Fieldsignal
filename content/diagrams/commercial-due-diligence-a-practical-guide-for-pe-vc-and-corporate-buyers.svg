@@ -1,0 +1,97 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="commercial-due-diligence-a-practical-guide-for-pe-vc-and-corporate-buyers-t commercial-due-diligence-a-practical-guide-for-pe-vc-and-corporate-buyers-d">
+  <title id="commercial-due-diligence-a-practical-guide-for-pe-vc-and-corporate-buyers-t">The commercial diligence workplan: seven core workstreams</title>
+  <desc id="commercial-due-diligence-a-practical-guide-for-pe-vc-and-corporate-buyers-d">Illustrative framework grid. Six hairline boxes show the core commercial due diligence workstreams from the guide: market sizing and growth, customer and retention, competitive landscape, pricing and unit economics, go-to-market and sales, and business plan and cases. A seventh full-width band underneath covers risks and mitigants across demand, pricing, competitive, execution and supply chain. The header notes that full-scope work runs post-LOI over 4 to 8 weeks beside financial, legal and tax, and the report lands at 20 to 30 pages.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · CDD WORKSTREAM MAP</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">The commercial diligence workplan</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Each workstream gives one page of synthesis and two to three exhibits.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Content: x 40..840, y 158..512 ===== -->
+  <!-- Scope rail -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">
+    <text x="40" y="172">SEVEN WORKSTREAMS · POST-LOI · 4 TO 8 WEEKS FULL SCOPE</text>
+    <text x="840" y="172" text-anchor="end">RUNS BESIDE FINANCIAL, LEGAL AND TAX</text>
+  </g>
+
+  <!-- ===== Row 1: y 186..307 ===== -->
+  <!-- 01 Market sizing and growth -->
+  <rect x="40" y="186" width="252" height="121" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="40" y1="220" x2="292" y2="220" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="208" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="56" y="241" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">MARKET SIZING AND GROWTH</text>
+  <text x="56" y="261" class="sans ink2" font-size="12">Build bottom-up from contracts,</text>
+  <text x="56" y="277" class="sans ink2" font-size="12">then test it top-down.</text>
+  <text x="56" y="294" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">TAM · SAM · SOM · 3-5 YEARS</text>
+
+  <!-- 02 Customer and retention -->
+  <rect x="314" y="186" width="252" height="121" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="314" y1="220" x2="566" y2="220" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="330" y="208" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">02</text>
+  <text x="330" y="241" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">CUSTOMER AND RETENTION</text>
+  <text x="330" y="261" class="sans ink2" font-size="12">Ask what drives switching.</text>
+  <text x="330" y="280" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">15-30 INTERVIEWS</text>
+  <text x="330" y="294" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">100-200 SURVEY RESPONSES</text>
+
+  <!-- 03 Competitive landscape -->
+  <rect x="588" y="186" width="252" height="121" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="588" y1="220" x2="840" y2="220" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="604" y="208" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">03</text>
+  <text x="604" y="241" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">COMPETITIVE LANDSCAPE</text>
+  <text x="604" y="261" class="sans ink2" font-size="12">Map rivals and substitutes by</text>
+  <text x="604" y="277" class="sans ink2" font-size="12">price and positioning.</text>
+  <text x="604" y="294" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">6-12 DIRECT · 3-5 SUBSTITUTES</text>
+
+  <!-- ===== Row 2: y 327..448 ===== -->
+  <!-- 04 Pricing and unit economics -->
+  <rect x="40" y="327" width="252" height="121" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="40" y1="361" x2="292" y2="361" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="349" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">04</text>
+  <text x="56" y="382" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">PRICING AND UNIT ECONOMICS</text>
+  <text x="56" y="402" class="sans ink2" font-size="12">Test pricing power, contracts</text>
+  <text x="56" y="418" class="sans ink2" font-size="12">and churn by segment.</text>
+  <text x="56" y="435" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">ARPU · ACV · RENEWAL TERMS</text>
+
+  <!-- 05 Go-to-market and sales -->
+  <rect x="314" y="327" width="252" height="121" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="314" y1="361" x2="566" y2="361" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="330" y="349" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">05</text>
+  <text x="330" y="382" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">GO-TO-MARKET AND SALES</text>
+  <text x="330" y="402" class="sans ink2" font-size="12">Check rep ramp and territory</text>
+  <text x="330" y="418" class="sans ink2" font-size="12">density with operators.</text>
+  <text x="330" y="435" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">CAC · PAYBACK · LTV · CYCLE</text>
+
+  <!-- 06 Business plan and cases -->
+  <rect x="588" y="327" width="252" height="121" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="588" y1="361" x2="840" y2="361" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="604" y="349" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">06</text>
+  <text x="604" y="382" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">BUSINESS PLAN AND CASES</text>
+  <text x="604" y="402" class="sans ink2" font-size="12">Model growth, pricing and</text>
+  <text x="604" y="418" class="sans ink2" font-size="12">churn in three cases.</text>
+  <text x="604" y="435" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">BASE · UPSIDE · DOWNSIDE</text>
+
+  <!-- ===== 07 Cross-cutting band: y 468..508 ===== -->
+  <rect x="40" y="468" width="800" height="40" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="56" y="493" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">07</text>
+  <text x="84" y="493" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">RISKS AND MITIGANTS</text>
+  <text x="244" y="493" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">DEMAND · PRICING · COMPETITIVE · EXECUTION · SUPPLY CHAIN</text>
+  <text x="824" y="493" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">REPORT · 20 TO 30 PAGES</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · workstreams and sample sizes per the guide</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="beauty-market-research-without-six-figure-retainers-t beauty-market-research-without-six-figure-retainers-d">
+  <title id="beauty-market-research-without-six-figure-retainers-t">Beauty research: pay per call vs. a six-figure retainer, annual cost by call volume</title>
+  <desc id="beauty-market-research-without-six-figure-retainers-d">Illustrative line chart. FieldSignal beauty expert calls are drawn as a band between $400 and $800 per call, so annual cost rises with usage. A large network's retainer stays flat at a six-figure minimum of about $100k, billed before any call. The band's top edge meets the retainer at about 125 calls per year, so below that per-call costs less even at the $800 rate.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · BEAUTY RESEARCH COST BY CALL VOLUME</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Beauty research: pay per call vs. retainer</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Beauty expert calls run $400 to $800. A six-figure retainer stays flat.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810 (0-200 calls, 3.5px/call), y 170..470 ($0-$150k, 2px per $1k) ===== -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="170" x2="810" y2="170" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="173" text-anchor="end">$150k</text>
+    <line x1="110" y1="270" x2="810" y2="270" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="273" text-anchor="end">$100k</text>
+    <line x1="110" y1="370" x2="810" y2="370" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="373" text-anchor="end">$50k</text>
+    <text x="102" y="473" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="170" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks (0,50,100,150,200 calls) -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="285" y="490">50</text>
+    <text x="460" y="490">100</text>
+    <text x="635" y="490">150</text>
+    <text x="810" y="490">200</text>
+  </g>
+
+  <!-- FieldSignal band: $400/call lower edge (200 calls = $80k, y=310) to $800/call upper edge
+       ($150k at 187.5 calls, x=766.25). Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 766.25,170 810,170 810,310" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="310" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="766.25" y2="170" stroke="#161613" stroke-width="1.25"/>
+  <text x="680" y="204" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 · TOP C-SUITE RATE</text>
+  <text x="806" y="288" text-anchor="end" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY PER CALL</text>
+  <text x="806" y="302" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$400 TO $800 PER CALL</text>
+  <text x="806" y="360" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$400 · VP OR SPECIALIST</text>
+
+  <!-- Large-network retainer: flat six-figure minimum — thin dashed ink-2 (weight and style, not colour) -->
+  <line x1="110" y1="270" x2="810" y2="270" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="118" y="248" class="mono ink2" font-size="10" font-weight="600" letter-spacing="0.06em">SIX-FIGURE RETAINER — $100k+ MINIMUM</text>
+  <text x="118" y="262" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">FLAT · GLG BILLS ~$1,350 / HR ON TOP</text>
+
+  <!-- Crossover: $800 upper edge meets the $100k retainer floor at 125 calls -->
+  <circle cx="547.5" cy="270" r="4.5" fill="#161613"/>
+  <line x1="547.5" y1="270" x2="547.5" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="430" y="300" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">BELOW ~125 CALLS / YEAR,</text>
+  <text x="430" y="314" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">CHEAPER EVEN AT THE $800 RATE</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">BEAUTY EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · one-hour calls, rates per post and cited benchmarks</text>
+</svg>

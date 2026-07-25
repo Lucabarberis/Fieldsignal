@@ -1,0 +1,84 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="connect-with-glg-expert-consultants-without-six-figure-retainers-t connect-with-glg-expert-consultants-without-six-figure-retainers-d">
+  <title id="connect-with-glg-expert-consultants-without-six-figure-retainers-t">GLG retainer vs. pay-per-use calls: annual cost by call volume</title>
+  <desc id="connect-with-glg-expert-consultants-without-six-figure-retainers-d">Illustrative line chart. A GLG enterprise retainer is flat, starting near $100k a year and scaling past $500k for heavy use, whatever the volume. FieldSignal pay-per-use rises with each call, between $200 and $800. The $800 top rate only reaches the $100k retainer at 125 calls a year, so a mid-market year of 10 to 20 calls costs $2k to $16k.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · RETAINER VS PER-CALL ANNUAL COST</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">GLG retainer vs. pay-per-use calls</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">GLG retainers often start at $100k. Pay-per-use runs $200 to $800 per call.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810, y 168..470. Y scale: 302px = $150k ===== -->
+  <!-- Horizontal gridlines + Y ticks -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="168" x2="810" y2="168" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="171" text-anchor="end">$150k</text>
+    <line x1="110" y1="268.7" x2="810" y2="268.7" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="271.7" text-anchor="end">$100k</text>
+    <line x1="110" y1="369.3" x2="810" y2="369.3" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="372.3" text-anchor="end">$50k</text>
+    <text x="102" y="474" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="168" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks: 0..175 calls at 4px per call -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="210" y="490">25</text>
+    <text x="310" y="490">50</text>
+    <text x="410" y="490">75</text>
+    <text x="510" y="490">100</text>
+    <text x="610" y="490">125</text>
+    <text x="710" y="490">150</text>
+    <text x="810" y="490">175</text>
+  </g>
+
+  <!-- FieldSignal pay-per-use TOTAL COST BAND, from published tiers.
+       Lower edge $200/call: 175 calls = $35k -> (810,399.5).
+       Upper edge $800/call: 175 calls = $140k -> (810,188.1). Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 810,188.1 810,399.5" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="399.5" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="810" y2="188.1" stroke="#161613" stroke-width="1.25"/>
+  <text x="418" y="392" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY-PER-USE</text>
+  <text x="418" y="408" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 TO $800 PER CALL</text>
+  <text x="744" y="196" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 · C-SUITE CALL</text>
+  <text x="808" y="430" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 · STANDARD CALL</text>
+
+  <!-- GLG retainer: flat, from $100k — thin dashed ink-2 (differentiated by weight/style, not colour) -->
+  <line x1="110" y1="268.7" x2="810" y2="268.7" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="118" y="261" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">GLG RETAINER — $100k+ TO START</text>
+  <text x="118" y="284" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SCALES TO $500k+ FOR HEAVY USE</text>
+
+  <!-- Crossover: $800/call meets the $100k retainer at 125 calls -->
+  <circle cx="610" cy="268.7" r="4.5" fill="#161613"/>
+  <line x1="610" y1="268.7" x2="610" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="600" y="232" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">$800 RATE MEETS $100k RETAINER</text>
+  <text x="600" y="246" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">AT 125 CALLS PER YEAR</text>
+
+  <!-- Low-volume zone the post describes -->
+  <text x="118" y="340" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">MID-MARKET YEAR: 10-20 CALLS</text>
+  <text x="118" y="356" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">PAY-PER-USE COST: $2k TO $16k</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · GLG ranges as cited in post · rates per /pricing</text>
+</svg>

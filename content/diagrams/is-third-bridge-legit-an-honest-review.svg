@@ -1,0 +1,74 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="is-third-bridge-legit-an-honest-review-t is-third-bridge-legit-an-honest-review-d">
+  <title id="is-third-bridge-legit-an-honest-review-t">Is Third Bridge legit? A buyer assessment across six dimensions</title>
+  <desc id="is-third-bridge-legit-an-honest-review-d">Illustrative assessment panel. Six dimensions are judged in writing: legitimacy, compliance, pricing transparency, research depth, expert experience and best-fit buyer. Third Bridge is legitimate and long established, with published ISO 27001, SOC 2 and GDPR certifications, 10,000-plus interviews a year and 15,000-plus transcripts. Its weakest point is pricing: retainer or credit contracts with undisclosed rates and a markup on the expert honorarium. Experts set rates of 100 to 500 dollars per hour before markup. Bottom line: legit and well run, but priced for volume rather than lean teams.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · BUYER ASSESSMENT BY DIMENSION</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Is Third Bridge legit? Our read</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Legit and long established. The weak point is pricing clarity, not trust.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Assessment panel: x 40..840, y 158..470 ===== -->
+  <!-- Column header band -->
+  <rect x="40" y="158" width="800" height="30" fill="#E8E4D5"/>
+  <text x="52" y="177" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">DIMENSION</text>
+  <text x="316" y="177" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">ASSESSMENT</text>
+  <line x1="40" y1="188" x2="840" y2="188" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Row 1 — top 188 -->
+  <text x="52" y="212" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">LEGITIMACY</text>
+  <text x="316" y="210" class="sans ink" font-size="14">Not a scam. Founded 2007 in London, 1,200+ employees.</text>
+  <text x="316" y="228" class="sans ink2" font-size="13">Seven offices. Serves over 1,000 investment firms.</text>
+  <line x1="40" y1="235" x2="840" y2="235" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 2 — top 235 -->
+  <text x="52" y="259" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">COMPLIANCE</text>
+  <text x="316" y="257" class="sans ink" font-size="14">Publishes ISO 27001, SOC 2 and GDPR certifications.</text>
+  <text x="316" y="275" class="sans ink2" font-size="13">Confidentiality terms, training, expert screening.</text>
+  <line x1="40" y1="282" x2="840" y2="282" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 3 — top 282 -->
+  <text x="52" y="306" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">PRICING TRANSPARENCY</text>
+  <text x="316" y="304" class="sans ink" font-size="14">Weakest point. Retainer or credits, rates undisclosed.</text>
+  <text x="316" y="322" class="sans ink2" font-size="13">Client fee carries a markup on the expert honorarium.</text>
+  <line x1="40" y1="329" x2="840" y2="329" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 4 — top 329 -->
+  <text x="52" y="353" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">RESEARCH DEPTH</text>
+  <text x="316" y="351" class="sans ink" font-size="14">10,000+ interviews a year. 15,000+ transcripts on file.</text>
+  <text x="316" y="369" class="sans ink2" font-size="13">Calls, transcripts and surveys across global sectors.</text>
+  <line x1="40" y1="376" x2="840" y2="376" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 5 — top 376 -->
+  <text x="52" y="400" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">EXPERT EXPERIENCE</text>
+  <text x="316" y="398" class="sans ink" font-size="14">Experts set rates, $100 to $500 per hour before markup.</text>
+  <text x="316" y="416" class="sans ink2" font-size="13">Pay in 2-3 days, though delays and dry spells happen.</text>
+  <line x1="40" y1="423" x2="840" y2="423" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Row 6 — top 423 -->
+  <text x="52" y="447" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">BEST-FIT BUYER</text>
+  <text x="316" y="445" class="sans ink" font-size="14">Large funds and consultancies running hundreds of calls.</text>
+  <text x="316" y="463" class="sans ink2" font-size="13">Overkill for teams needing a handful of calls a year.</text>
+
+  <!-- Bottom line block -->
+  <line x1="40" y1="470" x2="840" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="52" y="490" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">BOTTOM LINE</text>
+  <text x="52" y="508" class="sans ink" font-size="15">Legit and well run. Priced for volume, not for lean teams.</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · per Third Bridge disclosures and public reviews</text>
+</svg>

@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "ai-vs-human-research-when-each-approach-wins",
+    "altText": "A seven-row scorecard comparing AI research tools with human expert research, showing AI winning on speed, data volume and cost to scale, and human research winning on non-public insight, judgment, cross-verification and current-week market reads.",
+    "caption": "AI vs human research: where each wins. AI takes speed, volume and marginal cost. Humans take insider context, judgment and verification."
+  },
+  {
+    "slug": "alphasense-vs-bloomberg-cost-coverage-use-cases",
+    "altText": "A seven-row scorecard comparing AlphaSense and Bloomberg, where Bloomberg takes checkmarks for real-time market data, structured financial data and published price while AlphaSense takes checkmarks for qualitative document research, expert call transcripts and learning curve, and neither is retainer-free.",
+    "caption": "Bloomberg wins live markets and price visibility. AlphaSense wins document research and expert call transcripts. Neither sells without an annual commitment."
+  },
+  {
+    "slug": "alphasense-vs-capital-iq-buyer-s-comparison",
+    "altText": "A three-column scorecard reproducing the post's own winner table across seven buying criteria: AlphaSense takes qualitative content, expert insights and speed to signal; S&P Capital IQ Pro takes structured financial data, Excel modeling and price predictability; FieldSignal takes primary research flexibility with no annual retainer and no minimum commitment.",
+    "caption": "AlphaSense vs Capital IQ Pro vs FieldSignal on the post's seven criteria. AlphaSense wins the story, Capital IQ the numbers, FieldSignal the flexibility."
+  },
+  {
+    "slug": "alphasense-vs-pitchbook-which-one-wins-for-your-workflow",
+    "altText": "A seven-row scorecard comparing AlphaSense and PitchBook, where AlphaSense wins content source breadth, AI search across text, expert call content and entry price, PitchBook wins private market deal data and day-one ease of use, and integrations tie.",
+    "caption": "AlphaSense vs PitchBook, criterion by criterion: AlphaSense takes content breadth, AI search, expert transcripts and entry price; PitchBook takes private market deal depth and day-one usability."
+  },
+  {
+    "slug": "alphasense-vs-tegus-research-workflow-compared",
+    "altText": "A seven-row scorecard comparing AlphaSense and Tegus, showing AlphaSense ahead on document search, speed to insight and spreadsheet workflow while Tegus leads on expert transcripts, private company data and direct expert booking, with neither publishing pricing.",
+    "caption": "AlphaSense was built to index documents, Tegus to interview people. The scorecard shows where each one actually wins — and that neither publishes a rate."
+  },
+  {
+    "slug": "alphasights-vs-alternatives-which-expert-network-fits-your-research-needs",
+    "altText": "A six-row scorecard comparing AlphaSights and FieldSignal on pricing flexibility, rate transparency, turnaround speed, network scale, depth beyond the call and compliance controls.",
+    "caption": "AlphaSights wins on network scale. FieldSignal wins on pricing and depth beyond the call."
+  },
+  {
+    "slug": "expert-panel-vs-individual-call-when-to-use-each-method",
+    "altText": "A seven-criterion scorecard comparing a moderated expert panel against a one-on-one expert call, where the panel wins on breadth, consensus validation and cost per insight while the individual call wins on depth, sensitive intelligence, speed and cost per session.",
+    "caption": "Expert panel vs. individual call, criterion by criterion. Panels take breadth, consensus and cost per insight at scale. Single calls take depth, candour, speed and cost per session."
+  },
+  {
+    "slug": "newtonx-vs-tegus-custom-research-vs-platform-approach",
+    "altText": "A seven-row scorecard comparing NewtonX and Tegus/AlphaSense, where NewtonX scores strong on niche audience reach, large-scale survey fielding and pricing flexibility, Tegus scores strong on speed to first insight, historical company coverage and financial data integration, and both score strong on compliance review.",
+    "caption": "NewtonX wins on reach and price. Tegus wins on speed and coverage. Compliance is a tie, so the choice comes down to whether you need fresh fielded data or fast access to what has already been said."
+  },
+  {
+    "slug": "slingshot-vs-deepbench-two-boutique-networks-compared",
+    "altText": "A seven-row scorecard comparing Slingshot Insights and DeepBench on entry price, sourcing speed, sector depth, geographic reach, compliance trail, fee transparency and operating status, with heavy ink checks marking strengths and thin dashes marking weaknesses.",
+    "caption": "Slingshot wins on healthcare depth, price and compliance records. DeepBench wins on sourcing speed and Asia-Pacific reach. Both publish fee detail."
+  },
+  {
+    "slug": "tegus-vs-glg-pricing-coverage-when-to-use-which",
+    "altText": "A seven-row scorecard comparing Tegus and GLG, where Tegus takes transcript library, hourly call rate, predictable annual spend and pricing transparency, and GLG takes live expert network, geographic reach and regulated-sector compliance.",
+    "caption": "Tegus vs GLG, criterion by criterion: Tegus wins on cost and transcripts, GLG wins on reach and compliance."
+  },
+  {
+    "slug": "tegus-vs-stream-expert-call-platforms-compared",
+    "altText": "A seven-row scorecard comparing Tegus and Stream, showing Tegus ahead on transcript library size, niche expert matching and published pricing while Stream leads on native AlphaSense integration and global coverage, with neither fitting a budget under $20,000.",
+    "caption": "Tegus vs Stream across seven buying criteria. Tegus wins on library size and expert matching; Stream wins on AlphaSense integration and geographic reach. Neither works below a $20,000 annual commitment."
+  },
+  {
+    "slug": "agriculture-market-research-that-delivers-actionable-insights-without-six-figure-retainers",
+    "altText": "A band chart of annual agriculture research cost against expert calls per year, showing FieldSignal's $200 to $800 per call band staying inside the flat $20k to $80k+ retainer minimum corridor, with break-even at 25 calls.",
+    "caption": "Traditional agriculture research retainers start at a flat $20k to $80k+ a year. Pay-per-use costs $200 to $800 a call, so a typical 3 to 15 call project runs $600 to $12,000 — and even at the $800 top rate you need 25 calls a year to reach the cheapest retainer minimum."
+  },
+  {
+    "slug": "alphasense-pricing-what-it-costs-in-2026",
+    "altText": "Line chart comparing AlphaSense's flat annual subscription averages of $44,754 for SMB and $125,124 for enterprise against a FieldSignal pay-per-use cost band of $200 to $800 per expert call, which crosses the SMB average at about 56 calls a year.",
+    "caption": "AlphaSense bills a flat annual subscription. Pay-per-use only bills the calls you run, so below roughly 56 calls a year it stays under the average SMB contract even at C-suite rates."
+  },
+  {
+    "slug": "asian-market-research-from-us-without-six-figure-retainers",
+    "altText": "Chart comparing annual cost of Asia expert research: a flat $100k+ retainer minimum against a pay-per-use band of $200 to $800 per call that only reaches the retainer at 125 calls a year.",
+    "caption": "Annual cost by Asia call volume. Pay-per-use only reaches a $100k+ retainer at 125 calls a year, and most Asia projects need 3 to 6."
+  },
+  {
+    "slug": "automotive-market-research-without-six-figure-network-fees",
+    "altText": "A band chart comparing annual automotive research cost: FieldSignal pay-per-call rises with volume between $200 and $800 per call, while reported expert network subscriptions stay flat between $30k and $200k+ a year.",
+    "caption": "Annual automotive research cost by call volume: pay-per-call scales with use, a network subscription does not."
+  },
+  {
+    "slug": "beauty-market-research-without-six-figure-retainers",
+    "altText": "Line chart of annual beauty research cost against expert calls per year, with FieldSignal's $400 to $800 per-call band rising from zero and a flat dashed six-figure retainer minimum at $100k that the band's top edge meets at about 125 calls.",
+    "caption": "Beauty expert calls run $400 to $800 each, so cost tracks usage. A six-figure retainer is charged before the first call, and at the top $800 rate it takes about 125 calls a year to match it."
+  },
+  {
+    "slug": "competitive-intelligence-services-without-six-figure-retainers",
+    "altText": "Line chart comparing annual competitive intelligence cost by expert call volume: a flat dashed line marks the $30k legacy retainer floor charged before any call, while a filled band shows FieldSignal pay-per-call cost rising from $0 at $200 to $800 per call, crossing the floor at about 38 C-suite calls or 150 standard calls.",
+    "caption": "A legacy retainer bills $30k before the first call. Pay-per-call starts at $0 and only rises with use — that same $30k covers about 38 C-suite calls or 150 standard calls."
+  },
+  {
+    "slug": "connect-with-glg-expert-consultants-without-six-figure-retainers",
+    "altText": "Line chart comparing a flat GLG annual retainer starting near $100k against a rising FieldSignal pay-per-use band of $200 to $800 per call, which only reaches the retainer at 125 calls a year.",
+    "caption": "A GLG retainer costs the same whether you run 5 calls or 100. Pay-per-use only reaches GLG's $100k starting retainer at 125 calls a year, so a mid-market year of 10 to 20 calls runs $2k to $16k."
+  },
+  {
+    "slug": "expert-call-access-without-six-figure-retainers",
+    "altText": "Line chart comparing annual cost of expert calls: a competitor retainer sits flat at a $100k+ annual minimum from zero calls, while FieldSignal's pay-per-call cost starts at zero and rises inside a band between $200 and $800 per call, meeting the retainer minimum at 125 calls a year at the top rate.",
+    "caption": "Pay-per-call vs. a six-figure minimum: a $100k+ retainer bills before the first call, while pay-per-call starts at zero and only matches that minimum at 125 C-suite calls a year."
+  },
+  {
+    "slug": "expert-call-transcripts-without-annual-retainers",
+    "altText": "A band chart of annual cost against expert calls per year, where FieldSignal's per-transcript cost band ($200 to $800 a call) rises from zero and only reaches a flat six-figure network retainer minimum between 125 and 500 calls a year.",
+    "caption": "Pay per transcript vs. annual retainer: at $200 to $800 a call, it takes 125 C-suite calls or 500 standard calls a year to spend what a network's $100k+ minimum costs before call one."
+  },
+  {
+    "slug": "expert-calls-for-private-equity-without-six-figure-retainers",
+    "altText": "Band chart of annual PE research cost by expert call volume: FieldSignal pay-per-use spans $200 to $800 per call and crosses the reported $50k retainer floor at about 62 C-suite calls a year, while reported retainers stay flat at $50k to $100k+.",
+    "caption": "Pay-per-use cost scales with call volume. A reported $50k to $100k+ retainer does not."
+  },
+  {
+    "slug": "expert-network-consulting-without-the-six-figure-retainer",
+    "altText": "Line chart comparing a flat $100k+ annual subscription minimum against FieldSignal's pay-per-call cost, drawn as a band from $200 to $800 per call that only reaches the minimum at 125 calls a year.",
+    "caption": "A subscription minimum costs the same at five calls or fifty. Pay per call starts at zero and only reaches a $100k minimum at 125 calls a year, even at the top $800 C-suite rate."
+  },
+  {
+    "slug": "expert-network-pricing-and-pay-benchmark-2026",
+    "altText": "Chart of annual expert network cost against calls per year: a pay-per-use band from $200 to $800 per call rises from zero while a full-service annual minimum stays flat at $100k or more, the two meeting at 125 top-rate calls a year.",
+    "caption": "Annual cost by call volume. A six-figure minimum stays flat whatever you use; pay-per-use starts at zero and only reaches $100k at 125 top-rate calls a year."
+  },
+  {
+    "slug": "expertconnect-insights-without-six-figure-retainers",
+    "altText": "Line chart comparing a flat $30k legacy retainer floor against a pay-per-use cost band of $200 to $800 per call, which stays cheaper below about 37 expert calls a year.",
+    "caption": "A legacy retainer costs the same whether you run two calls or two hundred. Pay-per-use tracks actual volume, and even at the top $800 C-suite rate it stays under the cheapest $30k retainer up to roughly 37 calls a year."
+  },
+  {
+    "slug": "get-primary-latam-market-research-intelligence-without-six-figure-retainers",
+    "altText": "Band chart of annual LATAM research cost by call volume: pay-per-use expert calls at $300 to $800 each rise as a band while a tier-1 retainer stays flat at an $80,000 minimum, the two meeting at 100 calls per year.",
+    "caption": "Pay-per-use LATAM expert calls run $300 to $800 each. A tier-1 retainer starts at $80,000 whether you use it or not, so pay-per-use costs less below 100 calls a year even at the top rate."
+  },
+  {
+    "slug": "glg-insights-expert-intelligence-without-six-figure-retainers",
+    "altText": "Line chart comparing annual research cost by call volume: GLG's flat six-figure annual minimum against FieldSignal's rising pay-per-use band of $450 to $950 per call, which stays below the minimum until roughly 105 to 222 calls a year.",
+    "caption": "GLG's six-figure annual minimum is flat and charged before any usage. Pay-per-use only bills for calls you take, so it stays under that floor up to roughly 105 calls a year at the top rate and roughly 222 at the low rate."
+  },
+  {
+    "slug": "healthcare-win-loss-analysis-without-six-figure-retainers",
+    "altText": "Line chart comparing annual cost of healthcare expert calls: FieldSignal's pay-per-use band, spanning $200 to $800 per call, stays below the flat $25,000 and $100,000+ annual retainer minimums charged by traditional expert networks until about 125 calls per year.",
+    "caption": "Retainer networks bill $25,000 to $100,000+ before the first call. Pay-per-use only reaches those floors at 125 calls a year, while a typical healthcare win-loss project runs 5 to 10."
+  },
+  {
+    "slug": "insurance-due-diligence-expert-insights-without-six-figure-retainers",
+    "altText": "Chart showing pay-per-use insurance diligence hours at $200 to $600 an hour staying under a flat $100k+ retainer minimum until roughly 165 hours a year.",
+    "caption": "Annual cost of insurance diligence expert hours: pay-per-use versus a six-figure retainer."
+  },
+  {
+    "slug": "insurance-market-research-without-six-figure-retainers",
+    "altText": "A line chart comparing the annual cost of insurance expert calls: a shaded band rising from zero for FieldSignal pay-per-use at $200 to $800 per call, against a flat dashed line at a $100k+ retainer minimum, meeting at 125 calls per year.",
+    "caption": "Pay-per-use insurance research versus a flat six-figure retainer. Even at the $800 C-suite rate, pay-per-use stays under a $100k retainer minimum up to 125 calls a year."
+  },
+  {
+    "slug": "newtonx-professional-b2b-research-without-six-figure-retainers",
+    "altText": "A cost chart plotting annual research spend against expert calls per year, with NewtonX's flat $30k entry and $100k+ at-scale subscription levels as dashed lines and FieldSignal's pay-per-use cost as a rising band between $200 and $800 per call, meeting the $30k level at 150 standard calls.",
+    "caption": "NewtonX bills an annual subscription from about $30k up to $100k+ at scale. FieldSignal bills per call, so $30k covers 150 standard calls or 37 at the $800 top rate."
+  },
+  {
+    "slug": "streaming-market-research-without-six-figure-retainers",
+    "altText": "A band chart comparing annual streaming research cost by call volume: a legacy expert network retainer stays flat at its $30k annual minimum while pay-per-interview cost rises with each call, crossing at 20 calls a year.",
+    "caption": "Annual research cost by call volume: a flat $30k legacy retainer versus paying per interview, which only reaches $30k at 20 calls a year even at the top rate."
+  },
+  {
+    "slug": "telecom-market-research-expert-networks-without-six-figure-retainers",
+    "altText": "Line chart of annual telecom research cost against expert calls per year, showing a flat dashed retainer floor at $50k crossed by FieldSignal's $200-to-$800 per-call band at about 62 calls.",
+    "caption": "Major telecom expert networks bill a $50k to $200k+ annual commitment before the first call. Pay-per-use costs less until roughly 62 calls a year, even at top rates."
+  },
+  {
+    "slug": "commercial-due-diligence-a-practical-guide-for-pe-vc-and-corporate-buyers",
+    "altText": "A framework grid of the seven commercial due diligence workstreams from the guide, with six numbered boxes for market sizing, customer and retention, competitive landscape, pricing and unit economics, go-to-market, and business plan cases, plus a cross-cutting risks band underneath.",
+    "caption": "The commercial diligence workplan: six focused workstreams plus a cross-cutting risk view, each producing one page of synthesis and two to three exhibits."
+  },
+  {
+    "slug": "competitor-war-gaming-frameworks-and-process-for-strategy-teams",
+    "altText": "A three-step framework diagram of a competitor war game — intelligence and scenario design, team and role assignment, then simulation rounds — with the prep time, team sizes, round counts and failure mode for each step, and a tinted band naming the output.",
+    "caption": "The three steps of a competitor war game, with the timings, team sizes and failure mode for each."
+  },
+  {
+    "slug": "conjoint-analysis-explained-when-and-how-to-use-it",
+    "altText": "A framework diagram showing the five stages of a conjoint study — define attributes, design the survey, field to the right sample, model utility values, run the market simulator — above a band of the four methods chosen at stage two: CBC, ACBC, MBC and ACA.",
+    "caption": "How a conjoint study actually works: five stages from attributes to market simulator, and the method to pick at stage 02."
+  },
+  {
+    "slug": "due-diligence-checklist-for-m-a-investors-and-corporate-teams",
+    "altText": "A grid of nine hairline boxes showing the post's due diligence workstreams: four core pillars covered in every deal (financial, legal and regulatory, operational, commercial), four scoped by sector and deal size (technology and data, tax and structure, people and leadership, ESG and reputation), and a ninth full-width primary research workstream that cuts across all eight.",
+    "caption": "Nine due diligence workstreams: four core pillars, four scoped by sector and deal size, plus primary research as a formal workstream."
+  },
+  {
+    "slug": "family-office-investment-research-frameworks-and-process",
+    "altText": "A five-stage family office due diligence framework: numbered boxes for intake and triage, values screen, deep research, background work, and memo plus decision, with a timeline showing a typical 3 to 5 month cycle inside a 2 to 6 month full range.",
+    "caption": "The five-stage family office diligence process, and where outside research plugs in."
+  },
+  {
+    "slug": "industry-analysis-frameworks-examples-and-how-to-apply-them",
+    "altText": "A framework diagram showing the post's five-step industry analysis process as a row of numbered boxes, with step four expanding into the four core frameworks it applies.",
+    "caption": "The five-step industry analysis process, and the four frameworks step 04 applies."
+  },
+  {
+    "slug": "market-entry-strategy-frameworks-and-practical-steps",
+    "altText": "Framework diagram showing the post's five numbered market entry pillars in sequence, with pillar 04 opening into six modes of entry ordered from low to highest control.",
+    "caption": "The five market entry pillars, worked in order, and the six modes of entry that pillar 04 chooses between."
+  },
+  {
+    "slug": "market-sizing-a-practical-guide-for-investors-and-operators",
+    "altText": "A four-step market sizing framework — clarify, segment, choose method, validate — sits above a bottom-up chain that turns 12 million Paris metro residents into an estimate of about 460 retail fuel stations.",
+    "caption": "The four-step method, with the guide's Paris bottom-up chain worked end to end."
+  },
+  {
+    "slug": "pricing-research-methods-conjoint-van-westendorp-and-more",
+    "altText": "A framework diagram splitting seven pricing research methods into two bands — stated preference (Van Westendorp, Gabor Granger, monadic testing, conjoint/BPTO) and revealed evidence (live price tests, competitor benchmarking, expert interviews) — each box naming the situation it suits, the output it gives and one practical constraint.",
+    "caption": "Pricing research methods split by what buyers say versus what they actually did. Pick one or two, matched to the decision."
+  },
+  {
+    "slug": "retail-market-research-frameworks-and-vendor-guide",
+    "altText": "A framework diagram showing the post's three retail research lenses — market context, shopper behavior, competition and channels — feeding a row of four research methods, with expert calls highlighted as the primary qualitative lane.",
+    "caption": "Three lenses frame a retail research question; two or three methods answer it. Expert calls carry the primary qualitative load."
+  },
+  {
+    "slug": "spin-off-investing-research-methods-and-frameworks",
+    "altText": "A two-row grid of six hairline boxes laying out the article's spin-off research process, from classifying the deal through to tracking execution, with the primary research step shaded.",
+    "caption": "The six-step spin-off research process, run in the first 30 to 90 days while the mispricing window is open."
+  },
+  {
+    "slug": "alphasense-reviews-an-honest-2026-assessment",
+    "altText": "A written buyer assessment panel judging AlphaSense across six dimensions — operating history, search and content, pricing transparency, learning curve, primary research scope and best-fit buyer — closing with the verdict that it suits daily users and not occasional ones.",
+    "caption": "AlphaSense assessed dimension by dimension: strong search and real scale, undisclosed enterprise pricing, a steep curve and no fresh primary research."
+  },
+  {
+    "slug": "is-glg-legit-honest-reviews-and-buyer-assessment",
+    "altText": "A six-row assessment table judging GLG on operating history, network coverage, compliance posture, member reviews, pricing transparency and best-fit buyer, concluding it is a real network that suits heavy repeat buyers rather than teams needing 5 to 20 calls.",
+    "caption": "GLG assessed across six buyer dimensions: legitimate and deep, but opaque on price and shaped for heavy repeat use."
+  },
+  {
+    "slug": "is-guidepoint-legit-an-honest-buyer-s-review",
+    "altText": "A six-row assessment table judging Guidepoint on legitimacy, expert coverage, compliance posture, pricing transparency, contract terms and best-fit buyer, concluding it is legitimate and capable but priced and structured for large buyers.",
+    "caption": "Guidepoint assessed across six buyer dimensions. Legitimacy and coverage are strong; pricing transparency is the weakest point."
+  },
+  {
+    "slug": "is-tegus-legit-a-buyer-s-review",
+    "altText": "A written assessment table judging Tegus on five buyer-side dimensions — legitimacy, compliance, pricing and contract, transcript reuse and best-fit buyer — with a bottom line that Tegus is legit but cost and transcript reuse are the real trade-offs.",
+    "caption": "Tegus assessed on five buyer-side dimensions. Legit and credible, but structured and priced for high-volume research teams."
+  },
+  {
+    "slug": "is-third-bridge-legit-an-honest-review",
+    "altText": "A written buyer assessment panel rating Third Bridge across six dimensions — legitimacy, compliance, pricing transparency, research depth, expert experience and best-fit buyer — concluding it is legit and well run but priced for volume rather than lean teams.",
+    "caption": "Third Bridge assessed dimension by dimension: the credibility questions resolve cleanly, the pricing questions do not."
+  }
+]

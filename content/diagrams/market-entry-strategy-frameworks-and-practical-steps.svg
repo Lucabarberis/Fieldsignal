@@ -1,0 +1,129 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="market-entry-strategy-frameworks-and-practical-steps-t market-entry-strategy-frameworks-and-practical-steps-d">
+  <title id="market-entry-strategy-frameworks-and-practical-steps-t">The five-pillar market entry framework</title>
+  <desc id="market-entry-strategy-frameworks-and-practical-steps-d">Illustrative framework diagram. Five hairline boxes set out the market entry pillars in order: market attractiveness, company fit, entry barriers and risks, entry strategy options, then financial planning and go/no-go criteria. Pillar 04 opens into six modes of entry ordered by control, from direct exporting up to a greenfield subsidiary.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · FIVE-PILLAR MARKET ENTRY FRAMEWORK</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">The five-pillar market entry framework</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Work the five pillars in order, then choose one of six modes of entry.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Section A: five pillars, x 40..840, y 182..336 ===== -->
+  <text x="40" y="170" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">PILLARS 01 TO 05 · WORK THEM IN ORDER</text>
+
+  <!-- Box 01 -->
+  <rect x="40" y="182" width="144" height="154" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="206" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="54" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">MARKET</text>
+  <text x="54" y="246" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">ATTRACTIVENESS</text>
+  <line x1="54" y1="256" x2="170" y2="256" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="274" class="sans ink2" font-size="12">Size, growth,</text>
+  <text x="54" y="289" class="sans ink2" font-size="12">profit pools,</text>
+  <text x="54" y="304" class="sans ink2" font-size="12">regulation.</text>
+
+  <!-- Box 02 -->
+  <rect x="204" y="182" width="144" height="154" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="218" y="206" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">02</text>
+  <text x="218" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">COMPANY FIT</text>
+  <text x="218" y="246" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">AND CAPABILITY</text>
+  <line x1="218" y1="256" x2="334" y2="256" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="218" y="274" class="sans ink2" font-size="12">Product fit,</text>
+  <text x="218" y="289" class="sans ink2" font-size="12">go-to-market,</text>
+  <text x="218" y="304" class="sans ink2" font-size="12">delivery.</text>
+
+  <!-- Box 03 -->
+  <rect x="368" y="182" width="144" height="154" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="382" y="206" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">03</text>
+  <text x="382" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">ENTRY BARRIERS</text>
+  <text x="382" y="246" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">AND RISKS</text>
+  <line x1="382" y1="256" x2="498" y2="256" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="382" y="274" class="sans ink2" font-size="12">Regulatory,</text>
+  <text x="382" y="289" class="sans ink2" font-size="12">cultural,</text>
+  <text x="382" y="304" class="sans ink2" font-size="12">operational,</text>
+  <text x="382" y="319" class="sans ink2" font-size="12">competitive.</text>
+
+  <!-- Box 04 — filled: this pillar opens into the mode band below -->
+  <rect x="532" y="182" width="144" height="154" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="546" y="206" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">04</text>
+  <text x="546" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">ENTRY STRATEGY</text>
+  <text x="546" y="246" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">OPTIONS</text>
+  <line x1="546" y1="256" x2="662" y2="256" stroke="#161613" stroke-opacity="0.28"/>
+  <text x="546" y="274" class="sans ink2" font-size="12">Mode of entry,</text>
+  <text x="546" y="289" class="sans ink2" font-size="12">phasing, hybrid</text>
+  <text x="546" y="304" class="sans ink2" font-size="12">approaches.</text>
+
+  <!-- Box 05 -->
+  <rect x="696" y="182" width="144" height="154" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="710" y="206" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">05</text>
+  <text x="710" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FINANCIAL PLAN</text>
+  <text x="710" y="246" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">AND GO / NO-GO</text>
+  <line x1="710" y1="256" x2="826" y2="256" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="710" y="274" class="sans ink2" font-size="12">Revenue build,</text>
+  <text x="710" y="289" class="sans ink2" font-size="12">costs, scenarios,</text>
+  <text x="710" y="304" class="sans ink2" font-size="12">KPIs and</text>
+  <text x="710" y="319" class="sans ink2" font-size="12">thresholds.</text>
+
+  <!-- Order arrows between pillars: ink hairline + solid ink triangle -->
+  <g stroke="#161613" stroke-opacity="0.28" stroke-width="1">
+    <line x1="188" y1="259" x2="196" y2="259"/>
+    <line x1="352" y1="259" x2="360" y2="259"/>
+    <line x1="516" y1="259" x2="524" y2="259"/>
+    <line x1="680" y1="259" x2="688" y2="259"/>
+  </g>
+  <g fill="#161613">
+    <polygon points="196,255.5 196,262.5 202,259"/>
+    <polygon points="360,255.5 360,262.5 366,259"/>
+    <polygon points="524,255.5 524,262.5 530,259"/>
+    <polygon points="688,255.5 688,262.5 694,259"/>
+  </g>
+
+  <!-- Connector: pillar 04 opens into the mode band -->
+  <line x1="576.67" y1="342" x2="576.67" y2="372" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <polygon points="573,372 580.34,372 576.67,378" fill="#161613"/>
+
+  <!-- ===== Section B: six modes of entry, ordered by control ===== -->
+  <text x="40" y="368" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">STEP 04 · SIX MODES OF ENTRY, ORDERED BY CONTROL</text>
+
+  <!-- Row A -->
+  <rect x="40" y="386" width="253.33" height="50" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="408" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">DIRECT EXPORTING</text>
+  <text x="54" y="424" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.04em">LOW CONTROL · LOW CAPITAL</text>
+
+  <rect x="313.33" y="386" width="253.33" height="50" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="327.33" y="408" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">LICENSING / FRANCHISING</text>
+  <text x="327.33" y="424" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.04em">LOW CONTROL · LOW CAPITAL</text>
+
+  <rect x="586.67" y="386" width="253.33" height="50" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="600.67" y="408" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">STRATEGIC PARTNERSHIPS</text>
+  <text x="600.67" y="424" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.04em">MEDIUM CONTROL · LOW-MED CAPITAL</text>
+
+  <!-- Row B -->
+  <rect x="40" y="450" width="253.33" height="50" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="472" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">JOINT VENTURES</text>
+  <text x="54" y="488" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.04em">MEDIUM CONTROL · MEDIUM CAPITAL</text>
+
+  <rect x="313.33" y="450" width="253.33" height="50" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="327.33" y="472" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">ACQUISITION</text>
+  <text x="327.33" y="488" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.04em">HIGH CONTROL · HIGH CAPITAL</text>
+
+  <rect x="586.67" y="450" width="253.33" height="50" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="600.67" y="472" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">GREENFIELD SUBSIDIARY</text>
+  <text x="600.67" y="488" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.04em">HIGHEST CONTROL · HIGHEST CAPITAL</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · pillars and entry modes per this article</text>
+</svg>

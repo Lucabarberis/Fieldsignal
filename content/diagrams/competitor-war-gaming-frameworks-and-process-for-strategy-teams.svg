@@ -1,0 +1,102 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="competitor-war-gaming-frameworks-and-process-for-strategy-teams-t competitor-war-gaming-frameworks-and-process-for-strategy-teams-d">
+  <title id="competitor-war-gaming-frameworks-and-process-for-strategy-teams-t">Competitor war gaming in three steps</title>
+  <desc id="competitor-war-gaming-frameworks-and-process-for-strategy-teams-d">Illustrative framework diagram. Three hairline boxes run left to right: 01 intelligence and scenarios, with 2 to 6 weeks of prep and 2 to 3 scenarios; 02 teams and role assignment, with a Blue team of 5 to 8 people, 2 to 3 Red teams and an independent facilitator; 03 simulation rounds, 2 to 5 timed rounds over 1 to 2 days with shocks added mid-game. Each box also names the failure mode for that step. A tinted band below states the output: a revised strategy with playbooks tied to named triggers, 4 to 8 weeks from kickoff.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · WAR GAME PROCESS IN THREE STEPS</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Competitor war gaming in three steps</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Prep the intelligence, staff Blue and Red teams, then run timed rounds.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== STEP 01 : x 40..286 ===== -->
+  <rect x="40" y="170" width="246" height="258" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="56" y="198" class="mono ink" font-size="20" font-weight="600" letter-spacing="0.06em">01</text>
+  <line x1="40" y1="210" x2="286" y2="210" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">INTELLIGENCE + SCENARIOS</text>
+  <text x="56" y="256" class="sans ink2" font-size="12">Profile rivals and map the market</text>
+  <text x="56" y="272" class="sans ink2" font-size="12">before anyone plays a move.</text>
+  <line x1="56" y1="292" x2="270" y2="292" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="310" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">PREP TIME</text>
+  <text x="270" y="310" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">2-6 WEEKS</text>
+  <line x1="56" y1="318" x2="270" y2="318" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="336" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SCENARIOS</text>
+  <text x="270" y="336" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">2-3</text>
+  <line x1="56" y1="344" x2="270" y2="344" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="362" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SOURCES</text>
+  <text x="270" y="362" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">EXPERT INTERVIEWS</text>
+  <line x1="56" y1="370" x2="270" y2="370" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="394" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">FAILS WHEN</text>
+  <text x="56" y="412" class="sans ink2" font-size="12">Intelligence is generic or stale.</text>
+
+  <!-- Arrow 01 -> 02 -->
+  <line x1="291" y1="299" x2="306" y2="299" stroke="#161613" stroke-width="1"/>
+  <polygon points="306,295 315,299 306,303" fill="#161613"/>
+
+  <!-- ===== STEP 02 : x 317..563 ===== -->
+  <rect x="317" y="170" width="246" height="258" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="333" y="198" class="mono ink" font-size="20" font-weight="600" letter-spacing="0.06em">02</text>
+  <line x1="317" y1="210" x2="563" y2="210" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="333" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">TEAMS + ROLE ASSIGNMENT</text>
+  <text x="333" y="256" class="sans ink2" font-size="12">Blue team plays you. Red teams</text>
+  <text x="333" y="272" class="sans ink2" font-size="12">play rivals and regulators.</text>
+  <line x1="333" y1="292" x2="547" y2="292" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="333" y="310" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">BLUE TEAM</text>
+  <text x="547" y="310" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">5-8 PEOPLE</text>
+  <line x1="333" y1="318" x2="547" y2="318" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="333" y="336" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">RED TEAMS</text>
+  <text x="547" y="336" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">2-3</text>
+  <line x1="333" y1="344" x2="547" y2="344" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="333" y="362" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">FACILITATOR</text>
+  <text x="547" y="362" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">INDEPENDENT</text>
+  <line x1="333" y1="370" x2="547" y2="370" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="333" y="394" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">FAILS WHEN</text>
+  <text x="333" y="412" class="sans ink2" font-size="12">Red teams play nice, not to win.</text>
+
+  <!-- Arrow 02 -> 03 -->
+  <line x1="568" y1="299" x2="583" y2="299" stroke="#161613" stroke-width="1"/>
+  <polygon points="583,295 592,299 583,303" fill="#161613"/>
+
+  <!-- ===== STEP 03 : x 594..840 ===== -->
+  <rect x="594" y="170" width="246" height="258" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="610" y="198" class="mono ink" font-size="20" font-weight="600" letter-spacing="0.06em">03</text>
+  <line x1="594" y1="210" x2="840" y2="210" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="610" y="232" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">SIMULATION ROUNDS</text>
+  <text x="610" y="256" class="sans ink2" font-size="12">Teams trade moves each round.</text>
+  <text x="610" y="272" class="sans ink2" font-size="12">Then debrief what broke.</text>
+  <line x1="610" y1="292" x2="824" y2="292" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="610" y="310" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">ROUNDS</text>
+  <text x="824" y="310" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">2-5 TIMED</text>
+  <line x1="610" y1="318" x2="824" y2="318" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="610" y="336" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">RUN TIME</text>
+  <text x="824" y="336" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">1-2 DAYS</text>
+  <line x1="610" y1="344" x2="824" y2="344" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="610" y="362" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SHOCKS</text>
+  <text x="824" y="362" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">ADDED MID-GAME</text>
+  <line x1="610" y1="370" x2="824" y2="370" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="610" y="394" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">FAILS WHEN</text>
+  <text x="610" y="412" class="sans ink2" font-size="12">Nobody changes a decision after.</text>
+
+  <!-- ===== Output band ===== -->
+  <rect x="40" y="444" width="800" height="52" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="60" y="468" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">OUTPUT</text>
+  <text x="124" y="468" class="sans ink" font-size="13">Not a report. A revised strategy with playbooks tied to named triggers.</text>
+  <text x="124" y="486" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">TRIGGER EXAMPLE · IF A RIVAL CUTS PRICE 15%, RUN PLAN B</text>
+  <text x="820" y="468" text-anchor="end" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">KICKOFF TO PLAYBOOK · 4-8 WEEKS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · timings and team sizes per cited sources</text>
+</svg>

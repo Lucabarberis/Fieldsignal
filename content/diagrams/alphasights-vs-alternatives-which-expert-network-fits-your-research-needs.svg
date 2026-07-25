@@ -1,0 +1,89 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="alphasights-vs-alternatives-which-expert-network-fits-your-research-needs-t alphasights-vs-alternatives-which-expert-network-fits-your-research-needs-d">
+  <title id="alphasights-vs-alternatives-which-expert-network-fits-your-research-needs-t">AlphaSights vs. FieldSignal: scorecard by buying criterion</title>
+  <desc id="alphasights-vs-alternatives-which-expert-network-fits-your-research-needs-d">Illustrative two-column scorecard. AlphaSights scores on rapid custom sourcing, broad global coverage and an established compliance framework, but prices by annual retainer and credits with undisclosed rates. FieldSignal scores on pay-per-use pricing with no minimum, published $200 to $800 per-call rates, transcript and survey depth, and compliance equivalence, while trading network scale for curation.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · SCORECARD BY BUYING CRITERION</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">AlphaSights vs. FieldSignal</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">AlphaSights prices by retainer and credits. FieldSignal prices per call.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Scorecard header band: y 158..192 ===== -->
+  <rect x="40" y="158" width="800" height="34" fill="#E8E4D5"/>
+  <text x="52" y="180" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">CRITERION</text>
+  <text x="532" y="180" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.08em">ALPHASIGHTS</text>
+  <text x="737" y="180" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.08em">FIELDSIGNAL</text>
+  <line x1="40" y1="192" x2="840" y2="192" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Column dividers -->
+  <line x1="430" y1="158" x2="430" y2="498" stroke="#161613" stroke-opacity="0.12"/>
+  <line x1="635" y1="158" x2="635" y2="498" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 1: PRICING FLEXIBILITY (baseline 214) ===== -->
+  <text x="52" y="214" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">PRICING FLEXIBILITY</text>
+  <line x1="525" y1="202" x2="539" y2="202" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="220" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">ANNUAL RETAINER · CREDITS</text>
+  <path d="M 731 202 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="220" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">PAY-PER-USE · NO MINIMUM</text>
+  <line x1="40" y1="243" x2="840" y2="243" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 2: RATE TRANSPARENCY (baseline 265) ===== -->
+  <text x="52" y="265" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">RATE TRANSPARENCY</text>
+  <line x1="525" y1="253" x2="539" y2="253" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="271" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">UNDISCLOSED · QUOTE ONLY</text>
+  <path d="M 731 253 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="271" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">$200 TO $800 PER CALL</text>
+  <line x1="40" y1="294" x2="840" y2="294" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 3: TURNAROUND SPEED (baseline 316) ===== -->
+  <text x="52" y="316" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">TURNAROUND SPEED</text>
+  <path d="M 526 304 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="532" y="322" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">RAPID CUSTOM SOURCING</text>
+  <path d="M 731 304 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="322" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">FAST PRIMARY RESEARCH</text>
+  <line x1="40" y1="345" x2="840" y2="345" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 4: NETWORK SCALE (baseline 367) — AlphaSights wins ===== -->
+  <text x="52" y="367" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">NETWORK SCALE</text>
+  <path d="M 526 355 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="532" y="373" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">BROAD GLOBAL COVERAGE</text>
+  <line x1="730" y1="355" x2="744" y2="355" stroke="#8B8980" stroke-width="1"/>
+  <text x="737" y="373" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">QUALITY OVER QUANTITY</text>
+  <line x1="40" y1="396" x2="840" y2="396" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 5: DEPTH BEYOND THE CALL (baseline 418) ===== -->
+  <text x="52" y="418" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">DEPTH BEYOND THE CALL</text>
+  <line x1="525" y1="406" x2="539" y2="406" stroke="#8B8980" stroke-width="1"/>
+  <text x="532" y="424" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">THIN OUTSIDE THE CALL</text>
+  <path d="M 731 406 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="424" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">TRANSCRIPTS · SURVEYS</text>
+  <line x1="40" y1="447" x2="840" y2="447" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Row 6: COMPLIANCE CONTROLS (baseline 469) ===== -->
+  <text x="52" y="469" class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">COMPLIANCE CONTROLS</text>
+  <path d="M 526 457 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="532" y="475" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">ESTABLISHED FRAMEWORK</text>
+  <path d="M 731 457 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="737" y="475" text-anchor="middle" class="mono ink2" font-size="10" letter-spacing="0.06em">COMPLIANCE EQUIVALENCE</text>
+  <line x1="40" y1="498" x2="840" y2="498" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Closing verdict -->
+  <text x="440" y="511" text-anchor="middle" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">ALPHASIGHTS FOR SCALE AND PREMIUM SERVICE · FIELDSIGNAL FOR TIGHTER BUDGETS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · post claims; FieldSignal rates per /pricing</text>
+</svg>

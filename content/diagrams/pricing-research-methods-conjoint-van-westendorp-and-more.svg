@@ -1,0 +1,109 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="pricing-research-methods-conjoint-van-westendorp-and-more-t pricing-research-methods-conjoint-van-westendorp-and-more-d">
+  <title id="pricing-research-methods-conjoint-van-westendorp-and-more-t">How to pick a pricing research method</title>
+  <desc id="pricing-research-methods-conjoint-van-westendorp-and-more-d">Illustrative framework diagram. Seven pricing research methods in two bands. The stated-preference band holds Van Westendorp, Gabor Granger, monadic testing and conjoint or BPTO, run on online panels of 200 to 1,000 respondents. The revealed-evidence band holds live price tests, competitor benchmarking and expert interviews. Each box names the situation it suits, the output it gives and one practical constraint from the article.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · PRICING RESEARCH METHOD SELECTION</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">How to pick a pricing research method</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">You need one or two methods matched to the decision, budget and timeline.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ================= BAND 1: stated preference ================= -->
+  <text x="40" y="174" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">STATED PREFERENCE · WHAT BUYERS SAY THEY WOULD DO</text>
+  <text x="840" y="174" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">ONLINE PANELS · 200 TO 1,000 RESPONDENTS</text>
+
+  <!-- 01 Van Westendorp -->
+  <rect x="40" y="184" width="188" height="130" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="80" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">VAN WESTENDORP</text>
+  <line x1="54" y1="224" x2="214" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="250" class="sans ink2" font-size="12">New product, no history.</text>
+  <text x="54" y="266" class="sans ink2" font-size="12">Gives a usable range.</text>
+  <line x1="54" y1="282" x2="214" y2="282" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="300" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">BIASED LOW ~35%</text>
+
+  <!-- 02 Gabor Granger -->
+  <rect x="244" y="184" width="188" height="130" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="258" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">02</text>
+  <text x="284" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">GABOR GRANGER</text>
+  <line x1="258" y1="224" x2="418" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="258" y="250" class="sans ink2" font-size="12">Known price points.</text>
+  <text x="258" y="266" class="sans ink2" font-size="12">Gives a demand curve.</text>
+  <line x1="258" y1="282" x2="418" y2="282" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="258" y="300" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">REVENUE-MAX POINT</text>
+
+  <!-- 03 Monadic test -->
+  <rect x="448" y="184" width="188" height="130" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="462" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">03</text>
+  <text x="488" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">MONADIC TEST</text>
+  <line x1="462" y1="224" x2="622" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="462" y="250" class="sans ink2" font-size="12">A short price ladder.</text>
+  <text x="462" y="266" class="sans ink2" font-size="12">One price per person.</text>
+  <line x1="462" y1="282" x2="622" y2="282" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="462" y="300" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">100+ COMPLETES PER CELL</text>
+
+  <!-- 04 Conjoint / BPTO -->
+  <rect x="652" y="184" width="188" height="130" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="666" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">04</text>
+  <text x="692" y="210" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">CONJOINT / BPTO</text>
+  <line x1="666" y1="224" x2="826" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="666" y="250" class="sans ink2" font-size="12">Complex trade-offs.</text>
+  <text x="666" y="266" class="sans ink2" font-size="12">Gives a simulator.</text>
+  <line x1="666" y1="282" x2="826" y2="282" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="666" y="300" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">300 TO 500+ RESPONDENTS</text>
+
+  <!-- ================= BAND 2: revealed evidence ================= -->
+  <text x="40" y="340" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">REVEALED EVIDENCE · WHAT BUYERS ACTUALLY DID</text>
+  <text x="840" y="340" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">EVIDENCE FROM REAL DEALS</text>
+
+  <!-- 05 Live price test -->
+  <rect x="40" y="350" width="256" height="130" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="376" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">05</text>
+  <text x="80" y="376" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">LIVE PRICE TEST</text>
+  <line x1="54" y1="390" x2="282" y2="390" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="416" class="sans ink2" font-size="12">You already have a hypothesis.</text>
+  <text x="54" y="432" class="sans ink2" font-size="12">Shows real conversion behavior.</text>
+  <line x1="54" y1="448" x2="282" y2="448" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="466" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">RUN AT LEAST FOUR WEEKS</text>
+
+  <!-- 06 Competitor benchmark -->
+  <rect x="312" y="350" width="256" height="130" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="326" y="376" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">06</text>
+  <text x="352" y="376" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">COMPETITOR BENCHMARK</text>
+  <line x1="326" y1="390" x2="554" y2="390" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="326" y="416" class="sans ink2" font-size="12">You need a market reference.</text>
+  <text x="326" y="432" class="sans ink2" font-size="12">Maps list prices and discounts.</text>
+  <line x1="326" y1="448" x2="554" y2="448" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="326" y="466" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">10-30% OFF LIST ON ANNUALS</text>
+
+  <!-- 07 Expert interviews — recommended grounding, paper-2 fill -->
+  <rect x="584" y="350" width="256" height="130" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="598" y="376" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">07</text>
+  <text x="624" y="376" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">EXPERT INTERVIEWS</text>
+  <line x1="598" y1="390" x2="826" y2="390" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="598" y="416" class="sans ink2" font-size="12">Public pages hide real prices.</text>
+  <text x="598" y="432" class="sans ink2" font-size="12">Former sellers name the number.</text>
+  <line x1="598" y1="448" x2="826" y2="448" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="598" y="466" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">REALIZED PRICE, NOT LIST</text>
+
+  <!-- Closing line -->
+  <text x="40" y="508" class="sans ink2" font-size="13">Bound the range. Validate with behavior. Ground it with experts.</text>
+  <text x="840" y="508" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">3-4 WEEKS SURVEY · 6-8 WEEKS CONJOINT + EXPERTS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · methods and figures per the article</text>
+</svg>

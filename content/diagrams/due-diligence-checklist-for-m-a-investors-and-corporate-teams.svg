@@ -1,0 +1,113 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="due-diligence-checklist-for-m-a-investors-and-corporate-teams-t due-diligence-checklist-for-m-a-investors-and-corporate-teams-d">
+  <title id="due-diligence-checklist-for-m-a-investors-and-corporate-teams-t">Due diligence checklist: nine workstreams</title>
+  <desc id="due-diligence-checklist-for-m-a-investors-and-corporate-teams-d">Illustrative framework diagram. A grid of hairline boxes lists nine due diligence workstreams. The four core pillars covered in every deal are financial, legal and regulatory, operational and commercial. Four more are scoped by sector and deal size: technology and data, tax and structure, people and leadership, ESG and reputation. A ninth full-width workstream covers primary research through expert calls, customer interviews and supplier checks. Middle-market diligence usually runs inside a 30 to 90 day exclusivity window after LOI.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · DUE DILIGENCE WORKSTREAMS</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Nine due diligence workstreams</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Four core pillars, four scoped workstreams and one primary research stream.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Row A label: core pillars ===== -->
+  <text x="40" y="166" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">CORE PILLARS · COVER IN EVERY DEAL</text>
+  <text x="840" y="166" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">30 TO 90 DAYS AFTER LOI · EXCLUSIVITY WINDOW</text>
+
+  <!-- Row A boxes: filled paper-2 = covered in every deal -->
+  <g stroke="#161613" stroke-opacity="0.28" stroke-width="1" fill="#E8E4D5">
+    <rect x="40" y="178" width="188" height="104"/>
+    <rect x="244" y="178" width="188" height="104"/>
+    <rect x="448" y="178" width="188" height="104"/>
+    <rect x="652" y="178" width="188" height="104"/>
+  </g>
+  <g stroke="#161613" stroke-width="1.5">
+    <line x1="54" y1="211" x2="78" y2="211"/>
+    <line x1="258" y1="211" x2="282" y2="211"/>
+    <line x1="462" y1="211" x2="486" y2="211"/>
+    <line x1="666" y1="211" x2="690" y2="211"/>
+  </g>
+  <g class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">
+    <text x="54" y="200">01</text>
+    <text x="258" y="200">02</text>
+    <text x="462" y="200">03</text>
+    <text x="666" y="200">04</text>
+  </g>
+  <g class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">
+    <text x="54" y="231">FINANCIAL</text>
+    <text x="258" y="231">LEGAL &amp; REGULATORY</text>
+    <text x="462" y="231">OPERATIONAL</text>
+    <text x="666" y="231">COMMERCIAL</text>
+  </g>
+  <g class="sans ink2" font-size="12">
+    <text x="54" y="253">Quality of earnings, net</text>
+    <text x="54" y="269">debt, working capital.</text>
+    <text x="258" y="253">Contracts, litigation,</text>
+    <text x="258" y="269">licences, indemnities.</text>
+    <text x="462" y="253">Processes, systems, KPIs,</text>
+    <text x="462" y="269">suppliers, facilities.</text>
+    <text x="666" y="253">Market position, churn,</text>
+    <text x="666" y="269">customer concentration.</text>
+  </g>
+
+  <!-- ===== Row B label: scoped workstreams ===== -->
+  <text x="40" y="309" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">SCOPED WORKSTREAMS · BY SECTOR AND DEAL SIZE</text>
+
+  <!-- Row B boxes: plain paper = scope in or out -->
+  <g stroke="#161613" stroke-opacity="0.28" stroke-width="1" fill="none">
+    <rect x="40" y="321" width="188" height="104"/>
+    <rect x="244" y="321" width="188" height="104"/>
+    <rect x="448" y="321" width="188" height="104"/>
+    <rect x="652" y="321" width="188" height="104"/>
+  </g>
+  <g stroke="#161613" stroke-width="1.5">
+    <line x1="54" y1="354" x2="78" y2="354"/>
+    <line x1="258" y1="354" x2="282" y2="354"/>
+    <line x1="462" y1="354" x2="486" y2="354"/>
+    <line x1="666" y1="354" x2="690" y2="354"/>
+  </g>
+  <g class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">
+    <text x="54" y="343">05</text>
+    <text x="258" y="343">06</text>
+    <text x="462" y="343">07</text>
+    <text x="666" y="343">08</text>
+  </g>
+  <g class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">
+    <text x="54" y="374">TECHNOLOGY &amp; DATA</text>
+    <text x="258" y="374">TAX &amp; STRUCTURE</text>
+    <text x="462" y="374">PEOPLE &amp; LEADERSHIP</text>
+    <text x="666" y="374">ESG &amp; REPUTATION</text>
+  </g>
+  <g class="sans ink2" font-size="12">
+    <text x="54" y="396">Infrastructure, IP, R&amp;D,</text>
+    <text x="54" y="412">cybersecurity controls.</text>
+    <text x="258" y="396">Tax liabilities, deal</text>
+    <text x="258" y="412">structure, jurisdiction.</text>
+    <text x="462" y="396">Turnover, key-person</text>
+    <text x="462" y="412">dependency, contracts.</text>
+    <text x="666" y="396">Environmental exposure,</text>
+    <text x="666" y="412">adverse media, suppliers.</text>
+  </g>
+
+  <!-- ===== Band 09: primary research cuts across every pillar ===== -->
+  <rect x="40" y="445" width="800" height="58" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="469" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">09</text>
+  <text x="86" y="469" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">PRIMARY RESEARCH · CUTS ACROSS ALL EIGHT</text>
+  <text x="826" y="469" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">TREAT AS A FORMAL WORKSTREAM</text>
+  <text x="54" y="490" class="sans ink2" font-size="12">Expert calls, customer interviews and supplier checks test management claims.</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · workstreams as listed in this guide</text>
+</svg>

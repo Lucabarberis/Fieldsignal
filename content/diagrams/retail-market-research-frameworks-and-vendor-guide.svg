@@ -1,0 +1,109 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="retail-market-research-frameworks-and-vendor-guide-t retail-market-research-frameworks-and-vendor-guide-d">
+  <title id="retail-market-research-frameworks-and-vendor-guide-t">Three lenses for retail research, and the four methods that answer them</title>
+  <desc id="retail-market-research-frameworks-and-vendor-guide-d">Illustrative framework diagram. Three lenses — market context, shopper behavior, competition and channels — frame the question, then feed four research methods: surveys and trackers, groups and panels, expert interviews, and desk research. Expert interviews are highlighted as the primary qualitative lane. The closing note reads: combine two or three methods, 8 to 12 expert calls plus a lean survey, in a 3 to 6 week sprint.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · RESEARCH LENSES AND METHOD MIX</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Three lenses for retail research</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Three lenses frame the question. Two or three methods answer it.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Band 1: the three lenses ===== -->
+  <text x="40" y="176" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">LENSES · FRAME THE QUESTION</text>
+  <text x="840" y="176" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">PE/VC · CORPORATE STRATEGY · FOUNDERS</text>
+
+  <!-- Lens 01 -->
+  <rect x="40" y="188" width="256" height="112" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="56" y="214" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="84" y="214" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">MARKET CONTEXT</text>
+  <line x1="56" y1="224" x2="280" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="56" y="244" class="sans ink2" font-size="12">Where the money sits today and</text>
+  <text x="56" y="260" class="sans ink2" font-size="12">how it is shifting.</text>
+  <text x="56" y="284" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">FILINGS · TRADE SOURCES</text>
+
+  <!-- Lens 02 -->
+  <rect x="312" y="188" width="256" height="112" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="328" y="214" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">02</text>
+  <text x="356" y="214" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">SHOPPER BEHAVIOR</text>
+  <line x1="328" y1="224" x2="552" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="328" y="244" class="sans ink2" font-size="12">Awareness to repeat purchase,</text>
+  <text x="328" y="260" class="sans ink2" font-size="12">mapped channel by channel.</text>
+  <text x="328" y="284" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SURVEYS · SHOP-ALONGS</text>
+
+  <!-- Lens 03 -->
+  <rect x="584" y="188" width="256" height="112" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="600" y="214" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.12em">03</text>
+  <text x="628" y="214" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">COMPETITION &amp; CHANNELS</text>
+  <line x1="600" y1="224" x2="824" y2="224" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="600" y="244" class="sans ink2" font-size="12">Format economics, price index</text>
+  <text x="600" y="260" class="sans ink2" font-size="12">and promo mechanics.</text>
+  <text x="600" y="284" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">EX-STAFF · SUPPLIERS</text>
+
+  <!-- Manifold: all three lenses feed the method mix -->
+  <g stroke="#161613" stroke-opacity="0.28" stroke-width="1">
+    <line x1="168" y1="300" x2="168" y2="318"/>
+    <line x1="440" y1="300" x2="440" y2="318"/>
+    <line x1="712" y1="300" x2="712" y2="318"/>
+    <line x1="168" y1="318" x2="712" y2="318"/>
+    <line x1="440" y1="318" x2="440" y2="336"/>
+  </g>
+  <polygon points="435,336 445,336 440,344" fill="#161613"/>
+
+  <!-- ===== Band 2: the four methods ===== -->
+  <text x="40" y="360" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">METHODS · ANSWER THE QUESTION</text>
+  <text x="840" y="360" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">SPEED · COST · DATA QUALITY</text>
+
+  <!-- Method A -->
+  <rect x="40" y="372" width="188" height="100" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="396" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">SURVEYS &amp; TRACKERS</text>
+  <line x1="54" y1="406" x2="214" y2="406" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="426" class="sans ink2" font-size="12">Quantify awareness, NPS</text>
+  <text x="54" y="442" class="sans ink2" font-size="12">and repeat intent.</text>
+  <text x="54" y="460" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">QUANTITATIVE</text>
+
+  <!-- Method B -->
+  <rect x="244" y="372" width="188" height="100" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="258" y="396" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">GROUPS &amp; PANELS</text>
+  <line x1="258" y1="406" x2="418" y2="406" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="258" y="426" class="sans ink2" font-size="12">Fast read on packaging,</text>
+  <text x="258" y="442" class="sans ink2" font-size="12">signage and messaging.</text>
+  <text x="258" y="460" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">QUALITATIVE</text>
+
+  <!-- Method C — emphasised lane, flat paper-2 fill (no colour) -->
+  <rect x="448" y="372" width="188" height="100" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="462" y="396" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">EXPERT CALLS</text>
+  <line x1="462" y1="406" x2="622" y2="406" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="462" y="426" class="sans ink2" font-size="12">45-90 minute calls with</text>
+  <text x="462" y="442" class="sans ink2" font-size="12">ex-buyers and merchants.</text>
+  <text x="462" y="460" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">QUALITATIVE · PRIMARY</text>
+
+  <!-- Method D -->
+  <rect x="652" y="372" width="188" height="100" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="666" y="396" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">DESK RESEARCH</text>
+  <line x1="666" y1="406" x2="826" y2="406" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="666" y="426" class="sans ink2" font-size="12">Filings, trade reports,</text>
+  <text x="666" y="442" class="sans ink2" font-size="12">reviews and social data.</text>
+  <text x="666" y="460" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SECONDARY</text>
+
+  <!-- Closing rule + verdict -->
+  <line x1="40" y1="492" x2="840" y2="492" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="510" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">COMBINE TWO OR THREE METHODS · 8-12 EXPERT CALLS PLUS A LEAN SURVEY</text>
+  <text x="840" y="510" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SPRINT · 3-6 WEEKS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · framework per the FieldSignal retail guide</text>
+</svg>

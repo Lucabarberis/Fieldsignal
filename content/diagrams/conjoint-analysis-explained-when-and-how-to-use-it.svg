@@ -1,0 +1,175 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="conjoint-analysis-explained-when-and-how-to-use-it-t conjoint-analysis-explained-when-and-how-to-use-it-d">
+  <title id="conjoint-analysis-explained-when-and-how-to-use-it-t">How a conjoint study actually works: five stages and the method choice</title>
+  <desc id="conjoint-analysis-explained-when-and-how-to-use-it-d">Illustrative framework diagram. The top row shows the five stages of a conjoint study: define attributes with 4 to 7 attributes and 2 to 5 levels each, design the survey with 8 to 20 choice tasks per respondent, field to a sample of 300 to 500 with 200 or more per segment, model utility values with hierarchical Bayes, and run market simulator scenarios for predicted share and revenue. The lower band shows the four methods chosen at stage two: CBC as the default, ACBC for 8 or more attributes, MBC for menu bundles and ACA for small samples.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · CONJOINT STAGES AND METHODS</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">How a conjoint study actually works</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Five stages from attributes to market simulator, and the method to pick.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Band A label ===== -->
+  <text x="40" y="172" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">STUDY PIPELINE · FIVE STAGES</text>
+  <text x="840" y="172" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">PRE-WORK FIRST · 3-10 EXPERT CALLS</text>
+  <line x1="40" y1="180" x2="840" y2="180" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Band A: five stage boxes, y 192..382, w 144, gutter 20 ===== -->
+  <g fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1">
+    <rect x="40" y="192" width="144" height="190"/>
+    <rect x="204" y="192" width="144" height="190"/>
+    <rect x="368" y="192" width="144" height="190"/>
+    <rect x="532" y="192" width="144" height="190"/>
+    <rect x="696" y="192" width="144" height="190"/>
+  </g>
+
+  <!-- Tinted spec footers inside each stage box (flat #E8E4D5, squared) -->
+  <g fill="#E8E4D5">
+    <rect x="41" y="328" width="142" height="53"/>
+    <rect x="205" y="328" width="142" height="53"/>
+    <rect x="369" y="328" width="142" height="53"/>
+    <rect x="533" y="328" width="142" height="53"/>
+    <rect x="697" y="328" width="142" height="53"/>
+  </g>
+  <g stroke="#161613" stroke-opacity="0.28" stroke-width="1">
+    <line x1="40" y1="328" x2="184" y2="328"/>
+    <line x1="204" y1="328" x2="348" y2="328"/>
+    <line x1="368" y1="328" x2="512" y2="328"/>
+    <line x1="532" y1="328" x2="676" y2="328"/>
+    <line x1="696" y1="328" x2="840" y2="328"/>
+  </g>
+
+  <!-- Stage numbers: INK, never red -->
+  <g class="mono ink" font-size="12" font-weight="600" letter-spacing="0.12em">
+    <text x="52" y="216">01</text>
+    <text x="216" y="216">02</text>
+    <text x="380" y="216">03</text>
+    <text x="544" y="216">04</text>
+    <text x="708" y="216">05</text>
+  </g>
+
+  <!-- Stage names -->
+  <g class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">
+    <text x="52" y="240">DEFINE THE</text>
+    <text x="52" y="255">ATTRIBUTES</text>
+    <text x="216" y="240">DESIGN THE</text>
+    <text x="216" y="255">SURVEY</text>
+    <text x="380" y="240">FIELD TO THE</text>
+    <text x="380" y="255">RIGHT SAMPLE</text>
+    <text x="544" y="240">MODEL UTILITY</text>
+    <text x="544" y="255">VALUES</text>
+    <text x="708" y="240">RUN MARKET</text>
+    <text x="708" y="255">SIMULATOR</text>
+  </g>
+
+  <!-- Stage descriptions -->
+  <g class="sans ink2" font-size="12">
+    <text x="52" y="280">Break the product</text>
+    <text x="52" y="295">into attributes</text>
+    <text x="52" y="310">and levels.</text>
+
+    <text x="216" y="280">Pick a method and</text>
+    <text x="216" y="295">block impossible</text>
+    <text x="216" y="310">configurations.</text>
+
+    <text x="380" y="280">Screen for the</text>
+    <text x="380" y="295">economic buyer,</text>
+    <text x="380" y="310">not any employee.</text>
+
+    <text x="544" y="280">Estimate a score</text>
+    <text x="544" y="295">for every level</text>
+    <text x="544" y="310">from the choices.</text>
+
+    <text x="708" y="280">Simulate share</text>
+    <text x="708" y="295">and revenue per</text>
+    <text x="708" y="310">configuration.</text>
+  </g>
+
+  <!-- Stage specs (real ranges stated in the article) -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <text x="52" y="348">4-7 ATTRIBUTES</text>
+    <text x="52" y="363">2-5 LEVELS EACH</text>
+
+    <text x="216" y="348">8-20 CHOICE TASKS</text>
+    <text x="216" y="363">PER RESPONDENT</text>
+
+    <text x="380" y="348">SAMPLE 300-500</text>
+    <text x="380" y="363">200+ PER SEGMENT</text>
+
+    <text x="544" y="348">HIERARCHICAL</text>
+    <text x="544" y="363">BAYES ESTIMATES</text>
+
+    <text x="708" y="348">PREDICTED SHARE</text>
+    <text x="708" y="363">AND REVENUE</text>
+  </g>
+
+  <!-- Flow arrows: plain ink hairlines ending in a small solid ink triangle -->
+  <g stroke="#161613" stroke-width="1">
+    <line x1="187" y1="287" x2="196" y2="287"/>
+    <line x1="351" y1="287" x2="360" y2="287"/>
+    <line x1="515" y1="287" x2="524" y2="287"/>
+    <line x1="679" y1="287" x2="688" y2="287"/>
+  </g>
+  <g fill="#161613">
+    <polygon points="196,283 196,291 202,287"/>
+    <polygon points="360,283 360,291 366,287"/>
+    <polygon points="524,283 524,291 530,287"/>
+    <polygon points="688,283 688,291 694,287"/>
+  </g>
+
+  <!-- ===== Band B label ===== -->
+  <text x="40" y="408" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">STAGE 02 · CHOOSE THE METHOD</text>
+  <text x="840" y="408" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">PICK BY ATTRIBUTE COUNT AND SAMPLE</text>
+  <line x1="40" y1="416" x2="840" y2="416" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- ===== Band B: four method cells, y 426..512, w 185, gutter 20. CBC is the default, so it carries the tint ===== -->
+  <rect x="40" y="426" width="185" height="86" fill="#E8E4D5"/>
+  <g fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1">
+    <rect x="40" y="426" width="185" height="86"/>
+    <rect x="245" y="426" width="185" height="86"/>
+    <rect x="450" y="426" width="185" height="86"/>
+    <rect x="655" y="426" width="185" height="86"/>
+  </g>
+
+  <g class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">
+    <text x="52" y="448">CBC</text>
+    <text x="257" y="448">ACBC</text>
+    <text x="462" y="448">MBC</text>
+    <text x="667" y="448">ACA</text>
+  </g>
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <text x="52" y="464">CHOICE-BASED · DEFAULT</text>
+    <text x="257" y="464">ADAPTIVE CBC</text>
+    <text x="462" y="464">MENU-BASED</text>
+    <text x="667" y="464">ADAPTIVE CONJOINT</text>
+  </g>
+  <g class="sans ink2" font-size="12">
+    <text x="52" y="483">Most commercial work.</text>
+    <text x="52" y="498">Handles 4-7 attributes.</text>
+
+    <text x="257" y="483">Tailors tasks to earlier</text>
+    <text x="257" y="498">answers. 8+ attributes.</text>
+
+    <text x="462" y="483">Respondents build their</text>
+    <text x="462" y="498">own bundle from menus.</text>
+
+    <text x="667" y="483">Rates attributes first.</text>
+    <text x="667" y="498">Fits small samples.</text>
+  </g>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · ranges as stated in the article</text>
+</svg>

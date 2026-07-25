@@ -1,0 +1,126 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="alphasense-vs-capital-iq-buyer-s-comparison-t alphasense-vs-capital-iq-buyer-s-comparison-d">
+  <title id="alphasense-vs-capital-iq-buyer-s-comparison-t">AlphaSense vs Capital IQ Pro vs FieldSignal: who wins each buying criterion</title>
+  <desc id="alphasense-vs-capital-iq-buyer-s-comparison-d">Illustrative three-column scorecard reproducing the post's own winner table across seven criteria. AlphaSense wins qualitative research content with over 10,000 sources, expert insights with 200,000+ call transcripts after the Tegus acquisition, and speed to qualitative signal. S and P Capital IQ Pro wins structured financial data, financial modeling through its Excel add-in, and price predictability through tiered or modular pricing. FieldSignal wins primary research flexibility, offering expert interviews and one-on-one calls with no annual retainer and no minimum commitment.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · WHO WINS EACH BUYING CRITERION</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">AlphaSense vs Capital IQ Pro</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">AlphaSense wins the story, Capital IQ the numbers, FieldSignal the flexibility.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Scorecard: criterion 40..250, three columns 250..447..643..840 ===== -->
+  <!-- Header band -->
+  <rect x="40" y="158" width="800" height="34" fill="#E8E4D5"/>
+  <text x="52" y="179" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">CRITERION</text>
+  <text x="348" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">ALPHASENSE</text>
+  <text x="545" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">S&amp;P CAPITAL IQ PRO</text>
+  <text x="742" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">FIELDSIGNAL</text>
+  <line x1="40" y1="192" x2="840" y2="192" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Column dividers -->
+  <g stroke="#161613" stroke-opacity="0.12">
+    <line x1="250" y1="158" x2="250" y2="500"/>
+    <line x1="447" y1="158" x2="447" y2="500"/>
+    <line x1="643" y1="158" x2="643" y2="500"/>
+  </g>
+
+  <!-- Row rules -->
+  <g stroke="#161613" stroke-opacity="0.12">
+    <line x1="40" y1="236" x2="840" y2="236"/>
+    <line x1="40" y1="280" x2="840" y2="280"/>
+    <line x1="40" y1="324" x2="840" y2="324"/>
+    <line x1="40" y1="368" x2="840" y2="368"/>
+    <line x1="40" y1="412" x2="840" y2="412"/>
+    <line x1="40" y1="456" x2="840" y2="456"/>
+    <line x1="40" y1="500" x2="840" y2="500"/>
+  </g>
+
+  <!-- Criterion labels — the post's own seven table rows -->
+  <g class="mono ink" font-size="11" font-weight="500" letter-spacing="0.04em">
+    <text x="52" y="214">QUALITATIVE CONTENT</text>
+    <text x="52" y="258">STRUCTURED FIN DATA</text>
+    <text x="52" y="302">FINANCIAL MODELING</text>
+    <text x="52" y="346">EXPERT INSIGHTS</text>
+    <text x="52" y="390">PRICE PREDICTABILITY</text>
+    <text x="52" y="434">SPEED TO SIGNAL</text>
+    <text x="52" y="478">PRIMARY RESEARCH</text>
+  </g>
+
+  <!-- Verdict phrases -->
+  <g class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <!-- Row 1 · qualitative content -->
+    <text x="348" y="222">10,000+ SOURCES</text>
+    <text x="545" y="222">DOCS, LESS DEPTH</text>
+    <text x="742" y="222">NOT A CONTENT PLATFORM</text>
+    <!-- Row 2 · structured financial data -->
+    <text x="348" y="266">LIMITED VS TERMINALS</text>
+    <text x="545" y="266">STANDARDIZED DEPTH</text>
+    <text x="742" y="266">OUT OF SCOPE</text>
+    <!-- Row 3 · financial modeling -->
+    <text x="348" y="310">SOME MODELING TASKS</text>
+    <text x="545" y="310">EXCEL ADD-IN</text>
+    <text x="742" y="310">OUT OF SCOPE</text>
+    <!-- Row 4 · expert insights -->
+    <text x="348" y="354">200,000+ TRANSCRIPTS</text>
+    <text x="545" y="354">NOT BUILT FOR EXPERTS</text>
+    <text x="742" y="354">LIVE CALLS, NOT ARCHIVE</text>
+    <!-- Row 5 · price predictability -->
+    <text x="348" y="398">UNDISCLOSED, BY QUOTE</text>
+    <text x="545" y="398">TIERED OR MODULAR</text>
+    <text x="742" y="398">PER-CALL, NO RETAINER</text>
+    <!-- Row 6 · speed to qualitative signal -->
+    <text x="348" y="442">AI SUMMARIZES DOCS</text>
+    <text x="545" y="442">STRUCTURED DATA FOCUS</text>
+    <text x="742" y="442">CALLS, NOT DOC SEARCH</text>
+    <!-- Row 7 · primary research flexibility -->
+    <text x="348" y="486">SEAT-BASED ANNUAL</text>
+    <text x="545" y="486">SEAT-BASED ANNUAL</text>
+    <text x="742" y="486">NO RETAINER, NO MINIMUM</text>
+  </g>
+
+  <!-- Winner marks: heavy ink check, one per row, per the post's winner column -->
+  <g fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square">
+    <path d="M 342 204 l 4.5 5 l 8 -11"/>
+    <path d="M 539 248 l 4.5 5 l 8 -11"/>
+    <path d="M 539 292 l 4.5 5 l 8 -11"/>
+    <path d="M 342 336 l 4.5 5 l 8 -11"/>
+    <path d="M 539 380 l 4.5 5 l 8 -11"/>
+    <path d="M 342 424 l 4.5 5 l 8 -11"/>
+    <path d="M 736 468 l 4.5 5 l 8 -11"/>
+  </g>
+
+  <!-- Non-winner marks: thin ink-3 dash -->
+  <g stroke="#8B8980" stroke-width="1">
+    <line x1="538" y1="204" x2="552" y2="204"/>
+    <line x1="735" y1="204" x2="749" y2="204"/>
+    <line x1="341" y1="248" x2="355" y2="248"/>
+    <line x1="735" y1="248" x2="749" y2="248"/>
+    <line x1="341" y1="292" x2="355" y2="292"/>
+    <line x1="735" y1="292" x2="749" y2="292"/>
+    <line x1="538" y1="336" x2="552" y2="336"/>
+    <line x1="735" y1="336" x2="749" y2="336"/>
+    <line x1="341" y1="380" x2="355" y2="380"/>
+    <line x1="735" y1="380" x2="749" y2="380"/>
+    <line x1="538" y1="424" x2="552" y2="424"/>
+    <line x1="735" y1="424" x2="749" y2="424"/>
+    <line x1="341" y1="468" x2="355" y2="468"/>
+    <line x1="538" y1="468" x2="552" y2="468"/>
+  </g>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · winners as scored in the post's own comparison table</text>
+</svg>

@@ -51,6 +51,16 @@ const cspReportOnly = [
 const nextConfig: NextConfig = {
   // Allow .mdx files to be treated as routes/imports
   pageExtensions: ["ts", "tsx", "mdx"],
+  /**
+   * Post diagrams are read from disk by a computed path (lib/diagrams.ts), so
+   * output tracing cannot see them and would omit them from the deployed
+   * function. Blog posts render on demand (`dynamicParams`, `revalidate`), so
+   * without this the diagrams would work locally and silently vanish in
+   * production. Keys are route globs; values resolve from the project root.
+   */
+  outputFileTracingIncludes: {
+    "/resources/blog/\\[slug\\]": ["./content/diagrams/**/*.svg"],
+  },
   async headers() {
     return [
       {

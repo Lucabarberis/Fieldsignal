@@ -1,0 +1,89 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="alphasense-pricing-what-it-costs-in-2026-t alphasense-pricing-what-it-costs-in-2026-d">
+  <title id="alphasense-pricing-what-it-costs-in-2026-t">AlphaSense subscription cost vs. pay-per-use expert calls</title>
+  <desc id="alphasense-pricing-what-it-costs-in-2026-d">Illustrative chart. AlphaSense annual subscriptions sit flat at two verified 2026 averages: $44,754 for SMB and $125,124 for enterprise. FieldSignal pay-per-use rises with each call inside a band from $200 to $800 per call. Below about 56 calls a year, pay-per-use costs less than the average SMB contract even at top rates.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · ANNUAL COST BY EXPERT CALL VOLUME</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">AlphaSense subscription vs. pay-per-use</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Verified 2026 contracts average $44,754 for SMB and $125,124 for enterprise.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Plot area: x 110..810, y 168..470. Scale: $150k = 302px, 250 calls = 700px ===== -->
+  <!-- Horizontal gridlines + Y ticks every $30k -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">
+    <line x1="110" y1="168" x2="810" y2="168" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="171" text-anchor="end">$150k</text>
+    <line x1="110" y1="228.4" x2="810" y2="228.4" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="231.4" text-anchor="end">$120k</text>
+    <line x1="110" y1="288.8" x2="810" y2="288.8" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="291.8" text-anchor="end">$90k</text>
+    <line x1="110" y1="349.2" x2="810" y2="349.2" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="352.2" text-anchor="end">$60k</text>
+    <line x1="110" y1="409.6" x2="810" y2="409.6" stroke="#161613" stroke-opacity="0.12"/>
+    <text x="102" y="412.6" text-anchor="end">$30k</text>
+    <text x="102" y="473" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Axes -->
+  <line x1="110" y1="168" x2="110" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <line x1="110" y1="470" x2="810" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- X ticks (0,50,100,150,200,250 calls) -->
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="110" y="490">0</text>
+    <text x="250" y="490">50</text>
+    <text x="390" y="490">100</text>
+    <text x="530" y="490">150</text>
+    <text x="670" y="490">200</text>
+    <text x="810" y="490">250</text>
+  </g>
+
+  <!-- Axis scale note -->
+  <text x="120" y="186" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">AXIS CAPS AT $150k · LARGE DEALS EXCEED $500k</text>
+
+  <!-- FieldSignal pay-per-use TOTAL COST BAND: $200/call (lower) to $800/call (upper), from published tiers.
+       Lower $200/call: (110,470) -> (810,369.3 = $50k @ 250 calls). Upper $800/call: (110,470) -> (635,168 = $150k @ 187.5 calls),
+       clipped along the chart top to the right edge. Flat paper-2 tint, no gradient. -->
+  <polygon points="110,470 635,168 810,168 810,369.3" fill="#E8E4D5"/>
+  <line x1="110" y1="470" x2="810" y2="369.3" stroke="#161613" stroke-width="1.25"/>
+  <line x1="110" y1="470" x2="635" y2="168" stroke="#161613" stroke-width="1.25"/>
+  <text x="300" y="398" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">FIELDSIGNAL — PAY-PER-USE</text>
+  <text x="300" y="412" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 TO $800 PER CALL</text>
+  <text x="495" y="242" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$800 · C-SUITE CALL</text>
+  <text x="800" y="440" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">$200 · STANDARD CALL</text>
+
+  <!-- AlphaSense subscription: flat annual averages — thin dashed ink-2 (differentiated by weight/style, not colour) -->
+  <line x1="110" y1="218.1" x2="810" y2="218.1" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="808" y="200" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">ALPHASENSE ENTERPRISE AVG</text>
+  <text x="808" y="214" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">$125,124 / YEAR</text>
+
+  <line x1="110" y1="379.9" x2="810" y2="379.9" stroke="#5A5852" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="730" y="361.9" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">ALPHASENSE SMB AVG</text>
+  <text x="730" y="375.9" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">$44,754 / YEAR</text>
+
+  <!-- Crossover of the top ($800) rate with the SMB average, at ~56 calls ($44,754 / $800) -->
+  <circle cx="266.6" cy="379.9" r="4.5" fill="#161613"/>
+  <line x1="266.6" y1="379.9" x2="266.6" y2="470" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="126" y="330" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">BELOW ~56 CALLS A YEAR,</text>
+  <text x="126" y="344" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">PAY-PER-USE COSTS LESS</text>
+
+  <!-- X axis title -->
+  <text x="460" y="514" text-anchor="middle" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">EXPERT CALLS PER YEAR</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · AlphaSense 2026 contract averages · FieldSignal rates per /pricing</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="ai-vs-human-research-when-each-approach-wins-t ai-vs-human-research-when-each-approach-wins-d">
+  <title id="ai-vs-human-research-when-each-approach-wins-t">AI vs human research: scorecard on speed, insight and cost</title>
+  <desc id="ai-vs-human-research-when-each-approach-wins-d">Illustrative scorecard comparing AI research tools and human expert research across seven criteria. AI scores on speed, delivering initial analysis in hours rather than weeks, on processing terabytes without fatigue, and on low marginal cost per query. Human research scores on non-public insider context, on judgment that reads the subtext, on cross-verification by credentialed experts, and on current-week market reads. AI is five times more likely than human experts to oversimplify details. Senior experts at large networks run $1,200 to $1,350 per hour.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · AI VS HUMAN RESEARCH SCORECARD</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">AI vs human research: where each wins</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">AI wins on speed and scale. Humans win on context and judgment.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Scorecard header band ===== -->
+  <rect x="40" y="158" width="800" height="34" fill="#E8E4D5"/>
+  <text x="52" y="179" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">CRITERION</text>
+  <text x="532" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.1em">AI RESEARCH</text>
+  <text x="737" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.1em">HUMAN RESEARCH</text>
+  <line x1="40" y1="192" x2="840" y2="192" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="430" y1="158" x2="430" y2="486" stroke="#161613" stroke-opacity="0.12"/>
+  <line x1="635" y1="158" x2="635" y2="486" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Criterion labels -->
+  <g class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">
+    <text x="52" y="214">SPEED TO FIRST ANSWER</text>
+    <text x="52" y="256">VOLUME OF DATA HANDLED</text>
+    <text x="52" y="298">NON-PUBLIC INSIGHT</text>
+    <text x="52" y="340">CONTEXT AND JUDGMENT</text>
+    <text x="52" y="382">DETAIL ACCURACY</text>
+    <text x="52" y="424">CURRENT-WEEK MARKET READ</text>
+    <text x="52" y="466">COST TO SCALE UP</text>
+  </g>
+
+  <!-- Verdict phrases -->
+  <g class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="532" y="220">HOURS, NOT WEEKS</text>
+    <text x="737" y="220">DAYS TO WEEKS</text>
+    <text x="532" y="262">TERABYTES, NO FATIGUE</text>
+    <text x="737" y="262">VOLUME CONSTRAINED</text>
+    <text x="532" y="304">PUBLIC SOURCES ONLY</text>
+    <text x="737" y="304">INSIDER CONTEXT</text>
+    <text x="532" y="346">MISSES NUANCE</text>
+    <text x="737" y="346">READS THE SUBTEXT</text>
+    <text x="532" y="388">OVERSIMPLIFIES 5x MORE</text>
+    <text x="737" y="388">EXPERTS CROSS-VERIFY</text>
+    <text x="532" y="430">TRAINING DATA LAGS</text>
+    <text x="737" y="430">KNOWS LAST WEEK</text>
+    <text x="532" y="472">LOW MARGINAL COST</text>
+    <text x="737" y="472">$1,200-$1,350/HR SENIOR</text>
+  </g>
+
+  <!-- Strong marks: heavy ink check -->
+  <g fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square">
+    <path d="M 526 202 l 4.5 5 l 8 -11"/>
+    <path d="M 526 244 l 4.5 5 l 8 -11"/>
+    <path d="M 731 286 l 4.5 5 l 8 -11"/>
+    <path d="M 731 328 l 4.5 5 l 8 -11"/>
+    <path d="M 731 370 l 4.5 5 l 8 -11"/>
+    <path d="M 731 412 l 4.5 5 l 8 -11"/>
+    <path d="M 526 454 l 4.5 5 l 8 -11"/>
+  </g>
+
+  <!-- Weak / partial marks: thin ink-3 dash -->
+  <g stroke="#8B8980" stroke-width="1">
+    <line x1="730" y1="202" x2="744" y2="202"/>
+    <line x1="730" y1="244" x2="744" y2="244"/>
+    <line x1="525" y1="286" x2="539" y2="286"/>
+    <line x1="525" y1="328" x2="539" y2="328"/>
+    <line x1="525" y1="370" x2="539" y2="370"/>
+    <line x1="525" y1="412" x2="539" y2="412"/>
+    <line x1="730" y1="454" x2="744" y2="454"/>
+  </g>
+
+  <!-- Row hairlines -->
+  <g stroke="#161613" stroke-opacity="0.12">
+    <line x1="40" y1="234" x2="840" y2="234"/>
+    <line x1="40" y1="276" x2="840" y2="276"/>
+    <line x1="40" y1="318" x2="840" y2="318"/>
+    <line x1="40" y1="360" x2="840" y2="360"/>
+    <line x1="40" y1="402" x2="840" y2="402"/>
+    <line x1="40" y1="444" x2="840" y2="444"/>
+    <line x1="40" y1="486" x2="840" y2="486"/>
+  </g>
+
+  <!-- Who wins for whom -->
+  <text x="440" y="506" text-anchor="middle" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">MARKET SIZING AND SCANS: AI · DILIGENCE AND VALIDATION: HUMANS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · senior rates at large networks per post sources</text>
+</svg>

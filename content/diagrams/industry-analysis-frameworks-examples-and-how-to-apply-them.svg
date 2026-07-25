@@ -1,0 +1,106 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="industry-analysis-frameworks-examples-and-how-to-apply-them-t industry-analysis-frameworks-examples-and-how-to-apply-them-d">
+  <title id="industry-analysis-frameworks-examples-and-how-to-apply-them-t">A repeatable industry analysis process: five steps and four frameworks</title>
+  <desc id="industry-analysis-frameworks-examples-and-how-to-apply-them-d">Illustrative framework diagram. A row of five numbered steps runs left to right: define scope, collect secondary data, gather primary insight, apply frameworks, set strategy. Step three is tinted because it is where primary evidence enters. An ink hairline arrow drops from step four into a second row of four framework boxes: Porter's Five Forces, PESTEL, industry life cycle and value chain analysis, each with the question it answers and a worked example from the post.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · FIVE-STEP PROCESS AND FOUR FRAMEWORKS</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">A repeatable industry analysis process</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Define scope, build the fact base, then apply frameworks to the evidence.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Row A label ===== -->
+  <text x="40" y="174" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">PROCESS · RUN THE STEPS IN ORDER</text>
+
+  <!-- ===== Row A: five steps. Boxes 148 wide, 15 gutter, x 40/203/366/529/692, y 184..282 ===== -->
+  <!-- 01 -->
+  <rect x="40" y="184" width="148" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="53" y="209" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.08em">01</text>
+  <text x="53" y="233" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">DEFINE SCOPE</text>
+  <text x="53" y="255" class="sans ink2" font-size="12">Product, geography,</text>
+  <text x="53" y="269" class="sans ink2" font-size="12">segment, horizon.</text>
+
+  <!-- 02 -->
+  <rect x="203" y="184" width="148" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="216" y="209" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.08em">02</text>
+  <text x="216" y="233" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">SECONDARY DATA</text>
+  <text x="216" y="255" class="sans ink2" font-size="12">Filings, broker</text>
+  <text x="216" y="269" class="sans ink2" font-size="12">research, trade data.</text>
+
+  <!-- 03 — tinted: where primary evidence enters -->
+  <rect x="366" y="184" width="148" height="98" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="379" y="209" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.08em">03</text>
+  <text x="379" y="233" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">PRIMARY INSIGHT</text>
+  <text x="379" y="255" class="sans ink2" font-size="12">Ex-operators, buyers,</text>
+  <text x="379" y="269" class="sans ink2" font-size="12">suppliers, channel.</text>
+
+  <!-- 04 -->
+  <rect x="529" y="184" width="148" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="542" y="209" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.08em">04</text>
+  <text x="542" y="233" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">APPLY FRAMEWORKS</text>
+  <text x="542" y="255" class="sans ink2" font-size="12">Rate each force high,</text>
+  <text x="542" y="269" class="sans ink2" font-size="12">medium or low.</text>
+
+  <!-- 05 -->
+  <rect x="692" y="184" width="148" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="705" y="209" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.08em">05</text>
+  <text x="705" y="233" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">SET STRATEGY</text>
+  <text x="705" y="255" class="sans ink2" font-size="12">Convert to 3-5</text>
+  <text x="705" y="269" class="sans ink2" font-size="12">clear implications.</text>
+
+  <!-- Tint key, placed directly under step 03 -->
+  <text x="366" y="302" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">TINTED · WHERE EVIDENCE ENTERS</text>
+
+  <!-- Connector: step 04 expands into the framework row -->
+  <line x1="603" y1="282" x2="603" y2="306" stroke="#161613" stroke-width="1"/>
+  <polygon points="603,314 598.5,305 607.5,305" fill="#161613"/>
+
+  <!-- ===== Row B label ===== -->
+  <text x="40" y="334" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">STEP 04 · THE FOUR CORE FRAMEWORKS</text>
+
+  <!-- ===== Row B: four frameworks. Boxes 188 wide, 16 gutter, x 40/244/448/652, y 344..442 ===== -->
+  <rect x="40" y="344" width="188" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="53" y="369" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">PORTER'S FIVE FORCES</text>
+  <text x="53" y="391" class="sans ink2" font-size="12">Whether forces support</text>
+  <text x="53" y="405" class="sans ink2" font-size="12">attractive margins.</text>
+  <text x="53" y="428" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">EX · US TELEHEALTH</text>
+
+  <rect x="244" y="344" width="188" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="257" y="369" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">PESTEL</text>
+  <text x="257" y="391" class="sans ink2" font-size="12">Which external macro</text>
+  <text x="257" y="405" class="sans ink2" font-size="12">factors matter.</text>
+  <text x="257" y="428" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">EX · EU EV CHARGING</text>
+
+  <rect x="448" y="344" width="188" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="461" y="369" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">INDUSTRY LIFE CYCLE</text>
+  <text x="461" y="391" class="sans ink2" font-size="12">Introduction, growth,</text>
+  <text x="461" y="405" class="sans ink2" font-size="12">maturity or decline.</text>
+  <text x="461" y="428" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">EX · PLANT-BASED FOOD</text>
+
+  <rect x="652" y="344" width="188" height="98" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="665" y="369" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">VALUE CHAIN</text>
+  <text x="665" y="391" class="sans ink2" font-size="12">Where margin and</text>
+  <text x="665" y="405" class="sans ink2" font-size="12">advantage actually sit.</text>
+  <text x="665" y="428" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">EX · SMARTPHONES</text>
+
+  <!-- Closing statement -->
+  <line x1="40" y1="472" x2="840" y2="472" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="494" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.06em">FRAMEWORKS ARE ONLY AS GOOD AS THE INPUTS</text>
+  <text x="840" y="494" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">SECONDARY DATA IS OFTEN OUTDATED</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · framework labels and examples per the guide</text>
+</svg>

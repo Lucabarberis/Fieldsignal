@@ -1,0 +1,113 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="alphasense-vs-pitchbook-which-one-wins-for-your-workflow-t alphasense-vs-pitchbook-which-one-wins-for-your-workflow-d">
+  <title id="alphasense-vs-pitchbook-which-one-wins-for-your-workflow-t">AlphaSense vs PitchBook: seven-criterion scorecard</title>
+  <desc id="alphasense-vs-pitchbook-which-one-wins-for-your-workflow-d">Illustrative scorecard. Seven criteria scored across AlphaSense and PitchBook. AlphaSense takes content source breadth with over 10,000 sources, AI search across text, expert call content with over 260,000 past transcripts and entry price with no annual minimum. PitchBook takes private market deal data with 2.9 million plus deal records and day-one ease of use, but costs about $15k to $20k per seat a year. Integrations and export are a tie.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · SEVEN-CRITERION SCORECARD</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">AlphaSense vs PitchBook</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">AlphaSense wins on content breadth and AI search. PitchBook wins on deal data.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Scorecard: criterion x 40..430, column A x 430..635, column B x 635..840 ===== -->
+  <!-- Header band -->
+  <rect x="40" y="158" width="800" height="34" fill="#E8E4D5"/>
+  <text x="52" y="179" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">CRITERION</text>
+  <text x="532" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">ALPHASENSE</text>
+  <text x="737" y="179" text-anchor="middle" class="mono ink" font-size="12" font-weight="600" letter-spacing="0.06em">PITCHBOOK</text>
+  <line x1="40" y1="192" x2="840" y2="192" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Column dividers -->
+  <line x1="430" y1="158" x2="430" y2="500" stroke="#161613" stroke-opacity="0.12"/>
+  <line x1="635" y1="158" x2="635" y2="500" stroke="#161613" stroke-opacity="0.12"/>
+
+  <!-- Criterion labels -->
+  <g class="mono ink" font-size="11" font-weight="500" letter-spacing="0.06em">
+    <text x="52" y="214">CONTENT SOURCE BREADTH</text>
+    <text x="52" y="258">PRIVATE MARKET DEAL DATA</text>
+    <text x="52" y="302">AI SEARCH ACROSS TEXT</text>
+    <text x="52" y="346">EXPERT CALL CONTENT</text>
+    <text x="52" y="390">ENTRY PRICE AND COMMITMENT</text>
+    <text x="52" y="434">DAY-ONE EASE OF USE</text>
+    <text x="52" y="478">INTEGRATIONS AND EXPORT</text>
+  </g>
+
+  <!-- Verdict phrases (mark above, phrase below — consistent down the grid) -->
+  <g class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="532" y="220">10,000+ SOURCES</text>
+    <text x="737" y="220">THINNER QUALITATIVE MIX</text>
+
+    <text x="532" y="264">~410k M&amp;A DEALS</text>
+    <text x="737" y="264">2.9M+ DEAL RECORDS</text>
+
+    <text x="532" y="308">CITED GENERATIVE SEARCH</text>
+    <text x="737" y="308">STRONGER AT PREDICTION</text>
+
+    <text x="532" y="352">260k PAST TRANSCRIPTS</text>
+    <text x="737" y="352">NO EXPERT CALLS</text>
+
+    <text x="532" y="396">UNDISCLOSED, NO MINIMUM</text>
+    <text x="737" y="396">~$15k-$20k PER SEAT / YR</text>
+
+    <text x="532" y="440">REAL LEARNING CURVE</text>
+    <text x="737" y="440">INTUITIVE FOR DEAL TEAMS</text>
+
+    <text x="532" y="484">API, M365, EXCEL ADD-IN</text>
+    <text x="737" y="484">API, EXCEL, CRM, CHROME</text>
+  </g>
+
+  <!-- Row 1: content source breadth — AlphaSense strong -->
+  <path d="M 526 202 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="730" y1="202" x2="744" y2="202" stroke="#8B8980" stroke-width="1"/>
+
+  <!-- Row 2: private market deal data — PitchBook strong -->
+  <line x1="525" y1="246" x2="539" y2="246" stroke="#8B8980" stroke-width="1"/>
+  <path d="M 731 246 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+
+  <!-- Row 3: AI search across text — AlphaSense strong -->
+  <path d="M 526 290 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="730" y1="290" x2="744" y2="290" stroke="#8B8980" stroke-width="1"/>
+
+  <!-- Row 4: expert call content — AlphaSense strong, PitchBook absent -->
+  <path d="M 526 334 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="730" y1="334" x2="744" y2="334" stroke="#8B8980" stroke-width="1"/>
+
+  <!-- Row 5: entry price and commitment — AlphaSense strong -->
+  <path d="M 526 378 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="730" y1="378" x2="744" y2="378" stroke="#8B8980" stroke-width="1"/>
+
+  <!-- Row 6: day-one ease of use — PitchBook strong -->
+  <line x1="525" y1="422" x2="539" y2="422" stroke="#8B8980" stroke-width="1"/>
+  <path d="M 731 422 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+
+  <!-- Row 7: integrations and export — tie, both strong -->
+  <path d="M 526 466 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M 731 466 l 4.5 5 l 8 -11" fill="none" stroke="#161613" stroke-width="2.2" stroke-linecap="square"/>
+
+  <!-- Row hairlines -->
+  <g stroke="#161613" stroke-opacity="0.12">
+    <line x1="40" y1="236" x2="840" y2="236"/>
+    <line x1="40" y1="280" x2="840" y2="280"/>
+    <line x1="40" y1="324" x2="840" y2="324"/>
+    <line x1="40" y1="368" x2="840" y2="368"/>
+    <line x1="40" y1="412" x2="840" y2="412"/>
+    <line x1="40" y1="456" x2="840" y2="456"/>
+    <line x1="40" y1="500" x2="840" y2="500"/>
+  </g>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · vendor-stated coverage · public pricing data</text>
+</svg>

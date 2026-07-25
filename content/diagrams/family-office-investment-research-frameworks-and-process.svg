@@ -1,0 +1,127 @@
+<svg class="fs-diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-labelledby="family-office-investment-research-frameworks-and-process-t family-office-investment-research-frameworks-and-process-d">
+  <title id="family-office-investment-research-frameworks-and-process-t">Family office diligence in five stages</title>
+  <desc id="family-office-investment-research-frameworks-and-process-d">Illustrative framework diagram. Five hairline boxes run left to right: intake and triage, where over 90% of inbound deals are rejected; a values screen built on exclusion lists; deep research with 3 to 5 expert calls over 4 to 8 weeks; background work covering 7 to 10+ years of history; and an investment memo with a principal-led decision. Stages 03 and 04 are tinted to mark where external research plugs in. A timeline below shows a typical cycle of 3 to 5 months inside a full range of 2 to 6 months.</desc>
+  <style>
+    .fs-diagram .sans { font-family: var(--font-sans, 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif); }
+    .fs-diagram .mono { font-family: var(--font-mono, 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace); }
+    .fs-diagram .ink { fill: var(--color-ink, #161613); } .fs-diagram .ink2 { fill: var(--color-ink-2, #5A5852); } .fs-diagram .ink3 { fill: var(--color-ink-3, #8B8980); }
+    .fs-diagram .red { fill: var(--color-red, #D8312A); } .fs-diagram .blue { fill: var(--color-brand, #0080FF); }
+  </style>
+
+  <!-- Canvas: paper (never white) -->
+  <rect x="0" y="0" width="880" height="560" fill="#F2EFE6"/>
+
+  <!-- Masthead index + title -->
+  <text x="40" y="52" class="mono red" font-size="11" font-weight="600" letter-spacing="0.12em">01</text>
+  <text x="66" y="52" class="mono ink3" font-size="11" font-weight="500" letter-spacing="0.12em">/ ILLUSTRATIVE · FIVE-STAGE DILIGENCE PROCESS</text>
+  <text x="40" y="92" class="sans ink" font-size="30" font-weight="500" letter-spacing="-0.022em">Family office diligence in five stages</text>
+  <text x="40" y="120" class="sans ink2" font-size="15">Over 90% of inbound deals stop at the first screen. A cycle runs 3 to 5 months.</text>
+
+  <!-- Hairline rule under header -->
+  <line x1="40" y1="138" x2="840" y2="138" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- ===== Stage boxes: y 170..370, five columns 148 wide, 15px gutters ===== -->
+  <!-- Stage 01 -->
+  <rect x="40" y="170" width="148" height="200" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="54" y="194" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.1em">01</text>
+  <line x1="54" y1="204" x2="174" y2="204" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="226" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">INTAKE + TRIAGE</text>
+  <text x="54" y="250" class="sans ink2" font-size="12">Check the pitch</text>
+  <text x="54" y="266" class="sans ink2" font-size="12">against mandate</text>
+  <text x="54" y="282" class="sans ink2" font-size="12">filters, then cut.</text>
+  <line x1="54" y1="322" x2="174" y2="322" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="54" y="342" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">OVER 90% REJECTED</text>
+
+  <!-- Stage 02 -->
+  <rect x="203" y="170" width="148" height="200" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="217" y="194" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.1em">02</text>
+  <line x1="217" y1="204" x2="337" y2="204" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="217" y="226" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">VALUES SCREEN</text>
+  <text x="217" y="250" class="sans ink2" font-size="12">Overlay mission,</text>
+  <text x="217" y="266" class="sans ink2" font-size="12">exclusion lists</text>
+  <text x="217" y="282" class="sans ink2" font-size="12">and time horizon.</text>
+  <line x1="217" y1="322" x2="337" y2="322" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="217" y="342" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">EXCLUSION LISTS</text>
+
+  <!-- Stage 03 — tinted: outside research plugs in -->
+  <rect x="366" y="170" width="148" height="200" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="380" y="194" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.1em">03</text>
+  <line x1="380" y1="204" x2="500" y2="204" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="380" y="226" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">DEEP RESEARCH</text>
+  <text x="380" y="250" class="sans ink2" font-size="12">Data rooms, models</text>
+  <text x="380" y="266" class="sans ink2" font-size="12">and expert calls.</text>
+  <text x="380" y="282" class="sans ink2" font-size="12">Runs 4 to 8 weeks.</text>
+  <line x1="380" y1="322" x2="500" y2="322" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="380" y="342" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">3 TO 5 EXPERTS</text>
+
+  <!-- Stage 04 — tinted: outside research plugs in -->
+  <rect x="529" y="170" width="148" height="200" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="543" y="194" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.1em">04</text>
+  <line x1="543" y1="204" x2="663" y2="204" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="543" y="226" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">BACKGROUND WORK</text>
+  <text x="543" y="250" class="sans ink2" font-size="12">Call ex-colleagues</text>
+  <text x="543" y="266" class="sans ink2" font-size="12">and customers to</text>
+  <text x="543" y="282" class="sans ink2" font-size="12">test people risk.</text>
+  <line x1="543" y1="322" x2="663" y2="322" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="543" y="342" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">7 TO 10+ YEARS</text>
+
+  <!-- Stage 05 -->
+  <rect x="692" y="170" width="148" height="200" fill="#F2EFE6" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <text x="706" y="194" class="mono ink" font-size="13" font-weight="600" letter-spacing="0.1em">05</text>
+  <line x1="706" y1="204" x2="826" y2="204" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="706" y="226" class="mono ink" font-size="11" font-weight="600" letter-spacing="0.04em">MEMO + DECISION</text>
+  <text x="706" y="250" class="sans ink2" font-size="12">Memo covers risk,</text>
+  <text x="706" y="266" class="sans ink2" font-size="12">values fit and</text>
+  <text x="706" y="282" class="sans ink2" font-size="12">people quality.</text>
+  <line x1="706" y1="322" x2="826" y2="322" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="706" y="342" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">PRINCIPAL-LED</text>
+
+  <!-- Flow: small solid ink triangles in each gutter -->
+  <polygon points="192,265 199,270 192,275" fill="#161613"/>
+  <polygon points="355,265 362,270 355,275" fill="#161613"/>
+  <polygon points="518,265 525,270 518,275" fill="#161613"/>
+  <polygon points="681,265 688,270 681,275" fill="#161613"/>
+
+  <!-- Bracket under the two tinted stages -->
+  <line x1="366" y1="376" x2="366" y2="382" stroke="#161613" stroke-opacity="0.28"/>
+  <line x1="677" y1="376" x2="677" y2="382" stroke="#161613" stroke-opacity="0.28"/>
+  <line x1="366" y1="382" x2="677" y2="382" stroke="#161613" stroke-opacity="0.28"/>
+  <text x="521" y="400" text-anchor="middle" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">WHERE EXTERNAL RESEARCH PLUGS IN</text>
+
+  <!-- ===== Cycle length: months axis, month 0 at x=46, 130px per month ===== -->
+  <text x="436" y="432" class="mono ink" font-size="10" font-weight="600" letter-spacing="0.06em">TYPICAL · 3 TO 5 MONTHS</text>
+  <text x="826" y="432" text-anchor="end" class="mono ink2" font-size="10" font-weight="500" letter-spacing="0.06em">FULL RANGE · 2 TO 6 MONTHS</text>
+
+  <!-- Full range 2..6 months: thin dashed hairline box (style, not colour) -->
+  <rect x="306" y="438" width="520" height="26" fill="none" stroke="#161613" stroke-opacity="0.28" stroke-width="1" stroke-dasharray="5 4"/>
+  <!-- Typical 3..5 months: flat paper-2 band -->
+  <rect x="436" y="438" width="260" height="26" fill="#E8E4D5" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- Axis -->
+  <line x1="46" y1="464" x2="826" y2="464" stroke="#161613" stroke-opacity="0.28" stroke-width="1"/>
+  <g stroke="#161613" stroke-opacity="0.28">
+    <line x1="46" y1="464" x2="46" y2="470"/>
+    <line x1="176" y1="464" x2="176" y2="470"/>
+    <line x1="306" y1="464" x2="306" y2="470"/>
+    <line x1="436" y1="464" x2="436" y2="470"/>
+    <line x1="566" y1="464" x2="566" y2="470"/>
+    <line x1="696" y1="464" x2="696" y2="470"/>
+    <line x1="826" y1="464" x2="826" y2="470"/>
+  </g>
+  <g class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em" text-anchor="middle">
+    <text x="46" y="484">0</text>
+    <text x="176" y="484">1</text>
+    <text x="306" y="484">2</text>
+    <text x="436" y="484">3</text>
+    <text x="566" y="484">4</text>
+    <text x="696" y="484">5</text>
+    <text x="826" y="484">6</text>
+  </g>
+  <text x="40" y="504" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.12em">ELAPSED MONTHS FROM FIRST CONTACT</text>
+  <text x="840" y="504" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">3 TO 5 SUBSTANTIVE MEETINGS</text>
+
+  <!-- Footer: hairline + wordmark (blue = identity only) + source note -->
+  <line x1="40" y1="534" x2="840" y2="534" stroke="#161613" stroke-opacity="0.12"/>
+  <text x="40" y="552" class="sans blue" font-size="15" font-weight="900" letter-spacing="0.02em">FIELDSIGNAL</text>
+  <text x="840" y="552" text-anchor="end" class="mono ink3" font-size="10" font-weight="500" letter-spacing="0.06em">Illustrative · stage figures as stated in this article</text>
+</svg>
