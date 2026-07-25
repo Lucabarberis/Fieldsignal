@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: cs.title,
     description:
       cs.description.length > 160 ? `${cs.description.slice(0, 157)}…` : cs.description,
-    path: `/case-studies/${slug}`,
+    path: `/resources/case-studies/${slug}`,
   });
 }
 
@@ -49,8 +49,9 @@ export default async function CaseStudyPage({ params }: Props) {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "/" },
-          { name: "Case Studies", url: "/case-studies" },
-          { name: cs.name, url: `/case-studies/${slug}` },
+          { name: "Resources", url: "/resources" },
+          { name: "Case Studies", url: "/resources/case-studies" },
+          { name: cs.name, url: `/resources/case-studies/${slug}` },
         ]}
       />
 
@@ -168,7 +169,7 @@ export default async function CaseStudyPage({ params }: Props) {
                   name={r.name}
                   meta={<b className="text-ink">{r.fundProfile}</b>}
                   cta="Read study"
-                  href={`/case-studies/${r.slug}`}
+                  href={`/resources/case-studies/${r.slug}`}
                   updated={r.timeline}
                 >
                   <p>{r.oneLiner}</p>

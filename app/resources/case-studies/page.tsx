@@ -12,7 +12,7 @@ export const metadata = pageMetadata({
   title: "Case Studies - Expert Research for Investors",
   description:
     "Anonymised case studies from FieldSignal engagements with venture capital and private equity funds — diligence, market sizing, references and CDD.",
-  path: "/case-studies",
+  path: "/resources/case-studies",
 });
 
 export default function CaseStudiesHubPage() {
@@ -25,7 +25,8 @@ export default function CaseStudiesHubPage() {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "/" },
-          { name: "Case Studies", url: "/case-studies" },
+          { name: "Resources", url: "/resources" },
+          { name: "Case Studies", url: "/resources/case-studies" },
         ]}
       />
 
@@ -67,7 +68,7 @@ export default function CaseStudiesHubPage() {
                     name={cs.name}
                     meta={<b className="text-ink">{cs.fundProfile}</b>}
                     cta="Read study"
-                    href={`/case-studies/${cs.slug}`}
+                    href={`/resources/case-studies/${cs.slug}`}
                     updated={cs.timeline}
                   >
                     <p>{cs.oneLiner}</p>

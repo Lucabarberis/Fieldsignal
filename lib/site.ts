@@ -94,6 +94,7 @@ export const NAV_PREVIEWS: Record<
     blurb: "Guides, the research glossary, and the FieldSignal blog.",
     sublinks: [
       { href: "/resources/blog", label: "Blog" },
+      { href: "/resources/case-studies", label: "Case Studies" },
       { href: "/resources/guides", label: "Guides" },
       { href: "/resources/glossary", label: "Glossary" },
     ],
@@ -104,7 +105,6 @@ export const FOOTER_LINKS = [
   { href: "/about", label: "About" },
   { href: "/team", label: "Team" },
   { href: "/clients", label: "Clients" },
-  { href: "/case-studies", label: "Case Studies" },
   { href: "/use-cases", label: "Use Cases" },
   { href: "/platform", label: "Platform" },
   { href: "/regions", label: "Regions" },
@@ -113,6 +113,7 @@ export const FOOTER_LINKS = [
   { href: "/transcripts", label: "Transcripts" },
   { href: "/tools/expert-network-cost-estimator", label: "Cost Estimator" },
   { href: "/experts", label: "For Experts" },
+  { href: "/resources/case-studies", label: "Case Studies" },
   { href: "/resources/guides", label: "Guides" },
   { href: "/resources/glossary", label: "Glossary" },
   { href: "/contact", label: "Contact" },

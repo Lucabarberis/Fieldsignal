@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
+import { CONTENT_MODIFIED } from "@/content/data/content-modified";
 import { getAllPosts } from "@/lib/posts";
 import { services } from "@/content/data/services";
 import { industries } from "@/content/data/industries";
@@ -62,7 +63,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE.url}/services`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/industries`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/clients`, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE.url}/case-studies`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE.url}/resources/case-studies`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/resources`, changeFrequency: "weekly", priority: 0.8 },
     {
       url: `${SITE.url}/resources/blog`,
@@ -114,84 +115,98 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const serviceRoutes: MetadataRoute.Sitemap = services.map((s) => ({
     url: `${SITE.url}/services/${s.slug}`,
+    lastModified: CONTENT_MODIFIED.services ? new Date(CONTENT_MODIFIED.services) : undefined,
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const industryRoutes: MetadataRoute.Sitemap = industries.map((i) => ({
     url: `${SITE.url}/industries/${i.slug}`,
+    lastModified: CONTENT_MODIFIED.industries ? new Date(CONTENT_MODIFIED.industries) : undefined,
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const subnicheRoutes: MetadataRoute.Sitemap = industrySubniches.map((s) => ({
     url: `${SITE.url}/industries/${s.parentSlug}/${s.slug}`,
+    lastModified: CONTENT_MODIFIED.subniches ? new Date(CONTENT_MODIFIED.subniches) : undefined,
     changeFrequency: "monthly",
     priority: 0.75,
   }));
 
   const clientRoutes: MetadataRoute.Sitemap = clients.map((c) => ({
     url: `${SITE.url}/clients/${c.slug}`,
+    lastModified: CONTENT_MODIFIED.clients ? new Date(CONTENT_MODIFIED.clients) : undefined,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const caseStudyRoutes: MetadataRoute.Sitemap = caseStudies.map((cs) => ({
-    url: `${SITE.url}/case-studies/${cs.slug}`,
+    url: `${SITE.url}/resources/case-studies/${cs.slug}`,
+    lastModified: CONTENT_MODIFIED.caseStudies ? new Date(CONTENT_MODIFIED.caseStudies) : undefined,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const complianceSubRoutes: MetadataRoute.Sitemap = complianceSubs.map((c) => ({
     url: `${SITE.url}/compliance/${c.slug}`,
+    lastModified: CONTENT_MODIFIED.complianceSubs ? new Date(CONTENT_MODIFIED.complianceSubs) : undefined,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const alternativeRoutes: MetadataRoute.Sitemap = alternatives.map((a) => ({
     url: `${SITE.url}/alternatives/${a.slug}`,
+    lastModified: CONTENT_MODIFIED.alternatives ? new Date(CONTENT_MODIFIED.alternatives) : undefined,
     changeFrequency: "monthly",
     priority: 0.85,
   }));
 
   const compareRoutes: MetadataRoute.Sitemap = compares.map((c) => ({
     url: `${SITE.url}/compare/${c.slug}`,
+    lastModified: CONTENT_MODIFIED.compares ? new Date(CONTENT_MODIFIED.compares) : undefined,
     changeFrequency: "monthly",
     priority: 0.85,
   }));
 
   const useCaseRoutes: MetadataRoute.Sitemap = useCases.map((u) => ({
     url: `${SITE.url}/use-cases/${u.slug}`,
+    lastModified: CONTENT_MODIFIED.useCases ? new Date(CONTENT_MODIFIED.useCases) : undefined,
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const expertRoutes: MetadataRoute.Sitemap = expertPages.map((p) => ({
     url: `${SITE.url}/experts/${p.slug}`,
+    lastModified: CONTENT_MODIFIED.expertPages ? new Date(CONTENT_MODIFIED.expertPages) : undefined,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const guideRoutes: MetadataRoute.Sitemap = guides.map((g) => ({
     url: `${SITE.url}/resources/guides/${g.slug}`,
+    lastModified: CONTENT_MODIFIED.guides ? new Date(CONTENT_MODIFIED.guides) : undefined,
     changeFrequency: "monthly",
     priority: 0.75,
   }));
 
   const glossaryRoutes: MetadataRoute.Sitemap = glossary.map((t) => ({
     url: `${SITE.url}/resources/glossary/${t.slug}`,
+    lastModified: CONTENT_MODIFIED.glossary ? new Date(CONTENT_MODIFIED.glossary) : undefined,
     changeFrequency: "monthly",
     priority: 0.6,
   }));
 
   const platformRoutes: MetadataRoute.Sitemap = platformPages.map((p) => ({
     url: `${SITE.url}/platform/${p.slug}`,
+    lastModified: CONTENT_MODIFIED.platform ? new Date(CONTENT_MODIFIED.platform) : undefined,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
 
   const regionRoutes: MetadataRoute.Sitemap = regions.map((r) => ({
     url: `${SITE.url}/regions/${r.slug}`,
+    lastModified: CONTENT_MODIFIED.regions ? new Date(CONTENT_MODIFIED.regions) : undefined,
     changeFrequency: "monthly",
     priority: 0.7,
   }));

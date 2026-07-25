@@ -9,7 +9,7 @@
  * Wave 1 ships Venture Capital and Private Equity. The `direct` category is
  * reserved for named/consented direct-client studies added later.
  *
- * Hub /case-studies iterates this. /case-studies/[slug] renders the detail.
+ * Hub /resources/case-studies iterates this. /resources/case-studies/[slug] renders the detail.
  *
  * House rule: no engagement prices here. Metrics are operational
  * (calls, turnaround, coverage), never rate cards — pricing lives on /pricing.

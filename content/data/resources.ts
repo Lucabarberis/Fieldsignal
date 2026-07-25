@@ -56,7 +56,7 @@ export const resources: readonly ResourceCategory[] = [
       "Anonymized cases across hedge funds, PE, corporate strategy and startups.",
     cta: "Read case studies",
     href: "/resources/case-studies",
-    available: false,
+    available: true,
     primaryKW: "expert network case studies",
   },
   {
