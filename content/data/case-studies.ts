@@ -1136,7 +1136,7 @@ export const caseStudies: readonly CaseStudy[] = [
   // find which go-to-market channel works, which doesn't and why.
   {
     slug: "gtm-travel-creator-platform",
-    id: "DIRECT-01",
+    id: "GTM-01",
     category: "direct",
     name: "TRAVEL-CREATOR PLATFORM — CHANNEL TEST",
     fundProfile: "Creator platform · travel guides",
@@ -1187,7 +1187,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-ai-fashion-imaging",
-    id: "DIRECT-02",
+    id: "GTM-02",
     category: "direct",
     name: "AI FASHION IMAGING — CHANNEL TEST",
     fundProfile: "Gen-AI SaaS · fashion e-commerce imaging",
@@ -1238,7 +1238,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-self-storage-saas",
-    id: "DIRECT-03",
+    id: "GTM-03",
     category: "direct",
     name: "SELF-STORAGE SAAS — CHANNEL TEST",
     fundProfile: "Vertical SaaS · self-storage operators",
@@ -1289,7 +1289,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-performance-pr-marketplace",
-    id: "DIRECT-04",
+    id: "GTM-04",
     category: "direct",
     name: "PERFORMANCE-PR MARKETPLACE — CHANNEL TEST",
     fundProfile: "Marketplace · pay-per-click PR",
@@ -1340,7 +1340,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-live-lessons-marketplace",
-    id: "DIRECT-05",
+    id: "GTM-05",
     category: "direct",
     name: "LIVE-LESSONS MARKETPLACE — CHANNEL TEST",
     fundProfile: "Marketplace · live expert lessons",
@@ -1391,7 +1391,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-fleet-safety-hardware",
-    id: "DIRECT-06",
+    id: "GTM-06",
     category: "direct",
     name: "FLEET-SAFETY HARDWARE — CHANNEL TEST",
     fundProfile: "Hardware + SaaS · fleet driver safety",
@@ -1442,7 +1442,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-social-rewards-app",
-    id: "DIRECT-07",
+    id: "GTM-07",
     category: "direct",
     name: "SOCIAL REWARDS APP — CHANNEL TEST",
     fundProfile: "Consumer app · social + shop-to-earn rewards",
@@ -1493,7 +1493,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-dtc-wellness-beverage",
-    id: "DIRECT-08",
+    id: "GTM-08",
     category: "direct",
     name: "DTC WELLNESS BEVERAGE — CHANNEL TEST",
     fundProfile: "DTC brand · functional wellness drinks",
@@ -1544,7 +1544,7 @@ export const caseStudies: readonly CaseStudy[] = [
   },
   {
     slug: "gtm-escrow-payments-fintech",
-    id: "DIRECT-09",
+    id: "GTM-09",
     category: "direct",
     name: "ESCROW PAYMENTS FINTECH — CHANNEL TEST",
     fundProfile: "Fintech · escrow for high-value sales",
