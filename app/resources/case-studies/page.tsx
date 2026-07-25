@@ -9,9 +9,9 @@ import { SITE } from "@/lib/site";
 import { caseStudies, CASE_STUDY_CATEGORIES } from "@/content/data/case-studies";
 
 export const metadata = pageMetadata({
-  title: "Case Studies - Expert Research for Investors",
+  title: "Case Studies - Research & Go-To-Market Work",
   description:
-    "Anonymised case studies from FieldSignal engagements with venture capital and private equity funds — diligence, market sizing, references and CDD.",
+    "Anonymised FieldSignal case studies — diligence, market sizing and references for funds, plus go-to-market channel discovery for company clients.",
   path: "/resources/case-studies",
 });
 
@@ -35,9 +35,10 @@ export default function CaseStudiesHubPage() {
         title="Case Studies"
         lede={
           <>
-            How funds put <b>primary research</b> to work — pre-IC diligence, market
-            sizing, off-list references and commercial due diligence. Every study below
-            is an anonymised composite of a typical engagement.
+            How investors and companies put <b>real evidence</b> to work — pre-IC
+            diligence, market sizing and references for funds, and go-to-market channel
+            discovery for company clients. Every study below is an anonymised composite of
+            a typical engagement.
           </>
         }
         meta={[
@@ -94,18 +95,17 @@ export default function CaseStudiesHubPage() {
               work — not a single named mandate.
             </p>
           </Tile>
-          <Tile id="—.2" name="MNPI-SCREENED">
+          <Tile id="—.2" name="SCREENED & MEASURED">
             <p>
-              Every call is scoped and screened for material non-public information
-              before findings reach a deal team. Calls flagged for MNPI risk are
-              excluded entirely.
+              Investor research is scoped and screened for material non-public
+              information before findings land. Growth engagements are measured to
+              qualified pipeline, not vanity metrics.
             </p>
           </Tile>
           <Tile id="—.3" name="SAME STANDARD, ANY SIZE">
             <p>
-              A seed fund and a multi-billion buyout fund get the same compliance
-              framework, the same expert network and the same senior lead. No premium
-              pool, no minimums.
+              A seed-stage founder and a multi-billion fund get the same senior team and
+              the same standard. No premium tier, no minimums.
             </p>
           </Tile>
         </TileGrid>
@@ -114,7 +114,7 @@ export default function CaseStudiesHubPage() {
       <CtaBand
         title={
           <>
-            Have a live deal? <span className="text-red">Brief us.</span>
+            Facing the same question? <span className="text-red">Brief us.</span>
           </>
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}

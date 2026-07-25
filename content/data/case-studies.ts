@@ -94,7 +94,7 @@ export const CASE_STUDY_CATEGORIES: readonly {
     key: "direct",
     label: "Direct Clients",
     num: "07",
-    blurb: "Corporates, consultancies and operating teams commissioning primary research directly. Studies published as they are cleared.",
+    blurb: "Company clients we work with directly. Go-to-market channel discovery — which of outbound, Meta and Google actually works, which doesn't and why.",
   },
 ];
 
