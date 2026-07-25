@@ -135,21 +135,38 @@ export default async function CaseStudyPage({ params }: Props) {
         meta="How this study was produced"
       />
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
-        <p className="text-body text-ink-2">
-          This is a representative, anonymised composite of a typical{" "}
-          {categoryLabel.toLowerCase()} engagement. Client identity is removed and the
-          figures illustrate the format and scale of the work — they are not a record of
-          a single named mandate. Every expert call is scoped to general market knowledge,
-          screened for material non-public information before findings reach a deal team,
-          and documented for audit.{" "}
-          <a
-            href="/compliance"
-            className="text-ink underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors"
-          >
-            See our compliance framework
-          </a>{" "}
-          for full detail.
-        </p>
+        {cs.category === "direct" ? (
+          <p className="text-body text-ink-2">
+            This is a representative, anonymised composite of a go-to-market engagement.
+            The client is described by what it does, never named, and the channel results
+            illustrate the pattern we found rather than one account&apos;s exact figures.
+            Each study reflects real engagement structure — channels tested in parallel and
+            measured to qualified pipeline, not vanity metrics.{" "}
+            <a
+              href="/contact"
+              className="text-ink underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors"
+            >
+              Talk to us about your channel mix
+            </a>
+            .
+          </p>
+        ) : (
+          <p className="text-body text-ink-2">
+            This is a representative, anonymised composite of a typical{" "}
+            {categoryLabel.toLowerCase()} engagement. Client identity is removed and the
+            figures illustrate the format and scale of the work — they are not a record of
+            a single named mandate. Every expert call is scoped to general market knowledge,
+            screened for material non-public information before findings reach a deal team,
+            and documented for audit.{" "}
+            <a
+              href="/compliance"
+              className="text-ink underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors"
+            >
+              See our compliance framework
+            </a>{" "}
+            for full detail.
+          </p>
+        )}
       </div>
 
       {/* ── 07 — Related studies ───────────────────────────────────── */}
