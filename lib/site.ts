@@ -104,6 +104,7 @@ export const FOOTER_LINKS = [
   { href: "/about", label: "About" },
   { href: "/team", label: "Team" },
   { href: "/clients", label: "Clients" },
+  { href: "/case-studies", label: "Case Studies" },
   { href: "/use-cases", label: "Use Cases" },
   { href: "/platform", label: "Platform" },
   { href: "/regions", label: "Regions" },

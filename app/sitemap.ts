@@ -4,6 +4,7 @@ import { getAllPosts } from "@/lib/posts";
 import { services } from "@/content/data/services";
 import { industries } from "@/content/data/industries";
 import { clients } from "@/content/data/clients";
+import { caseStudies } from "@/content/data/case-studies";
 import { complianceSubs } from "@/content/data/compliance-subs";
 import { alternatives } from "@/content/data/alternatives";
 import { compares } from "@/content/data/compare";
@@ -61,6 +62,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE.url}/services`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/industries`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/clients`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE.url}/case-studies`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/resources`, changeFrequency: "weekly", priority: 0.8 },
     {
       url: `${SITE.url}/resources/blog`,
@@ -130,6 +132,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const clientRoutes: MetadataRoute.Sitemap = clients.map((c) => ({
     url: `${SITE.url}/clients/${c.slug}`,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  const caseStudyRoutes: MetadataRoute.Sitemap = caseStudies.map((cs) => ({
+    url: `${SITE.url}/case-studies/${cs.slug}`,
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -229,6 +237,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...industryRoutes,
     ...subnicheRoutes,
     ...clientRoutes,
+    ...caseStudyRoutes,
     ...complianceSubRoutes,
     ...alternativeRoutes,
     ...compareRoutes,
