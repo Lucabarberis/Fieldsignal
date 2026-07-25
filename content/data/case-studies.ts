@@ -92,9 +92,9 @@ export const CASE_STUDY_CATEGORIES: readonly {
   },
   {
     key: "direct",
-    label: "Direct Clients",
+    label: "Go-To-Market",
     num: "07",
-    blurb: "Company clients we work with directly. Go-to-market channel discovery — which of outbound, Meta and Google actually works, which doesn't and why.",
+    blurb: "Company clients we work with directly. We test outbound, Meta and Google to find which channel actually works, which doesn't and why.",
   },
 ];
 
@@ -1131,7 +1131,7 @@ export const caseStudies: readonly CaseStudy[] = [
     primaryKW: "marketplace supply-side validation",
   },
 
-  // ─────────────────────────────── DIRECT CLIENTS ────────────────────────
+  // ─────────────────────────────── GO-TO-MARKET ─────────────────────────
   // Anonymised GTM channel-discovery engagements. Scope is uniform:
   // find which go-to-market channel works, which doesn't and why.
   {
