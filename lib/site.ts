@@ -17,6 +17,15 @@ export const SITE = {
   copyrightYear: 2026,
   /** Public LinkedIn company page — emitted as schema sameAs and linked in the footer. */
   linkedin: "https://www.linkedin.com/company/109816165/",
+  /**
+   * Scheduling link shown under the form on every paid-search landing page.
+   *
+   * PLACEHOLDER — replace with the real Calendly event URL before any ad
+   * campaign goes live. Use the 15-minute scoping event, and turn on
+   * Calendly's UTM/salesforce tracking so the booking carries the same
+   * keyword attribution the form does.
+   */
+  calendly: "https://calendly.com/fieldsignal/15min",
   /** Registered address of the operating entity (Growth Insights Limited). */
   address: {
     street: "Unit 1603, 16/F, The L. Plaza, 367–375 Queen's Road Central, Sheung Wan",

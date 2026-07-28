@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { SITE } from "@/lib/site";
+import { isLandingPageSlug, LANDING_PAGE_BY_SLUG } from "@/lib/landing-pages";
 
 /**
  * Contact form endpoint.
@@ -10,9 +11,24 @@ import { SITE } from "@/lib/site";
  *     (optional — set SHEETS_WEBHOOK_URL to enable)
  *
  * Plain HTML form POST in, 303 redirect out — works without client JS.
+ *
+ * Leads from paid-search landing pages (/lp/*) additionally carry the
+ * keyword that paid for them plus the ad click's tracking parameters, so
+ * cost per lead can be read per keyword rather than blended. Those fields
+ * are absent on the organic /contact form and simply stay empty.
  */
 
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+
+/** Ad-click parameters carried through from the landing page. */
+const TRACKING_FIELDS = [
+  "gclid",
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_term",
+  "landing_path",
+] as const;
 
 export async function POST(request: Request) {
   const form = await request.formData();
@@ -32,6 +48,21 @@ export async function POST(request: Request) {
 
   if (!name || !email || !message || !EMAIL_RE.test(email)) {
     return redirect("/contact?error=invalid");
+  }
+
+  // Attribution. `kw` is only trusted if it names a real landing page —
+  // that keeps arbitrary submitted text out of the notification email and
+  // out of the lead sheet.
+  const kwRaw = String(form.get("kw") ?? "").trim();
+  const kw = isLandingPageSlug(kwRaw) ? kwRaw : "";
+  const keyword = kw ? LANDING_PAGE_BY_SLUG[kw].keyword : "";
+
+  const tracking: Record<string, string> = {};
+  for (const field of TRACKING_FIELDS) {
+    const value = String(form.get(field) ?? "")
+      .trim()
+      .slice(0, 200);
+    if (value) tracking[field] = value;
   }
 
   const apiKey = process.env.RESEND_API_KEY;
@@ -58,7 +89,7 @@ export async function POST(request: Request) {
       from,
       to: [to],
       reply_to: email,
-      subject: `New enquiry: ${name}${company ? `, ${company}` : ""}`,
+      subject: `${kw ? "[Ads] " : ""}New enquiry: ${name}${company ? `, ${company}` : ""}`,
       text: [
         `Name:    ${name}`,
         `Company: ${company || "(not given)"}`,
@@ -67,7 +98,18 @@ export async function POST(request: Request) {
         `Message:`,
         message,
         ``,
-        `Sent from the contact form at ${SITE.url}/contact`,
+        ...(kw
+          ? [
+              `── Paid search ─────────────────────────────`,
+              `Keyword: ${keyword}`,
+              `Page:    ${SITE.url}/lp/${kw}`,
+              ...TRACKING_FIELDS.filter((f) => tracking[f]).map(
+                (f) => `${f.padEnd(8)} ${tracking[f]}`,
+              ),
+              ``,
+            ]
+          : []),
+        `Sent from the contact form at ${SITE.url}${tracking.landing_path ?? "/contact"}`,
       ].join("\n"),
     }),
   });
@@ -138,6 +180,18 @@ export async function POST(request: Request) {
           email,
           message,
           autoReply: autoReplyRecord,
+          // Paid-search attribution. Empty on organic /contact submissions.
+          // NOTE: the Apps Script must be updated to write these to columns —
+          // until then they arrive in the payload but are not recorded.
+          source: kw ? "google-ads" : "organic",
+          keyword,
+          keywordSlug: kw,
+          gclid: tracking.gclid ?? "",
+          utmSource: tracking.utm_source ?? "",
+          utmMedium: tracking.utm_medium ?? "",
+          utmCampaign: tracking.utm_campaign ?? "",
+          utmTerm: tracking.utm_term ?? "",
+          landingPath: tracking.landing_path ?? "",
         }),
       });
     } catch (err) {
@@ -145,5 +199,7 @@ export async function POST(request: Request) {
     }
   }
 
-  return redirect("/contact/thank-you");
+  // Paid-search leads land on the ads thank-you page, which fires the
+  // conversion event and offers the scheduling link as the next step.
+  return redirect(kw ? `/lp/thank-you?kw=${encodeURIComponent(kw)}` : "/contact/thank-you");
 }
