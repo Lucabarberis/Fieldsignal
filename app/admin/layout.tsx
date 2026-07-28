@@ -47,7 +47,7 @@ export default async function AdminLayout({
         </Link>
         <span className="text-ink-3">/</span>
         <Link
-          href="/admin"
+          href="/admin/posts"
           className="text-ink-2 hover:text-ink transition-colors"
         >
           Posts

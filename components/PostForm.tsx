@@ -33,7 +33,7 @@ export function PostForm({ mode, initial, saved, action }: Props) {
           )}
         </div>
         <Link
-          href="/admin"
+          href="/admin/posts"
           className="font-mono text-mono uppercase tracking-[0.14em] text-ink-3 hover:text-ink transition-colors"
         >
           ← All posts

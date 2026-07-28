@@ -21,7 +21,7 @@ type TabDef = {
 };
 
 const TABS: TabDef[] = [
-  { key: "all", label: "All", href: "/admin" },
+  { key: "all", label: "All", href: "/admin/posts" },
   { key: "scheduled", label: "Scheduled", href: "/admin/scheduled" },
   { key: "drafts", label: "Drafts", href: "/admin/drafts" },
 ];

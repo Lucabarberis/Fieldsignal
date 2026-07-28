@@ -82,7 +82,7 @@ export async function deletePostAction(fd: FormData) {
   if (!slug || slug !== raw) throw new Error("Invalid slug");
   await posts.delete(slug);
   revalidatePublicBlog(slug);
-  redirect("/admin");
+  redirect("/admin/posts");
 }
 
 /** Exposed for the form's "Auto-generate slug" feature. */
