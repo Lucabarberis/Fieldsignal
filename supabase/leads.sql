@@ -80,8 +80,22 @@ create index if not exists leads_email_idx
 
 alter table public.leads enable row level security;
 
-drop policy if exists "contact form may insert a lead" on public.leads;
-create policy "contact form may insert a lead"
-  on public.leads for insert
-  to anon, authenticated
-  with check (true);
+-- Postgres has no CREATE POLICY IF NOT EXISTS. The usual way to make a
+-- policy re-runnable is to remove it first and recreate it, but that
+-- makes the Supabase SQL editor flag the whole script as "destructive"
+-- on a keyword scan — alarming, and wrong. Checking the catalogue is
+-- equally re-runnable and contains nothing that can remove anything.
+do $$
+begin
+  if not exists (
+    select 1 from pg_policies
+    where schemaname = 'public'
+      and tablename  = 'leads'
+      and policyname = 'contact form may insert a lead'
+  ) then
+    create policy "contact form may insert a lead"
+      on public.leads for insert
+      to anon, authenticated
+      with check (true);
+  end if;
+end $$;
