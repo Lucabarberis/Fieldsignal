@@ -73,6 +73,9 @@ export interface Lead {
   utmCampaign: string | null;
   utmTerm: string | null;
   landingPath: string | null;
+  fbclid: string | null;
+  /** What they said they need. Null on leads captured before the field existed. */
+  topic: string | null;
   status: LeadStatus;
   meetingAt: string | null;
   notes: string | null;
@@ -96,6 +99,8 @@ export interface LeadInput {
   utmTerm?: string;
   landingPath?: string;
   autoReply?: string;
+  fbclid?: string;
+  topic?: string;
 }
 
 /** One row of the per-keyword rollup — the number the ad test exists to find. */
@@ -131,6 +136,8 @@ function toLead(row: Record<string, unknown>): Lead {
     utmCampaign: (row.utm_campaign as string) ?? null,
     utmTerm: (row.utm_term as string) ?? null,
     landingPath: (row.landing_path as string) ?? null,
+    fbclid: (row.fbclid as string) ?? null,
+    topic: (row.topic as string) ?? null,
     status: (row.status as LeadStatus) ?? "new",
     meetingAt: (row.meeting_at as string) ?? null,
     notes: (row.notes as string) ?? null,
@@ -165,17 +172,21 @@ export const leads = {
       utm_term: input.utmTerm || null,
       landing_path: input.landingPath || null,
       auto_reply: input.autoReply || null,
+      fbclid: input.fbclid || null,
+      topic: input.topic || null,
     };
 
     const { error } = await supabase.from("leads").insert(row);
     if (!error) return;
 
-    // `auto_reply` was added after the table shipped. If this build is
-    // running against a database where supabase/leads-auto-reply.sql has
-    // not been applied yet, drop the field and keep the lead — losing an
-    // enquiry over one nullable column would be an absurd trade.
-    if (error.message.includes("auto_reply")) {
-      delete row.auto_reply;
+    // Columns added after the table first shipped. If this build is running
+    // against a database where the matching migration has not been applied,
+    // drop whichever field Postgres is complaining about and keep the lead
+    // — losing an enquiry over a nullable column would be an absurd trade,
+    // and the notification email is the only backstop underneath.
+    const optional = ["auto_reply", "fbclid", "topic"];
+    if (optional.some((c) => error.message.includes(c))) {
+      for (const c of optional) delete row[c];
       const retry = await supabase.from("leads").insert(row);
       if (!retry.error) return;
       throw new Error(`leads.record failed: ${retry.error.message}`);

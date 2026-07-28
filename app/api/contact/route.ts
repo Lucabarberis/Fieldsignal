@@ -6,6 +6,7 @@ import {
   LANDING_PAGE_BY_SLUG,
 } from "@/lib/landing-pages";
 import { leads } from "@/lib/db/leads";
+import { channelFor } from "@/lib/attribution";
 
 /**
  * Contact form endpoint.
@@ -28,6 +29,7 @@ const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 /** Ad-click parameters carried through from the landing page. */
 const TRACKING_FIELDS = [
   "gclid",
+  "fbclid",
   "utm_source",
   "utm_medium",
   "utm_campaign",
@@ -51,10 +53,10 @@ export async function POST(request: Request) {
   const email = String(form.get("email") ?? "").trim();
   const detail = String(form.get("message") ?? "").trim();
 
-  // Landing pages ask "what are you researching?" as a dropdown and leave
-  // free text optional — one tap instead of a written brief. The organic
-  // /contact form has no topic field and still requires its message, so
-  // neither form can be submitted without saying what it is about.
+  // Both forms ask what the enquiry is about as a dropdown and leave free
+  // text optional — one tap instead of a written brief. Validation below
+  // requires a topic OR a message, so neither form can be submitted
+  // without saying what it is about.
   const topicRaw = String(form.get("topic") ?? "").trim();
   const topic = isLeadTopic(topicRaw) ? topicRaw : "";
 
@@ -62,8 +64,10 @@ export async function POST(request: Request) {
     return redirect("/contact?error=invalid");
   }
 
-  // What gets emailed and stored. The topic leads, detail follows.
-  const message = [topic, detail].filter(Boolean).join("\n\n");
+  // The free text stands alone. Topic is stored in its own column so it
+  // can be grouped — folding it into the message would make it readable
+  // but not countable.
+  const message = detail;
 
   // Attribution. `kw` is only trusted if it names a real landing page —
   // that keeps arbitrary submitted text out of the notification email and
@@ -109,10 +113,9 @@ export async function POST(request: Request) {
         `Name:    ${name}`,
         `Company: ${company || "(not given)"}`,
         `Email:   ${email}`,
+        `Topic:   ${topic || "(not given)"}`,
         ``,
-        `Message:`,
-        message,
-        ``,
+        ...(message ? [`Message:`, message, ``] : []),
         ...(kw
           ? [
               `── Paid search ─────────────────────────────`,
@@ -190,10 +193,12 @@ export async function POST(request: Request) {
       email,
       company,
       message,
-      source: kw ? "google-ads" : "organic",
+      topic,
+      source: channelFor(tracking, kw),
       keyword,
       keywordSlug: kw,
       gclid: tracking.gclid,
+      fbclid: tracking.fbclid,
       utmSource: tracking.utm_source,
       utmMedium: tracking.utm_medium,
       utmCampaign: tracking.utm_campaign,
@@ -219,13 +224,15 @@ export async function POST(request: Request) {
           email,
           message,
           autoReply: autoReplyRecord,
-          // Paid-search attribution. Empty on organic /contact submissions.
-          // NOTE: the Apps Script must be updated to write these to columns —
-          // until then they arrive in the payload but are not recorded.
-          source: kw ? "google-ads" : "organic",
+          topic,
+          // Paid attribution. Empty on organic /contact submissions.
+          // NOTE: the Apps Script maps payload keys to columns by name —
+          // a key with no entry in its FIELDS map arrives but is not written.
+          source: channelFor(tracking, kw),
           keyword,
           keywordSlug: kw,
           gclid: tracking.gclid ?? "",
+          fbclid: tracking.fbclid ?? "",
           utmSource: tracking.utm_source ?? "",
           utmMedium: tracking.utm_medium ?? "",
           utmCampaign: tracking.utm_campaign ?? "",

@@ -36,6 +36,7 @@ const FIELD =
 /** URL params worth carrying through to the lead record. */
 const TRACKED = [
   "gclid",
+  "fbclid",
   "utm_source",
   "utm_medium",
   "utm_campaign",

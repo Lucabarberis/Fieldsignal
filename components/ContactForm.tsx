@@ -1,9 +1,20 @@
 import { SITE } from "@/lib/site";
+import { CONTACT_TOPICS } from "@/lib/landing-pages";
 
 /**
  * Contact form — posts to /api/contact, which emails the enquiry via
- * Resend and (optionally) logs it to a Google Sheet. Plain HTML form,
- * no client JS required.
+ * Resend, logs it to a Google Sheet, and records it in the leads table.
+ * Plain HTML form, no client JS required.
+ *
+ * "How can we help?" used to be a required paragraph. It now leads with a
+ * dropdown and keeps the free text optional: the same information, asked
+ * as a tap rather than an essay. Unlike free text, the answer can be
+ * grouped — which is what makes "what do people actually come here for?"
+ * a question with an answer.
+ *
+ * This list carries one option the landing pages don't: "Joining as an
+ * expert". People apply to join the network through this form constantly,
+ * and without a way to mark them they get counted as sales leads.
  */
 
 const LABEL =
@@ -68,14 +79,34 @@ export function ContactForm() {
           />
         </div>
         <div className="sm:col-span-2">
+          <label htmlFor="cf-topic" className={LABEL}>
+            What can we help with?
+          </label>
+          <select
+            id="cf-topic"
+            name="topic"
+            required
+            defaultValue=""
+            className={`${FIELD} cursor-pointer`}
+          >
+            <option value="" disabled>
+              Choose one…
+            </option>
+            {CONTACT_TOPICS.map((t) => (
+              <option key={t} value={t}>
+                {t}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="sm:col-span-2">
           <label htmlFor="cf-message" className={LABEL}>
-            How can we help?
+            Anything else? <span className="text-ink-3">(optional)</span>
           </label>
           <textarea
             id="cf-message"
             name="message"
-            required
-            rows={5}
+            rows={4}
             placeholder="Industry, role or decision you're researching — a couple of sentences is plenty."
             className={FIELD}
           />

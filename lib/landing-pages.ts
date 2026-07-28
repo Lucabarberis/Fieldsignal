@@ -186,24 +186,42 @@ export const LANDING_PAGES: LandingPage[] = [
 
 /**
  * What the visitor is researching, captured as one tap instead of a
- * written brief. Shared by the form and the API route so the route can
- * reject anything that isn't on this list.
+ * written brief. Shared by both forms and the API route, so the route can
+ * reject anything that isn't on the list.
  *
  * Deliberately short and mutually exclusive — a list long enough to need
  * reading is a list that costs conversions.
  */
-export const LEAD_TOPICS = [
+const RESEARCH_TOPICS = [
   "Commercial due diligence",
   "Customer or channel checks",
   "Market sizing or entry",
   "Competitive intelligence",
+] as const;
+
+/** Shown on paid landing pages. Everyone arriving there is a buyer. */
+export const LEAD_TOPICS = [...RESEARCH_TOPICS, "Something else"] as const;
+
+/**
+ * Shown on /contact, which also collects people who want to JOIN the
+ * network rather than hire from it. Those are supply, not demand — and
+ * counting them as leads would quietly inflate every conversion number
+ * on the site.
+ */
+export const CONTACT_TOPICS = [
+  ...RESEARCH_TOPICS,
+  "Joining as an expert",
   "Something else",
 ] as const;
 
-export type LeadTopic = (typeof LEAD_TOPICS)[number];
+/** Topics that are enquiries but not sales leads. */
+export const NON_LEAD_TOPICS: readonly string[] = ["Joining as an expert"];
 
+export type LeadTopic = (typeof CONTACT_TOPICS)[number];
+
+/** Validation accepts the superset — the route serves both forms. */
 export function isLeadTopic(value: string): value is LeadTopic {
-  return (LEAD_TOPICS as readonly string[]).includes(value);
+  return (CONTACT_TOPICS as readonly string[]).includes(value);
 }
 
 /** Slug → page. Used by the route and by lead tagging. */

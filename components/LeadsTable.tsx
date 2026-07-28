@@ -43,10 +43,12 @@ function allFields(lead: Lead): { label: string; value: string }[] {
     { label: "Name", value: lead.name },
     { label: "Company", value: lead.company ?? "" },
     { label: "Email", value: lead.email },
+    { label: "Topic", value: lead.topic ?? "" },
     { label: "Source", value: lead.source },
     { label: "Keyword", value: lead.keyword ?? "" },
     { label: "Keyword slug", value: lead.keywordSlug ?? "" },
     { label: "GCLID", value: lead.gclid ?? "" },
+    { label: "FBCLID", value: lead.fbclid ?? "" },
     { label: "UTM source", value: lead.utmSource ?? "" },
     { label: "UTM medium", value: lead.utmMedium ?? "" },
     { label: "UTM campaign", value: lead.utmCampaign ?? "" },
@@ -154,18 +156,21 @@ export function LeadsTable({
               </form>
             </div>
 
-            {/* The enquiry itself — always visible. */}
+            {/* What they want — always visible, never behind a toggle. */}
             <div className="px-6 pt-3">
               <p className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                Message
+                What they need
               </p>
-              {lead.message ? (
-                <p className="text-body text-ink whitespace-pre-wrap bg-paper-2 border-l-4 border-rule-2 px-4 py-3 max-w-3xl">
-                  {lead.message}
+              <div className="bg-paper-2 border-l-4 border-rule-2 px-4 py-3 max-w-3xl">
+                <p className="text-body text-ink font-medium">
+                  {lead.topic ?? "(no topic — submitted before this field existed)"}
                 </p>
-              ) : (
-                <p className="text-body text-ink-3">(no message)</p>
-              )}
+                {lead.message && (
+                  <p className="text-body text-ink-2 whitespace-pre-wrap mt-2">
+                    {lead.message}
+                  </p>
+                )}
+              </div>
             </div>
 
             <details className="px-6 py-4 group">
