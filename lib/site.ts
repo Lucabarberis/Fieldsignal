@@ -20,12 +20,11 @@ export const SITE = {
   /**
    * Scheduling link shown under the form on every paid-search landing page.
    *
-   * PLACEHOLDER — replace with the real Calendly event URL before any ad
-   * campaign goes live. Use the 15-minute scoping event, and turn on
-   * Calendly's UTM/salesforce tracking so the booking carries the same
-   * keyword attribution the form does.
+   * The landing-page CTA promises 15 minutes, so the Calendly event must be
+   * set to 15 minutes or the copy is wrong. Turn on Calendly's UTM tracking
+   * too, so a booking carries the same keyword attribution the form does.
    */
-  calendly: "https://calendly.com/fieldsignal/15min",
+  calendly: "https://calendly.com/luca-barberis/new-meeting",
   /** Registered address of the operating entity (Growth Insights Limited). */
   address: {
     street: "Unit 1603, 16/F, The L. Plaza, 367–375 Queen's Road Central, Sheung Wan",
