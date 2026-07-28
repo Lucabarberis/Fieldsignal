@@ -8,7 +8,6 @@ import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { useCases } from "@/content/data/use-cases";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -181,7 +180,7 @@ export default async function UseCasePage({ params }: Props) {
         }
         meta={<>We&apos;ll tell you if the discipline doesn&apos;t fit the decision.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(uc.name)}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

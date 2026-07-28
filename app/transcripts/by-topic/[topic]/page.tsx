@@ -8,7 +8,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import {
   getAllTranscripts,
   getTranscriptsByTopic,
@@ -108,7 +107,7 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
         }
         meta={<>We&apos;ll source a similar operator within 72h.</>}
         ctaLabel="Brief us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Custom call: " + label)}`}
+        ctaHref="/contact"
       />
     </>
   );

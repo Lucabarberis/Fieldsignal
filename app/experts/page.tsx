@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { expertPages } from "@/content/data/experts-pages";
 
 export const metadata = pageMetadata({
@@ -67,7 +66,7 @@ export default function ExpertsHubPage() {
         title={<>Ready to join? <span className="text-red">5-minute application.</span></>}
         meta={<>We review every application within 5 business days.</>}
         ctaLabel="Apply Now"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Expert%20application`}
+        ctaHref="/contact"
       />
     </>
   );

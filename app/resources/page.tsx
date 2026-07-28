@@ -122,8 +122,8 @@ export default async function ResourcesHubPage() {
       <CtaBand
         title={<>Want the deep stuff? <span className="text-red">Subscribe.</span></>}
         meta={<>Weekly insights for primary research buyers. {SITE.hours}.</>}
-        ctaLabel="Email Miles"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Newsletter%20signup`}
+        ctaLabel="Contact Us"
+        ctaHref="/contact"
       />
     </>
   );

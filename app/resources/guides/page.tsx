@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { guides } from "@/content/data/guides";
 
 export const metadata = pageMetadata({
@@ -67,7 +66,7 @@ export default function GuidesHubPage() {
         title={<>Have a brief? <span className="text-red">Skip the guides. Talk to us.</span></>}
         meta={<>First quote in 24h. We&apos;ll recommend a competitor if we&apos;re not the right fit.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Brief%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

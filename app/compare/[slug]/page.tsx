@@ -8,7 +8,6 @@ import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
 import { BreadcrumbSchema, FAQSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { compares } from "@/content/data/compare";
 import { getCompetitor } from "@/content/data/competitors";
 
@@ -246,7 +245,7 @@ export default async function ComparePage({ params }: Props) {
         }
         meta={<>First quote in 24h. We&apos;ll recommend a competitor if we&apos;re not the right fit.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(`FieldSignal vs ${competitor.name}`)}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

@@ -2,9 +2,9 @@ import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
+import { ContactForm } from "@/components/ContactForm";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Request an Expert Call - Tell Us Who You Need",
@@ -12,21 +12,6 @@ export const metadata = pageMetadata({
     "Tell us the industry, role and decision you're researching. We'll propose 10–20 candidate experts within 24–72 hours.",
   path: "/contact/request-a-call",
 });
-
-const PREFILL = encodeURIComponent(
-  `Hi Miles,
-
-I'd like to request an expert call.
-
-Industry / sector:
-Role / seniority needed:
-Decision I'm researching:
-Geography:
-Timeline:
-Approx budget:
-
-Thanks,`
-);
 
 export default function RequestCallPage() {
   return (
@@ -69,18 +54,23 @@ export default function RequestCallPage() {
       <SectionBand num="02" label="What Happens Next" meta="From email to call" />
       <div className="px-4 sm:px-9 py-8 max-w-4xl space-y-4">
         <p className="text-body text-ink-2">
-          You email us with the brief above. A senior researcher acknowledges within <b>4 hours</b> during business hours. Within 24–72 hours we send back 10–20 candidate profiles — anonymised role descriptions plus compliance clearance status.
+          You send us the brief above. A senior researcher acknowledges within <b>4 hours</b> during business hours. Within 24–72 hours we send back 10–20 candidate profiles — anonymised role descriptions plus compliance clearance status.
         </p>
         <p className="text-body text-ink-2">
           You pick the candidates you want. We schedule the calls directly with you. Transcripts arrive within <b>1 business day</b> of each call. Compliance audit trail kept <b>7 years</b>.
         </p>
       </div>
 
+      <SectionBand num="03" label="Send Your Brief" meta="Candidates back in 24–72h" />
+      <div className="px-4 sm:px-9 py-8">
+        <ContactForm />
+      </div>
+
       <CtaBand
         title={<>Send the brief. <span className="text-red">Candidates back in 24h.</span></>}
-        meta={<>One email. Pre-filled template opens in your mail client.</>}
-        ctaLabel="Email Miles"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Expert call request")}&body=${PREFILL}`}
+        meta={<>One short form. A senior researcher reads it, not a triage queue.</>}
+        ctaLabel="Contact Us"
+        ctaHref="/contact"
       />
     </>
   );

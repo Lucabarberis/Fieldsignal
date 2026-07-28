@@ -60,6 +60,11 @@ export function LpLeadForm({ slug }: Props) {
       const value = params.get(key);
       if (value) found[key] = value.slice(0, 200);
     }
+    // Deliberate. The server has no URL params and the client does, so
+    // reading them during render would produce a hydration mismatch. The
+    // cost is one post-mount render on a page whose only interactive
+    // element is this form.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTracking(found);
   }, []);
 

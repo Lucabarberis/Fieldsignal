@@ -201,7 +201,7 @@ export default async function SubnichePage({ params }: Props) {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(sub.name)}%20coverage%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

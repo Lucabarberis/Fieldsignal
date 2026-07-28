@@ -122,7 +122,7 @@ export default async function TranscriptPage({ params }: Props) {
             all transcripts and topics.
           </p>
           <a
-            href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Transcript subscription: " + t.topicLabel)}`}
+            href="/contact"
             className="inline-block bg-red text-paper px-6 py-3 font-mono text-mono uppercase font-semibold tracking-[0.14em] hover:bg-paper hover:text-ink transition-colors"
           >
             Subscribe to the library
@@ -185,7 +185,7 @@ export default async function TranscriptPage({ params }: Props) {
         title={<>Need <span className="text-red">a custom expert call</span> on this topic?</>}
         meta={<>We&apos;ll source a similar expert for a bespoke 1:1 within 72h.</>}
         ctaLabel="Brief us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Custom expert call: " + t.topicLabel)}`}
+        ctaHref="/contact"
       />
     </>
   );

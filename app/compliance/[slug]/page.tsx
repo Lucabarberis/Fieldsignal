@@ -115,7 +115,7 @@ export default async function ComplianceSubPage({ params }: Props) {
         title={<>Compliance question? <span className="text-red">Direct line.</span></>}
         meta={<>Compliance enquiries answered same-day, {SITE.hours}.</>}
         ctaLabel="Contact Compliance"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Compliance%20enquiry%20-%20${encodeURIComponent(c.name)}`}
+        ctaHref="/contact"
       />
     </>
   );

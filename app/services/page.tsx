@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { TileGrid } from "@/components/TileGrid";
@@ -56,7 +55,7 @@ export default function ServicesHubPage() {
               name={s.name}
               meta={s.turnaround ? <>Turnaround · <b>{s.turnaround}</b></> : undefined}
               cta="Request a brief"
-              href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(s.name)}%20enquiry`}
+              href="/contact"
               updated={s.turnaround}
             >
               <p>{s.oneLiner}</p>
@@ -89,7 +88,7 @@ export default function ServicesHubPage() {
         title={<>Ready to brief us? <span className="text-red">Start today.</span></>}
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaHref="/contact"
       />
     </>
   );

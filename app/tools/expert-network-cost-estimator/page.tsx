@@ -5,7 +5,6 @@ import { CostEstimator } from "@/components/CostEstimator";
 import { BackButton } from "@/components/BackButton";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import Link from "next/link";
 
 /**
@@ -92,9 +91,7 @@ export default function CostEstimatorPage() {
         }
         meta={<>First quote in 24h. Pay-per-use, no annual minimum.</>}
         ctaLabel="Get a Quote"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(
-          "Project quote — via cost estimator",
-        )}`}
+        ctaHref="/contact"
       />
     </>
   );

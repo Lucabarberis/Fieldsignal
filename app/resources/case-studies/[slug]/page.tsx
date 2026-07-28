@@ -206,7 +206,7 @@ export default async function CaseStudyPage({ params }: Props) {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(cs.name + " enquiry")}`}
+        ctaHref="/contact"
       />
     </>
   );

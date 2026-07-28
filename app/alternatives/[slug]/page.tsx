@@ -270,7 +270,7 @@ export default async function AlternativePage({ params }: Props) {
         }
         meta={<>We&apos;ll recommend a competitor if we&apos;re not the right fit.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(competitor?.name ?? "Alternatives")}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

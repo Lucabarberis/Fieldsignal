@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { compares } from "@/content/data/compare";
 import { getCompetitor } from "@/content/data/competitors";
 
@@ -68,7 +67,7 @@ export default function CompareHubPage() {
         title={<>Not sure which to pick? <span className="text-red">Tell us your brief.</span></>}
         meta={<>We&apos;ll recommend a competitor if we&apos;re not the right fit.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=FieldSignal%20comparison`}
+        ctaHref="/contact"
       />
     </>
   );

@@ -202,7 +202,7 @@ export default async function IndustryDetailPage({ params }: Props) {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(ind.name)}%20coverage%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

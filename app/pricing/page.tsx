@@ -226,7 +226,7 @@ export default function PricingPage() {
         title={<>Brief us today. <span className="text-red">First quote in 24h.</span></>}
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Pricing%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

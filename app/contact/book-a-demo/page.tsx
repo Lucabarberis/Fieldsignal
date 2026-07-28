@@ -2,9 +2,9 @@ import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
+import { ContactForm } from "@/components/ContactForm";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Book a Demo - Walkthrough of the Platform",
@@ -12,21 +12,6 @@ export const metadata = pageMetadata({
     "30-minute walkthrough of expert search, scheduling, transcripts and compliance tools. For institutional buyers.",
   path: "/contact/book-a-demo",
 });
-
-const PREFILL = encodeURIComponent(
-  `Hi Miles,
-
-I'd like to book a 30-minute platform walkthrough.
-
-Firm / fund / company:
-Role:
-What you'd like covered (search / transcripts / scheduling / compliance):
-Likely use cases:
-Approx volume of research per quarter:
-Preferred dates / times (and time zone):
-
-Thanks,`
-);
 
 export default function BookDemoPage() {
   return (
@@ -75,11 +60,16 @@ export default function BookDemoPage() {
         </p>
       </div>
 
+      <SectionBand num="04" label="Book The Demo" meta="30 minutes, no obligation" />
+      <div className="px-4 sm:px-9 py-8">
+        <ContactForm />
+      </div>
+
       <CtaBand
         title={<>Send a few date options. <span className="text-red">We&apos;ll confirm in 4 hours.</span></>}
-        meta={<>Pre-filled template opens in your mail client.</>}
-        ctaLabel="Email Miles"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Platform demo request")}&body=${PREFILL}`}
+        meta={<>One short form. A senior researcher reads it, not a triage queue.</>}
+        ctaLabel="Contact Us"
+        ctaHref="/contact"
       />
     </>
   );

@@ -2,9 +2,9 @@ import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
+import { ContactForm } from "@/components/ContactForm";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Get a Quote - Custom Pricing for Projects",
@@ -12,23 +12,6 @@ export const metadata = pageMetadata({
     "Tell us scope, sectors and timeline. Quote returned within one business day.",
   path: "/contact/get-a-quote",
 });
-
-const PREFILL = encodeURIComponent(
-  `Hi Miles,
-
-I'd like to get a quote for a project.
-
-Project type (diligence / VoC / panel / win-loss / custom):
-Sectors / sub-sectors involved:
-Approx number of calls or interviews:
-Methodology mix (calls / surveys / panels / refs):
-Geography:
-Timeline:
-Decision the project supports:
-Compliance constraints:
-
-Thanks,`
-);
 
 export default function GetQuotePage() {
   return (
@@ -80,11 +63,16 @@ export default function GetQuotePage() {
         </p>
       </div>
 
+      <SectionBand num="04" label="Send Your Brief" meta="Quote back in 24 hours" />
+      <div className="px-4 sm:px-9 py-8">
+        <ContactForm />
+      </div>
+
       <CtaBand
         title={<>Send the brief. <span className="text-red">Quote back in 24h.</span></>}
-        meta={<>Pre-filled template opens in your mail client.</>}
-        ctaLabel="Email Miles"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Project quote request")}&body=${PREFILL}`}
+        meta={<>One short form. A senior researcher reads it, not a triage queue.</>}
+        ctaLabel="Contact Us"
+        ctaHref="/contact"
       />
     </>
   );

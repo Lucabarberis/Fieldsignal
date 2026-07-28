@@ -6,7 +6,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import {
   getAllTranscripts,
   getAllTranscriptIndustrySlugs,
@@ -184,7 +183,7 @@ export default async function TranscriptsHubPage() {
         title={<>Want full transcripts? <span className="text-red">Subscribe to the library.</span></>}
         meta={<>Searchable library access. Cancel anytime.</>}
         ctaLabel="Subscribe"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Transcript%20library%20subscription`}
+        ctaHref="/contact"
       />
     </>
   );

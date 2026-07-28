@@ -117,7 +117,7 @@ export default function AboutPage() {
         title={<>Ready to brief us? <span className="text-red">Talk to a senior researcher.</span></>}
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaHref="/contact"
       />
     </>
   );

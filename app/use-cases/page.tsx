@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { useCases } from "@/content/data/use-cases";
 
 export const metadata = pageMetadata({
@@ -67,7 +66,7 @@ export default function UseCasesHubPage() {
         title={<>Not sure which fits? <span className="text-red">Tell us the decision.</span></>}
         meta={<>We&apos;ll recommend the right discipline — or tell you it&apos;s not us.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Use%20case%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

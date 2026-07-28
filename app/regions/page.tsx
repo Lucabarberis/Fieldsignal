@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { regions } from "@/content/data/regions";
 
 export const metadata = pageMetadata({
@@ -73,7 +72,7 @@ export default function RegionsHubPage() {
         title={<>Need cross-region coverage? <span className="text-red">Tell us the geographies.</span></>}
         meta={<>We&apos;ll quote with native-language interviewing where it matters.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Cross-region%20coverage%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

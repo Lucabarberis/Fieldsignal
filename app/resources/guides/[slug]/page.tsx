@@ -177,7 +177,7 @@ export default async function GuidePage({ params }: Props) {
         title={<>Want to skip the guide and brief us? <span className="text-red">Tell us the decision.</span></>}
         meta={<>First quote in 24h. Senior researcher direct.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(g.name)}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

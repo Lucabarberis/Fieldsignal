@@ -189,7 +189,7 @@ export default async function RegionPage({ params }: Props) {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(r.name)}%20coverage%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

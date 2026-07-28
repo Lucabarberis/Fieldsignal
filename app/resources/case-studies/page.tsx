@@ -120,7 +120,7 @@ export default function CaseStudiesHubPage() {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Case study enquiry")}`}
+        ctaHref="/contact"
       />
     </>
   );

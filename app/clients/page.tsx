@@ -88,7 +88,7 @@ export default function ClientsHubPage() {
         title={<>Where do you fit? <span className="text-red">Tell us.</span></>}
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaHref="/contact"
       />
     </>
   );

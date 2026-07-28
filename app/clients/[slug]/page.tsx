@@ -125,7 +125,7 @@ export default async function ClientDetailPage({ params }: Props) {
         title={<>Brief us on your <span className="text-red">{c.primaryKW.replace("expert network for ", "")}</span> needs.</>}
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(c.name)}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

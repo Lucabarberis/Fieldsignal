@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { alternatives } from "@/content/data/alternatives";
 
 export const metadata = pageMetadata({
@@ -90,8 +89,8 @@ export default function AlternativesHubPage() {
       <CtaBand
         title={<>Not sure which is right? <span className="text-red">Ask us — we&apos;ll tell you honestly.</span></>}
         meta={<>We&apos;ll recommend a competitor if we&apos;re not the right fit.</>}
-        ctaLabel="Email Miles"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Expert%20network%20comparison`}
+        ctaLabel="Contact Us"
+        ctaHref="/contact"
       />
     </>
   );

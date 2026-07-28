@@ -22,7 +22,22 @@ const LABEL =
 const FIELD =
   "w-full bg-paper-3 border border-rule-2 rounded-none appearance-none px-4 py-3 font-sans text-[15px] leading-[1.4] text-ink placeholder:text-ink-3 focus:outline-none focus:border-ink transition-colors";
 
-export function ContactForm() {
+type Props = {
+  /**
+   * Pre-select the dropdown. Lets a CTA elsewhere on the site carry its
+   * intent into the form — "Join as an expert" arrives with that already
+   * chosen instead of dropping the visitor on a blank field.
+   * Ignored unless it is a real option.
+   */
+  defaultTopic?: string;
+};
+
+export function ContactForm({ defaultTopic }: Props = {}) {
+  const preset =
+    defaultTopic && (CONTACT_TOPICS as readonly string[]).includes(defaultTopic)
+      ? defaultTopic
+      : "";
+
   return (
     <form action="/api/contact" method="POST" className="max-w-3xl">
       {/* honeypot — bots fill it, humans never see it */}
@@ -86,7 +101,7 @@ export function ContactForm() {
             id="cf-topic"
             name="topic"
             required
-            defaultValue=""
+            defaultValue={preset}
             className={`${FIELD} cursor-pointer`}
           >
             <option value="" disabled>

@@ -8,7 +8,6 @@ import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
 import { BreadcrumbSchema, FAQSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { platformPages, getPlatformPage } from "@/content/data/platform";
 
 type Props = { params: Promise<{ slug: string }> };

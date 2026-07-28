@@ -154,10 +154,10 @@ export default function TeamPage() {
       </div>
 
       <CtaBand
-        title={<>Want to meet the team? <span className="text-red">One email.</span></>}
+        title={<>Want to meet the team? <span className="text-red">One short form.</span></>}
         meta={<>Direct line to senior researchers, {SITE.hours}.</>}
-        ctaLabel="Email Miles"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaLabel="Contact Us"
+        ctaHref="/contact"
       />
     </>
   );

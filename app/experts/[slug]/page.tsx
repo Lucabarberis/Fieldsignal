@@ -164,7 +164,7 @@ export default async function ExpertSubPage({ params }: Props) {
           <>
             Questions first?{" "}
             <a
-              href={`mailto:${SITE.contactEmail}`}
+              href="/contact?topic=Joining+as+an+expert"
               className="underline decoration-rule-2 underline-offset-2 hover:text-red hover:decoration-red transition-colors"
             >
               {SITE.contactEmail}
@@ -172,7 +172,7 @@ export default async function ExpertSubPage({ params }: Props) {
           </>
         }
         ctaLabel="Apply Now"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Expert%20application`}
+        ctaHref="/contact"
       />
     </>
   );

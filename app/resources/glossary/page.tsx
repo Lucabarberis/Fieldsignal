@@ -5,7 +5,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { glossary } from "@/content/data/glossary";
 
 export const metadata = pageMetadata({
@@ -69,7 +68,7 @@ export default function GlossaryHubPage() {
         title={<>Missing a term? <span className="text-red">Tell us what to add.</span></>}
         meta={<>We&apos;ll write it up in 48 hours and credit the suggestion if you want it.</>}
         ctaLabel="Suggest a term"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=Glossary%20suggestion`}
+        ctaHref="/contact"
       />
     </>
   );

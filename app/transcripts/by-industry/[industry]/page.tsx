@@ -8,7 +8,6 @@ import { Tile } from "@/components/Tile";
 import { CtaBand } from "@/components/CtaBand";
 import { BreadcrumbSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import {
   getTranscriptsByIndustry,
   getAllTranscriptIndustrySlugs,
@@ -110,7 +109,7 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
         }
         meta={<>We&apos;ll source within 72h. Senior researcher direct.</>}
         ctaLabel="Brief us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(ind.name + " expert call")}`}
+        ctaHref="/contact"
       />
     </>
   );

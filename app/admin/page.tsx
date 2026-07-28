@@ -143,6 +143,10 @@ export default async function AdminHub() {
   // Posts and transcripts going live in the next week, interleaved by date.
   // Publish dates are staggered months out, so without this the only way to
   // know what lands on Thursday is to open the scheduled list and read.
+  // Reading the clock is the intent here: async Server Component, marked
+  // force-dynamic, evaluated per request on the server. The purity rule
+  // guards client render, where a changing clock would desync hydration.
+  // eslint-disable-next-line react-hooks/purity
   const cutoff = new Date(Date.now() + UPCOMING_DAYS * 86_400_000)
     .toISOString()
     .slice(0, 10);

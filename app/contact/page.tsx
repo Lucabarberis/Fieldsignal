@@ -17,9 +17,9 @@ export const metadata = pageMetadata({
 export default async function ContactHubPage({
   searchParams,
 }: {
-  searchParams: Promise<{ error?: string }>;
+  searchParams: Promise<{ error?: string; topic?: string }>;
 }) {
-  const { error } = await searchParams;
+  const { error, topic } = await searchParams;
   return (
     <>
       <BreadcrumbSchema
@@ -67,7 +67,7 @@ export default async function ContactHubPage({
             </span>
           </div>
         )}
-        <ContactForm />
+        <ContactForm defaultTopic={topic} />
       </div>
 
       <SectionBand num="02" label="How To Reach Us" meta="3 paths in" />
@@ -119,7 +119,7 @@ export default async function ContactHubPage({
             id="03.2"
             name="JOIN AS AN EXPERT"
             cta="Expert application"
-            href={`mailto:${SITE.contactEmail}?subject=Expert%20application`}
+            href="/contact?topic=Joining+as+an+expert"
             updated="Rolling"
           >
             <p>5+ years of relevant industry experience, no active conflicts of interest, willing to attest per call. Apply directly.</p>

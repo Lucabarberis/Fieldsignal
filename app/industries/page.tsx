@@ -60,7 +60,7 @@ export default function IndustriesHubPage() {
               name={ind.name}
               meta={<>{ind.subniches.length} sub-niches</>}
               cta="Request coverage"
-              href={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(ind.name)}%20coverage%20enquiry`}
+              href="/contact"
               updated={`${ind.subniches.length} niches`}
             >
               <p>{ind.oneLiner}</p>
@@ -94,7 +94,7 @@ export default function IndustriesHubPage() {
         title={<>50,000+ experts. <span className="text-red">9 sectors.</span> One brief away.</>}
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaHref="/contact"
       />
     </>
   );

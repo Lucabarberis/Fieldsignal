@@ -158,7 +158,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         }
         meta={<>Response under 4 hours, {SITE.hours}.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(service.name)}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

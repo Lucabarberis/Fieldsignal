@@ -9,7 +9,6 @@ import { CtaBand } from "@/components/CtaBand";
 import { Checklist } from "@/components/Checklist";
 import { BreadcrumbSchema, FAQSchema } from "@/components/SchemaOrg";
 import { pageMetadata } from "@/lib/seo";
-import { SITE } from "@/lib/site";
 import { glossary, getGlossaryTerm } from "@/content/data/glossary";
 import { services } from "@/content/data/services";
 import { useCases } from "@/content/data/use-cases";
@@ -198,7 +197,7 @@ export default async function GlossaryTermPage({ params }: Props) {
         title={<>Need help applying this concept? <span className="text-red">Tell us the decision.</span></>}
         meta={<>First quote in 24h. We&apos;ll recommend a competitor if we&apos;re not the right fit.</>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}?subject=${encodeURIComponent(t.term)}%20enquiry`}
+        ctaHref="/contact"
       />
     </>
   );

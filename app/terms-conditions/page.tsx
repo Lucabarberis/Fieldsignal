@@ -196,7 +196,7 @@ export default function TermsConditionsPage() {
         title={<>Join Our Network of <span className="text-red">50,000+</span> Professionals</>}
         meta={<>Our team is available to discuss your intelligence requirements <b className="text-paper font-medium">{SITE.hours}</b></>}
         ctaLabel="Contact Us"
-        ctaHref={`mailto:${SITE.contactEmail}`}
+        ctaHref="/contact"
       />
     </>
   );
