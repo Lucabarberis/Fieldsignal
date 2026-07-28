@@ -9,34 +9,55 @@ import { setLeadStatusAction } from "@/app/admin/leads/actions";
 /**
  * Admin leads table.
  *
- * Each lead is a summary row plus a <details> holding what they actually
- * wrote — otherwise the only way to read an enquiry is to go and find the
- * notification email, which defeats the point of having the list.
+ * The message is shown INLINE rather than behind a toggle. It was
+ * collapsed first time round and went unnoticed, which is a fair verdict
+ * on hiding the one thing you open the page to read.
  *
- * <details> rather than a client component: no JS, no state, and the
- * status form stays outside the <summary> so clicking the select doesn't
- * toggle the panel.
+ * Everything else — every column the Google Sheet carries — sits behind
+ * "All fields", including empty ones, so it's obvious when something
+ * didn't come through rather than merely absent.
  */
 
-const DATE = new Intl.DateTimeFormat("en-GB", {
+const SHORT = new Intl.DateTimeFormat("en-GB", {
   day: "2-digit",
   month: "short",
   hour: "2-digit",
   minute: "2-digit",
 });
 
+const FULL = new Intl.DateTimeFormat("en-GB", {
+  weekday: "short",
+  day: "2-digit",
+  month: "short",
+  year: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+});
+
 const COLS = "grid-cols-[auto_1fr_auto_auto_auto]";
 
-/** Attribution worth seeing when a row is opened, in display order. */
-function traceLine(lead: Lead): string {
+/** Every stored field, in the order the sheet lists them. */
+function allFields(lead: Lead): { label: string; value: string }[] {
   return [
-    lead.landingPath,
-    lead.utmCampaign && `campaign: ${lead.utmCampaign}`,
-    lead.utmTerm && `term: ${lead.utmTerm}`,
-    lead.gclid && `gclid: ${lead.gclid}`,
-  ]
-    .filter(Boolean)
-    .join("  ·  ");
+    { label: "Submitted", value: FULL.format(new Date(lead.submittedAt)) },
+    { label: "Name", value: lead.name },
+    { label: "Company", value: lead.company ?? "" },
+    { label: "Email", value: lead.email },
+    { label: "Source", value: lead.source },
+    { label: "Keyword", value: lead.keyword ?? "" },
+    { label: "Keyword slug", value: lead.keywordSlug ?? "" },
+    { label: "GCLID", value: lead.gclid ?? "" },
+    { label: "UTM source", value: lead.utmSource ?? "" },
+    { label: "UTM medium", value: lead.utmMedium ?? "" },
+    { label: "UTM campaign", value: lead.utmCampaign ?? "" },
+    { label: "UTM term", value: lead.utmTerm ?? "" },
+    { label: "Landing page", value: lead.landingPath ?? "" },
+    { label: "Status", value: STATUS_LABELS[lead.status] },
+    {
+      label: "Meeting at",
+      value: lead.meetingAt ? FULL.format(new Date(lead.meetingAt)) : "",
+    },
+  ];
 }
 
 export function LeadsTable({
@@ -68,11 +89,10 @@ export function LeadsTable({
 
       {rows.map((lead, i) => {
         const paid = lead.source !== "organic";
-        const trace = traceLine(lead);
 
         return (
           <div key={lead.id} className={i > 0 ? "border-t border-rule" : ""}>
-            <div className={`grid ${COLS} gap-x-6 px-6 py-4 items-center`}>
+            <div className={`grid ${COLS} gap-x-6 px-6 pt-4 items-center`}>
               <span
                 className={`font-mono text-micro uppercase tracking-[0.1em] ${
                   paid ? "text-red font-semibold" : "text-ink-3"
@@ -101,7 +121,7 @@ export function LeadsTable({
               </span>
 
               <span className="font-mono text-micro tracking-[0.04em] text-ink-3 whitespace-nowrap">
-                {DATE.format(new Date(lead.submittedAt))}
+                {SHORT.format(new Date(lead.submittedAt))}
               </span>
 
               <form
@@ -134,23 +154,55 @@ export function LeadsTable({
               </form>
             </div>
 
-            {(lead.message || trace) && (
-              <details className="px-6 pb-4 -mt-1">
-                <summary className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 hover:text-red transition-colors cursor-pointer">
-                  What they wrote
-                </summary>
-                {lead.message && (
-                  <p className="text-body text-ink-2 whitespace-pre-wrap mt-3 max-w-3xl border-l-4 border-rule-2 pl-4">
-                    {lead.message}
-                  </p>
-                )}
-                {trace && (
-                  <p className="font-mono text-micro tracking-[0.04em] text-ink-3 mt-3 break-words">
-                    {trace}
-                  </p>
-                )}
-              </details>
-            )}
+            {/* The enquiry itself — always visible. */}
+            <div className="px-6 pt-3">
+              <p className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+                Message
+              </p>
+              {lead.message ? (
+                <p className="text-body text-ink whitespace-pre-wrap bg-paper-2 border-l-4 border-rule-2 px-4 py-3 max-w-3xl">
+                  {lead.message}
+                </p>
+              ) : (
+                <p className="text-body text-ink-3">(no message)</p>
+              )}
+            </div>
+
+            <details className="px-6 py-4 group">
+              <summary className="inline-flex items-center gap-2 border border-rule-2 px-3 py-1.5 font-mono text-micro uppercase tracking-[0.12em] text-ink-2 hover:border-ink hover:text-ink transition-colors cursor-pointer select-none">
+                All fields
+              </summary>
+
+              <dl className="mt-4 grid grid-cols-1 sm:grid-cols-[160px_1fr] gap-x-6 gap-y-2 max-w-3xl">
+                {allFields(lead).map((f) => (
+                  <div key={f.label} className="contents">
+                    <dt className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
+                      {f.label}
+                    </dt>
+                    <dd
+                      className={`font-mono text-micro tracking-[0.04em] break-words ${
+                        f.value ? "text-ink-2" : "text-ink-3"
+                      }`}
+                    >
+                      {f.value || "—"}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+
+              <p className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mt-5 mb-2">
+                Auto reply sent to them
+              </p>
+              <p
+                className={`text-body whitespace-pre-wrap max-w-3xl ${
+                  lead.autoReply?.startsWith("(")
+                    ? "text-red font-medium"
+                    : "text-ink-2"
+                }`}
+              >
+                {lead.autoReply ?? "— (not recorded for this lead)"}
+              </p>
+            </details>
           </div>
         );
       })}

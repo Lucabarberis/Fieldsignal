@@ -185,6 +185,7 @@ export async function POST(request: Request) {
       utmCampaign: tracking.utm_campaign,
       utmTerm: tracking.utm_term,
       landingPath: tracking.landing_path,
+      autoReply: autoReplyRecord,
     });
   } catch (err) {
     console.error("[contact] lead record failed", err);

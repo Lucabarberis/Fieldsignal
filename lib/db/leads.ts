@@ -76,6 +76,8 @@ export interface Lead {
   status: LeadStatus;
   meetingAt: string | null;
   notes: string | null;
+  /** The acknowledgement we sent them, or the marker recording that it failed. */
+  autoReply: string | null;
 }
 
 /** What /api/contact hands over. Everything but name/email is optional. */
@@ -93,6 +95,7 @@ export interface LeadInput {
   utmCampaign?: string;
   utmTerm?: string;
   landingPath?: string;
+  autoReply?: string;
 }
 
 /** One row of the per-keyword rollup — the number the ad test exists to find. */
@@ -131,6 +134,7 @@ function toLead(row: Record<string, unknown>): Lead {
     status: (row.status as LeadStatus) ?? "new",
     meetingAt: (row.meeting_at as string) ?? null,
     notes: (row.notes as string) ?? null,
+    autoReply: (row.auto_reply as string) ?? null,
   };
 }
 
@@ -146,7 +150,7 @@ export const leads = {
   async record(input: LeadInput): Promise<void> {
     const supabase = (await createSupabaseServerClient()) as unknown as AnyClient;
 
-    const { error } = await supabase.from("leads").insert({
+    const row: Record<string, unknown> = {
       name: input.name,
       email: input.email,
       company: input.company || null,
@@ -160,9 +164,24 @@ export const leads = {
       utm_campaign: input.utmCampaign || null,
       utm_term: input.utmTerm || null,
       landing_path: input.landingPath || null,
-    });
+      auto_reply: input.autoReply || null,
+    };
 
-    if (error) throw new Error(`leads.record failed: ${error.message}`);
+    const { error } = await supabase.from("leads").insert(row);
+    if (!error) return;
+
+    // `auto_reply` was added after the table shipped. If this build is
+    // running against a database where supabase/leads-auto-reply.sql has
+    // not been applied yet, drop the field and keep the lead — losing an
+    // enquiry over one nullable column would be an absurd trade.
+    if (error.message.includes("auto_reply")) {
+      delete row.auto_reply;
+      const retry = await supabase.from("leads").insert(row);
+      if (!retry.error) return;
+      throw new Error(`leads.record failed: ${retry.error.message}`);
+    }
+
+    throw new Error(`leads.record failed: ${error.message}`);
   },
 
   /** Every lead, newest first. Admin only. */
