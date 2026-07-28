@@ -71,6 +71,22 @@ export const LANDING_PAGES: LandingPage[] = [
       "Expert consultations, panel calls and surveys with no annual minimum. Tell us who you need; 10–20 candidates back within 24–72 hours.",
   },
   {
+    slug: "expert-network-startups",
+    keyword: "expert network for startups",
+    headline: "An expert network for startups.",
+    lede: "Talk to the people who have already built, bought or sold what you're building — before you commit a quarter to finding out the hard way.",
+    stats: STATS,
+    proof: [
+      "No annual minimum — one market question is a perfectly good reason to use us",
+      "Operators and buyers, not consultants — people who have actually done the thing you're doing",
+      "10–20 candidates per brief within 24–72 hours, compliance status on every profile",
+      "Transcripts within 1 business day — share them with a co-founder or straight into the board pack",
+    ],
+    seoTitle: "Expert Network for Startups — No Retainer",
+    seoDescription:
+      "Speak to operators and buyers who have already done it. 10–20 candidates per brief in 24–72 hours, with no annual minimum.",
+  },
+  {
     slug: "expert-network-private-equity",
     keyword: "expert network for private equity",
     headline: "An expert network for private equity.",
