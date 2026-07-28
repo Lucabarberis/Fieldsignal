@@ -1,10 +1,17 @@
 import Link from "next/link";
 import { AdminTabs } from "@/components/AdminTabs";
-import { PostsTable } from "@/components/PostsTable";
-import { loadAdminPosts } from "../_helpers";
+import { PostsBrowser } from "@/components/PostsBrowser";
+import { loadAdminPostsView, type SearchParams } from "../_helpers";
 
-export default async function DraftPostsPage() {
-  const { drafts, counts } = await loadAdminPosts();
+export default async function DraftPostsPage({
+  searchParams,
+}: {
+  searchParams: SearchParams;
+}) {
+  const { results, counts, q } = await loadAdminPostsView(
+    "drafts",
+    searchParams,
+  );
 
   return (
     <div className="px-4 sm:px-9 py-12">
@@ -14,7 +21,8 @@ export default async function DraftPostsPage() {
             Drafts
           </h1>
           <p className="font-mono text-mono uppercase tracking-[0.08em] text-ink-3 mt-2">
-            {counts.drafts} draft{counts.drafts === 1 ? "" : "s"} not yet published
+            {counts.drafts} draft{counts.drafts === 1 ? "" : "s"} not yet
+            published
           </p>
         </div>
         <Link
@@ -27,8 +35,10 @@ export default async function DraftPostsPage() {
 
       <AdminTabs active="drafts" counts={counts} />
 
-      <PostsTable
-        posts={drafts}
+      <PostsBrowser
+        basePath="/admin/drafts"
+        results={results}
+        q={q}
         emptyMessage="No drafts. Start a post in draft state to save it without publishing."
         emptyCtaLabel="Start a draft"
         emptyCtaHref="/admin/posts/new"

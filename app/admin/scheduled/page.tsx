@@ -1,10 +1,17 @@
 import Link from "next/link";
 import { AdminTabs } from "@/components/AdminTabs";
-import { PostsTable } from "@/components/PostsTable";
-import { loadAdminPosts } from "../_helpers";
+import { PostsBrowser } from "@/components/PostsBrowser";
+import { loadAdminPostsView, type SearchParams } from "../_helpers";
 
-export default async function ScheduledPostsPage() {
-  const { scheduled, counts } = await loadAdminPosts();
+export default async function ScheduledPostsPage({
+  searchParams,
+}: {
+  searchParams: SearchParams;
+}) {
+  const { results, counts, q } = await loadAdminPostsView(
+    "scheduled",
+    searchParams,
+  );
 
   return (
     <div className="px-4 sm:px-9 py-12">
@@ -14,7 +21,8 @@ export default async function ScheduledPostsPage() {
             Scheduled posts
           </h1>
           <p className="font-mono text-mono uppercase tracking-[0.08em] text-ink-3 mt-2">
-            {counts.scheduled} post{counts.scheduled === 1 ? "" : "s"} waiting to go live
+            {counts.scheduled} post{counts.scheduled === 1 ? "" : "s"} waiting to
+            go live
           </p>
         </div>
         <Link
@@ -27,8 +35,10 @@ export default async function ScheduledPostsPage() {
 
       <AdminTabs active="scheduled" counts={counts} />
 
-      <PostsTable
-        posts={scheduled}
+      <PostsBrowser
+        basePath="/admin/scheduled"
+        results={results}
+        q={q}
         emptyMessage="No scheduled posts. Set a future publish date and Status: Published to schedule a post."
         emptyCtaLabel="Schedule one now"
         emptyCtaHref="/admin/posts/new"

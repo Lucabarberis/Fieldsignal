@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { loadAdminPosts } from "./_helpers";
+import { posts } from "@/lib/db/posts";
 import { loadAdminTranscripts } from "./transcripts/_helpers";
 import { socialPostedCount, leadCounts } from "@/lib/db/admin-counts";
 
@@ -10,12 +10,15 @@ import { socialPostedCount, leadCounts } from "@/lib/db/admin-counts";
  * front door. The posts list that used to live here moved to /admin/posts.
  *
  * The line at the foot of each card is the point of the page. A total on
- * its own tells you nothing you'd act on; "3 drafts · 2 scheduled" tells
- * you where to go next. Cards with nothing outstanding say so, which is
- * equally worth knowing at a glance.
+ * its own is decoration; "3 drafts · 2 scheduled" is the thing you'd act
+ * on. Cards with nothing pending say "nothing outstanding" rather than
+ * going blank, so silence is never ambiguous.
  */
 
 export const dynamic = "force-dynamic";
+
+/** How far ahead the publishing schedule looks. */
+const UPCOMING_DAYS = 7;
 
 type Card = {
   href: string;
@@ -32,6 +35,12 @@ function plural(n: number, one: string, many = `${one}s`): string {
   if (n <= 0) return "";
   return `${n} ${n === 1 ? one : many}`;
 }
+
+const DAY = new Intl.DateTimeFormat("en-GB", {
+  weekday: "short",
+  day: "numeric",
+  month: "short",
+});
 
 function SectionCard({ card }: { card: Card }) {
   return (
@@ -76,23 +85,25 @@ export default async function AdminHub() {
   // Independent reads — fire them together rather than in sequence.
   // socialPostedCount is the one that can fail on a fresh database, and a
   // missing tick table shouldn't take the whole hub down with it.
-  const [posts, transcripts, socialPosted, leads] = await Promise.all([
-    loadAdminPosts(),
-    loadAdminTranscripts(),
-    socialPostedCount().catch(() => 0),
-    leadCounts(),
-  ]);
+  const [postCounts, upcomingPosts, transcripts, socialPosted, leads] =
+    await Promise.all([
+      posts.counts(),
+      posts.upcoming(UPCOMING_DAYS),
+      loadAdminTranscripts(),
+      socialPostedCount().catch(() => 0),
+      leadCounts(),
+    ]);
 
   const cards: Card[] = [
     {
       href: "/admin/posts",
       label: "Posts",
       blurb: "Blog articles. Write, schedule and publish.",
-      total: String(posts.counts.all),
+      total: String(postCounts.all),
       totalLabel: "posts",
       attention: [
-        plural(posts.counts.drafts, "draft"),
-        posts.counts.scheduled > 0 ? `${posts.counts.scheduled} scheduled` : "",
+        plural(postCounts.drafts, "draft"),
+        postCounts.scheduled > 0 ? `${postCounts.scheduled} scheduled` : "",
       ].filter(Boolean),
     },
     {
@@ -129,6 +140,31 @@ export default async function AdminHub() {
     },
   ];
 
+  // Posts and transcripts going live in the next week, interleaved by date.
+  // Publish dates are staggered months out, so without this the only way to
+  // know what lands on Thursday is to open the scheduled list and read.
+  const cutoff = new Date(Date.now() + UPCOMING_DAYS * 86_400_000)
+    .toISOString()
+    .slice(0, 10);
+  const upcoming = [
+    ...upcomingPosts.map((p) => ({
+      key: `post-${p.slug}`,
+      date: p.publishedAt,
+      title: p.title,
+      kind: "Post",
+      href: `/admin/posts/${p.slug}/edit`,
+    })),
+    ...transcripts.scheduled
+      .filter((t) => t.publishedAt <= cutoff)
+      .map((t) => ({
+        key: `transcript-${t.slug}`,
+        date: t.publishedAt,
+        title: t.title,
+        kind: "Transcript",
+        href: `/admin/transcripts/${t.slug}/edit`,
+      })),
+  ].sort((a, b) => a.date.localeCompare(b.date));
+
   return (
     <div className="px-4 sm:px-9 py-12">
       <div className="flex items-end justify-between mb-8 flex-wrap gap-4">
@@ -161,6 +197,53 @@ export default async function AdminHub() {
           <SectionCard key={card.href} card={card} />
         ))}
       </div>
+
+      <section className="mt-12">
+        <div className="bg-paper-2 px-4 sm:px-6 py-3.5 border-y border-rule-2 flex justify-between items-center flex-wrap gap-2 font-mono text-mono uppercase">
+          <span>
+            <span className="text-red font-semibold">01</span>
+            <span className="mx-2 text-ink-3">/</span>
+            <h2 className="inline m-0 p-0 text-mono font-medium text-ink">
+              Publishing This Week
+            </h2>
+          </span>
+          <span className="text-ink-3">Next {UPCOMING_DAYS} days</span>
+        </div>
+
+        {upcoming.length === 0 ? (
+          <div className="border-x border-b border-rule px-6 py-8 text-center">
+            <p className="text-body text-ink-2">
+              Nothing goes live in the next {UPCOMING_DAYS} days.
+            </p>
+            <Link
+              href="/admin/scheduled"
+              className="inline-block mt-3 font-mono text-mono uppercase tracking-[0.14em] text-ink hover:text-red transition-colors"
+            >
+              See the full schedule →
+            </Link>
+          </div>
+        ) : (
+          <div className="border-x border-b border-rule">
+            {upcoming.map((item, i) => (
+              <Link
+                key={item.key}
+                href={item.href}
+                className={`grid grid-cols-[auto_auto_1fr] gap-x-6 px-6 py-3 items-center hover:bg-paper-3 transition-colors ${
+                  i > 0 ? "border-t border-rule" : ""
+                }`}
+              >
+                <span className="font-mono text-micro uppercase tracking-[0.1em] text-red font-semibold whitespace-nowrap">
+                  {DAY.format(new Date(item.date))}
+                </span>
+                <span className="font-mono text-micro uppercase tracking-[0.1em] text-ink-3 whitespace-nowrap">
+                  {item.kind}
+                </span>
+                <span className="text-body text-ink truncate">{item.title}</span>
+              </Link>
+            ))}
+          </div>
+        )}
+      </section>
     </div>
   );
 }

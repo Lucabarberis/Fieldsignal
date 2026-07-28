@@ -1,18 +1,21 @@
 import Link from "next/link";
 import { AdminTabs } from "@/components/AdminTabs";
-import { PostsTable } from "@/components/PostsTable";
-import { loadAdminPosts } from "../_helpers";
+import { PostsBrowser } from "@/components/PostsBrowser";
+import { loadAdminPostsView, type SearchParams } from "../_helpers";
 
 /**
  * /admin/posts — the blog post list.
  *
- * This used to live at /admin. It moved when the admin grew a fourth
- * section and /admin became a hub instead of "the posts screen that also
- * has links to other things".
+ * Used to live at /admin; moved when the admin grew a fourth section and
+ * /admin became a hub.
  */
 
-export default async function AdminPostsPage() {
-  const { all, counts } = await loadAdminPosts();
+export default async function AdminPostsPage({
+  searchParams,
+}: {
+  searchParams: SearchParams;
+}) {
+  const { results, counts, q } = await loadAdminPostsView("all", searchParams);
 
   return (
     <div className="px-4 sm:px-9 py-12">
@@ -35,8 +38,10 @@ export default async function AdminPostsPage() {
 
       <AdminTabs active="all" counts={counts} />
 
-      <PostsTable
-        posts={all}
+      <PostsBrowser
+        basePath="/admin/posts"
+        results={results}
+        q={q}
         emptyMessage="No posts yet."
         emptyCtaLabel="Write the first one"
         emptyCtaHref="/admin/posts/new"
