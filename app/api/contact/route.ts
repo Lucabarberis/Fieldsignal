@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 import { SITE } from "@/lib/site";
-import { isLandingPageSlug, LANDING_PAGE_BY_SLUG } from "@/lib/landing-pages";
+import {
+  isLandingPageSlug,
+  isLeadTopic,
+  LANDING_PAGE_BY_SLUG,
+} from "@/lib/landing-pages";
 import { leads } from "@/lib/db/leads";
 
 /**
@@ -45,11 +49,21 @@ export async function POST(request: Request) {
   const name = String(form.get("name") ?? "").trim();
   const company = String(form.get("company") ?? "").trim();
   const email = String(form.get("email") ?? "").trim();
-  const message = String(form.get("message") ?? "").trim();
+  const detail = String(form.get("message") ?? "").trim();
 
-  if (!name || !email || !message || !EMAIL_RE.test(email)) {
+  // Landing pages ask "what are you researching?" as a dropdown and leave
+  // free text optional — one tap instead of a written brief. The organic
+  // /contact form has no topic field and still requires its message, so
+  // neither form can be submitted without saying what it is about.
+  const topicRaw = String(form.get("topic") ?? "").trim();
+  const topic = isLeadTopic(topicRaw) ? topicRaw : "";
+
+  if (!name || !email || !EMAIL_RE.test(email) || (!topic && !detail)) {
     return redirect("/contact?error=invalid");
   }
+
+  // What gets emailed and stored. The topic leads, detail follows.
+  const message = [topic, detail].filter(Boolean).join("\n\n");
 
   // Attribution. `kw` is only trusted if it names a real landing page —
   // that keeps arbitrary submitted text out of the notification email and

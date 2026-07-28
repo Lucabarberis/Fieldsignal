@@ -35,6 +35,27 @@ export function Masthead() {
     setOpen(false);
   }, [pathname]);
 
+  // Paid-search landing pages get the wordmark and nothing else.
+  //
+  // The full nav offers nine ways to leave before the visitor reaches the
+  // form — including Pricing, which invites a bought click to go and
+  // comparison-shop. The mark is deliberately not a link: on a page whose
+  // only job is the form, even the logo is an exit.
+  //
+  // Must sit below every hook above, or the hook order changes by route.
+  if (pathname?.startsWith("/lp/")) {
+    return (
+      <nav className="bg-paper border-b border-ink px-4 lg:px-9 py-3 lg:py-4 flex justify-between items-center gap-4">
+        <span className="font-sans font-black text-brand uppercase tracking-[0.02em] text-[18px] leading-none">
+          {SITE.name.toUpperCase()}
+        </span>
+        <span className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
+          {SITE.jurisdiction}
+        </span>
+      </nav>
+    );
+  }
+
   return (
     <nav className="sticky top-0 z-50 bg-paper border-b border-ink">
       <div className="px-4 lg:px-9 py-3 lg:py-4 flex justify-between items-center gap-4 lg:gap-6">

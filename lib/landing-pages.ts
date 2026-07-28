@@ -184,6 +184,28 @@ export const LANDING_PAGES: LandingPage[] = [
   },
 ];
 
+/**
+ * What the visitor is researching, captured as one tap instead of a
+ * written brief. Shared by the form and the API route so the route can
+ * reject anything that isn't on this list.
+ *
+ * Deliberately short and mutually exclusive — a list long enough to need
+ * reading is a list that costs conversions.
+ */
+export const LEAD_TOPICS = [
+  "Commercial due diligence",
+  "Customer or channel checks",
+  "Market sizing or entry",
+  "Competitive intelligence",
+  "Something else",
+] as const;
+
+export type LeadTopic = (typeof LEAD_TOPICS)[number];
+
+export function isLeadTopic(value: string): value is LeadTopic {
+  return (LEAD_TOPICS as readonly string[]).includes(value);
+}
+
 /** Slug → page. Used by the route and by lead tagging. */
 export const LANDING_PAGE_BY_SLUG: Record<string, LandingPage> =
   Object.fromEntries(LANDING_PAGES.map((p) => [p.slug, p]));
