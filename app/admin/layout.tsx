@@ -64,6 +64,12 @@ export default async function AdminLayout({
         >
           Social
         </Link>
+        <Link
+          href="/admin/leads"
+          className="text-ink-2 hover:text-ink transition-colors"
+        >
+          Leads
+        </Link>
         <div className="flex-1" />
         <span className="text-ink-3 normal-case tracking-[0.04em]">{user.email}</span>
         <form action={signOutAction}>

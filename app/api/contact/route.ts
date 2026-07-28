@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { SITE } from "@/lib/site";
 import { isLandingPageSlug, LANDING_PAGE_BY_SLUG } from "@/lib/landing-pages";
+import { leads } from "@/lib/db/leads";
 
 /**
  * Contact form endpoint.
@@ -164,6 +165,29 @@ export async function POST(request: Request) {
     else console.error("[contact] auto-reply error", reply.status, await reply.text());
   } catch (err) {
     console.error("[contact] auto-reply failed", err);
+  }
+
+  // Lead record — the durable one, and the row a Calendly booking will
+  // later attach itself to. Best-effort like the sheet: the email above
+  // has already gone, so a database failure must not fail the request.
+  try {
+    await leads.record({
+      name,
+      email,
+      company,
+      message,
+      source: kw ? "google-ads" : "organic",
+      keyword,
+      keywordSlug: kw,
+      gclid: tracking.gclid,
+      utmSource: tracking.utm_source,
+      utmMedium: tracking.utm_medium,
+      utmCampaign: tracking.utm_campaign,
+      utmTerm: tracking.utm_term,
+      landingPath: tracking.landing_path,
+    });
+  } catch (err) {
+    console.error("[contact] lead record failed", err);
   }
 
   // Lead log — best-effort; a sheet failure must never lose the email.
