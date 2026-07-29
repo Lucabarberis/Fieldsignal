@@ -55,7 +55,7 @@ export default async function GtmEngagementPage({ params }: Props) {
   );
 
   // Two sections are conditional, so band numbers are counted rather than
-  // hardcoded — otherwise a page without case studies skips a number.
+  // hardcoded, otherwise a page without case studies skips a number.
   let seq = 0;
   const step = () => String(++seq).padStart(2, "0");
   const nWho = step();
@@ -88,7 +88,7 @@ export default async function GtmEngagementPage({ params }: Props) {
 
       <PageHeader
         current={page.name}
-        title={page.title.split(" - ")[0]}
+        title={page.title.split(":")[0]}
         lede={page.pageLede}
         meta={[
           { label: "Timeline", value: page.timeline },
@@ -343,7 +343,7 @@ export default async function GtmEngagementPage({ params }: Props) {
             Brief us on <span className="text-red">{ctaPhrase}</span>.
           </>
         }
-        meta={<>Response under 4 hours, {SITE.hours}. First call in 3–5 business days.</>}
+        meta={<>Response under 4 hours, {SITE.hours}. First call in 3 to 5 business days.</>}
         ctaLabel="Brief Us"
         ctaHref="/contact"
       />

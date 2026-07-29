@@ -1,5 +1,5 @@
 /**
- * Go-To-Market Intelligence — the /gtm-intelligence section.
+ * Go-To-Market Intelligence. The /gtm-intelligence section.
  *
  * The company-side counterpart to the fund-side research in /use-cases.
  * Same shape every time: put the growth question to people who have already
@@ -32,7 +32,7 @@ export type GtmPage = {
   pageLede: string;          // detail-page lede paragraph
   /** Who we put on the call. */
   whoWeAsk: readonly string[];
-  /** Trigger moments — when this engagement earns its keep. */
+  /** Trigger moments. When this engagement earns its keep. */
   whenToRun: readonly string[];
   /** Deliverables, named as concretely as we can name them. */
   whatYouGet: readonly string[];
@@ -83,7 +83,7 @@ export const GTM_CHANNELS: readonly { name: string; note: string }[] = [
   },
   {
     name: "Paid search",
-    note: "Depends entirely on whether people already search for the category. It won outright for self-storage software and live lessons. It lost outright for a creator platform, a new PR marketplace, a social app and a functional drink, and the reason was the same every time: nobody searches for a category they have never heard of.",
+    note: "Depends entirely on whether people already search for the category. It won outright for self-storage software and live lessons. It lost outright for a creator platform, a new PR marketplace, a social app and a functional drink. The reason was the same every time: nobody searches for a category they have never heard of.",
   },
   {
     name: "Paid social",
@@ -122,7 +122,7 @@ export const GTM_CHANNELS: readonly { name: string; note: string }[] = [
 /**
  * Aggregate findings across the nine published channel-discovery studies.
  * Rendered on the hub. Every line here should be checkable against those
- * write-ups — that is the point of publishing it.
+ * write-ups, which is the point of publishing them.
  */
 export const GTM_EVIDENCE: readonly { finding: string; detail: string }[] = [
   {
@@ -158,7 +158,7 @@ export const gtmPages: readonly GtmPage[] = [
     slug: "growth-operator-interviews",
     id: "01",
     name: "GROWTH OPERATOR INTERVIEWS",
-    title: "Growth Operator Interviews - Heads of Growth",
+    title: "Growth Operator Interviews: Heads of Growth",
     description:
       "One-hour calls with former VPs of Marketing, CMOs and Heads of Growth from competing and comparable companies. What they ran, what it cost, and what they would not repeat.",
     oneLiner:
@@ -259,7 +259,7 @@ export const gtmPages: readonly GtmPage[] = [
         "Its VP Marketing put it plainly afterwards: they had invented a category, so nobody was searching for them yet. Once that was clear, the plan moved to reaching the named buyer directly instead of waiting for search demand that was not coming.",
       studySlug: "gtm-performance-pr-marketplace",
     },
-    timeline: "3–5 days to first call",
+    timeline: "3 to 5 days to first call",
     faq: [
       {
         q: "Are these people currently working at my competitors?",
@@ -296,7 +296,7 @@ export const gtmPages: readonly GtmPage[] = [
     slug: "channel-discovery",
     id: "02",
     name: "CHANNEL DISCOVERY",
-    title: "GTM Channel Discovery - Find What Actually Works",
+    title: "GTM Channel Discovery: Find What Actually Works",
     description:
       "We test five acquisition channels against one qualified-customer bar and report which one works, which do not, and why. Ranked channels and a budget plan in five to eight weeks.",
     oneLiner:
@@ -345,7 +345,7 @@ export const gtmPages: readonly GtmPage[] = [
       items: [
         {
           name: "Paid search where no intent exists",
-          why: "This is the single most common negative finding in our published work. Four of nine engagements ended with Google ruled out, and the reason never varied: buyers do not search for a category they have not heard of, so there is no demand to capture and the auction just bills you for finding out.",
+          why: "This is the single most common negative finding in our published work. Four of nine engagements ended with Google ruled out, and the reason never varied. Buyers do not search for a category they have not heard of, so there is no demand to capture and the auction just bills you for finding out.",
         },
         {
           name: "Broad paid social for a considered B2B purchase",
@@ -393,10 +393,10 @@ export const gtmPages: readonly GtmPage[] = [
         "The company let travel creators build and sell interactive guides to their followers. Growth depended on signing creators who already had an audience. Budget was approved and could not be spread five ways on faith.",
       did: "We tested five channels against one bar: creators who actually published a guide, rather than anyone who signed up. Each channel was cut the moment its qualified-signup signal stalled.",
       found:
-        "Outbound won, and referral made it cheaper still because the creators who joined kept introducing others for almost nothing. Google lost outright — creators do not search for a way to sell travel guides, so there was no intent to capture. Meta and broad influencer spend could not isolate creators with real audiences, so cost per active creator ran too high.",
+        "Outbound won, and referral made it cheaper still because the creators who joined kept introducing others for almost nothing. Google lost outright. Creators do not search for a way to sell travel guides, so there was no intent to capture. Meta and broad influencer spend could not isolate creators with real audiences, so cost per active creator ran too high.",
       studySlug: "gtm-travel-creator-platform",
     },
-    timeline: "5–8 weeks",
+    timeline: "5 to 8 weeks",
     faq: [
       {
         q: "Do you run the ads yourselves?",
@@ -437,13 +437,13 @@ export const gtmPages: readonly GtmPage[] = [
     slug: "channel-teardowns",
     id: "03",
     name: "CHANNEL TEARDOWNS",
-    title: "Channel Teardowns - One Channel, Taken Apart",
+    title: "Channel Teardowns: One Channel, Taken Apart",
     description:
       "One acquisition channel taken apart by operators who have run it for your buyer. What it costs, where it breaks, and what has to be true before it pays.",
     oneLiner:
       "One channel, taken apart by the operators who ran it. Economics, failure modes, preconditions.",
     pageLede:
-      "Sometimes the question is not which channel but whether this one will work. A teardown takes a single channel — outbound, paid search, partnerships, whatever is on the table — and puts it in front of operators who have run it for a buyer like yours. You end up with the real economics, the failure modes in the order they usually appear, and an honest list of what has to be true before it pays.",
+      "Sometimes the question is not which channel but whether this one will work. A teardown puts one channel in front of operators who have run it for a buyer like yours, whether that channel is outbound, paid search or partnerships. You end up with the real economics, the failure modes in the order they usually appear, and an honest list of what has to be true before it pays.",
     whoWeAsk: [
       "Operators who ran this specific channel at a company selling to your buyer",
       "The person who killed it, where a comparable company tried it and stopped",
@@ -461,7 +461,7 @@ export const gtmPages: readonly GtmPage[] = [
       "Realistic economics for the channel in your category, sourced from operators rather than published averages",
       "The failure modes, in the order they usually show up",
       "Preconditions: what has to be true before this channel pays, written as a checklist you can hold up against your own situation",
-      "A verdict — run it, run it later, or do not run it — with the reasoning attached",
+      "A verdict with the reasoning attached: run it, run it later, or do not run it",
       "Transcripts from every call behind the verdict, so you can check our reading against the source",
     ],
     whatWeNeed: [
@@ -473,7 +473,7 @@ export const gtmPages: readonly GtmPage[] = [
     questionsWeAsk: [
       "What did this channel cost you per closed customer, fully loaded?",
       "How long before you knew it was working, and what was the first honest signal?",
-      "What broke it — creative, list, offer, targeting, or the buyer simply not being there?",
+      "What broke it: creative, list, offer, targeting, or the buyer simply not being there?",
       "Who does this channel work for, and how are they different from us?",
       "What did you have in place that made it work, and would it have worked without that?",
       "If we run it anyway, what is the cheapest way to find out we were wrong?",
@@ -535,7 +535,7 @@ export const gtmPages: readonly GtmPage[] = [
         "Outbound and industry events won, because a small, known set of buyers answered direct approaches and wanted to see the product in person. Google and LinkedIn captured a thin stream from fleets already researching fatigue monitoring. Meta lost outright. As the founder put it afterwards, they had been running consumer-style ads for an enterprise sale to a short, named list.",
       studySlug: "gtm-fleet-safety-hardware",
     },
-    timeline: "2–4 weeks",
+    timeline: "2 to 4 weeks",
     faq: [
       {
         q: "Which channels can you tear down?",
@@ -572,7 +572,7 @@ export const gtmPages: readonly GtmPage[] = [
     slug: "icp-and-buyer-research",
     id: "04",
     name: "ICP & BUYER RESEARCH",
-    title: "ICP and Buyer Research - Who Actually Buys",
+    title: "ICP and Buyer Research: Who Actually Buys",
     description:
       "Interviews with real buyers and the operators who sold to them, establishing who your customer actually is, who signs, and where they were before they bought.",
     oneLiner:
@@ -596,7 +596,7 @@ export const gtmPages: readonly GtmPage[] = [
     whatYouGet: [
       "A buyer definition grounded in interviews, with the segments that did not survive named explicitly",
       "The buying committee: who evaluates, who blocks, who signs, and who can kill it alone",
-      "Trigger events — what was happening in the business the week the buyer started looking",
+      "Trigger events: what was happening in the business the week the buyer started looking",
       "Where the buyer was before they bought, which is the part that makes any of this usable for channel work",
       "Verbatim quotes, with consent, that you can put in front of your own team",
     ],
@@ -665,13 +665,13 @@ export const gtmPages: readonly GtmPage[] = [
     worked: {
       label: "A marketplace for live lessons",
       setup:
-        "The company ran a marketplace for booking live lessons and masterclasses from experts. It had two sides — learners who buy and creators who teach — and growth spend was going out with no clear read on returns.",
+        "The company ran a marketplace for booking live lessons and masterclasses from experts. It had two sides: learners who buy and creators who teach. Growth spend was going out with no clear read on returns.",
       did: "We split the research by side, measuring the demand side to completed bookings rather than clicks or views, and reading creator acquisition on teachers who actually published and stayed active.",
       found:
         "Learners searched for the specific skill they wanted, so search converted and paid social filled the funnel cheaply without closing bookings. Supply behaved completely differently: active teachers introduced other experts far more cheaply than paid acquisition ever did. The two sides needed separate channels and separate budgets.",
       studySlug: "gtm-live-lessons-marketplace",
     },
-    timeline: "3–5 weeks",
+    timeline: "3 to 5 weeks",
     faq: [
       {
         q: "How is this different from talking to our own customers?",
@@ -704,13 +704,13 @@ export const gtmPages: readonly GtmPage[] = [
     slug: "gtm-benchmarks",
     id: "05",
     name: "GTM BENCHMARKS",
-    title: "GTM Benchmarks - Numbers From Comparable Firms",
+    title: "GTM Benchmarks: Numbers From Comparable Firms",
     description:
       "Acquisition cost, conversion, cycle length and team shape collected from operators at genuinely comparable companies, with the sample size published alongside every range.",
     oneLiner:
       "Acquisition cost, conversion, cycle length and team shape from companies genuinely like yours.",
     pageLede:
-      "Published benchmark reports average across companies that share nothing but a software category, which is why every team reading one assumes it sits on the good side of the median. We collect the same numbers from a screened set of operators at genuinely comparable companies, and we publish the sample size next to every range — including when the sample is small.",
+      "Published benchmark reports average across companies that share nothing but a software category, which is why every team reading one assumes it sits on the good side of the median. We collect the same numbers from a screened set of operators at genuinely comparable companies, and we publish the sample size next to every range, including when the sample is small.",
     whoWeAsk: [
       "Growth and marketing leaders at companies matched on buyer, price point and motion",
       "Finance and revenue-operations leads who owned the numbers rather than presented them",
@@ -728,7 +728,7 @@ export const gtmPages: readonly GtmPage[] = [
     whatYouGet: [
       "Ranges for acquisition cost, conversion and cycle length, split by channel and segment",
       "The sample described honestly: how many operators, how comparable, how recent",
-      "Team shape at your stage — headcount, seniority mix, and what comparable companies outsourced",
+      "Team shape at your stage: headcount, seniority mix, and what comparable companies outsourced",
       "Where you sit against each range, and which gaps are worth acting on rather than merely noting",
       "The anonymised raw responses, so you can check the reasoning instead of taking the median on trust",
     ],
@@ -787,7 +787,7 @@ export const gtmPages: readonly GtmPage[] = [
       },
       {
         name: "We cannot benchmark you against a named company",
-        why: "Against the segment, yes. Against a specific named competitor's current figures, no — that runs into the cooling-off rule and, for public companies, into material non-public information.",
+        why: "Against the segment, yes. Against a specific named competitor's current figures, no. That runs into the cooling-off rule and, for public companies, into material non-public information.",
       },
       {
         name: "A benchmark is not a target",
@@ -800,9 +800,9 @@ export const gtmPages: readonly GtmPage[] = [
         "Across the nine channel-discovery engagements published on this site, the same channels came up repeatedly against different buyers, price points and categories.",
       did: "We looked at how each channel performed across all nine, and at what separated the wins from the losses rather than at the headline result.",
       found:
-        "Paid search won outright twice and lost outright four times, and the split was always whether category search demand already existed. Paid social carried the consumer engagements and lost every considered B2B one. Outbound won or shared the win in seven. None of that is a benchmark you should apply to your own plan blind, but it is the kind of pattern a benchmark engagement is built to establish properly, with a defined sample and a stated method.",
+        "Paid search won outright twice and lost outright four times, and the split was always whether category search demand already existed. Paid social carried the consumer engagements and lost every considered B2B one. Outbound won or shared the win in seven. You should not apply any of that to your own plan blind. It is the kind of pattern a benchmark engagement exists to establish properly, with a defined sample and a stated method.",
     },
-    timeline: "3–6 weeks",
+    timeline: "3 to 6 weeks",
     faq: [
       {
         q: "How do you get people to share real numbers?",
@@ -818,7 +818,7 @@ export const gtmPages: readonly GtmPage[] = [
       },
       {
         q: "How do you handle everyone calculating CAC differently?",
-        a: "We ask how the number was built before we ask what it is — whether it includes salaries, agency fees, tooling, blended or paid-only. Then we normalise where we can and publish the definition where we cannot. A benchmark without a stated definition is close to useless.",
+        a: "We ask how the number was built before we ask what it is: whether it includes salaries, agency fees and tooling, and whether it is blended or paid only. Then we normalise where we can and publish the definition where we cannot. A benchmark without a stated definition is close to useless.",
       },
       {
         q: "Do we have to share our own numbers?",

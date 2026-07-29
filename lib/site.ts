@@ -66,7 +66,7 @@ export const NAV_PREVIEWS: Record<
   },
   "/gtm-intelligence": {
     blurb:
-      "We ask the Heads of Growth who already ran your motion which channels work — and which to avoid.",
+      "We ask the Heads of Growth who already ran your motion which channels work and which to avoid.",
     sublinks: [
       { href: "/gtm-intelligence", label: "All engagements" },
       { href: "/gtm-intelligence/channel-discovery", label: "Channel discovery" },

@@ -13,7 +13,7 @@ import { gtmPages, GTM_CHANNELS, GTM_EVIDENCE } from "@/content/data/gtm";
 import { caseStudies } from "@/content/data/case-studies";
 
 export const metadata = pageMetadata({
-  title: "Go-To-Market Intelligence - Ask The Operators",
+  title: "Go-To-Market Intelligence: Ask The Operators",
   description:
     "We ask the VPs of Marketing and Heads of Growth who already ran your motion which channels work, which to avoid, and why. Five engagement formats, no retainer.",
   path: "/gtm-intelligence",
@@ -67,7 +67,7 @@ const PROCESS_STEPS = [
   {
     step: "02",
     name: "Source and screen",
-    day: "Days 3–5",
+    day: "Days 3 to 5",
     description:
       "We find operators who ran your motion at a comparable company, verify their employment history, and check them against the six-month cooling-off rule and our conflict screen. You see anonymised profiles and approve each one before anything is scheduled.",
     meta: "You approve every operator before the call",
@@ -75,7 +75,7 @@ const PROCESS_STEPS = [
   {
     step: "03",
     name: "Run the calls",
-    day: "Weeks 1–3",
+    day: "Weeks 1 to 3",
     description:
       "One-hour calls against a written discussion guide you have seen. Join them or take the transcript, whichever suits. Every call is transcribed within one business day and monitored for compliance while it runs.",
     meta: "Transcript within 1 business day",
@@ -91,7 +91,7 @@ const PROCESS_STEPS = [
   {
     step: "05",
     name: "Report the negative",
-    day: "Weeks 3–8",
+    day: "Weeks 3 to 8",
     description:
       "Synthesis across the set: what cleared the bar, what did not, where operators disagreed with each other, and the reasoning behind everything we tell you to drop. The channels to avoid get written up as carefully as the ones worth funding.",
     meta: "Ranked channels · budget plan · dissent recorded",
@@ -149,13 +149,13 @@ export default function GtmIntelligenceHubPage() {
         }
         meta={[
           { label: "Formats", value: `${gtmPages.length} engagements` },
-          { label: "First call", value: "3–5 business days" },
+          { label: "First call", value: "3 to 5 business days" },
           { label: "Published studies", value: `${gtmStudies.length}` },
           { label: "Commitment", value: "Per project, no retainer" },
         ]}
       />
 
-      {/* ── 01 — What it is ───────────────────────────────────────────── */}
+      {/* ── 01 What it is ───────────────────────────────────────────── */}
       <SectionBand num="01" label="What This Is" meta="The premise" />
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="font-sans text-[17px] leading-[1.5] text-ink">
@@ -165,8 +165,9 @@ export default function GtmIntelligenceHubPage() {
         <p className="text-body text-ink-2 mt-5">
           Our job is to find those people and get them on a call with you. Former VPs of
           Marketing, CMOs, Heads of Growth and demand-generation leads at competitors and
-          comparable companies — people who held the budget, watched a channel fail, and
-          had to explain it to a board. Alongside them we interview buyers directly,
+          comparable companies. These are people who held the budget, watched a channel
+          fail, and had to explain it to a board. Alongside them we interview buyers
+          directly,
           including the ones who chose a competitor and the ones who chose nobody, on
           where they actually were when they decided to buy.
         </p>
@@ -179,7 +180,7 @@ export default function GtmIntelligenceHubPage() {
         </p>
       </div>
 
-      {/* ── 02 — The engagements ──────────────────────────────────────── */}
+      {/* ── 02 The engagements ──────────────────────────────────────── */}
       <SectionBand
         num="02"
         label="The Engagements"
@@ -203,7 +204,7 @@ export default function GtmIntelligenceHubPage() {
         </TileGrid>
       </div>
 
-      {/* ── 03 — Aggregate evidence ───────────────────────────────────── */}
+      {/* ── 03 Aggregate evidence ───────────────────────────────────── */}
       <SectionBand
         num="03"
         label="What The Work Has Shown"
@@ -241,7 +242,7 @@ export default function GtmIntelligenceHubPage() {
         </dl>
       </div>
 
-      {/* ── 04 — Channel coverage ─────────────────────────────────────── */}
+      {/* ── 04 Channel coverage ─────────────────────────────────────── */}
       <SectionBand
         num="04"
         label="Channels We Cover"
@@ -269,13 +270,13 @@ export default function GtmIntelligenceHubPage() {
         </TileGrid>
       </div>
 
-      {/* ── 05 — How it runs ──────────────────────────────────────────── */}
+      {/* ── 05 How it runs ──────────────────────────────────────────── */}
       <SectionBand num="05" label="How It Runs" meta="5 steps, brief to synthesis" />
       <div className="p-4 sm:p-9">
         <WideTile id="05.0" name="ENGAGEMENT PROCESS" steps={PROCESS_STEPS} />
       </div>
 
-      {/* ── 06 — Who we ask ───────────────────────────────────────────── */}
+      {/* ── 06 Who we ask ───────────────────────────────────────────── */}
       <SectionBand num="06" label="Who We Ask" meta="Sourcing and screening" />
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <Checklist
@@ -304,7 +305,7 @@ export default function GtmIntelligenceHubPage() {
         </p>
       </div>
 
-      {/* ── 07 — When not to hire us ──────────────────────────────────── */}
+      {/* ── 07 When not to hire us ──────────────────────────────────── */}
       <SectionBand
         num="07"
         label="When Not To Hire Us"
@@ -326,7 +327,7 @@ export default function GtmIntelligenceHubPage() {
         </TileGrid>
       </div>
 
-      {/* ── 08 — Proof ────────────────────────────────────────────────── */}
+      {/* ── 08 Proof ────────────────────────────────────────────────── */}
       {gtmStudies.length > 0 && (
         <>
           <SectionBand
@@ -361,7 +362,7 @@ export default function GtmIntelligenceHubPage() {
         </>
       )}
 
-      {/* ── 09 — FAQ ──────────────────────────────────────────────────── */}
+      {/* ── 09 FAQ ──────────────────────────────────────────────────── */}
       <SectionBand num="09" label="Questions" meta={`${HUB_FAQ.length} answers`} />
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <dl className="flex flex-col">
@@ -386,7 +387,7 @@ export default function GtmIntelligenceHubPage() {
             <span className="text-red">ask someone who ran it.</span>
           </>
         }
-        meta={<>Response under 4 hours, {SITE.hours}. First call in 3–5 business days.</>}
+        meta={<>Response under 4 hours, {SITE.hours}. First call in 3 to 5 business days.</>}
         ctaLabel="Brief Us"
         ctaHref="/contact"
       />
