@@ -39,6 +39,7 @@ export const SITE = {
 
 export const NAV_LINKS = [
   { href: "/services", label: "Services" },
+  { href: "/gtm-intelligence", label: "GTM Intelligence" },
   { href: "/industries", label: "Sectors" },
   { href: "/use-cases", label: "Use Cases" },
   { href: "/transcripts", label: "Transcripts" },
@@ -61,6 +62,18 @@ export const NAV_PREVIEWS: Record<
     sublinks: [
       { href: "/services", label: "All services" },
       { href: "/platform", label: "Platform" },
+    ],
+  },
+  "/gtm-intelligence": {
+    blurb:
+      "We ask the Heads of Growth who already ran your motion which channels work — and which to avoid.",
+    sublinks: [
+      { href: "/gtm-intelligence", label: "All engagements" },
+      { href: "/gtm-intelligence/channel-discovery", label: "Channel discovery" },
+      {
+        href: "/gtm-intelligence/growth-operator-interviews",
+        label: "Growth operator interviews",
+      },
     ],
   },
   "/industries": {
@@ -114,6 +127,7 @@ export const FOOTER_LINKS = [
   { href: "/team", label: "Team" },
   { href: "/clients", label: "Clients" },
   { href: "/use-cases", label: "Use Cases" },
+  { href: "/gtm-intelligence", label: "GTM Intelligence" },
   { href: "/platform", label: "Platform" },
   { href: "/regions", label: "Regions" },
   { href: "/alternatives", label: "Alternatives" },

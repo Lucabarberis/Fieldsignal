@@ -23,6 +23,7 @@ const SECTIONS = {
   alternatives: "content/data/alternatives.ts",
   compares: "content/data/compare.ts",
   useCases: "content/data/use-cases.ts",
+  gtm: "content/data/gtm.ts",
   expertPages: "content/data/experts-pages.ts",
   guides: "content/data/guides.ts",
   glossary: "content/data/glossary.ts",

@@ -11,6 +11,7 @@ import { alternatives } from "@/content/data/alternatives";
 import { compares } from "@/content/data/compare";
 import { industrySubniches } from "@/content/data/industry-subniches";
 import { useCases } from "@/content/data/use-cases";
+import { gtmPages } from "@/content/data/gtm";
 import { expertPages } from "@/content/data/experts-pages";
 import { guides } from "@/content/data/guides";
 import { glossary } from "@/content/data/glossary";
@@ -79,6 +80,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Wave 4 hubs
     { url: `${SITE.url}/use-cases`, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/experts`, changeFrequency: "monthly", priority: 0.8 },
+
+    // GTM Intelligence hub
+    { url: `${SITE.url}/gtm-intelligence`, changeFrequency: "monthly", priority: 0.9 },
 
     // Wave 5 hubs
     { url: `${SITE.url}/resources/guides`, changeFrequency: "weekly", priority: 0.8 },
@@ -176,6 +180,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
+  const gtmRoutes: MetadataRoute.Sitemap = gtmPages.map((p) => ({
+    url: `${SITE.url}/gtm-intelligence/${p.slug}`,
+    lastModified: CONTENT_MODIFIED.gtm ? new Date(CONTENT_MODIFIED.gtm) : undefined,
+    changeFrequency: "monthly",
+    priority: 0.85,
+  }));
+
   const expertRoutes: MetadataRoute.Sitemap = expertPages.map((p) => ({
     url: `${SITE.url}/experts/${p.slug}`,
     lastModified: CONTENT_MODIFIED.expertPages ? new Date(CONTENT_MODIFIED.expertPages) : undefined,
@@ -257,6 +268,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...alternativeRoutes,
     ...compareRoutes,
     ...useCaseRoutes,
+    ...gtmRoutes,
     ...expertRoutes,
     ...guideRoutes,
     ...glossaryRoutes,

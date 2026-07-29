@@ -39,6 +39,7 @@ ${line("Services", "/services", "Expert consultations, panel calls, surveys, ref
 ${line("Pricing", "/pricing", "Per-call rates, project packages and subscriptions. No annual retainers, no minimum spend.")}
 ${line("Industries", "/industries", "Sector coverage and sub-sector specialisms.")}
 ${line("Use Cases", "/use-cases", "Common research scenarios FieldSignal supports.")}
+${line("GTM Intelligence", "/gtm-intelligence", "Go-to-market research for company clients: interviews with former VPs of Marketing and Heads of Growth at competing and comparable companies to establish which acquisition channels work, which to avoid, and why.")}
 ${line("Platform", "/platform", "How the engagement and transcript workflow works.")}
 ${line("Transcripts", "/transcripts", "Expert call transcript library with free previews.")}
 ${line("About", "/about", "Company background and mission.")}

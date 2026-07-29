@@ -116,7 +116,7 @@ export default function HomePage() {
         id="services"
         num="02"
         label="Our Services"
-        meta="6 engagement formats"
+        meta="7 engagement formats"
       />
       <div className="p-4 sm:p-9">
         <TileGrid cols={3}>
@@ -137,6 +137,14 @@ export default function HomePage() {
           </Tile>
           <Tile id="02.6" name="TRANSCRIPT LIBRARY ACCESS">
             <p>Access to our growing database of 5,000+ anonymized expert interview transcripts.</p>
+          </Tile>
+          <Tile
+            id="02.7"
+            name="GTM INTELLIGENCE"
+            cta="View the section"
+            href="/gtm-intelligence"
+          >
+            <p>Go-to-market research for company clients. We ask the Heads of Growth who already ran your motion which acquisition channels work, which to avoid, and why.</p>
           </Tile>
         </TileGrid>
       </div>
