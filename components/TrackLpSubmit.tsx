@@ -21,6 +21,7 @@
 
 import { useEffect } from "react";
 import { usePostHog } from "posthog-js/react";
+import { gtagEvent } from "@/lib/gtag";
 
 const GUARD_KEY = "fs-ads-lead-tracked";
 
@@ -33,7 +34,7 @@ export function TrackLpSubmit({ keywordSlug }: { keywordSlug: string }) {
 
     const payload = { form: "landing-page", keyword: keywordSlug };
 
-    window.gtag?.("event", "ads_lead", payload);
+    gtagEvent("ads_lead", payload);
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: "ads_lead", ...payload });
 

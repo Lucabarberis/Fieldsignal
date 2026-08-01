@@ -14,13 +14,7 @@
 
 import { useEffect } from "react";
 import { usePostHog } from "posthog-js/react";
-
-declare global {
-  interface Window {
-    dataLayer?: Record<string, unknown>[];
-    gtag?: (...args: unknown[]) => void;
-  }
-}
+import { gtagEvent } from "@/lib/gtag";
 
 const GUARD_KEY = "fs-contact-form-tracked";
 
@@ -31,7 +25,7 @@ export function TrackFormSubmit() {
     if (sessionStorage.getItem(GUARD_KEY)) return;
     sessionStorage.setItem(GUARD_KEY, "1");
 
-    window.gtag?.("event", "contact_form_submit", { form: "contact" });
+    gtagEvent("contact_form_submit", { form: "contact" });
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: "contact_form_submit", form: "contact" });
 
