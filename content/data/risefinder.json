@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-08-02T09:58:12Z",
+  "data_through": "2026-08-02",
+  "stats": {
+    "entities": 8293,
+    "snapshots": 176854,
+    "sources_live": 12,
+    "first_day": "2018-01-01"
+  },
+  "items": [
+    {
+      "name": "drumih/turbo-fieldfare",
+      "type": "repo",
+      "brief": "Third day climbing and the shape got better, not worse: stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges, not bookmarking it. HackerNews has gone quiet \u2014 comments up only 1.5%, off the front page \u2014 so this is now growing on its own without a thread pushing it, which is the transition most launches never make.",
+      "sources": [
+        "github",
+        "hackernews"
+      ]
+    },
+    {
+      "name": "DramaWave - Dramas & Reels",
+      "type": "app",
+      "brief": "DramaWave improved its best rank 20% to position 12 while falling 34% in the US, 32% in the UK and 22% in Germany. Charting far better overall while losing every tracked Western market means the gain came from somewhere we do not watch. With 100 million Android installs already, this is a mature short-drama app moving on ad spend, not a discovery.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ]
+    },
+    {
+      "name": "FORScan Lite - for Ford, Mazda",
+      "type": "app",
+      "brief": "FORScan Lite's Android installs jumped to 10 million and reviews rose 57% in a day \u2014 an enormous move for a paid car-diagnostics tool with only 192 iOS ratings. The install figure is bucketed by Google, so a jump like that is a threshold being crossed rather than a real overnight surge. Worth watching the review count instead: 57% growth there is a genuine number.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ]
+    },
+    {
+      "name": "yc-software/qm",
+      "type": "repo",
+      "brief": "Stars up 121% and forks up 150% in a day, with open issues up 124% and its HackerNews rank improving sharply. Forks growing faster than stars on a repo this young means people are cloning to modify rather than to watch. Everything about it is early enough that a single day could reverse it, but the fork-to-star ratio is the healthiest in today's set.",
+      "sources": [
+        "github",
+        "hackernews"
+      ]
+    },
+    {
+      "name": "Freecash - Get Paid Real Money",
+      "type": "app",
+      "brief": "Freecash improved its best rank 7% while slipping in the UK and US. Paid-reward apps move on marketing budget rather than product quality, so read this as an advertising signal. It has appeared in this set three days running with the same pattern, which makes it a good control: if the system flags it every day, its threshold for apps is probably still a touch loose.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ]
+    },
+    {
+      "name": "sqliteai/waste",
+      "type": "repo",
+      "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. That comment-to-point ratio is still inverted \u2014 roughly eighteen comments per point \u2014 which means the discussion is an argument, not applause. Yesterday's question was whether the stars were the idea or the fight; two days of doubling suggests the idea is surviving the fight.",
+      "sources": [
+        "github",
+        "hackernews"
+      ]
+    },
+    {
+      "name": "Duolingo: Language Lessons",
+      "type": "app",
+      "brief": "Duolingo improved its best rank 6% while easing back slightly in Germany and the UK. At 500 million Android installs and 5.4 million ratings, nothing this app does in a day is news. It is in the set because the corroboration rule is honest \u2014 two sources genuinely saw it move \u2014 which is a reminder that \"corroborated\" means confirmed, not important.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ]
+    },
+    {
+      "name": "c-faq.com",
+      "type": "domain",
+      "brief": "On the HackerNews front page with 47 comments, and its Tranco traffic rank improved 1.1%. This is the C FAQ, a decades-old reference \u2014 the traffic bump is a link on a busy day, not growth. Included because two independent sources moved together, which is exactly the case where the rule is right and the answer is still \"so what\".",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ]
+    },
+    {
+      "name": "pferdedecken-kaufen.de",
+      "type": "domain",
+      "brief": "A German horse-blanket shop whose Tranco rank improved 1.9%, corroborated by the fact that it publishes real prices. A genuine small business having a normal week. It is here because monetisation is now a scoring signal, and this is what that signal looks like when it fires on something ordinary \u2014 useful for calibration, not for action.",
+      "sources": [
+        "majestic_million",
+        "openpagerank",
+        "pricing",
+        "tranco"
+      ]
+    },
+    {
+      "name": "hillelwayne.com",
+      "type": "domain",
+      "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ]
+    },
+    {
+      "name": "projectpluto.com",
+      "type": "domain",
+      "brief": "79 comments on the front page with a 0.6% Tranco move. Astronomy software with a long history. The pattern across today's domain set is clear and worth naming: HackerNews plus a tiny traffic bump almost always means one popular post, not a rising business.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ]
+    },
+    {
+      "name": "seriot.ch",
+      "type": "domain",
+      "brief": "HackerNews points up 20% from a base of 4, with one comment. This is noise that cleared the bar because the domain population was quiet. Listed so the set stays honest about what qualified rather than quietly dropping it.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ]
+    }
+  ]
+}
