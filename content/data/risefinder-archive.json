@@ -327,7 +327,8 @@
           "brief": "HackerNews points up 2,100% to 108 with 65 comments, front page, and nothing else in the system has seen it. This is the earliest shape RiseFinder can detect and also the least proven \u2014 one well-received post produces exactly this. Worth a look precisely because it is undecided.",
           "sources": [
             "hackernews",
-            "openpagerank"
+            "openpagerank",
+            "wikipedia"
           ],
           "url": "https://marbleos.com",
           "description": null,
@@ -348,7 +349,8 @@
           "sources": [
             "hackernews",
             "openpagerank",
-            "pricing"
+            "pricing",
+            "wikipedia"
           ],
           "url": "https://reclip.io",
           "description": null,
@@ -388,7 +390,8 @@
           "brief": "Three points, no comments, same story as reclip.io. Listed for completeness; a quiet day makes small numbers rank well.",
           "sources": [
             "hackernews",
-            "openpagerank"
+            "openpagerank",
+            "wikipedia"
           ],
           "url": "https://orangecrumbs.com",
           "description": null,
