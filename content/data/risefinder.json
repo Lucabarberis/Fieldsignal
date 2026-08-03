@@ -1,5 +1,227 @@
 {
-  "generated_at": "2026-08-03T07:13:22Z",
+  "tracked_windows": [
+    {
+      "source": "github",
+      "label": "GitHub \u2014 stars",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "github",
+      "label": "GitHub \u2014 stars",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "hackernews",
+      "label": "HackerNews \u2014 points",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "hackernews",
+      "label": "HackerNews \u2014 points",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "packages",
+      "label": "npm / PyPI \u2014 downloads",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "packages",
+      "label": "npm / PyPI \u2014 downloads",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "huggingface",
+      "label": "HuggingFace \u2014 downloads",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "huggingface",
+      "label": "HuggingFace \u2014 downloads",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "ios_apps",
+      "label": "App Store \u2014 ratings",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "ios_apps",
+      "label": "App Store \u2014 ratings",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "android_apps",
+      "label": "Google Play \u2014 reviews",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "android_apps",
+      "label": "Google Play \u2014 reviews",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "wordpress",
+      "label": "WordPress \u2014 ratings",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "wordpress",
+      "label": "WordPress \u2014 ratings",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "chrome_ext",
+      "label": "Chrome \u2014 ratings",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "chrome_ext",
+      "label": "Chrome \u2014 ratings",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "shopify",
+      "label": "Shopify \u2014 reviews",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "shopify",
+      "label": "Shopify \u2014 reviews",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "producthunt",
+      "label": "ProductHunt \u2014 votes",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 5,
+      "need_days": 7,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "producthunt",
+      "label": "ProductHunt \u2014 votes",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 5,
+      "need_days": 30,
+      "first_day": "2026-07-29",
+      "items": []
+    },
+    {
+      "source": "openpagerank",
+      "label": "OpenPageRank \u2014 authority",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 3136,
+      "need_days": 7,
+      "first_day": "2018-01-01",
+      "items": []
+    },
+    {
+      "source": "openpagerank",
+      "label": "OpenPageRank \u2014 authority",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 3136,
+      "need_days": 30,
+      "first_day": "2018-01-01",
+      "items": []
+    }
+  ],
+  "generated_at": "2026-08-03T07:39:03Z",
   "windows": [
     {
       "source": "majestic_million",

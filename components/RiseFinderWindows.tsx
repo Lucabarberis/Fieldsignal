@@ -32,8 +32,14 @@ export type WindowBlock = {
   need_days: number;
   first_day: string | null;
   items: {
-    domain: string;
-    rank: number;
+    // Universe blocks carry a domain and a rank; per-source blocks carry a name
+    // and a raw metric. One shape with both halves optional keeps a single
+    // component rather than two that must be kept in step.
+    domain?: string;
+    rank?: number;
+    name?: string;
+    unit?: string;
+    now?: number;
     was: number;
     gain_pct: number;
     from_day: string;
@@ -45,8 +51,27 @@ function daysLeft(b: WindowBlock) {
   return Math.max(b.need_days - b.have_days, 0);
 }
 
-export function RiseFinderWindows({ windows }: { windows: WindowBlock[] }) {
-  if (!windows.length) return null;
+export function RiseFinderWindows({
+  windows,
+  tracked = [],
+}: {
+  windows: WindowBlock[];
+  tracked?: WindowBlock[];
+}) {
+  if (!windows.length && !tracked.length) return null;
+
+  // Sources whose window has opened get a table; the rest are summarised in one
+  // line each. Eleven sources times two windows is twenty-two boxes, and
+  // twenty-two empty boxes reads as a broken feature rather than a waiting one.
+  const trackedReady = tracked.filter((t) => t.items.length > 0);
+  const trackedWaiting = tracked.filter((t) => t.items.length === 0);
+  // Only count windows genuinely waiting on days. OpenPageRank carries a
+  // backfilled history running to 2018, so its "days remaining" is zero even
+  // though it returns nothing — its baseline is monthly and gets rejected as
+  // too stale for a 7-day comparison. Including it dragged the minimum to zero
+  // and made the sentence read "opens in 0 days" while nothing was there.
+  const pending = trackedWaiting.map(daysLeft).filter((d) => d > 0);
+  const soonest = pending.length ? Math.min(...pending) : null;
 
   return (
     <>
@@ -118,7 +143,7 @@ export function RiseFinderWindows({ windows }: { windows: WindowBlock[] }) {
                       <tr key={r.domain} className="border-b border-rule">
                         <td className="px-5 sm:px-7 py-2.5 font-mono text-mono text-ink break-all">
                           <a
-                            href={`https://${r.domain}`}
+                            href={`https://${r.domain ?? ""}`}
                             target="_blank"
                             rel="noopener noreferrer nofollow"
                             className="hover:text-red transition-colors"
@@ -129,7 +154,7 @@ export function RiseFinderWindows({ windows }: { windows: WindowBlock[] }) {
                         <td className="px-3 py-2.5 font-mono text-mono text-ink-2 text-right whitespace-nowrap">
                           {r.was.toLocaleString("en-GB")} →{" "}
                           <b className="text-ink">
-                            {r.rank.toLocaleString("en-GB")}
+                            {(r.rank ?? 0).toLocaleString("en-GB")}
                           </b>
                         </td>
                         <td className="px-5 sm:px-7 py-2.5 font-mono text-mono text-red text-right whitespace-nowrap">
@@ -144,6 +169,69 @@ export function RiseFinderWindows({ windows }: { windows: WindowBlock[] }) {
           </section>
         ))}
       </div>
+
+      {(trackedReady.length > 0 || trackedWaiting.length > 0) && (
+        <>
+          <div className="px-4 sm:px-9 pt-8 pb-4 max-w-4xl">
+            <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+              The other sources
+            </div>
+            <p className="text-body text-ink-2">
+              Only Majestic and Tranco publish a ranked list of everything.
+              GitHub returns repositories matching a search, HackerNews returns
+              a front page — there is no <i>every repository</i> file to
+              download. So a window over these covers{" "}
+              <b>what has been watched</b>, not what exists. A weaker claim, and
+              worth stating rather than blurring.
+            </p>
+          </div>
+
+          {trackedReady.length > 0 && (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule">
+              {trackedReady.map((b) => (
+                <section key={`${b.source}-${b.window}`} className="bg-paper">
+                  <div className="px-5 sm:px-7 py-4 border-b border-rule flex items-baseline justify-between gap-3 flex-wrap">
+                    <span className="font-mono text-[13px] font-semibold tracking-[0.06em] text-ink">
+                      {b.label}
+                    </span>
+                    <span className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
+                      {b.window} · {b.window_days}d
+                    </span>
+                  </div>
+                  <div className="divide-y divide-rule">
+                    {b.items.map((r) => (
+                      <div key={r.name} className="px-5 sm:px-7 py-3">
+                        <div className="flex items-baseline justify-between gap-3">
+                          <span className="font-mono text-mono text-ink break-all">
+                            {r.name}
+                          </span>
+                          <span className="font-mono text-mono text-red whitespace-nowrap">
+                            +{r.gain_pct}%
+                          </span>
+                        </div>
+                        <div className="font-mono text-micro text-ink-3 mt-1">
+                          {r.was} → {r.now} {r.unit}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          )}
+
+          {trackedWaiting.length > 0 && (
+            <div className="px-4 sm:px-9 py-4 border-y border-rule font-mono text-micro text-ink-3 tracking-[0.04em] leading-relaxed">
+              {trackedWaiting.length} more source windows are still filling up
+              {soonest !== null && soonest > 0 && (
+                <> — the first opens in <b className="text-ink">{soonest} days</b></>
+              )}
+              . Each needs its own full window of daily readings before it can
+              say anything.
+            </div>
+          )}
+        </>
+      )}
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
         Domains re-entering the list from beyond rank 800,000 are excluded — a

@@ -93,7 +93,10 @@ export default async function RiseFinderPage({
 
       <RiseFinderList items={items as Item[]} />
 
-      <RiseFinderWindows windows={(data.windows ?? []) as WindowBlock[]} />
+      <RiseFinderWindows
+        windows={(data.windows ?? []) as WindowBlock[]}
+        tracked={(data.tracked_windows ?? []) as WindowBlock[]}
+      />
 
       <RiseFinderSubscribe />
 
