@@ -1,5 +1,6 @@
 import { LeadsTable } from "@/components/LeadsTable";
 import { leads, rollupByKeyword, isMeeting } from "@/lib/db/leads";
+import { isSubscriber } from "@/lib/risefinder";
 
 /**
  * /admin/leads — every enquiry, and what each keyword actually bought.
@@ -54,6 +55,12 @@ export default async function AdminLeadsPage() {
       </div>
     );
   }
+
+  // RiseFinder subscribers live in this table too, and they are not leads.
+  // Counting them here would make cost per lead fall every time somebody
+  // signed up for a free briefing — a number improving for a reason that has
+  // nothing to do with the ads it exists to measure. They have their own page.
+  all = all.filter((l) => !isSubscriber(l));
 
   const paid = all.filter((l) => l.source !== "organic");
   const meetings = all.filter((l) => isMeeting(l.status));

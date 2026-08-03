@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { leads } from "@/lib/db/leads";
+import { SUBSCRIBER_TOPIC } from "@/lib/risefinder";
 
 /**
  * RiseFinder briefing signup.
@@ -39,7 +40,7 @@ export async function POST(request: Request) {
     await leads.record({
       name: "RiseFinder subscriber",
       email,
-      topic: "risefinder",
+      topic: SUBSCRIBER_TOPIC,
       message: "Subscribed to the RiseFinder daily briefing.",
     });
   } catch (err) {
