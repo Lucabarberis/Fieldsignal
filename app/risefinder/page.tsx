@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { RiseFinderList, type Item } from "@/components/RiseFinderList";
 import { RiseFinderSubscribe } from "@/components/RiseFinderSubscribe";
+import { RiseFinderWindows, type WindowBlock } from "@/components/RiseFinderWindows";
 import { pageMetadata } from "@/lib/seo";
 import data from "@/content/data/risefinder.json";
 import archive from "@/content/data/risefinder-archive.json";
@@ -46,42 +47,6 @@ export default async function RiseFinderPage({
   const { items, stats, data_through } = data;
   const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
 
-  // Track record across the whole archive, not just today — it has to be
-  // computed from every entry ever published rather than the twelve on screen,
-  // or it would move every morning for reasons unrelated to accuracy.
-  //
-  // DEDUPED BY NAME, and that is not cosmetic. An entry written about on three
-  // consecutive days appears three times in the archive with the same follow-up
-  // attached, so counting rows would have reported 33 tracked entries when
-  // there were 12 — and turbo-fieldfare's +75% three times over.
-  const seenNames = new Set<string>();
-  const tracked = archive.days
-    .flatMap((d) => d.items)
-    .filter((i) => {
-      if (!i.track || seenNames.has(i.name)) return false;
-      seenNames.add(i.name);
-      return true;
-    })
-    .map((i) => i.track!);
-
-  // MEDIAN, NOT "HOW MANY WENT UP". The obvious statistic — "13 of 16 kept
-  // growing" — is almost worthless here, because the headline metrics are
-  // CUMULATIVE counters. Measured across this database, star counts fall on
-  // 4.1% of days and rating counts on 6.6%; they physically cannot go down
-  // much. A near-100% success rate on a test almost nothing can fail reads as
-  // a boast and means nothing.
-  //
-  // The median gain is the honest number: half the entries did better than
-  // this, half worse, and it cannot be flattered by one outlier the way a
-  // maximum can. The maximum is still shown, clearly labelled as the best
-  // single case rather than as typical.
-  const gains = tracked.map((t) => t.change_pct).sort((a, b) => a - b);
-  const median = gains.length
-    ? gains.length % 2
-      ? gains[(gains.length - 1) / 2]
-      : (gains[gains.length / 2 - 1] + gains[gains.length / 2]) / 2
-    : 0;
-
   return (
     <>
       <PageHeader
@@ -120,63 +85,15 @@ export default async function RiseFinderPage({
         </div>
       )}
 
-      {/* THE TRACK RECORD. A prediction product is worth nothing until it can
-          show it was early BEFORE. This strip is the only claim on the page a
-          competitor cannot copy next week, because it needs the history this
-          project has been accumulating day by day. */}
-      {tracked.length > 0 && (
-        <>
-          <SectionBand
-            num="01"
-            label="What happened after we flagged it"
-            meta={`${tracked.length} tracked`}
-          />
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-rule">
-            <div className="bg-paper-2 px-7 py-6">
-              <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                Entries with a follow-up
-              </div>
-              <div className="font-sans text-[32px] leading-none text-ink">
-                {tracked.length}
-              </div>
-            </div>
-            <div className="bg-paper-2 px-7 py-6">
-              <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                Typical gain since flagging
-              </div>
-              <div className="font-sans text-[32px] leading-none text-ink">
-                +{median.toFixed(1)}%
-                <span className="text-ink-3 text-[20px]"> median</span>
-              </div>
-            </div>
-            <div className="bg-paper-2 px-7 py-6">
-              <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                Best single case
-              </div>
-              <div className="font-sans text-[32px] leading-none text-ink">
-                +{Math.round(gains[gains.length - 1])}%
-              </div>
-            </div>
-          </div>
-          <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
-            Measured from the day an entry first appeared here to today, on the
-            headline number for its kind — stars for a repository, downloads for
-            a package, ratings for an app. Entries flagged this morning have
-            nothing to measure yet and are excluded. The median is shown rather
-            than a success rate because these are cumulative counters: they
-            rarely fall, so &ldquo;how many went up&rdquo; would be close to
-            100% however well or badly the picks were chosen.
-          </div>
-        </>
-      )}
-
       <SectionBand
-        num="02"
+        num="01"
         label="Today's briefing"
         meta={`${items.length} entries`}
       />
 
       <RiseFinderList items={items as Item[]} />
+
+      <RiseFinderWindows windows={(data.windows ?? []) as WindowBlock[]} />
 
       <RiseFinderSubscribe />
 

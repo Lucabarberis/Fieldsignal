@@ -31,6 +31,8 @@ export type Item = {
   brief: string;
   sources: string[];
   url: string | null;
+  /** What the thing IS, in its own words. Distinct from the brief. */
+  description?: string | null;
   /** How many separate briefings this has appeared in. */
   appearances?: number;
   track: Track | null;
@@ -185,6 +187,16 @@ export function RiseFinderList({ items }: { items: Item[] }) {
                 )}
               </div>
 
+              {/* WHAT IT IS, before why it moved. A reader meeting "yc-software/qm"
+                  for the first time cannot use a growth figure until they know
+                  what the thing does, and the brief is not the place for that —
+                  it explains the movement, which is a different question. */}
+              {item.description && (
+                <p className="text-body text-ink mb-3 leading-relaxed">
+                  {item.description}
+                </p>
+              )}
+
               {/* The track record. Only rendered where there is one — an entry
                   flagged this morning has nothing to show yet, and inventing a
                   placeholder would undercut the entries that do. */}
@@ -209,9 +221,16 @@ export function RiseFinderList({ items }: { items: Item[] }) {
                 </div>
               )}
 
-              <p className="text-body text-ink-2 leading-relaxed">
-                {item.brief}
-              </p>
+              <div>
+                {item.description && (
+                  <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-1.5">
+                    Why it is here
+                  </div>
+                )}
+                <p className="text-body text-ink-2 leading-relaxed">
+                  {item.brief}
+                </p>
+              </div>
             </article>
           ))}
         </div>

@@ -1,9 +1,313 @@
 {
-  "generated_at": "2026-08-03T05:46:09Z",
+  "generated_at": "2026-08-03T07:06:22Z",
+  "windows": [
+    {
+      "source": "majestic_million",
+      "label": "Majestic \u2014 backlinks",
+      "window": "2-day",
+      "window_days": 2,
+      "have_days": 3,
+      "need_days": 2,
+      "first_day": "2026-07-31",
+      "items": [
+        {
+          "domain": "elperiodicodemexico.com",
+          "rank": 6532,
+          "was": 527931,
+          "gain_pct": 98.8,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "smile-net.ru",
+          "rank": 9351,
+          "was": 765680,
+          "gain_pct": 98.8,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "microgaming.io",
+          "rank": 11272,
+          "was": 435779,
+          "gain_pct": 97.4,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "dropcatch.ai",
+          "rank": 12785,
+          "was": 411770,
+          "gain_pct": 96.9,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "blog5.net",
+          "rank": 9281,
+          "was": 262417,
+          "gain_pct": 96.5,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "pupalupa.co.uk",
+          "rank": 19389,
+          "was": 545434,
+          "gain_pct": 96.4,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "bijoucoffee.co.uk",
+          "rank": 21484,
+          "was": 602057,
+          "gain_pct": 96.4,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "kurumkancrb.ru",
+          "rank": 14043,
+          "was": 332833,
+          "gain_pct": 95.8,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "aidar.ru",
+          "rank": 5189,
+          "was": 109132,
+          "gain_pct": 95.2,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "westcoastcleantransit.com",
+          "rank": 33734,
+          "was": 488121,
+          "gain_pct": 93.1,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "cycle-room.de",
+          "rank": 33303,
+          "was": 456860,
+          "gain_pct": 92.7,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "slope-ball.io",
+          "rank": 25109,
+          "was": 334084,
+          "gain_pct": 92.5,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "danskepoxy.dk",
+          "rank": 35135,
+          "was": 455873,
+          "gain_pct": 92.3,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "tradicionyaccionec.org",
+          "rank": 20153,
+          "was": 243073,
+          "gain_pct": 91.7,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "intel.de",
+          "rank": 3639,
+          "was": 41982,
+          "gain_pct": 91.3,
+          "from_day": "2026-07-31",
+          "to_day": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "source": "majestic_million",
+      "label": "Majestic \u2014 backlinks",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 3,
+      "need_days": 7,
+      "first_day": "2026-07-31",
+      "items": []
+    },
+    {
+      "source": "majestic_million",
+      "label": "Majestic \u2014 backlinks",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 3,
+      "need_days": 30,
+      "first_day": "2026-07-31",
+      "items": []
+    },
+    {
+      "source": "tranco",
+      "label": "Tranco \u2014 traffic",
+      "window": "2-day",
+      "window_days": 2,
+      "have_days": 2,
+      "need_days": 2,
+      "first_day": "2026-08-01",
+      "items": [
+        {
+          "domain": "dezinsekciya-top.ru",
+          "rank": 167981,
+          "was": 731639,
+          "gain_pct": 77.0,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "cdn90.cn",
+          "rank": 13151,
+          "was": 55291,
+          "gain_pct": 76.2,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "mediaservices.com",
+          "rank": 102535,
+          "was": 349499,
+          "gain_pct": 70.7,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "pososite.com",
+          "rank": 143947,
+          "was": 480742,
+          "gain_pct": 70.1,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "sargent-disc.com",
+          "rank": 172573,
+          "was": 496887,
+          "gain_pct": 65.3,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "fndlsb.net",
+          "rank": 107808,
+          "was": 292388,
+          "gain_pct": 63.1,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "posticloud.fi",
+          "rank": 29970,
+          "was": 79316,
+          "gain_pct": 62.2,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "cncdomain.com",
+          "rank": 91324,
+          "was": 234482,
+          "gain_pct": 61.1,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "sanxingyesone.com",
+          "rank": 79745,
+          "was": 204150,
+          "gain_pct": 60.9,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "silentwings.ru",
+          "rank": 142367,
+          "was": 353045,
+          "gain_pct": 59.7,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "wskam.com",
+          "rank": 15491,
+          "was": 37679,
+          "gain_pct": 58.9,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "netflix.net",
+          "rank": 161,
+          "was": 385,
+          "gain_pct": 58.2,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "levyshtark.co.il",
+          "rank": 112741,
+          "was": 255479,
+          "gain_pct": 55.9,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "sedelectronica.gal",
+          "rank": 59014,
+          "was": 132582,
+          "gain_pct": 55.5,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        },
+        {
+          "domain": "futurecraftorbit.com",
+          "rank": 174358,
+          "was": 377762,
+          "gain_pct": 53.8,
+          "from_day": "2026-08-01",
+          "to_day": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "source": "tranco",
+      "label": "Tranco \u2014 traffic",
+      "window": "weekly",
+      "window_days": 7,
+      "have_days": 2,
+      "need_days": 7,
+      "first_day": "2026-08-01",
+      "items": []
+    },
+    {
+      "source": "tranco",
+      "label": "Tranco \u2014 traffic",
+      "window": "monthly",
+      "window_days": 30,
+      "have_days": 2,
+      "need_days": 30,
+      "first_day": "2026-08-01",
+      "items": []
+    }
+  ],
   "data_through": "2026-08-03",
   "stats": {
-    "entities": 9459,
-    "snapshots": 230490,
+    "entities": 9461,
+    "snapshots": 230943,
     "sources_live": 12,
     "first_day": "2018-01-01",
     "days_collected": 7
@@ -18,14 +322,15 @@
         "hackernews"
       ],
       "url": "https://github.com/reflex-dev/xy",
+      "description": "Ultra-fast and customizable Python charts",
       "appearances": 3,
       "track": {
         "first_flagged": "2026-07-31",
         "days_ago": 3,
         "unit": "stars",
         "then": 1007,
-        "now": 1296,
-        "change_pct": 28.7
+        "now": 1301,
+        "change_pct": 29.2
       }
     },
     {
@@ -37,6 +342,7 @@
         "hackernews"
       ],
       "url": "https://github.com/mokshablr/gander",
+      "description": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code.",
       "appearances": 1,
       "track": null
     },
@@ -50,42 +356,7 @@
         "tranco"
       ],
       "url": "https://createcentercv.org",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "gogadgetz.nl",
-      "type": "domain",
-      "brief": "Rank improved 3.9% while referring IPs FELL 42% and subnets rose 3.7%. Losing links from one network while gaining them from others usually means a single large linking site dropped it. The rank held anyway, which is mildly reassuring, but the two numbers point in opposite directions and neither is large.",
-      "sources": [
-        "majestic_million",
-        "openpagerank"
-      ],
-      "url": "https://gogadgetz.nl",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "sttatiana-omsk.ru",
-      "type": "domain",
-      "brief": "Referring IPs up 294% and referring subnets up 217% in a single day. That is not organic link acquisition \u2014 a genuine site does not triple its backlink footprint overnight, and the shape is what a purchased link blast looks like. Included deliberately rather than hidden: this is the kind of entry the noise gate should be catching and currently is not, because the link-network rule looks for clusters of domains acting together and this is one domain acting alone.",
-      "sources": [
-        "majestic_million",
-        "openpagerank"
-      ],
-      "url": "https://sttatiana-omsk.ru",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "walkntalkrepair.co.uk",
-      "type": "domain",
-      "brief": "Referring IPs up 84% against subnets up 17% \u2014 five times as many new links as new networks. That ratio means a handful of sites linked repeatedly rather than many sites linking once, which is weaker evidence than the raw percentage suggests. A UK repair business, probably real, probably having a good week rather than breaking out.",
-      "sources": [
-        "majestic_million",
-        "openpagerank"
-      ],
-      "url": "https://walkntalkrepair.co.uk",
+      "description": "Because Only Together We Can Build a World Where All Youth Are Safe, Strong &amp; Valued Read More Who We Are Partnering to build a world where all children are lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo",
       "appearances": 1,
       "track": null
     },
@@ -98,6 +369,7 @@
         "openpagerank"
       ],
       "url": "https://wikif1.org",
+      "description": "Independent F1 coverage \u2014 news, driver standings, race schedule, results and stats for the 2026 Formula 1 season.",
       "appearances": 1,
       "track": null
     },
@@ -111,19 +383,7 @@
         "tranco"
       ],
       "url": "https://playscrabble.com",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "payfix.nl",
-      "type": "domain",
-      "brief": "Rank improved 66% with referring IPs and subnets both up around 20%, which is a far more plausible ratio than the Russian entry above \u2014 links arriving from many distinct networks rather than one. A Dutch payments-adjacent site with real authority movement. Worth a look, though the Tranco rank slipped slightly, so traffic has not followed the links yet.",
-      "sources": [
-        "majestic_million",
-        "openpagerank",
-        "tranco"
-      ],
-      "url": "https://payfix.nl",
+      "description": "Play Scrabble online for free on PlayScrabble.com with thousands of members from around the world. Have fun playing with friends or challenging the computer!",
       "appearances": 1,
       "track": null
     },
@@ -137,34 +397,116 @@
         "tranco"
       ],
       "url": "https://mondomedia.com",
+      "description": "Short, viral and deadly funny! Mondo is where frowns and sadness go to die, and animated series sip champagne and eat the finest mermaid sushi.",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "semenovpolk.ru",
+      "name": "pui68cenil.com",
       "type": "domain",
-      "brief": "Tranco traffic rank improved 22% with no backlink movement at all. Traffic without links is either a referral spike or a news mention, and neither is visible from here. A Russian military-history site; the movement is real but unexplained by anything else we measure.",
+      "brief": "Tranco up 9.6% on a domain whose name is meaningless. A pronounceable-word-plus-digits pattern on a .com with no other signal is the shape spam takes, and the gate has not caught it because nothing about it triggers the existing rules. Flagged here rather than quietly published as a discovery.",
       "sources": [
         "majestic_million",
         "openpagerank",
         "tranco"
       ],
-      "url": "https://semenovpolk.ru",
+      "url": "https://pui68cenil.com",
+      "description": "Pui68 : Masuk ke permainan online dengan fitur canggih. Agen yang menawarkan akses permainan yang mudah untuk di akses setiap orang.",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "luanascowcroft.co.nz",
-      "type": "domain",
-      "brief": "Tranco rank up 16%, nothing else moving. A New Zealand personal or small-business site. This is the weakest kind of entry on the page: one source showing movement, a second merely confirming the domain exists and has authority. Two sources technically, one signal actually.",
+      "name": "drumih/turbo-fieldfare",
+      "type": "repo",
+      "brief": "Third day climbing and the shape got better, not worse: stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges, not bookmarking it. HackerNews has gone quiet \u2014 comments up only 1.5%, off the front page \u2014 so this is now growing on its own without a thread pushing it, which is the transition most launches never make.",
       "sources": [
-        "majestic_million",
-        "openpagerank",
-        "tranco"
+        "github",
+        "hackernews"
       ],
-      "url": "https://luanascowcroft.co.nz",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+      "appearances": 3,
+      "track": {
+        "first_flagged": "2026-07-31",
+        "days_ago": 3,
+        "unit": "stars",
+        "then": 2196,
+        "now": 4297,
+        "change_pct": 95.7
+      }
+    },
+    {
+      "name": "DramaWave - Dramas & Reels",
+      "type": "app",
+      "brief": "DramaWave improved its best rank 20% to position 12 while falling 34% in the US, 32% in the UK and 22% in Germany. Charting far better overall while losing every tracked Western market means the gain came from somewhere we do not watch. With 100 million Android installs already, this is a mature short-drama app moving on ad spend, not a discovery.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ],
+      "url": "https://apps.apple.com/app/id6670430706",
+      "description": null,
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-01",
+        "days_ago": 2,
+        "unit": "ratings",
+        "then": 136461,
+        "now": 137972,
+        "change_pct": 1.1
+      }
+    },
+    {
+      "name": "FORScan Lite - for Ford, Mazda",
+      "type": "app",
+      "brief": "FORScan Lite's Android installs jumped to 10 million and reviews rose 57% in a day \u2014 an enormous move for a paid car-diagnostics tool with only 192 iOS ratings. The install figure is bucketed by Google, so a jump like that is a threshold being crossed rather than a real overnight surge. Worth watching the review count instead: 57% growth there is a genuine number.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ],
+      "url": "https://apps.apple.com/app/id892347083",
+      "description": null,
       "appearances": 1,
       "track": null
+    },
+    {
+      "name": "yc-software/qm",
+      "type": "repo",
+      "brief": "Stars up 121% and forks up 150% in a day, with open issues up 124% and its HackerNews rank improving sharply. Forks growing faster than stars on a repo this young means people are cloning to modify rather than to watch. Everything about it is early enough that a single day could reverse it, but the fork-to-star ratio is the healthiest in today's set.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/yc-software/qm",
+      "description": "Multiplayer agent harness for work",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-02",
+        "days_ago": 1,
+        "unit": "stars",
+        "then": 5567,
+        "now": 7841,
+        "change_pct": 40.8
+      }
+    },
+    {
+      "name": "Freecash - Get Paid Real Money",
+      "type": "app",
+      "brief": "Freecash improved its best rank 7% while slipping in the UK and US. Paid-reward apps move on marketing budget rather than product quality, so read this as an advertising signal. It has appeared in this set three days running with the same pattern, which makes it a good control: if the system flags it every day, its threshold for apps is probably still a touch loose.",
+      "sources": [
+        "android_apps",
+        "ios_apps"
+      ],
+      "url": "https://apps.apple.com/app/id1673567402",
+      "description": null,
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-07-30",
+        "days_ago": 4,
+        "unit": "ratings",
+        "then": 102081,
+        "now": 103486,
+        "change_pct": 1.4
+      }
     }
   ]
 }

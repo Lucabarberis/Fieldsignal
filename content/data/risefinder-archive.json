@@ -2,7 +2,7 @@
   "days": [
     {
       "date": "2026-08-03",
-      "count": 12,
+      "count": 7,
       "items": [
         {
           "name": "reflex-dev/xy",
@@ -13,14 +13,15 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
+          "description": "Ultra-fast and customizable Python charts",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 1007,
-            "now": 1296,
-            "change_pct": 28.7
+            "now": 1301,
+            "change_pct": 29.2
           }
         },
         {
@@ -32,6 +33,7 @@
             "hackernews"
           ],
           "url": "https://github.com/mokshablr/gander",
+          "description": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code.",
           "appearances": 1,
           "track": null
         },
@@ -45,42 +47,7 @@
             "tranco"
           ],
           "url": "https://createcentercv.org",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "gogadgetz.nl",
-          "type": "domain",
-          "brief": "Rank improved 3.9% while referring IPs FELL 42% and subnets rose 3.7%. Losing links from one network while gaining them from others usually means a single large linking site dropped it. The rank held anyway, which is mildly reassuring, but the two numbers point in opposite directions and neither is large.",
-          "sources": [
-            "majestic_million",
-            "openpagerank"
-          ],
-          "url": "https://gogadgetz.nl",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "sttatiana-omsk.ru",
-          "type": "domain",
-          "brief": "Referring IPs up 294% and referring subnets up 217% in a single day. That is not organic link acquisition \u2014 a genuine site does not triple its backlink footprint overnight, and the shape is what a purchased link blast looks like. Included deliberately rather than hidden: this is the kind of entry the noise gate should be catching and currently is not, because the link-network rule looks for clusters of domains acting together and this is one domain acting alone.",
-          "sources": [
-            "majestic_million",
-            "openpagerank"
-          ],
-          "url": "https://sttatiana-omsk.ru",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "walkntalkrepair.co.uk",
-          "type": "domain",
-          "brief": "Referring IPs up 84% against subnets up 17% \u2014 five times as many new links as new networks. That ratio means a handful of sites linked repeatedly rather than many sites linking once, which is weaker evidence than the raw percentage suggests. A UK repair business, probably real, probably having a good week rather than breaking out.",
-          "sources": [
-            "majestic_million",
-            "openpagerank"
-          ],
-          "url": "https://walkntalkrepair.co.uk",
+          "description": "Because Only Together We Can Build a World Where All Youth Are Safe, Strong &amp; Valued Read More Who We Are Partnering to build a world where all children are lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo",
           "appearances": 1,
           "track": null
         },
@@ -93,6 +60,7 @@
             "openpagerank"
           ],
           "url": "https://wikif1.org",
+          "description": "Independent F1 coverage \u2014 news, driver standings, race schedule, results and stats for the 2026 Formula 1 season.",
           "appearances": 1,
           "track": null
         },
@@ -106,19 +74,7 @@
             "tranco"
           ],
           "url": "https://playscrabble.com",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "payfix.nl",
-          "type": "domain",
-          "brief": "Rank improved 66% with referring IPs and subnets both up around 20%, which is a far more plausible ratio than the Russian entry above \u2014 links arriving from many distinct networks rather than one. A Dutch payments-adjacent site with real authority movement. Worth a look, though the Tranco rank slipped slightly, so traffic has not followed the links yet.",
-          "sources": [
-            "majestic_million",
-            "openpagerank",
-            "tranco"
-          ],
-          "url": "https://payfix.nl",
+          "description": "Play Scrabble online for free on PlayScrabble.com with thousands of members from around the world. Have fun playing with friends or challenging the computer!",
           "appearances": 1,
           "track": null
         },
@@ -132,32 +88,21 @@
             "tranco"
           ],
           "url": "https://mondomedia.com",
+          "description": "Short, viral and deadly funny! Mondo is where frowns and sadness go to die, and animated series sip champagne and eat the finest mermaid sushi.",
           "appearances": 1,
           "track": null
         },
         {
-          "name": "semenovpolk.ru",
+          "name": "pui68cenil.com",
           "type": "domain",
-          "brief": "Tranco traffic rank improved 22% with no backlink movement at all. Traffic without links is either a referral spike or a news mention, and neither is visible from here. A Russian military-history site; the movement is real but unexplained by anything else we measure.",
+          "brief": "Tranco up 9.6% on a domain whose name is meaningless. A pronounceable-word-plus-digits pattern on a .com with no other signal is the shape spam takes, and the gate has not caught it because nothing about it triggers the existing rules. Flagged here rather than quietly published as a discovery.",
           "sources": [
             "majestic_million",
             "openpagerank",
             "tranco"
           ],
-          "url": "https://semenovpolk.ru",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "luanascowcroft.co.nz",
-          "type": "domain",
-          "brief": "Tranco rank up 16%, nothing else moving. A New Zealand personal or small-business site. This is the weakest kind of entry on the page: one source showing movement, a second merely confirming the domain exists and has authority. Two sources technically, one signal actually.",
-          "sources": [
-            "majestic_million",
-            "openpagerank",
-            "tranco"
-          ],
-          "url": "https://luanascowcroft.co.nz",
+          "url": "https://pui68cenil.com",
+          "description": "Pui68 : Masuk ke permainan online dengan fitur canggih. Agen yang menawarkan akses permainan yang mudah untuk di akses setiap orang.",
           "appearances": 1,
           "track": null
         }
@@ -176,14 +121,15 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 2196,
-            "now": 4260,
-            "change_pct": 94.0
+            "now": 4297,
+            "change_pct": 95.7
           }
         },
         {
@@ -195,6 +141,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6670430706",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
@@ -214,6 +161,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id892347083",
+          "description": null,
           "appearances": 1,
           "track": null
         },
@@ -226,14 +174,15 @@
             "hackernews"
           ],
           "url": "https://github.com/yc-software/qm",
+          "description": "Multiplayer agent harness for work",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
             "days_ago": 1,
             "unit": "stars",
             "then": 5567,
-            "now": 7676,
-            "change_pct": 37.9
+            "now": 7841,
+            "change_pct": 40.8
           }
         },
         {
@@ -245,6 +194,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -264,14 +214,15 @@
             "hackernews"
           ],
           "url": "https://github.com/sqliteai/waste",
+          "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 2,
             "unit": "stars",
             "then": 344,
-            "now": 1180,
-            "change_pct": 243.0
+            "now": 1234,
+            "change_pct": 258.7
           }
         },
         {
@@ -284,20 +235,7 @@
             "tranco"
           ],
           "url": "https://c-faq.com",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "pferdedecken-kaufen.de",
-          "type": "domain",
-          "brief": "A German horse-blanket shop whose Tranco rank improved 1.9%, corroborated by the fact that it publishes real prices. A genuine small business having a normal week. It is here because monetisation is now a scoring signal, and this is what that signal looks like when it fires on something ordinary \u2014 useful for calibration, not for action.",
-          "sources": [
-            "majestic_million",
-            "openpagerank",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://pferdedecken-kaufen.de",
+          "description": "comp.lang.c Frequently Asked Questions",
           "appearances": 1,
           "track": null
         },
@@ -311,6 +249,7 @@
             "tranco"
           ],
           "url": "https://hillelwayne.com",
+          "description": "Hillel Wayne",
           "appearances": 1,
           "track": null
         },
@@ -324,6 +263,7 @@
             "tranco"
           ],
           "url": "https://projectpluto.com",
+          "description": "Project Pluto",
           "appearances": 1,
           "track": null
         },
@@ -337,6 +277,7 @@
             "tranco"
           ],
           "url": "https://seriot.ch",
+          "description": "Nicolas Seriot",
           "appearances": 1,
           "track": null
         },
@@ -350,6 +291,21 @@
             "tranco"
           ],
           "url": "https://chriscoyier.net",
+          "description": "Web craftsman, blogger, author, speaker.",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "maurycyz.com",
+          "type": "domain",
+          "brief": "HackerNews comments up 156% to 180 with its front-page rank improving 12%. A personal site pulling that much discussion is usually one essay landing rather than a site becoming popular. Worth reading what it published today; not worth tracking the domain.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://maurycyz.com",
+          "description": "Maurycy's blog",
           "appearances": 1,
           "track": null
         }
@@ -368,14 +324,15 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 2196,
-            "now": 4260,
-            "change_pct": 94.0
+            "now": 4297,
+            "change_pct": 95.7
           }
         },
         {
@@ -387,6 +344,7 @@
             "openpagerank"
           ],
           "url": "https://marbleos.com",
+          "description": "A workspace with visible files, tools, tasks, and outputs \u2014 not buried in chat threads.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -407,6 +365,7 @@
             "pricing"
           ],
           "url": "https://reclip.io",
+          "description": "Reclip is an AI-powered creator toolkit. Automatically clip the best moments, add voiceovers, remove captions, and download videos \u2014 all in one platform.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -426,14 +385,15 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
+          "description": "Ultra-fast and customizable Python charts",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 1007,
-            "now": 1296,
-            "change_pct": 28.7
+            "now": 1301,
+            "change_pct": 29.2
           }
         },
         {
@@ -445,6 +405,7 @@
             "openpagerank"
           ],
           "url": "https://orangecrumbs.com",
+          "description": "HN Reader, HN Wikipedia, HN YouTube, and the HN Hall of Fame in one place.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -464,14 +425,15 @@
             "hackernews"
           ],
           "url": "https://github.com/sqliteai/waste",
+          "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 2,
             "unit": "stars",
             "then": 344,
-            "now": 1180,
-            "change_pct": 243.0
+            "now": 1234,
+            "change_pct": 258.7
           }
         },
         {
@@ -483,6 +445,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sawfwair/mere-run",
+          "description": "Run local image, text, speech, vision, music, and video workflows, plus model management and a loopback OpenAI-compatible API server. The repo ships the core libraries and the mere.run executable.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -502,6 +465,7 @@
             "hackernews"
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+          "description": "Agent skills that fact-check the internet: claim-by-claim verification with sources and a 0-10 BS score for any YouTube video, article, tweet, or PDF",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -521,14 +485,15 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
+          "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 429,
-            "now": 628,
-            "change_pct": 46.4
+            "now": 629,
+            "change_pct": 46.6
           }
         },
         {
@@ -540,6 +505,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6670430706",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
@@ -559,6 +525,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6477489729",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -578,6 +545,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6764665158",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -603,6 +571,7 @@
             "hackernews"
           ],
           "url": "https://github.com/LukeTandjung/base-gpui",
+          "description": "A GPUI-native port of Base UI's rich, headless component APIs",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
@@ -622,14 +591,15 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 2196,
-            "now": 4260,
-            "change_pct": 94.0
+            "now": 4297,
+            "change_pct": 95.7
           }
         },
         {
@@ -641,14 +611,15 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
+          "description": "Ultra-fast and customizable Python charts",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 1007,
-            "now": 1296,
-            "change_pct": 28.7
+            "now": 1301,
+            "change_pct": 29.2
           }
         },
         {
@@ -660,14 +631,15 @@
             "hackernews"
           ],
           "url": "https://github.com/openai/codex-security",
+          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 6090,
-            "now": 8248,
-            "change_pct": 35.4
+            "now": 8263,
+            "change_pct": 35.7
           }
         },
         {
@@ -679,14 +651,15 @@
             "hackernews"
           ],
           "url": "https://github.com/alibaba/skill-up",
+          "description": "An evaluation and evolution tool for Agent Skills.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 296,
-            "now": 346,
-            "change_pct": 16.9
+            "now": 351,
+            "change_pct": 18.6
           }
         },
         {
@@ -698,14 +671,15 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
+          "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 429,
-            "now": 628,
-            "change_pct": 46.4
+            "now": 629,
+            "change_pct": 46.6
           }
         },
         {
@@ -717,14 +691,15 @@
             "hackernews"
           ],
           "url": "https://github.com/experientiallabs/world-model-optimizer",
+          "description": "Build continually improving models on your agent traces by distilling frontier open models",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 3,
             "unit": "stars",
             "then": 255,
-            "now": 310,
-            "change_pct": 21.6
+            "now": 311,
+            "change_pct": 22.0
           }
         },
         {
@@ -736,6 +711,7 @@
             "hackernews"
           ],
           "url": "https://github.com/mishushakov/desktui",
+          "description": "A remote desktop for your terminal",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
@@ -761,14 +737,15 @@
             "hackernews"
           ],
           "url": "https://github.com/FrigadeHQ/yap",
+          "description": "Free, open source voice dictation for macOS. On-device transcription with Apple's Speech framework. No cloud, no API keys, no account.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 290,
-            "now": 332,
-            "change_pct": 14.5
+            "now": 334,
+            "change_pct": 15.2
           }
         },
         {
@@ -780,6 +757,7 @@
             "hackernews"
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+          "description": "Agent skills that fact-check the internet: claim-by-claim verification with sources and a 0-10 BS score for any YouTube video, article, tweet, or PDF",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -799,14 +777,15 @@
             "hackernews"
           ],
           "url": "https://github.com/wassgha/rescript",
+          "description": "\ud83c\udfac Open source, transcript-based video/audio editor that lives in the browser.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 384,
-            "now": 597,
-            "change_pct": 55.5
+            "now": 600,
+            "change_pct": 56.2
           }
         },
         {
@@ -818,14 +797,15 @@
             "hackernews"
           ],
           "url": "https://github.com/openai/codex-security",
+          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 6090,
-            "now": 8248,
-            "change_pct": 35.4
+            "now": 8263,
+            "change_pct": 35.7
           }
         },
         {
@@ -837,14 +817,15 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
+          "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 429,
-            "now": 628,
-            "change_pct": 46.4
+            "now": 629,
+            "change_pct": 46.6
           }
         },
         {
@@ -856,14 +837,15 @@
             "hackernews"
           ],
           "url": "https://github.com/twalichiewicz/HNewhere",
+          "description": "A lightweight userscript that adds Hacker News discussions to any previously submitted article.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 4,
             "unit": "stars",
             "then": 192,
-            "now": 215,
-            "change_pct": 12.0
+            "now": 216,
+            "change_pct": 12.5
           }
         },
         {
@@ -875,6 +857,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -894,6 +877,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6477489729",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -913,6 +897,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6779987526",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
@@ -932,6 +917,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6473753684",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
