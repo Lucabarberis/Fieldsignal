@@ -2,7 +2,7 @@
   "days": [
     {
       "date": "2026-08-03",
-      "count": 7,
+      "count": 6,
       "items": [
         {
           "name": "reflex-dev/xy",
@@ -13,7 +13,7 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
-          "description": "Ultra-fast and customizable Python charts",
+          "description": "A Python charting library, from the team behind the Reflex web framework.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
@@ -33,7 +33,7 @@
             "hackernews"
           ],
           "url": "https://github.com/mokshablr/gander",
-          "description": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code.",
+          "description": "An Android file viewer for PDF, Word, Excel and PowerPoint that works offline and asks for no permissions.",
           "appearances": 1,
           "track": null
         },
@@ -47,7 +47,7 @@
             "tranco"
           ],
           "url": "https://createcentercv.org",
-          "description": "Because Only Together We Can Build a World Where All Youth Are Safe, Strong &amp; Valued Read More Who We Are Partnering to build a world where all children are lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo",
+          "description": "A youth-safeguarding charity in Cape Verde working on child protection and community programmes.",
           "appearances": 1,
           "track": null
         },
@@ -60,7 +60,7 @@
             "openpagerank"
           ],
           "url": "https://wikif1.org",
-          "description": "Independent F1 coverage \u2014 news, driver standings, race schedule, results and stats for the 2026 Formula 1 season.",
+          "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
           "appearances": 1,
           "track": null
         },
@@ -74,7 +74,7 @@
             "tranco"
           ],
           "url": "https://playscrabble.com",
-          "description": "Play Scrabble online for free on PlayScrabble.com with thousands of members from around the world. Have fun playing with friends or challenging the computer!",
+          "description": "A long-running free Scrabble site where people play each other online.",
           "appearances": 1,
           "track": null
         },
@@ -88,21 +88,7 @@
             "tranco"
           ],
           "url": "https://mondomedia.com",
-          "description": "Short, viral and deadly funny! Mondo is where frowns and sadness go to die, and animated series sip champagne and eat the finest mermaid sushi.",
-          "appearances": 1,
-          "track": null
-        },
-        {
-          "name": "pui68cenil.com",
-          "type": "domain",
-          "brief": "Tranco up 9.6% on a domain whose name is meaningless. A pronounceable-word-plus-digits pattern on a .com with no other signal is the shape spam takes, and the gate has not caught it because nothing about it triggers the existing rules. Flagged here rather than quietly published as a discovery.",
-          "sources": [
-            "majestic_million",
-            "openpagerank",
-            "tranco"
-          ],
-          "url": "https://pui68cenil.com",
-          "description": "Pui68 : Masuk ke permainan online dengan fitur canggih. Agen yang menawarkan akses permainan yang mudah untuk di akses setiap orang.",
+          "description": "The publisher behind Happy Tree Friends and Dick Figures \u2014 adult animated shorts, online since the 1990s.",
           "appearances": 1,
           "track": null
         }
@@ -121,7 +107,7 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
-          "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+          "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
@@ -141,7 +127,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6670430706",
-          "description": "Welcome to DramaWave, a next-gen HD streaming platform offering exclusive vertical TV videos, series, and movies.",
+          "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
@@ -161,7 +147,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id892347083",
-          "description": "FORScan Lite application was developed specially for a computer diagnostics of Ford, Mazda, Lincoln and Mercury vehicles.",
+          "description": "Car diagnostics for Ford, Mazda and Lincoln vehicles, reading fault codes an ordinary OBD2 scanner cannot.",
           "appearances": 1,
           "track": null
         },
@@ -174,7 +160,7 @@
             "hackernews"
           ],
           "url": "https://github.com/yc-software/qm",
-          "description": "Multiplayer agent harness for work",
+          "description": "A tool for running several AI coding agents on the same task at once.",
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
@@ -194,7 +180,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
-          "description": "Welcome to Freecash - Earn Rewards, the fun way to make a little money online in your spare time!",
+          "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -214,7 +200,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sqliteai/waste",
-          "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+          "description": "Runs a 2.78-trillion-parameter model on hardware that cannot hold it, by streaming weights off an SSD as they are needed. A small C engine with no dependencies.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
@@ -235,7 +221,7 @@
             "tranco"
           ],
           "url": "https://c-faq.com",
-          "description": "comp.lang.c Frequently Asked Questions",
+          "description": null,
           "appearances": 1,
           "track": null
         },
@@ -249,7 +235,7 @@
             "tranco"
           ],
           "url": "https://hillelwayne.com",
-          "description": "Hillel Wayne",
+          "description": null,
           "appearances": 1,
           "track": null
         },
@@ -263,7 +249,7 @@
             "tranco"
           ],
           "url": "https://projectpluto.com",
-          "description": "Project Pluto",
+          "description": null,
           "appearances": 1,
           "track": null
         },
@@ -277,7 +263,7 @@
             "tranco"
           ],
           "url": "https://seriot.ch",
-          "description": "Nicolas Seriot",
+          "description": null,
           "appearances": 1,
           "track": null
         },
@@ -291,7 +277,7 @@
             "tranco"
           ],
           "url": "https://chriscoyier.net",
-          "description": "Web craftsman, blogger, author, speaker.",
+          "description": null,
           "appearances": 1,
           "track": null
         },
@@ -305,7 +291,7 @@
             "tranco"
           ],
           "url": "https://maurycyz.com",
-          "description": "Maurycy's blog",
+          "description": null,
           "appearances": 1,
           "track": null
         }
@@ -324,7 +310,7 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
-          "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+          "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
@@ -344,7 +330,7 @@
             "openpagerank"
           ],
           "url": "https://marbleos.com",
-          "description": "A workspace with visible files, tools, tasks, and outputs \u2014 not buried in chat threads.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -365,7 +351,7 @@
             "pricing"
           ],
           "url": "https://reclip.io",
-          "description": "Reclip is an AI-powered creator toolkit. Automatically clip the best moments, add voiceovers, remove captions, and download videos \u2014 all in one platform.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -385,7 +371,7 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
-          "description": "Ultra-fast and customizable Python charts",
+          "description": "A Python charting library, from the team behind the Reflex web framework.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
@@ -405,7 +391,7 @@
             "openpagerank"
           ],
           "url": "https://orangecrumbs.com",
-          "description": "HN Reader, HN Wikipedia, HN YouTube, and the HN Hall of Fame in one place.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -425,7 +411,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sqliteai/waste",
-          "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+          "description": "Runs a 2.78-trillion-parameter model on hardware that cannot hold it, by streaming weights off an SSD as they are needed. A small C engine with no dependencies.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
@@ -445,7 +431,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sawfwair/mere-run",
-          "description": "Run local image, text, speech, vision, music, and video workflows, plus model management and a loopback OpenAI-compatible API server. The repo ships the core libraries and the mere.run executable.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -465,7 +451,7 @@
             "hackernews"
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
-          "description": "Agent skills that fact-check the internet: claim-by-claim verification with sources and a 0-10 BS score for any YouTube video, article, tweet, or PDF",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -485,7 +471,7 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
-          "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
+          "description": null,
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
@@ -505,7 +491,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6670430706",
-          "description": "Welcome to DramaWave, a next-gen HD streaming platform offering exclusive vertical TV videos, series, and movies.",
+          "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
@@ -525,7 +511,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6764665158",
-          "description": "Your media server, on every Apple device.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
@@ -545,7 +531,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6473753684",
-          "description": "Meet Claude, your AI problem solver and thinking partner.",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -571,7 +557,7 @@
             "hackernews"
           ],
           "url": "https://github.com/LukeTandjung/base-gpui",
-          "description": "A GPUI-native port of Base UI's rich, headless component APIs",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
@@ -591,7 +577,7 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
-          "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+          "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
@@ -611,7 +597,7 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
-          "description": "Ultra-fast and customizable Python charts",
+          "description": "A Python charting library, from the team behind the Reflex web framework.",
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
@@ -631,7 +617,7 @@
             "hackernews"
           ],
           "url": "https://github.com/openai/codex-security",
-          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -651,7 +637,7 @@
             "hackernews"
           ],
           "url": "https://github.com/alibaba/skill-up",
-          "description": "An evaluation and evolution tool for Agent Skills.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
@@ -671,7 +657,7 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
-          "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
+          "description": null,
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
@@ -691,7 +677,7 @@
             "hackernews"
           ],
           "url": "https://github.com/experientiallabs/world-model-optimizer",
-          "description": "Build continually improving models on your agent traces by distilling frontier open models",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
@@ -711,7 +697,7 @@
             "hackernews"
           ],
           "url": "https://github.com/mishushakov/desktui",
-          "description": "A remote desktop for your terminal",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
@@ -737,7 +723,7 @@
             "hackernews"
           ],
           "url": "https://github.com/FrigadeHQ/yap",
-          "description": "Free, open source voice dictation for macOS. On-device transcription with Apple's Speech framework. No cloud, no API keys, no account.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
@@ -757,7 +743,7 @@
             "hackernews"
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
-          "description": "Agent skills that fact-check the internet: claim-by-claim verification with sources and a 0-10 BS score for any YouTube video, article, tweet, or PDF",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -777,7 +763,7 @@
             "hackernews"
           ],
           "url": "https://github.com/wassgha/rescript",
-          "description": "\ud83c\udfac Open source, transcript-based video/audio editor that lives in the browser.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
@@ -797,7 +783,7 @@
             "hackernews"
           ],
           "url": "https://github.com/openai/codex-security",
-          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -817,7 +803,7 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
-          "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
+          "description": null,
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
@@ -837,7 +823,7 @@
             "hackernews"
           ],
           "url": "https://github.com/twalichiewicz/HNewhere",
-          "description": "A lightweight userscript that adds Hacker News discussions to any previously submitted article.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
@@ -857,7 +843,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
-          "description": "Welcome to Freecash - Earn Rewards, the fun way to make a little money online in your spare time!",
+          "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
@@ -877,7 +863,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6779987526",
-          "description": "Parchment is a private daily journal that brings your writing, plans, calendar, and reminders together in one quiet place.",
+          "description": null,
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
@@ -897,7 +883,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6473753684",
-          "description": "Meet Claude, your AI problem solver and thinking partner.",
+          "description": null,
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",

@@ -221,7 +221,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-03T07:45:48Z",
+  "generated_at": "2026-08-03T07:51:36Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -584,7 +584,7 @@
         "hackernews"
       ],
       "url": "https://github.com/reflex-dev/xy",
-      "description": "Ultra-fast and customizable Python charts",
+      "description": "A Python charting library, from the team behind the Reflex web framework.",
       "appearances": 3,
       "track": {
         "first_flagged": "2026-07-31",
@@ -604,7 +604,7 @@
         "hackernews"
       ],
       "url": "https://github.com/mokshablr/gander",
-      "description": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code.",
+      "description": "An Android file viewer for PDF, Word, Excel and PowerPoint that works offline and asks for no permissions.",
       "appearances": 1,
       "track": null
     },
@@ -618,7 +618,7 @@
         "tranco"
       ],
       "url": "https://createcentercv.org",
-      "description": "Because Only Together We Can Build a World Where All Youth Are Safe, Strong &amp; Valued Read More Who We Are Partnering to build a world where all children are lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo",
+      "description": "A youth-safeguarding charity in Cape Verde working on child protection and community programmes.",
       "appearances": 1,
       "track": null
     },
@@ -631,7 +631,7 @@
         "openpagerank"
       ],
       "url": "https://wikif1.org",
-      "description": "Independent F1 coverage \u2014 news, driver standings, race schedule, results and stats for the 2026 Formula 1 season.",
+      "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
       "appearances": 1,
       "track": null
     },
@@ -645,7 +645,7 @@
         "tranco"
       ],
       "url": "https://playscrabble.com",
-      "description": "Play Scrabble online for free on PlayScrabble.com with thousands of members from around the world. Have fun playing with friends or challenging the computer!",
+      "description": "A long-running free Scrabble site where people play each other online.",
       "appearances": 1,
       "track": null
     },
@@ -659,21 +659,7 @@
         "tranco"
       ],
       "url": "https://mondomedia.com",
-      "description": "Short, viral and deadly funny! Mondo is where frowns and sadness go to die, and animated series sip champagne and eat the finest mermaid sushi.",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "pui68cenil.com",
-      "type": "domain",
-      "brief": "Tranco up 9.6% on a domain whose name is meaningless. A pronounceable-word-plus-digits pattern on a .com with no other signal is the shape spam takes, and the gate has not caught it because nothing about it triggers the existing rules. Flagged here rather than quietly published as a discovery.",
-      "sources": [
-        "majestic_million",
-        "openpagerank",
-        "tranco"
-      ],
-      "url": "https://pui68cenil.com",
-      "description": "Pui68 : Masuk ke permainan online dengan fitur canggih. Agen yang menawarkan akses permainan yang mudah untuk di akses setiap orang.",
+      "description": "The publisher behind Happy Tree Friends and Dick Figures \u2014 adult animated shorts, online since the 1990s.",
       "appearances": 1,
       "track": null
     },
@@ -686,7 +672,7 @@
         "hackernews"
       ],
       "url": "https://github.com/drumih/turbo-fieldfare",
-      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+      "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
       "appearances": 3,
       "track": {
         "first_flagged": "2026-07-31",
@@ -706,7 +692,7 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id6670430706",
-      "description": "Welcome to DramaWave, a next-gen HD streaming platform offering exclusive vertical TV videos, series, and movies.",
+      "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
       "appearances": 2,
       "track": {
         "first_flagged": "2026-08-01",
@@ -726,7 +712,7 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id892347083",
-      "description": "FORScan Lite application was developed specially for a computer diagnostics of Ford, Mazda, Lincoln and Mercury vehicles.",
+      "description": "Car diagnostics for Ford, Mazda and Lincoln vehicles, reading fault codes an ordinary OBD2 scanner cannot.",
       "appearances": 1,
       "track": null
     },
@@ -739,7 +725,7 @@
         "hackernews"
       ],
       "url": "https://github.com/yc-software/qm",
-      "description": "Multiplayer agent harness for work",
+      "description": "A tool for running several AI coding agents on the same task at once.",
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-02",
@@ -759,7 +745,7 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id1673567402",
-      "description": "Welcome to Freecash - Earn Rewards, the fun way to make a little money online in your spare time!",
+      "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
       "appearances": 2,
       "track": {
         "first_flagged": "2026-07-30",
@@ -768,6 +754,26 @@
         "then": 102081,
         "now": 103486,
         "change_pct": 1.4
+      }
+    },
+    {
+      "name": "sqliteai/waste",
+      "type": "repo",
+      "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. That comment-to-point ratio is still inverted \u2014 roughly eighteen comments per point \u2014 which means the discussion is an argument, not applause. Yesterday's question was whether the stars were the idea or the fight; two days of doubling suggests the idea is surviving the fight.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/sqliteai/waste",
+      "description": "Runs a 2.78-trillion-parameter model on hardware that cannot hold it, by streaming weights off an SSD as they are needed. A small C engine with no dependencies.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-01",
+        "days_ago": 2,
+        "unit": "stars",
+        "then": 344,
+        "now": 1234,
+        "change_pct": 258.7
       }
     }
   ]
