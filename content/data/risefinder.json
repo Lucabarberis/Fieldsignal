@@ -1,190 +1,168 @@
 {
-  "generated_at": "2026-08-03T04:38:33Z",
-  "data_through": "2026-08-02",
+  "generated_at": "2026-08-03T05:46:09Z",
+  "data_through": "2026-08-03",
   "stats": {
-    "entities": 8293,
-    "snapshots": 176854,
+    "entities": 9459,
+    "snapshots": 230490,
     "sources_live": 12,
     "first_day": "2018-01-01",
-    "days_collected": 6
+    "days_collected": 7
   },
   "items": [
     {
-      "name": "drumih/turbo-fieldfare",
+      "name": "reflex-dev/xy",
       "type": "repo",
-      "brief": "Third day climbing and the shape got better, not worse: stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges, not bookmarking it. HackerNews has gone quiet \u2014 comments up only 1.5%, off the front page \u2014 so this is now growing on its own without a thread pushing it, which is the transition most launches never make.",
+      "brief": "Fourth day on the list and the only entry today confirmed by three unrelated collectors \u2014 npm downloads, GitHub stars and HackerNews. Downloads are up 41% week over week against 4.4% star growth, and 65 open issues on 1,296 stars is a high ratio: people are running it in anger rather than admiring it. The watcher count sits at 3, which is the one discordant note \u2014 almost nobody has committed to following the project despite using it.",
       "sources": [
         "github",
         "hackernews"
       ],
-      "url": "https://github.com/drumih/turbo-fieldfare",
+      "url": "https://github.com/reflex-dev/xy",
       "appearances": 3,
       "track": {
         "first_flagged": "2026-07-31",
-        "days_ago": 2,
-        "unit": "stars",
-        "then": 2196,
-        "now": 3848,
-        "change_pct": 75.2
-      }
-    },
-    {
-      "name": "DramaWave - Dramas & Reels",
-      "type": "app",
-      "brief": "DramaWave improved its best rank 20% to position 12 while falling 34% in the US, 32% in the UK and 22% in Germany. Charting far better overall while losing every tracked Western market means the gain came from somewhere we do not watch. With 100 million Android installs already, this is a mature short-drama app moving on ad spend, not a discovery.",
-      "sources": [
-        "android_apps",
-        "ios_apps"
-      ],
-      "url": "https://apps.apple.com/app/id6670430706",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-01",
-        "days_ago": 1,
-        "unit": "ratings",
-        "then": 136461,
-        "now": 137168,
-        "change_pct": 0.5
-      }
-    },
-    {
-      "name": "FORScan Lite - for Ford, Mazda",
-      "type": "app",
-      "brief": "FORScan Lite's Android installs jumped to 10 million and reviews rose 57% in a day \u2014 an enormous move for a paid car-diagnostics tool with only 192 iOS ratings. The install figure is bucketed by Google, so a jump like that is a threshold being crossed rather than a real overnight surge. Worth watching the review count instead: 57% growth there is a genuine number.",
-      "sources": [
-        "android_apps",
-        "ios_apps"
-      ],
-      "url": "https://apps.apple.com/app/id892347083",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "yc-software/qm",
-      "type": "repo",
-      "brief": "Stars up 121% and forks up 150% in a day, with open issues up 124% and its HackerNews rank improving sharply. Forks growing faster than stars on a repo this young means people are cloning to modify rather than to watch. Everything about it is early enough that a single day could reverse it, but the fork-to-star ratio is the healthiest in today's set.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/yc-software/qm",
-      "appearances": 1,
-      "track": null
-    },
-    {
-      "name": "Freecash - Get Paid Real Money",
-      "type": "app",
-      "brief": "Freecash improved its best rank 7% while slipping in the UK and US. Paid-reward apps move on marketing budget rather than product quality, so read this as an advertising signal. It has appeared in this set three days running with the same pattern, which makes it a good control: if the system flags it every day, its threshold for apps is probably still a touch loose.",
-      "sources": [
-        "android_apps",
-        "ios_apps"
-      ],
-      "url": "https://apps.apple.com/app/id1673567402",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-07-30",
         "days_ago": 3,
-        "unit": "ratings",
-        "then": 102081,
-        "now": 103088,
-        "change_pct": 1.0
+        "unit": "stars",
+        "then": 1007,
+        "now": 1296,
+        "change_pct": 28.7
       }
     },
     {
-      "name": "sqliteai/waste",
+      "name": "mokshablr/gander",
       "type": "repo",
-      "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. That comment-to-point ratio is still inverted \u2014 roughly eighteen comments per point \u2014 which means the discussion is an argument, not applause. Yesterday's question was whether the stars were the idea or the fight; two days of doubling suggests the idea is surviving the fight.",
+      "brief": "207 HackerNews points and 75 comments against 287 stars and 4 forks. Attention running well ahead of adoption: a lot of people read about it, very few took it home. Stars grew 7.4% and forks 9.1% overnight, so the gap is closing slowly rather than not at all. It has already left the front page, which makes the next two days the test.",
       "sources": [
         "github",
         "hackernews"
       ],
-      "url": "https://github.com/sqliteai/waste",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-01",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 344,
-        "now": 745,
-        "change_pct": 116.6
-      }
-    },
-    {
-      "name": "c-faq.com",
-      "type": "domain",
-      "brief": "On the HackerNews front page with 47 comments, and its Tranco traffic rank improved 1.1%. This is the C FAQ, a decades-old reference \u2014 the traffic bump is a link on a busy day, not growth. Included because two independent sources moved together, which is exactly the case where the rule is right and the answer is still \"so what\".",
-      "sources": [
-        "hackernews",
-        "openpagerank",
-        "tranco"
-      ],
-      "url": "https://c-faq.com",
+      "url": "https://github.com/mokshablr/gander",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "pferdedecken-kaufen.de",
+      "name": "createcentercv.org",
       "type": "domain",
-      "brief": "A German horse-blanket shop whose Tranco rank improved 1.9%, corroborated by the fact that it publishes real prices. A genuine small business having a normal week. It is here because monetisation is now a scoring signal, and this is what that signal looks like when it fires on something ordinary \u2014 useful for calibration, not for action.",
+      "brief": "Movement across three independent readings \u2014 Majestic, OpenPageRank and Tranco \u2014 but all of it small: rank up 5%, subnets up 1.4%. The value here is the agreement rather than the size. Three unrelated crawls noticing the same modest climb is a different claim from one crawl noticing a big one.",
       "sources": [
         "majestic_million",
         "openpagerank",
-        "pricing",
         "tranco"
       ],
-      "url": "https://pferdedecken-kaufen.de",
+      "url": "https://createcentercv.org",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "hillelwayne.com",
+      "name": "gogadgetz.nl",
       "type": "domain",
-      "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
+      "brief": "Rank improved 3.9% while referring IPs FELL 42% and subnets rose 3.7%. Losing links from one network while gaining them from others usually means a single large linking site dropped it. The rank held anyway, which is mildly reassuring, but the two numbers point in opposite directions and neither is large.",
       "sources": [
-        "hackernews",
-        "openpagerank",
-        "tranco"
+        "majestic_million",
+        "openpagerank"
       ],
-      "url": "https://hillelwayne.com",
+      "url": "https://gogadgetz.nl",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "projectpluto.com",
+      "name": "sttatiana-omsk.ru",
       "type": "domain",
-      "brief": "79 comments on the front page with a 0.6% Tranco move. Astronomy software with a long history. The pattern across today's domain set is clear and worth naming: HackerNews plus a tiny traffic bump almost always means one popular post, not a rising business.",
+      "brief": "Referring IPs up 294% and referring subnets up 217% in a single day. That is not organic link acquisition \u2014 a genuine site does not triple its backlink footprint overnight, and the shape is what a purchased link blast looks like. Included deliberately rather than hidden: this is the kind of entry the noise gate should be catching and currently is not, because the link-network rule looks for clusters of domains acting together and this is one domain acting alone.",
       "sources": [
-        "hackernews",
-        "openpagerank",
-        "tranco"
+        "majestic_million",
+        "openpagerank"
       ],
-      "url": "https://projectpluto.com",
+      "url": "https://sttatiana-omsk.ru",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "seriot.ch",
+      "name": "walkntalkrepair.co.uk",
       "type": "domain",
-      "brief": "HackerNews points up 20% from a base of 4, with one comment. This is noise that cleared the bar because the domain population was quiet. Listed so the set stays honest about what qualified rather than quietly dropping it.",
+      "brief": "Referring IPs up 84% against subnets up 17% \u2014 five times as many new links as new networks. That ratio means a handful of sites linked repeatedly rather than many sites linking once, which is weaker evidence than the raw percentage suggests. A UK repair business, probably real, probably having a good week rather than breaking out.",
       "sources": [
-        "hackernews",
-        "openpagerank",
-        "tranco"
+        "majestic_million",
+        "openpagerank"
       ],
-      "url": "https://seriot.ch",
+      "url": "https://walkntalkrepair.co.uk",
       "appearances": 1,
       "track": null
     },
     {
-      "name": "chriscoyier.net",
+      "name": "wikif1.org",
       "type": "domain",
-      "brief": "52 comments, front page, 0.6% traffic gain. Chris Coyier is a well-known web developer; this is his personal site. Fourth example of the same shape today, which is a stronger argument for a gate rule about personal blogs than it is about any of these four domains.",
+      "brief": "An F1 wiki with 1.5% rank movement and 1% subnet growth. Genuinely marginal \u2014 it clears the corroboration bar because two independent sources both registered the same small climb. Listed for honesty about what today's threshold admits.",
       "sources": [
-        "hackernews",
+        "majestic_million",
+        "openpagerank"
+      ],
+      "url": "https://wikif1.org",
+      "appearances": 1,
+      "track": null
+    },
+    {
+      "name": "playscrabble.com",
+      "type": "domain",
+      "brief": "Same shape as createcentercv: three sources, all agreeing, none dramatic. Rank up 5.4% with subnets up 2%. A long-established word-game site \u2014 this is what steady looks like, and it is here to show that the corroboration rule fires on ordinary movement too, not only on spikes.",
+      "sources": [
+        "majestic_million",
         "openpagerank",
         "tranco"
       ],
-      "url": "https://chriscoyier.net",
+      "url": "https://playscrabble.com",
+      "appearances": 1,
+      "track": null
+    },
+    {
+      "name": "payfix.nl",
+      "type": "domain",
+      "brief": "Rank improved 66% with referring IPs and subnets both up around 20%, which is a far more plausible ratio than the Russian entry above \u2014 links arriving from many distinct networks rather than one. A Dutch payments-adjacent site with real authority movement. Worth a look, though the Tranco rank slipped slightly, so traffic has not followed the links yet.",
+      "sources": [
+        "majestic_million",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://payfix.nl",
+      "appearances": 1,
+      "track": null
+    },
+    {
+      "name": "mondomedia.com",
+      "type": "domain",
+      "brief": "Referring IPs up 29% and subnets up 28% \u2014 one new link per network, which is the healthy shape. Rank change of 35% on an established media domain. The near-identical IP and subnet growth is what genuine link acquisition looks like and is the clearest contrast on this page with the Omsk entry.",
+      "sources": [
+        "majestic_million",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://mondomedia.com",
+      "appearances": 1,
+      "track": null
+    },
+    {
+      "name": "semenovpolk.ru",
+      "type": "domain",
+      "brief": "Tranco traffic rank improved 22% with no backlink movement at all. Traffic without links is either a referral spike or a news mention, and neither is visible from here. A Russian military-history site; the movement is real but unexplained by anything else we measure.",
+      "sources": [
+        "majestic_million",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://semenovpolk.ru",
+      "appearances": 1,
+      "track": null
+    },
+    {
+      "name": "luanascowcroft.co.nz",
+      "type": "domain",
+      "brief": "Tranco rank up 16%, nothing else moving. A New Zealand personal or small-business site. This is the weakest kind of entry on the page: one source showing movement, a second merely confirming the domain exists and has authority. Two sources technically, one signal actually.",
+      "sources": [
+        "majestic_million",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://luanascowcroft.co.nz",
       "appearances": 1,
       "track": null
     }

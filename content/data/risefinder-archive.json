@@ -1,6 +1,169 @@
 {
   "days": [
     {
+      "date": "2026-08-03",
+      "count": 12,
+      "items": [
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Fourth day on the list and the only entry today confirmed by three unrelated collectors \u2014 npm downloads, GitHub stars and HackerNews. Downloads are up 41% week over week against 4.4% star growth, and 65 open issues on 1,296 stars is a high ratio: people are running it in anger rather than admiring it. The watcher count sits at 3, which is the one discordant note \u2014 almost nobody has committed to following the project despite using it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "appearances": 3,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1296,
+            "change_pct": 28.7
+          }
+        },
+        {
+          "name": "mokshablr/gander",
+          "type": "repo",
+          "brief": "207 HackerNews points and 75 comments against 287 stars and 4 forks. Attention running well ahead of adoption: a lot of people read about it, very few took it home. Stars grew 7.4% and forks 9.1% overnight, so the gap is closing slowly rather than not at all. It has already left the front page, which makes the next two days the test.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/mokshablr/gander",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "createcentercv.org",
+          "type": "domain",
+          "brief": "Movement across three independent readings \u2014 Majestic, OpenPageRank and Tranco \u2014 but all of it small: rank up 5%, subnets up 1.4%. The value here is the agreement rather than the size. Three unrelated crawls noticing the same modest climb is a different claim from one crawl noticing a big one.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://createcentercv.org",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "gogadgetz.nl",
+          "type": "domain",
+          "brief": "Rank improved 3.9% while referring IPs FELL 42% and subnets rose 3.7%. Losing links from one network while gaining them from others usually means a single large linking site dropped it. The rank held anyway, which is mildly reassuring, but the two numbers point in opposite directions and neither is large.",
+          "sources": [
+            "majestic_million",
+            "openpagerank"
+          ],
+          "url": "https://gogadgetz.nl",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "sttatiana-omsk.ru",
+          "type": "domain",
+          "brief": "Referring IPs up 294% and referring subnets up 217% in a single day. That is not organic link acquisition \u2014 a genuine site does not triple its backlink footprint overnight, and the shape is what a purchased link blast looks like. Included deliberately rather than hidden: this is the kind of entry the noise gate should be catching and currently is not, because the link-network rule looks for clusters of domains acting together and this is one domain acting alone.",
+          "sources": [
+            "majestic_million",
+            "openpagerank"
+          ],
+          "url": "https://sttatiana-omsk.ru",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "walkntalkrepair.co.uk",
+          "type": "domain",
+          "brief": "Referring IPs up 84% against subnets up 17% \u2014 five times as many new links as new networks. That ratio means a handful of sites linked repeatedly rather than many sites linking once, which is weaker evidence than the raw percentage suggests. A UK repair business, probably real, probably having a good week rather than breaking out.",
+          "sources": [
+            "majestic_million",
+            "openpagerank"
+          ],
+          "url": "https://walkntalkrepair.co.uk",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "wikif1.org",
+          "type": "domain",
+          "brief": "An F1 wiki with 1.5% rank movement and 1% subnet growth. Genuinely marginal \u2014 it clears the corroboration bar because two independent sources both registered the same small climb. Listed for honesty about what today's threshold admits.",
+          "sources": [
+            "majestic_million",
+            "openpagerank"
+          ],
+          "url": "https://wikif1.org",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "playscrabble.com",
+          "type": "domain",
+          "brief": "Same shape as createcentercv: three sources, all agreeing, none dramatic. Rank up 5.4% with subnets up 2%. A long-established word-game site \u2014 this is what steady looks like, and it is here to show that the corroboration rule fires on ordinary movement too, not only on spikes.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://playscrabble.com",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "payfix.nl",
+          "type": "domain",
+          "brief": "Rank improved 66% with referring IPs and subnets both up around 20%, which is a far more plausible ratio than the Russian entry above \u2014 links arriving from many distinct networks rather than one. A Dutch payments-adjacent site with real authority movement. Worth a look, though the Tranco rank slipped slightly, so traffic has not followed the links yet.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://payfix.nl",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "mondomedia.com",
+          "type": "domain",
+          "brief": "Referring IPs up 29% and subnets up 28% \u2014 one new link per network, which is the healthy shape. Rank change of 35% on an established media domain. The near-identical IP and subnet growth is what genuine link acquisition looks like and is the clearest contrast on this page with the Omsk entry.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://mondomedia.com",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "semenovpolk.ru",
+          "type": "domain",
+          "brief": "Tranco traffic rank improved 22% with no backlink movement at all. Traffic without links is either a referral spike or a news mention, and neither is visible from here. A Russian military-history site; the movement is real but unexplained by anything else we measure.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://semenovpolk.ru",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "luanascowcroft.co.nz",
+          "type": "domain",
+          "brief": "Tranco rank up 16%, nothing else moving. A New Zealand personal or small-business site. This is the weakest kind of entry on the page: one source showing movement, a second merely confirming the domain exists and has authority. Two sources technically, one signal actually.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://luanascowcroft.co.nz",
+          "appearances": 1,
+          "track": null
+        }
+      ]
+    },
+    {
       "date": "2026-08-02",
       "count": 12,
       "items": [
@@ -16,11 +179,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 2196,
-            "now": 3848,
-            "change_pct": 75.2
+            "now": 4260,
+            "change_pct": 94.0
           }
         },
         {
@@ -35,11 +198,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "ratings",
             "then": 136461,
-            "now": 137168,
-            "change_pct": 0.5
+            "now": 137972,
+            "change_pct": 1.1
           }
         },
         {
@@ -64,7 +227,14 @@
           ],
           "url": "https://github.com/yc-software/qm",
           "appearances": 1,
-          "track": null
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 5567,
+            "now": 7676,
+            "change_pct": 37.9
+          }
         },
         {
           "name": "Freecash - Get Paid Real Money",
@@ -78,11 +248,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "ratings",
             "then": 102081,
-            "now": 103088,
-            "change_pct": 1.0
+            "now": 103486,
+            "change_pct": 1.4
           }
         },
         {
@@ -97,11 +267,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 344,
-            "now": 745,
-            "change_pct": 116.6
+            "now": 1180,
+            "change_pct": 243.0
           }
         },
         {
@@ -201,11 +371,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 2196,
-            "now": 3848,
-            "change_pct": 75.2
+            "now": 4260,
+            "change_pct": 94.0
           }
         },
         {
@@ -256,14 +426,14 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
-          "appearances": 2,
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 1007,
-            "now": 1233,
-            "change_pct": 22.4
+            "now": 1296,
+            "change_pct": 28.7
           }
         },
         {
@@ -297,11 +467,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 344,
-            "now": 745,
-            "change_pct": 116.6
+            "now": 1180,
+            "change_pct": 243.0
           }
         },
         {
@@ -316,11 +486,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 41.0,
-            "now": 45.0,
-            "change_pct": 9.8
+            "now": 50.0,
+            "change_pct": 22.0
           }
         },
         {
@@ -335,11 +505,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 77.0,
-            "now": 94.0,
-            "change_pct": 22.1
+            "now": 101,
+            "change_pct": 31.2
           }
         },
         {
@@ -354,11 +524,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 429,
-            "now": 600,
-            "change_pct": 39.9
+            "now": 628,
+            "change_pct": 46.4
           }
         },
         {
@@ -373,11 +543,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "ratings",
             "then": 136461,
-            "now": 137168,
-            "change_pct": 0.5
+            "now": 137972,
+            "change_pct": 1.1
           }
         },
         {
@@ -392,11 +562,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "ratings",
             "then": 2052755,
-            "now": 2063479,
-            "change_pct": 0.5
+            "now": 2068234,
+            "change_pct": 0.8
           }
         },
         {
@@ -409,7 +579,14 @@
           ],
           "url": "https://apps.apple.com/app/id6764665158",
           "appearances": 1,
-          "track": null
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 2,
+            "unit": "ratings",
+            "then": 10.0,
+            "now": 11.0,
+            "change_pct": 10.0
+          }
         }
       ]
     },
@@ -429,11 +606,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 45.0,
-            "now": 49.0,
-            "change_pct": 8.9
+            "now": 52.0,
+            "change_pct": 15.6
           }
         },
         {
@@ -448,11 +625,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 2196,
-            "now": 3848,
-            "change_pct": 75.2
+            "now": 4260,
+            "change_pct": 94.0
           }
         },
         {
@@ -464,14 +641,14 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
-          "appearances": 2,
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 1007,
-            "now": 1233,
-            "change_pct": 22.4
+            "now": 1296,
+            "change_pct": 28.7
           }
         },
         {
@@ -486,11 +663,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 6090,
-            "now": 8038,
-            "change_pct": 32.0
+            "now": 8248,
+            "change_pct": 35.4
           }
         },
         {
@@ -505,11 +682,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 296,
-            "now": 327,
-            "change_pct": 10.5
+            "now": 346,
+            "change_pct": 16.9
           }
         },
         {
@@ -524,11 +701,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 429,
-            "now": 600,
-            "change_pct": 39.9
+            "now": 628,
+            "change_pct": 46.4
           }
         },
         {
@@ -543,11 +720,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 255,
-            "now": 309,
-            "change_pct": 21.2
+            "now": 310,
+            "change_pct": 21.6
           }
         },
         {
@@ -562,11 +739,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 26.0,
-            "now": 34.0,
-            "change_pct": 30.8
+            "now": 35.0,
+            "change_pct": 34.6
           }
         }
       ]
@@ -587,11 +764,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 290,
-            "now": 323,
-            "change_pct": 11.4
+            "now": 332,
+            "change_pct": 14.5
           }
         },
         {
@@ -606,11 +783,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 77.0,
-            "now": 94.0,
-            "change_pct": 22.1
+            "now": 101,
+            "change_pct": 31.2
           }
         },
         {
@@ -625,11 +802,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 384,
-            "now": 514,
-            "change_pct": 33.9
+            "now": 597,
+            "change_pct": 55.5
           }
         },
         {
@@ -644,11 +821,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 6090,
-            "now": 8038,
-            "change_pct": 32.0
+            "now": 8248,
+            "change_pct": 35.4
           }
         },
         {
@@ -663,11 +840,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 429,
-            "now": 600,
-            "change_pct": 39.9
+            "now": 628,
+            "change_pct": 46.4
           }
         },
         {
@@ -682,11 +859,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 192,
-            "now": 213,
-            "change_pct": 10.9
+            "now": 215,
+            "change_pct": 12.0
           }
         },
         {
@@ -701,11 +878,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "ratings",
             "then": 102081,
-            "now": 103088,
-            "change_pct": 1.0
+            "now": 103486,
+            "change_pct": 1.4
           }
         },
         {
@@ -720,11 +897,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "ratings",
             "then": 2052755,
-            "now": 2063479,
-            "change_pct": 0.5
+            "now": 2068234,
+            "change_pct": 0.8
           }
         },
         {
@@ -739,11 +916,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "ratings",
             "then": 124,
-            "now": 140,
-            "change_pct": 12.9
+            "now": 146,
+            "change_pct": 17.7
           }
         },
         {
@@ -758,11 +935,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "ratings",
             "then": 214790,
-            "now": 217053,
-            "change_pct": 1.1
+            "now": 218039,
+            "change_pct": 1.5
           }
         }
       ]
