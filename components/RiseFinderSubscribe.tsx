@@ -30,11 +30,14 @@ export function RiseFinderSubscribe() {
         <form
           action="/api/risefinder/subscribe"
           method="POST"
-          className="flex flex-col sm:flex-row gap-px bg-rule max-w-xl"
+          className="flex flex-col sm:flex-row max-w-xl"
         >
           <label htmlFor="rf-email" className="sr-only">
             Email address
           </label>
+          {/* The field needs a background AND a border. The first version used
+              bg-paper, which is the page's own background — the input was
+              invisible and the placeholder looked like stray body text. */}
           <input
             id="rf-email"
             type="email"
@@ -42,7 +45,7 @@ export function RiseFinderSubscribe() {
             required
             autoComplete="email"
             placeholder="you@company.com"
-            className="flex-1 bg-paper px-4 py-3.5 font-mono text-mono text-ink placeholder:text-ink-3 outline-none focus:bg-paper-3"
+            className="flex-1 bg-paper-3 border border-ink px-4 py-3.5 font-mono text-mono text-ink placeholder:text-ink-3 outline-none focus:border-red sm:border-r-0"
           />
           {/* Bots fill everything; humans never see this. */}
           <input
@@ -55,7 +58,7 @@ export function RiseFinderSubscribe() {
           />
           <button
             type="submit"
-            className="bg-ink text-paper px-6 py-3.5 font-mono text-micro uppercase tracking-[0.14em] font-medium hover:bg-red transition-colors"
+            className="bg-ink text-paper border border-ink px-6 py-3.5 font-mono text-micro uppercase tracking-[0.14em] font-medium hover:bg-red hover:border-red transition-colors mt-px sm:mt-0"
           >
             Subscribe →
           </button>

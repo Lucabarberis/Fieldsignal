@@ -189,6 +189,16 @@ export default async function RiseFinderPage({
               </Link>
             ))}
           </div>
+          {/* Collection and publication started on different days, and the gap
+              is visible in the numbers above — "days collected" is larger than
+              the archive. Saying why is cheaper than letting a reader wonder
+              whether briefings went missing. */}
+          <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-t border-rule">
+            Collection began 28 July. The first two days produced no publishable
+            briefing — with only one source having run the day before, almost
+            nothing had a prior reading to be compared against, and an empty
+            briefing is the honest output.
+          </div>
         </>
       )}
 

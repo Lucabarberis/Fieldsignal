@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:58:05Z",
+  "generated_at": "2026-08-03T04:24:06Z",
   "data_through": "2026-08-02",
   "stats": {
     "entities": 8293,
@@ -76,7 +76,14 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id1673567402",
-      "track": null
+      "track": {
+        "first_flagged": "2026-07-30",
+        "days_ago": 3,
+        "unit": "ratings",
+        "then": 102081,
+        "now": 103088,
+        "change_pct": 1.0
+      }
     },
     {
       "name": "sqliteai/waste",

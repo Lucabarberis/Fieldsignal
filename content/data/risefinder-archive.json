@@ -71,7 +71,14 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
-          "track": null
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "ratings",
+            "then": 102081,
+            "now": 103088,
+            "change_pct": 1.0
+          }
         },
         {
           "name": "sqliteai/waste",
@@ -318,12 +325,12 @@
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
           "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
             "unit": "stars",
-            "then": 90.0,
+            "then": 77.0,
             "now": 94.0,
-            "change_pct": 4.4
+            "change_pct": 22.1
           }
         },
         {
@@ -336,12 +343,12 @@
           ],
           "url": "https://github.com/gavamedia/deltafin",
           "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
             "unit": "stars",
-            "then": 494,
+            "then": 429,
             "now": 600,
-            "change_pct": 21.5
+            "change_pct": 39.9
           }
         },
         {
@@ -372,12 +379,12 @@
           ],
           "url": "https://apps.apple.com/app/id6477489729",
           "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
             "unit": "ratings",
-            "then": 2058247,
+            "then": 2052755,
             "now": 2063479,
-            "change_pct": 0.3
+            "change_pct": 0.5
           }
         }
       ]
@@ -450,12 +457,12 @@
           ],
           "url": "https://github.com/openai/codex-security",
           "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
             "unit": "stars",
-            "then": 7237,
+            "then": 6090,
             "now": 8038,
-            "change_pct": 11.1
+            "change_pct": 32.0
           }
         },
         {
@@ -486,12 +493,12 @@
           ],
           "url": "https://github.com/gavamedia/deltafin",
           "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 2,
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
             "unit": "stars",
-            "then": 494,
+            "then": 429,
             "now": 600,
-            "change_pct": 21.5
+            "change_pct": 39.9
           }
         },
         {
@@ -528,6 +535,192 @@
             "then": 26.0,
             "now": 34.0,
             "change_pct": 30.8
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "count": 10,
+      "items": [
+        {
+          "name": "FrigadeHQ/yap",
+          "type": "repo",
+          "brief": "Modest and clean \u2014 stars up 8% to 290, forks up 16%, 104 HackerNews points with 43 comments. Nothing here is dramatic, which is why it is worth noting: the numbers are in proportion to each other rather than one spiking alone.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/FrigadeHQ/yap",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 290,
+            "now": 323,
+            "change_pct": 11.4
+          }
+        },
+        {
+          "name": "SerhiiKorniienko/bullshit-detector",
+          "type": "repo",
+          "brief": "Comments jumped 3,200% to 66 and points 178% to 62 \u2014 a one-to-one comment-to-point ratio, which almost always means argument rather than approval. Open issues rose 800% from a tiny base while stars grew 28%. It has already fallen off the front page, so the next two days decide whether the attention converts into anything.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 77.0,
+            "now": 94.0,
+            "change_pct": 22.1
+          }
+        },
+        {
+          "name": "wassgha/rescript",
+          "type": "repo",
+          "brief": "Forks up 11% and open issues up 40% against 16% star growth, with 43 forks on 384 stars. That ratio is unusually high \u2014 better than one fork per nine stars \u2014 and suggests a tool people modify for their own use rather than adopt as-is.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/wassgha/rescript",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 384,
+            "now": 514,
+            "change_pct": 33.9
+          }
+        },
+        {
+          "name": "openai/codex-security",
+          "type": "repo",
+          "brief": "Forks up 70% and open issues up 84% against 47% star growth, reaching 6,090 stars and 399 forks. Issues climbing faster than stars is the signature of a repository people are running rather than reading, and at this size that means real deployments hitting real edges. On the HackerNews front page with 197 comments, which explains the arrival but not the fork ratio \u2014 that part is adoption.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/openai/codex-security",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 6090,
+            "now": 8038,
+            "change_pct": 32.0
+          }
+        },
+        {
+          "name": "gavamedia/deltafin",
+          "type": "repo",
+          "brief": "Forks up 63% against 42% star growth, on the HackerNews front page with 87 comments. A fork-to-star ratio that high on a 429-star project means people are cloning to modify, not to bookmark. Open issues sitting at 1 says nobody has hit a wall yet, which is either a clean codebase or too early to tell.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/gavamedia/deltafin",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 429,
+            "now": 600,
+            "change_pct": 39.9
+          }
+        },
+        {
+          "name": "twalichiewicz/HNewhere",
+          "type": "repo",
+          "brief": "419 HackerNews points with comments up 22%, but only 192 stars and 7 forks. Attention running far ahead of adoption: a lot of people found it interesting and very few took it home. It has left the front page, so this is close to its peak unless the star count starts closing the gap.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/twalichiewicz/HNewhere",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 192,
+            "now": 213,
+            "change_pct": 10.9
+          }
+        },
+        {
+          "name": "Freecash - Get Paid Real Money",
+          "type": "app",
+          "brief": "Freecash improved its best rank 4.9% to position 10 while losing ground in Germany, the UK and the US simultaneously. That combination means it charted hard somewhere outside the four markets tracked here. Paid-reward apps move on advertising budget, so read the climb as media spend rather than product adoption.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id1673567402",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "ratings",
+            "then": 102081,
+            "now": 103088,
+            "change_pct": 1.0
+          }
+        },
+        {
+          "name": "Google Gemini",
+          "type": "app",
+          "brief": "Gemini improved its best rank 1.9% to position 4, up in Germany and the UK, down in Japan. Mirror image of Claude on the same day, which is the pattern worth watching: the two are trading position market by market rather than one pulling away from the other.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6477489729",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "ratings",
+            "then": 2052755,
+            "now": 2063479,
+            "change_pct": 0.5
+          }
+        },
+        {
+          "name": "Parchment: Agenda & Daily Note",
+          "type": "app",
+          "brief": "Parchment improved its best paid-chart rank 12% while falling in all three tracked paid markets, on just 124 ratings and a million Android installs. The rating count is far too small for the install figure, which usually means the Android and iOS audiences are very different sizes \u2014 worth checking before treating either number as the whole picture.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6779987526",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "ratings",
+            "then": 124,
+            "now": 140,
+            "change_pct": 12.9
+          }
+        },
+        {
+          "name": "Claude by Anthropic",
+          "type": "app",
+          "brief": "Claude held the number one position across its tracked storefronts, gaining 3.6% in the UK while slipping slightly in Japan and the US. At 50 million Android installs and 215,000 ratings this is a competitive read rather than a discovery \u2014 the value is in which market moves which way, week to week.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6473753684",
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 3,
+            "unit": "ratings",
+            "then": 214790,
+            "now": 217053,
+            "change_pct": 1.1
           }
         }
       ]
