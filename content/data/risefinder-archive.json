@@ -13,6 +13,7 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -31,6 +32,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6670430706",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -49,6 +51,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id892347083",
+          "appearances": 1,
           "track": null
         },
         {
@@ -60,6 +63,7 @@
             "hackernews"
           ],
           "url": "https://github.com/yc-software/qm",
+          "appearances": 1,
           "track": null
         },
         {
@@ -71,6 +75,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -89,6 +94,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sqliteai/waste",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -97,17 +103,6 @@
             "now": 745,
             "change_pct": 116.6
           }
-        },
-        {
-          "name": "Duolingo: Language Lessons",
-          "type": "app",
-          "brief": "Duolingo improved its best rank 6% while easing back slightly in Germany and the UK. At 500 million Android installs and 5.4 million ratings, nothing this app does in a day is news. It is in the set because the corroboration rule is honest \u2014 two sources genuinely saw it move \u2014 which is a reminder that \"corroborated\" means confirmed, not important.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id570060128",
-          "track": null
         },
         {
           "name": "c-faq.com",
@@ -119,6 +114,7 @@
             "tranco"
           ],
           "url": "https://c-faq.com",
+          "appearances": 1,
           "track": null
         },
         {
@@ -132,6 +128,7 @@
             "tranco"
           ],
           "url": "https://pferdedecken-kaufen.de",
+          "appearances": 1,
           "track": null
         },
         {
@@ -144,6 +141,7 @@
             "tranco"
           ],
           "url": "https://hillelwayne.com",
+          "appearances": 1,
           "track": null
         },
         {
@@ -156,6 +154,7 @@
             "tranco"
           ],
           "url": "https://projectpluto.com",
+          "appearances": 1,
           "track": null
         },
         {
@@ -168,6 +167,20 @@
             "tranco"
           ],
           "url": "https://seriot.ch",
+          "appearances": 1,
+          "track": null
+        },
+        {
+          "name": "chriscoyier.net",
+          "type": "domain",
+          "brief": "52 comments, front page, 0.6% traffic gain. Chris Coyier is a well-known web developer; this is his personal site. Fourth example of the same shape today, which is a stronger argument for a gate rule about personal blogs than it is about any of these four domains.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://chriscoyier.net",
+          "appearances": 1,
           "track": null
         }
       ]
@@ -185,6 +198,7 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -203,6 +217,7 @@
             "openpagerank"
           ],
           "url": "https://marbleos.com",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -211,18 +226,6 @@
             "now": 0.09,
             "change_pct": 0.0
           }
-        },
-        {
-          "name": "workers.dev",
-          "type": "domain",
-          "brief": "This is Cloudflare's shared Workers subdomain, not a product \u2014 someone's demo hosted on it reached HackerNews and the domain took the credit. A genuine false positive, and a useful one: shared hosting domains will keep surfacing this way, so the gate needs a rule for platform subdomains.",
-          "sources": [
-            "hackernews",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://workers.dev",
-          "track": null
         },
         {
           "name": "reclip.io",
@@ -234,6 +237,7 @@
             "pricing"
           ],
           "url": "https://reclip.io",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -252,6 +256,7 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -270,6 +275,7 @@
             "openpagerank"
           ],
           "url": "https://orangecrumbs.com",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -288,6 +294,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sqliteai/waste",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -306,6 +313,7 @@
             "hackernews"
           ],
           "url": "https://github.com/sawfwair/mere-run",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -324,6 +332,7 @@
             "hackernews"
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -342,6 +351,7 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -360,6 +370,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6670430706",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
             "days_ago": 1,
@@ -378,6 +389,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6477489729",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -386,6 +398,18 @@
             "now": 2063479,
             "change_pct": 0.5
           }
+        },
+        {
+          "name": "Reelo - Media Hub",
+          "type": "app",
+          "brief": "Reelo holds rank 7 on a paid chart with 10 ratings and 5,000 Android installs. Those numbers do not belong together: a paid chart position that high on that little evidence usually means a thin category rather than a real hit. It slipped in both the UK and US today. Treat as a category artefact until a second source says otherwise.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6764665158",
+          "appearances": 1,
+          "track": null
         }
       ]
     },
@@ -402,6 +426,7 @@
             "hackernews"
           ],
           "url": "https://github.com/LukeTandjung/base-gpui",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -420,6 +445,7 @@
             "hackernews"
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -438,6 +464,7 @@
             "hackernews"
           ],
           "url": "https://github.com/reflex-dev/xy",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -456,6 +483,7 @@
             "hackernews"
           ],
           "url": "https://github.com/openai/codex-security",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -474,6 +502,7 @@
             "hackernews"
           ],
           "url": "https://github.com/alibaba/skill-up",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -492,6 +521,7 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -510,6 +540,7 @@
             "hackernews"
           ],
           "url": "https://github.com/experientiallabs/world-model-optimizer",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -528,6 +559,7 @@
             "hackernews"
           ],
           "url": "https://github.com/mishushakov/desktui",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 2,
@@ -552,6 +584,7 @@
             "hackernews"
           ],
           "url": "https://github.com/FrigadeHQ/yap",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -570,6 +603,7 @@
             "hackernews"
           ],
           "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -588,6 +622,7 @@
             "hackernews"
           ],
           "url": "https://github.com/wassgha/rescript",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -606,6 +641,7 @@
             "hackernews"
           ],
           "url": "https://github.com/openai/codex-security",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -624,6 +660,7 @@
             "hackernews"
           ],
           "url": "https://github.com/gavamedia/deltafin",
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -642,6 +679,7 @@
             "hackernews"
           ],
           "url": "https://github.com/twalichiewicz/HNewhere",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -660,6 +698,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id1673567402",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -678,6 +717,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6477489729",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -696,6 +736,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6779987526",
+          "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,
@@ -714,6 +755,7 @@
             "ios_apps"
           ],
           "url": "https://apps.apple.com/app/id6473753684",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
             "days_ago": 3,

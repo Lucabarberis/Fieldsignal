@@ -46,23 +46,41 @@ export default async function RiseFinderPage({
   const { items, stats, data_through } = data;
   const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
 
-  // Track record across the whole archive, not just today. This is the number
-  // that answers "were you right", and it has to be computed from every entry
-  // ever published rather than the twelve on screen — otherwise it would move
-  // every morning for reasons that have nothing to do with accuracy.
-  const allTracked = archive.days
-    .flatMap((d) => d.items)
-    .filter((i) => i.track)
-    .map((i) => i.track!);
+  // Track record across the whole archive, not just today — it has to be
+  // computed from every entry ever published rather than the twelve on screen,
+  // or it would move every morning for reasons unrelated to accuracy.
+  //
+  // DEDUPED BY NAME, and that is not cosmetic. An entry written about on three
+  // consecutive days appears three times in the archive with the same follow-up
+  // attached, so counting rows would have reported 33 tracked entries when
+  // there were 12 — and turbo-fieldfare's +75% three times over.
   const seenNames = new Set<string>();
-  const uniqueTracked = archive.days
+  const tracked = archive.days
     .flatMap((d) => d.items)
     .filter((i) => {
       if (!i.track || seenNames.has(i.name)) return false;
       seenNames.add(i.name);
       return true;
-    });
-  const grew = uniqueTracked.filter((i) => i.track!.change_pct > 0).length;
+    })
+    .map((i) => i.track!);
+
+  // MEDIAN, NOT "HOW MANY WENT UP". The obvious statistic — "13 of 16 kept
+  // growing" — is almost worthless here, because the headline metrics are
+  // CUMULATIVE counters. Measured across this database, star counts fall on
+  // 4.1% of days and rating counts on 6.6%; they physically cannot go down
+  // much. A near-100% success rate on a test almost nothing can fail reads as
+  // a boast and means nothing.
+  //
+  // The median gain is the honest number: half the entries did better than
+  // this, half worse, and it cannot be flattered by one outlier the way a
+  // maximum can. The maximum is still shown, clearly labelled as the best
+  // single case rather than as typical.
+  const gains = tracked.map((t) => t.change_pct).sort((a, b) => a - b);
+  const median = gains.length
+    ? gains.length % 2
+      ? gains[(gains.length - 1) / 2]
+      : (gains[gains.length / 2 - 1] + gains[gains.length / 2]) / 2
+    : 0;
 
   return (
     <>
@@ -106,12 +124,12 @@ export default async function RiseFinderPage({
           show it was early BEFORE. This strip is the only claim on the page a
           competitor cannot copy next week, because it needs the history this
           project has been accumulating day by day. */}
-      {uniqueTracked.length > 0 && (
+      {tracked.length > 0 && (
         <>
           <SectionBand
             num="01"
             label="What happened after we flagged it"
-            meta={`${uniqueTracked.length} tracked`}
+            meta={`${tracked.length} tracked`}
           />
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-rule">
             <div className="bg-paper-2 px-7 py-6">
@@ -119,39 +137,35 @@ export default async function RiseFinderPage({
                 Entries with a follow-up
               </div>
               <div className="font-sans text-[32px] leading-none text-ink">
-                {uniqueTracked.length}
+                {tracked.length}
               </div>
             </div>
             <div className="bg-paper-2 px-7 py-6">
               <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                Kept growing after the flag
+                Typical gain since flagging
               </div>
               <div className="font-sans text-[32px] leading-none text-ink">
-                {grew}
-                <span className="text-ink-3 text-[20px]">
-                  {" "}
-                  / {uniqueTracked.length}
-                </span>
+                +{median.toFixed(1)}%
+                <span className="text-ink-3 text-[20px]"> median</span>
               </div>
             </div>
             <div className="bg-paper-2 px-7 py-6">
               <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                Best move since flagging
+                Best single case
               </div>
               <div className="font-sans text-[32px] leading-none text-ink">
-                +
-                {Math.round(
-                  Math.max(...allTracked.map((t) => t.change_pct)),
-                )}
-                %
+                +{Math.round(gains[gains.length - 1])}%
               </div>
             </div>
           </div>
-          <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule">
+          <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
             Measured from the day an entry first appeared here to today, on the
             headline number for its kind — stars for a repository, downloads for
             a package, ratings for an app. Entries flagged this morning have
-            nothing to measure yet and are excluded.
+            nothing to measure yet and are excluded. The median is shown rather
+            than a success rate because these are cumulative counters: they
+            rarely fall, so &ldquo;how many went up&rdquo; would be close to
+            100% however well or badly the picks were chosen.
           </div>
         </>
       )}
@@ -188,16 +202,6 @@ export default async function RiseFinderPage({
                 </div>
               </Link>
             ))}
-          </div>
-          {/* Collection and publication started on different days, and the gap
-              is visible in the numbers above — "days collected" is larger than
-              the archive. Saying why is cheaper than letting a reader wonder
-              whether briefings went missing. */}
-          <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-t border-rule">
-            Collection began 28 July. The first two days produced no publishable
-            briefing — with only one source having run the day before, almost
-            nothing had a prior reading to be compared against, and an empty
-            briefing is the honest output.
           </div>
         </>
       )}

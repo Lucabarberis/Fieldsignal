@@ -31,6 +31,8 @@ export type Item = {
   brief: string;
   sources: string[];
   url: string | null;
+  /** How many separate briefings this has appeared in. */
+  appearances?: number;
   track: Track | null;
 };
 
@@ -132,8 +134,28 @@ export function RiseFinderList({ items }: { items: Item[] }) {
               key={item.name}
               className="bg-paper px-5 pt-5 pb-5 sm:px-7 sm:pt-6 flex flex-col"
             >
-              <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">
-                {String(i + 1).padStart(2, "0")}
+              <div className="flex items-baseline justify-between mb-1">
+                <span className="font-mono text-mono text-red font-semibold opacity-[0.78]">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                {/* New or continuing. A first sighting and a thing that has
+                    held the list all week mean opposite things — one is a
+                    discovery, the other survived its own news cycle — and
+                    without this a reader cannot tell them apart. */}
+                {item.appearances != null && (
+                  <span
+                    className={[
+                      "font-mono text-micro uppercase tracking-[0.12em] px-2 py-0.5",
+                      item.appearances === 1
+                        ? "bg-ink text-paper"
+                        : "border border-rule-2 text-ink-2",
+                    ].join(" ")}
+                  >
+                    {item.appearances === 1
+                      ? "New"
+                      : `Day ${item.appearances}`}
+                  </span>
+                )}
               </div>
 
               <h3 className="font-mono text-[14px] font-semibold tracking-[0.06em] leading-tight text-ink mb-2.5 break-words">
