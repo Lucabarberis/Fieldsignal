@@ -221,7 +221,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-03T07:39:03Z",
+  "generated_at": "2026-08-03T07:45:48Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -375,6 +375,26 @@
       "items": []
     },
     {
+      "source": "majestic_million",
+      "label": "Majestic \u2014 backlinks",
+      "window": "quarterly",
+      "window_days": 91,
+      "have_days": 3,
+      "need_days": 91,
+      "first_day": "2026-07-31",
+      "items": []
+    },
+    {
+      "source": "majestic_million",
+      "label": "Majestic \u2014 backlinks",
+      "window": "yearly",
+      "window_days": 365,
+      "have_days": 3,
+      "need_days": 365,
+      "first_day": "2026-07-31",
+      "items": []
+    },
+    {
       "source": "tranco",
       "label": "Tranco \u2014 traffic",
       "window": "2-day",
@@ -524,6 +544,26 @@
       "need_days": 30,
       "first_day": "2026-08-01",
       "items": []
+    },
+    {
+      "source": "tranco",
+      "label": "Tranco \u2014 traffic",
+      "window": "quarterly",
+      "window_days": 91,
+      "have_days": 2,
+      "need_days": 91,
+      "first_day": "2026-08-01",
+      "items": []
+    },
+    {
+      "source": "tranco",
+      "label": "Tranco \u2014 traffic",
+      "window": "yearly",
+      "window_days": 365,
+      "have_days": 2,
+      "need_days": 365,
+      "first_day": "2026-08-01",
+      "items": []
     }
   ],
   "data_through": "2026-08-03",
@@ -666,7 +706,7 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id6670430706",
-      "description": null,
+      "description": "Welcome to DramaWave, a next-gen HD streaming platform offering exclusive vertical TV videos, series, and movies.",
       "appearances": 2,
       "track": {
         "first_flagged": "2026-08-01",
@@ -686,7 +726,7 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id892347083",
-      "description": null,
+      "description": "FORScan Lite application was developed specially for a computer diagnostics of Ford, Mazda, Lincoln and Mercury vehicles.",
       "appearances": 1,
       "track": null
     },
@@ -719,7 +759,7 @@
         "ios_apps"
       ],
       "url": "https://apps.apple.com/app/id1673567402",
-      "description": null,
+      "description": "Welcome to Freecash - Earn Rewards, the fun way to make a little money online in your spare time!",
       "appearances": 2,
       "track": {
         "first_flagged": "2026-07-30",
