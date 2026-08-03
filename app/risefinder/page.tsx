@@ -1,17 +1,22 @@
+import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
+import { RiseFinderList, type Item } from "@/components/RiseFinderList";
+import { RiseFinderSubscribe } from "@/components/RiseFinderSubscribe";
 import { pageMetadata } from "@/lib/seo";
 import data from "@/content/data/risefinder.json";
+import archive from "@/content/data/risefinder-archive.json";
+import { formatBriefingDay } from "@/lib/risefinder";
 
 /**
  * RiseFinder — the daily breakout briefing.
  *
  * UNLISTED BY DESIGN. Nothing links here: not the masthead, not the footer,
  * not the sitemap, and robots.ts disallows the path. It is reachable only by
- * typing the URL, which is what was asked for. `noindex` is the part that
- * actually enforces that — without it a crawler that discovers the path from a
- * referrer header or a shared link would put it in search results, and "no
- * button" would stop meaning "not public".
+ * typing the URL. `noindex` is the part that actually enforces that — without
+ * it a crawler that discovers the path from a referrer header or a shared link
+ * would put it in search results, and "no button" would stop meaning "not
+ * public".
  *
  * CONTENT COMES FROM A DATA FILE, not from the RiseFinder database. The
  * pipeline runs on a laptop against local SQLite; the site is a static build.
@@ -21,7 +26,7 @@ import data from "@/content/data/risefinder.json";
  *
  * NO SCORES ON THIS PAGE. The build guide is explicit that "the brief is the
  * product. Not the score. The explanation." Numbers that do not change what a
- * reader does next are left in the diagnostic report, which is not deployed.
+ * reader does next stay in the diagnostic report, which is not deployed.
  */
 
 export const metadata = pageMetadata({
@@ -32,55 +37,32 @@ export const metadata = pageMetadata({
   noindex: true,
 });
 
-/** "repo" → "Repository", for the tile's type label. */
-const TYPE_LABEL: Record<string, string> = {
-  repo: "Repository",
-  app: "Mobile app",
-  domain: "Domain",
-  package: "Package",
-  model: "AI model",
-  dataset: "Dataset",
-  plugin: "WordPress plugin",
-  extension: "Chrome extension",
-  shopify_app: "Shopify app",
-  launch: "ProductHunt launch",
-};
-
-/** Collector names as a reader would say them. */
-const SOURCE_LABEL: Record<string, string> = {
-  github: "GitHub",
-  hackernews: "HackerNews",
-  packages: "npm / PyPI",
-  ios_apps: "App Store",
-  android_apps: "Google Play",
-  majestic_million: "Majestic",
-  tranco: "Tranco",
-  openpagerank: "OpenPageRank",
-  wordpress: "WordPress",
-  chrome_ext: "Chrome Web Store",
-  shopify: "Shopify",
-  producthunt: "ProductHunt",
-  huggingface: "HuggingFace",
-  pricing: "Pricing page",
-  techstack: "Tech stack",
-  hiring: "Hiring",
-  youtube: "YouTube",
-  age: "Domain age",
-  linking: "Cross-source link",
-};
-
-function formatDay(iso: string) {
-  const [y, m, d] = iso.split("-").map(Number);
-  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC",
-  });
-}
-
-export default function RiseFinderPage() {
+export default async function RiseFinderPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ subscribed?: string; error?: string }>;
+}) {
+  const params = await searchParams;
   const { items, stats, data_through } = data;
+  const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
+
+  // Track record across the whole archive, not just today. This is the number
+  // that answers "were you right", and it has to be computed from every entry
+  // ever published rather than the twelve on screen — otherwise it would move
+  // every morning for reasons that have nothing to do with accuracy.
+  const allTracked = archive.days
+    .flatMap((d) => d.items)
+    .filter((i) => i.track)
+    .map((i) => i.track!);
+  const seenNames = new Set<string>();
+  const uniqueTracked = archive.days
+    .flatMap((d) => d.items)
+    .filter((i) => {
+      if (!i.track || seenNames.has(i.name)) return false;
+      seenNames.add(i.name);
+      return true;
+    });
+  const grew = uniqueTracked.filter((i) => i.track!.change_pct > 0).length;
 
   return (
     <>
@@ -97,9 +79,9 @@ export default function RiseFinderPage() {
           </>
         }
         meta={[
-          { label: "Data through", value: formatDay(data_through) },
+          { label: "Data through", value: formatBriefingDay(data_through) },
           { label: "Sources live", value: String(stats.sources_live) },
-          { label: "Tracked", value: stats.entities.toLocaleString("en-GB") },
+          { label: "Days collected", value: String(stats.days_collected) },
           {
             label: "Measurements",
             value: stats.snapshots.toLocaleString("en-GB"),
@@ -107,43 +89,110 @@ export default function RiseFinderPage() {
         ]}
       />
 
+      {params.subscribed && (
+        <div className="px-4 sm:px-9 py-4 bg-ink text-paper font-mono text-mono uppercase tracking-[0.08em]">
+          Subscribed. The briefing will start arriving each morning.
+        </div>
+      )}
+      {params.error && (
+        <div className="px-4 sm:px-9 py-4 bg-paper-2 border-y border-rule-2 font-mono text-mono uppercase tracking-[0.08em] text-red">
+          {params.error === "email"
+            ? "That address did not look valid — try again."
+            : "Something went wrong storing it. Try again shortly."}
+        </div>
+      )}
+
+      {/* THE TRACK RECORD. A prediction product is worth nothing until it can
+          show it was early BEFORE. This strip is the only claim on the page a
+          competitor cannot copy next week, because it needs the history this
+          project has been accumulating day by day. */}
+      {uniqueTracked.length > 0 && (
+        <>
+          <SectionBand
+            num="01"
+            label="What happened after we flagged it"
+            meta={`${uniqueTracked.length} tracked`}
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-rule">
+            <div className="bg-paper-2 px-7 py-6">
+              <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+                Entries with a follow-up
+              </div>
+              <div className="font-sans text-[32px] leading-none text-ink">
+                {uniqueTracked.length}
+              </div>
+            </div>
+            <div className="bg-paper-2 px-7 py-6">
+              <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+                Kept growing after the flag
+              </div>
+              <div className="font-sans text-[32px] leading-none text-ink">
+                {grew}
+                <span className="text-ink-3 text-[20px]">
+                  {" "}
+                  / {uniqueTracked.length}
+                </span>
+              </div>
+            </div>
+            <div className="bg-paper-2 px-7 py-6">
+              <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+                Best move since flagging
+              </div>
+              <div className="font-sans text-[32px] leading-none text-ink">
+                +
+                {Math.round(
+                  Math.max(...allTracked.map((t) => t.change_pct)),
+                )}
+                %
+              </div>
+            </div>
+          </div>
+          <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule">
+            Measured from the day an entry first appeared here to today, on the
+            headline number for its kind — stars for a repository, downloads for
+            a package, ratings for an app. Entries flagged this morning have
+            nothing to measure yet and are excluded.
+          </div>
+        </>
+      )}
+
       <SectionBand
-        num="01"
+        num="02"
         label="Today's briefing"
         meta={`${items.length} entries`}
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule">
-        {items.map((item, i) => (
-          <article
-            key={item.name}
-            className="bg-paper px-5 pt-5 pb-5 sm:px-7 sm:pt-6 flex flex-col"
-          >
-            <div className="font-mono text-mono text-red font-semibold opacity-[0.78] mb-1">
-              {String(i + 1).padStart(2, "0")}
-            </div>
-            <h3 className="font-mono text-[14px] font-semibold tracking-[0.06em] leading-tight text-ink mb-2.5 break-words">
-              {item.name}
-            </h3>
-            <div className="font-mono text-micro text-ink-2 tracking-[0.04em] mb-3">
-              {TYPE_LABEL[item.type] ?? item.type}
-              {item.sources.length > 0 && (
-                <>
-                  {" · seen by "}
-                  <b className="text-ink font-semibold">
-                    {item.sources
-                      .map((s) => SOURCE_LABEL[s] ?? s)
-                      .join(", ")}
-                  </b>
-                </>
-              )}
-            </div>
-            <p className="text-body text-ink-2 leading-relaxed">{item.brief}</p>
-          </article>
-        ))}
-      </div>
+      <RiseFinderList items={items as Item[]} />
 
-      <SectionBand num="02" label="How to read this" meta="Method" />
+      <RiseFinderSubscribe />
+
+      {past.length > 0 && (
+        <>
+          <SectionBand
+            num="04"
+            label="Previous briefings"
+            meta={`${past.length} archived`}
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule">
+            {past.map((d) => (
+              <Link
+                key={d.date}
+                href={`/risefinder/${d.date}`}
+                className="bg-paper px-7 py-6 hover:bg-paper-3 transition-colors"
+              >
+                <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+                  {d.count} {d.count === 1 ? "entry" : "entries"}
+                </div>
+                <div className="font-mono text-[14px] font-semibold tracking-[0.06em] text-ink">
+                  {formatBriefingDay(d.date)} →
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
+
+      <SectionBand num="05" label="How to read this" meta="Method" />
 
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <div className="text-body text-ink-2 space-y-4">
@@ -178,8 +227,8 @@ export default function RiseFinderPage() {
       </div>
 
       <div className="px-4 sm:px-9 pb-12 font-mono text-micro uppercase tracking-[0.08em] text-ink-3">
-        Data through {formatDay(data_through)} · history from{" "}
-        {formatDay(stats.first_day)}
+        Data through {formatBriefingDay(data_through)} ·{" "}
+        {stats.days_collected} days collected
       </div>
     </>
   );

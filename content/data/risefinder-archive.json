@@ -1,0 +1,536 @@
+{
+  "days": [
+    {
+      "date": "2026-08-02",
+      "count": 12,
+      "items": [
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Third day climbing and the shape got better, not worse: stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges, not bookmarking it. HackerNews has gone quiet \u2014 comments up only 1.5%, off the front page \u2014 so this is now growing on its own without a thread pushing it, which is the transition most launches never make.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 2196,
+            "now": 3848,
+            "change_pct": 75.2
+          }
+        },
+        {
+          "name": "DramaWave - Dramas & Reels",
+          "type": "app",
+          "brief": "DramaWave improved its best rank 20% to position 12 while falling 34% in the US, 32% in the UK and 22% in Germany. Charting far better overall while losing every tracked Western market means the gain came from somewhere we do not watch. With 100 million Android installs already, this is a mature short-drama app moving on ad spend, not a discovery.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6670430706",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "ratings",
+            "then": 136461,
+            "now": 137168,
+            "change_pct": 0.5
+          }
+        },
+        {
+          "name": "FORScan Lite - for Ford, Mazda",
+          "type": "app",
+          "brief": "FORScan Lite's Android installs jumped to 10 million and reviews rose 57% in a day \u2014 an enormous move for a paid car-diagnostics tool with only 192 iOS ratings. The install figure is bucketed by Google, so a jump like that is a threshold being crossed rather than a real overnight surge. Worth watching the review count instead: 57% growth there is a genuine number.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id892347083",
+          "track": null
+        },
+        {
+          "name": "yc-software/qm",
+          "type": "repo",
+          "brief": "Stars up 121% and forks up 150% in a day, with open issues up 124% and its HackerNews rank improving sharply. Forks growing faster than stars on a repo this young means people are cloning to modify rather than to watch. Everything about it is early enough that a single day could reverse it, but the fork-to-star ratio is the healthiest in today's set.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/yc-software/qm",
+          "track": null
+        },
+        {
+          "name": "Freecash - Get Paid Real Money",
+          "type": "app",
+          "brief": "Freecash improved its best rank 7% while slipping in the UK and US. Paid-reward apps move on marketing budget rather than product quality, so read this as an advertising signal. It has appeared in this set three days running with the same pattern, which makes it a good control: if the system flags it every day, its threshold for apps is probably still a touch loose.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id1673567402",
+          "track": null
+        },
+        {
+          "name": "sqliteai/waste",
+          "type": "repo",
+          "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. That comment-to-point ratio is still inverted \u2014 roughly eighteen comments per point \u2014 which means the discussion is an argument, not applause. Yesterday's question was whether the stars were the idea or the fight; two days of doubling suggests the idea is surviving the fight.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/sqliteai/waste",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 344,
+            "now": 745,
+            "change_pct": 116.6
+          }
+        },
+        {
+          "name": "Duolingo: Language Lessons",
+          "type": "app",
+          "brief": "Duolingo improved its best rank 6% while easing back slightly in Germany and the UK. At 500 million Android installs and 5.4 million ratings, nothing this app does in a day is news. It is in the set because the corroboration rule is honest \u2014 two sources genuinely saw it move \u2014 which is a reminder that \"corroborated\" means confirmed, not important.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id570060128",
+          "track": null
+        },
+        {
+          "name": "c-faq.com",
+          "type": "domain",
+          "brief": "On the HackerNews front page with 47 comments, and its Tranco traffic rank improved 1.1%. This is the C FAQ, a decades-old reference \u2014 the traffic bump is a link on a busy day, not growth. Included because two independent sources moved together, which is exactly the case where the rule is right and the answer is still \"so what\".",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://c-faq.com",
+          "track": null
+        },
+        {
+          "name": "pferdedecken-kaufen.de",
+          "type": "domain",
+          "brief": "A German horse-blanket shop whose Tranco rank improved 1.9%, corroborated by the fact that it publishes real prices. A genuine small business having a normal week. It is here because monetisation is now a scoring signal, and this is what that signal looks like when it fires on something ordinary \u2014 useful for calibration, not for action.",
+          "sources": [
+            "majestic_million",
+            "openpagerank",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://pferdedecken-kaufen.de",
+          "track": null
+        },
+        {
+          "name": "hillelwayne.com",
+          "type": "domain",
+          "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://hillelwayne.com",
+          "track": null
+        },
+        {
+          "name": "projectpluto.com",
+          "type": "domain",
+          "brief": "79 comments on the front page with a 0.6% Tranco move. Astronomy software with a long history. The pattern across today's domain set is clear and worth naming: HackerNews plus a tiny traffic bump almost always means one popular post, not a rising business.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://projectpluto.com",
+          "track": null
+        },
+        {
+          "name": "seriot.ch",
+          "type": "domain",
+          "brief": "HackerNews points up 20% from a base of 4, with one comment. This is noise that cleared the bar because the domain population was quiet. Listed so the set stays honest about what qualified rather than quietly dropping it.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://seriot.ch",
+          "track": null
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "count": 12,
+      "items": [
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Grew from 2,196 to 3,038 stars overnight \u2014 36% \u2014 with forks up 42%, and it did that after leaving the HackerNews front page. Attention there has flattened to 1% growth while the repo itself keeps climbing, which is the split that matters: the launch is over and the growth did not stop with it. Open issues up 22% says people are running it and hitting real edges, not just bookmarking.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 2196,
+            "now": 3848,
+            "change_pct": 75.2
+          }
+        },
+        {
+          "name": "marbleos.com",
+          "type": "domain",
+          "brief": "HackerNews points up 2,100% to 108 with 65 comments, front page, and nothing else in the system has seen it. This is the earliest shape RiseFinder can detect and also the least proven \u2014 one well-received post produces exactly this. Worth a look precisely because it is undecided.",
+          "sources": [
+            "hackernews",
+            "openpagerank"
+          ],
+          "url": "https://marbleos.com",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "authority",
+            "then": 0.09,
+            "now": 0.09,
+            "change_pct": 0.0
+          }
+        },
+        {
+          "name": "workers.dev",
+          "type": "domain",
+          "brief": "This is Cloudflare's shared Workers subdomain, not a product \u2014 someone's demo hosted on it reached HackerNews and the domain took the credit. A genuine false positive, and a useful one: shared hosting domains will keep surfacing this way, so the gate needs a rule for platform subdomains.",
+          "sources": [
+            "hackernews",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://workers.dev",
+          "track": null
+        },
+        {
+          "name": "reclip.io",
+          "type": "domain",
+          "brief": "Four points, no comments. It clears the bar only because the domain population barely moved today. Nothing to act on.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "pricing"
+          ],
+          "url": "https://reclip.io",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "authority",
+            "then": 0.78,
+            "now": 0.78,
+            "change_pct": 0.0
+          }
+        },
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "The first thing this system has confirmed from three unrelated places at once \u2014 npm downloads, GitHub stars, HackerNews. Downloads are up 139% week over week against 9.9% star growth, so it is being installed far faster than it is being admired, and 64 open issues on 1,119 stars means those installs are hitting production. Watch the issue count: at this ratio the maintainer's response time decides whether it keeps the users it is winning.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1233,
+            "change_pct": 22.4
+          }
+        },
+        {
+          "name": "orangecrumbs.com",
+          "type": "domain",
+          "brief": "Three points, no comments, same story as reclip.io. Listed for completeness; a quiet day makes small numbers rank well.",
+          "sources": [
+            "hackernews",
+            "openpagerank"
+          ],
+          "url": "https://orangecrumbs.com",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "authority",
+            "then": 1.14,
+            "now": 1.14,
+            "change_pct": 0.0
+          }
+        },
+        {
+          "name": "sqliteai/waste",
+          "type": "repo",
+          "brief": "75 comments against 9 points is an eight-to-one ratio, and that only happens when people are arguing. Stars still more than doubled and forks rose 86%, so the argument is drawing builders rather than repelling them. It is on the front page now, which means tomorrow tells you whether the stars were the idea or the fight.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/sqliteai/waste",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 344,
+            "now": 745,
+            "change_pct": 116.6
+          }
+        },
+        {
+          "name": "sawfwair/mere-run",
+          "type": "repo",
+          "brief": "41 stars, 14 points, 7 comments, and it has already fallen off the front page. It ranks here only because percentile scoring is relative and the population was quiet \u2014 a handful of people account for every number on this line. No conviction; listed so the set is honest about what cleared the bar.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/sawfwair/mere-run",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 41.0,
+            "now": 45.0,
+            "change_pct": 9.8
+          }
+        },
+        {
+          "name": "SerhiiKorniienko/bullshit-detector",
+          "type": "repo",
+          "brief": "Yesterday this was up 141% on stars and 3,200% on comments; today it is up 5%. The spike is over and it converted very little \u2014 90 stars and 4 forks from 68 comments of discussion. Comments still run level with points, so it remained an argument to the end rather than a tool anyone adopted.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 90.0,
+            "now": 94.0,
+            "change_pct": 4.4
+          }
+        },
+        {
+          "name": "gavamedia/deltafin",
+          "type": "repo",
+          "brief": "Forks up 20% and open issues up 40% against 11.9% star growth \u2014 the third day running that usage has outpaced attention on this one. Six open issues on 567 stars is still a clean tracker, so the friction is early rather than accumulating. The HackerNews points reading dropped to zero while 87 comments remain, which is more likely a flagged post than a collapse in interest.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/gavamedia/deltafin",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 494,
+            "now": 600,
+            "change_pct": 21.5
+          }
+        },
+        {
+          "name": "DramaWave - Dramas & Reels",
+          "type": "app",
+          "brief": "DramaWave improved its best rank 5% while losing ground in Germany, the UK and the US at once \u2014 16% in the US alone. That combination only works if it is charting hard in a market outside the four tracked here. Same short-drama category as DramaBox and the same read: watch the category, not the app.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6670430706",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "ratings",
+            "then": 136461,
+            "now": 137168,
+            "change_pct": 0.5
+          }
+        },
+        {
+          "name": "Google Gemini",
+          "type": "app",
+          "brief": "Gemini is at rank 3 and moving the opposite way to Claude \u2014 up 5% in the UK and 1.8% in Germany, down in Japan and the US. Both apps are trading position market by market rather than one pulling away. With a billion Android installs behind it this is a competitive read, not a discovery, and the value is in watching which of the two takes which market week to week.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6477489729",
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 1,
+            "unit": "ratings",
+            "then": 2058247,
+            "now": 2063479,
+            "change_pct": 0.3
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "count": 8,
+      "items": [
+        {
+          "name": "LukeTandjung/base-gpui",
+          "type": "repo",
+          "brief": "Comments up 66.7% against 4.7% star growth, on a 45-star repo. Everything about this is small enough that a handful of people account for all of it. It scores highly only because percentile ranking is relative \u2014 in a quiet population, modest movement ranks well. Worth one more day before treating it as anything.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/LukeTandjung/base-gpui",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 45.0,
+            "now": 49.0,
+            "change_pct": 8.9
+          }
+        },
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Forks grew 41.5% in a day against 18.6% star growth \u2014 people are copying it to build on roughly twice as fast as they are bookmarking it, which is the healthier of the two ratios. At 2,196 stars with 326 HackerNews comments it is past the point where a single post explains the numbers. It has already left the front page, so the next two days separate a launch spike from a tool that stuck.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 2196,
+            "now": 3848,
+            "change_pct": 75.2
+          }
+        },
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Forks up 17.9% and open issues up 25.5% against only 8.5% star growth. The same shape as deltafin: usage outpacing attention. At 1,007 stars with 59 open issues this is a project being deployed rather than starred, and the 46 HackerNews comments suggest the discussion is technical rather than promotional.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1233,
+            "change_pct": 22.4
+          }
+        },
+        {
+          "name": "openai/codex-security",
+          "type": "repo",
+          "brief": "Still climbing three days after first appearing: stars up 18.8% and forks up 18.3% in the last twenty-four hours, now at 7,237 and 472. It remains on the HackerNews front page with 197 comments. Sustained growth at this size is the strongest pattern in today's set \u2014 most launches decay by day three, and this one has not.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/openai/codex-security",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 7237,
+            "now": 8038,
+            "change_pct": 11.1
+          }
+        },
+        {
+          "name": "alibaba/skill-up",
+          "type": "repo",
+          "brief": "Modest movement \u2014 5% star growth on a 296-star repo, with HackerNews points up 66.7% from a base of three. Included because it is corporate-backed rather than independent, which changes what the growth means: an Alibaba repo does not need HackerNews to find users, so early external interest here is a weaker signal than the same numbers on an unknown project.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/alibaba/skill-up",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 296,
+            "now": 327,
+            "change_pct": 10.5
+          }
+        },
+        {
+          "name": "gavamedia/deltafin",
+          "type": "repo",
+          "brief": "Open issues jumped 300% while forks rose 26.8% and stars 15.2%. Issue counts growing faster than stars means people are running it and hitting problems, not admiring the README. That friction is a better adoption signal than a clean tracker, though it also means the project is about to be tested by how fast the maintainer responds.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/gavamedia/deltafin",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 494,
+            "now": 600,
+            "change_pct": 21.5
+          }
+        },
+        {
+          "name": "experientiallabs/world-model-optimizer",
+          "type": "repo",
+          "brief": "On the HackerNews front page with points up 40.9% and comments up 22.7% in a day. Stars grew 18.6% but the watcher count sits at 1 against 255 stars \u2014 almost nobody has committed to following it. That gap is the thing to watch: front-page attention with no followers usually evaporates within the week.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/experientiallabs/world-model-optimizer",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 255,
+            "now": 309,
+            "change_pct": 21.2
+          }
+        },
+        {
+          "name": "mishushakov/desktui",
+          "type": "repo",
+          "brief": "Appears in today's corroborated set on both GitHub and HackerNews. Early-stage terminal UI work, and like base-gpui the absolute numbers are small enough that the percentages overstate the case. Listed for completeness rather than conviction.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/mishushakov/desktui",
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 26.0,
+            "now": 34.0,
+            "change_pct": 30.8
+          }
+        }
+      ]
+    }
+  ]
+}

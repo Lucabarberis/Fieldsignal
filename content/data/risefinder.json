@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-08-02T09:58:12Z",
+  "generated_at": "2026-08-03T03:58:05Z",
   "data_through": "2026-08-02",
   "stats": {
     "entities": 8293,
     "snapshots": 176854,
     "sources_live": 12,
-    "first_day": "2018-01-01"
+    "first_day": "2018-01-01",
+    "days_collected": 6
   },
   "items": [
     {
@@ -15,7 +16,16 @@
       "sources": [
         "github",
         "hackernews"
-      ]
+      ],
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "track": {
+        "first_flagged": "2026-07-31",
+        "days_ago": 2,
+        "unit": "stars",
+        "then": 2196,
+        "now": 3848,
+        "change_pct": 75.2
+      }
     },
     {
       "name": "DramaWave - Dramas & Reels",
@@ -24,7 +34,16 @@
       "sources": [
         "android_apps",
         "ios_apps"
-      ]
+      ],
+      "url": "https://apps.apple.com/app/id6670430706",
+      "track": {
+        "first_flagged": "2026-08-01",
+        "days_ago": 1,
+        "unit": "ratings",
+        "then": 136461,
+        "now": 137168,
+        "change_pct": 0.5
+      }
     },
     {
       "name": "FORScan Lite - for Ford, Mazda",
@@ -33,7 +52,9 @@
       "sources": [
         "android_apps",
         "ios_apps"
-      ]
+      ],
+      "url": "https://apps.apple.com/app/id892347083",
+      "track": null
     },
     {
       "name": "yc-software/qm",
@@ -42,7 +63,9 @@
       "sources": [
         "github",
         "hackernews"
-      ]
+      ],
+      "url": "https://github.com/yc-software/qm",
+      "track": null
     },
     {
       "name": "Freecash - Get Paid Real Money",
@@ -51,7 +74,9 @@
       "sources": [
         "android_apps",
         "ios_apps"
-      ]
+      ],
+      "url": "https://apps.apple.com/app/id1673567402",
+      "track": null
     },
     {
       "name": "sqliteai/waste",
@@ -60,7 +85,16 @@
       "sources": [
         "github",
         "hackernews"
-      ]
+      ],
+      "url": "https://github.com/sqliteai/waste",
+      "track": {
+        "first_flagged": "2026-08-01",
+        "days_ago": 1,
+        "unit": "stars",
+        "then": 344,
+        "now": 745,
+        "change_pct": 116.6
+      }
     },
     {
       "name": "Duolingo: Language Lessons",
@@ -69,7 +103,9 @@
       "sources": [
         "android_apps",
         "ios_apps"
-      ]
+      ],
+      "url": "https://apps.apple.com/app/id570060128",
+      "track": null
     },
     {
       "name": "c-faq.com",
@@ -79,7 +115,9 @@
         "hackernews",
         "openpagerank",
         "tranco"
-      ]
+      ],
+      "url": "https://c-faq.com",
+      "track": null
     },
     {
       "name": "pferdedecken-kaufen.de",
@@ -90,7 +128,9 @@
         "openpagerank",
         "pricing",
         "tranco"
-      ]
+      ],
+      "url": "https://pferdedecken-kaufen.de",
+      "track": null
     },
     {
       "name": "hillelwayne.com",
@@ -100,7 +140,9 @@
         "hackernews",
         "openpagerank",
         "tranco"
-      ]
+      ],
+      "url": "https://hillelwayne.com",
+      "track": null
     },
     {
       "name": "projectpluto.com",
@@ -110,7 +152,9 @@
         "hackernews",
         "openpagerank",
         "tranco"
-      ]
+      ],
+      "url": "https://projectpluto.com",
+      "track": null
     },
     {
       "name": "seriot.ch",
@@ -120,7 +164,9 @@
         "hackernews",
         "openpagerank",
         "tranco"
-      ]
+      ],
+      "url": "https://seriot.ch",
+      "track": null
     }
   ]
 }
