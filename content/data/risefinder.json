@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:06:22Z",
+  "generated_at": "2026-08-03T07:13:22Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -307,7 +307,7 @@
   "data_through": "2026-08-03",
   "stats": {
     "entities": 9461,
-    "snapshots": 230943,
+    "snapshots": 230980,
     "sources_live": 12,
     "first_day": "2018-01-01",
     "days_collected": 7

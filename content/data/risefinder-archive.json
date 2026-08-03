@@ -517,26 +517,6 @@
           }
         },
         {
-          "name": "Google Gemini",
-          "type": "app",
-          "brief": "Gemini is at rank 3 and moving the opposite way to Claude \u2014 up 5% in the UK and 1.8% in Germany, down in Japan and the US. Both apps are trading position market by market rather than one pulling away. With a billion Android installs behind it this is a competitive read, not a discovery, and the value is in watching which of the two takes which market week to week.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6477489729",
-          "description": null,
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 4,
-            "unit": "ratings",
-            "then": 2052755,
-            "now": 2068234,
-            "change_pct": 0.8
-          }
-        },
-        {
           "name": "Reelo - Media Hub",
           "type": "app",
           "brief": "Reelo holds rank 7 on a paid chart with 10 ratings and 5,000 Android installs. Those numbers do not belong together: a paid chart position that high on that little evidence usually means a thin category rather than a real hit. It slipped in both the UK and US today. Treat as a category artefact until a second source says otherwise.",
@@ -554,6 +534,26 @@
             "then": 10.0,
             "now": 11.0,
             "change_pct": 10.0
+          }
+        },
+        {
+          "name": "Claude by Anthropic",
+          "type": "app",
+          "brief": "Claude reversed yesterday's slide, gaining 7.6% in Japan and about 1.5% in both the UK and US while holding second place overall. Yesterday it was losing ground in exactly the markets it gained in today, which usually means a short campaign or a news cycle rather than anything structural. Two days does not make a trend, but the direction flipped cleanly.",
+          "sources": [
+            "android_apps",
+            "ios_apps"
+          ],
+          "url": "https://apps.apple.com/app/id6473753684",
+          "description": null,
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 4,
+            "unit": "ratings",
+            "then": 214790,
+            "now": 218039,
+            "change_pct": 1.5
           }
         }
       ]
@@ -726,7 +726,7 @@
     },
     {
       "date": "2026-07-30",
-      "count": 10,
+      "count": 9,
       "items": [
         {
           "name": "FrigadeHQ/yap",
@@ -866,26 +866,6 @@
             "then": 102081,
             "now": 103486,
             "change_pct": 1.4
-          }
-        },
-        {
-          "name": "Google Gemini",
-          "type": "app",
-          "brief": "Gemini improved its best rank 1.9% to position 4, up in Germany and the UK, down in Japan. Mirror image of Claude on the same day, which is the pattern worth watching: the two are trading position market by market rather than one pulling away from the other.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6477489729",
-          "description": null,
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 4,
-            "unit": "ratings",
-            "then": 2052755,
-            "now": 2068234,
-            "change_pct": 0.8
           }
         },
         {
