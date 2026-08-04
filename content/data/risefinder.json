@@ -221,7 +221,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-04T08:58:04Z",
+  "generated_at": "2026-08-04T09:07:24Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -567,7 +567,7 @@
     }
   ],
   "data_through": "2026-08-04",
-  "briefed_through": "2026-08-03",
+  "briefed_through": "2026-08-04",
   "stats": {
     "entities": 10477,
     "snapshots": 271926,
@@ -576,6 +576,101 @@
     "days_collected": 8
   },
   "items": [
+    {
+      "name": "drumih/turbo-fieldfare",
+      "type": "repo",
+      "brief": "Forks are growing faster than stars \u2014 10.1% against 8.3% \u2014 which is the ratio that separates a tool people run from one they bookmark, and 231 forks on 4,671 stars is high for a repo this young. The HackerNews thread drew 343 comments against 913 points, a 38% ratio meaning argument rather than applause; for a claim about fitting Gemma 4 into 2 GB, the argument is the story. Pushed today, so the maintainer is still in it.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
+      "appearances": 4,
+      "track": {
+        "first_flagged": "2026-07-31",
+        "days_ago": 4,
+        "unit": "stars",
+        "then": 2196,
+        "now": 4671,
+        "change_pct": 112.7
+      },
+      "briefed_on": "2026-08-04"
+    },
+    {
+      "name": "ssp.sh",
+      "type": "domain",
+      "brief": "A data-engineering blog whose HackerNews numbers moved 20% on a base of four points. The percentage is real and the base is far too small to carry it \u2014 this is here because two unrelated collectors happened to see it, not because anything large happened. Worth a second look only if it returns later in the week.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://ssp.sh",
+      "description": "A blog on data engineering \u2014 pipelines, warehouses and the tooling around them \u2014 written by one practitioner.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-04"
+    },
+    {
+      "name": "Claude Opus 5",
+      "type": "launch",
+      "brief": "Third on ProductHunt with 450 votes, and the only launch today carrying independent search demand alongside it. That distinction matters more than the rank: a launch is something that happens to a product, while search interest is people going looking of their own accord, and it is the harder of the two to manufacture. Read the search signal, treat the vote count as the noise around it.",
+      "sources": [
+        "producthunt",
+        "search_trends"
+      ],
+      "url": null,
+      "description": "Anthropic's Claude Opus 5 language model, launched on ProductHunt.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-04"
+    },
+    {
+      "name": "type.today",
+      "type": "domain",
+      "brief": "A foundry cataloguing fonts built for contemporary typesetting, on the HackerNews front page today with 31 comments. Its traffic rank moved 1.2% in the same window, and that is almost certainly the front page rather than anything independent \u2014 front-page placement sends a spike that a popularity ranking then registers. One event seen twice, not two events.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://type.today",
+      "description": "A type foundry and catalogue of fonts chosen for contemporary typesetting, with writing on typography.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-04"
+    },
+    {
+      "name": "diataxis.fr",
+      "type": "domain",
+      "brief": "Di\u00e1taxis is a framework for structuring technical documentation into four modes, and it drew 59 HackerNews comments today. The 0.9% move in its traffic rank arrived alongside that thread rather than before it, so this is attention rather than adoption \u2014 the useful question is whether the rank holds next week once the thread is gone. That test is exactly what a daily time-series is for.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://diataxis.fr",
+      "description": "A framework for organising technical documentation into four distinct modes: tutorials, how-to guides, reference and explanation.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-04"
+    },
+    {
+      "name": "worksinprogress.news",
+      "type": "domain",
+      "brief": "A magazine covering underrated ideas in science and policy, with 59 HackerNews comments today. Same shape as the other front-page domains on this list: real discussion, a half-percent nudge to its traffic rank, and no evidence yet that separates a good post from a growing publication.",
+      "sources": [
+        "hackernews",
+        "openpagerank",
+        "tranco"
+      ],
+      "url": "https://worksinprogress.news",
+      "description": "An online magazine covering underrated ideas in science, technology and public policy.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-04"
+    },
     {
       "name": "reflex-dev/xy",
       "type": "repo",
@@ -677,125 +772,6 @@
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-03"
-    },
-    {
-      "name": "drumih/turbo-fieldfare",
-      "type": "repo",
-      "brief": "Third day climbing and the shape got better, not worse: stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges, not bookmarking it. HackerNews has gone quiet \u2014 comments up only 1.5%, off the front page \u2014 so this is now growing on its own without a thread pushing it, which is the transition most launches never make.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-      "appearances": 3,
-      "track": {
-        "first_flagged": "2026-07-31",
-        "days_ago": 4,
-        "unit": "stars",
-        "then": 2196,
-        "now": 4671,
-        "change_pct": 112.7
-      },
-      "briefed_on": "2026-08-02"
-    },
-    {
-      "name": "DramaWave - Dramas & Reels",
-      "type": "app",
-      "brief": "DramaWave improved its best rank 20% to position 12 while falling 34% in the US, 32% in the UK and 22% in Germany. Charting far better overall while losing every tracked Western market means the gain came from somewhere we do not watch. With 100 million Android installs already, this is a mature short-drama app moving on ad spend, not a discovery.",
-      "sources": [
-        "android_apps",
-        "ios_apps"
-      ],
-      "url": "https://apps.apple.com/app/id6670430706",
-      "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-01",
-        "days_ago": 3,
-        "unit": "ratings",
-        "then": 136461,
-        "now": 138855,
-        "change_pct": 1.8
-      },
-      "briefed_on": "2026-08-02"
-    },
-    {
-      "name": "FORScan Lite - for Ford, Mazda",
-      "type": "app",
-      "brief": "FORScan Lite's Android installs jumped to 10 million and reviews rose 57% in a day \u2014 an enormous move for a paid car-diagnostics tool with only 192 iOS ratings. The install figure is bucketed by Google, so a jump like that is a threshold being crossed rather than a real overnight surge. Worth watching the review count instead: 57% growth there is a genuine number.",
-      "sources": [
-        "android_apps",
-        "ios_apps"
-      ],
-      "url": "https://apps.apple.com/app/id892347083",
-      "description": "Car diagnostics for Ford, Mazda and Lincoln vehicles, reading fault codes an ordinary OBD2 scanner cannot.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-02"
-    },
-    {
-      "name": "yc-software/qm",
-      "type": "repo",
-      "brief": "Stars up 121% and forks up 150% in a day, with open issues up 124% and its HackerNews rank improving sharply. Forks growing faster than stars on a repo this young means people are cloning to modify rather than to watch. Everything about it is early enough that a single day could reverse it, but the fork-to-star ratio is the healthiest in today's set.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/yc-software/qm",
-      "description": "A tool for running several AI coding agents on the same task at once.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-02",
-        "days_ago": 2,
-        "unit": "stars",
-        "then": 5567,
-        "now": 10135,
-        "change_pct": 82.1
-      },
-      "briefed_on": "2026-08-02"
-    },
-    {
-      "name": "Freecash - Get Paid Real Money",
-      "type": "app",
-      "brief": "Freecash improved its best rank 7% while slipping in the UK and US. Paid-reward apps move on marketing budget rather than product quality, so read this as an advertising signal. It has appeared in this set three days running with the same pattern, which makes it a good control: if the system flags it every day, its threshold for apps is probably still a touch loose.",
-      "sources": [
-        "android_apps",
-        "ios_apps"
-      ],
-      "url": "https://apps.apple.com/app/id1673567402",
-      "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-07-30",
-        "days_ago": 5,
-        "unit": "ratings",
-        "then": 102081,
-        "now": 103825,
-        "change_pct": 1.7
-      },
-      "briefed_on": "2026-08-02"
-    },
-    {
-      "name": "sqliteai/waste",
-      "type": "repo",
-      "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. That comment-to-point ratio is still inverted \u2014 roughly eighteen comments per point \u2014 which means the discussion is an argument, not applause. Yesterday's question was whether the stars were the idea or the fight; two days of doubling suggests the idea is surviving the fight.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/sqliteai/waste",
-      "description": "Runs a 2.78-trillion-parameter model on hardware that cannot hold it, by streaming weights off an SSD as they are needed. A small C engine with no dependencies.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-01",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 344,
-        "now": 1568,
-        "change_pct": 355.8
-      },
-      "briefed_on": "2026-08-02"
     }
   ]
 }

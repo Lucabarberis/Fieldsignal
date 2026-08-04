@@ -14,6 +14,7 @@ import {
 } from "@/lib/posts";
 import { makeMdxComponents } from "@/components/MdxLink";
 import { PostDiagram } from "@/components/PostDiagram";
+import { getDiagram } from "@/lib/diagrams";
 import {
   authorForPost,
   articleAuthor,
@@ -85,6 +86,18 @@ export default async function BlogPostPage({ params }: Props) {
   const author = authorForPost({ slug, tags: post.tags });
   const profileUrl = `/team#${personAnchor(author.name)}`;
 
+  // When the post has an inline diagram, register its PNG as the Article's
+  // ImageObject — inline SVG is invisible to Google Images, the PNG is not.
+  const diagram = await getDiagram(slug);
+  const diagramImage = diagram
+    ? {
+        url: `${SITE.url}/diagrams/${slug}.png`,
+        width: 1760,
+        height: 1120,
+        caption: diagram.caption,
+      }
+    : undefined;
+
   return (
     <>
       <BreadcrumbSchema
@@ -102,6 +115,7 @@ export default async function BlogPostPage({ params }: Props) {
         datePublished={post.publishedAt}
         dateModified={post.updatedAt}
         author={articleAuthor(author, SITE.url)}
+        image={diagramImage}
       />
 
       <PageHeader

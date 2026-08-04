@@ -1,6 +1,107 @@
 {
   "days": [
     {
+      "date": "2026-08-04",
+      "count": 6,
+      "items": [
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Forks are growing faster than stars \u2014 10.1% against 8.3% \u2014 which is the ratio that separates a tool people run from one they bookmark, and 231 forks on 4,671 stars is high for a repo this young. The HackerNews thread drew 343 comments against 913 points, a 38% ratio meaning argument rather than applause; for a claim about fitting Gemma 4 into 2 GB, the argument is the story. Pushed today, so the maintainer is still in it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
+          "appearances": 4,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 4,
+            "unit": "stars",
+            "then": 2196,
+            "now": 4671,
+            "change_pct": 112.7
+          },
+          "briefed_on": "2026-08-04"
+        },
+        {
+          "name": "ssp.sh",
+          "type": "domain",
+          "brief": "A data-engineering blog whose HackerNews numbers moved 20% on a base of four points. The percentage is real and the base is far too small to carry it \u2014 this is here because two unrelated collectors happened to see it, not because anything large happened. Worth a second look only if it returns later in the week.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://ssp.sh",
+          "description": "A blog on data engineering \u2014 pipelines, warehouses and the tooling around them \u2014 written by one practitioner.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-04"
+        },
+        {
+          "name": "Claude Opus 5",
+          "type": "launch",
+          "brief": "Third on ProductHunt with 450 votes, and the only launch today carrying independent search demand alongside it. That distinction matters more than the rank: a launch is something that happens to a product, while search interest is people going looking of their own accord, and it is the harder of the two to manufacture. Read the search signal, treat the vote count as the noise around it.",
+          "sources": [
+            "producthunt",
+            "search_trends"
+          ],
+          "url": null,
+          "description": "Anthropic's Claude Opus 5 language model, launched on ProductHunt.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-04"
+        },
+        {
+          "name": "type.today",
+          "type": "domain",
+          "brief": "A foundry cataloguing fonts built for contemporary typesetting, on the HackerNews front page today with 31 comments. Its traffic rank moved 1.2% in the same window, and that is almost certainly the front page rather than anything independent \u2014 front-page placement sends a spike that a popularity ranking then registers. One event seen twice, not two events.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://type.today",
+          "description": "A type foundry and catalogue of fonts chosen for contemporary typesetting, with writing on typography.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-04"
+        },
+        {
+          "name": "diataxis.fr",
+          "type": "domain",
+          "brief": "Di\u00e1taxis is a framework for structuring technical documentation into four modes, and it drew 59 HackerNews comments today. The 0.9% move in its traffic rank arrived alongside that thread rather than before it, so this is attention rather than adoption \u2014 the useful question is whether the rank holds next week once the thread is gone. That test is exactly what a daily time-series is for.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://diataxis.fr",
+          "description": "A framework for organising technical documentation into four distinct modes: tutorials, how-to guides, reference and explanation.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-04"
+        },
+        {
+          "name": "worksinprogress.news",
+          "type": "domain",
+          "brief": "A magazine covering underrated ideas in science and policy, with 59 HackerNews comments today. Same shape as the other front-page domains on this list: real discussion, a half-percent nudge to its traffic rank, and no evidence yet that separates a good post from a growing publication.",
+          "sources": [
+            "hackernews",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://worksinprogress.news",
+          "description": "An online magazine covering underrated ideas in science, technology and public policy.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-04"
+        }
+      ]
+    },
+    {
       "date": "2026-08-03",
       "count": 6,
       "items": [
@@ -110,7 +211,7 @@
     },
     {
       "date": "2026-08-02",
-      "count": 12,
+      "count": 11,
       "items": [
         {
           "name": "drumih/turbo-fieldfare",
@@ -122,7 +223,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 3,
+          "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 4,
@@ -232,21 +333,6 @@
           "briefed_on": "2026-08-02"
         },
         {
-          "name": "c-faq.com",
-          "type": "domain",
-          "brief": "On the HackerNews front page with 47 comments, and its Tranco traffic rank improved 1.1%. This is the C FAQ, a decades-old reference \u2014 the traffic bump is a link on a busy day, not growth. Included because two independent sources moved together, which is exactly the case where the rule is right and the answer is still \"so what\".",
-          "sources": [
-            "hackernews",
-            "openpagerank",
-            "tranco"
-          ],
-          "url": "https://c-faq.com",
-          "description": null,
-          "appearances": 1,
-          "track": null,
-          "briefed_on": "2026-08-02"
-        },
-        {
           "name": "hillelwayne.com",
           "type": "domain",
           "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
@@ -337,7 +423,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 3,
+          "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 4,
@@ -623,7 +709,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 3,
+          "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 4,

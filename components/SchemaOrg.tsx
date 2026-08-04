@@ -118,6 +118,14 @@ type ArticleAuthor = {
   image?: string;
 };
 
+/** A crawlable image for the article (e.g. its inline diagram, as a raster). */
+type ArticleImage = {
+  url: string;
+  width: number;
+  height: number;
+  caption?: string;
+};
+
 type ArticleProps = {
   headline: string;
   description: string;
@@ -126,6 +134,12 @@ type ArticleProps = {
   dateModified?: string;
   /** A bare name (e.g. anonymised transcripts) or a full identity. */
   author: string | ArticleAuthor;
+  /**
+   * Article image as a real image file. Inline SVG is invisible to image
+   * search, so posts with a diagram register its PNG here for Google Images
+   * and AI-citation.
+   */
+  image?: ArticleImage;
 };
 
 function authorNode(author: string | ArticleAuthor) {
@@ -146,8 +160,9 @@ export function ArticleSchema({
   datePublished,
   dateModified,
   author,
+  image,
 }: ArticleProps) {
-  const data = {
+  const data: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline,
@@ -166,6 +181,16 @@ export function ArticleSchema({
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
+  if (image) {
+    data.image = {
+      "@type": "ImageObject",
+      url: image.url,
+      contentUrl: image.url,
+      width: image.width,
+      height: image.height,
+      ...(image.caption ? { caption: image.caption } : {}),
+    };
+  }
   return <JsonLd data={data} />;
 }
 
