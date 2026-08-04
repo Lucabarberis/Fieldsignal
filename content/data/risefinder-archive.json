@@ -30,6 +30,7 @@
           "type": "domain",
           "brief": "A data-engineering blog whose HackerNews numbers moved 20% on a base of four points. The percentage is real and the base is far too small to carry it \u2014 this is here because two unrelated collectors happened to see it, not because anything large happened. Worth a second look only if it returns later in the week.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -59,6 +60,7 @@
           "type": "domain",
           "brief": "A foundry cataloguing fonts built for contemporary typesetting, on the HackerNews front page today with 31 comments. Its traffic rank moved 1.2% in the same window, and that is almost certainly the front page rather than anything independent \u2014 front-page placement sends a spike that a popularity ranking then registers. One event seen twice, not two events.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -74,6 +76,7 @@
           "type": "domain",
           "brief": "Di\u00e1taxis is a framework for structuring technical documentation into four modes, and it drew 59 HackerNews comments today. The 0.9% move in its traffic rank arrived alongside that thread rather than before it, so this is attention rather than adoption \u2014 the useful question is whether the rank holds next week once the thread is gone. That test is exactly what a daily time-series is for.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -89,6 +92,7 @@
           "type": "domain",
           "brief": "A magazine covering underrated ideas in science and policy, with 59 HackerNews comments today. Same shape as the other front-page domains on this list: real discussion, a half-percent nudge to its traffic rank, and no evidence yet that separates a good post from a growing publication.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -152,6 +156,7 @@
           "type": "domain",
           "brief": "Movement across three independent readings \u2014 Majestic, OpenPageRank and Tranco \u2014 but all of it small: rank up 5%, subnets up 1.4%. The value here is the agreement rather than the size. Three unrelated crawls noticing the same modest climb is a different claim from one crawl noticing a big one.",
           "sources": [
+            "dataforseo",
             "majestic_million",
             "openpagerank",
             "tranco",
@@ -168,6 +173,7 @@
           "type": "domain",
           "brief": "An F1 wiki with 1.5% rank movement and 1% subnet growth. Genuinely marginal \u2014 it clears the corroboration bar because two independent sources both registered the same small climb. Listed for honesty about what today's threshold admits.",
           "sources": [
+            "dataforseo",
             "majestic_million",
             "openpagerank"
           ],
@@ -182,6 +188,7 @@
           "type": "domain",
           "brief": "Same shape as createcentercv: three sources, all agreeing, none dramatic. Rank up 5.4% with subnets up 2%. A long-established word-game site \u2014 this is what steady looks like, and it is here to show that the corroboration rule fires on ordinary movement too, not only on spikes.",
           "sources": [
+            "dataforseo",
             "majestic_million",
             "openpagerank",
             "tranco"
@@ -197,6 +204,7 @@
           "type": "domain",
           "brief": "Referring IPs up 29% and subnets up 28% \u2014 one new link per network, which is the healthy shape. Rank change of 35% on an established media domain. The near-identical IP and subnet growth is what genuine link acquisition looks like and is the clearest contrast on this page with the Omsk entry.",
           "sources": [
+            "dataforseo",
             "majestic_million",
             "openpagerank",
             "tranco"
@@ -337,6 +345,7 @@
           "type": "domain",
           "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -352,6 +361,7 @@
           "type": "domain",
           "brief": "79 comments on the front page with a 0.6% Tranco move. Astronomy software with a long history. The pattern across today's domain set is clear and worth naming: HackerNews plus a tiny traffic bump almost always means one popular post, not a rising business.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -367,6 +377,7 @@
           "type": "domain",
           "brief": "HackerNews points up 20% from a base of 4, with one comment. This is noise that cleared the bar because the domain population was quiet. Listed so the set stays honest about what qualified rather than quietly dropping it.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -382,6 +393,7 @@
           "type": "domain",
           "brief": "52 comments, front page, 0.6% traffic gain. Chris Coyier is a well-known web developer; this is his personal site. Fourth example of the same shape today, which is a stronger argument for a gate rule about personal blogs than it is about any of these four domains.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -397,6 +409,7 @@
           "type": "domain",
           "brief": "HackerNews comments up 156% to 180 with its front-page rank improving 12%. A personal site pulling that much discussion is usually one essay landing rather than a site becoming popular. Worth reading what it published today; not worth tracking the domain.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "tranco"
@@ -439,6 +452,7 @@
           "type": "domain",
           "brief": "HackerNews points up 2,100% to 108 with 65 comments, front page, and nothing else in the system has seen it. This is the earliest shape RiseFinder can detect and also the least proven \u2014 one well-received post produces exactly this. Worth a look precisely because it is undecided.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "techstack",
@@ -462,6 +476,7 @@
           "type": "domain",
           "brief": "Four points, no comments. It clears the bar only because the domain population barely moved today. Nothing to act on.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "pricing",
@@ -508,6 +523,7 @@
           "type": "domain",
           "brief": "Three points, no comments, same story as reclip.io. Listed for completeness; a quiet day makes small numbers rank well.",
           "sources": [
+            "dataforseo",
             "hackernews",
             "openpagerank",
             "wikipedia"
