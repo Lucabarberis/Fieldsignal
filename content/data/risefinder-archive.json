@@ -22,7 +22,8 @@
             "then": 1007,
             "now": 1354,
             "change_pct": 34.5
-          }
+          },
+          "briefed_on": "2026-08-03"
         },
         {
           "name": "mokshablr/gander",
@@ -42,7 +43,8 @@
             "then": 293,
             "now": 316,
             "change_pct": 7.8
-          }
+          },
+          "briefed_on": "2026-08-03"
         },
         {
           "name": "createcentercv.org",
@@ -57,7 +59,8 @@
           "url": "https://createcentercv.org",
           "description": "A youth-safeguarding charity in Cape Verde working on child protection and community programmes.",
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-03"
         },
         {
           "name": "wikif1.org",
@@ -70,7 +73,8 @@
           "url": "https://wikif1.org",
           "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-03"
         },
         {
           "name": "playscrabble.com",
@@ -84,7 +88,8 @@
           "url": "https://playscrabble.com",
           "description": "A long-running free Scrabble site where people play each other online.",
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-03"
         },
         {
           "name": "mondomedia.com",
@@ -98,7 +103,8 @@
           "url": "https://mondomedia.com",
           "description": "The publisher behind Happy Tree Friends and Dick Figures \u2014 adult animated shorts, online since the 1990s.",
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-03"
         }
       ]
     },
@@ -124,7 +130,8 @@
             "then": 2196,
             "now": 4671,
             "change_pct": 112.7
-          }
+          },
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "DramaWave - Dramas & Reels",
@@ -144,7 +151,8 @@
             "then": 136461,
             "now": 138855,
             "change_pct": 1.8
-          }
+          },
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "FORScan Lite - for Ford, Mazda",
@@ -157,7 +165,8 @@
           "url": "https://apps.apple.com/app/id892347083",
           "description": "Car diagnostics for Ford, Mazda and Lincoln vehicles, reading fault codes an ordinary OBD2 scanner cannot.",
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "yc-software/qm",
@@ -177,7 +186,8 @@
             "then": 5567,
             "now": 10135,
             "change_pct": 82.1
-          }
+          },
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "Freecash - Get Paid Real Money",
@@ -197,7 +207,8 @@
             "then": 102081,
             "now": 103825,
             "change_pct": 1.7
-          }
+          },
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "sqliteai/waste",
@@ -217,7 +228,8 @@
             "then": 344,
             "now": 1568,
             "change_pct": 355.8
-          }
+          },
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "c-faq.com",
@@ -231,7 +243,8 @@
           "url": "https://c-faq.com",
           "description": null,
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "hillelwayne.com",
@@ -245,7 +258,8 @@
           "url": "https://hillelwayne.com",
           "description": null,
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "projectpluto.com",
@@ -259,7 +273,8 @@
           "url": "https://projectpluto.com",
           "description": null,
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "seriot.ch",
@@ -273,7 +288,8 @@
           "url": "https://seriot.ch",
           "description": null,
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "chriscoyier.net",
@@ -287,7 +303,8 @@
           "url": "https://chriscoyier.net",
           "description": null,
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         },
         {
           "name": "maurycyz.com",
@@ -301,7 +318,8 @@
           "url": "https://maurycyz.com",
           "description": null,
           "appearances": 1,
-          "track": null
+          "track": null,
+          "briefed_on": "2026-08-02"
         }
       ]
     },
@@ -327,7 +345,8 @@
             "then": 2196,
             "now": 4671,
             "change_pct": 112.7
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "marbleos.com",
@@ -349,7 +368,8 @@
             "then": 0.09,
             "now": 0.09,
             "change_pct": 0.0
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "reclip.io",
@@ -373,7 +393,8 @@
             "then": 0.78,
             "now": 0.78,
             "change_pct": 0.0
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "reflex-dev/xy",
@@ -393,7 +414,8 @@
             "then": 1007,
             "now": 1354,
             "change_pct": 34.5
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "orangecrumbs.com",
@@ -414,7 +436,8 @@
             "then": 1.14,
             "now": 1.14,
             "change_pct": 0.0
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "sqliteai/waste",
@@ -434,7 +457,8 @@
             "then": 344,
             "now": 1568,
             "change_pct": 355.8
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "sawfwair/mere-run",
@@ -454,7 +478,8 @@
             "then": 41.0,
             "now": 54.0,
             "change_pct": 31.7
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "SerhiiKorniienko/bullshit-detector",
@@ -474,7 +499,8 @@
             "then": 77.0,
             "now": 103,
             "change_pct": 33.8
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "gavamedia/deltafin",
@@ -494,7 +520,8 @@
             "then": 429,
             "now": 663,
             "change_pct": 54.5
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "DramaWave - Dramas & Reels",
@@ -514,7 +541,8 @@
             "then": 136461,
             "now": 138855,
             "change_pct": 1.8
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "Reelo - Media Hub",
@@ -534,7 +562,8 @@
             "then": 10.0,
             "now": 12.0,
             "change_pct": 20.0
-          }
+          },
+          "briefed_on": "2026-08-01"
         },
         {
           "name": "Claude by Anthropic",
@@ -554,7 +583,8 @@
             "then": 214790,
             "now": 219001,
             "change_pct": 2.0
-          }
+          },
+          "briefed_on": "2026-08-01"
         }
       ]
     },
@@ -580,7 +610,8 @@
             "then": 45.0,
             "now": 53.0,
             "change_pct": 17.8
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "drumih/turbo-fieldfare",
@@ -600,7 +631,8 @@
             "then": 2196,
             "now": 4671,
             "change_pct": 112.7
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "reflex-dev/xy",
@@ -620,7 +652,8 @@
             "then": 1007,
             "now": 1354,
             "change_pct": 34.5
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "openai/codex-security",
@@ -640,7 +673,8 @@
             "then": 6090,
             "now": 8424,
             "change_pct": 38.3
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "alibaba/skill-up",
@@ -660,7 +694,8 @@
             "then": 296,
             "now": 368,
             "change_pct": 24.3
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "gavamedia/deltafin",
@@ -680,7 +715,8 @@
             "then": 429,
             "now": 663,
             "change_pct": 54.5
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "experientiallabs/world-model-optimizer",
@@ -700,7 +736,8 @@
             "then": 255,
             "now": 320,
             "change_pct": 25.5
-          }
+          },
+          "briefed_on": "2026-07-31"
         },
         {
           "name": "mishushakov/desktui",
@@ -720,7 +757,8 @@
             "then": 26.0,
             "now": 36.0,
             "change_pct": 38.5
-          }
+          },
+          "briefed_on": "2026-07-31"
         }
       ]
     },
@@ -746,7 +784,8 @@
             "then": 290,
             "now": 340,
             "change_pct": 17.2
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "SerhiiKorniienko/bullshit-detector",
@@ -766,7 +805,8 @@
             "then": 77.0,
             "now": 103,
             "change_pct": 33.8
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "wassgha/rescript",
@@ -786,7 +826,8 @@
             "then": 384,
             "now": 617,
             "change_pct": 60.7
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "openai/codex-security",
@@ -806,7 +847,8 @@
             "then": 6090,
             "now": 8424,
             "change_pct": 38.3
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "gavamedia/deltafin",
@@ -826,7 +868,8 @@
             "then": 429,
             "now": 663,
             "change_pct": 54.5
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "twalichiewicz/HNewhere",
@@ -846,7 +889,8 @@
             "then": 192,
             "now": 220,
             "change_pct": 14.6
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "Freecash - Get Paid Real Money",
@@ -866,7 +910,8 @@
             "then": 102081,
             "now": 103825,
             "change_pct": 1.7
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "Parchment: Agenda & Daily Note",
@@ -886,7 +931,8 @@
             "then": 124,
             "now": 153,
             "change_pct": 23.4
-          }
+          },
+          "briefed_on": "2026-07-30"
         },
         {
           "name": "Claude by Anthropic",
@@ -906,7 +952,8 @@
             "then": 214790,
             "now": 219001,
             "change_pct": 2.0
-          }
+          },
+          "briefed_on": "2026-07-30"
         }
       ]
     }

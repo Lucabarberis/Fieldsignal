@@ -221,7 +221,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-04T06:02:25Z",
+  "generated_at": "2026-08-04T08:58:04Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -567,6 +567,7 @@
     }
   ],
   "data_through": "2026-08-04",
+  "briefed_through": "2026-08-03",
   "stats": {
     "entities": 10477,
     "snapshots": 271926,
@@ -593,7 +594,8 @@
         "then": 1007,
         "now": 1354,
         "change_pct": 34.5
-      }
+      },
+      "briefed_on": "2026-08-03"
     },
     {
       "name": "mokshablr/gander",
@@ -613,7 +615,8 @@
         "then": 293,
         "now": 316,
         "change_pct": 7.8
-      }
+      },
+      "briefed_on": "2026-08-03"
     },
     {
       "name": "createcentercv.org",
@@ -628,7 +631,8 @@
       "url": "https://createcentercv.org",
       "description": "A youth-safeguarding charity in Cape Verde working on child protection and community programmes.",
       "appearances": 1,
-      "track": null
+      "track": null,
+      "briefed_on": "2026-08-03"
     },
     {
       "name": "wikif1.org",
@@ -641,7 +645,8 @@
       "url": "https://wikif1.org",
       "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
       "appearances": 1,
-      "track": null
+      "track": null,
+      "briefed_on": "2026-08-03"
     },
     {
       "name": "playscrabble.com",
@@ -655,7 +660,8 @@
       "url": "https://playscrabble.com",
       "description": "A long-running free Scrabble site where people play each other online.",
       "appearances": 1,
-      "track": null
+      "track": null,
+      "briefed_on": "2026-08-03"
     },
     {
       "name": "mondomedia.com",
@@ -669,7 +675,8 @@
       "url": "https://mondomedia.com",
       "description": "The publisher behind Happy Tree Friends and Dick Figures \u2014 adult animated shorts, online since the 1990s.",
       "appearances": 1,
-      "track": null
+      "track": null,
+      "briefed_on": "2026-08-03"
     },
     {
       "name": "drumih/turbo-fieldfare",
@@ -689,7 +696,8 @@
         "then": 2196,
         "now": 4671,
         "change_pct": 112.7
-      }
+      },
+      "briefed_on": "2026-08-02"
     },
     {
       "name": "DramaWave - Dramas & Reels",
@@ -709,7 +717,8 @@
         "then": 136461,
         "now": 138855,
         "change_pct": 1.8
-      }
+      },
+      "briefed_on": "2026-08-02"
     },
     {
       "name": "FORScan Lite - for Ford, Mazda",
@@ -722,7 +731,8 @@
       "url": "https://apps.apple.com/app/id892347083",
       "description": "Car diagnostics for Ford, Mazda and Lincoln vehicles, reading fault codes an ordinary OBD2 scanner cannot.",
       "appearances": 1,
-      "track": null
+      "track": null,
+      "briefed_on": "2026-08-02"
     },
     {
       "name": "yc-software/qm",
@@ -742,7 +752,8 @@
         "then": 5567,
         "now": 10135,
         "change_pct": 82.1
-      }
+      },
+      "briefed_on": "2026-08-02"
     },
     {
       "name": "Freecash - Get Paid Real Money",
@@ -762,7 +773,8 @@
         "then": 102081,
         "now": 103825,
         "change_pct": 1.7
-      }
+      },
+      "briefed_on": "2026-08-02"
     },
     {
       "name": "sqliteai/waste",
@@ -782,7 +794,8 @@
         "then": 344,
         "now": 1568,
         "change_pct": 355.8
-      }
+      },
+      "briefed_on": "2026-08-02"
     }
   ]
 }

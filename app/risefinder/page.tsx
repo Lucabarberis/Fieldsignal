@@ -44,8 +44,16 @@ export default async function RiseFinderPage({
   searchParams: Promise<{ subscribed?: string; error?: string }>;
 }) {
   const params = await searchParams;
-  const { items, stats, data_through } = data;
+  const { items, stats, data_through, briefed_through } = data;
   const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
+
+  // Collection is automatic and daily; writing a brief is not. On any day the
+  // writing step is skipped, `data_through` advances and `briefed_through` does
+  // not — and the heading read "Today's briefing" regardless, sitting above
+  // entries judged three days earlier. The label now states the date it is
+  // actually showing, so a missed day is visible rather than papered over.
+  const briefedDay = briefed_through ?? data_through;
+  const briefIsToday = briefedDay === data_through;
 
   return (
     <>
@@ -54,8 +62,12 @@ export default async function RiseFinderPage({
         title="RiseFinder"
         lede={
           <>
-            A daily scan of twelve public data sources for things that are{" "}
-            <b>rising before they are obvious</b>. Every entry below was seen
+            {/* Counted, never written out. This read "twelve public data
+                sources" — true when the sentence was written, and still saying
+                twelve after nine more were added. A number in prose ages
+                silently; one read from the data cannot. */}
+            A daily scan of {stats.sources_live} public data sources for things
+            that are <b>rising before they are obvious</b>. Every entry below was seen
             moving by at least two unrelated collectors on the same day — any
             single signal can be bought, so agreement between independent
             sources is the thing worth reading.
@@ -87,8 +99,12 @@ export default async function RiseFinderPage({
 
       <SectionBand
         num="01"
-        label="Today's briefing"
-        meta={`${items.length} entries`}
+        label={briefIsToday ? "Today's briefing" : "Latest briefing"}
+        meta={
+          briefIsToday
+            ? `${items.length} entries`
+            : `${items.length} entries · ${formatBriefingDay(briefedDay)}`
+        }
       />
 
       <RiseFinderList items={items as Item[]} />
