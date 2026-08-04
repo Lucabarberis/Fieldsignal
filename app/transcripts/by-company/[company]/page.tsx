@@ -25,12 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { company } = await params;
   // Recover the human-readable label
   const all = await getAllTranscripts();
-  const label = all.find((t) => t.companySlug === company)?.companyContext;
+  const matches = all.filter((t) => t.companySlug === company);
+  const label = matches[0]?.companyContext;
   if (!label) return {};
   return pageMetadata({
     title: `${label} — Expert Interviews and Transcripts`,
     description: `Anonymised expert interviews discussing ${label}. Competitive position, customer feedback, channel dynamics.`,
     path: `/transcripts/by-company/${company}`,
+    // A single-transcript hub is thin and near-duplicates the transcript
+    // page — noindex until it groups two or more.
+    noindex: matches.length < 2,
   });
 }
 

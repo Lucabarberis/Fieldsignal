@@ -25,10 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { industry } = await params;
   const ind = industries.find((i) => i.slug === industry);
   if (!ind) return {};
+  const count = (await getTranscriptsByIndustry(industry)).length;
   return pageMetadata({
     title: `${ind.name} Expert Call Transcripts`,
     description: `Browse anonymised expert call transcripts across ${ind.name}. Free previews, full transcripts on subscription.`,
     path: `/transcripts/by-industry/${industry}`,
+    // Index only once the hub groups two or more transcripts; a single-item
+    // hub is thin and near-duplicates that transcript's page.
+    noindex: count < 2,
   });
 }
 

@@ -24,12 +24,16 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { topic } = await params;
   const all = await getAllTranscripts();
-  const label = all.find((t) => t.topicSlug === topic)?.topicLabel;
+  const matches = all.filter((t) => t.topicSlug === topic);
+  const label = matches[0]?.topicLabel;
   if (!label) return {};
   return pageMetadata({
     title: `${label} — Expert Interviews`,
     description: `Curated expert call transcripts on ${label}. Anonymised, MNPI-screened, free previews on every transcript.`,
     path: `/transcripts/by-topic/${topic}`,
+    // A hub with a single transcript is a thin, near-duplicate of that
+    // transcript's page — noindex until it groups two or more.
+    noindex: matches.length < 2,
   });
 }
 

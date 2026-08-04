@@ -59,8 +59,11 @@ export function pageMetadata({
       description,
       images: ["/og"],
     },
+    // `noindex` keeps `follow: true` — the standard "don't rank this page but
+    // still crawl its links", so link equity flows through to the pages it
+    // points at (e.g. a thin transcript hub → its transcript detail pages).
     robots: noindex
-      ? { index: false, follow: false }
+      ? { index: false, follow: true }
       : { index: true, follow: true },
   };
 }

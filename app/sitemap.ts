@@ -229,26 +229,54 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
+  // Transcript hub pages are noindexed until they group 2+ transcripts (see
+  // the by-topic/company/industry templates). Keep the sitemap consistent
+  // with that: list only the hubs that are actually indexable. Single-item
+  // topic/company hubs — every transcript has a unique topic and company —
+  // are excluded, and re-appear automatically once a hub reaches two.
+  const countBy = (key: "topicSlug" | "companySlug") => {
+    const m = new Map<string, number>();
+    for (const t of transcripts) {
+      const v = t[key];
+      if (v) m.set(v, (m.get(v) ?? 0) + 1);
+    }
+    return m;
+  };
+  const topicCounts = countBy("topicSlug");
+  const companyCounts = countBy("companySlug");
+  const industryCounts = new Map<string, number>();
+  for (const t of transcripts) {
+    for (const s of t.industrySlugs ?? []) {
+      industryCounts.set(s, (industryCounts.get(s) ?? 0) + 1);
+    }
+  }
+
   const transcriptIndustrySlugs = await getAllTranscriptIndustrySlugs();
-  const transcriptIndustryRoutes: MetadataRoute.Sitemap = transcriptIndustrySlugs.map((slug) => ({
-    url: `${SITE.url}/transcripts/by-industry/${slug}`,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
+  const transcriptIndustryRoutes: MetadataRoute.Sitemap = transcriptIndustrySlugs
+    .filter((slug) => (industryCounts.get(slug) ?? 0) >= 2)
+    .map((slug) => ({
+      url: `${SITE.url}/transcripts/by-industry/${slug}`,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    }));
 
   const transcriptCompanies = await getAllTranscriptCompanySlugs();
-  const transcriptCompanyRoutes: MetadataRoute.Sitemap = transcriptCompanies.map((c) => ({
-    url: `${SITE.url}/transcripts/by-company/${c.slug}`,
-    changeFrequency: "weekly",
-    priority: 0.55,
-  }));
+  const transcriptCompanyRoutes: MetadataRoute.Sitemap = transcriptCompanies
+    .filter((c) => (companyCounts.get(c.slug) ?? 0) >= 2)
+    .map((c) => ({
+      url: `${SITE.url}/transcripts/by-company/${c.slug}`,
+      changeFrequency: "weekly",
+      priority: 0.55,
+    }));
 
   const transcriptTopics = await getAllTranscriptTopicSlugs();
-  const transcriptTopicRoutes: MetadataRoute.Sitemap = transcriptTopics.map((t) => ({
-    url: `${SITE.url}/transcripts/by-topic/${t.slug}`,
-    changeFrequency: "weekly",
-    priority: 0.55,
-  }));
+  const transcriptTopicRoutes: MetadataRoute.Sitemap = transcriptTopics
+    .filter((t) => (topicCounts.get(t.slug) ?? 0) >= 2)
+    .map((t) => ({
+      url: `${SITE.url}/transcripts/by-topic/${t.slug}`,
+      changeFrequency: "weekly",
+      priority: 0.55,
+    }));
 
   const blogRoutes: MetadataRoute.Sitemap = posts.map((p) => ({
     url: `${SITE.url}/resources/blog/${p.slug}`,
