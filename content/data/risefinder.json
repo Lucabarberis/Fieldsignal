@@ -221,7 +221,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-04T10:15:23Z",
+  "generated_at": "2026-08-04T10:34:07Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -570,7 +570,7 @@
   "briefed_through": "2026-08-04",
   "stats": {
     "entities": 10477,
-    "snapshots": 274298,
+    "snapshots": 274300,
     "sources_live": 22,
     "first_day": "2026-07-28",
     "days_collected": 8
