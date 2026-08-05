@@ -1121,7 +1121,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-05T06:41:27Z",
+  "generated_at": "2026-08-05T06:42:24Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1485,7 +1485,7 @@
         "hackernews"
       ],
       "url": "https://github.com/0xchasercat/draco",
-      "description": null,
+      "description": "An open-source web crawler for AI applications, built as a drop-in replacement for the paid Firecrawl service.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-05"
@@ -1499,7 +1499,7 @@
         "hackernews"
       ],
       "url": "https://github.com/pg83/shitty",
-      "description": null,
+      "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-05"
@@ -1534,7 +1534,7 @@
         "homebrew"
       ],
       "url": "https://github.com/t8y2/dbx",
-      "description": null,
+      "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-05"
@@ -1548,7 +1548,7 @@
         "hackernews"
       ],
       "url": "https://github.com/wie-project/kakehashi",
-      "description": null,
+      "description": "A translation layer that lets software built for macOS run on Linux machines with ARM processors.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-05"
@@ -1566,7 +1566,7 @@
         "tranco"
       ],
       "url": "https://simonwillison.net",
-      "description": null,
+      "description": "The weblog of Simon Willison, co-creator of the Django web framework, covering AI tooling and software engineering almost daily.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-05"
@@ -1584,7 +1584,7 @@
         "tranco"
       ],
       "url": "https://pudding.cool",
-      "description": null,
+      "description": "The Pudding, a publication that explains cultural and social questions through interactive visual essays.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-05"
