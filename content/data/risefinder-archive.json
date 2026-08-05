@@ -1,6 +1,125 @@
 {
   "days": [
     {
+      "date": "2026-08-05",
+      "count": 7,
+      "items": [
+        {
+          "name": "0xchasercat/draco",
+          "type": "repo",
+          "brief": "A drop-in replacement for Firecrawl, which is a paid crawling service \u2014 so this is the open-source-undercuts-incumbent shape, and those either die quietly or move fast. At 67 stars it is far too early to call, but open issues jumped 50% today against 2.8% star growth, meaning the few people who found it are using it hard enough to break it. Two days since the last push.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/0xchasercat/draco",
+          "description": null,
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "pg83/shitty",
+          "type": "repo",
+          "brief": "A terminal emulator whose HackerNews thread drew 160 comments against 172 points \u2014 a 93% comment-to-point ratio, roughly triple what a well-received post produces. That shape means argument, not applause, and for a terminal emulator the argument is always the same one: whether the world needs another. Stars up 5.7% and forks up 5.4% on the same day says some readers stopped arguing and cloned it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/pg83/shitty",
+          "description": null,
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Stars have more than doubled in five days, 2,196 to 4,945, and forks are still outpacing them \u2014 7.8% against 5.6% in the last day alone. Open issues rose 11.6% in the same window, which on a young repo means people hitting real edges rather than admiring the README. Five days on this list and the ratios have not softened, which is the part that separates a thread from a trend.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
+          "appearances": 5,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 5,
+            "unit": "stars",
+            "then": 2196,
+            "now": 4945,
+            "change_pct": 125.2
+          },
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "t8y2/dbx",
+          "type": "repo",
+          "brief": "1,344 forks and 1,117 open issues against 13,242 stars, which is an extraordinarily engaged ratio \u2014 one fork for every ten stars, where most repos manage one in fifty. The signal today is not the star count but Homebrew: it is installable through a package manager, which is the point a tool stops being a repo people star and becomes one they run. Downloads up 2% week over week is modest, and the install path is the thing to watch.",
+          "sources": [
+            "github",
+            "homebrew"
+          ],
+          "url": "https://github.com/t8y2/dbx",
+          "description": null,
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "wie-project/kakehashi",
+          "type": "repo",
+          "brief": "A userspace translation layer letting macOS binaries run on Linux ARM64 \u2014 technically the hardest kind of project on this list and the kind that usually stalls. 252 HackerNews points against 64 comments is an unusually low argument ratio, which for infrastructure means people are impressed rather than sceptical. 341 stars is small; the engineering claim is what makes it worth watching.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/wie-project/kakehashi",
+          "description": null,
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "simonwillison.net",
+          "type": "domain",
+          "brief": "HackerNews comments up 600% and best rank improved 55.8%, on a personal blog that posts about AI tooling almost daily. This is a well-known writer, so the reading is not \"an unknown is rising\" \u2014 it is that a specific post landed hard enough to move the numbers of a site that is usually steady. Worth reading the post, not tracking the domain.",
+          "sources": [
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://simonwillison.net",
+          "description": null,
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "pudding.cool",
+          "type": "domain",
+          "brief": "The Pudding, a visual-essay publication, with 157 HackerNews comments and its best rank up 23.3%. Comments are actually down 16% from the previous window, so the thread is past its peak; what put this here is the rank move, which follows front-page placement rather than leading it. Attention, not adoption.",
+          "sources": [
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://pudding.cool",
+          "description": null,
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-05"
+        }
+      ]
+    },
+    {
       "date": "2026-08-04",
       "count": 6,
       "items": [
@@ -14,7 +133,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 4,
+          "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 5,
@@ -251,7 +370,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 4,
+          "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 5,
@@ -462,7 +581,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 4,
+          "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 5,
@@ -752,7 +871,7 @@
           ],
           "url": "https://github.com/drumih/turbo-fieldfare",
           "description": "Runs Google's Gemma 4 language model on a MacBook in about 2 GB of memory, rather than requiring a server.",
-          "appearances": 4,
+          "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 5,
