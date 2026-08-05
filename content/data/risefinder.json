@@ -221,7 +221,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-04T10:34:07Z",
+  "generated_at": "2026-08-05T05:07:56Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -566,14 +566,14 @@
       "items": []
     }
   ],
-  "data_through": "2026-08-04",
+  "data_through": "2026-08-05",
   "briefed_through": "2026-08-04",
   "stats": {
     "entities": 10477,
-    "snapshots": 274300,
-    "sources_live": 22,
+    "snapshots": 280306,
+    "sources_live": 1,
     "first_day": "2026-07-28",
-    "days_collected": 8
+    "days_collected": 9
   },
   "items": [
     {
@@ -605,6 +605,8 @@
         "dataforseo",
         "hackernews",
         "openpagerank",
+        "pricing",
+        "techstack",
         "tranco"
       ],
       "url": "https://ssp.sh",
@@ -635,6 +637,8 @@
         "dataforseo",
         "hackernews",
         "openpagerank",
+        "pricing",
+        "techstack",
         "tranco"
       ],
       "url": "https://type.today",
@@ -651,6 +655,8 @@
         "dataforseo",
         "hackernews",
         "openpagerank",
+        "pricing",
+        "techstack",
         "tranco"
       ],
       "url": "https://diataxis.fr",
@@ -667,6 +673,7 @@
         "dataforseo",
         "hackernews",
         "openpagerank",
+        "pricing",
         "tranco"
       ],
       "url": "https://worksinprogress.news",
@@ -725,6 +732,7 @@
         "dataforseo",
         "majestic_million",
         "openpagerank",
+        "pricing",
         "tranco",
         "wikipedia"
       ],
@@ -741,7 +749,8 @@
       "sources": [
         "dataforseo",
         "majestic_million",
-        "openpagerank"
+        "openpagerank",
+        "pricing"
       ],
       "url": "https://wikif1.org",
       "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
@@ -757,6 +766,7 @@
         "dataforseo",
         "majestic_million",
         "openpagerank",
+        "techstack",
         "tranco"
       ],
       "url": "https://playscrabble.com",
@@ -773,6 +783,8 @@
         "dataforseo",
         "majestic_million",
         "openpagerank",
+        "pricing",
+        "techstack",
         "tranco"
       ],
       "url": "https://mondomedia.com",

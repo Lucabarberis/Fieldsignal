@@ -33,6 +33,8 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
+            "techstack",
             "tranco"
           ],
           "url": "https://ssp.sh",
@@ -63,6 +65,8 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
+            "techstack",
             "tranco"
           ],
           "url": "https://type.today",
@@ -79,6 +83,8 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
+            "techstack",
             "tranco"
           ],
           "url": "https://diataxis.fr",
@@ -95,6 +101,7 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
             "tranco"
           ],
           "url": "https://worksinprogress.news",
@@ -159,6 +166,7 @@
             "dataforseo",
             "majestic_million",
             "openpagerank",
+            "pricing",
             "tranco",
             "wikipedia"
           ],
@@ -175,7 +183,8 @@
           "sources": [
             "dataforseo",
             "majestic_million",
-            "openpagerank"
+            "openpagerank",
+            "pricing"
           ],
           "url": "https://wikif1.org",
           "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
@@ -191,6 +200,7 @@
             "dataforseo",
             "majestic_million",
             "openpagerank",
+            "techstack",
             "tranco"
           ],
           "url": "https://playscrabble.com",
@@ -207,6 +217,8 @@
             "dataforseo",
             "majestic_million",
             "openpagerank",
+            "pricing",
+            "techstack",
             "tranco"
           ],
           "url": "https://mondomedia.com",
@@ -348,6 +360,7 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
             "tranco"
           ],
           "url": "https://hillelwayne.com",
@@ -364,6 +377,8 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
+            "techstack",
             "tranco"
           ],
           "url": "https://projectpluto.com",
@@ -380,6 +395,7 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
             "tranco"
           ],
           "url": "https://seriot.ch",
@@ -396,6 +412,7 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
             "tranco"
           ],
           "url": "https://chriscoyier.net",
@@ -412,6 +429,7 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
             "tranco"
           ],
           "url": "https://maurycyz.com",
@@ -526,6 +544,7 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "pricing",
             "wikipedia"
           ],
           "url": "https://orangecrumbs.com",
