@@ -1,6 +1,109 @@
 {
   "days": [
     {
+      "date": "2026-08-06",
+      "count": 6,
+      "items": [
+        {
+          "name": "veedstudio/open-edit",
+          "type": "repo",
+          "brief": "Stars up 14.7% and forks up 17.9% on the same day, from a base of 141 and 8 \u2014 small enough that a handful of people move the percentages, so read the direction rather than the size. What makes it worth a line is the pitch: a video editor you own instead of rent, driven by a coding agent. That is two trends arriving at once, and it is day one on this list.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/veedstudio/open-edit",
+          "description": "An open-source video editor you install rather than subscribe to, designed to be driven by a coding agent.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-06"
+        },
+        {
+          "name": "garagehq/nightcrawler",
+          "type": "repo",
+          "brief": "Forks jumped 32.7% against 23.3% star growth in a day, and watchers rose 25% \u2014 three ratios moving together, which is rarer and harder to fake than any one of them spiking. 44 forks on 593 stars is a 7% ratio on a repo this small, meaning the people finding it are running it rather than filing it. A local AI red-teamer that works on a phone is a specific enough claim to attract either real users or real scepticism, and the 34 comments against 118 HackerNews points suggest more of the first.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/garagehq/nightcrawler",
+          "description": "A security testing tool that runs an AI red-teamer locally on a phone rather than in the cloud.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-06"
+        },
+        {
+          "name": "brian-armstrong/fec",
+          "type": "repo",
+          "brief": "A Rust library for forward error correction, on the list with GitHub and HackerNews agreeing. Error-correction code is infrastructure nobody adopts casually \u2014 it either solves a problem someone has or it sits unused \u2014 so the thing to watch is not stars but whether anyone depends on it. No package downloads yet, which is the number that would turn this from interesting to real.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/brian-armstrong/fec",
+          "description": "A Rust library for forward error correction \u2014 recovering data damaged in transmission without asking for it again.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-06"
+        },
+        {
+          "name": "seangoedecke.com",
+          "type": "domain",
+          "brief": "564 HackerNews comments, the largest single thread on this list by an order of magnitude, from a blog about how software actually gets built inside big companies. Its best rank went the wrong way \u2014 down 39.6% \u2014 while comments barely moved, which together say the thread peaked before this window and is now arguing with itself. Worth reading the post; not yet evidence about the site.",
+          "sources": [
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://seangoedecke.com",
+          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-06"
+        },
+        {
+          "name": "rust-lang.org",
+          "type": "domain",
+          "brief": "On the front page of HackerNews and Lobsters at the same time, with Lobsters comments up 1100% and points up 300%. Two independent developer communities is the corroboration this list exists to find \u2014 but Rust is not rising, it arrived years ago. What moved is one announcement, and the honest reading is that something specific happened today rather than that the language is growing.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://rust-lang.org",
+          "description": "The official site of Rust, a systems programming language designed for memory safety without a garbage collector.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-06"
+        },
+        {
+          "name": "chipsandcheese.com",
+          "type": "domain",
+          "brief": "HackerNews comments up 1700% and best rank up 48.5%, on a publication doing deep processor analysis. The percentage is enormous because the base was one comment, so this is a single post landing rather than a trend \u2014 the useful question is whether the rank holds next week once the thread is gone, which is exactly what a daily time-series is for.",
+          "sources": [
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://chipsandcheese.com",
+          "description": "A publication doing deep technical analysis of computer processors and hardware architecture.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-06"
+        }
+      ]
+    },
+    {
       "date": "2026-08-05",
       "count": 7,
       "items": [
@@ -15,7 +118,14 @@
           "url": "https://github.com/0xchasercat/draco",
           "description": "An open-source web crawler for AI applications, built as a drop-in replacement for the paid Firecrawl service.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 67.0,
+            "now": 73.0,
+            "change_pct": 9.0
+          },
           "briefed_on": "2026-08-05"
         },
         {
@@ -29,7 +139,14 @@
           "url": "https://github.com/pg83/shitty",
           "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 217,
+            "now": 228,
+            "change_pct": 5.1
+          },
           "briefed_on": "2026-08-05"
         },
         {
@@ -45,11 +162,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 2196,
-            "now": 4945,
-            "change_pct": 125.2
+            "now": 5146,
+            "change_pct": 134.3
           },
           "briefed_on": "2026-08-05"
         },
@@ -64,7 +181,14 @@
           "url": "https://github.com/t8y2/dbx",
           "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 13242,
+            "now": 13429,
+            "change_pct": 1.4
+          },
           "briefed_on": "2026-08-05"
         },
         {
@@ -78,7 +202,14 @@
           "url": "https://github.com/wie-project/kakehashi",
           "description": "A translation layer that lets software built for macOS run on Linux machines with ARM processors.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 341,
+            "now": 359,
+            "change_pct": 5.3
+          },
           "briefed_on": "2026-08-05"
         },
         {
@@ -136,11 +267,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 2196,
-            "now": 4945,
-            "change_pct": 125.2
+            "now": 5146,
+            "change_pct": 134.3
           },
           "briefed_on": "2026-08-04"
         },
@@ -175,11 +306,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-04",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "votes",
             "then": 450,
-            "now": 457,
-            "change_pct": 1.6
+            "now": 463,
+            "change_pct": 2.9
           },
           "briefed_on": "2026-08-04"
         },
@@ -255,11 +386,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 1007,
-            "now": 1432,
-            "change_pct": 42.2
+            "now": 1550,
+            "change_pct": 53.9
           },
           "briefed_on": "2026-08-03"
         },
@@ -276,11 +407,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-03",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 293,
-            "now": 330,
-            "change_pct": 12.6
+            "now": 339,
+            "change_pct": 15.7
           },
           "briefed_on": "2026-08-03"
         },
@@ -289,6 +420,7 @@
           "type": "domain",
           "brief": "Movement across three independent readings \u2014 Majestic, OpenPageRank and Tranco \u2014 but all of it small: rank up 5%, subnets up 1.4%. The value here is the agreement rather than the size. Three unrelated crawls noticing the same modest climb is a different claim from one crawl noticing a big one.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "majestic_million",
             "openpagerank",
@@ -328,7 +460,8 @@
             "majestic_million",
             "openpagerank",
             "techstack",
-            "tranco"
+            "tranco",
+            "wikipedia"
           ],
           "url": "https://playscrabble.com",
           "description": "A long-running free Scrabble site where people play each other online.",
@@ -346,7 +479,8 @@
             "openpagerank",
             "pricing",
             "techstack",
-            "tranco"
+            "tranco",
+            "wikipedia"
           ],
           "url": "https://mondomedia.com",
           "description": "The publisher behind Happy Tree Friends and Dick Figures \u2014 adult animated shorts, online since the 1990s.",
@@ -373,11 +507,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 2196,
-            "now": 4945,
-            "change_pct": 125.2
+            "now": 5146,
+            "change_pct": 134.3
           },
           "briefed_on": "2026-08-02"
         },
@@ -394,11 +528,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "ratings",
             "then": 136461,
-            "now": 139820,
-            "change_pct": 2.5
+            "now": 140797,
+            "change_pct": 3.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -429,11 +563,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 5567,
-            "now": 11290,
-            "change_pct": 102.8
+            "now": 11811,
+            "change_pct": 112.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -450,11 +584,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 102081,
-            "now": 104127,
-            "change_pct": 2.0
+            "now": 104431,
+            "change_pct": 2.3
           },
           "briefed_on": "2026-08-02"
         },
@@ -471,11 +605,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 344,
-            "now": 1697,
-            "change_pct": 393.3
+            "now": 1779,
+            "change_pct": 417.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -584,11 +718,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 2196,
-            "now": 4945,
-            "change_pct": 125.2
+            "now": 5146,
+            "change_pct": 134.3
           },
           "briefed_on": "2026-08-01"
         },
@@ -621,6 +755,7 @@
           "type": "domain",
           "brief": "Four points, no comments. It clears the bar only because the domain population barely moved today. Nothing to act on.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -655,11 +790,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 1007,
-            "now": 1432,
-            "change_pct": 42.2
+            "now": 1550,
+            "change_pct": 53.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -700,11 +835,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 344,
-            "now": 1697,
-            "change_pct": 393.3
+            "now": 1779,
+            "change_pct": 417.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -721,11 +856,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 41.0,
-            "now": 57.0,
-            "change_pct": 39.0
+            "now": 61.0,
+            "change_pct": 48.8
           },
           "briefed_on": "2026-08-01"
         },
@@ -742,11 +877,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 77.0,
-            "now": 105,
-            "change_pct": 36.4
+            "now": 118,
+            "change_pct": 53.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -784,11 +919,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "ratings",
             "then": 136461,
-            "now": 139820,
-            "change_pct": 2.5
+            "now": 140797,
+            "change_pct": 3.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -805,11 +940,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "ratings",
             "then": 10.0,
-            "now": 13.0,
-            "change_pct": 30.0
+            "now": 14.0,
+            "change_pct": 40.0
           },
           "briefed_on": "2026-08-01"
         },
@@ -826,11 +961,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 214790,
-            "now": 219869,
-            "change_pct": 2.4
+            "now": 220869,
+            "change_pct": 2.8
           },
           "briefed_on": "2026-08-01"
         }
@@ -853,11 +988,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 4,
+            "days_ago": 6,
             "unit": "stars",
             "then": 45.0,
-            "now": 53.0,
-            "change_pct": 17.8
+            "now": 54.0,
+            "change_pct": 20.0
           },
           "briefed_on": "2026-07-31"
         },
@@ -874,11 +1009,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 2196,
-            "now": 4945,
-            "change_pct": 125.2
+            "now": 5146,
+            "change_pct": 134.3
           },
           "briefed_on": "2026-07-31"
         },
@@ -895,11 +1030,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 1007,
-            "now": 1432,
-            "change_pct": 42.2
+            "now": 1550,
+            "change_pct": 53.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -916,11 +1051,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 6090,
-            "now": 8545,
-            "change_pct": 40.3
+            "now": 8891,
+            "change_pct": 46.0
           },
           "briefed_on": "2026-07-31"
         },
@@ -937,11 +1072,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 296,
-            "now": 381,
-            "change_pct": 28.7
+            "now": 397,
+            "change_pct": 34.1
           },
           "briefed_on": "2026-07-31"
         },
@@ -979,11 +1114,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 255,
-            "now": 321,
-            "change_pct": 25.9
+            "now": 322,
+            "change_pct": 26.3
           },
           "briefed_on": "2026-07-31"
         },
@@ -1027,11 +1162,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 290,
-            "now": 342,
-            "change_pct": 17.9
+            "now": 344,
+            "change_pct": 18.6
           },
           "briefed_on": "2026-07-30"
         },
@@ -1048,11 +1183,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 77.0,
-            "now": 105,
-            "change_pct": 36.4
+            "now": 118,
+            "change_pct": 53.2
           },
           "briefed_on": "2026-07-30"
         },
@@ -1069,11 +1204,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 384,
-            "now": 622,
-            "change_pct": 62.0
+            "now": 628,
+            "change_pct": 63.5
           },
           "briefed_on": "2026-07-30"
         },
@@ -1090,11 +1225,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 6090,
-            "now": 8545,
-            "change_pct": 40.3
+            "now": 8891,
+            "change_pct": 46.0
           },
           "briefed_on": "2026-07-30"
         },
@@ -1153,11 +1288,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 102081,
-            "now": 104127,
-            "change_pct": 2.0
+            "now": 104431,
+            "change_pct": 2.3
           },
           "briefed_on": "2026-07-30"
         },
@@ -1174,11 +1309,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 124,
-            "now": 156,
-            "change_pct": 25.8
+            "now": 164,
+            "change_pct": 32.3
           },
           "briefed_on": "2026-07-30"
         },
@@ -1195,11 +1330,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 214790,
-            "now": 219869,
-            "change_pct": 2.4
+            "now": 220869,
+            "change_pct": 2.8
           },
           "briefed_on": "2026-07-30"
         }
