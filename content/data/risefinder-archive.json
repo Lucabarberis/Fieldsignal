@@ -1,6 +1,118 @@
 {
   "days": [
     {
+      "date": "2026-08-07",
+      "count": 6,
+      "items": [
+        {
+          "name": "hisham.hm",
+          "type": "domain",
+          "brief": "On Lobsters rather than HackerNews, with comments up 9.1% and points up 2.6% \u2014 small numbers from the invite-only community, which is the point of watching it. Hisham Muhammad wrote htop, so attention here is a known-quantity author being read rather than a discovery. On the list because two independent collectors saw it, which is the honest reason.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "lobsters",
+            "openpagerank",
+            "tranco"
+          ],
+          "url": "https://hisham.hm",
+          "description": "The personal site of Hisham Muhammad, who wrote htop, the process viewer most Linux users reach for first.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-07"
+        },
+        {
+          "name": "pg83/shitty",
+          "type": "repo",
+          "brief": "Third appearance, and this is where a thread and a trend separate. Stars up 6.7% and open issues up 16.7%, while HackerNews comments moved 0.6% \u2014 the discussion has stopped and the adoption has not. That is the transition most launches never make, and for a terminal emulator with a deliberately absurd name it is more than it had any right to expect.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/pg83/shitty",
+          "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 2,
+            "unit": "stars",
+            "then": 217,
+            "now": 259,
+            "change_pct": 19.4
+          },
+          "briefed_on": "2026-08-07"
+        },
+        {
+          "name": "leonickson1/Swiftlet",
+          "type": "repo",
+          "brief": "Forks up 13.2% against 3.6% star growth \u2014 nearly four to one, and the widest gap on today's list. That ratio is the one worth trusting: a star is a bookmark, a fork is somebody starting work. 310 HackerNews points against 140 comments is a low argument ratio for a web framework, which usually means people found it plausible rather than provocative. Open issues up 16.7% on 434 stars says the forks are being run, not admired.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/leonickson1/Swiftlet",
+          "description": "A lightweight Swift web framework for building server-side applications.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-07"
+        },
+        {
+          "name": "veedstudio/open-edit",
+          "type": "repo",
+          "brief": "Second day on the list and the ratios held: stars up 8.2%, forks up 12.1%, with forks again outpacing stars. Yesterday the base was 141 stars and 8 forks, today 172 and 12 \u2014 small enough that a dozen people move it, so read the direction and not the magnitude. HackerNews comments up 60% on seven comments is noise; the fork growth is not.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/veedstudio/open-edit",
+          "description": "An open-source video editor you install rather than subscribe to, designed to be driven by a coding agent.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-06",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 141,
+            "now": 172,
+            "change_pct": 22.0
+          },
+          "briefed_on": "2026-08-07"
+        },
+        {
+          "name": "googleworkspace/cli",
+          "type": "repo",
+          "brief": "GitHub, Homebrew and npm all seeing it at once \u2014 three independent collectors, and Homebrew is the one that matters. A package manager entry means somebody installed it on purpose rather than starring it in a browser tab. Google shipping an official CLI for Drive, Gmail and Calendar replaces a decade of community scripts, so the interesting question is not whether it grows but what it kills.",
+          "sources": [
+            "github",
+            "homebrew"
+          ],
+          "url": "https://github.com/googleworkspace/cli",
+          "description": "Google's own command-line tool for Drive, Gmail and Calendar, replacing a dozen separate scripts.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-07"
+        },
+        {
+          "name": "fogus.me",
+          "type": "domain",
+          "brief": "487 HackerNews comments, the largest thread on today's list, from the blog of a programming-language designer who worked on Clojure. Comments up 145% but best rank down 85.7% \u2014 the post is being argued about long after it left the front page, which is a different shape from a post that is merely popular. Worth reading; not yet evidence about the site.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://fogus.me",
+          "description": "The blog of Michael Fogus, a programming-language designer who worked on Clojure.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-07"
+        }
+      ]
+    },
+    {
       "date": "2026-08-06",
       "count": 6,
       "items": [
@@ -14,8 +126,15 @@
           ],
           "url": "https://github.com/veedstudio/open-edit",
           "description": "An open-source video editor you install rather than subscribe to, designed to be driven by a coding agent.",
-          "appearances": 1,
-          "track": null,
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-06",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 141,
+            "now": 172,
+            "change_pct": 22.0
+          },
           "briefed_on": "2026-08-06"
         },
         {
@@ -29,7 +148,14 @@
           "url": "https://github.com/garagehq/nightcrawler",
           "description": "A security testing tool that runs an AI red-teamer locally on a phone rather than in the cloud.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-06",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 593,
+            "now": 621,
+            "change_pct": 4.7
+          },
           "briefed_on": "2026-08-06"
         },
         {
@@ -43,7 +169,14 @@
           "url": "https://github.com/brian-armstrong/fec",
           "description": "A Rust library for forward error correction \u2014 recovering data damaged in transmission without asking for it again.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-06",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 38.0,
+            "now": 40.0,
+            "change_pct": 5.3
+          },
           "briefed_on": "2026-08-06"
         },
         {
@@ -51,10 +184,12 @@
           "type": "domain",
           "brief": "564 HackerNews comments, the largest single thread on this list by an order of magnitude, from a blog about how software actually gets built inside big companies. Its best rank went the wrong way \u2014 down 39.6% \u2014 while comments barely moved, which together say the thread peaked before this window and is now arguing with itself. Worth reading the post; not yet evidence about the site.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "lobsters",
             "openpagerank",
+            "pricing",
             "techstack",
             "tranco"
           ],
@@ -89,6 +224,7 @@
           "type": "domain",
           "brief": "HackerNews comments up 1700% and best rank up 48.5%, on a publication doing deep processor analysis. The percentage is enormous because the base was one comment, so this is a single post landing rather than a trend \u2014 the useful question is whether the rank holds next week once the thread is gone, which is exactly what a daily time-series is for.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -120,11 +256,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 67.0,
-            "now": 73.0,
-            "change_pct": 9.0
+            "now": 76.0,
+            "change_pct": 13.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -138,14 +274,14 @@
           ],
           "url": "https://github.com/pg83/shitty",
           "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
-          "appearances": 1,
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 217,
-            "now": 228,
-            "change_pct": 5.1
+            "now": 259,
+            "change_pct": 19.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -162,11 +298,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 2196,
-            "now": 5146,
-            "change_pct": 134.3
+            "now": 5246,
+            "change_pct": 138.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -183,11 +319,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 13242,
-            "now": 13429,
-            "change_pct": 1.4
+            "now": 13560,
+            "change_pct": 2.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -204,11 +340,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 341,
-            "now": 359,
-            "change_pct": 5.3
+            "now": 365,
+            "change_pct": 7.0
           },
           "briefed_on": "2026-08-05"
         },
@@ -217,6 +353,7 @@
           "type": "domain",
           "brief": "HackerNews comments up 600% and best rank improved 55.8%, on a personal blog that posts about AI tooling almost daily. This is a well-known writer, so the reading is not \"an unknown is rising\" \u2014 it is that a specific post landed hard enough to move the numbers of a site that is usually steady. Worth reading the post, not tracking the domain.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -235,6 +372,7 @@
           "type": "domain",
           "brief": "The Pudding, a visual-essay publication, with 157 HackerNews comments and its best rank up 23.3%. Comments are actually down 16% from the previous window, so the thread is past its peak; what put this here is the rank move, which follows front-page placement rather than leading it. Attention, not adoption.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -267,11 +405,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 2196,
-            "now": 5146,
-            "change_pct": 134.3
+            "now": 5246,
+            "change_pct": 138.9
           },
           "briefed_on": "2026-08-04"
         },
@@ -280,6 +418,7 @@
           "type": "domain",
           "brief": "A data-engineering blog whose HackerNews numbers moved 20% on a base of four points. The percentage is real and the base is far too small to carry it \u2014 this is here because two unrelated collectors happened to see it, not because anything large happened. Worth a second look only if it returns later in the week.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -319,6 +458,7 @@
           "type": "domain",
           "brief": "A foundry cataloguing fonts built for contemporary typesetting, on the HackerNews front page today with 31 comments. Its traffic rank moved 1.2% in the same window, and that is almost certainly the front page rather than anything independent \u2014 front-page placement sends a spike that a popularity ranking then registers. One event seen twice, not two events.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -337,6 +477,7 @@
           "type": "domain",
           "brief": "Di\u00e1taxis is a framework for structuring technical documentation into four modes, and it drew 59 HackerNews comments today. The 0.9% move in its traffic rank arrived alongside that thread rather than before it, so this is attention rather than adoption \u2014 the useful question is whether the rank holds next week once the thread is gone. That test is exactly what a daily time-series is for.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -355,6 +496,7 @@
           "type": "domain",
           "brief": "A magazine covering underrated ideas in science and policy, with 59 HackerNews comments today. Same shape as the other front-page domains on this list: real discussion, a half-percent nudge to its traffic rank, and no evidence yet that separates a good post from a growing publication.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -386,11 +528,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 1007,
-            "now": 1550,
-            "change_pct": 53.9
+            "now": 1588,
+            "change_pct": 57.7
           },
           "briefed_on": "2026-08-03"
         },
@@ -407,11 +549,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-03",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 293,
-            "now": 339,
-            "change_pct": 15.7
+            "now": 439,
+            "change_pct": 49.8
           },
           "briefed_on": "2026-08-03"
         },
@@ -439,6 +581,7 @@
           "type": "domain",
           "brief": "An F1 wiki with 1.5% rank movement and 1% subnet growth. Genuinely marginal \u2014 it clears the corroboration bar because two independent sources both registered the same small climb. Listed for honesty about what today's threshold admits.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "majestic_million",
             "openpagerank",
@@ -456,6 +599,7 @@
           "type": "domain",
           "brief": "Same shape as createcentercv: three sources, all agreeing, none dramatic. Rank up 5.4% with subnets up 2%. A long-established word-game site \u2014 this is what steady looks like, and it is here to show that the corroboration rule fires on ordinary movement too, not only on spikes.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "majestic_million",
             "openpagerank",
@@ -474,6 +618,7 @@
           "type": "domain",
           "brief": "Referring IPs up 29% and subnets up 28% \u2014 one new link per network, which is the healthy shape. Rank change of 35% on an established media domain. The near-identical IP and subnet growth is what genuine link acquisition looks like and is the clearest contrast on this page with the Omsk entry.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "majestic_million",
             "openpagerank",
@@ -507,11 +652,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 2196,
-            "now": 5146,
-            "change_pct": 134.3
+            "now": 5246,
+            "change_pct": 138.9
           },
           "briefed_on": "2026-08-02"
         },
@@ -528,11 +673,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "ratings",
             "then": 136461,
-            "now": 140797,
-            "change_pct": 3.2
+            "now": 141498,
+            "change_pct": 3.7
           },
           "briefed_on": "2026-08-02"
         },
@@ -563,11 +708,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 5567,
-            "now": 11811,
-            "change_pct": 112.2
+            "now": 12097,
+            "change_pct": 117.3
           },
           "briefed_on": "2026-08-02"
         },
@@ -584,11 +729,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "ratings",
             "then": 102081,
-            "now": 104431,
-            "change_pct": 2.3
+            "now": 104703,
+            "change_pct": 2.6
           },
           "briefed_on": "2026-08-02"
         },
@@ -605,11 +750,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 344,
-            "now": 1779,
-            "change_pct": 417.2
+            "now": 1836,
+            "change_pct": 433.7
           },
           "briefed_on": "2026-08-02"
         },
@@ -618,6 +763,7 @@
           "type": "domain",
           "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -635,6 +781,7 @@
           "type": "domain",
           "brief": "79 comments on the front page with a 0.6% Tranco move. Astronomy software with a long history. The pattern across today's domain set is clear and worth naming: HackerNews plus a tiny traffic bump almost always means one popular post, not a rising business.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -653,6 +800,7 @@
           "type": "domain",
           "brief": "HackerNews points up 20% from a base of 4, with one comment. This is noise that cleared the bar because the domain population was quiet. Listed so the set stays honest about what qualified rather than quietly dropping it.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -670,6 +818,7 @@
           "type": "domain",
           "brief": "52 comments, front page, 0.6% traffic gain. Chris Coyier is a well-known web developer; this is his personal site. Fourth example of the same shape today, which is a stronger argument for a gate rule about personal blogs than it is about any of these four domains.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -687,6 +836,7 @@
           "type": "domain",
           "brief": "HackerNews comments up 156% to 180 with its front-page rank improving 12%. A personal site pulling that much discussion is usually one essay landing rather than a site becoming popular. Worth reading what it published today; not worth tracking the domain.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -718,11 +868,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 2196,
-            "now": 5146,
-            "change_pct": 134.3
+            "now": 5246,
+            "change_pct": 138.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -731,6 +881,7 @@
           "type": "domain",
           "brief": "HackerNews points up 2,100% to 108 with 65 comments, front page, and nothing else in the system has seen it. This is the earliest shape RiseFinder can detect and also the least proven \u2014 one well-received post produces exactly this. Worth a look precisely because it is undecided.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -790,11 +941,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 1007,
-            "now": 1550,
-            "change_pct": 53.9
+            "now": 1588,
+            "change_pct": 57.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -803,6 +954,7 @@
           "type": "domain",
           "brief": "Three points, no comments, same story as reclip.io. Listed for completeness; a quiet day makes small numbers rank well.",
           "sources": [
+            "crunchbase",
             "dataforseo",
             "hackernews",
             "openpagerank",
@@ -835,11 +987,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 344,
-            "now": 1779,
-            "change_pct": 417.2
+            "now": 1836,
+            "change_pct": 433.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -919,11 +1071,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "ratings",
             "then": 136461,
-            "now": 140797,
-            "change_pct": 3.2
+            "now": 141498,
+            "change_pct": 3.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -940,11 +1092,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "ratings",
             "then": 10.0,
-            "now": 14.0,
-            "change_pct": 40.0
+            "now": 16.0,
+            "change_pct": 60.0
           },
           "briefed_on": "2026-08-01"
         },
@@ -961,11 +1113,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "ratings",
             "then": 214790,
-            "now": 220869,
-            "change_pct": 2.8
+            "now": 222185,
+            "change_pct": 3.4
           },
           "briefed_on": "2026-08-01"
         }
@@ -1009,11 +1161,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 2196,
-            "now": 5146,
-            "change_pct": 134.3
+            "now": 5246,
+            "change_pct": 138.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -1030,11 +1182,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 1007,
-            "now": 1550,
-            "change_pct": 53.9
+            "now": 1588,
+            "change_pct": 57.7
           },
           "briefed_on": "2026-07-31"
         },
@@ -1051,11 +1203,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 6090,
-            "now": 8891,
-            "change_pct": 46.0
+            "now": 9149,
+            "change_pct": 50.2
           },
           "briefed_on": "2026-07-31"
         },
@@ -1072,11 +1224,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 296,
-            "now": 397,
-            "change_pct": 34.1
+            "now": 424,
+            "change_pct": 43.2
           },
           "briefed_on": "2026-07-31"
         },
@@ -1114,11 +1266,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 255,
-            "now": 322,
-            "change_pct": 26.3
+            "now": 331,
+            "change_pct": 29.8
           },
           "briefed_on": "2026-07-31"
         },
@@ -1162,11 +1314,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 290,
-            "now": 344,
-            "change_pct": 18.6
+            "now": 345,
+            "change_pct": 19.0
           },
           "briefed_on": "2026-07-30"
         },
@@ -1204,11 +1356,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 384,
-            "now": 628,
-            "change_pct": 63.5
+            "now": 630,
+            "change_pct": 64.1
           },
           "briefed_on": "2026-07-30"
         },
@@ -1225,11 +1377,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 6090,
-            "now": 8891,
-            "change_pct": 46.0
+            "now": 9149,
+            "change_pct": 50.2
           },
           "briefed_on": "2026-07-30"
         },
@@ -1288,11 +1440,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "ratings",
             "then": 102081,
-            "now": 104431,
-            "change_pct": 2.3
+            "now": 104703,
+            "change_pct": 2.6
           },
           "briefed_on": "2026-07-30"
         },
@@ -1309,11 +1461,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "ratings",
             "then": 124,
-            "now": 164,
-            "change_pct": 32.3
+            "now": 171,
+            "change_pct": 37.9
           },
           "briefed_on": "2026-07-30"
         },
@@ -1330,11 +1482,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "ratings",
             "then": 214790,
-            "now": 220869,
-            "change_pct": 2.8
+            "now": 222185,
+            "change_pct": 3.4
           },
           "briefed_on": "2026-07-30"
         }
