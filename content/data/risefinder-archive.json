@@ -1,6 +1,98 @@
 {
   "days": [
     {
+      "date": "2026-08-08",
+      "count": 5,
+      "items": [
+        {
+          "name": "V4bel/Zapscape",
+          "type": "repo",
+          "brief": "Three independent collectors on day one \u2014 GitHub, HackerNews and Lobsters \u2014 which is rare enough to be the story on its own. Stars and forks both up 12.9%, moving in exact lockstep, and Lobsters comments up 25%. Appearing on both developer communities simultaneously usually means a security tool that does something people immediately recognise as either useful or alarming; 10 forks on 110 stars suggests they are running it to find out.",
+          "sources": [
+            "github",
+            "hackernews",
+            "lobsters"
+          ],
+          "url": "https://github.com/V4bel/Zapscape",
+          "description": "A security research tool for finding and mapping vulnerabilities in networked systems.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-08"
+        },
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Weekly downloads up 9.7% while the week-over-week growth figure itself jumped 342% \u2014 the acceleration is accelerating, which is the rarer of the two readings. 4,518 downloads a week now against 1,621 stars means more people are installing it than have bothered to bookmark it, and that ratio almost never runs this way round. 82 open issues on a library this young is the healthy kind of noise. Fourth appearance and the first where downloads, not attention, are doing the work.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A Python charting library, from the team behind the Reflex web framework.",
+          "appearances": 4,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 8,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1621,
+            "change_pct": 61.0
+          },
+          "briefed_on": "2026-08-08"
+        },
+        {
+          "name": "FedericoTs/quantprobe",
+          "type": "repo",
+          "brief": "Downloads at 1,555 a week but week-over-week growth is NEGATIVE 55%, which is the honest reading: the launch spike is over. Stars still up 4.5%, so attention has not caught up with the decline yet. Worth a line because the idea is good \u2014 telling you whether a 110-billion-parameter model will run on your laptop before you download 60 GB \u2014 and worth watching to see whether it finds a floor or keeps sliding.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/FedericoTs/quantprobe",
+          "description": "Works out whether a large language model will actually run on your machine, and how fast, before you download it.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-08"
+        },
+        {
+          "name": "jj-vcs/jj",
+          "type": "repo",
+          "brief": "30,874 stars and 1,167 forks, so this is not new \u2014 Jujutsu has been the most credible attempt at replacing Git's interface for two years. What moved today is Homebrew installs, up 4.7%, alongside Lobsters points up 18.9%. The Homebrew number is the one that matters: a package-manager install is somebody putting it on their machine, not starring it in a browser tab, and for a version-control system that is the only adoption that counts.",
+          "sources": [
+            "github",
+            "homebrew",
+            "lobsters"
+          ],
+          "url": "https://github.com/jj-vcs/jj",
+          "description": "Jujutsu, a version-control system that works with existing Git repositories but replaces Git's commands with a simpler model.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-08"
+        },
+        {
+          "name": "pg83/shitty",
+          "type": "repo",
+          "brief": "Fourth day, and the shape has not broken. Open issues up 42.9% against 2% star growth \u2014 a ratio that says the people who arrived are using it hard enough to file bugs, long after HackerNews stopped talking (comments moved 1.2%). Most launch-driven repos flatten within seventy-two hours. This one has kept the adoption after losing the audience, which is the transition worth watching for.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/pg83/shitty",
+          "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
+          "appearances": 3,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 217,
+            "now": 269,
+            "change_pct": 24.0
+          },
+          "briefed_on": "2026-08-08"
+        }
+      ]
+    },
+    {
       "date": "2026-08-07",
       "count": 6,
       "items": [
@@ -13,6 +105,7 @@
             "dataforseo",
             "lobsters",
             "openpagerank",
+            "pricing",
             "tranco"
           ],
           "url": "https://hisham.hm",
@@ -31,14 +124,14 @@
           ],
           "url": "https://github.com/pg83/shitty",
           "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
-          "appearances": 2,
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 217,
-            "now": 259,
-            "change_pct": 19.4
+            "now": 269,
+            "change_pct": 24.0
           },
           "briefed_on": "2026-08-07"
         },
@@ -53,7 +146,14 @@
           "url": "https://github.com/leonickson1/Swiftlet",
           "description": "A lightweight Swift web framework for building server-side applications.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-07",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 434,
+            "now": 447,
+            "change_pct": 3.0
+          },
           "briefed_on": "2026-08-07"
         },
         {
@@ -69,11 +169,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 141,
-            "now": 172,
-            "change_pct": 22.0
+            "now": 217,
+            "change_pct": 53.9
           },
           "briefed_on": "2026-08-07"
         },
@@ -129,11 +229,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 141,
-            "now": 172,
-            "change_pct": 22.0
+            "now": 217,
+            "change_pct": 53.9
           },
           "briefed_on": "2026-08-06"
         },
@@ -150,11 +250,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 593,
-            "now": 621,
-            "change_pct": 4.7
+            "now": 652,
+            "change_pct": 9.9
           },
           "briefed_on": "2026-08-06"
         },
@@ -171,11 +271,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 38.0,
-            "now": 40.0,
-            "change_pct": 5.3
+            "now": 41.0,
+            "change_pct": 7.9
           },
           "briefed_on": "2026-08-06"
         },
@@ -274,14 +374,14 @@
           ],
           "url": "https://github.com/pg83/shitty",
           "description": "A terminal emulator written from scratch, aiming for speed and a small codebase.",
-          "appearances": 2,
+          "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 217,
-            "now": 259,
-            "change_pct": 19.4
+            "now": 269,
+            "change_pct": 24.0
           },
           "briefed_on": "2026-08-05"
         },
@@ -298,11 +398,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 2196,
-            "now": 5246,
-            "change_pct": 138.9
+            "now": 5357,
+            "change_pct": 143.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -319,11 +419,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 13242,
-            "now": 13560,
-            "change_pct": 2.4
+            "now": 13674,
+            "change_pct": 3.3
           },
           "briefed_on": "2026-08-05"
         },
@@ -340,11 +440,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 341,
-            "now": 365,
-            "change_pct": 7.0
+            "now": 379,
+            "change_pct": 11.1
           },
           "briefed_on": "2026-08-05"
         },
@@ -405,11 +505,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 2196,
-            "now": 5246,
-            "change_pct": 138.9
+            "now": 5357,
+            "change_pct": 143.9
           },
           "briefed_on": "2026-08-04"
         },
@@ -445,11 +545,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-04",
-            "days_ago": 2,
+            "days_ago": 4,
             "unit": "votes",
             "then": 450,
-            "now": 463,
-            "change_pct": 2.9
+            "now": 465,
+            "change_pct": 3.3
           },
           "briefed_on": "2026-08-04"
         },
@@ -525,14 +625,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 3,
+          "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 1007,
-            "now": 1588,
-            "change_pct": 57.7
+            "now": 1621,
+            "change_pct": 61.0
           },
           "briefed_on": "2026-08-03"
         },
@@ -652,11 +752,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 2196,
-            "now": 5246,
-            "change_pct": 138.9
+            "now": 5357,
+            "change_pct": 143.9
           },
           "briefed_on": "2026-08-02"
         },
@@ -673,11 +773,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 136461,
-            "now": 141498,
-            "change_pct": 3.7
+            "now": 142208,
+            "change_pct": 4.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -708,11 +808,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 5567,
-            "now": 12097,
-            "change_pct": 117.3
+            "now": 12356,
+            "change_pct": 122.0
           },
           "briefed_on": "2026-08-02"
         },
@@ -729,11 +829,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 102081,
-            "now": 104703,
-            "change_pct": 2.6
+            "now": 106632,
+            "change_pct": 4.5
           },
           "briefed_on": "2026-08-02"
         },
@@ -750,11 +850,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 344,
-            "now": 1836,
-            "change_pct": 433.7
+            "now": 1884,
+            "change_pct": 447.7
           },
           "briefed_on": "2026-08-02"
         },
@@ -868,11 +968,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 2196,
-            "now": 5246,
-            "change_pct": 138.9
+            "now": 5357,
+            "change_pct": 143.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -938,14 +1038,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 3,
+          "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 1007,
-            "now": 1588,
-            "change_pct": 57.7
+            "now": 1621,
+            "change_pct": 61.0
           },
           "briefed_on": "2026-08-01"
         },
@@ -987,11 +1087,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 344,
-            "now": 1836,
-            "change_pct": 433.7
+            "now": 1884,
+            "change_pct": 447.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -1029,11 +1129,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 9,
             "unit": "stars",
             "then": 77.0,
-            "now": 118,
-            "change_pct": 53.2
+            "now": 123,
+            "change_pct": 59.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -1071,11 +1171,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 136461,
-            "now": 141498,
-            "change_pct": 3.7
+            "now": 142208,
+            "change_pct": 4.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -1092,11 +1192,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "ratings",
             "then": 10.0,
-            "now": 16.0,
-            "change_pct": 60.0
+            "now": 15.0,
+            "change_pct": 50.0
           },
           "briefed_on": "2026-08-01"
         },
@@ -1113,11 +1213,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 214790,
-            "now": 222185,
-            "change_pct": 3.4
+            "now": 222998,
+            "change_pct": 3.8
           },
           "briefed_on": "2026-08-01"
         }
@@ -1161,11 +1261,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 2196,
-            "now": 5246,
-            "change_pct": 138.9
+            "now": 5357,
+            "change_pct": 143.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -1179,14 +1279,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 3,
+          "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 1007,
-            "now": 1588,
-            "change_pct": 57.7
+            "now": 1621,
+            "change_pct": 61.0
           },
           "briefed_on": "2026-07-31"
         },
@@ -1203,11 +1303,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 6090,
-            "now": 9149,
-            "change_pct": 50.2
+            "now": 9284,
+            "change_pct": 52.4
           },
           "briefed_on": "2026-07-31"
         },
@@ -1266,11 +1366,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 255,
-            "now": 331,
-            "change_pct": 29.8
+            "now": 334,
+            "change_pct": 31.0
           },
           "briefed_on": "2026-07-31"
         },
@@ -1335,11 +1435,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 7,
+            "days_ago": 9,
             "unit": "stars",
             "then": 77.0,
-            "now": 118,
-            "change_pct": 53.2
+            "now": 123,
+            "change_pct": 59.7
           },
           "briefed_on": "2026-07-30"
         },
@@ -1356,11 +1456,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 384,
-            "now": 630,
-            "change_pct": 64.1
+            "now": 643,
+            "change_pct": 67.4
           },
           "briefed_on": "2026-07-30"
         },
@@ -1377,11 +1477,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 6090,
-            "now": 9149,
-            "change_pct": 50.2
+            "now": 9284,
+            "change_pct": 52.4
           },
           "briefed_on": "2026-07-30"
         },
@@ -1440,11 +1540,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 102081,
-            "now": 104703,
-            "change_pct": 2.6
+            "now": 106632,
+            "change_pct": 4.5
           },
           "briefed_on": "2026-07-30"
         },
@@ -1461,11 +1561,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 124,
-            "now": 171,
-            "change_pct": 37.9
+            "now": 175,
+            "change_pct": 41.1
           },
           "briefed_on": "2026-07-30"
         },
@@ -1482,11 +1582,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 214790,
-            "now": 222185,
-            "change_pct": 3.4
+            "now": 222998,
+            "change_pct": 3.8
           },
           "briefed_on": "2026-07-30"
         }
