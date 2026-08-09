@@ -136,119 +136,119 @@
       "label": "HackerNews \u2014 points",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 10,
+      "have_days": 11,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
+          "name": "tom-ilan/cycloidal_gearbox",
+          "entity_type": "repo",
+          "description": null,
+          "was": 136,
+          "now": 337,
+          "unit": "points",
+          "gain_pct": 147.8,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-08"
+        },
+        {
+          "name": "episko.dev",
+          "entity_type": "domain",
+          "description": null,
+          "was": 10.0,
+          "now": 13.0,
+          "unit": "points",
+          "gain_pct": 30.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-04"
+        },
+        {
           "name": "intellios.ai",
           "entity_type": "domain",
           "description": null,
-          "was": 61.0,
+          "was": 138,
           "now": 158,
           "unit": "points",
-          "gain_pct": 159.0,
+          "gain_pct": 14.5,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-04"
+        },
+        {
+          "name": "dreeveapp/dreeve",
+          "entity_type": "repo",
+          "description": null,
+          "was": 17.0,
+          "now": 18.0,
+          "unit": "points",
+          "gain_pct": 5.9,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-04"
+        },
+        {
+          "name": "federalistreader.org",
+          "entity_type": "domain",
+          "description": null,
+          "was": 55.0,
+          "now": 58.0,
+          "unit": "points",
+          "gain_pct": 5.5,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-05"
+        },
+        {
+          "name": "costperprompt.com",
+          "entity_type": "domain",
+          "description": null,
+          "was": 19.0,
+          "now": 20.0,
+          "unit": "points",
+          "gain_pct": 5.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-03"
+        },
+        {
+          "name": "privacything.com",
+          "entity_type": "domain",
+          "description": null,
+          "was": 19.0,
+          "now": 20.0,
+          "unit": "points",
+          "gain_pct": 5.3,
           "from_day": "2026-08-01",
           "to_day": "2026-08-04"
         },
         {
-          "name": "hurtle.site",
+          "name": "john.fun",
           "entity_type": "domain",
           "description": null,
-          "was": 32.0,
-          "now": 42.0,
+          "was": 1594,
+          "now": 1668,
           "unit": "points",
-          "gain_pct": 31.2,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-02"
+          "gain_pct": 4.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-07"
         },
         {
           "name": "richlegrand/bitbang-cli",
           "entity_type": "repo",
           "description": null,
-          "was": 75.0,
+          "was": 93.0,
           "now": 97.0,
           "unit": "points",
-          "gain_pct": 29.3,
-          "from_day": "2026-08-01",
+          "gain_pct": 4.3,
+          "from_day": "2026-08-02",
           "to_day": "2026-08-04"
         },
         {
           "name": "marbleos.com",
           "entity_type": "domain",
           "description": null,
-          "was": 108,
+          "was": 132,
           "now": 137,
           "unit": "points",
-          "gain_pct": 26.9,
-          "from_day": "2026-08-01",
+          "gain_pct": 3.8,
+          "from_day": "2026-08-02",
           "to_day": "2026-08-06"
-        },
-        {
-          "name": "trytilde.ai",
-          "entity_type": "domain",
-          "description": null,
-          "was": 23.0,
-          "now": 29.0,
-          "unit": "points",
-          "gain_pct": 26.1,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-04"
-        },
-        {
-          "name": "chronos-game.com",
-          "entity_type": "domain",
-          "description": null,
-          "was": 12.0,
-          "now": 15.0,
-          "unit": "points",
-          "gain_pct": 25.0,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-02"
-        },
-        {
-          "name": "sylixide.com",
-          "entity_type": "domain",
-          "description": null,
-          "was": 16.0,
-          "now": 20.0,
-          "unit": "points",
-          "gain_pct": 25.0,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-02"
-        },
-        {
-          "name": "sawfwair/mere-run",
-          "entity_type": "repo",
-          "description": null,
-          "was": 14.0,
-          "now": 16.0,
-          "unit": "points",
-          "gain_pct": 14.3,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-02"
-        },
-        {
-          "name": "federalistreader.org",
-          "entity_type": "domain",
-          "description": null,
-          "was": 51.0,
-          "now": 58.0,
-          "unit": "points",
-          "gain_pct": 13.7,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-05"
-        },
-        {
-          "name": "dreeveapp/dreeve",
-          "entity_type": "repo",
-          "description": null,
-          "was": 16.0,
-          "now": 18.0,
-          "unit": "points",
-          "gain_pct": 12.5,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-04"
         }
       ]
     },
@@ -257,7 +257,7 @@
       "label": "HackerNews \u2014 points",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 10,
+      "have_days": 11,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -1132,136 +1132,136 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-08T06:48:36Z",
+  "generated_at": "2026-08-09T05:04:39Z",
   "windows": [
     {
       "source": "majestic_million",
       "label": "Majestic \u2014 backlinks",
       "window": "2-day",
       "window_days": 2,
-      "have_days": 8,
+      "have_days": 9,
       "need_days": 2,
       "first_day": "2026-07-31",
       "items": [
         {
-          "domain": "cilaisz.us",
-          "rank": 15080,
-          "was": 328451,
-          "gain_pct": 95.4,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "fct.co",
+          "rank": 11120,
+          "was": 560369,
+          "gain_pct": 98.0,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "verificator.cc",
-          "rank": 15177,
-          "was": 243292,
-          "gain_pct": 93.8,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "ancestry.fr",
+          "rank": 21942,
+          "was": 526045,
+          "gain_pct": 95.8,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "f5.com",
+          "rank": 25,
+          "was": 577,
+          "gain_pct": 95.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "videojs.org",
+          "rank": 3929,
+          "was": 85505,
+          "gain_pct": 95.4,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "adidas.com.hk",
-          "rank": 32292,
-          "was": 484023,
-          "gain_pct": 93.3,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "rank": 24482,
+          "was": 487621,
+          "gain_pct": 95.0,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "virdsam3.org",
-          "rank": 18398,
-          "was": 188687,
-          "gain_pct": 90.2,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "aspip.org",
+          "rank": 26176,
+          "was": 328463,
+          "gain_pct": 92.0,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "truvabet.biz",
-          "rank": 52774,
-          "was": 490341,
-          "gain_pct": 89.2,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "mnknit.com",
+          "rank": 27212,
+          "was": 328138,
+          "gain_pct": 91.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "kinooihuot5t.shop",
-          "rank": 87471,
-          "was": 791761,
-          "gain_pct": 89.0,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "kinooihuot9d.shop",
+          "rank": 54250,
+          "was": 628267,
+          "gain_pct": 91.4,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "ufabet3xi.com",
-          "rank": 46604,
-          "was": 373380,
-          "gain_pct": 87.5,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "123bwinz.com",
+          "rank": 54668,
+          "was": 590379,
+          "gain_pct": 90.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "empathie.it",
-          "rank": 15633,
-          "was": 112422,
-          "gain_pct": 86.1,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "tri-sport.ru",
+          "rank": 13559,
+          "was": 136723,
+          "gain_pct": 90.1,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "theflowerbees.com",
-          "rank": 79387,
-          "was": 518095,
-          "gain_pct": 84.7,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "musee-transports42.fr",
+          "rank": 71230,
+          "was": 652435,
+          "gain_pct": 89.1,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "twincitiescrepasandwaffles.com",
-          "rank": 109348,
-          "was": 679837,
-          "gain_pct": 83.9,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "chickenroads.com.es",
+          "rank": 67860,
+          "was": 551969,
+          "gain_pct": 87.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "buy-flowers.ru",
-          "rank": 98404,
-          "was": 573161,
-          "gain_pct": 82.8,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "montrealarabic.com",
+          "rank": 37823,
+          "was": 285155,
+          "gain_pct": 86.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "bandyfeber.com",
-          "rank": 134055,
-          "was": 752488,
-          "gain_pct": 82.2,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "socoliveky.cc",
+          "rank": 59447,
+          "was": 441802,
+          "gain_pct": 86.5,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "charticulator.com",
-          "rank": 130025,
-          "was": 693180,
-          "gain_pct": 81.2,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "mdaemon.com",
-          "rank": 15693,
-          "was": 80705,
-          "gain_pct": 80.6,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "coraltravel.pl",
-          "rank": 85726,
-          "was": 409390,
-          "gain_pct": 79.1,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "mondotvstudios.com",
+          "rank": 93195,
+          "was": 651280,
+          "gain_pct": 85.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         }
       ]
     },
@@ -1270,129 +1270,129 @@
       "label": "Majestic \u2014 backlinks",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 8,
+      "have_days": 9,
       "need_days": 7,
       "first_day": "2026-07-31",
       "items": [
         {
-          "domain": "microgaming.io",
-          "rank": 11279,
-          "was": 435779,
-          "gain_pct": 97.4,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "dropcatch.ai",
-          "rank": 11842,
-          "was": 411770,
-          "gain_pct": 97.1,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "blog5.net",
-          "rank": 9246,
-          "was": 262417,
-          "gain_pct": 96.5,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "bijoucoffee.co.uk",
-          "rank": 21004,
-          "was": 602057,
-          "gain_pct": 96.5,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "mgorv.ru",
-          "rank": 14103,
-          "was": 397226,
-          "gain_pct": 96.4,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "verificator.cc",
+          "rank": 12019,
+          "was": 440255,
+          "gain_pct": 97.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "cref.ru",
-          "rank": 15238,
-          "was": 424437,
-          "gain_pct": 96.4,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "rank": 13709,
+          "was": 410228,
+          "gain_pct": 96.7,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "twinmusicom.org",
-          "rank": 21479,
-          "was": 532286,
-          "gain_pct": 96.0,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "mgorv.ru",
+          "rank": 13525,
+          "was": 387598,
+          "gain_pct": 96.5,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "aidar.ru",
-          "rank": 4890,
-          "was": 109132,
-          "gain_pct": 95.5,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "f5.com",
+          "rank": 25,
+          "was": 586,
+          "gain_pct": 95.7,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "microgaming.io",
+          "rank": 11227,
+          "was": 254936,
+          "gain_pct": 95.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "cilaisz.us",
-          "rank": 15080,
-          "was": 329180,
-          "gain_pct": 95.4,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "rank": 14905,
+          "was": 333233,
+          "gain_pct": 95.5,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "gameplayspace.com",
-          "rank": 27389,
-          "was": 448923,
-          "gain_pct": 93.9,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "openfontlicense.org",
+          "rank": 21294,
+          "was": 449704,
+          "gain_pct": 95.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "westcoastcleantransit.com",
-          "rank": 29716,
-          "was": 488121,
-          "gain_pct": 93.9,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "twinmusicom.org",
+          "rank": 30863,
+          "was": 511195,
+          "gain_pct": 94.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "adidas.com.hk",
-          "rank": 32292,
-          "was": 495473,
-          "gain_pct": 93.5,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "smile-net.ru",
-          "rank": 60500,
-          "was": 765680,
-          "gain_pct": 92.1,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "circlesealcontrols.com",
+          "rank": 37678,
+          "was": 540678,
+          "gain_pct": 93.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "agb99.me",
-          "rank": 34518,
-          "was": 430181,
-          "gain_pct": 92.0,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "rank": 35196,
+          "was": 423320,
+          "gain_pct": 91.7,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "intel.de",
-          "rank": 3623,
-          "was": 41982,
-          "gain_pct": 91.4,
-          "from_day": "2026-07-31",
-          "to_day": "2026-08-08"
+          "domain": "tri-sport.ru",
+          "rank": 13559,
+          "was": 151420,
+          "gain_pct": 91.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "virdsam3.org",
+          "rank": 18071,
+          "was": 192051,
+          "gain_pct": 90.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "paint.net",
+          "rank": 5791,
+          "was": 53883,
+          "gain_pct": 89.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "todocancer.com",
+          "rank": 35107,
+          "was": 328883,
+          "gain_pct": 89.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "banyanthailand.com",
+          "rank": 84840,
+          "was": 752924,
+          "gain_pct": 88.7,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         }
       ]
     },
@@ -1401,7 +1401,7 @@
       "label": "Majestic \u2014 backlinks",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 8,
+      "have_days": 9,
       "need_days": 30,
       "first_day": "2026-07-31",
       "items": []
@@ -1411,7 +1411,7 @@
       "label": "Majestic \u2014 backlinks",
       "window": "quarterly",
       "window_days": 91,
-      "have_days": 8,
+      "have_days": 9,
       "need_days": 91,
       "first_day": "2026-07-31",
       "items": []
@@ -1421,7 +1421,7 @@
       "label": "Majestic \u2014 backlinks",
       "window": "yearly",
       "window_days": 365,
-      "have_days": 8,
+      "have_days": 9,
       "need_days": 365,
       "first_day": "2026-07-31",
       "items": []
@@ -1431,129 +1431,129 @@
       "label": "Tranco \u2014 traffic",
       "window": "2-day",
       "window_days": 2,
-      "have_days": 7,
+      "have_days": 8,
       "need_days": 2,
       "first_day": "2026-08-01",
       "items": [
         {
-          "domain": "serverpod.net",
-          "rank": 44181,
-          "was": 198065,
-          "gain_pct": 77.7,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "reklamdenizbank.com",
+          "rank": 53032,
+          "was": 434227,
+          "gain_pct": 87.8,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "keyword-tokyo-media-infomation.xyz",
-          "rank": 169013,
-          "was": 731094,
-          "gain_pct": 76.9,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "civiltary.com",
+          "rank": 70482,
+          "was": 532015,
+          "gain_pct": 86.8,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "neutral.no",
-          "rank": 153442,
-          "was": 608159,
-          "gain_pct": 74.8,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "denizyatirim.com",
+          "rank": 49469,
+          "was": 232129,
+          "gain_pct": 78.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "denizozel.com",
-          "rank": 70623,
-          "was": 269332,
-          "gain_pct": 73.8,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "rank": 70437,
+          "was": 271458,
+          "gain_pct": 74.1,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "denizfirsat.com",
-          "rank": 116927,
-          "was": 433297,
-          "gain_pct": 73.0,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "faydadenizi.com",
+          "rank": 137060,
+          "was": 468300,
+          "gain_pct": 70.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "rosfon.com",
-          "rank": 54579,
-          "was": 198024,
-          "gain_pct": 72.4,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "zenvy.best",
+          "rank": 105273,
+          "was": 357932,
+          "gain_pct": 70.6,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "digst.ru",
-          "rank": 148719,
-          "was": 478343,
-          "gain_pct": 68.9,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "rank": 148469,
+          "was": 475058,
+          "gain_pct": 68.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "denizbonus.com",
-          "rank": 122611,
-          "was": 392701,
-          "gain_pct": 68.8,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "denizbank.ag",
+          "rank": 40876,
+          "was": 125078,
+          "gain_pct": 67.3,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "neutral.se",
-          "rank": 196261,
-          "was": 563106,
-          "gain_pct": 65.1,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "serverpod.net",
+          "rank": 43910,
+          "was": 127656,
+          "gain_pct": 65.6,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "livehwc4.com",
-          "rank": 51735,
-          "was": 133567,
-          "gain_pct": 61.3,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "vimexx.com",
+          "rank": 145519,
+          "was": 413916,
+          "gain_pct": 64.8,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "sc-core.net",
-          "rank": 166681,
-          "was": 375174,
-          "gain_pct": 55.6,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "doximity-alpha.services",
+          "rank": 130881,
+          "was": 322151,
+          "gain_pct": 59.4,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "alphabet.es",
+          "rank": 174058,
+          "was": 424363,
+          "gain_pct": 59.0,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "butterfly-effect.dev",
-          "rank": 33181,
-          "was": 74639,
-          "gain_pct": 55.5,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "rank": 31673,
+          "was": 74570,
+          "gain_pct": 57.5,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "ifsservices.com",
-          "rank": 169488,
-          "was": 377829,
-          "gain_pct": 55.1,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "assurantlogistics.com",
+          "rank": 155921,
+          "was": 359594,
+          "gain_pct": 56.6,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "crypto.com",
-          "rank": 2532,
-          "was": 5545,
-          "gain_pct": 54.3,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "royalcanin.ru",
-          "rank": 117701,
-          "was": 252177,
-          "gain_pct": 53.3,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-08"
+          "domain": "dealermaster-de.bmw",
+          "rank": 177875,
+          "was": 404621,
+          "gain_pct": 56.0,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-09"
         }
       ]
     },
@@ -1562,129 +1562,129 @@
       "label": "Tranco \u2014 traffic",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 7,
+      "have_days": 8,
       "need_days": 7,
       "first_day": "2026-08-01",
       "items": [
         {
           "domain": "workbox.dk",
           "rank": 100,
-          "was": 8232,
+          "was": 8140,
           "gain_pct": 98.8,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "cdn90.cn",
-          "rank": 2877,
-          "was": 55291,
-          "gain_pct": 94.8,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "pososite.com",
-          "rank": 33232,
-          "was": 480742,
-          "gain_pct": 93.1,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "dezinsekciya-top.ru",
-          "rank": 50845,
-          "was": 731639,
-          "gain_pct": 93.1,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "wskam.com",
-          "rank": 3359,
-          "was": 37679,
-          "gain_pct": 91.1,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "denizbank.ag",
+          "rank": 40876,
+          "was": 580617,
+          "gain_pct": 93.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "cloudapp.man",
-          "rank": 61689,
-          "was": 643469,
-          "gain_pct": 90.4,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "rank": 45162,
+          "was": 647397,
+          "gain_pct": 93.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "persistfromchicago.com",
-          "rank": 29281,
-          "was": 259061,
-          "gain_pct": 88.7,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "cdn90.cn",
+          "rank": 2384,
+          "was": 29093,
+          "gain_pct": 91.8,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "cncdomain.com",
-          "rank": 27663,
-          "was": 234482,
-          "gain_pct": 88.2,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "confidentialphonelookup.com",
+          "rank": 60430,
+          "was": 620602,
+          "gain_pct": 90.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "aidar.ru",
-          "rank": 80607,
-          "was": 658023,
-          "gain_pct": 87.8,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "pososite.com",
+          "rank": 26572,
+          "was": 266499,
+          "gain_pct": 90.0,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "wskam.com",
+          "rank": 2881,
+          "was": 27017,
+          "gain_pct": 89.3,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "lzs.dog",
+          "rank": 69485,
+          "was": 638448,
+          "gain_pct": 89.1,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "camking.net",
-          "rank": 72713,
-          "was": 558878,
-          "gain_pct": 87.0,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
-        },
-        {
-          "domain": "clickfunnel.buzz",
-          "rank": 66138,
-          "was": 495760,
-          "gain_pct": 86.7,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "rank": 60511,
+          "was": 532957,
+          "gain_pct": 88.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
           "domain": "whoischecker.co.uk",
-          "rank": 75547,
-          "was": 510193,
-          "gain_pct": 85.2,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "rank": 62528,
+          "was": 508403,
+          "gain_pct": 87.7,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "orlilab.com",
-          "rank": 106204,
-          "was": 699797,
-          "gain_pct": 84.8,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "persistfromchicago.com",
+          "rank": 25823,
+          "was": 207433,
+          "gain_pct": 87.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "futurecraftorbit.com",
-          "rank": 60667,
-          "was": 377762,
-          "gain_pct": 83.9,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "legalendowmad.com",
+          "rank": 75270,
+          "was": 605978,
+          "gain_pct": 87.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         },
         {
-          "domain": "sanxingyesone.com",
-          "rank": 33541,
-          "was": 204150,
-          "gain_pct": 83.6,
-          "from_day": "2026-08-01",
-          "to_day": "2026-08-08"
+          "domain": "clickfunnel.buzz",
+          "rank": 56052,
+          "was": 427700,
+          "gain_pct": 86.9,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "denizyatirim.com",
+          "rank": 49469,
+          "was": 356079,
+          "gain_pct": 86.1,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
+        },
+        {
+          "domain": "osgear.to",
+          "rank": 58591,
+          "was": 407881,
+          "gain_pct": 85.6,
+          "from_day": "2026-08-02",
+          "to_day": "2026-08-09"
         }
       ]
     },
@@ -1693,7 +1693,7 @@
       "label": "Tranco \u2014 traffic",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 7,
+      "have_days": 8,
       "need_days": 30,
       "first_day": "2026-08-01",
       "items": []
@@ -1703,7 +1703,7 @@
       "label": "Tranco \u2014 traffic",
       "window": "quarterly",
       "window_days": 91,
-      "have_days": 7,
+      "have_days": 8,
       "need_days": 91,
       "first_day": "2026-08-01",
       "items": []
@@ -1713,20 +1713,20 @@
       "label": "Tranco \u2014 traffic",
       "window": "yearly",
       "window_days": 365,
-      "have_days": 7,
+      "have_days": 8,
       "need_days": 365,
       "first_day": "2026-08-01",
       "items": []
     }
   ],
-  "data_through": "2026-08-08",
+  "data_through": "2026-08-09",
   "briefed_through": "2026-08-08",
   "stats": {
-    "entities": 14678,
-    "snapshots": 439316,
-    "sources_live": 23,
+    "entities": 15608,
+    "snapshots": 448768,
+    "sources_live": 3,
     "first_day": "2026-07-28",
-    "days_collected": 12
+    "days_collected": 13
   },
   "items": [
     {
