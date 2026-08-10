@@ -1,6 +1,99 @@
 {
   "days": [
     {
+      "date": "2026-08-10",
+      "count": 5,
+      "items": [
+        {
+          "name": "MakazhanAlpamys/Soup",
+          "type": "repo",
+          "brief": "68 open issues against 430 stars \u2014 a 16% ratio, roughly five times what a healthy young repo shows, and forks up 5.5% against 3% star growth. Both point the same way: the people arriving are running it and hitting walls, not bookmarking it. For a tool claiming to fine-tune an 8-billion-parameter model on ordinary hardware, hitting walls is exactly what you would expect and exactly what makes the claim testable. HackerNews has gone quiet at 0.7%, so this is now growing without a thread pushing it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/MakazhanAlpamys/Soup",
+          "description": "Fine-tunes large language models from a single configuration file, streaming layers so an 8-billion-parameter model fits on ordinary hardware.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-10"
+        },
+        {
+          "name": "palamim/starboard",
+          "type": "repo",
+          "brief": "Stars up 4.9%, forks up 6.7%, open issues up 20% \u2014 modest across the board and consistent in direction, which on a 144-star repo means a handful of real users rather than a crowd. A terminal pinned beside the Dock is a narrow idea with an obvious audience, and the fork-to-star ratio suggests some of them are already changing it. Two days since the last push.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/palamim/starboard",
+          "description": "A Mac terminal that lives permanently beside the Dock rather than appearing on a hotkey.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-10"
+        },
+        {
+          "name": "t8y2/dbx",
+          "type": "repo",
+          "brief": "Third appearance. 13,242 stars with 1,344 forks and 1,117 open issues is an unusual shape \u2014 one fork per ten stars where most repos manage one in fifty \u2014 and that ratio has held steady across a week rather than spiking and fading. The Homebrew route remains the thing to watch: a package-manager install is somebody putting it on their machine, which is the only adoption a desktop database client can honestly claim.",
+          "sources": [
+            "github",
+            "homebrew"
+          ],
+          "url": "https://github.com/t8y2/dbx",
+          "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 5,
+            "unit": "stars",
+            "then": 13242,
+            "now": 13877,
+            "change_pct": 4.8
+          },
+          "briefed_on": "2026-08-10"
+        },
+        {
+          "name": "seangoedecke.com",
+          "type": "domain",
+          "brief": "Lobsters comments doubled and points rose 117.6% \u2014 a second developer community picking up a post that HackerNews already ran to 564 comments three days ago. That sequence is worth noticing: not a launch wave hitting several sites at once, but one community finding it after another had finished with it. The HackerNews numbers have not moved since; this is entirely the Lobsters audience.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://seangoedecke.com",
+          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
+          "appearances": 2,
+          "track": null,
+          "briefed_on": "2026-08-10"
+        },
+        {
+          "name": "arcprize.org",
+          "type": "domain",
+          "brief": "470 HackerNews comments, the second-largest thread this week, on a benchmark designed to measure reasoning rather than memorisation. Comments up only 2.2% and best rank down 38.8%, so the thread has peaked \u2014 what puts this here is the size of the discussion, not its growth. A benchmark that provokes 470 comments is usually being argued about rather than adopted, and the useful question is whether anyone builds against it.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://arcprize.org",
+          "description": "The ARC Prize, a competition and benchmark for measuring genuine reasoning in AI systems rather than memorisation.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-10"
+        }
+      ]
+    },
+    {
       "date": "2026-08-09",
       "count": 5,
       "items": [
@@ -17,11 +110,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-07",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 434,
-            "now": 462,
-            "change_pct": 6.5
+            "now": 470,
+            "change_pct": 8.3
           },
           "briefed_on": "2026-08-09"
         },
@@ -35,7 +128,8 @@
             "lobsters",
             "openpagerank",
             "pricing",
-            "tranco"
+            "tranco",
+            "wikipedia"
           ],
           "url": "https://bobdahacker.com",
           "description": "The site of a security researcher who publishes findings from breaking into consumer products and services.",
@@ -53,7 +147,8 @@
             "hackernews",
             "openpagerank",
             "pricing",
-            "tranco"
+            "tranco",
+            "wikipedia"
           ],
           "url": "https://runtimewire.com",
           "description": "A startup-intelligence service tracking funding rounds and company activity in AI.",
@@ -73,7 +168,14 @@
           "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
           "description": "A catalogue of the worst-performing machine instructions across CPU designs, collected by a well-known reverse engineer.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-09",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 567,
+            "now": 677,
+            "change_pct": 19.4
+          },
           "briefed_on": "2026-08-09"
         },
         {
@@ -90,11 +192,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 30874,
-            "now": 30887,
-            "change_pct": 0.0
+            "now": 30906,
+            "change_pct": 0.1
           },
           "briefed_on": "2026-08-09"
         }
@@ -118,11 +220,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 110,
-            "now": 122,
-            "change_pct": 10.9
+            "now": 134,
+            "change_pct": 21.8
           },
           "briefed_on": "2026-08-08"
         },
@@ -139,11 +241,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 1007,
-            "now": 1646,
-            "change_pct": 63.5
+            "now": 1668,
+            "change_pct": 65.6
           },
           "briefed_on": "2026-08-08"
         },
@@ -160,11 +262,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 73.0,
-            "now": 77.0,
-            "change_pct": 5.5
+            "now": 78.0,
+            "change_pct": 6.8
           },
           "briefed_on": "2026-08-08"
         },
@@ -182,11 +284,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 30874,
-            "now": 30887,
-            "change_pct": 0.0
+            "now": 30906,
+            "change_pct": 0.1
           },
           "briefed_on": "2026-08-08"
         },
@@ -203,11 +305,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 217,
-            "now": 273,
-            "change_pct": 25.8
+            "now": 274,
+            "change_pct": 26.3
           },
           "briefed_on": "2026-08-08"
         }
@@ -248,11 +350,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 217,
-            "now": 273,
-            "change_pct": 25.8
+            "now": 274,
+            "change_pct": 26.3
           },
           "briefed_on": "2026-08-07"
         },
@@ -269,11 +371,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-07",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 434,
-            "now": 462,
-            "change_pct": 6.5
+            "now": 470,
+            "change_pct": 8.3
           },
           "briefed_on": "2026-08-07"
         },
@@ -290,11 +392,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 141,
-            "now": 234,
-            "change_pct": 66.0
+            "now": 239,
+            "change_pct": 69.5
           },
           "briefed_on": "2026-08-07"
         },
@@ -350,11 +452,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 141,
-            "now": 234,
-            "change_pct": 66.0
+            "now": 239,
+            "change_pct": 69.5
           },
           "briefed_on": "2026-08-06"
         },
@@ -371,11 +473,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 593,
-            "now": 662,
-            "change_pct": 11.6
+            "now": 676,
+            "change_pct": 14.0
           },
           "briefed_on": "2026-08-06"
         },
@@ -392,11 +494,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 38.0,
-            "now": 42.0,
-            "change_pct": 10.5
+            "now": 44.0,
+            "change_pct": 15.8
           },
           "briefed_on": "2026-08-06"
         },
@@ -416,7 +518,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 1,
+          "appearances": 2,
           "track": null,
           "briefed_on": "2026-08-06"
         },
@@ -477,11 +579,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 67.0,
-            "now": 77.0,
-            "change_pct": 14.9
+            "now": 80.0,
+            "change_pct": 19.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -498,11 +600,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 217,
-            "now": 273,
-            "change_pct": 25.8
+            "now": 274,
+            "change_pct": 26.3
           },
           "briefed_on": "2026-08-05"
         },
@@ -519,11 +621,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 2196,
-            "now": 5458,
-            "change_pct": 148.5
+            "now": 5544,
+            "change_pct": 152.5
           },
           "briefed_on": "2026-08-05"
         },
@@ -537,14 +639,14 @@
           ],
           "url": "https://github.com/t8y2/dbx",
           "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
-          "appearances": 1,
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 13242,
-            "now": 13744,
-            "change_pct": 3.8
+            "now": 13877,
+            "change_pct": 4.8
           },
           "briefed_on": "2026-08-05"
         },
@@ -561,11 +663,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 341,
-            "now": 402,
-            "change_pct": 17.9
+            "now": 407,
+            "change_pct": 19.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -626,11 +728,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 2196,
-            "now": 5458,
-            "change_pct": 148.5
+            "now": 5544,
+            "change_pct": 152.5
           },
           "briefed_on": "2026-08-04"
         },
@@ -650,7 +752,14 @@
           "url": "https://ssp.sh",
           "description": "A blog on data engineering \u2014 pipelines, warehouses and the tooling around them \u2014 written by one practitioner.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-04",
+            "days_ago": 6,
+            "unit": "authority",
+            "then": 4.69,
+            "now": 4.69,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-04"
         },
         {
@@ -666,11 +775,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-04",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "votes",
             "then": 450,
-            "now": 463,
-            "change_pct": 2.9
+            "now": 464,
+            "change_pct": 3.1
           },
           "briefed_on": "2026-08-04"
         },
@@ -749,11 +858,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 1007,
-            "now": 1646,
-            "change_pct": 63.5
+            "now": 1668,
+            "change_pct": 65.6
           },
           "briefed_on": "2026-08-03"
         },
@@ -851,7 +960,14 @@
           "url": "https://mondomedia.com",
           "description": "The publisher behind Happy Tree Friends and Dick Figures \u2014 adult animated shorts, online since the 1990s.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-03",
+            "days_ago": 7,
+            "unit": "authority",
+            "then": 3.56,
+            "now": 3.56,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-03"
         }
       ]
@@ -873,11 +989,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 2196,
-            "now": 5458,
-            "change_pct": 148.5
+            "now": 5544,
+            "change_pct": 152.5
           },
           "briefed_on": "2026-08-02"
         },
@@ -894,11 +1010,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 136461,
-            "now": 142675,
-            "change_pct": 4.6
+            "now": 143394,
+            "change_pct": 5.1
           },
           "briefed_on": "2026-08-02"
         },
@@ -929,11 +1045,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 5567,
-            "now": 12584,
-            "change_pct": 126.0
+            "now": 12831,
+            "change_pct": 130.5
           },
           "briefed_on": "2026-08-02"
         },
@@ -950,11 +1066,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "ratings",
             "then": 102081,
-            "now": 107493,
-            "change_pct": 5.3
+            "now": 108293,
+            "change_pct": 6.1
           },
           "briefed_on": "2026-08-02"
         },
@@ -971,11 +1087,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 344,
-            "now": 1935,
-            "change_pct": 462.5
+            "now": 2006,
+            "change_pct": 483.1
           },
           "briefed_on": "2026-08-02"
         },
@@ -994,7 +1110,14 @@
           "url": "https://hillelwayne.com",
           "description": null,
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 5.5,
+            "now": 5.5,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-02"
         },
         {
@@ -1013,7 +1136,14 @@
           "url": "https://projectpluto.com",
           "description": null,
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 5.32,
+            "now": 5.32,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-02"
         },
         {
@@ -1031,7 +1161,14 @@
           "url": "https://seriot.ch",
           "description": null,
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 6.63,
+            "now": 6.63,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-02"
         },
         {
@@ -1089,11 +1226,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 2196,
-            "now": 5458,
-            "change_pct": 148.5
+            "now": 5544,
+            "change_pct": 152.5
           },
           "briefed_on": "2026-08-01"
         },
@@ -1163,11 +1300,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 1007,
-            "now": 1646,
-            "change_pct": 63.5
+            "now": 1668,
+            "change_pct": 65.6
           },
           "briefed_on": "2026-08-01"
         },
@@ -1188,7 +1325,7 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 9,
             "unit": "authority",
             "then": 1.14,
             "now": 1.14,
@@ -1209,11 +1346,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 344,
-            "now": 1935,
-            "change_pct": 462.5
+            "now": 2006,
+            "change_pct": 483.1
           },
           "briefed_on": "2026-08-01"
         },
@@ -1251,11 +1388,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 77.0,
-            "now": 124,
-            "change_pct": 61.0
+            "now": 125,
+            "change_pct": 62.3
           },
           "briefed_on": "2026-08-01"
         },
@@ -1293,11 +1430,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "ratings",
             "then": 136461,
-            "now": 142675,
-            "change_pct": 4.6
+            "now": 143394,
+            "change_pct": 5.1
           },
           "briefed_on": "2026-08-01"
         },
@@ -1335,11 +1472,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "ratings",
             "then": 214790,
-            "now": 223704,
-            "change_pct": 4.2
+            "now": 224520,
+            "change_pct": 4.5
           },
           "briefed_on": "2026-08-01"
         }
@@ -1383,11 +1520,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 2196,
-            "now": 5458,
-            "change_pct": 148.5
+            "now": 5544,
+            "change_pct": 152.5
           },
           "briefed_on": "2026-07-31"
         },
@@ -1404,11 +1541,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 1007,
-            "now": 1646,
-            "change_pct": 63.5
+            "now": 1668,
+            "change_pct": 65.6
           },
           "briefed_on": "2026-07-31"
         },
@@ -1425,11 +1562,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 6090,
-            "now": 9357,
-            "change_pct": 53.6
+            "now": 9436,
+            "change_pct": 54.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -1536,11 +1673,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 290,
-            "now": 349,
-            "change_pct": 20.3
+            "now": 351,
+            "change_pct": 21.0
           },
           "briefed_on": "2026-07-30"
         },
@@ -1557,11 +1694,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 77.0,
-            "now": 124,
-            "change_pct": 61.0
+            "now": 125,
+            "change_pct": 62.3
           },
           "briefed_on": "2026-07-30"
         },
@@ -1578,11 +1715,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 384,
-            "now": 692,
-            "change_pct": 80.2
+            "now": 752,
+            "change_pct": 95.8
           },
           "briefed_on": "2026-07-30"
         },
@@ -1599,11 +1736,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 6090,
-            "now": 9357,
-            "change_pct": 53.6
+            "now": 9436,
+            "change_pct": 54.9
           },
           "briefed_on": "2026-07-30"
         },
@@ -1662,11 +1799,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "ratings",
             "then": 102081,
-            "now": 107493,
-            "change_pct": 5.3
+            "now": 108293,
+            "change_pct": 6.1
           },
           "briefed_on": "2026-07-30"
         },
@@ -1683,11 +1820,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "ratings",
             "then": 124,
-            "now": 180,
-            "change_pct": 45.2
+            "now": 182,
+            "change_pct": 46.8
           },
           "briefed_on": "2026-07-30"
         },
@@ -1704,11 +1841,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "ratings",
             "then": 214790,
-            "now": 223704,
-            "change_pct": 4.2
+            "now": 224520,
+            "change_pct": 4.5
           },
           "briefed_on": "2026-07-30"
         }
