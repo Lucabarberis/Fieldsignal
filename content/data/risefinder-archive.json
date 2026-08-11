@@ -1,6 +1,104 @@
 {
   "days": [
     {
+      "date": "2026-08-11",
+      "count": 5,
+      "items": [
+        {
+          "name": "antonz.org",
+          "type": "domain",
+          "brief": "Lobsters comments up 112.5% and points up 22% \u2014 comments rising five times faster than points, which is the ratio that separates a post people argue with from one they simply approve of. A blog about Go and SQL internals landing that way usually means it made a claim about how a database actually behaves. Its traffic rank moved 0.7%, which is nothing; the discussion is the entire signal here.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://antonz.org",
+          "description": "The blog of Anton Zhiyanov, writing about Go, SQL and database internals.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-11"
+        },
+        {
+          "name": "palamim/starboard",
+          "type": "repo",
+          "brief": "Second appearance and every number moved the same direction again \u2014 stars 3.1%, forks 3.6%, open issues 20%. Modest, consistent, and pushed today rather than abandoned after the thread. On a 156-star repo these are a handful of people, but they are the same handful coming back, which at this size is all the evidence available.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/palamim/starboard",
+          "description": "A Mac terminal that lives permanently beside the Dock rather than appearing on a hotkey.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-10",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 144,
+            "now": 156,
+            "change_pct": 8.3
+          },
+          "briefed_on": "2026-08-11"
+        },
+        {
+          "name": "CopilotKit/channels-sdk",
+          "type": "repo",
+          "brief": "824 stars with 54 forks and only 4 open issues \u2014 a fork ratio of 6.5% against almost no reported problems, which is unusual and reads two ways: either it works cleanly or nobody is pushing it hard enough to break it. Four days since the last push and growth has flattened to 1% on both stars and forks. Here because GitHub and HackerNews agree, not because anything is accelerating.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/CopilotKit/channels-sdk",
+          "description": "A toolkit for adding AI assistants into applications across chat, voice and other channels.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-11"
+        },
+        {
+          "name": "bbc.com",
+          "type": "domain",
+          "brief": "HackerNews comments up 286.9% to 471 on a single story. The BBC is obviously not rising, and this entry exists to show what the corroboration rule does with a big established site: three collectors saw movement, the rule fired honestly, and the reading is simply that one story landed hard. Worth including because a list that silently drops its own false positives is harder to trust than one that explains them.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://bbc.com",
+          "description": "The British Broadcasting Corporation's news site.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-11"
+        },
+        {
+          "name": "seangoedecke.com",
+          "type": "domain",
+          "brief": "Second day running on Lobsters, and it accelerated rather than faded \u2014 comments up 181.8% today after doubling yesterday, points up 63.2%. HackerNews finished with this post four days ago at 564 comments and has not moved since. Two communities, one after the other, with the second still climbing: that is a different shape from a launch wave and the more interesting of the two.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://seangoedecke.com",
+          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
+          "appearances": 3,
+          "track": null,
+          "briefed_on": "2026-08-11"
+        }
+      ]
+    },
+    {
       "date": "2026-08-10",
       "count": 5,
       "items": [
@@ -15,7 +113,14 @@
           "url": "https://github.com/MakazhanAlpamys/Soup",
           "description": "Fine-tunes large language models from a single configuration file, streaming layers so an 8-billion-parameter model fits on ordinary hardware.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-10",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 430,
+            "now": 495,
+            "change_pct": 15.1
+          },
           "briefed_on": "2026-08-10"
         },
         {
@@ -28,8 +133,15 @@
           ],
           "url": "https://github.com/palamim/starboard",
           "description": "A Mac terminal that lives permanently beside the Dock rather than appearing on a hotkey.",
-          "appearances": 1,
-          "track": null,
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-10",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 144,
+            "now": 156,
+            "change_pct": 8.3
+          },
           "briefed_on": "2026-08-10"
         },
         {
@@ -45,11 +157,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 13242,
-            "now": 13877,
-            "change_pct": 4.8
+            "now": 14030,
+            "change_pct": 6.0
           },
           "briefed_on": "2026-08-10"
         },
@@ -69,7 +181,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 2,
+          "appearances": 3,
           "track": null,
           "briefed_on": "2026-08-10"
         },
@@ -125,6 +237,7 @@
           "sources": [
             "crunchbase",
             "dataforseo",
+            "hackernews",
             "lobsters",
             "openpagerank",
             "pricing",
@@ -153,7 +266,14 @@
           "url": "https://runtimewire.com",
           "description": "A startup-intelligence service tracking funding rounds and company activity in AI.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-09",
+            "days_ago": 2,
+            "unit": "authority",
+            "then": 3.49,
+            "now": 3.49,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-09"
         },
         {
@@ -170,11 +290,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-09",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 567,
-            "now": 677,
-            "change_pct": 19.4
+            "now": 737,
+            "change_pct": 30.0
           },
           "briefed_on": "2026-08-09"
         },
@@ -220,11 +340,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 110,
-            "now": 134,
-            "change_pct": 21.8
+            "now": 146,
+            "change_pct": 32.7
           },
           "briefed_on": "2026-08-08"
         },
@@ -241,11 +361,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 1007,
-            "now": 1668,
-            "change_pct": 65.6
+            "now": 1683,
+            "change_pct": 67.1
           },
           "briefed_on": "2026-08-08"
         },
@@ -262,11 +382,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 73.0,
-            "now": 78.0,
-            "change_pct": 6.8
+            "now": 81.0,
+            "change_pct": 11.0
           },
           "briefed_on": "2026-08-08"
         },
@@ -392,11 +512,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 141,
-            "now": 239,
-            "change_pct": 69.5
+            "now": 245,
+            "change_pct": 73.8
           },
           "briefed_on": "2026-08-07"
         },
@@ -452,11 +572,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 141,
-            "now": 239,
-            "change_pct": 69.5
+            "now": 245,
+            "change_pct": 73.8
           },
           "briefed_on": "2026-08-06"
         },
@@ -494,11 +614,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 38.0,
-            "now": 44.0,
-            "change_pct": 15.8
+            "now": 45.0,
+            "change_pct": 18.4
           },
           "briefed_on": "2026-08-06"
         },
@@ -518,7 +638,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 2,
+          "appearances": 3,
           "track": null,
           "briefed_on": "2026-08-06"
         },
@@ -539,7 +659,14 @@
           "url": "https://rust-lang.org",
           "description": "The official site of Rust, a systems programming language designed for memory safety without a garbage collector.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-06",
+            "days_ago": 5,
+            "unit": "authority",
+            "then": 8.61,
+            "now": 8.61,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-06"
         },
         {
@@ -557,7 +684,14 @@
           "url": "https://chipsandcheese.com",
           "description": "A publication doing deep technical analysis of computer processors and hardware architecture.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-06",
+            "days_ago": 5,
+            "unit": "authority",
+            "then": 5.27,
+            "now": 5.27,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-06"
         }
       ]
@@ -579,11 +713,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 67.0,
-            "now": 80.0,
-            "change_pct": 19.4
+            "now": 82.0,
+            "change_pct": 22.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -621,11 +755,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 2196,
-            "now": 5544,
-            "change_pct": 152.5
+            "now": 5670,
+            "change_pct": 158.2
           },
           "briefed_on": "2026-08-05"
         },
@@ -642,11 +776,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 13242,
-            "now": 13877,
-            "change_pct": 4.8
+            "now": 14030,
+            "change_pct": 6.0
           },
           "briefed_on": "2026-08-05"
         },
@@ -663,11 +797,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 341,
-            "now": 407,
-            "change_pct": 19.4
+            "now": 409,
+            "change_pct": 19.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -687,7 +821,14 @@
           "url": "https://simonwillison.net",
           "description": "The weblog of Simon Willison, co-creator of the Django web framework, covering AI tooling and software engineering almost daily.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 6,
+            "unit": "authority",
+            "then": 8.04,
+            "now": 8.04,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-05"
         },
         {
@@ -706,7 +847,14 @@
           "url": "https://pudding.cool",
           "description": "The Pudding, a publication that explains cultural and social questions through interactive visual essays.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 6,
+            "unit": "authority",
+            "then": 7.62,
+            "now": 7.62,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-05"
         }
       ]
@@ -728,11 +876,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 2196,
-            "now": 5544,
-            "change_pct": 152.5
+            "now": 5670,
+            "change_pct": 158.2
           },
           "briefed_on": "2026-08-04"
         },
@@ -799,7 +947,14 @@
           "url": "https://type.today",
           "description": "A type foundry and catalogue of fonts chosen for contemporary typesetting, with writing on typography.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-04",
+            "days_ago": 7,
+            "unit": "authority",
+            "then": 5.43,
+            "now": 5.43,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-04"
         },
         {
@@ -818,7 +973,14 @@
           "url": "https://diataxis.fr",
           "description": "A framework for organising technical documentation into four distinct modes: tutorials, how-to guides, reference and explanation.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-04",
+            "days_ago": 7,
+            "unit": "authority",
+            "then": 7.34,
+            "now": 7.34,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-04"
         },
         {
@@ -836,7 +998,14 @@
           "url": "https://worksinprogress.news",
           "description": "An online magazine covering underrated ideas in science, technology and public policy.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-04",
+            "days_ago": 7,
+            "unit": "authority",
+            "then": 5.28,
+            "now": 5.28,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-04"
         }
       ]
@@ -858,11 +1027,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 1007,
-            "now": 1668,
-            "change_pct": 65.6
+            "now": 1683,
+            "change_pct": 67.1
           },
           "briefed_on": "2026-08-03"
         },
@@ -903,7 +1072,14 @@
           "url": "https://createcentercv.org",
           "description": "A youth-safeguarding charity in Cape Verde working on child protection and community programmes.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-03",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 1.14,
+            "now": 1.14,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-03"
         },
         {
@@ -921,7 +1097,14 @@
           "url": "https://wikif1.org",
           "description": "An independent Formula 1 reference site \u2014 standings, schedules and race results, not affiliated with F1.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-03",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 1.54,
+            "now": 1.54,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-03"
         },
         {
@@ -940,7 +1123,14 @@
           "url": "https://playscrabble.com",
           "description": "A long-running free Scrabble site where people play each other online.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-03",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 4.5,
+            "now": 4.5,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-03"
         },
         {
@@ -989,11 +1179,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 2196,
-            "now": 5544,
-            "change_pct": 152.5
+            "now": 5670,
+            "change_pct": 158.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -1010,11 +1200,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "ratings",
             "then": 136461,
-            "now": 143394,
-            "change_pct": 5.1
+            "now": 144220,
+            "change_pct": 5.7
           },
           "briefed_on": "2026-08-02"
         },
@@ -1045,11 +1235,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 5567,
-            "now": 12831,
-            "change_pct": 130.5
+            "now": 12991,
+            "change_pct": 133.4
           },
           "briefed_on": "2026-08-02"
         },
@@ -1066,11 +1256,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 102081,
-            "now": 108293,
-            "change_pct": 6.1
+            "now": 109431,
+            "change_pct": 7.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -1186,7 +1376,14 @@
           "url": "https://chriscoyier.net",
           "description": null,
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 6.59,
+            "now": 6.59,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-02"
         },
         {
@@ -1204,7 +1401,14 @@
           "url": "https://maurycyz.com",
           "description": null,
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 4.03,
+            "now": 4.03,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-02"
         }
       ]
@@ -1226,11 +1430,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 2196,
-            "now": 5544,
-            "change_pct": 152.5
+            "now": 5670,
+            "change_pct": 158.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -1252,7 +1456,7 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 10,
             "unit": "authority",
             "then": 0.09,
             "now": 0.09,
@@ -1279,7 +1483,7 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 1,
+            "days_ago": 10,
             "unit": "authority",
             "then": 0.78,
             "now": 0.78,
@@ -1300,11 +1504,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 1007,
-            "now": 1668,
-            "change_pct": 65.6
+            "now": 1683,
+            "change_pct": 67.1
           },
           "briefed_on": "2026-08-01"
         },
@@ -1430,11 +1634,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "ratings",
             "then": 136461,
-            "now": 143394,
-            "change_pct": 5.1
+            "now": 144220,
+            "change_pct": 5.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -1472,11 +1676,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 214790,
-            "now": 224520,
-            "change_pct": 4.5
+            "now": 225336,
+            "change_pct": 4.9
           },
           "briefed_on": "2026-08-01"
         }
@@ -1499,11 +1703,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 6,
+            "days_ago": 11,
             "unit": "stars",
             "then": 45.0,
-            "now": 54.0,
-            "change_pct": 20.0
+            "now": 59.0,
+            "change_pct": 31.1
           },
           "briefed_on": "2026-07-31"
         },
@@ -1520,11 +1724,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 2196,
-            "now": 5544,
-            "change_pct": 152.5
+            "now": 5670,
+            "change_pct": 158.2
           },
           "briefed_on": "2026-07-31"
         },
@@ -1541,11 +1745,11 @@
           "appearances": 4,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 1007,
-            "now": 1668,
-            "change_pct": 65.6
+            "now": 1683,
+            "change_pct": 67.1
           },
           "briefed_on": "2026-07-31"
         },
@@ -1562,11 +1766,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 6090,
-            "now": 9436,
-            "change_pct": 54.9
+            "now": 9534,
+            "change_pct": 56.6
           },
           "briefed_on": "2026-07-31"
         },
@@ -1625,11 +1829,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 9,
+            "days_ago": 11,
             "unit": "stars",
             "then": 255,
-            "now": 337,
-            "change_pct": 32.2
+            "now": 338,
+            "change_pct": 32.5
           },
           "briefed_on": "2026-07-31"
         },
@@ -1673,11 +1877,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 290,
-            "now": 351,
-            "change_pct": 21.0
+            "now": 355,
+            "change_pct": 22.4
           },
           "briefed_on": "2026-07-30"
         },
@@ -1715,11 +1919,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 384,
-            "now": 752,
-            "change_pct": 95.8
+            "now": 765,
+            "change_pct": 99.2
           },
           "briefed_on": "2026-07-30"
         },
@@ -1736,11 +1940,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 6090,
-            "now": 9436,
-            "change_pct": 54.9
+            "now": 9534,
+            "change_pct": 56.6
           },
           "briefed_on": "2026-07-30"
         },
@@ -1799,11 +2003,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 102081,
-            "now": 108293,
-            "change_pct": 6.1
+            "now": 109431,
+            "change_pct": 7.2
           },
           "briefed_on": "2026-07-30"
         },
@@ -1820,11 +2024,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 124,
-            "now": 182,
-            "change_pct": 46.8
+            "now": 187,
+            "change_pct": 50.8
           },
           "briefed_on": "2026-07-30"
         },
@@ -1841,11 +2045,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 214790,
-            "now": 224520,
-            "change_pct": 4.5
+            "now": 225336,
+            "change_pct": 4.9
           },
           "briefed_on": "2026-07-30"
         }
