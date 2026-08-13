@@ -2,7 +2,7 @@
   "days": [
     {
       "date": "2026-08-13",
-      "count": 5,
+      "count": 2,
       "items": [
         {
           "name": "reflex-dev/xy",
@@ -26,26 +26,6 @@
           "briefed_on": "2026-08-13"
         },
         {
-          "name": "seangoedecke.com",
-          "type": "domain",
-          "brief": "Fourth consecutive day, and it is fading in an orderly way: Lobsters comments up 10.2% and points up 5%, against 181% and 63% two days ago. Yesterday points went negative; today they are mildly positive again. Four days of one blog post moving through two communities, now settling. Useful mainly as a completed example of the shape \u2014 HackerNews first, Lobsters second, a peak, then decay.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "lobsters",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://seangoedecke.com",
-          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 5,
-          "track": null,
-          "briefed_on": "2026-08-13"
-        },
-        {
           "name": "AntigmaLabs/ante",
           "type": "repo",
           "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way \u2014 front page presence gone entirely, posts down 33%, comments up 1.1%. The thread ended and the growth did not, which is the transition worth watching for and the second repo this month to show it. 34 forks on 1,443 stars is a modest 2.4% ratio, so the people arriving are mostly still evaluating rather than building on it.",
@@ -58,50 +38,12 @@
           "appearances": 1,
           "track": null,
           "briefed_on": "2026-08-13"
-        },
-        {
-          "name": "douwe.com",
-          "type": "domain",
-          "brief": "Second appearance with almost nothing changed \u2014 HackerNews comments up 10% on a base of nine, points unmoved at 36. Two unrelated collectors still see it, so the rule fires, and the honest reading is that the rule fires on very small things too. Included so that a reader can calibrate: this is what the bottom of a qualifying day looks like.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://douwe.com",
-          "description": "The personal site of a developer publishing small self-built software projects.",
-          "appearances": 2,
-          "track": null,
-          "briefed_on": "2026-08-13"
-        },
-        {
-          "name": "googleblog.com",
-          "type": "domain",
-          "brief": "503 HackerNews comments and Lobsters comments up 314% \u2014 the largest cross-community reaction on the list this week, and Google's own blog is obviously not a rising entity. The reading is that one announcement landed hard in two places at once. Its HackerNews rank has already fallen 83%, so the thread has peaked; the Lobsters side is where the argument moved.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "lobsters",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://googleblog.com",
-          "description": "Google's official blog, where product and research announcements are published.",
-          "appearances": 1,
-          "track": null,
-          "briefed_on": "2026-08-13"
         }
       ]
     },
     {
       "date": "2026-08-12",
-      "count": 5,
+      "count": 3,
       "items": [
         {
           "name": "antirez/h3.c",
@@ -164,50 +106,12 @@
           "appearances": 1,
           "track": null,
           "briefed_on": "2026-08-12"
-        },
-        {
-          "name": "seangoedecke.com",
-          "type": "domain",
-          "brief": "Third consecutive day, and the first sign of the peak: Lobsters comments still up 56.7% but points now NEGATIVE 37.1%. Comments rising while points fall is a specific shape \u2014 the thread has turned into an argument that fewer people are endorsing. Four days of tracking one blog post across two communities, and this is the day it turns.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "lobsters",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://seangoedecke.com",
-          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 5,
-          "track": null,
-          "briefed_on": "2026-08-12"
-        },
-        {
-          "name": "douwe.com",
-          "type": "domain",
-          "brief": "A personal projects page with 36 HackerNews points and 9 comments \u2014 small numbers, on the list because three unrelated collectors registered it. Nothing here suggests a trend. Included because the alternative is a list that only ever shows the exciting entries, and knowing what an ordinary qualifying day looks like is part of reading the extraordinary ones correctly.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://douwe.com",
-          "description": "The personal site of a developer publishing small self-built software projects.",
-          "appearances": 2,
-          "track": null,
-          "briefed_on": "2026-08-12"
         }
       ]
     },
     {
       "date": "2026-08-11",
-      "count": 5,
+      "count": 4,
       "items": [
         {
           "name": "antonz.org",
@@ -287,32 +191,12 @@
           "appearances": 1,
           "track": null,
           "briefed_on": "2026-08-11"
-        },
-        {
-          "name": "seangoedecke.com",
-          "type": "domain",
-          "brief": "Second day running on Lobsters, and it accelerated rather than faded \u2014 comments up 181.8% today after doubling yesterday, points up 63.2%. HackerNews finished with this post four days ago at 564 comments and has not moved since. Two communities, one after the other, with the second still climbing: that is a different shape from a launch wave and the more interesting of the two.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "lobsters",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://seangoedecke.com",
-          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 5,
-          "track": null,
-          "briefed_on": "2026-08-11"
         }
       ]
     },
     {
       "date": "2026-08-10",
-      "count": 5,
+      "count": 4,
       "items": [
         {
           "name": "MakazhanAlpamys/Soup",
@@ -375,26 +259,6 @@
             "now": 14377,
             "change_pct": 8.6
           },
-          "briefed_on": "2026-08-10"
-        },
-        {
-          "name": "seangoedecke.com",
-          "type": "domain",
-          "brief": "Lobsters comments doubled and points rose 117.6% \u2014 a second developer community picking up a post that HackerNews already ran to 564 comments three days ago. That sequence is worth noticing: not a launch wave hitting several sites at once, but one community finding it after another had finished with it. The HackerNews numbers have not moved since; this is entirely the Lobsters audience.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "lobsters",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://seangoedecke.com",
-          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 5,
-          "track": null,
           "briefed_on": "2026-08-10"
         },
         {
@@ -776,7 +640,7 @@
     },
     {
       "date": "2026-08-06",
-      "count": 6,
+      "count": 5,
       "items": [
         {
           "name": "veedstudio/open-edit",
@@ -839,26 +703,6 @@
             "now": 45.0,
             "change_pct": 18.4
           },
-          "briefed_on": "2026-08-06"
-        },
-        {
-          "name": "seangoedecke.com",
-          "type": "domain",
-          "brief": "564 HackerNews comments, the largest single thread on this list by an order of magnitude, from a blog about how software actually gets built inside big companies. Its best rank went the wrong way \u2014 down 39.6% \u2014 while comments barely moved, which together say the thread peaked before this window and is now arguing with itself. Worth reading the post; not yet evidence about the site.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "lobsters",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://seangoedecke.com",
-          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 5,
-          "track": null,
           "briefed_on": "2026-08-06"
         },
         {
