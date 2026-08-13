@@ -1,6 +1,105 @@
 {
   "days": [
     {
+      "date": "2026-08-13",
+      "count": 5,
+      "items": [
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Weekly downloads 11,161, up 7% today and up 147% since the 4,518 recorded nine days ago. Stars moved 0% and forks 1.1% in the same window. Six appearances and the gap has widened on every one of them \u2014 attention flat, installation compounding. Ordinarily downloads follow stars; here they have decoupled entirely, and that decoupling is the single most useful pattern this list has produced so far.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A Python charting library, from the team behind the Reflex web framework.",
+          "appearances": 6,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 13,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1721,
+            "change_pct": 70.9
+          },
+          "briefed_on": "2026-08-13"
+        },
+        {
+          "name": "seangoedecke.com",
+          "type": "domain",
+          "brief": "Fourth consecutive day, and it is fading in an orderly way: Lobsters comments up 10.2% and points up 5%, against 181% and 63% two days ago. Yesterday points went negative; today they are mildly positive again. Four days of one blog post moving through two communities, now settling. Useful mainly as a completed example of the shape \u2014 HackerNews first, Lobsters second, a peak, then decay.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://seangoedecke.com",
+          "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
+          "appearances": 5,
+          "track": null,
+          "briefed_on": "2026-08-13"
+        },
+        {
+          "name": "AntigmaLabs/ante",
+          "type": "repo",
+          "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way \u2014 front page presence gone entirely, posts down 33%, comments up 1.1%. The thread ended and the growth did not, which is the transition worth watching for and the second repo this month to show it. 34 forks on 1,443 stars is a modest 2.4% ratio, so the people arriving are mostly still evaluating rather than building on it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/AntigmaLabs/ante",
+          "description": "A self-contained harness for running AI coding agents in a terminal.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-13"
+        },
+        {
+          "name": "douwe.com",
+          "type": "domain",
+          "brief": "Second appearance with almost nothing changed \u2014 HackerNews comments up 10% on a base of nine, points unmoved at 36. Two unrelated collectors still see it, so the rule fires, and the honest reading is that the rule fires on very small things too. Included so that a reader can calibrate: this is what the bottom of a qualifying day looks like.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://douwe.com",
+          "description": "The personal site of a developer publishing small self-built software projects.",
+          "appearances": 2,
+          "track": null,
+          "briefed_on": "2026-08-13"
+        },
+        {
+          "name": "googleblog.com",
+          "type": "domain",
+          "brief": "503 HackerNews comments and Lobsters comments up 314% \u2014 the largest cross-community reaction on the list this week, and Google's own blog is obviously not a rising entity. The reading is that one announcement landed hard in two places at once. Its HackerNews rank has already fallen 83%, so the thread has peaked; the Lobsters side is where the argument moved.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "lobsters",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://googleblog.com",
+          "description": "Google's official blog, where product and research announcements are published.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-13"
+        }
+      ]
+    },
+    {
       "date": "2026-08-12",
       "count": 5,
       "items": [
@@ -15,7 +114,14 @@
           "url": "https://github.com/antirez/h3.c",
           "description": "An inference engine written in C that runs the MiniMax H3 language model on Mac hardware, from the author of Redis.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-12",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 1432,
+            "now": 1657,
+            "change_pct": 15.7
+          },
           "briefed_on": "2026-08-12"
         },
         {
@@ -28,14 +134,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 5,
+          "appearances": 6,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 1007,
-            "now": 1713,
-            "change_pct": 70.1
+            "now": 1721,
+            "change_pct": 70.9
           },
           "briefed_on": "2026-08-12"
         },
@@ -75,7 +181,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 4,
+          "appearances": 5,
           "track": null,
           "briefed_on": "2026-08-12"
         },
@@ -88,11 +194,12 @@
             "dataforseo",
             "hackernews",
             "openpagerank",
+            "techstack",
             "tranco"
           ],
           "url": "https://douwe.com",
           "description": "The personal site of a developer publishing small self-built software projects.",
-          "appearances": 1,
+          "appearances": 2,
           "track": null,
           "briefed_on": "2026-08-12"
         }
@@ -133,11 +240,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 144,
-            "now": 162,
-            "change_pct": 12.5
+            "now": 165,
+            "change_pct": 14.6
           },
           "briefed_on": "2026-08-11"
         },
@@ -154,11 +261,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-11",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 824,
-            "now": 832,
-            "change_pct": 1.0
+            "now": 838,
+            "change_pct": 1.7
           },
           "briefed_on": "2026-08-11"
         },
@@ -197,7 +304,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 4,
+          "appearances": 5,
           "track": null,
           "briefed_on": "2026-08-11"
         }
@@ -241,11 +348,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 144,
-            "now": 162,
-            "change_pct": 12.5
+            "now": 165,
+            "change_pct": 14.6
           },
           "briefed_on": "2026-08-10"
         },
@@ -262,11 +369,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 13242,
-            "now": 14247,
-            "change_pct": 7.6
+            "now": 14377,
+            "change_pct": 8.6
           },
           "briefed_on": "2026-08-10"
         },
@@ -286,7 +393,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 4,
+          "appearances": 5,
           "track": null,
           "briefed_on": "2026-08-10"
         },
@@ -463,14 +570,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 5,
+          "appearances": 6,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 1007,
-            "now": 1713,
-            "change_pct": 70.1
+            "now": 1721,
+            "change_pct": 70.9
           },
           "briefed_on": "2026-08-08"
         },
@@ -487,11 +594,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-08",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 73.0,
-            "now": 82.0,
-            "change_pct": 12.3
+            "now": 83.0,
+            "change_pct": 13.7
           },
           "briefed_on": "2026-08-08"
         },
@@ -530,11 +637,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 217,
-            "now": 275,
-            "change_pct": 26.7
+            "now": 276,
+            "change_pct": 27.2
           },
           "briefed_on": "2026-08-08"
         }
@@ -575,11 +682,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 217,
-            "now": 275,
-            "change_pct": 26.7
+            "now": 276,
+            "change_pct": 27.2
           },
           "briefed_on": "2026-08-07"
         },
@@ -750,7 +857,7 @@
           ],
           "url": "https://seangoedecke.com",
           "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-          "appearances": 4,
+          "appearances": 5,
           "track": null,
           "briefed_on": "2026-08-06"
         },
@@ -846,11 +953,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 217,
-            "now": 275,
-            "change_pct": 26.7
+            "now": 276,
+            "change_pct": 27.2
           },
           "briefed_on": "2026-08-05"
         },
@@ -867,11 +974,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 2196,
-            "now": 5780,
-            "change_pct": 163.2
+            "now": 5898,
+            "change_pct": 168.6
           },
           "briefed_on": "2026-08-05"
         },
@@ -888,11 +995,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 13242,
-            "now": 14247,
-            "change_pct": 7.6
+            "now": 14377,
+            "change_pct": 8.6
           },
           "briefed_on": "2026-08-05"
         },
@@ -909,11 +1016,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 341,
-            "now": 411,
-            "change_pct": 20.5
+            "now": 412,
+            "change_pct": 20.8
           },
           "briefed_on": "2026-08-05"
         },
@@ -988,11 +1095,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 2196,
-            "now": 5780,
-            "change_pct": 163.2
+            "now": 5898,
+            "change_pct": 168.6
           },
           "briefed_on": "2026-08-04"
         },
@@ -1136,14 +1243,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 5,
+          "appearances": 6,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 1007,
-            "now": 1713,
-            "change_pct": 70.1
+            "now": 1721,
+            "change_pct": 70.9
           },
           "briefed_on": "2026-08-03"
         },
@@ -1291,11 +1398,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 2196,
-            "now": 5780,
-            "change_pct": 163.2
+            "now": 5898,
+            "change_pct": 168.6
           },
           "briefed_on": "2026-08-02"
         },
@@ -1312,11 +1419,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 136461,
-            "now": 145216,
-            "change_pct": 6.4
+            "now": 145933,
+            "change_pct": 6.9
           },
           "briefed_on": "2026-08-02"
         },
@@ -1347,11 +1454,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 5567,
-            "now": 13164,
-            "change_pct": 136.5
+            "now": 13300,
+            "change_pct": 138.9
           },
           "briefed_on": "2026-08-02"
         },
@@ -1368,11 +1475,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "ratings",
             "then": 102081,
-            "now": 110431,
-            "change_pct": 8.2
+            "now": 111157,
+            "change_pct": 8.9
           },
           "briefed_on": "2026-08-02"
         },
@@ -1542,11 +1649,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 2196,
-            "now": 5780,
-            "change_pct": 163.2
+            "now": 5898,
+            "change_pct": 168.6
           },
           "briefed_on": "2026-08-01"
         },
@@ -1613,14 +1720,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 5,
+          "appearances": 6,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 1007,
-            "now": 1713,
-            "change_pct": 70.1
+            "now": 1721,
+            "change_pct": 70.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -1704,11 +1811,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 77.0,
-            "now": 127,
-            "change_pct": 64.9
+            "now": 128,
+            "change_pct": 66.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -1746,11 +1853,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "ratings",
             "then": 136461,
-            "now": 145216,
-            "change_pct": 6.4
+            "now": 145933,
+            "change_pct": 6.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -1788,11 +1895,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "ratings",
             "then": 214790,
-            "now": 226277,
-            "change_pct": 5.3
+            "now": 227142,
+            "change_pct": 5.8
           },
           "briefed_on": "2026-08-01"
         }
@@ -1815,11 +1922,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 45.0,
-            "now": 60.0,
-            "change_pct": 33.3
+            "now": 69.0,
+            "change_pct": 53.3
           },
           "briefed_on": "2026-07-31"
         },
@@ -1836,11 +1943,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 2196,
-            "now": 5780,
-            "change_pct": 163.2
+            "now": 5898,
+            "change_pct": 168.6
           },
           "briefed_on": "2026-07-31"
         },
@@ -1854,14 +1961,14 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 5,
+          "appearances": 6,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 1007,
-            "now": 1713,
-            "change_pct": 70.1
+            "now": 1721,
+            "change_pct": 70.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -1878,11 +1985,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 6090,
-            "now": 9672,
-            "change_pct": 58.8
+            "now": 9722,
+            "change_pct": 59.6
           },
           "briefed_on": "2026-07-31"
         },
@@ -1941,11 +2048,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 255,
-            "now": 339,
-            "change_pct": 32.9
+            "now": 341,
+            "change_pct": 33.7
           },
           "briefed_on": "2026-07-31"
         },
@@ -1989,11 +2096,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 290,
-            "now": 357,
-            "change_pct": 23.1
+            "now": 356,
+            "change_pct": 22.8
           },
           "briefed_on": "2026-07-30"
         },
@@ -2010,11 +2117,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 77.0,
-            "now": 127,
-            "change_pct": 64.9
+            "now": 128,
+            "change_pct": 66.2
           },
           "briefed_on": "2026-07-30"
         },
@@ -2031,11 +2138,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 384,
-            "now": 777,
-            "change_pct": 102.3
+            "now": 780,
+            "change_pct": 103.1
           },
           "briefed_on": "2026-07-30"
         },
@@ -2052,11 +2159,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 6090,
-            "now": 9672,
-            "change_pct": 58.8
+            "now": 9722,
+            "change_pct": 59.6
           },
           "briefed_on": "2026-07-30"
         },
@@ -2115,11 +2222,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "ratings",
             "then": 102081,
-            "now": 110431,
-            "change_pct": 8.2
+            "now": 111157,
+            "change_pct": 8.9
           },
           "briefed_on": "2026-07-30"
         },
@@ -2136,11 +2243,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "ratings",
             "then": 124,
-            "now": 188,
-            "change_pct": 51.6
+            "now": 191,
+            "change_pct": 54.0
           },
           "briefed_on": "2026-07-30"
         },
@@ -2157,11 +2264,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "ratings",
             "then": 214790,
-            "now": 226277,
-            "change_pct": 5.3
+            "now": 227142,
+            "change_pct": 5.8
           },
           "briefed_on": "2026-07-30"
         }

@@ -5,86 +5,64 @@
       "label": "GitHub \u2014 stars",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
-        {
-          "name": "Zeejay0/gathered-scenes-zine-skill",
-          "entity_type": "repo",
-          "description": null,
-          "was": 133,
-          "now": 2827,
-          "unit": "stars",
-          "gain_pct": 2025.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
         {
           "name": "karanb192/itr-wala",
           "entity_type": "repo",
           "description": null,
           "was": 37.0,
-          "now": 621,
+          "now": 627,
           "unit": "stars",
-          "gain_pct": 1578.4,
+          "gain_pct": 1594.6,
           "from_day": "2026-08-04",
-          "to_day": "2026-08-12"
+          "to_day": "2026-08-13"
         },
         {
-          "name": "firecrawl/anydoc",
+          "name": "Zeejay0/gathered-scenes-zine-skill",
           "entity_type": "repo",
           "description": null,
-          "was": 2076,
-          "now": 14740,
+          "was": 276,
+          "now": 3210,
           "unit": "stars",
-          "gain_pct": 610.0,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 1063.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "name": "KKKKhazix/human-writing",
+          "name": "ZzzLc0405/photo-abstract-editorial",
           "entity_type": "repo",
           "description": null,
-          "was": 474,
-          "now": 2482,
+          "was": 411,
+          "now": 3226,
           "unit": "stars",
-          "gain_pct": 423.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 684.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "name": "wumingqi60/lingxi",
+          "name": "jd-opensource/JoyAI-Video-Edit",
           "entity_type": "repo",
           "description": null,
-          "was": 199,
-          "now": 921,
+          "was": 178,
+          "now": 989,
           "unit": "stars",
-          "gain_pct": 362.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 455.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "spinabot/brigade",
           "entity_type": "repo",
           "description": null,
-          "was": 562,
-          "now": 2419,
+          "was": 568,
+          "now": 2560,
           "unit": "stars",
-          "gain_pct": 330.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "name": "magicrew/doc7",
-          "entity_type": "repo",
-          "description": null,
-          "was": 284,
-          "now": 1057,
-          "unit": "stars",
-          "gain_pct": 272.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 350.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "onetoken-oss/K3Flight",
@@ -98,26 +76,48 @@
           "to_day": "2026-08-12"
         },
         {
-          "name": "fuxicodex/Fuxi",
+          "name": "wumingqi60/lingxi",
           "entity_type": "repo",
           "description": null,
-          "was": 140,
-          "now": 454,
+          "was": 306,
+          "now": 1009,
           "unit": "stars",
-          "gain_pct": 224.3,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
+          "gain_pct": 229.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "name": "Accio-Lab/RealReplicaBench",
+          "name": "Paritok-official/paritok-4b-v1",
           "entity_type": "repo",
           "description": null,
-          "was": 328,
-          "now": 1023,
+          "was": 346,
+          "now": 1125,
           "unit": "stars",
-          "gain_pct": 211.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-06"
+          "gain_pct": 225.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "yuhuangerdi/InduSecAgent",
+          "entity_type": "repo",
+          "description": null,
+          "was": 289,
+          "now": 919,
+          "unit": "stars",
+          "gain_pct": 218.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "huangserva/ComfyUI_MiniMaxH3_Director",
+          "entity_type": "repo",
+          "description": null,
+          "was": 159,
+          "now": 459,
+          "unit": "stars",
+          "gain_pct": 188.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
         }
       ]
     },
@@ -126,7 +126,7 @@
       "label": "GitHub \u2014 stars",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -136,53 +136,64 @@
       "label": "HackerNews \u2014 points",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
-          "name": "deepgrove.ai",
+          "name": "kuber.studio",
           "entity_type": "domain",
           "description": null,
-          "was": 82.0,
-          "now": 172,
+          "was": 15.0,
+          "now": 26.0,
           "unit": "points",
-          "gain_pct": 109.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
-        },
-        {
-          "name": "brian-armstrong/fec",
-          "entity_type": "repo",
-          "description": "A Rust library for forward error correction \u2014 recovering data damaged in transmission without asking for it again.",
-          "was": 34.0,
-          "now": 64.0,
-          "unit": "points",
-          "gain_pct": 88.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-08"
-        },
-        {
-          "name": "jido.run",
-          "entity_type": "domain",
-          "description": null,
-          "was": 19.0,
-          "now": 24.0,
-          "unit": "points",
-          "gain_pct": 26.3,
-          "from_day": "2026-08-05",
+          "gain_pct": 73.3,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-11"
         },
         {
-          "name": "MakazhanAlpamys/Soup",
+          "name": "adrida/hud-mode",
           "entity_type": "repo",
-          "description": "Fine-tunes large language models from a single configuration file, streaming layers so an 8-billion-parameter model fits on ordinary hardware.",
-          "was": 125,
-          "now": 138,
+          "description": null,
+          "was": 19.0,
+          "now": 26.0,
           "unit": "points",
-          "gain_pct": 10.4,
-          "from_day": "2026-08-05",
+          "gain_pct": 36.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-08"
+        },
+        {
+          "name": "matt-w-horn/morningprint",
+          "entity_type": "repo",
+          "description": null,
+          "was": 17.0,
+          "now": 23.0,
+          "unit": "points",
+          "gain_pct": 35.3,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-10"
+        },
+        {
+          "name": "withkord.com",
+          "entity_type": "domain",
+          "description": null,
+          "was": 15.0,
+          "now": 19.0,
+          "unit": "points",
+          "gain_pct": 26.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-07"
+        },
+        {
+          "name": "rokib16x/listnr",
+          "entity_type": "repo",
+          "description": null,
+          "was": 10.0,
+          "now": 11.0,
+          "unit": "points",
+          "gain_pct": 10.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-08"
         },
         {
           "name": "git.cafe",
@@ -196,59 +207,48 @@
           "to_day": "2026-08-07"
         },
         {
-          "name": "Chiaro-HQ/methodology",
-          "entity_type": "repo",
+          "name": "jido.run",
+          "entity_type": "domain",
           "description": null,
-          "was": 33.0,
-          "now": 36.0,
+          "was": 22.0,
+          "now": 24.0,
           "unit": "points",
           "gain_pct": 9.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-06"
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-11"
         },
         {
-          "name": "newold.computer",
-          "entity_type": "domain",
+          "name": "capysc/capy-cli",
+          "entity_type": "repo",
           "description": null,
-          "was": 16.0,
-          "now": 17.0,
+          "was": 12.0,
+          "now": 13.0,
           "unit": "points",
-          "gain_pct": 6.2,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-06"
-        },
-        {
-          "name": "handwritten.blog",
-          "entity_type": "domain",
-          "description": null,
-          "was": 185,
-          "now": 192,
-          "unit": "points",
-          "gain_pct": 3.8,
-          "from_day": "2026-08-05",
+          "gain_pct": 8.3,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-07"
         },
         {
-          "name": "leonickson1/Swiftlet",
-          "entity_type": "repo",
-          "description": "A lightweight Swift web framework for building server-side applications.",
-          "was": 300,
-          "now": 311,
-          "unit": "points",
-          "gain_pct": 3.7,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-09"
-        },
-        {
-          "name": "fuselang.org",
+          "name": "theopenlake.com",
           "entity_type": "domain",
           "description": null,
-          "was": 117,
-          "now": 121,
+          "was": 14.0,
+          "now": 15.0,
           "unit": "points",
-          "gain_pct": 3.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-09"
+          "gain_pct": 7.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-08"
+        },
+        {
+          "name": "clickhouse.com",
+          "entity_type": "domain",
+          "description": null,
+          "was": 20.0,
+          "now": 21.0,
+          "unit": "points",
+          "gain_pct": 5.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-07"
         }
       ]
     },
@@ -257,7 +257,7 @@
       "label": "HackerNews \u2014 points",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -267,7 +267,7 @@
       "label": "npm / PyPI \u2014 downloads",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
@@ -275,109 +275,109 @@
           "name": "xy",
           "entity_type": "package",
           "description": null,
-          "was": 2637,
-          "now": 9386,
+          "was": 2597,
+          "now": 11161,
           "unit": "weekly downloads",
-          "gain_pct": 255.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "name": "@aikdna/kdna-cli",
-          "entity_type": "package",
-          "description": null,
-          "was": 2242,
-          "now": 6275,
-          "unit": "weekly downloads",
-          "gain_pct": 179.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
+          "gain_pct": 329.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "@arizeai/phoenix-client",
           "entity_type": "package",
           "description": null,
-          "was": 56942,
+          "was": 55450,
           "now": 130172,
           "unit": "weekly downloads",
-          "gain_pct": 128.6,
-          "from_day": "2026-08-03",
+          "gain_pct": 134.8,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-10"
         },
         {
           "name": "@arizeai/phoenix-otel",
           "entity_type": "package",
           "description": null,
-          "was": 53760,
+          "was": 52246,
           "now": 110830,
           "unit": "weekly downloads",
-          "gain_pct": 106.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
-        },
-        {
-          "name": "@customize-agent/knowledge",
-          "entity_type": "package",
-          "description": null,
-          "was": 801,
-          "now": 1552,
-          "unit": "weekly downloads",
-          "gain_pct": 93.8,
-          "from_day": "2026-08-02",
-          "to_day": "2026-08-12"
-        },
-        {
-          "name": "@arizeai/openinference-vercel",
-          "entity_type": "package",
-          "description": null,
-          "was": 100949,
-          "now": 186373,
-          "unit": "weekly downloads",
-          "gain_pct": 84.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
-        },
-        {
-          "name": "@ff-labs/pi-fff",
-          "entity_type": "package",
-          "description": null,
-          "was": 4950,
-          "now": 8764,
-          "unit": "weekly downloads",
-          "gain_pct": 77.1,
-          "from_day": "2026-08-05",
+          "gain_pct": 112.1,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-10"
         },
         {
           "name": "@framers/agentos",
           "entity_type": "package",
           "description": null,
-          "was": 1963,
+          "was": 1571,
           "now": 3292,
           "unit": "weekly downloads",
-          "gain_pct": 67.7,
-          "from_day": "2026-08-05",
+          "gain_pct": 109.5,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-11"
         },
         {
-          "name": "@arizeai/openinference-genai",
+          "name": "@arizeai/openinference-vercel",
           "entity_type": "package",
           "description": null,
-          "was": 109609,
-          "now": 178322,
+          "was": 103583,
+          "now": 186373,
           "unit": "weekly downloads",
-          "gain_pct": 62.7,
-          "from_day": "2026-08-05",
+          "gain_pct": 79.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
+        },
+        {
+          "name": "@ff-labs/pi-fff",
+          "entity_type": "package",
+          "description": null,
+          "was": 4998,
+          "now": 8764,
+          "unit": "weekly downloads",
+          "gain_pct": 75.4,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-10"
         },
         {
           "name": "@decaf-ts/core",
           "entity_type": "package",
           "description": null,
-          "was": 769,
+          "was": 755,
           "now": 1245,
           "unit": "weekly downloads",
-          "gain_pct": 61.9,
+          "gain_pct": 64.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
+        },
+        {
+          "name": "@arizeai/openinference-genai",
+          "entity_type": "package",
+          "description": null,
+          "was": 109515,
+          "now": 178322,
+          "unit": "weekly downloads",
+          "gain_pct": 62.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
+        },
+        {
+          "name": "@aikdna/kdna-cli",
+          "entity_type": "package",
+          "description": null,
+          "was": 3894,
+          "now": 6275,
+          "unit": "weekly downloads",
+          "gain_pct": 61.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
+        },
+        {
+          "name": "@agent-link/server",
+          "entity_type": "package",
+          "description": null,
+          "was": 1828,
+          "now": 2762,
+          "unit": "weekly downloads",
+          "gain_pct": 51.1,
           "from_day": "2026-08-05",
           "to_day": "2026-08-10"
         }
@@ -388,7 +388,7 @@
       "label": "npm / PyPI \u2014 downloads",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -398,7 +398,7 @@
       "label": "HuggingFace \u2014 downloads",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
@@ -434,17 +434,6 @@
           "gain_pct": 989.4,
           "from_day": "2026-08-05",
           "to_day": "2026-08-12"
-        },
-        {
-          "name": "NeoteAIEmbodied/OpenNeoData",
-          "entity_type": "dataset",
-          "description": null,
-          "was": 1321,
-          "now": 9790,
-          "unit": "downloads",
-          "gain_pct": 641.1,
-          "from_day": "2026-08-02",
-          "to_day": "2026-08-11"
         },
         {
           "name": "Abiray/MiniMax-H3-GGUF",
@@ -511,6 +500,17 @@
           "gain_pct": 134.7,
           "from_day": "2026-08-05",
           "to_day": "2026-08-10"
+        },
+        {
+          "name": "thinkingmachines/Inkling-Small",
+          "entity_type": "model",
+          "description": null,
+          "was": 15500,
+          "now": 35390,
+          "unit": "downloads",
+          "gain_pct": 128.3,
+          "from_day": "2026-08-05",
+          "to_day": "2026-08-12"
         }
       ]
     },
@@ -519,7 +519,7 @@
       "label": "HuggingFace \u2014 downloads",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -529,7 +529,7 @@
       "label": "App Store \u2014 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
@@ -537,111 +537,111 @@
           "name": "Parchment: Agenda & Daily Note",
           "entity_type": "app",
           "description": null,
-          "was": 156,
-          "now": 188,
+          "was": 164,
+          "now": 191,
           "unit": "ratings",
-          "gain_pct": 20.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 16.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "StoryReel: Exclusive Drama",
           "entity_type": "app",
           "description": null,
-          "was": 19526,
-          "now": 21968,
+          "was": 19895,
+          "now": 22411,
           "unit": "ratings",
-          "gain_pct": 12.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 12.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Vinted: Pre-loved marketplace",
           "entity_type": "app",
           "description": null,
-          "was": 150489,
-          "now": 166076,
+          "was": 152607,
+          "now": 167941,
           "unit": "ratings",
-          "gain_pct": 10.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 10.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "VibeShort: AI Short Dramas",
           "entity_type": "app",
           "description": null,
-          "was": 23656,
-          "now": 25835,
+          "was": 23944,
+          "now": 26051,
           "unit": "ratings",
-          "gain_pct": 9.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 8.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Netflix Game Controller",
           "entity_type": "app",
           "description": null,
-          "was": 157056,
-          "now": 168436,
+          "was": 159073,
+          "now": 169403,
           "unit": "ratings",
-          "gain_pct": 7.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 6.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Freecash - Get Paid Real Money",
           "entity_type": "app",
           "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
-          "was": 104127,
-          "now": 110431,
+          "was": 104431,
+          "now": 111157,
           "unit": "ratings",
-          "gain_pct": 6.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 6.4,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Meta AI",
           "entity_type": "app",
           "description": null,
-          "was": 189826,
-          "now": 200252,
+          "was": 191566,
+          "now": 201569,
           "unit": "ratings",
-          "gain_pct": 5.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 5.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Lidl Plus",
           "entity_type": "app",
           "description": null,
-          "was": 1854,
-          "now": 1943,
+          "was": 1865,
+          "now": 1944,
           "unit": "ratings",
-          "gain_pct": 4.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 4.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "DramaWave - Dramas & Reels",
           "entity_type": "app",
           "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
-          "was": 139820,
-          "now": 145216,
+          "was": 140797,
+          "now": 145933,
           "unit": "ratings",
-          "gain_pct": 3.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 3.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Claude by Anthropic",
           "entity_type": "app",
           "description": null,
-          "was": 219869,
-          "now": 226277,
+          "was": 220869,
+          "now": 227142,
           "unit": "ratings",
-          "gain_pct": 2.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 2.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         }
       ]
     },
@@ -650,7 +650,7 @@
       "label": "App Store \u2014 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -660,85 +660,85 @@
       "label": "Google Play \u2014 reviews",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
-          "name": "Procreate Pocket",
-          "entity_type": "app",
-          "description": null,
-          "was": 60200,
-          "now": 2980000,
-          "unit": "reviews",
-          "gain_pct": 4850.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-09"
-        },
-        {
           "name": "Wipr 2",
           "entity_type": "app",
           "description": null,
-          "was": 45100,
-          "now": 190000,
+          "was": 58800,
+          "now": 4780000,
           "unit": "reviews",
-          "gain_pct": 321.3,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 8029.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "Procreate Pocket",
+          "entity_type": "app",
+          "description": null,
+          "was": 705000,
+          "now": 2980000,
+          "unit": "reviews",
+          "gain_pct": 322.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-09"
         },
         {
           "name": "DramaWave - Dramas & Reels",
           "entity_type": "app",
           "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
-          "was": 625000,
-          "now": 647000,
+          "was": 628000,
+          "now": 650000,
           "unit": "reviews",
           "gain_pct": 3.5,
-          "from_day": "2026-08-05",
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "Freecash - Get Paid Real Money",
+          "entity_type": "app",
+          "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
+          "was": 449000,
+          "now": 461000,
+          "unit": "reviews",
+          "gain_pct": 2.7,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-12"
         },
         {
           "name": "Antizuck Smart Glasses Scanner",
           "entity_type": "app",
           "description": null,
-          "was": 414,
+          "was": 416,
           "now": 427,
           "unit": "reviews",
-          "gain_pct": 3.1,
-          "from_day": "2026-08-05",
+          "gain_pct": 2.6,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-11"
         },
         {
-          "name": "Freecash - Get Paid Real Money",
+          "name": "NetShort - \u4eba\u6c17\u77ed\u7de8\u30c9\u30e9\u30de",
           "entity_type": "app",
-          "description": "Pays people small amounts to complete offers, surveys and game milestones. Reward-app category, ad-funded.",
-          "was": 448000,
-          "now": 461000,
+          "description": null,
+          "was": 1340000,
+          "now": 1370000,
           "unit": "reviews",
-          "gain_pct": 2.9,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-12"
+          "gain_pct": 2.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Claude by Anthropic",
           "entity_type": "app",
           "description": null,
-          "was": 653000,
+          "was": 655000,
           "now": 662000,
           "unit": "reviews",
-          "gain_pct": 1.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
-        },
-        {
-          "name": "Reel: 4-Track Recorder",
-          "entity_type": "app",
-          "description": null,
-          "was": 2300,
-          "now": 2310,
-          "unit": "reviews",
-          "gain_pct": 0.4,
-          "from_day": "2026-08-02",
+          "gain_pct": 1.1,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-10"
         },
         {
@@ -746,11 +746,22 @@
           "entity_type": "app",
           "description": null,
           "was": 3220,
-          "now": 3230,
+          "now": 3240,
           "unit": "reviews",
-          "gain_pct": 0.3,
+          "gain_pct": 0.6,
           "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "TonalEnergy Tuner & Metronome",
+          "entity_type": "app",
+          "description": null,
+          "was": 2800,
+          "now": 2810,
+          "unit": "reviews",
+          "gain_pct": 0.4,
+          "from_day": "2026-08-03",
+          "to_day": "2026-08-13"
         }
       ]
     },
@@ -759,7 +770,7 @@
       "label": "Google Play \u2014 reviews",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -769,20 +780,31 @@
       "label": "WordPress \u2014 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
-          "name": "Online Active Users",
+          "name": "Search Atlas SEO &#8211; Premier SEO Plugin for One-Click WP Publishing &amp; Integrated AI Optimization",
           "entity_type": "plugin",
           "description": null,
-          "was": 47.0,
-          "now": 48.0,
+          "was": 23.0,
+          "now": 24.0,
           "unit": "ratings",
-          "gain_pct": 2.1,
-          "from_day": "2026-08-02",
-          "to_day": "2026-08-07"
+          "gain_pct": 4.3,
+          "from_day": "2026-08-04",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "Product Feed Manager for WooCommerce \u2013 CTX Feed \u2013 Support 220+ Shopping &amp; Social Channels",
+          "entity_type": "plugin",
+          "description": null,
+          "was": 826,
+          "now": 827,
+          "unit": "ratings",
+          "gain_pct": 0.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
         }
       ]
     },
@@ -791,7 +813,7 @@
       "label": "WordPress \u2014 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -801,119 +823,119 @@
       "label": "Chrome \u2014 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 13,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
-        {
-          "name": "MYNT: Material You New Tab",
-          "entity_type": "extension",
-          "description": null,
-          "was": 261,
-          "now": 267,
-          "unit": "ratings",
-          "gain_pct": 2.3,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-11"
-        },
         {
           "name": "Pinterest - LIGHT &amp; DARK THEMES",
           "entity_type": "extension",
           "description": null,
           "was": 275,
-          "now": 280,
+          "now": 282,
           "unit": "ratings",
-          "gain_pct": 1.8,
+          "gain_pct": 2.5,
           "from_day": "2026-08-03",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "MYNT: Material You New Tab",
+          "entity_type": "extension",
+          "description": null,
+          "was": 262,
+          "now": 268,
+          "unit": "ratings",
+          "gain_pct": 2.3,
+          "from_day": "2026-08-05",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Joko: Cash back &amp; automatic coupons",
           "entity_type": "extension",
           "description": null,
           "was": 467,
-          "now": 475,
+          "now": 477,
           "unit": "ratings",
-          "gain_pct": 1.7,
+          "gain_pct": 2.1,
           "from_day": "2026-08-04",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-13"
         },
         {
-          "name": "ViiTor Translate - AI Translation &amp; Real-Time Bilingual Subtitles &amp; Free",
+          "name": "Mail Merge for Gmail - Mailmeteor",
           "entity_type": "extension",
           "description": null,
-          "was": 342,
-          "now": 345,
+          "was": 168,
+          "now": 170,
           "unit": "ratings",
-          "gain_pct": 0.9,
-          "from_day": "2026-08-03",
-          "to_day": "2026-08-10"
-        },
-        {
-          "name": "ChatbotsPlace: All-in-One AI Sidebar (ChatGPT, Claude &amp; Gemini)",
-          "entity_type": "extension",
-          "description": null,
-          "was": 160,
-          "now": 161,
-          "unit": "ratings",
-          "gain_pct": 0.6,
-          "from_day": "2026-08-03",
-          "to_day": "2026-08-06"
+          "gain_pct": 1.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Obsidian Web Clipper",
           "entity_type": "extension",
           "description": null,
-          "was": 549,
-          "now": 552,
+          "was": 550,
+          "now": 554,
           "unit": "ratings",
-          "gain_pct": 0.5,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-11"
+          "gain_pct": 0.7,
+          "from_day": "2026-08-05",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "ChatbotsPlace: All-in-One AI Sidebar (ChatGPT, Claude &amp; Gemini)",
+          "entity_type": "extension",
+          "description": null,
+          "was": 161,
+          "now": 162,
+          "unit": "ratings",
+          "gain_pct": 0.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "ViiTor Translate - AI Translation &amp; Real-Time Bilingual Subtitles &amp; Free",
+          "entity_type": "extension",
+          "description": null,
+          "was": 344,
+          "now": 346,
+          "unit": "ratings",
+          "gain_pct": 0.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "Tab Reloader (page auto refresh)",
+          "entity_type": "extension",
+          "description": null,
+          "was": 169,
+          "now": 170,
+          "unit": "ratings",
+          "gain_pct": 0.6,
+          "from_day": "2026-08-03",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Smarty",
           "entity_type": "extension",
           "description": null,
           "was": 359,
-          "now": 360,
+          "now": 361,
           "unit": "ratings",
-          "gain_pct": 0.3,
+          "gain_pct": 0.6,
           "from_day": "2026-08-03",
-          "to_day": "2026-08-08"
+          "to_day": "2026-08-13"
         },
         {
-          "name": "AiPrice(AliPrice) Search by Image for TB",
+          "name": "JSON Viewer Pro",
           "entity_type": "extension",
           "description": null,
-          "was": 614,
-          "now": 616,
+          "was": 216,
+          "now": 217,
           "unit": "ratings",
-          "gain_pct": 0.3,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-07"
-        },
-        {
-          "name": "AiPrice(AliPrice) Search by Image for China Import",
-          "entity_type": "extension",
-          "description": null,
-          "was": 563,
-          "now": 564,
-          "unit": "ratings",
-          "gain_pct": 0.2,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-07"
-        },
-        {
-          "name": "AiPrice(AliPrice) Price Tracker",
-          "entity_type": "extension",
-          "description": null,
-          "was": 653,
-          "now": 654,
-          "unit": "ratings",
-          "gain_pct": 0.2,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-06"
+          "gain_pct": 0.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-10"
         }
       ]
     },
@@ -922,7 +944,7 @@
       "label": "Chrome \u2014 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 13,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -932,7 +954,7 @@
       "label": "Shopify \u2014 reviews",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": []
@@ -942,7 +964,7 @@
       "label": "Shopify \u2014 reviews",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -952,119 +974,119 @@
       "label": "ProductHunt \u2014 votes",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
+          "name": "NextDoor.Company",
+          "entity_type": "launch",
+          "description": null,
+          "was": 418,
+          "now": 462,
+          "unit": "votes",
+          "gain_pct": 10.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "Wispr Flow Notetaker",
+          "entity_type": "launch",
+          "description": null,
+          "was": 534,
+          "now": 586,
+          "unit": "votes",
+          "gain_pct": 9.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "AdAnt AI",
+          "entity_type": "launch",
+          "description": null,
+          "was": 568,
+          "now": 611,
+          "unit": "votes",
+          "gain_pct": 7.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-12"
+        },
+        {
           "name": "Hey Noah",
           "entity_type": "launch",
           "description": null,
-          "was": 516,
-          "now": 611,
+          "was": 577,
+          "now": 607,
           "unit": "votes",
-          "gain_pct": 18.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 5.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "name": "Wondering",
+          "name": "Cloudflare Wallets",
           "entity_type": "launch",
           "description": null,
-          "was": 333,
-          "now": 367,
+          "was": 267,
+          "now": 280,
           "unit": "votes",
-          "gain_pct": 10.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 4.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "name": "Vibe Buddy",
+          "name": "Keystroke",
           "entity_type": "launch",
           "description": null,
-          "was": 157,
-          "now": 169,
+          "was": 149,
+          "now": 156,
           "unit": "votes",
-          "gain_pct": 7.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "name": "Atlaso",
-          "entity_type": "launch",
-          "description": null,
-          "was": 224,
-          "now": 237,
-          "unit": "votes",
-          "gain_pct": 5.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "name": "Driven",
-          "entity_type": "launch",
-          "description": null,
-          "was": 241,
-          "now": 255,
-          "unit": "votes",
-          "gain_pct": 5.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "name": "Dashi Metrics",
-          "entity_type": "launch",
-          "description": null,
-          "was": 204,
-          "now": 209,
-          "unit": "votes",
-          "gain_pct": 2.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "gain_pct": 4.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "name": "Superunit",
           "entity_type": "launch",
           "description": null,
-          "was": 137,
+          "was": 139,
           "now": 140,
           "unit": "votes",
-          "gain_pct": 2.2,
-          "from_day": "2026-08-02",
+          "gain_pct": 0.7,
+          "from_day": "2026-08-06",
           "to_day": "2026-08-10"
         },
         {
-          "name": "EasyCircuit",
+          "name": "Estera",
           "entity_type": "launch",
           "description": null,
-          "was": 187,
-          "now": 190,
+          "was": 145,
+          "now": 146,
           "unit": "votes",
-          "gain_pct": 1.6,
+          "gain_pct": 0.7,
+          "from_day": "2026-08-05",
+          "to_day": "2026-08-10"
+        },
+        {
+          "name": "Hardbook",
+          "entity_type": "launch",
+          "description": null,
+          "was": 218,
+          "now": 219,
+          "unit": "votes",
+          "gain_pct": 0.5,
           "from_day": "2026-08-05",
           "to_day": "2026-08-11"
         },
         {
-          "name": "Claude Opus 5",
-          "entity_type": "launch",
-          "description": "Anthropic's Claude Opus 5 language model, launched on ProductHunt.",
-          "was": 457,
-          "now": 464,
-          "unit": "votes",
-          "gain_pct": 1.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-10"
-        },
-        {
-          "name": "RunEvr",
+          "name": "Grok 4.5",
           "entity_type": "launch",
           "description": null,
-          "was": 200,
-          "now": 202,
+          "was": 182,
+          "now": 183,
           "unit": "votes",
-          "gain_pct": 1.0,
+          "gain_pct": 0.5,
           "from_day": "2026-08-05",
-          "to_day": "2026-08-06"
+          "to_day": "2026-08-10"
         }
       ]
     },
@@ -1073,7 +1095,7 @@
       "label": "ProductHunt \u2014 votes",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 14,
+      "have_days": 15,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -1099,136 +1121,136 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-12T12:07:54Z",
+  "generated_at": "2026-08-13T08:30:07Z",
   "windows": [
     {
       "source": "majestic_million",
       "label": "Majestic \u2014 backlinks",
       "window": "2-day",
       "window_days": 2,
-      "have_days": 12,
+      "have_days": 13,
       "need_days": 2,
       "first_day": "2026-07-31",
       "items": [
         {
-          "domain": "ultimatvodka.com",
-          "rank": 11329,
-          "was": 754442,
-          "gain_pct": 98.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "bigceramicstore.com",
+          "rank": 7562,
+          "was": 480856,
+          "gain_pct": 98.4,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "visa.no",
-          "rank": 30218,
-          "was": 623734,
-          "gain_pct": 95.2,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "f5.com",
+          "rank": 25,
+          "was": 558,
+          "gain_pct": 95.5,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "cathydiapress.ca",
-          "rank": 14485,
-          "was": 154877,
-          "gain_pct": 90.6,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "adidas.com.hk",
+          "rank": 32319,
+          "was": 505513,
+          "gain_pct": 93.6,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "techforgenerationequality.org",
-          "rank": 52171,
-          "was": 418186,
+          "domain": "drrathodstmh.in",
+          "rank": 18958,
+          "was": 170272,
+          "gain_pct": 88.9,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "thevivant.com",
+          "rank": 59062,
+          "was": 472646,
           "gain_pct": 87.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "line.biz",
-          "rank": 3919,
-          "was": 25153,
-          "gain_pct": 84.4,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "59potolkov.ru",
+          "rank": 49244,
+          "was": 380646,
+          "gain_pct": 87.1,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "mnknit.com",
-          "rank": 37491,
-          "was": 236957,
-          "gain_pct": 84.2,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "urbaniza.pe",
-          "rank": 104592,
-          "was": 623513,
-          "gain_pct": 83.2,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "protecciondelempleo.cl",
-          "rank": 59806,
-          "was": 344911,
-          "gain_pct": 82.7,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "hilltopkidsbardwellpark.com",
+          "rank": 85190,
+          "was": 626661,
+          "gain_pct": 86.4,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "friendsofsterlingforest.org",
-          "rank": 102120,
-          "was": 555535,
-          "gain_pct": 81.6,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "rank": 112211,
+          "was": 785993,
+          "gain_pct": 85.7,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "producer.ai",
-          "rank": 44130,
-          "was": 238385,
-          "gain_pct": 81.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "urbaniza.pe",
+          "rank": 83411,
+          "was": 579623,
+          "gain_pct": 85.6,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "rokomari.tv",
-          "rank": 131981,
-          "was": 711890,
-          "gain_pct": 81.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "delicia-delicatessen.nl",
+          "rank": 84767,
+          "was": 586307,
+          "gain_pct": 85.5,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "1-win-live.com",
-          "rank": 79909,
-          "was": 421213,
-          "gain_pct": 81.0,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "ealas.org",
+          "rank": 69936,
+          "was": 448210,
+          "gain_pct": 84.4,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "nicssliceofheaven.co.uk",
-          "rank": 61225,
-          "was": 295124,
-          "gain_pct": 79.3,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "poppy-geboortekaartje.nl",
+          "rank": 104880,
+          "was": 650867,
+          "gain_pct": 83.9,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "agvrobot.xyz",
-          "rank": 87155,
-          "was": 416054,
-          "gain_pct": 79.1,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "sreewaripackersandmovers.in",
+          "rank": 99056,
+          "was": 572251,
+          "gain_pct": 82.7,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "vebozza.cc",
-          "rank": 137006,
-          "was": 641008,
-          "gain_pct": 78.6,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "waterfiltrationplant.co.in",
+          "rank": 137994,
+          "was": 796814,
+          "gain_pct": 82.7,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "openresty.com.cn",
+          "rank": 7780,
+          "was": 43503,
+          "gain_pct": 82.1,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         }
       ]
     },
@@ -1237,129 +1259,129 @@
       "label": "Majestic \u2014 backlinks",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 12,
+      "have_days": 13,
       "need_days": 7,
       "first_day": "2026-07-31",
       "items": [
         {
+          "domain": "bigceramicstore.com",
+          "rank": 7562,
+          "was": 464838,
+          "gain_pct": 98.4,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
           "domain": "madhatterstearooms.co.uk",
-          "rank": 20987,
-          "was": 744813,
+          "rank": 20910,
+          "was": 740757,
           "gain_pct": 97.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "cref.ru",
-          "rank": 12947,
-          "was": 403759,
-          "gain_pct": 96.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "mgorv.ru",
-          "rank": 13669,
-          "was": 394550,
-          "gain_pct": 96.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "verificator.cc",
-          "rank": 10477,
-          "was": 247438,
-          "gain_pct": 95.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 10028,
+          "was": 243292,
+          "gain_pct": 95.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "ancestry.fr",
-          "rank": 21916,
-          "was": 481559,
-          "gain_pct": 95.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 21980,
+          "was": 485727,
+          "gain_pct": 95.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "visa.no",
-          "rank": 30218,
-          "was": 582707,
-          "gain_pct": 94.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "domain": "rentcardeluxe.es",
+          "rank": 38980,
+          "was": 796858,
+          "gain_pct": 95.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "kinooihuot4h.shop",
+          "rank": 40516,
+          "was": 617337,
+          "gain_pct": 93.4,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "adidas.com.hk",
+          "rank": 32319,
+          "was": 484023,
+          "gain_pct": 93.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "foxchasefarm.org",
-          "rank": 5550,
-          "was": 74255,
-          "gain_pct": 92.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 5387,
+          "was": 72396,
+          "gain_pct": 92.6,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "isse-russia.ru",
-          "rank": 8624,
-          "was": 101328,
-          "gain_pct": 91.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 8630,
+          "was": 111882,
+          "gain_pct": 92.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "virdsam3.org",
-          "rank": 17419,
-          "was": 194710,
-          "gain_pct": 91.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "franchisesports.co.uk",
-          "rank": 58485,
-          "was": 574975,
-          "gain_pct": 89.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "fiberbusinessbroadband.com",
-          "rank": 78020,
-          "was": 735124,
-          "gain_pct": 89.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "circlesealcontrols.com",
-          "rank": 37489,
-          "was": 343175,
-          "gain_pct": 89.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "domain": "theflowerbees.com",
+          "rank": 56117,
+          "was": 518095,
+          "gain_pct": 89.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "musee-transports42.fr",
-          "rank": 72175,
-          "was": 662097,
-          "gain_pct": 89.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 77222,
+          "was": 657286,
+          "gain_pct": 88.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "winslowpizza.co.uk",
-          "rank": 94620,
-          "was": 781830,
-          "gain_pct": 87.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "domain": "hilltopkidsbardwellpark.com",
+          "rank": 85190,
+          "was": 678989,
+          "gain_pct": 87.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "24opt47.ru",
-          "rank": 36370,
-          "was": 285538,
-          "gain_pct": 87.3,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "domain": "thevivant.com",
+          "rank": 59062,
+          "was": 456809,
+          "gain_pct": 87.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "seolinkagency.shop",
+          "rank": 67406,
+          "was": 516521,
+          "gain_pct": 86.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "ealas.org",
+          "rank": 69936,
+          "was": 528511,
+          "gain_pct": 86.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         }
       ]
     },
@@ -1368,7 +1390,7 @@
       "label": "Majestic \u2014 backlinks",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 12,
+      "have_days": 13,
       "need_days": 30,
       "first_day": "2026-07-31",
       "items": []
@@ -1378,7 +1400,7 @@
       "label": "Majestic \u2014 backlinks",
       "window": "quarterly",
       "window_days": 91,
-      "have_days": 12,
+      "have_days": 13,
       "need_days": 91,
       "first_day": "2026-07-31",
       "items": []
@@ -1388,7 +1410,7 @@
       "label": "Majestic \u2014 backlinks",
       "window": "yearly",
       "window_days": 365,
-      "have_days": 12,
+      "have_days": 13,
       "need_days": 365,
       "first_day": "2026-07-31",
       "items": []
@@ -1398,129 +1420,129 @@
       "label": "Tranco \u2014 traffic",
       "window": "2-day",
       "window_days": 2,
-      "have_days": 11,
+      "have_days": 12,
       "need_days": 2,
       "first_day": "2026-08-01",
       "items": [
         {
-          "domain": "vidylee.click",
-          "rank": 22816,
-          "was": 730965,
-          "gain_pct": 96.9,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "mini.at",
+          "rank": 139145,
+          "was": 641682,
+          "gain_pct": 78.3,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "blacktoon416.com",
-          "rank": 22790,
-          "was": 697319,
-          "gain_pct": 96.7,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "liftmeon.org",
+          "rank": 137966,
+          "was": 567861,
+          "gain_pct": 75.7,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "bmw-motorrad.com.cn",
-          "rank": 18522,
-          "was": 425434,
-          "gain_pct": 95.6,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "supercline.net",
+          "rank": 170032,
+          "was": 509356,
+          "gain_pct": 66.6,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "alexismilan.com",
-          "rank": 22420,
-          "was": 493606,
-          "gain_pct": 95.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "keyword-tokyo-media-infomation.xyz",
+          "rank": 59501,
+          "was": 165785,
+          "gain_pct": 64.1,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "mp4moviez.dad",
-          "rank": 22597,
-          "was": 506639,
-          "gain_pct": 95.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "playinrace365.com",
+          "rank": 92415,
+          "was": 255815,
+          "gain_pct": 63.9,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "mingky05.live",
-          "rank": 22360,
-          "was": 456180,
-          "gain_pct": 95.1,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "alexisnemesis.com",
+          "rank": 91812,
+          "was": 251771,
+          "gain_pct": 63.5,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "olxprc.com",
-          "rank": 22373,
-          "was": 456751,
-          "gain_pct": 95.1,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "olxpln.com",
+          "rank": 92627,
+          "was": 253937,
+          "gain_pct": 63.5,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "xnhau.you",
-          "rank": 22382,
-          "was": 460126,
-          "gain_pct": 95.1,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "yako14.com",
+          "rank": 89988,
+          "was": 245781,
+          "gain_pct": 63.4,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "xnhau.xxx",
-          "rank": 22322,
-          "was": 418010,
-          "gain_pct": 94.7,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "uonohubweb.com",
+          "rank": 90997,
+          "was": 248683,
+          "gain_pct": 63.4,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "filmyzilla52.com",
-          "rank": 22068,
-          "was": 398905,
-          "gain_pct": 94.5,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "aiofilm.org",
+          "rank": 89617,
+          "was": 244296,
+          "gain_pct": 63.3,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "filmyfly.soy",
-          "rank": 21763,
-          "was": 343490,
-          "gain_pct": 93.7,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "1desiremovies.fans",
+          "rank": 89908,
+          "was": 245039,
+          "gain_pct": 63.3,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "5movierulz.support",
-          "rank": 21981,
-          "was": 327709,
-          "gain_pct": 93.3,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "isaidub.run",
+          "rank": 87548,
+          "was": 238068,
+          "gain_pct": 63.2,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "bollyflix.at",
-          "rank": 21714,
-          "was": 302455,
-          "gain_pct": 92.8,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "aghazno12.com",
+          "rank": 88463,
+          "was": 240237,
+          "gain_pct": 63.2,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "pagibigfundservices.com",
-          "rank": 21665,
-          "was": 297254,
-          "gain_pct": 92.7,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "filmywap.farm",
+          "rank": 89872,
+          "was": 244481,
+          "gain_pct": 63.2,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "yasyadong02.tv",
-          "rank": 21417,
-          "was": 270797,
-          "gain_pct": 92.1,
-          "from_day": "2026-08-10",
-          "to_day": "2026-08-12"
+          "domain": "dualeotruyendl.com",
+          "rank": 87043,
+          "was": 235981,
+          "gain_pct": 63.1,
+          "from_day": "2026-08-11",
+          "to_day": "2026-08-13"
         }
       ]
     },
@@ -1529,129 +1551,129 @@
       "label": "Tranco \u2014 traffic",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 11,
+      "have_days": 12,
       "need_days": 7,
       "first_day": "2026-08-01",
       "items": [
         {
-          "domain": "alexismilan.com",
-          "rank": 22420,
-          "was": 733562,
-          "gain_pct": 96.9,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
           "domain": "blacktoon416.com",
-          "rank": 22790,
-          "was": 695955,
-          "gain_pct": 96.7,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15534,
+          "was": 696682,
+          "gain_pct": 97.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "xnhau.bio",
-          "rank": 23235,
-          "was": 659199,
-          "gain_pct": 96.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15639,
+          "was": 715780,
+          "gain_pct": 97.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "filmyzilla52.com",
-          "rank": 22068,
-          "was": 578895,
-          "gain_pct": 96.2,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "olxprc.com",
-          "rank": 22373,
-          "was": 530711,
-          "gain_pct": 95.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "xnhau.you",
-          "rank": 22382,
-          "was": 493845,
-          "gain_pct": 95.5,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "mingky05.live",
-          "rank": 22360,
-          "was": 490190,
-          "gain_pct": 95.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "domain": "alexismilan.com",
+          "rank": 15423,
+          "was": 669434,
+          "gain_pct": 97.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "5movierulz.limited",
-          "rank": 23321,
-          "was": 498166,
-          "gain_pct": 95.3,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15666,
+          "was": 572031,
+          "gain_pct": 97.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
-          "domain": "filmyfly.soy",
-          "rank": 21763,
-          "was": 442155,
-          "gain_pct": 95.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "domain": "filmyzilla52.com",
+          "rank": 15337,
+          "was": 526004,
+          "gain_pct": 97.1,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "olxprc.com",
+          "rank": 15417,
+          "was": 515454,
+          "gain_pct": 97.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "mingky05.live",
+          "rank": 15412,
+          "was": 479684,
+          "gain_pct": 96.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "xnhau.you",
+          "rank": 15418,
+          "was": 487951,
+          "gain_pct": 96.8,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "mp4moviez.dad",
-          "rank": 22597,
-          "was": 429815,
-          "gain_pct": 94.7,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15496,
+          "was": 444786,
+          "gain_pct": 96.5,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "filmyfly.soy",
+          "rank": 15228,
+          "was": 416886,
+          "gain_pct": 96.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "xnhau.xxx",
-          "rank": 22322,
-          "was": 416232,
-          "gain_pct": 94.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15434,
+          "was": 416127,
+          "gain_pct": 96.3,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "5movierulz.support",
-          "rank": 21981,
-          "was": 319849,
-          "gain_pct": 93.1,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15370,
+          "was": 318308,
+          "gain_pct": 95.2,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "bollyflix.at",
-          "rank": 21714,
-          "was": 302240,
-          "gain_pct": 92.8,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
-        },
-        {
-          "domain": "5movierulz.vote",
-          "rank": 21133,
-          "was": 284560,
-          "gain_pct": 92.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15254,
+          "was": 303863,
+          "gain_pct": 95.0,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         },
         {
           "domain": "pagibigfundservices.com",
-          "rank": 21665,
-          "was": 286324,
-          "gain_pct": 92.4,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-12"
+          "rank": 15223,
+          "was": 287381,
+          "gain_pct": 94.7,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
+        },
+        {
+          "domain": "5movierulz.vote",
+          "rank": 15053,
+          "was": 271114,
+          "gain_pct": 94.4,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-13"
         }
       ]
     },
@@ -1660,7 +1682,7 @@
       "label": "Tranco \u2014 traffic",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 11,
+      "have_days": 12,
       "need_days": 30,
       "first_day": "2026-08-01",
       "items": []
@@ -1670,7 +1692,7 @@
       "label": "Tranco \u2014 traffic",
       "window": "quarterly",
       "window_days": 91,
-      "have_days": 11,
+      "have_days": 12,
       "need_days": 91,
       "first_day": "2026-08-01",
       "items": []
@@ -1680,22 +1702,115 @@
       "label": "Tranco \u2014 traffic",
       "window": "yearly",
       "window_days": 365,
-      "have_days": 11,
+      "have_days": 12,
       "need_days": 365,
       "first_day": "2026-08-01",
       "items": []
     }
   ],
-  "data_through": "2026-08-12",
-  "briefed_through": "2026-08-12",
+  "data_through": "2026-08-13",
+  "briefed_through": "2026-08-13",
   "stats": {
-    "entities": 18967,
-    "snapshots": 550677,
-    "sources_live": 22,
+    "entities": 19960,
+    "snapshots": 563598,
+    "sources_live": 24,
     "first_day": "2026-07-28",
-    "days_collected": 16
+    "days_collected": 17
   },
   "items": [
+    {
+      "name": "reflex-dev/xy",
+      "type": "repo",
+      "brief": "Weekly downloads 11,161, up 7% today and up 147% since the 4,518 recorded nine days ago. Stars moved 0% and forks 1.1% in the same window. Six appearances and the gap has widened on every one of them \u2014 attention flat, installation compounding. Ordinarily downloads follow stars; here they have decoupled entirely, and that decoupling is the single most useful pattern this list has produced so far.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/reflex-dev/xy",
+      "description": "A Python charting library, from the team behind the Reflex web framework.",
+      "appearances": 6,
+      "track": {
+        "first_flagged": "2026-07-31",
+        "days_ago": 13,
+        "unit": "stars",
+        "then": 1007,
+        "now": 1721,
+        "change_pct": 70.9
+      },
+      "briefed_on": "2026-08-13"
+    },
+    {
+      "name": "seangoedecke.com",
+      "type": "domain",
+      "brief": "Fourth consecutive day, and it is fading in an orderly way: Lobsters comments up 10.2% and points up 5%, against 181% and 63% two days ago. Yesterday points went negative; today they are mildly positive again. Four days of one blog post moving through two communities, now settling. Useful mainly as a completed example of the shape \u2014 HackerNews first, Lobsters second, a peak, then decay.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "hackernews",
+        "lobsters",
+        "openpagerank",
+        "pricing",
+        "techstack",
+        "tranco"
+      ],
+      "url": "https://seangoedecke.com",
+      "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
+      "appearances": 5,
+      "track": null,
+      "briefed_on": "2026-08-13"
+    },
+    {
+      "name": "AntigmaLabs/ante",
+      "type": "repo",
+      "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way \u2014 front page presence gone entirely, posts down 33%, comments up 1.1%. The thread ended and the growth did not, which is the transition worth watching for and the second repo this month to show it. 34 forks on 1,443 stars is a modest 2.4% ratio, so the people arriving are mostly still evaluating rather than building on it.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/AntigmaLabs/ante",
+      "description": "A self-contained harness for running AI coding agents in a terminal.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-13"
+    },
+    {
+      "name": "douwe.com",
+      "type": "domain",
+      "brief": "Second appearance with almost nothing changed \u2014 HackerNews comments up 10% on a base of nine, points unmoved at 36. Two unrelated collectors still see it, so the rule fires, and the honest reading is that the rule fires on very small things too. Included so that a reader can calibrate: this is what the bottom of a qualifying day looks like.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "hackernews",
+        "openpagerank",
+        "techstack",
+        "tranco"
+      ],
+      "url": "https://douwe.com",
+      "description": "The personal site of a developer publishing small self-built software projects.",
+      "appearances": 2,
+      "track": null,
+      "briefed_on": "2026-08-13"
+    },
+    {
+      "name": "googleblog.com",
+      "type": "domain",
+      "brief": "503 HackerNews comments and Lobsters comments up 314% \u2014 the largest cross-community reaction on the list this week, and Google's own blog is obviously not a rising entity. The reading is that one announcement landed hard in two places at once. Its HackerNews rank has already fallen 83%, so the thread has peaked; the Lobsters side is where the argument moved.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "hackernews",
+        "lobsters",
+        "openpagerank",
+        "pricing",
+        "techstack",
+        "tranco"
+      ],
+      "url": "https://googleblog.com",
+      "description": "Google's official blog, where product and research announcements are published.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-13"
+    },
     {
       "name": "antirez/h3.c",
       "type": "repo",
@@ -1707,27 +1822,13 @@
       "url": "https://github.com/antirez/h3.c",
       "description": "An inference engine written in C that runs the MiniMax H3 language model on Mac hardware, from the author of Redis.",
       "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-12"
-    },
-    {
-      "name": "reflex-dev/xy",
-      "type": "repo",
-      "brief": "Weekly downloads 9,386, up 11.2% today and more than doubled since the 4,518 recorded four days ago. Stars moved 1.6% in the same window \u2014 downloads are now growing seven times faster than attention, which is the inversion this list exists to catch. Fifth appearance and the gap has widened each time. Whatever is happening here is happening in package managers, not on forums.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/reflex-dev/xy",
-      "description": "A Python charting library, from the team behind the Reflex web framework.",
-      "appearances": 5,
       "track": {
-        "first_flagged": "2026-07-31",
-        "days_ago": 12,
+        "first_flagged": "2026-08-12",
+        "days_ago": 1,
         "unit": "stars",
-        "then": 1007,
-        "now": 1713,
-        "change_pct": 70.1
+        "then": 1432,
+        "now": 1657,
+        "change_pct": 15.7
       },
       "briefed_on": "2026-08-12"
     },
@@ -1747,43 +1848,6 @@
       ],
       "url": "https://anthropic.com",
       "description": "Anthropic, the AI research company behind the Claude models.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-12"
-    },
-    {
-      "name": "seangoedecke.com",
-      "type": "domain",
-      "brief": "Third consecutive day, and the first sign of the peak: Lobsters comments still up 56.7% but points now NEGATIVE 37.1%. Comments rising while points fall is a specific shape \u2014 the thread has turned into an argument that fewer people are endorsing. Four days of tracking one blog post across two communities, and this is the day it turns.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "hackernews",
-        "lobsters",
-        "openpagerank",
-        "pricing",
-        "techstack",
-        "tranco"
-      ],
-      "url": "https://seangoedecke.com",
-      "description": "The blog of Sean Goedecke, a staff engineer writing about how software gets built inside large companies.",
-      "appearances": 4,
-      "track": null,
-      "briefed_on": "2026-08-12"
-    },
-    {
-      "name": "douwe.com",
-      "type": "domain",
-      "brief": "A personal projects page with 36 HackerNews points and 9 comments \u2014 small numbers, on the list because three unrelated collectors registered it. Nothing here suggests a trend. Included because the alternative is a list that only ever shows the exciting entries, and knowing what an ordinary qualifying day looks like is part of reading the extraordinary ones correctly.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "hackernews",
-        "openpagerank",
-        "tranco"
-      ],
-      "url": "https://douwe.com",
-      "description": "The personal site of a developer publishing small self-built software projects.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-12"
@@ -1819,11 +1883,11 @@
       "appearances": 2,
       "track": {
         "first_flagged": "2026-08-10",
-        "days_ago": 2,
+        "days_ago": 3,
         "unit": "stars",
         "then": 144,
-        "now": 162,
-        "change_pct": 12.5
+        "now": 165,
+        "change_pct": 14.6
       },
       "briefed_on": "2026-08-11"
     },
@@ -1840,11 +1904,11 @@
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-11",
-        "days_ago": 1,
+        "days_ago": 2,
         "unit": "stars",
         "then": 824,
-        "now": 832,
-        "change_pct": 1.0
+        "now": 838,
+        "change_pct": 1.7
       },
       "briefed_on": "2026-08-11"
     },
@@ -1886,45 +1950,6 @@
         "now": 495,
         "change_pct": 15.1
       },
-      "briefed_on": "2026-08-10"
-    },
-    {
-      "name": "t8y2/dbx",
-      "type": "repo",
-      "brief": "Third appearance. 13,242 stars with 1,344 forks and 1,117 open issues is an unusual shape \u2014 one fork per ten stars where most repos manage one in fifty \u2014 and that ratio has held steady across a week rather than spiking and fading. The Homebrew route remains the thing to watch: a package-manager install is somebody putting it on their machine, which is the only adoption a desktop database client can honestly claim.",
-      "sources": [
-        "github",
-        "homebrew"
-      ],
-      "url": "https://github.com/t8y2/dbx",
-      "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-05",
-        "days_ago": 7,
-        "unit": "stars",
-        "then": 13242,
-        "now": 14247,
-        "change_pct": 7.6
-      },
-      "briefed_on": "2026-08-10"
-    },
-    {
-      "name": "arcprize.org",
-      "type": "domain",
-      "brief": "470 HackerNews comments, the second-largest thread this week, on a benchmark designed to measure reasoning rather than memorisation. Comments up only 2.2% and best rank down 38.8%, so the thread has peaked \u2014 what puts this here is the size of the discussion, not its growth. A benchmark that provokes 470 comments is usually being argued about rather than adopted, and the useful question is whether anyone builds against it.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "hackernews",
-        "openpagerank",
-        "techstack",
-        "tranco"
-      ],
-      "url": "https://arcprize.org",
-      "description": "The ARC Prize, a competition and benchmark for measuring genuine reasoning in AI systems rather than memorisation.",
-      "appearances": 1,
-      "track": null,
       "briefed_on": "2026-08-10"
     }
   ]
