@@ -1,6 +1,98 @@
 {
   "days": [
     {
+      "date": "2026-08-14",
+      "count": 5,
+      "items": [
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Weekly downloads 13,544, up 11.5% today and up 200% since 4 August, while stars moved 0.5%. Seven appearances now and the pattern has never once reversed: installation compounding, attention flat. The week-over-week growth figure itself is at 407%, meaning the rate is still climbing rather than settling. This is the clearest thing this system has found, and the monthly window opening on 28 August is the test \u2014 if it holds through the month it is a dependency, not a moment.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A Python charting library, from the team behind the Reflex web framework.",
+          "appearances": 7,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1731,
+            "change_pct": 71.9
+          },
+          "briefed_on": "2026-08-14"
+        },
+        {
+          "name": "AntigmaLabs/ante",
+          "type": "repo",
+          "brief": "Forks up 30.8% and stars up 12.7% in a day, with HackerNews contributing almost nothing at 1.8%. Forks growing more than twice as fast as stars is the strongest single-day ratio on this list, and 50 forks on 1,652 stars means people are taking the code away to change it. Second appearance since the thread ended, and the second time the growth has arrived without an audience.",
+          "sources": [
+            "github",
+            "hackernews",
+            "search_trends"
+          ],
+          "url": "https://github.com/AntigmaLabs/ante",
+          "description": "A self-contained harness for running AI coding agents in a terminal.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-13",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 1443,
+            "now": 1652,
+            "change_pct": 14.5
+          },
+          "briefed_on": "2026-08-14"
+        },
+        {
+          "name": "TheRealYT/git-knife",
+          "type": "repo",
+          "brief": "Stars up 12.3% and open issues up 33.3% on a repo with 291 stars \u2014 small numbers, but issues rising faster than stars on a young tool means the people who found it are using it hard enough to break it. Worth stating plainly: this repo has no description on GitHub, so what it actually does is not documented anywhere the pipeline can read. The numbers are real and the claim is unknown.",
+          "sources": [
+            "github",
+            "hackernews",
+            "search_trends"
+          ],
+          "url": "https://github.com/TheRealYT/git-knife",
+          "description": "A command-line tool for git, published without a description on GitHub \u2014 judged on its registry entry and its HackerNews thread rather than any stated claim.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-14"
+        },
+        {
+          "name": "activeing123/mcptoon",
+          "type": "repo",
+          "brief": "An MCP client claiming 97% fewer tokens on tool discovery and 40-60% on results \u2014 a specific, falsifiable number, which is rare enough to be worth noting on its own. Growth has slowed sharply: stars up 1.8% today against 138 total, HackerNews at 1.4%. Second appearance and the first day it looks like a launch settling rather than something building.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/activeing123/mcptoon",
+          "description": "A command-line client for the Model Context Protocol, built to cut the number of tokens an agent spends discovering and calling tools.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-14"
+        },
+        {
+          "name": "StarryKit/starrykit-plugin",
+          "type": "repo",
+          "brief": "89 stars, 3 forks, and HackerNews points up 20% from a base of four. Everything here is too small to read as a trend, and open issues actually fell 25% \u2014 one bug closed. On the list because two collectors saw it move; included so the bottom of a qualifying day stays visible rather than quietly filtered out.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/StarryKit/starrykit-plugin",
+          "description": "A plugin that lets coding agents like Claude Code and Cursor generate presentations and posters.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-14"
+        }
+      ]
+    },
+    {
       "date": "2026-08-13",
       "count": 2,
       "items": [
@@ -14,7 +106,7 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 6,
+          "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 14,
@@ -36,7 +128,7 @@
           ],
           "url": "https://github.com/AntigmaLabs/ante",
           "description": "A self-contained harness for running AI coding agents in a terminal.",
-          "appearances": 1,
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-13",
             "days_ago": 1,
@@ -84,7 +176,7 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 6,
+          "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 14,
@@ -442,7 +534,7 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 6,
+          "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 14,
@@ -1095,7 +1187,7 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 6,
+          "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 14,
@@ -1572,7 +1664,7 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 6,
+          "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 14,
@@ -1813,7 +1905,7 @@
           ],
           "url": "https://github.com/reflex-dev/xy",
           "description": "A Python charting library, from the team behind the Reflex web framework.",
-          "appearances": 6,
+          "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
             "days_ago": 14,

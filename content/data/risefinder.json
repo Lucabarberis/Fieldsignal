@@ -1121,7 +1121,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-14T06:24:08Z",
+  "generated_at": "2026-08-14T06:29:13Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1709,7 +1709,7 @@
     }
   ],
   "data_through": "2026-08-14",
-  "briefed_through": "2026-08-13",
+  "briefed_through": "2026-08-14",
   "stats": {
     "entities": 21150,
     "snapshots": 577352,
@@ -1721,14 +1721,14 @@
     {
       "name": "reflex-dev/xy",
       "type": "repo",
-      "brief": "Weekly downloads 11,161, up 7% today and up 147% since the 4,518 recorded nine days ago. Stars moved 0% and forks 1.1% in the same window. Six appearances and the gap has widened on every one of them \u2014 attention flat, installation compounding. Ordinarily downloads follow stars; here they have decoupled entirely, and that decoupling is the single most useful pattern this list has produced so far.",
+      "brief": "Weekly downloads 13,544, up 11.5% today and up 200% since 4 August, while stars moved 0.5%. Seven appearances now and the pattern has never once reversed: installation compounding, attention flat. The week-over-week growth figure itself is at 407%, meaning the rate is still climbing rather than settling. This is the clearest thing this system has found, and the monthly window opening on 28 August is the test \u2014 if it holds through the month it is a dependency, not a moment.",
       "sources": [
         "github",
         "hackernews"
       ],
       "url": "https://github.com/reflex-dev/xy",
       "description": "A Python charting library, from the team behind the Reflex web framework.",
-      "appearances": 6,
+      "appearances": 7,
       "track": {
         "first_flagged": "2026-07-31",
         "days_ago": 14,
@@ -1737,12 +1737,12 @@
         "now": 1731,
         "change_pct": 71.9
       },
-      "briefed_on": "2026-08-13"
+      "briefed_on": "2026-08-14"
     },
     {
       "name": "AntigmaLabs/ante",
       "type": "repo",
-      "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way \u2014 front page presence gone entirely, posts down 33%, comments up 1.1%. The thread ended and the growth did not, which is the transition worth watching for and the second repo this month to show it. 34 forks on 1,443 stars is a modest 2.4% ratio, so the people arriving are mostly still evaluating rather than building on it.",
+      "brief": "Forks up 30.8% and stars up 12.7% in a day, with HackerNews contributing almost nothing at 1.8%. Forks growing more than twice as fast as stars is the strongest single-day ratio on this list, and 50 forks on 1,652 stars means people are taking the code away to change it. Second appearance since the thread ended, and the second time the growth has arrived without an audience.",
       "sources": [
         "github",
         "hackernews",
@@ -1750,7 +1750,7 @@
       ],
       "url": "https://github.com/AntigmaLabs/ante",
       "description": "A self-contained harness for running AI coding agents in a terminal.",
-      "appearances": 1,
+      "appearances": 2,
       "track": {
         "first_flagged": "2026-08-13",
         "days_ago": 1,
@@ -1759,7 +1759,50 @@
         "now": 1652,
         "change_pct": 14.5
       },
-      "briefed_on": "2026-08-13"
+      "briefed_on": "2026-08-14"
+    },
+    {
+      "name": "TheRealYT/git-knife",
+      "type": "repo",
+      "brief": "Stars up 12.3% and open issues up 33.3% on a repo with 291 stars \u2014 small numbers, but issues rising faster than stars on a young tool means the people who found it are using it hard enough to break it. Worth stating plainly: this repo has no description on GitHub, so what it actually does is not documented anywhere the pipeline can read. The numbers are real and the claim is unknown.",
+      "sources": [
+        "github",
+        "hackernews",
+        "search_trends"
+      ],
+      "url": "https://github.com/TheRealYT/git-knife",
+      "description": "A command-line tool for git, published without a description on GitHub \u2014 judged on its registry entry and its HackerNews thread rather than any stated claim.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-14"
+    },
+    {
+      "name": "activeing123/mcptoon",
+      "type": "repo",
+      "brief": "An MCP client claiming 97% fewer tokens on tool discovery and 40-60% on results \u2014 a specific, falsifiable number, which is rare enough to be worth noting on its own. Growth has slowed sharply: stars up 1.8% today against 138 total, HackerNews at 1.4%. Second appearance and the first day it looks like a launch settling rather than something building.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/activeing123/mcptoon",
+      "description": "A command-line client for the Model Context Protocol, built to cut the number of tokens an agent spends discovering and calling tools.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-14"
+    },
+    {
+      "name": "StarryKit/starrykit-plugin",
+      "type": "repo",
+      "brief": "89 stars, 3 forks, and HackerNews points up 20% from a base of four. Everything here is too small to read as a trend, and open issues actually fell 25% \u2014 one bug closed. On the list because two collectors saw it move; included so the bottom of a qualifying day stays visible rather than quietly filtered out.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/StarryKit/starrykit-plugin",
+      "description": "A plugin that lets coding agents like Claude Code and Cursor generate presentations and posters.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-14"
     },
     {
       "name": "antirez/h3.c",
@@ -1901,66 +1944,6 @@
         "change_pct": 15.1
       },
       "briefed_on": "2026-08-10"
-    },
-    {
-      "name": "t8y2/dbx",
-      "type": "repo",
-      "brief": "Third appearance. 13,242 stars with 1,344 forks and 1,117 open issues is an unusual shape \u2014 one fork per ten stars where most repos manage one in fifty \u2014 and that ratio has held steady across a week rather than spiking and fading. The Homebrew route remains the thing to watch: a package-manager install is somebody putting it on their machine, which is the only adoption a desktop database client can honestly claim.",
-      "sources": [
-        "github",
-        "homebrew"
-      ],
-      "url": "https://github.com/t8y2/dbx",
-      "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-05",
-        "days_ago": 9,
-        "unit": "stars",
-        "then": 13242,
-        "now": 14564,
-        "change_pct": 10.0
-      },
-      "briefed_on": "2026-08-10"
-    },
-    {
-      "name": "arcprize.org",
-      "type": "domain",
-      "brief": "470 HackerNews comments, the second-largest thread this week, on a benchmark designed to measure reasoning rather than memorisation. Comments up only 2.2% and best rank down 38.8%, so the thread has peaked \u2014 what puts this here is the size of the discussion, not its growth. A benchmark that provokes 470 comments is usually being argued about rather than adopted, and the useful question is whether anyone builds against it.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "hackernews",
-        "openpagerank",
-        "techstack",
-        "tranco"
-      ],
-      "url": "https://arcprize.org",
-      "description": "The ARC Prize, a competition and benchmark for measuring genuine reasoning in AI systems rather than memorisation.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-10"
-    },
-    {
-      "name": "leonickson1/Swiftlet",
-      "type": "repo",
-      "brief": "Third day, and the story is that it has stopped being a story. Stars up 2.1% and forks 2.4% \u2014 matched, modest, and a long way from the 13.2% fork surge two days ago. Open issues actually fell 25%, meaning the maintainer is clearing them faster than new ones arrive. That is a healthy repo and no longer a rising one, which is worth saying plainly rather than dressing up.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/leonickson1/Swiftlet",
-      "description": "A lightweight Swift web framework for building server-side applications.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-07",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 434,
-        "now": 470,
-        "change_pct": 8.3
-      },
-      "briefed_on": "2026-08-09"
     }
   ]
 }
