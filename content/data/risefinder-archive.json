@@ -42,7 +42,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "13,544 weekly downloads, up 11.5% in a day and 200% since 4 August, while stars moved 0.5%. Seventh straight appearance, and the gap between installing it and bookmarking it has never once closed.",
+          "brief": "13,544 weekly downloads, up 21.4% in a day from 11,161, while stars did not move at all. Seventh straight appearance, and the gap between installing it and bookmarking it has never once closed.",
           "sources": [
             "github",
             "hackernews",
@@ -64,7 +64,7 @@
         {
           "name": "TheRealYT/git-knife",
           "type": "repo",
-          "brief": "291 stars, up 12.3%, with 165 HackerNews points and 101 comments. Open issues up 33.3% on the same day: the people who found it are using it hard enough to file bugs.",
+          "brief": "Stars 237 to 291 in a day, up 22.8%, with 165 HackerNews points and 101 comments. Forks up 14.3% on the same day: the people who found it are taking the code away, not just reading it.",
           "sources": [
             "github",
             "hackernews",
@@ -86,7 +86,7 @@
         {
           "name": "antigma.ai",
           "type": "domain",
-          "brief": "Forks up 30.8% against stars up 12.7% in a day, 50 forks on 1,652 stars. Pushed the same day, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
+          "brief": "Forks 34 to 50 in a day, up 47.1%, against stars up 14.5%. Forks growing three times faster than stars, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
           "sources": [
             "dataforseo",
             "github",
@@ -181,7 +181,7 @@
         {
           "name": "antirez/h3.c",
           "type": "repo",
-          "brief": "Stars up 117%, forks up 96%, open issues up 183% and HackerNews comments up 453% in a single day. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
+          "brief": "Stars 533 to 1,432 in a day, up 168.7%, with forks up 184%, open issues up 550% and HackerNews comments up 481%. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
           "sources": [
             "github",
             "hackernews"
@@ -208,7 +208,7 @@
         {
           "name": "palamim/starboard",
           "type": "repo",
-          "brief": "Second appearance, and stars, forks and open issues all moved together again at 3.1%, 3.6% and 20%. Pushed today rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
+          "brief": "Second appearance, and stars, forks and open issues all moved together again: 144 to 156, 6 to 7, 1 to 2. Pushed the same day rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
           "sources": [
             "github",
             "hackernews"
@@ -235,7 +235,7 @@
         {
           "name": "MakazhanAlpamys/Soup",
           "type": "repo",
-          "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 5.5% against 3% star growth. The people arriving are running it and hitting walls rather than bookmarking it. HackerNews has gone quiet at 0.7%.",
+          "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 8.5% against 4.9% star growth. The people arriving are running it and hitting walls rather than bookmarking it.",
           "sources": [
             "github",
             "hackernews"
@@ -305,7 +305,7 @@
         {
           "name": "runtimewire.com",
           "type": "domain",
-          "brief": "Pricing tiers up 33.3%, which means it added a plan, and a new plan is the monetisation trigger this system treats as a signal on its own. On the HackerNews front page the same day with 22 comments.",
+          "brief": "Pricing tiers went 2 to 4, which means it added plans, and a new plan is the monetisation trigger this system treats as a signal on its own. On the HackerNews front page the same day with 22 comments.",
           "sources": [
             "crunchbase",
             "dataforseo",
@@ -331,7 +331,7 @@
         {
           "name": "xoreaxeaxeax/asm-hall-of-shame",
           "type": "repo",
-          "brief": "Stars up 38.4% in a day, forks up 12%, open issues up 20%, with GitHub, HackerNews and Lobsters all seeing it at once. Lobsters points more than doubled at 108.8%. Five forks on 567 stars this early says people are submitting entries, not just reading them.",
+          "brief": "Stars 339 to 567 in a day, up 67.3%, with forks up 150% and open issues up 100%, and GitHub, HackerNews and Lobsters all seeing it at once. Lobsters points more than tripled, 16 to 54. Five forks on 567 stars this early says people are submitting entries, not just reading them.",
           "sources": [
             "github",
             "hackernews",
