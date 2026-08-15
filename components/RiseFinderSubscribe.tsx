@@ -21,7 +21,7 @@ import { SectionBand } from "@/components/SectionBand";
 export function RiseFinderSubscribe() {
   return (
     <>
-      <SectionBand num="03" label="Get it by email" meta="Every morning" />
+      <SectionBand num="04" label="Get it by email" meta="Every morning" />
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <p className="text-body text-ink-2 mb-6">
           The briefing is written once a day. Leave an address and it comes to

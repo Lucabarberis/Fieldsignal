@@ -45,6 +45,7 @@ export default async function RiseFinderPage({
 }) {
   const params = await searchParams;
   const { items, stats, data_through, briefed_through } = data;
+  const stillMoving = (data as { still_moving?: unknown[] }).still_moving ?? [];
   const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
 
   // Collection is automatic and daily; writing a brief is not. On any day the
@@ -53,7 +54,6 @@ export default async function RiseFinderPage({
   // entries judged three days earlier. The label now states the date it is
   // actually showing, so a missed day is visible rather than papered over.
   const briefedDay = briefed_through ?? data_through;
-  const briefIsToday = briefedDay === data_through;
 
   return (
     <>
@@ -97,17 +97,41 @@ export default async function RiseFinderPage({
         </div>
       )}
 
+      {/* ALWAYS DATED. This said "Today's briefing" with no date whenever the
+          brief day matched the data day — which is true even when both are
+          yesterday, because collection runs once a day and the briefing follows
+          the data, not the clock. A reader in New Zealand on the 15th saw
+          "Today's briefing" above 14 August's entries and reasonably asked what
+          was wrong. The date is never a cost to show and repeatedly a cost to
+          omit. */}
       <SectionBand
         num="01"
-        label={briefIsToday ? "Today's briefing" : "Latest briefing"}
-        meta={
-          briefIsToday
-            ? `${items.length} entries`
-            : `${items.length} entries · ${formatBriefingDay(briefedDay)}`
-        }
+        label="Latest briefing"
+        meta={`${items.length} entries · ${formatBriefingDay(briefedDay)}`}
       />
 
       <RiseFinderList items={items as Item[]} />
+
+      {/* The days behind the latest briefing, shown AS earlier days. The
+          briefing above is one day and one day only; when that day is thin,
+          this carries the rest of the week without the front page pretending
+          any of it happened this morning. Every card is stamped with its own
+          date for the same reason. */}
+      {stillMoving.length > 0 && (
+        <>
+          <SectionBand
+            num="02"
+            label="Still moving"
+            meta={`${stillMoving.length} from the previous days`}
+          />
+          <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
+            Flagged earlier in the week and still climbing. Each entry carries
+            the day it was first seen moving — these are not today&rsquo;s
+            findings, and the briefing above is.
+          </div>
+          <RiseFinderList items={stillMoving as Item[]} stampDate />
+        </>
+      )}
 
       <RiseFinderWindows
         windows={(data.windows ?? []) as WindowBlock[]}
@@ -119,7 +143,7 @@ export default async function RiseFinderPage({
       {past.length > 0 && (
         <>
           <SectionBand
-            num="04"
+            num="05"
             label="Previous briefings"
             meta={`${past.length} archived`}
           />
@@ -142,7 +166,7 @@ export default async function RiseFinderPage({
         </>
       )}
 
-      <SectionBand num="05" label="How to read this" meta="Method" />
+      <SectionBand num="06" label="How to read this" meta="Method" />
 
       <div className="px-4 sm:px-9 py-8 max-w-4xl">
         <div className="text-body text-ink-2 space-y-4">

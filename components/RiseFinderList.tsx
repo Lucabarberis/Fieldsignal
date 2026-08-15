@@ -35,6 +35,8 @@ export type Item = {
   description?: string | null;
   /** How many separate briefings this has appeared in. */
   appearances?: number;
+  /** The day this was flagged. Shown when the list mixes days. */
+  briefed_on?: string | null;
   track: Track | null;
 };
 
@@ -86,7 +88,32 @@ function num(n: number) {
   return n >= 1000 ? n.toLocaleString("en-GB") : String(n);
 }
 
-export function RiseFinderList({ items }: { items: Item[] }) {
+/** "12 Aug" — short enough to sit where a list index would. */
+function formatShortDay(iso: string) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "short",
+    timeZone: "UTC",
+  });
+}
+
+/**
+ * `stampDate` is for lists that mix days — the "Still moving" section, where
+ * entries come from the several days behind the latest briefing. Each card then
+ * carries the day it was flagged instead of its position in the list, because
+ * position means nothing across days and the date means everything: it is the
+ * difference between "this is today's news" and "this was Tuesday's and has not
+ * stopped". Merging days without saying so is exactly the fault this section
+ * was built to replace.
+ */
+export function RiseFinderList({
+  items,
+  stampDate = false,
+}: {
+  items: Item[];
+  stampDate?: boolean;
+}) {
   const [group, setGroup] = useState("all");
 
   const shown = useMemo(() => {
@@ -127,7 +154,7 @@ export function RiseFinderList({ items }: { items: Item[] }) {
 
       {shown.length === 0 ? (
         <div className="px-4 sm:px-9 py-10 font-mono text-mono uppercase text-ink-3">
-          Nothing in this category today.
+          Nothing in this category.
         </div>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule">
@@ -138,7 +165,9 @@ export function RiseFinderList({ items }: { items: Item[] }) {
             >
               <div className="flex items-baseline justify-between mb-1">
                 <span className="font-mono text-mono text-red font-semibold opacity-[0.78]">
-                  {String(i + 1).padStart(2, "0")}
+                  {stampDate && item.briefed_on
+                    ? formatShortDay(item.briefed_on)
+                    : String(i + 1).padStart(2, "0")}
                 </span>
                 {/* New or continuing. A first sighting and a thing that has
                     held the list all week mean opposite things — one is a

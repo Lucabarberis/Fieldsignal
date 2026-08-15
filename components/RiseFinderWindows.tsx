@@ -76,7 +76,7 @@ export function RiseFinderWindows({
   return (
     <>
       <SectionBand
-        num="02"
+        num="03"
         label="Raw risers by source"
         meta="Whole list, no judgement"
       />
