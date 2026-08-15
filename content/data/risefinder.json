@@ -1088,7 +1088,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-15T04:18:02Z",
+  "generated_at": "2026-08-15T04:29:36Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1760,7 +1760,12 @@
         "now": 1802,
         "change_pct": 25.8
       },
-      "briefed_on": "2026-08-12"
+      "briefed_on": "2026-08-12",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 12.6
+      }
     },
     {
       "name": "palamim/starboard",
@@ -1781,7 +1786,12 @@
         "now": 165,
         "change_pct": 14.6
       },
-      "briefed_on": "2026-08-11"
+      "briefed_on": "2026-08-11",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     },
     {
       "name": "MakazhanAlpamys/Soup",
@@ -1802,7 +1812,12 @@
         "now": 495,
         "change_pct": 15.1
       },
-      "briefed_on": "2026-08-10"
+      "briefed_on": "2026-08-10",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     },
     {
       "name": "t8y2/dbx",
@@ -1824,7 +1839,12 @@
         "now": 14564,
         "change_pct": 10.0
       },
-      "briefed_on": "2026-08-10"
+      "briefed_on": "2026-08-10",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     },
     {
       "name": "runtimewire.com",
@@ -1850,7 +1870,12 @@
         "now": 3.49,
         "change_pct": 0.0
       },
-      "briefed_on": "2026-08-09"
+      "briefed_on": "2026-08-09",
+      "since": {
+        "moving": true,
+        "metric": "tranco_rank",
+        "change_pct": 1.1
+      }
     },
     {
       "name": "xoreaxeaxeax/asm-hall-of-shame",
@@ -1872,7 +1897,12 @@
         "now": 777,
         "change_pct": 37.0
       },
-      "briefed_on": "2026-08-09"
+      "briefed_on": "2026-08-09",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     },
     {
       "name": "V4bel/Zapscape",
@@ -1894,7 +1924,12 @@
         "now": 153,
         "change_pct": 39.1
       },
-      "briefed_on": "2026-08-08"
+      "briefed_on": "2026-08-08",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     },
     {
       "name": "pg83/shitty",
@@ -1915,7 +1950,12 @@
         "now": 277,
         "change_pct": 27.6
       },
-      "briefed_on": "2026-08-08"
+      "briefed_on": "2026-08-08",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     },
     {
       "name": "veedstudio/open-edit",
@@ -1936,7 +1976,12 @@
         "now": 251,
         "change_pct": 78.0
       },
-      "briefed_on": "2026-08-07"
+      "briefed_on": "2026-08-07",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
     }
   ]
 }
