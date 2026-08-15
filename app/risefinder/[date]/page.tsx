@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { RiseFinderList, type Item } from "@/components/RiseFinderList";
+import { RiseFinderSubscribe } from "@/components/RiseFinderSubscribe";
+import { RiseFinderMethod } from "@/components/RiseFinderMethod";
 import { pageMetadata } from "@/lib/seo";
 import archive from "@/content/data/risefinder-archive.json";
 import { formatBriefingDay } from "@/lib/risefinder";
@@ -57,6 +59,7 @@ export default async function ArchivedBriefingPage({
     index < archive.days.length - 1 ? archive.days[index + 1] : null;
 
   const tracked = day.items.filter((i) => i.track);
+  const past = archive.days.filter((d) => d.date !== date);
 
   return (
     <>
@@ -105,6 +108,47 @@ export default async function ArchivedBriefingPage({
       />
 
       <RiseFinderList items={day.items as Item[]} />
+
+      {/* An archived day used to end here, with nothing below the list.
+          Archived pages are the ones people share, so that left a reader
+          arriving from a link with percentages and no explanation of what
+          corroboration means or why every figure is a rate, and no way on to
+          any other day except the Newer and Older links at the top.
+
+          Raw risers by source is still deliberately absent. Those windows are
+          computed from the current data rather than stored per day, so putting
+          them under a heading dated 13 August would show today's numbers as
+          that day's, which is the mistake the rest of this page exists to
+          avoid. */}
+      <RiseFinderSubscribe num="02" />
+
+      {past.length > 0 && (
+        <>
+          <SectionBand
+            num="03"
+            label="Other briefings"
+            meta={`${past.length} archived`}
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule">
+            {past.map((d) => (
+              <Link
+                key={d.date}
+                href={`/risefinder/${d.date}`}
+                className="bg-paper px-7 py-6 hover:bg-paper-3 transition-colors"
+              >
+                <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+                  {d.count} {d.count === 1 ? "entry" : "entries"}
+                </div>
+                <div className="font-mono text-[14px] font-semibold tracking-[0.06em] text-ink">
+                  {formatBriefingDay(d.date)} →
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
+
+      <RiseFinderMethod num="04" />
     </>
   );
 }

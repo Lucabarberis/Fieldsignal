@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { RiseFinderList, type Item } from "@/components/RiseFinderList";
 import { RiseFinderSubscribe } from "@/components/RiseFinderSubscribe";
+import { RiseFinderMethod } from "@/components/RiseFinderMethod";
 import { RiseFinderWindows, type WindowBlock } from "@/components/RiseFinderWindows";
 import { pageMetadata } from "@/lib/seo";
 import data from "@/content/data/risefinder.json";
@@ -166,43 +167,7 @@ export default async function RiseFinderPage({
         </>
       )}
 
-      <SectionBand num="06" label="How to read this" meta="Method" />
-
-      <div className="px-4 sm:px-9 py-8 max-w-4xl">
-        <div className="text-body text-ink-2 space-y-4">
-          <p>
-            Every number here is a <b>rate of change</b>, never a total. Size is
-            not news. The largest repository on GitHub is not rising, it arrived
-            years ago. What this looks for is movement, and specifically
-            movement that more than one unrelated source noticed on the same
-            day.
-          </p>
-          <p>
-            That second condition is the whole method. Stars can be bought,
-            backlinks can be built, app installs can be farmed. This project has
-            already killed 2,601 domains for sitting inside link networks, one
-            of which ran to 2,046 sites and covered 98% of everything it tracked
-            on .it. All of them were manufacturing the exact signal one of these
-            sources measures. Faking two unrelated signals at once is far harder
-            work, so a repository seen moving by GitHub <i>and</i> HackerNews,
-            or an app seen by the App Store <i>and</i> Google Play, counts for
-            more than a bigger number in one place.
-          </p>
-          <p>
-            Whether two sources are genuinely independent is measured rather
-            than assumed. Majestic ranks domains by backlinks and Tranco ranks
-            them by traffic, and the two were treated as one voice for weeks.
-            Comparing their daily movement across 83,000 domains showed no
-            relationship at all, so they now count as two. Any pair that turns
-            out to share data underneath gets folded back into one.
-          </p>
-          <p>
-            Entries are written to be read rather than scanned. When the
-            evidence is thin, or the story behind it does not hold up, the entry
-            is left out rather than published with a caveat.
-          </p>
-        </div>
-      </div>
+      <RiseFinderMethod num="06" />
 
       <div className="px-4 sm:px-9 pb-12 font-mono text-micro uppercase tracking-[0.08em] text-ink-3">
         Data through {formatBriefingDay(data_through)} ·{" "}
