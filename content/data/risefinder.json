@@ -1110,7 +1110,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-15T03:17:16Z",
+  "generated_at": "2026-08-15T03:35:38Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1701,10 +1701,10 @@
   "briefed_through": "2026-08-14",
   "stats": {
     "entities": 21853,
-    "snapshots": 581721,
-    "sources_live": 23,
+    "snapshots": 577352,
+    "sources_live": 24,
     "first_day": "2026-07-28",
-    "days_collected": 19
+    "days_collected": 18
   },
   "items": [
     {
@@ -1760,6 +1760,204 @@
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-14"
+    }
+  ],
+  "still_moving": [
+    {
+      "name": "antirez/h3.c",
+      "type": "repo",
+      "brief": "Stars up 117%, forks up 96%, open issues up 183% and HackerNews comments up 453% in a single day. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/antirez/h3.c",
+      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model of this size can be served from a single self-contained C program with no Python runtime and no framework \u2014 which matters because the alte",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-12",
+        "days_ago": 2,
+        "unit": "stars",
+        "then": 1432,
+        "now": 1802,
+        "change_pct": 25.8
+      },
+      "briefed_on": "2026-08-12"
+    },
+    {
+      "name": "palamim/starboard",
+      "type": "repo",
+      "brief": "Second appearance and every number moved the same direction again \u2014 stars 3.1%, forks 3.6%, open issues 20%. Modest, consistent, and pushed today rather than abandoned after the thread. On a 156-star repo these are a handful of people, but they are the same handful coming back, which at this size is all the evidence available.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/palamim/starboard",
+      "description": "A terminal for macOS that lives permanently beside the Dock instead of appearing on a hotkey. The distinction is deliberate: a drop-down terminal is somewhere you visit, a docked one is somewhere you glance at, and the author is betting that glanceable changes how it gets used.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-10",
+        "days_ago": 3,
+        "unit": "stars",
+        "then": 144,
+        "now": 165,
+        "change_pct": 14.6
+      },
+      "briefed_on": "2026-08-11"
+    },
+    {
+      "name": "MakazhanAlpamys/Soup",
+      "type": "repo",
+      "brief": "68 open issues against 430 stars \u2014 a 16% ratio, roughly five times what a healthy young repo shows, and forks up 5.5% against 3% star growth. Both point the same way: the people arriving are running it and hitting walls, not bookmarking it. For a tool claiming to fine-tune an 8-billion-parameter model on ordinary hardware, hitting walls is exactly what you would expect and exactly what makes the claim testable. HackerNews has gone quiet at 0.7%, so this is now growing without a thread pushing it.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "description": "Fine-tunes large language models from a single configuration file, streaming layers so an 8-billion-parameter model fits on ordinary hardware.",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-10",
+        "days_ago": 1,
+        "unit": "stars",
+        "then": 430,
+        "now": 495,
+        "change_pct": 15.1
+      },
+      "briefed_on": "2026-08-10"
+    },
+    {
+      "name": "t8y2/dbx",
+      "type": "repo",
+      "brief": "Third appearance. 13,242 stars with 1,344 forks \u2014 one fork per ten stars, where most repos manage one in fifty \u2014 and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch: a package-manager install puts it on a machine.",
+      "sources": [
+        "github",
+        "homebrew",
+        "packages"
+      ],
+      "url": "https://github.com/t8y2/dbx",
+      "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-05",
+        "days_ago": 9,
+        "unit": "stars",
+        "then": 13242,
+        "now": 14564,
+        "change_pct": 10.0
+      },
+      "briefed_on": "2026-08-10"
+    },
+    {
+      "name": "leonickson1/Swiftlet",
+      "type": "repo",
+      "brief": "Third day, and the story is that it has stopped being a story. Stars up 2.1% and forks 2.4% \u2014 matched, modest, and a long way from the 13.2% fork surge two days ago. Open issues actually fell 25%, meaning the maintainer is clearing them faster than new ones arrive. That is a healthy repo and no longer a rising one, which is worth saying plainly rather than dressing up.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "description": "A lightweight Swift web framework for building server-side applications.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-07",
+        "days_ago": 3,
+        "unit": "stars",
+        "then": 434,
+        "now": 470,
+        "change_pct": 8.3
+      },
+      "briefed_on": "2026-08-09"
+    },
+    {
+      "name": "bobdahacker.com",
+      "type": "domain",
+      "brief": "A security researcher's site, on Lobsters with comments up 3.8% and points up 2.5%, alongside a 1.3% move in its traffic rank. Small numbers in every direction. It is here because three independent collectors saw it on the same day, which is the bar this list sets \u2014 but nothing about the magnitude says anything is happening yet.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "hackernews",
+        "lobsters",
+        "openpagerank",
+        "pricing",
+        "tranco",
+        "wikipedia"
+      ],
+      "url": "https://bobdahacker.com",
+      "description": "The site of a security researcher who publishes findings from breaking into consumer products and services.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-09"
+    },
+    {
+      "name": "runtimewire.com",
+      "type": "domain",
+      "brief": "Worth a line for what it is rather than how it moved: a startup-intelligence service tracking AI funding rounds, which is a direct competitor to what this project is building. Pricing tiers up 33.3% means it added a plan \u2014 the monetisation signal the guide calls a binary riser trigger. On the HackerNews front page with 22 comments.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "hackernews",
+        "openpagerank",
+        "pricing",
+        "tranco",
+        "wikipedia"
+      ],
+      "url": "https://runtimewire.com",
+      "description": "A startup-intelligence service tracking funding rounds and company activity in AI.",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-09",
+        "days_ago": 2,
+        "unit": "authority",
+        "then": 3.49,
+        "now": 3.49,
+        "change_pct": 0.0
+      },
+      "briefed_on": "2026-08-09"
+    },
+    {
+      "name": "xoreaxeaxeax/asm-hall-of-shame",
+      "type": "repo",
+      "brief": "Stars up 38.4% in a day, forks up 12% and open issues up 20%, with GitHub, HackerNews and Lobsters all seeing it at once \u2014 three independent collectors and the widest star jump on today's list. Lobsters points more than doubled, up 108.8%, which for that community's size means it landed with almost everyone who saw it. A catalogue of the worst instructions in CPU history is the kind of thing that either gets ignored or gets contributed to, and 5 forks on 567 stars this early leans towards the second.",
+      "sources": [
+        "github",
+        "hackernews",
+        "lobsters"
+      ],
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "description": "A catalogue of the worst-performing machine instructions across CPU designs, collected by a well-known reverse engineer.",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-09",
+        "days_ago": 3,
+        "unit": "stars",
+        "then": 567,
+        "now": 777,
+        "change_pct": 37.0
+      },
+      "briefed_on": "2026-08-09"
+    },
+    {
+      "name": "jj-vcs/jj",
+      "type": "repo",
+      "brief": "Second appearance. Jujutsu at 30,887 stars is long past discovery, so what is being tracked is not whether it grows but whether Git users actually switch \u2014 and Homebrew installs are the only honest measure of that. Forks and issues barely moved today; the entry earns its place through three unrelated collectors agreeing, not through any single number.",
+      "sources": [
+        "github",
+        "homebrew",
+        "lobsters"
+      ],
+      "url": "https://github.com/jj-vcs/jj",
+      "description": "Jujutsu, a version-control system that works with existing Git repositories but replaces Git's commands with a simpler model.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-08",
+        "days_ago": 2,
+        "unit": "stars",
+        "then": 30874,
+        "now": 30906,
+        "change_pct": 0.1
+      },
+      "briefed_on": "2026-08-09"
     }
   ]
 }
