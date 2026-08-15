@@ -122,13 +122,15 @@ export default async function RiseFinderPage({
         <>
           <SectionBand
             num="02"
-            label="Still moving"
+            label="Earlier this week"
             meta={`${stillMoving.length} from the previous days`}
           />
           <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
-            Flagged earlier in the week and still climbing. Each entry carries
-            the day it was first seen moving. These are not today&rsquo;s findings,
-            and the briefing above is.
+            Flagged in the last seven days and not since. Each entry carries the
+            day it was flagged and what it has done on the most recent day of
+            collection, so <b>Still moving</b> and <b>Flat since</b>{" "}
+            are measured rather than assumed. These are not today&rsquo;s
+            findings, and the briefing above is.
           </div>
           <RiseFinderList items={stillMoving as Item[]} stampDate />
         </>

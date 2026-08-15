@@ -37,6 +37,12 @@ export type Item = {
   appearances?: number;
   /** The day this was flagged. Shown when the list mixes days. */
   briefed_on?: string | null;
+  /** What it has done on the most recent complete day of collection. */
+  since?: {
+    moving: boolean;
+    metric: string | null;
+    change_pct: number | null;
+  } | null;
   track: Track | null;
 };
 
@@ -173,19 +179,37 @@ export function RiseFinderList({
                     held the list all week mean opposite things — one is a
                     discovery, the other survived its own news cycle — and
                     without this a reader cannot tell them apart. */}
-                {item.appearances != null && (
+                {/* In a dated list the useful badge is not how many briefings
+                    it has appeared in but whether it is STILL going. The
+                    section used to assert "still climbing" for every entry
+                    while seven of nine had flatlined, so the claim now comes
+                    from the data one entry at a time. */}
+                {stampDate && item.since ? (
                   <span
                     className={[
                       "font-mono text-micro uppercase tracking-[0.12em] px-2 py-0.5",
-                      item.appearances === 1
+                      item.since.moving
                         ? "bg-ink text-paper"
-                        : "border border-rule-2 text-ink-2",
+                        : "border border-rule-2 text-ink-3",
                     ].join(" ")}
                   >
-                    {item.appearances === 1
-                      ? "New"
-                      : `Day ${item.appearances}`}
+                    {item.since.moving ? "Still moving" : "Flat since"}
                   </span>
+                ) : (
+                  item.appearances != null && (
+                    <span
+                      className={[
+                        "font-mono text-micro uppercase tracking-[0.12em] px-2 py-0.5",
+                        item.appearances === 1
+                          ? "bg-ink text-paper"
+                          : "border border-rule-2 text-ink-2",
+                      ].join(" ")}
+                    >
+                      {item.appearances === 1
+                        ? "New"
+                        : `Day ${item.appearances}`}
+                    </span>
+                  )
                 )}
               </div>
 
