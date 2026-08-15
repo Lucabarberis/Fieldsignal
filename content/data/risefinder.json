@@ -2,7 +2,7 @@
   "tracked_windows": [
     {
       "source": "github",
-      "label": "GitHub \u2014 stars",
+      "label": "GitHub \u00b7 stars",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -123,7 +123,7 @@
     },
     {
       "source": "github",
-      "label": "GitHub \u2014 stars",
+      "label": "GitHub \u00b7 stars",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -133,7 +133,7 @@
     },
     {
       "source": "hackernews",
-      "label": "HackerNews \u2014 points",
+      "label": "HackerNews \u00b7 points",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -143,7 +143,7 @@
         {
           "name": "palamim/starboard",
           "entity_type": "repo",
-          "description": "A terminal for macOS that lives permanently beside the Dock instead of appearing on a hotkey. The distinction is deliberate: a drop-down terminal is somewhere you visit, a docked one is somewhere you glance at, and the author is betting that glanceable changes how it gets used.",
+          "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
           "was": 37.0,
           "now": 53.0,
           "unit": "points",
@@ -254,7 +254,7 @@
     },
     {
       "source": "hackernews",
-      "label": "HackerNews \u2014 points",
+      "label": "HackerNews \u00b7 points",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -264,7 +264,7 @@
     },
     {
       "source": "packages",
-      "label": "npm / PyPI \u2014 downloads",
+      "label": "npm / PyPI \u00b7 downloads",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -385,7 +385,7 @@
     },
     {
       "source": "packages",
-      "label": "npm / PyPI \u2014 downloads",
+      "label": "npm / PyPI \u00b7 downloads",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -395,7 +395,7 @@
     },
     {
       "source": "huggingface",
-      "label": "HuggingFace \u2014 downloads",
+      "label": "HuggingFace \u00b7 downloads",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -516,7 +516,7 @@
     },
     {
       "source": "huggingface",
-      "label": "HuggingFace \u2014 downloads",
+      "label": "HuggingFace \u00b7 downloads",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -526,7 +526,7 @@
     },
     {
       "source": "ios_apps",
-      "label": "App Store \u2014 ratings",
+      "label": "App Store \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -536,7 +536,7 @@
         {
           "name": "Parchment: Agenda & Daily Note",
           "entity_type": "app",
-          "description": null,
+          "description": "A private daily journal for iPhone that keeps writing, plans, calendar entries and reminders in one place rather than splitting them across four apps. The category is crowded, so what matters for an app like this is whether the calendar integration is good enough to replace the separate planner people already use.",
           "was": 171,
           "now": 193,
           "unit": "ratings",
@@ -613,7 +613,7 @@
         {
           "name": "DramaWave - Dramas & Reels",
           "entity_type": "app",
-          "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
+          "description": "A streaming app for vertical short dramas, the soap opera episodes shot in portrait and cut into two minute instalments, in the same category as ReelShort and DramaBox. The format is bought heavily through social advertising, so the numbers on apps like this move with marketing spend more than with word of mouth.",
           "was": 141498,
           "now": 146524,
           "unit": "ratings",
@@ -624,7 +624,7 @@
         {
           "name": "Claude by Anthropic",
           "entity_type": "app",
-          "description": null,
+          "description": "Anthropic's Claude application for iPhone and iPad. As an entity here it is useful mainly as a control: a major model provider's consumer app is not an unknown rising, so movement on it measures how the App Store charts respond to a release rather than anything about early adoption.",
           "was": 222185,
           "now": 227908,
           "unit": "ratings",
@@ -647,7 +647,7 @@
     },
     {
       "source": "ios_apps",
-      "label": "App Store \u2014 ratings",
+      "label": "App Store \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -657,7 +657,7 @@
     },
     {
       "source": "android_apps",
-      "label": "Google Play \u2014 reviews",
+      "label": "Google Play \u00b7 reviews",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -667,7 +667,7 @@
         {
           "name": "DramaWave - Dramas & Reels",
           "entity_type": "app",
-          "description": "A short-form vertical drama streaming app \u2014 soap-opera episodes shot for phones, in the same category as ReelShort.",
+          "description": "A streaming app for vertical short dramas, the soap opera episodes shot in portrait and cut into two minute instalments, in the same category as ReelShort and DramaBox. The format is bought heavily through social advertising, so the numbers on apps like this move with marketing spend more than with word of mouth.",
           "was": 632000,
           "now": 653000,
           "unit": "reviews",
@@ -722,7 +722,7 @@
         {
           "name": "Claude by Anthropic",
           "entity_type": "app",
-          "description": null,
+          "description": "Anthropic's Claude application for iPhone and iPad. As an entity here it is useful mainly as a control: a major model provider's consumer app is not an unknown rising, so movement on it measures how the App Store charts respond to a release rather than anything about early adoption.",
           "was": 657000,
           "now": 662000,
           "unit": "reviews",
@@ -756,7 +756,7 @@
     },
     {
       "source": "android_apps",
-      "label": "Google Play \u2014 reviews",
+      "label": "Google Play \u00b7 reviews",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -766,7 +766,7 @@
     },
     {
       "source": "wordpress",
-      "label": "WordPress \u2014 ratings",
+      "label": "WordPress \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -799,7 +799,7 @@
     },
     {
       "source": "wordpress",
-      "label": "WordPress \u2014 ratings",
+      "label": "WordPress \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -809,7 +809,7 @@
     },
     {
       "source": "chrome_ext",
-      "label": "Chrome \u2014 ratings",
+      "label": "Chrome \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
       "have_days": 15,
@@ -930,7 +930,7 @@
     },
     {
       "source": "chrome_ext",
-      "label": "Chrome \u2014 ratings",
+      "label": "Chrome \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
       "have_days": 15,
@@ -940,7 +940,7 @@
     },
     {
       "source": "shopify",
-      "label": "Shopify \u2014 reviews",
+      "label": "Shopify \u00b7 reviews",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -950,7 +950,7 @@
     },
     {
       "source": "shopify",
-      "label": "Shopify \u2014 reviews",
+      "label": "Shopify \u00b7 reviews",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -960,7 +960,7 @@
     },
     {
       "source": "producthunt",
-      "label": "ProductHunt \u2014 votes",
+      "label": "ProductHunt \u00b7 votes",
       "window": "weekly",
       "window_days": 7,
       "have_days": 16,
@@ -1081,7 +1081,7 @@
     },
     {
       "source": "producthunt",
-      "label": "ProductHunt \u2014 votes",
+      "label": "ProductHunt \u00b7 votes",
       "window": "monthly",
       "window_days": 30,
       "have_days": 16,
@@ -1091,7 +1091,7 @@
     },
     {
       "source": "openpagerank",
-      "label": "OpenPageRank \u2014 authority",
+      "label": "OpenPageRank \u00b7 authority",
       "window": "weekly",
       "window_days": 7,
       "have_days": 3144,
@@ -1101,7 +1101,7 @@
     },
     {
       "source": "openpagerank",
-      "label": "OpenPageRank \u2014 authority",
+      "label": "OpenPageRank \u00b7 authority",
       "window": "monthly",
       "window_days": 30,
       "have_days": 3144,
@@ -1110,11 +1110,11 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-15T03:35:38Z",
+  "generated_at": "2026-08-15T03:56:52Z",
   "windows": [
     {
       "source": "majestic_million",
-      "label": "Majestic \u2014 backlinks",
+      "label": "Majestic \u00b7 backlinks",
       "window": "2-day",
       "window_days": 2,
       "have_days": 14,
@@ -1245,7 +1245,7 @@
     },
     {
       "source": "majestic_million",
-      "label": "Majestic \u2014 backlinks",
+      "label": "Majestic \u00b7 backlinks",
       "window": "weekly",
       "window_days": 7,
       "have_days": 14,
@@ -1376,7 +1376,7 @@
     },
     {
       "source": "majestic_million",
-      "label": "Majestic \u2014 backlinks",
+      "label": "Majestic \u00b7 backlinks",
       "window": "monthly",
       "window_days": 30,
       "have_days": 14,
@@ -1386,7 +1386,7 @@
     },
     {
       "source": "majestic_million",
-      "label": "Majestic \u2014 backlinks",
+      "label": "Majestic \u00b7 backlinks",
       "window": "quarterly",
       "window_days": 91,
       "have_days": 14,
@@ -1396,7 +1396,7 @@
     },
     {
       "source": "majestic_million",
-      "label": "Majestic \u2014 backlinks",
+      "label": "Majestic \u00b7 backlinks",
       "window": "yearly",
       "window_days": 365,
       "have_days": 14,
@@ -1406,7 +1406,7 @@
     },
     {
       "source": "tranco",
-      "label": "Tranco \u2014 traffic",
+      "label": "Tranco \u00b7 traffic",
       "window": "2-day",
       "window_days": 2,
       "have_days": 13,
@@ -1537,7 +1537,7 @@
     },
     {
       "source": "tranco",
-      "label": "Tranco \u2014 traffic",
+      "label": "Tranco \u00b7 traffic",
       "window": "weekly",
       "window_days": 7,
       "have_days": 13,
@@ -1668,7 +1668,7 @@
     },
     {
       "source": "tranco",
-      "label": "Tranco \u2014 traffic",
+      "label": "Tranco \u00b7 traffic",
       "window": "monthly",
       "window_days": 30,
       "have_days": 13,
@@ -1678,7 +1678,7 @@
     },
     {
       "source": "tranco",
-      "label": "Tranco \u2014 traffic",
+      "label": "Tranco \u00b7 traffic",
       "window": "quarterly",
       "window_days": 91,
       "have_days": 13,
@@ -1688,7 +1688,7 @@
     },
     {
       "source": "tranco",
-      "label": "Tranco \u2014 traffic",
+      "label": "Tranco \u00b7 traffic",
       "window": "yearly",
       "window_days": 365,
       "have_days": 13,
@@ -1739,7 +1739,7 @@
         "search_trends"
       ],
       "url": "https://github.com/TheRealYT/git-knife",
-      "description": "A desktop GUI for editing git commit metadata \u2014 the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
+      "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-14"
@@ -1747,7 +1747,7 @@
     {
       "name": "antigma.ai",
       "type": "domain",
-      "brief": "Forks up 30.8% against stars up 12.7% in a day \u2014 50 forks on 1,652 stars. Pushed the same day, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
+      "brief": "Forks up 30.8% against stars up 12.7% in a day, 50 forks on 1,652 stars. Pushed the same day, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
       "sources": [
         "dataforseo",
         "github",
@@ -1772,7 +1772,7 @@
         "hackernews"
       ],
       "url": "https://github.com/antirez/h3.c",
-      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model of this size can be served from a single self-contained C program with no Python runtime and no framework \u2014 which matters because the alte",
+      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-12",
@@ -1787,13 +1787,13 @@
     {
       "name": "palamim/starboard",
       "type": "repo",
-      "brief": "Second appearance and every number moved the same direction again \u2014 stars 3.1%, forks 3.6%, open issues 20%. Modest, consistent, and pushed today rather than abandoned after the thread. On a 156-star repo these are a handful of people, but they are the same handful coming back, which at this size is all the evidence available.",
+      "brief": "Second appearance, and stars, forks and open issues all moved together again at 3.1%, 3.6% and 20%. Pushed today rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
       "sources": [
         "github",
         "hackernews"
       ],
       "url": "https://github.com/palamim/starboard",
-      "description": "A terminal for macOS that lives permanently beside the Dock instead of appearing on a hotkey. The distinction is deliberate: a drop-down terminal is somewhere you visit, a docked one is somewhere you glance at, and the author is betting that glanceable changes how it gets used.",
+      "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
       "appearances": 2,
       "track": {
         "first_flagged": "2026-08-10",
@@ -1808,13 +1808,13 @@
     {
       "name": "MakazhanAlpamys/Soup",
       "type": "repo",
-      "brief": "68 open issues against 430 stars \u2014 a 16% ratio, roughly five times what a healthy young repo shows, and forks up 5.5% against 3% star growth. Both point the same way: the people arriving are running it and hitting walls, not bookmarking it. For a tool claiming to fine-tune an 8-billion-parameter model on ordinary hardware, hitting walls is exactly what you would expect and exactly what makes the claim testable. HackerNews has gone quiet at 0.7%, so this is now growing without a thread pushing it.",
+      "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 5.5% against 3% star growth. The people arriving are running it and hitting walls rather than bookmarking it. HackerNews has gone quiet at 0.7%.",
       "sources": [
         "github",
         "hackernews"
       ],
       "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine-tunes large language models from a single configuration file, streaming layers so an 8-billion-parameter model fits on ordinary hardware.",
+      "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-10",
@@ -1829,14 +1829,14 @@
     {
       "name": "t8y2/dbx",
       "type": "repo",
-      "brief": "Third appearance. 13,242 stars with 1,344 forks \u2014 one fork per ten stars, where most repos manage one in fifty \u2014 and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch: a package-manager install puts it on a machine.",
+      "brief": "Third appearance. 13,242 stars with 1,344 forks is one fork per ten stars, where most repos manage one in fifty, and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch, because a package manager install puts it on a machine.",
       "sources": [
         "github",
         "homebrew",
         "packages"
       ],
       "url": "https://github.com/t8y2/dbx",
-      "description": "A 20 MB cross-platform desktop client for querying more than 70 kinds of database from one window.",
+      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
       "appearances": 2,
       "track": {
         "first_flagged": "2026-08-05",
@@ -1849,50 +1849,9 @@
       "briefed_on": "2026-08-10"
     },
     {
-      "name": "leonickson1/Swiftlet",
-      "type": "repo",
-      "brief": "Third day, and the story is that it has stopped being a story. Stars up 2.1% and forks 2.4% \u2014 matched, modest, and a long way from the 13.2% fork surge two days ago. Open issues actually fell 25%, meaning the maintainer is clearing them faster than new ones arrive. That is a healthy repo and no longer a rising one, which is worth saying plainly rather than dressing up.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/leonickson1/Swiftlet",
-      "description": "A lightweight Swift web framework for building server-side applications.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-07",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 434,
-        "now": 470,
-        "change_pct": 8.3
-      },
-      "briefed_on": "2026-08-09"
-    },
-    {
-      "name": "bobdahacker.com",
-      "type": "domain",
-      "brief": "A security researcher's site, on Lobsters with comments up 3.8% and points up 2.5%, alongside a 1.3% move in its traffic rank. Small numbers in every direction. It is here because three independent collectors saw it on the same day, which is the bar this list sets \u2014 but nothing about the magnitude says anything is happening yet.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "hackernews",
-        "lobsters",
-        "openpagerank",
-        "pricing",
-        "tranco",
-        "wikipedia"
-      ],
-      "url": "https://bobdahacker.com",
-      "description": "The site of a security researcher who publishes findings from breaking into consumer products and services.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-09"
-    },
-    {
       "name": "runtimewire.com",
       "type": "domain",
-      "brief": "Worth a line for what it is rather than how it moved: a startup-intelligence service tracking AI funding rounds, which is a direct competitor to what this project is building. Pricing tiers up 33.3% means it added a plan \u2014 the monetisation signal the guide calls a binary riser trigger. On the HackerNews front page with 22 comments.",
+      "brief": "Pricing tiers up 33.3%, which means it added a plan, and a new plan is the monetisation trigger this system treats as a signal on its own. On the HackerNews front page the same day with 22 comments.",
       "sources": [
         "crunchbase",
         "dataforseo",
@@ -1903,7 +1862,7 @@
         "wikipedia"
       ],
       "url": "https://runtimewire.com",
-      "description": "A startup-intelligence service tracking funding rounds and company activity in AI.",
+      "description": "A news site covering the AI industry as it happens: funding rounds, model launches, infrastructure changes and founder moves, filed as short scoops rather than weekly summaries. It competes on speed of publication against the general technology press, so the interesting measurement for a site like this is whether readers arrive directly or only through aggregators.",
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-09",
@@ -1918,14 +1877,14 @@
     {
       "name": "xoreaxeaxeax/asm-hall-of-shame",
       "type": "repo",
-      "brief": "Stars up 38.4% in a day, forks up 12% and open issues up 20%, with GitHub, HackerNews and Lobsters all seeing it at once \u2014 three independent collectors and the widest star jump on today's list. Lobsters points more than doubled, up 108.8%, which for that community's size means it landed with almost everyone who saw it. A catalogue of the worst instructions in CPU history is the kind of thing that either gets ignored or gets contributed to, and 5 forks on 567 stars this early leans towards the second.",
+      "brief": "Stars up 38.4% in a day, forks up 12%, open issues up 20%, with GitHub, HackerNews and Lobsters all seeing it at once. Lobsters points more than doubled at 108.8%. Five forks on 567 stars this early says people are submitting entries, not just reading them.",
       "sources": [
         "github",
         "hackernews",
         "lobsters"
       ],
       "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-      "description": "A catalogue of the worst-performing machine instructions across CPU designs, collected by a well-known reverse engineer.",
+      "description": "A leaderboard for the slowest possible single machine instruction, from the reverse engineer behind the sandsifter processor fuzzer. Instruction analysis normally chases speed; this deliberately searches for the floor. The current x86 champion takes 198 billion cycles, about 62 seconds, by making one instruction load processor state across a deliberately saturated PCIe fabric. Setup can be anything, but only one instruction is scored.",
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-09",
@@ -1938,26 +1897,68 @@
       "briefed_on": "2026-08-09"
     },
     {
-      "name": "jj-vcs/jj",
+      "name": "V4bel/Zapscape",
       "type": "repo",
-      "brief": "Second appearance. Jujutsu at 30,887 stars is long past discovery, so what is being tracked is not whether it grows but whether Git users actually switch \u2014 and Homebrew installs are the only honest measure of that. Forks and issues barely moved today; the entry earns its place through three unrelated collectors agreeing, not through any single number.",
+      "brief": "Three independent collectors on day one, GitHub, HackerNews and Lobsters at once. Stars and forks both up 12.9% in exact lockstep, with Lobsters comments up 25%. Ten forks on 110 stars this early says people are running the exploit to see it work.",
       "sources": [
         "github",
-        "homebrew",
+        "hackernews",
         "lobsters"
       ],
-      "url": "https://github.com/jj-vcs/jj",
-      "description": "Jujutsu, a version-control system that works with existing Git repositories but replaces Git's commands with a simpler model.",
-      "appearances": 2,
+      "url": "https://github.com/V4bel/Zapscape",
+      "description": "A working exploit and write up for CVE-2026-64561, a guest to host escape in KVM on x86. The bug is a use after free in the shadow MMU, in the recursive path that runs when shadow pages are reclaimed, and a guest can trigger it alone to reach the host kernel with root privilege. It is the third in a series from the same researcher, published after the coordinated embargo ended.",
+      "appearances": 1,
       "track": {
         "first_flagged": "2026-08-08",
-        "days_ago": 2,
+        "days_ago": 4,
         "unit": "stars",
-        "then": 30874,
-        "now": 30906,
-        "change_pct": 0.1
+        "then": 110,
+        "now": 153,
+        "change_pct": 39.1
       },
-      "briefed_on": "2026-08-09"
+      "briefed_on": "2026-08-08"
+    },
+    {
+      "name": "pg83/shitty",
+      "type": "repo",
+      "brief": "Fourth day and the shape has held. Open issues up 42.9% against 2% star growth, long after HackerNews stopped talking, where comments moved 1.2%. Most launch driven repos flatten within seventy two hours. This one kept the adoption after losing the audience.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/pg83/shitty",
+      "description": "A terminal emulator built for low latency and fast startup, keeping terminal state on the CPU and rendering cells through Vulkan on Linux and Metal on macOS. The README publishes head to head throughput against ghostty, alacritty and kitty with every terminal equalised first, which is unusual enough to be worth noting. The same code ships under two names for people who would rather not type the first one.",
+      "appearances": 3,
+      "track": {
+        "first_flagged": "2026-08-05",
+        "days_ago": 9,
+        "unit": "stars",
+        "then": 217,
+        "now": 277,
+        "change_pct": 27.6
+      },
+      "briefed_on": "2026-08-08"
+    },
+    {
+      "name": "veedstudio/open-edit",
+      "type": "repo",
+      "brief": "Second day and the ratios held. Stars up 8.2%, forks up 12.1%, with forks again outpacing stars: 141 stars and 8 forks yesterday, 172 and 12 today. At that size a dozen people move it, so the direction carries the information rather than the magnitude.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/veedstudio/open-edit",
+      "description": "An open source video editing pipeline from VEED that has no timeline and no interface. Editing happens entirely through a coding agent: cut and reframe footage, layer motion graphics, turn slides or web pages into video. Source footage is optional, since stills and generated media are enough for some briefs. The renderer is free to use but closed, while everything driving it is open.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-06",
+        "days_ago": 6,
+        "unit": "stars",
+        "then": 141,
+        "now": 251,
+        "change_pct": 78.0
+      },
+      "briefed_on": "2026-08-07"
     }
   ]
 }
