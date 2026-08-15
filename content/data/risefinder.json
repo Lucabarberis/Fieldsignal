@@ -779,130 +779,19 @@
       "label": "Chrome \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 15,
+      "have_days": 0,
       "need_days": 7,
-      "first_day": "2026-07-29",
-      "items": [
-        {
-          "name": "Pinterest - LIGHT &amp; DARK THEMES",
-          "entity_type": "extension",
-          "description": null,
-          "was": 275,
-          "now": 282,
-          "unit": "ratings",
-          "gain_pct": 2.5,
-          "from_day": "2026-08-03",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "MYNT: Material You New Tab",
-          "entity_type": "extension",
-          "description": null,
-          "was": 262,
-          "now": 268,
-          "unit": "ratings",
-          "gain_pct": 2.3,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "Joko: Cash back &amp; automatic coupons",
-          "entity_type": "extension",
-          "description": null,
-          "was": 467,
-          "now": 477,
-          "unit": "ratings",
-          "gain_pct": 2.1,
-          "from_day": "2026-08-04",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "Mail Merge for Gmail - Mailmeteor",
-          "entity_type": "extension",
-          "description": null,
-          "was": 168,
-          "now": 170,
-          "unit": "ratings",
-          "gain_pct": 1.2,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "Obsidian Web Clipper",
-          "entity_type": "extension",
-          "description": null,
-          "was": 550,
-          "now": 554,
-          "unit": "ratings",
-          "gain_pct": 0.7,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "ChatbotsPlace: All-in-One AI Sidebar (ChatGPT, Claude &amp; Gemini)",
-          "entity_type": "extension",
-          "description": null,
-          "was": 161,
-          "now": 162,
-          "unit": "ratings",
-          "gain_pct": 0.6,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "ViiTor Translate - AI Translation &amp; Real-Time Bilingual Subtitles &amp; Free",
-          "entity_type": "extension",
-          "description": null,
-          "was": 344,
-          "now": 346,
-          "unit": "ratings",
-          "gain_pct": 0.6,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "Tab Reloader (page auto refresh)",
-          "entity_type": "extension",
-          "description": null,
-          "was": 169,
-          "now": 170,
-          "unit": "ratings",
-          "gain_pct": 0.6,
-          "from_day": "2026-08-03",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "Smarty",
-          "entity_type": "extension",
-          "description": null,
-          "was": 359,
-          "now": 361,
-          "unit": "ratings",
-          "gain_pct": 0.6,
-          "from_day": "2026-08-03",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "JSON Viewer Pro",
-          "entity_type": "extension",
-          "description": null,
-          "was": 216,
-          "now": 217,
-          "unit": "ratings",
-          "gain_pct": 0.5,
-          "from_day": "2026-08-06",
-          "to_day": "2026-08-10"
-        }
-      ]
+      "first_day": "2026-08-15",
+      "items": []
     },
     {
       "source": "chrome_ext",
       "label": "Chrome \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 15,
+      "have_days": 0,
       "need_days": 30,
-      "first_day": "2026-07-29",
+      "first_day": "2026-08-15",
       "items": []
     },
     {
@@ -1077,7 +966,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-15T12:55:25Z",
+  "generated_at": "2026-08-15T13:08:11Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1668,8 +1557,8 @@
   "briefed_through": "2026-08-15",
   "stats": {
     "entities": 23641,
-    "snapshots": 591801,
-    "sources_live": 23,
+    "snapshots": 591650,
+    "sources_live": 24,
     "first_day": "2026-07-28",
     "days_collected": 19
   },
