@@ -65,31 +65,9 @@
       "count": 2,
       "items": [
         {
-          "name": "reflex-dev/xy",
-          "type": "repo",
-          "brief": "Weekly downloads 11,161, up 7% today and up 147% since the 4,518 recorded nine days ago. Stars moved 0% and forks 1.1% in the same window. Six appearances and the gap has widened on every one of them \u2014 attention flat, installation compounding. Ordinarily downloads follow stars; here they have decoupled entirely, and that decoupling is the single most useful pattern this list has produced so far.",
-          "sources": [
-            "github",
-            "hackernews",
-            "packages"
-          ],
-          "url": "https://github.com/reflex-dev/xy",
-          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
-          "appearances": 7,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
-          },
-          "briefed_on": "2026-08-13"
-        },
-        {
           "name": "AntigmaLabs/ante",
           "type": "repo",
-          "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way \u2014 front page presence gone entirely, posts down 33%, comments up 1.1%. The thread ended and the growth did not, which is the transition worth watching for and the second repo this month to show it. 34 forks on 1,443 stars is a modest 2.4% ratio, so the people arriving are mostly still evaluating rather than building on it.",
+          "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way, front page presence gone entirely and posts down 33%. The thread ended and the growth did not. 34 forks on 1,443 stars is a 2.4% ratio, so most arrivals are still evaluating it.",
           "sources": [
             "github",
             "hackernews",
@@ -107,6 +85,28 @@
             "change_pct": 14.5
           },
           "briefed_on": "2026-08-13"
+        },
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Weekly downloads 11,161, up 7% today and up 147% since the 4,518 recorded nine days ago. Stars moved 0% and forks 1.1% in the same window. Sixth appearance, and the gap has widened on every one of them: attention flat, installation compounding.",
+          "sources": [
+            "github",
+            "hackernews",
+            "packages"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
+          "appearances": 7,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1731,
+            "change_pct": 71.9
+          },
+          "briefed_on": "2026-08-13"
         }
       ]
     },
@@ -117,7 +117,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "Weekly downloads 9,386, up 11.2% today and more than doubled since the 4,518 recorded four days ago. Stars moved 1.6% in the same window \u2014 downloads are now growing seven times faster than attention, which is the inversion this list exists to catch. Fifth appearance and the gap has widened each time. Whatever is happening here is happening in package managers, not on forums.",
+          "brief": "Weekly downloads 9,386, up 11.2% today and more than doubled since the 4,518 recorded four days ago. Stars moved 1.6% in the same window, so downloads are growing seven times faster than attention. Fifth appearance and the gap has widened each time.",
           "sources": [
             "github",
             "hackernews",
@@ -191,27 +191,6 @@
       "count": 3,
       "items": [
         {
-          "name": "palamim/starboard",
-          "type": "repo",
-          "brief": "Stars up 4.9%, forks up 6.7%, open issues up 20% \u2014 modest across the board and consistent in direction, which on a 144-star repo means a handful of real users rather than a crowd. A terminal pinned beside the Dock is a narrow idea with an obvious audience, and the fork-to-star ratio suggests some of them are already changing it. Two days since the last push.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/palamim/starboard",
-          "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-10",
-            "days_ago": 3,
-            "unit": "stars",
-            "then": 144,
-            "now": 165,
-            "change_pct": 14.6
-          },
-          "briefed_on": "2026-08-10"
-        },
-        {
           "name": "MakazhanAlpamys/Soup",
           "type": "repo",
           "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 5.5% against 3% star growth. The people arriving are running it and hitting walls rather than bookmarking it. HackerNews has gone quiet at 0.7%.",
@@ -229,6 +208,27 @@
             "then": 430,
             "now": 495,
             "change_pct": 15.1
+          },
+          "briefed_on": "2026-08-10"
+        },
+        {
+          "name": "palamim/starboard",
+          "type": "repo",
+          "brief": "Stars up 4.9%, forks up 6.7%, open issues up 20%, consistent in direction across the board. On a 144 star repo that is a handful of real users, and the fork to star ratio says some of them are already changing it. Two days since the last push.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/palamim/starboard",
+          "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-10",
+            "days_ago": 3,
+            "unit": "stars",
+            "then": 144,
+            "now": 165,
+            "change_pct": 14.6
           },
           "briefed_on": "2026-08-10"
         },
@@ -315,28 +315,6 @@
       "count": 3,
       "items": [
         {
-          "name": "reflex-dev/xy",
-          "type": "repo",
-          "brief": "Weekly downloads up 9.7% while the week-over-week growth figure itself jumped 342% \u2014 the acceleration is accelerating, which is the rarer of the two readings. 4,518 downloads a week now against 1,621 stars means more people are installing it than have bothered to bookmark it, and that ratio almost never runs this way round. 82 open issues on a library this young is the healthy kind of noise. Fourth appearance and the first where downloads, not attention, are doing the work.",
-          "sources": [
-            "github",
-            "hackernews",
-            "packages"
-          ],
-          "url": "https://github.com/reflex-dev/xy",
-          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
-          "appearances": 7,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
-          },
-          "briefed_on": "2026-08-08"
-        },
-        {
           "name": "V4bel/Zapscape",
           "type": "repo",
           "brief": "Three independent collectors on day one, GitHub, HackerNews and Lobsters at once. Stars and forks both up 12.9% in exact lockstep, with Lobsters comments up 25%. Ten forks on 110 stars this early says people are running the exploit to see it work.",
@@ -355,6 +333,28 @@
             "then": 110,
             "now": 153,
             "change_pct": 39.1
+          },
+          "briefed_on": "2026-08-08"
+        },
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Weekly downloads up 9.7% while the week over week growth figure itself jumped 342%, so the acceleration is accelerating. 4,518 downloads a week against 1,621 stars means more people are installing it than have bookmarked it, and that ratio almost never runs this way round. Fourth appearance and the first where downloads rather than attention are doing the work.",
+          "sources": [
+            "github",
+            "hackernews",
+            "packages"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
+          "appearances": 7,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1731,
+            "change_pct": 71.9
           },
           "briefed_on": "2026-08-08"
         },
@@ -388,7 +388,7 @@
         {
           "name": "pg83/shitty",
           "type": "repo",
-          "brief": "Third appearance, and this is where a thread and a trend separate. Stars up 6.7% and open issues up 16.7%, while HackerNews comments moved 0.6% \u2014 the discussion has stopped and the adoption has not. That is the transition most launches never make, and for a terminal emulator with a deliberately absurd name it is more than it had any right to expect.",
+          "brief": "Third appearance, and this is where a thread and a trend separate. Stars up 6.7% and open issues up 16.7% while HackerNews comments moved 0.6%. The discussion has stopped and the adoption has not.",
           "sources": [
             "github",
             "hackernews"
@@ -453,33 +453,12 @@
     },
     {
       "date": "2026-08-06",
-      "count": 4,
+      "count": 2,
       "items": [
-        {
-          "name": "veedstudio/open-edit",
-          "type": "repo",
-          "brief": "Stars up 14.7% and forks up 17.9% on the same day, from a base of 141 and 8 \u2014 small enough that a handful of people move the percentages, so read the direction rather than the size. What makes it worth a line is the pitch: a video editor you own instead of rent, driven by a coding agent. That is two trends arriving at once, and it is day one on this list.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/veedstudio/open-edit",
-          "description": "An open source video editing pipeline from VEED that has no timeline and no interface. Editing happens entirely through a coding agent: cut and reframe footage, layer motion graphics, turn slides or web pages into video. Source footage is optional, since stills and generated media are enough for some briefs. The renderer is free to use but closed, while everything driving it is open.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-06",
-            "days_ago": 6,
-            "unit": "stars",
-            "then": 141,
-            "now": 251,
-            "change_pct": 78.0
-          },
-          "briefed_on": "2026-08-06"
-        },
         {
           "name": "garagehq/nightcrawler",
           "type": "repo",
-          "brief": "Forks jumped 32.7% against 23.3% star growth in a day, and watchers rose 25% \u2014 three ratios moving together, which is rarer and harder to fake than any one of them spiking. 44 forks on 593 stars is a 7% ratio on a repo this small, meaning the people finding it are running it rather than filing it. A local AI red-teamer that works on a phone is a specific enough claim to attract either real users or real scepticism, and the 34 comments against 118 HackerNews points suggest more of the first.",
+          "brief": "Forks jumped 32.7% against 23.3% star growth in a day, with watchers up 25%. Three ratios moving together is harder to fake than any one of them spiking. 44 forks on 593 stars is a 7% ratio, so the people finding it are running it rather than filing it.",
           "sources": [
             "github",
             "hackernews"
@@ -498,48 +477,23 @@
           "briefed_on": "2026-08-06"
         },
         {
-          "name": "brian-armstrong/fec",
+          "name": "veedstudio/open-edit",
           "type": "repo",
-          "brief": "A Rust library for forward error correction, on the list with GitHub and HackerNews agreeing. Error-correction code is infrastructure nobody adopts casually \u2014 it either solves a problem someone has or it sits unused \u2014 so the thing to watch is not stars but whether anyone depends on it. No package downloads yet, which is the number that would turn this from interesting to real.",
+          "brief": "Stars up 14.7% and forks up 17.9% on the same day, from a base of 141 and 8. The pitch is a video editor you own rather than rent, driven by a coding agent, and this is day one on the list.",
           "sources": [
             "github",
             "hackernews"
           ],
-          "url": "https://github.com/brian-armstrong/fec",
-          "description": "A Rust library implementing the two error correcting codes that appear throughout software defined radio and spacecraft links: convolutional codes with a Viterbi decoder, and Reed Solomon codes including the CCSDS standard used on satellite downlinks. With SIMD enabled it decodes faster than libfec, the long standing C implementation, on every code, measured through libfec's own test programs.",
-          "appearances": 1,
+          "url": "https://github.com/veedstudio/open-edit",
+          "description": "An open source video editing pipeline from VEED that has no timeline and no interface. Editing happens entirely through a coding agent: cut and reframe footage, layer motion graphics, turn slides or web pages into video. Source footage is optional, since stills and generated media are enough for some briefs. The renderer is free to use but closed, while everything driving it is open.",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-06",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
-            "then": 38.0,
-            "now": 45.0,
-            "change_pct": 18.4
-          },
-          "briefed_on": "2026-08-06"
-        },
-        {
-          "name": "chipsandcheese.com",
-          "type": "domain",
-          "brief": "HackerNews comments up 1700% and best rank up 48.5%, on a publication doing deep processor analysis. The percentage is enormous because the base was one comment, so this is a single post landing rather than a trend \u2014 the useful question is whether the rank holds next week once the thread is gone, which is exactly what a daily time-series is for.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://chipsandcheese.com",
-          "description": "A publication that takes apart processor microarchitecture in public, running its own memory bandwidth and latency benchmarks rather than reprinting vendor slides. Recent pieces cover AMD's Instinct accelerators, Arm's efficiency cores and NVIDIA whitepapers. It is one of a small number of outlets doing this depth of hardware analysis outside a chip company.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-06",
-            "days_ago": 5,
-            "unit": "authority",
-            "then": 5.27,
-            "now": 5.27,
-            "change_pct": 0.0
+            "then": 141,
+            "now": 251,
+            "change_pct": 78.0
           },
           "briefed_on": "2026-08-06"
         }
@@ -549,112 +503,6 @@
       "date": "2026-08-05",
       "count": 6,
       "items": [
-        {
-          "name": "0xchasercat/draco",
-          "type": "repo",
-          "brief": "A drop-in replacement for Firecrawl, which is a paid crawling service \u2014 so this is the open-source-undercuts-incumbent shape, and those either die quietly or move fast. At 67 stars it is far too early to call, but open issues jumped 50% today against 2.8% star growth, meaning the few people who found it are using it hard enough to break it. Two days since the last push.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/0xchasercat/draco",
-          "description": "A web scraper written in Rust that returns clean Markdown and metadata from any URL, built as a drop in replacement for Firecrawl and Browserbase. It uses a browser faithful TLS fingerprint to reach pages that block ordinary clients, so a standard page is one fetch and a parse in roughly 300 milliseconds with no headless browser involved. Pages that only render through JavaScript are handled separately.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-05",
-            "days_ago": 6,
-            "unit": "stars",
-            "then": 67.0,
-            "now": 82.0,
-            "change_pct": 22.4
-          },
-          "briefed_on": "2026-08-05"
-        },
-        {
-          "name": "pg83/shitty",
-          "type": "repo",
-          "brief": "A terminal emulator whose HackerNews thread drew 160 comments against 172 points \u2014 a 93% comment-to-point ratio, roughly triple what a well-received post produces. That shape means argument, not applause, and for a terminal emulator the argument is always the same one: whether the world needs another. Stars up 5.7% and forks up 5.4% on the same day says some readers stopped arguing and cloned it.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/pg83/shitty",
-          "description": "A terminal emulator built for low latency and fast startup, keeping terminal state on the CPU and rendering cells through Vulkan on Linux and Metal on macOS. The README publishes head to head throughput against ghostty, alacritty and kitty with every terminal equalised first, which is unusual enough to be worth noting. The same code ships under two names for people who would rather not type the first one.",
-          "appearances": 3,
-          "track": {
-            "first_flagged": "2026-08-05",
-            "days_ago": 9,
-            "unit": "stars",
-            "then": 217,
-            "now": 277,
-            "change_pct": 27.6
-          },
-          "briefed_on": "2026-08-05"
-        },
-        {
-          "name": "drumih/turbo-fieldfare",
-          "type": "repo",
-          "brief": "Stars have more than doubled in five days, 2,196 to 4,945, and forks are still outpacing them \u2014 7.8% against 5.6% in the last day alone. Open issues rose 11.6% in the same window, which on a young repo means people hitting real edges rather than admiring the README. Five days on this list and the ratios have not softened, which is the part that separates a thread from a trend.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/drumih/turbo-fieldfare",
-          "description": "Runs Google's Gemma 4 26B model on any Apple Silicon Mac in about 2 GB of memory, including the 8 GB machines, instead of loading all 14.3 GB. It keeps the shared core and the cache resident and streams only the experts each token actually needs off the SSD. The runtime, installer, command line tool and Mac app are all written in Swift and Metal, built for this one model rather than wrapping MLX or llama.cpp.",
-          "appearances": 5,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
-          },
-          "briefed_on": "2026-08-05"
-        },
-        {
-          "name": "t8y2/dbx",
-          "type": "repo",
-          "brief": "1,344 forks and 1,117 open issues against 13,242 stars, which is an extraordinarily engaged ratio \u2014 one fork for every ten stars, where most repos manage one in fifty. The signal today is not the star count but Homebrew: it is installable through a package manager, which is the point a tool stops being a repo people star and becomes one they run. Downloads up 2% week over week is modest, and the install path is the thing to watch.",
-          "sources": [
-            "github",
-            "homebrew",
-            "packages"
-          ],
-          "url": "https://github.com/t8y2/dbx",
-          "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-05",
-            "days_ago": 9,
-            "unit": "stars",
-            "then": 13242,
-            "now": 14564,
-            "change_pct": 10.0
-          },
-          "briefed_on": "2026-08-05"
-        },
-        {
-          "name": "wie-project/kakehashi",
-          "type": "repo",
-          "brief": "A userspace translation layer letting macOS binaries run on Linux ARM64 \u2014 technically the hardest kind of project on this list and the kind that usually stalls. 252 HackerNews points against 64 comments is an unusually low argument ratio, which for infrastructure means people are impressed rather than sceptical. 341 stars is small; the engineering claim is what makes it worth watching.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/wie-project/kakehashi",
-          "description": "A translation layer that runs macOS ARM64 binaries on Linux, the reverse of the usual direction. It loads Mach-O executables, maps a standalone libSystem and translates BSD system calls at the boundary, with no JIT and no instruction emulator, because both sides are already the same architecture. Real macOS command line tools then run natively on Linux aarch64.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-05",
-            "days_ago": 9,
-            "unit": "stars",
-            "then": 341,
-            "now": 414,
-            "change_pct": 21.4
-          },
-          "briefed_on": "2026-08-05"
-        },
         {
           "name": "pudding.cool",
           "type": "domain",
@@ -680,17 +528,32 @@
             "change_pct": 0.0
           },
           "briefed_on": "2026-08-05"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "count": 5,
-      "items": [
+        },
+        {
+          "name": "pg83/shitty",
+          "type": "repo",
+          "brief": "160 HackerNews comments against 172 points is a 93% comment to point ratio, roughly triple what a well received post produces. That shape means argument rather than applause. Stars up 5.7% and forks up 5.4% the same day says some readers stopped arguing and cloned it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/pg83/shitty",
+          "description": "A terminal emulator built for low latency and fast startup, keeping terminal state on the CPU and rendering cells through Vulkan on Linux and Metal on macOS. The README publishes head to head throughput against ghostty, alacritty and kitty with every terminal equalised first, which is unusual enough to be worth noting. The same code ships under two names for people who would rather not type the first one.",
+          "appearances": 3,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 9,
+            "unit": "stars",
+            "then": 217,
+            "now": 277,
+            "change_pct": 27.6
+          },
+          "briefed_on": "2026-08-05"
+        },
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Forks are growing faster than stars \u2014 10.1% against 8.3% \u2014 which is the ratio that separates a tool people run from one they bookmark, and 231 forks on 4,671 stars is high for a repo this young. The HackerNews thread drew 343 comments against 913 points, a 38% ratio meaning argument rather than applause; for a claim about fitting Gemma 4 into 2 GB, the argument is the story. Pushed today, so the maintainer is still in it.",
+          "brief": "Stars have more than doubled in five days, 2,196 to 4,945, and forks are still outpacing them at 7.8% against 5.6% in the last day alone. Open issues rose 11.6% in the same window. Five days on this list and the ratios have not softened.",
           "sources": [
             "github",
             "hackernews"
@@ -706,34 +569,78 @@
             "now": 5934,
             "change_pct": 170.2
           },
-          "briefed_on": "2026-08-04"
+          "briefed_on": "2026-08-05"
         },
         {
-          "name": "ssp.sh",
-          "type": "domain",
-          "brief": "A data-engineering blog whose HackerNews numbers moved 20% on a base of four points. The percentage is real and the base is far too small to carry it \u2014 this is here because two unrelated collectors happened to see it, not because anything large happened. Worth a second look only if it returns later in the week.",
+          "name": "t8y2/dbx",
+          "type": "repo",
+          "brief": "1,344 forks and 1,117 open issues against 13,242 stars is one fork per ten stars, where most repos manage one in fifty. The signal today is Homebrew: it is installable through a package manager, which is where a tool stops being starred and starts being run.",
           "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
+            "github",
+            "homebrew",
+            "packages"
           ],
-          "url": "https://ssp.sh",
-          "description": "A data engineering blog by Simon Sp\u00e4ti, published alongside a public notebook of more than a thousand interlinked notes and an online book on data engineering patterns. The deep dives cover the open source data ecosystem, orchestration, modelling and architecture, and the whole thing is navigable as a graph rather than a reverse chronological list.",
+          "url": "https://github.com/t8y2/dbx",
+          "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 9,
+            "unit": "stars",
+            "then": 13242,
+            "now": 14564,
+            "change_pct": 10.0
+          },
+          "briefed_on": "2026-08-05"
+        },
+        {
+          "name": "0xchasercat/draco",
+          "type": "repo",
+          "brief": "Open issues jumped 50% today against 2.8% star growth, so the few people who found it are using it hard enough to break it. A self hosted replacement for a paid crawling service, at 67 stars. Two days since the last push.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/0xchasercat/draco",
+          "description": "A web scraper written in Rust that returns clean Markdown and metadata from any URL, built as a drop in replacement for Firecrawl and Browserbase. It uses a browser faithful TLS fingerprint to reach pages that block ordinary clients, so a standard page is one fetch and a parse in roughly 300 milliseconds with no headless browser involved. Pages that only render through JavaScript are handled separately.",
           "appearances": 1,
           "track": {
-            "first_flagged": "2026-08-04",
+            "first_flagged": "2026-08-05",
             "days_ago": 6,
-            "unit": "authority",
-            "then": 4.69,
-            "now": 4.69,
-            "change_pct": 0.0
+            "unit": "stars",
+            "then": 67.0,
+            "now": 82.0,
+            "change_pct": 22.4
           },
-          "briefed_on": "2026-08-04"
+          "briefed_on": "2026-08-05"
         },
+        {
+          "name": "wie-project/kakehashi",
+          "type": "repo",
+          "brief": "252 HackerNews points against 64 comments is an unusually low argument ratio, which for infrastructure means people are impressed rather than sceptical. A userspace layer running macOS binaries on Linux ARM64 is the hardest class of project on this list.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/wie-project/kakehashi",
+          "description": "A translation layer that runs macOS ARM64 binaries on Linux, the reverse of the usual direction. It loads Mach-O executables, maps a standalone libSystem and translates BSD system calls at the boundary, with no JIT and no instruction emulator, because both sides are already the same architecture. Real macOS command line tools then run natively on Linux aarch64.",
+          "appearances": 1,
+          "track": {
+            "first_flagged": "2026-08-05",
+            "days_ago": 9,
+            "unit": "stars",
+            "then": 341,
+            "now": 414,
+            "change_pct": 21.4
+          },
+          "briefed_on": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "count": 3,
+      "items": [
         {
           "name": "Claude Opus 5",
           "type": "launch",
@@ -752,32 +659,6 @@
             "then": 450,
             "now": 464,
             "change_pct": 3.1
-          },
-          "briefed_on": "2026-08-04"
-        },
-        {
-          "name": "diataxis.fr",
-          "type": "domain",
-          "brief": "Di\u00e1taxis is a framework for structuring technical documentation into four modes, and it drew 59 HackerNews comments today. The 0.9% move in its traffic rank arrived alongside that thread rather than before it, so this is attention rather than adoption \u2014 the useful question is whether the rank holds next week once the thread is gone. That test is exactly what a daily time-series is for.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://diataxis.fr",
-          "description": "Di\u00e1taxis, a framework for organising technical documentation around four separate needs: tutorials for learning, how to guides for a task in hand, reference for looking things up and explanation for understanding. Its argument is that these four fail when mixed, and that documentation should be structured by the reader's situation rather than by the software's feature list. It has been adopted by Django, Cloudflare and Gatsby among others.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-04",
-            "days_ago": 7,
-            "unit": "authority",
-            "then": 7.34,
-            "now": 7.34,
-            "change_pct": 0.0
           },
           "briefed_on": "2026-08-04"
         },
@@ -805,35 +686,34 @@
             "change_pct": 0.0
           },
           "briefed_on": "2026-08-04"
+        },
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Forks growing faster than stars, 10.1% against 8.3%, with 231 forks on 4,671 stars. The HackerNews thread drew 343 comments against 913 points, a 38% ratio meaning argument rather than applause. Pushed today, so the maintainer is still in it.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Runs Google's Gemma 4 26B model on any Apple Silicon Mac in about 2 GB of memory, including the 8 GB machines, instead of loading all 14.3 GB. It keeps the shared core and the cache resident and streams only the experts each token actually needs off the SSD. The runtime, installer, command line tool and Mac app are all written in Swift and Metal, built for this one model rather than wrapping MLX or llama.cpp.",
+          "appearances": 5,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 2196,
+            "now": 5934,
+            "change_pct": 170.2
+          },
+          "briefed_on": "2026-08-04"
         }
       ]
     },
     {
       "date": "2026-08-03",
-      "count": 5,
+      "count": 2,
       "items": [
-        {
-          "name": "reflex-dev/xy",
-          "type": "repo",
-          "brief": "Fourth day on the list and the only entry today confirmed by three unrelated collectors \u2014 npm downloads, GitHub stars and HackerNews. Downloads are up 41% week over week against 4.4% star growth, and 65 open issues on 1,296 stars is a high ratio: people are running it in anger rather than admiring it. The watcher count sits at 3, which is the one discordant note \u2014 almost nobody has committed to following the project despite using it.",
-          "sources": [
-            "github",
-            "hackernews",
-            "packages"
-          ],
-          "url": "https://github.com/reflex-dev/xy",
-          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
-          "appearances": 7,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
-          },
-          "briefed_on": "2026-08-03"
-        },
         {
           "name": "mokshablr/gander",
           "type": "repo",
@@ -856,80 +736,24 @@
           "briefed_on": "2026-08-03"
         },
         {
-          "name": "wikif1.org",
-          "type": "domain",
-          "brief": "An F1 wiki with 1.5% rank movement and 1% subnet growth. Genuinely marginal \u2014 it clears the corroboration bar because two independent sources both registered the same small climb. Listed for honesty about what today's threshold admits.",
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "Fourth day and the only entry confirmed by three unrelated collectors: npm downloads, GitHub stars and HackerNews. Downloads up 41% week over week against 4.4% star growth, and 65 open issues on 1,296 stars means people are running it in anger.",
           "sources": [
-            "crunchbase",
-            "dataforseo",
-            "majestic_million",
-            "openpagerank",
-            "pricing",
-            "wikipedia"
+            "github",
+            "hackernews",
+            "packages"
           ],
-          "url": "https://wikif1.org",
-          "description": "An independent Formula 1 site carrying race news, driver standings, the season schedule and results, with no affiliation to the sport's official channels. It publishes on race weekends and through the summer break, which is when a season site either keeps its audience or loses it.",
-          "appearances": 1,
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
+          "appearances": 7,
           "track": {
-            "first_flagged": "2026-08-03",
-            "days_ago": 8,
-            "unit": "authority",
-            "then": 1.54,
-            "now": 1.54,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-03"
-        },
-        {
-          "name": "playscrabble.com",
-          "type": "domain",
-          "brief": "Same shape as createcentercv: three sources, all agreeing, none dramatic. Rank up 5.4% with subnets up 2%. A long-established word-game site \u2014 this is what steady looks like, and it is here to show that the corroboration rule fires on ordinary movement too, not only on spikes.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "majestic_million",
-            "openpagerank",
-            "techstack",
-            "tranco",
-            "wikipedia"
-          ],
-          "url": "https://playscrabble.com",
-          "description": "A long running site for playing Scrabble against other people or against the computer, with daily puzzles, a word finder and the official dictionary alongside the games. It is one of the few places offering real time play with the licensed board rather than an approximation of it.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-03",
-            "days_ago": 8,
-            "unit": "authority",
-            "then": 4.5,
-            "now": 4.5,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-03"
-        },
-        {
-          "name": "mondomedia.com",
-          "type": "domain",
-          "brief": "Referring IPs up 29% and subnets up 28% \u2014 one new link per network, which is the healthy shape. Rank change of 35% on an established media domain. The near-identical IP and subnet growth is what genuine link acquisition looks like and is the clearest contrast on this page with the Omsk entry.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "majestic_million",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco",
-            "wikipedia"
-          ],
-          "url": "https://mondomedia.com",
-          "description": "Mondo Media, the studio and publisher behind Happy Tree Friends and Dick Figures, which has been making adult animated shorts for the web since the late 1990s. It was one of the first companies to build an audience for original animation online rather than through television, and still publishes new series on its own site.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-03",
-            "days_ago": 7,
-            "unit": "authority",
-            "then": 3.56,
-            "now": 3.56,
-            "change_pct": 0.0
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1731,
+            "change_pct": 71.9
           },
           "briefed_on": "2026-08-03"
         }
@@ -937,64 +761,8 @@
     },
     {
       "date": "2026-08-02",
-      "count": 10,
+      "count": 7,
       "items": [
-        {
-          "name": "drumih/turbo-fieldfare",
-          "type": "repo",
-          "brief": "Third day climbing and the shape got better, not worse: stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges, not bookmarking it. HackerNews has gone quiet \u2014 comments up only 1.5%, off the front page \u2014 so this is now growing on its own without a thread pushing it, which is the transition most launches never make.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/drumih/turbo-fieldfare",
-          "description": "Runs Google's Gemma 4 26B model on any Apple Silicon Mac in about 2 GB of memory, including the 8 GB machines, instead of loading all 14.3 GB. It keeps the shared core and the cache resident and streams only the experts each token actually needs off the SSD. The runtime, installer, command line tool and Mac app are all written in Swift and Metal, built for this one model rather than wrapping MLX or llama.cpp.",
-          "appearances": 5,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "DramaWave - Dramas & Reels",
-          "type": "app",
-          "brief": "DramaWave improved its best rank 20% to position 12 while falling 34% in the US, 32% in the UK and 22% in Germany. Charting far better overall while losing every tracked Western market means the gain came from somewhere we do not watch. With 100 million Android installs already, this is a mature short-drama app moving on ad spend, not a discovery.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6670430706",
-          "description": "A streaming app for vertical short dramas, the soap opera episodes shot in portrait and cut into two minute instalments, in the same category as ReelShort and DramaBox. The format is bought heavily through social advertising, so the numbers on apps like this move with marketing spend more than with word of mouth.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 13,
-            "unit": "ratings",
-            "then": 136461,
-            "now": 146524,
-            "change_pct": 7.4
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "FORScan Lite - for Ford, Mazda",
-          "type": "app",
-          "brief": "FORScan Lite's Android installs jumped to 10 million and reviews rose 57% in a day \u2014 an enormous move for a paid car-diagnostics tool with only 192 iOS ratings. The install figure is bucketed by Google, so a jump like that is a threshold being crossed rather than a real overnight surge. Worth watching the review count instead: 57% growth there is a genuine number.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id892347083",
-          "description": "Diagnostics software for Ford, Mazda, Lincoln and Mercury vehicles, reading the manufacturer specific fault codes and module data that a generic OBD2 scanner cannot see. It is the phone version of a tool that mechanics and owners use to configure vehicle modules rather than only to read a check engine light.",
-          "appearances": 1,
-          "track": null,
-          "briefed_on": "2026-08-02"
-        },
         {
           "name": "yc-software/qm",
           "type": "repo",
@@ -1013,52 +781,6 @@
             "then": 5567,
             "now": 13478,
             "change_pct": 142.1
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "sqliteai/waste",
-          "type": "repo",
-          "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. That comment-to-point ratio is still inverted \u2014 roughly eighteen comments per point \u2014 which means the discussion is an argument, not applause. Yesterday's question was whether the stars were the idea or the fight; two days of doubling suggests the idea is surviving the fight.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/sqliteai/waste",
-          "description": "An inference engine written in C with no runtime dependencies, built to run frontier models that do not fit in memory. It holds the shared trunk of the model in RAM, streams the selected experts straight off NVMe and uses whatever memory is left as a cache. The full 2.78 trillion parameter Kimi K3, not a distilled or pruned version, runs on a 64 GB MacBook Pro at about 0.6 tokens per second.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 9,
-            "unit": "stars",
-            "then": 344,
-            "now": 2006,
-            "change_pct": 483.1
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "hillelwayne.com",
-          "type": "domain",
-          "brief": "106 HackerNews comments and a small Tranco improvement. Same shape as maurycyz.com: an individual writer having a good day. The value here is the reverse of a riser \u2014 it tells you what developers are arguing about today, which is a content signal rather than a company signal.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://hillelwayne.com",
-          "description": "The site of Hillel Wayne, who writes about formal methods and specification for working programmers, and who published Logic for Programmers. The posts cover TLA+, Alloy and property based reasoning, alongside long detours into software history and the origins of programming concepts.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-02",
-            "days_ago": 8,
-            "unit": "authority",
-            "then": 5.5,
-            "now": 5.5,
-            "change_pct": 0.0
           },
           "briefed_on": "2026-08-02"
         },
@@ -1162,17 +884,11 @@
             "change_pct": 0.0
           },
           "briefed_on": "2026-08-02"
-        }
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "count": 12,
-      "items": [
+        },
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Grew from 2,196 to 3,038 stars overnight \u2014 36% \u2014 with forks up 42%, and it did that after leaving the HackerNews front page. Attention there has flattened to 1% growth while the repo itself keeps climbing, which is the split that matters: the launch is over and the growth did not stop with it. Open issues up 22% says people are running it and hitting real edges, not just bookmarking.",
+          "brief": "Third day climbing and the shape got better. Stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges. HackerNews has gone quiet at 1.5%.",
           "sources": [
             "github",
             "hackernews"
@@ -1188,34 +904,35 @@
             "now": 5934,
             "change_pct": 170.2
           },
-          "briefed_on": "2026-08-01"
+          "briefed_on": "2026-08-02"
         },
         {
-          "name": "marbleos.com",
-          "type": "domain",
-          "brief": "HackerNews points up 2,100% to 108 with 65 comments, front page, and nothing else in the system has seen it. This is the earliest shape RiseFinder can detect and also the least proven \u2014 one well-received post produces exactly this. Worth a look precisely because it is undecided.",
+          "name": "sqliteai/waste",
+          "type": "repo",
+          "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. Roughly eighteen comments per point means the discussion is an argument. Two days of doubling says the idea is surviving it.",
           "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "search_trends",
-            "techstack",
-            "wikipedia"
+            "github",
+            "hackernews"
           ],
-          "url": "https://marbleos.com",
-          "description": "MarbleOS, a desktop application that runs an AI agent as a workspace rather than a chat window, with the files, tools, tasks and outputs visible while the work happens. The pitch is the difference between something that answers you and something that goes and does the job, then hands back a document to review. It is distributed for macOS.",
-          "appearances": 1,
+          "url": "https://github.com/sqliteai/waste",
+          "description": "An inference engine written in C with no runtime dependencies, built to run frontier models that do not fit in memory. It holds the shared trunk of the model in RAM, streams the selected experts straight off NVMe and uses whatever memory is left as a cache. The full 2.78 trillion parameter Kimi K3, not a distilled or pruned version, runs on a 64 GB MacBook Pro at about 0.6 tokens per second.",
+          "appearances": 2,
           "track": {
             "first_flagged": "2026-08-01",
-            "days_ago": 10,
-            "unit": "authority",
-            "then": 0.09,
-            "now": 0.09,
-            "change_pct": 0.0
+            "days_ago": 9,
+            "unit": "stars",
+            "then": 344,
+            "now": 2006,
+            "change_pct": 483.1
           },
-          "briefed_on": "2026-08-01"
-        },
+          "briefed_on": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "count": 7,
+      "items": [
         {
           "name": "reclip.io",
           "type": "domain",
@@ -1240,28 +957,6 @@
             "then": 0.78,
             "now": 0.78,
             "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-01"
-        },
-        {
-          "name": "reflex-dev/xy",
-          "type": "repo",
-          "brief": "The first thing this system has confirmed from three unrelated places at once \u2014 npm downloads, GitHub stars, HackerNews. Downloads are up 139% week over week against 9.9% star growth, so it is being installed far faster than it is being admired, and 64 open issues on 1,119 stars means those installs are hitting production. Watch the issue count: at this ratio the maintainer's response time decides whether it keeps the users it is winning.",
-          "sources": [
-            "github",
-            "hackernews",
-            "packages"
-          ],
-          "url": "https://github.com/reflex-dev/xy",
-          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
-          "appearances": 7,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -1312,90 +1007,6 @@
           "briefed_on": "2026-08-01"
         },
         {
-          "name": "sawfwair/mere-run",
-          "type": "repo",
-          "brief": "41 stars, 14 points, 7 comments, and it has already fallen off the front page. It ranks here only because percentile scoring is relative and the population was quiet \u2014 a handful of people account for every number on this line. No conviction; listed so the set is honest about what cleared the bar.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/sawfwair/mere-run",
-          "description": "A local first inference runtime for Apple Silicon and headless Linux, with one command line tool covering image, text, speech, vision, music, video and 3D generation, model management and an OpenAI compatible API server. The optional Mac application uses the same tool and model store rather than running a separate backend, so everything stays on the machine.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 5,
-            "unit": "stars",
-            "then": 41.0,
-            "now": 61.0,
-            "change_pct": 48.8
-          },
-          "briefed_on": "2026-08-01"
-        },
-        {
-          "name": "SerhiiKorniienko/bullshit-detector",
-          "type": "repo",
-          "brief": "Yesterday this was up 141% on stars and 3,200% on comments; today it is up 5%. The spike is over and it converted very little \u2014 90 stars and 4 forks from 68 comments of discussion. Comments still run level with points, so it remained an argument to the end rather than a tool anyone adopted.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
-          "description": "A set of agent skills that fact check a YouTube video, article, tweet or PDF claim by claim, returning each claim with a verdict, a linked source and a score from zero to ten. Its rule is that no source means no verdict, even when the model is confident. The published example takes 60 claims from a video with 2.7 million views and searches 44 of them individually.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 15,
-            "unit": "stars",
-            "then": 77.0,
-            "now": 132,
-            "change_pct": 71.4
-          },
-          "briefed_on": "2026-08-01"
-        },
-        {
-          "name": "gavamedia/deltafin",
-          "type": "repo",
-          "brief": "Forks up 20% and open issues up 40% against 11.9% star growth \u2014 the third day running that usage has outpaced attention on this one. Six open issues on 567 stars is still a clean tracker, so the friction is early rather than accumulating. The HackerNews points reading dropped to zero while 87 comments remain, which is more likely a flagged post than a collapse in interest.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/gavamedia/deltafin",
-          "description": "A single native binary that runs the complete 2.8 trillion parameter Kimi K3 on consumer hardware with nothing pruned and nothing skipped. Small draft models are allowed to guess ahead for speed, but K3 checks every guess, so quality is never traded away. The published benchmark history shows throughput on an M1 Max laptop rising from 0.014 to 0.29 tokens per second over three weeks.",
-          "appearances": 3,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 5,
-            "unit": "stars",
-            "then": 429,
-            "now": 663,
-            "change_pct": 54.5
-          },
-          "briefed_on": "2026-08-01"
-        },
-        {
-          "name": "DramaWave - Dramas & Reels",
-          "type": "app",
-          "brief": "DramaWave improved its best rank 5% while losing ground in Germany, the UK and the US at once \u2014 16% in the US alone. That combination only works if it is charting hard in a market outside the four tracked here. Same short-drama category as DramaBox and the same read: watch the category, not the app.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6670430706",
-          "description": "A streaming app for vertical short dramas, the soap opera episodes shot in portrait and cut into two minute instalments, in the same category as ReelShort and DramaBox. The format is bought heavily through social advertising, so the numbers on apps like this move with marketing spend more than with word of mouth.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 13,
-            "unit": "ratings",
-            "then": 136461,
-            "now": 146524,
-            "change_pct": 7.4
-          },
-          "briefed_on": "2026-08-01"
-        },
-        {
           "name": "Reelo - Media Hub",
           "type": "app",
           "brief": "Reelo holds rank 7 on a paid chart with 10 ratings and 5,000 Android installs. Those numbers do not belong together: a paid chart position that high on that little evidence usually means a thin category rather than a real hit. It slipped in both the UK and US today. Treat as a category artefact until a second source says otherwise.",
@@ -1417,57 +1028,9 @@
           "briefed_on": "2026-08-01"
         },
         {
-          "name": "Claude by Anthropic",
-          "type": "app",
-          "brief": "Claude reversed yesterday's slide, gaining 7.6% in Japan and about 1.5% in both the UK and US while holding second place overall. Yesterday it was losing ground in exactly the markets it gained in today, which usually means a short campaign or a news cycle rather than anything structural. Two days does not make a trend, but the direction flipped cleanly.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6473753684",
-          "description": "Anthropic's Claude application for iPhone and iPad. As an entity here it is useful mainly as a control: a major model provider's consumer app is not an unknown rising, so movement on it measures how the App Store charts respond to a release rather than anything about early adoption.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 15,
-            "unit": "ratings",
-            "then": 214790,
-            "now": 227908,
-            "change_pct": 6.1
-          },
-          "briefed_on": "2026-08-01"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "count": 7,
-      "items": [
-        {
-          "name": "LukeTandjung/base-gpui",
-          "type": "repo",
-          "brief": "Comments up 66.7% against 4.7% star growth, on a 45-star repo. Everything about this is small enough that a handful of people account for all of it. It scores highly only because percentile ranking is relative \u2014 in a quiet population, modest movement ranks well. Worth one more day before treating it as anything.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/LukeTandjung/base-gpui",
-          "description": "A port of Base UI's headless component library to GPUI, the interface framework Zed is built on. It brings across compound parts, controlled and uncontrolled state, keyboard interaction and accessibility semantics, and leaves every component unstyled so applications keep full control of appearance. The implementation is written for GPUI's immediate mode rendering rather than translated from React internals.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 45.0,
-            "now": 68.0,
-            "change_pct": 51.1
-          },
-          "briefed_on": "2026-07-31"
-        },
-        {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Forks grew 41.5% in a day against 18.6% star growth \u2014 people are copying it to build on roughly twice as fast as they are bookmarking it, which is the healthier of the two ratios. At 2,196 stars with 326 HackerNews comments it is past the point where a single post explains the numbers. It has already left the front page, so the next two days separate a launch spike from a tool that stuck.",
+          "brief": "Grew from 2,196 to 3,038 stars overnight, 36%, with forks up 42%, and it did that after leaving the HackerNews front page. Attention there flattened to 1% while the repo kept climbing. Open issues up 22% says people are hitting real edges.",
           "sources": [
             "github",
             "hackernews"
@@ -1483,8 +1046,57 @@
             "now": 5934,
             "change_pct": 170.2
           },
-          "briefed_on": "2026-07-31"
+          "briefed_on": "2026-08-01"
         },
+        {
+          "name": "gavamedia/deltafin",
+          "type": "repo",
+          "brief": "Forks up 20% and open issues up 40% against 11.9% star growth, the third day running that usage has outpaced attention. Six open issues on 567 stars is still a clean tracker, so the friction is early rather than accumulating.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/gavamedia/deltafin",
+          "description": "A single native binary that runs the complete 2.8 trillion parameter Kimi K3 on consumer hardware with nothing pruned and nothing skipped. Small draft models are allowed to guess ahead for speed, but K3 checks every guess, so quality is never traded away. The published benchmark history shows throughput on an M1 Max laptop rising from 0.014 to 0.29 tokens per second over three weeks.",
+          "appearances": 3,
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 5,
+            "unit": "stars",
+            "then": 429,
+            "now": 663,
+            "change_pct": 54.5
+          },
+          "briefed_on": "2026-08-01"
+        },
+        {
+          "name": "reflex-dev/xy",
+          "type": "repo",
+          "brief": "The first thing this system has confirmed from three unrelated places at once: npm downloads, GitHub stars, HackerNews. Downloads up 139% week over week against 9.9% star growth, and 64 open issues on 1,119 stars means those installs are hitting production.",
+          "sources": [
+            "github",
+            "hackernews",
+            "packages"
+          ],
+          "url": "https://github.com/reflex-dev/xy",
+          "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
+          "appearances": 7,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 1007,
+            "now": 1731,
+            "change_pct": 71.9
+          },
+          "briefed_on": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "count": 5,
+      "items": [
         {
           "name": "reflex-dev/xy",
           "type": "repo",
@@ -1510,7 +1122,7 @@
         {
           "name": "openai/codex-security",
           "type": "repo",
-          "brief": "Still climbing three days after first appearing: stars up 18.8% and forks up 18.3% in the last twenty-four hours, now at 7,237 and 472. It remains on the HackerNews front page with 197 comments. Sustained growth at this size is the strongest pattern in today's set \u2014 most launches decay by day three, and this one has not.",
+          "brief": "Still climbing three days after first appearing: stars up 18.8% and forks up 18.3% in twenty four hours, now at 7,237 and 472. Still on the HackerNews front page with 197 comments. Most launches decay by day three and this one has not.",
           "sources": [
             "github",
             "hackernews"
@@ -1550,27 +1162,6 @@
           "briefed_on": "2026-07-31"
         },
         {
-          "name": "experientiallabs/world-model-optimizer",
-          "type": "repo",
-          "brief": "On the HackerNews front page with points up 40.9% and comments up 22.7% in a day. Stars grew 18.6% but the watcher count sits at 1 against 255 stars \u2014 almost nobody has committed to following it. That gap is the thing to watch: front-page attention with no followers usually evaporates within the week.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/experientiallabs/world-model-optimizer",
-          "description": "Takes the traces an AI agent produces in production and turns them into a cheaper agent. It builds a simulation from those traces, fits a router that decides which model each request should go to, then trains a small open model for the specific workload. The point is to stop paying frontier prices for every request when most of them do not need it.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-07-31",
-            "days_ago": 14,
-            "unit": "stars",
-            "then": 255,
-            "now": 343,
-            "change_pct": 34.5
-          },
-          "briefed_on": "2026-07-31"
-        },
-        {
           "name": "mishushakov/desktui",
           "type": "repo",
           "brief": "Appears in today's corroborated set on both GitHub and HackerNews. Early-stage terminal UI work, and like base-gpui the absolute numbers are small enough that the percentages overstate the case. Listed for completeness rather than conviction.",
@@ -1590,17 +1181,38 @@
             "change_pct": 42.3
           },
           "briefed_on": "2026-07-31"
+        },
+        {
+          "name": "drumih/turbo-fieldfare",
+          "type": "repo",
+          "brief": "Forks grew 41.5% in a day against 18.6% star growth, so people are copying it to build on roughly twice as fast as they are bookmarking it. At 2,196 stars with 326 HackerNews comments it is past the point where a single post explains the numbers.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "description": "Runs Google's Gemma 4 26B model on any Apple Silicon Mac in about 2 GB of memory, including the 8 GB machines, instead of loading all 14.3 GB. It keeps the shared core and the cache resident and streams only the experts each token actually needs off the SSD. The runtime, installer, command line tool and Mac app are all written in Swift and Metal, built for this one model rather than wrapping MLX or llama.cpp.",
+          "appearances": 5,
+          "track": {
+            "first_flagged": "2026-07-31",
+            "days_ago": 14,
+            "unit": "stars",
+            "then": 2196,
+            "now": 5934,
+            "change_pct": 170.2
+          },
+          "briefed_on": "2026-07-31"
         }
       ]
     },
     {
       "date": "2026-07-30",
-      "count": 8,
+      "count": 5,
       "items": [
         {
           "name": "FrigadeHQ/yap",
           "type": "repo",
-          "brief": "Modest and clean \u2014 stars up 8% to 290, forks up 16%, 104 HackerNews points with 43 comments. Nothing here is dramatic, which is why it is worth noting: the numbers are in proportion to each other rather than one spiking alone.",
+          "brief": "Stars up 8% to 290, forks up 16%, 104 HackerNews points with 43 comments. The numbers are in proportion to each other rather than one of them spiking alone.",
           "sources": [
             "github",
             "hackernews"
@@ -1619,30 +1231,9 @@
           "briefed_on": "2026-07-30"
         },
         {
-          "name": "SerhiiKorniienko/bullshit-detector",
-          "type": "repo",
-          "brief": "Comments jumped 3,200% to 66 and points 178% to 62 \u2014 a one-to-one comment-to-point ratio, which almost always means argument rather than approval. Open issues rose 800% from a tiny base while stars grew 28%. It has already fallen off the front page, so the next two days decide whether the attention converts into anything.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
-          "description": "A set of agent skills that fact check a YouTube video, article, tweet or PDF claim by claim, returning each claim with a verdict, a linked source and a score from zero to ten. Its rule is that no source means no verdict, even when the model is confident. The published example takes 60 claims from a video with 2.7 million views and searches 44 of them individually.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 15,
-            "unit": "stars",
-            "then": 77.0,
-            "now": 132,
-            "change_pct": 71.4
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
           "name": "wassgha/rescript",
           "type": "repo",
-          "brief": "Forks up 11% and open issues up 40% against 16% star growth, with 43 forks on 384 stars. That ratio is unusually high \u2014 better than one fork per nine stars \u2014 and suggests a tool people modify for their own use rather than adopt as-is.",
+          "brief": "Forks up 11% and open issues up 40% against 16% star growth, with 43 forks on 384 stars. Better than one fork per nine stars, which suggests a tool people modify for their own use rather than adopt as is.",
           "sources": [
             "github",
             "hackernews"
@@ -1663,7 +1254,7 @@
         {
           "name": "openai/codex-security",
           "type": "repo",
-          "brief": "Forks up 70% and open issues up 84% against 47% star growth, reaching 6,090 stars and 399 forks. Issues climbing faster than stars is the signature of a repository people are running rather than reading, and at this size that means real deployments hitting real edges. On the HackerNews front page with 197 comments, which explains the arrival but not the fork ratio \u2014 that part is adoption.",
+          "brief": "Forks up 70% and open issues up 84% against 47% star growth, reaching 6,090 stars and 399 forks. Issues climbing faster than stars is the signature of a repository people are running rather than reading, and at this size that means real deployments.",
           "sources": [
             "github",
             "hackernews"
@@ -1720,48 +1311,6 @@
             "then": 192,
             "now": 220,
             "change_pct": 14.6
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
-          "name": "Parchment: Agenda & Daily Note",
-          "type": "app",
-          "brief": "Parchment improved its best paid-chart rank 12% while falling in all three tracked paid markets, on just 124 ratings and a million Android installs. The rating count is far too small for the install figure, which usually means the Android and iOS audiences are very different sizes \u2014 worth checking before treating either number as the whole picture.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6779987526",
-          "description": "A private daily journal for iPhone that keeps writing, plans, calendar entries and reminders in one place rather than splitting them across four apps. The category is crowded, so what matters for an app like this is whether the calendar integration is good enough to replace the separate planner people already use.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 15,
-            "unit": "ratings",
-            "then": 124,
-            "now": 193,
-            "change_pct": 55.6
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
-          "name": "Claude by Anthropic",
-          "type": "app",
-          "brief": "Claude held the number one position across its tracked storefronts, gaining 3.6% in the UK while slipping slightly in Japan and the US. At 50 million Android installs and 215,000 ratings this is a competitive read rather than a discovery \u2014 the value is in which market moves which way, week to week.",
-          "sources": [
-            "android_apps",
-            "ios_apps"
-          ],
-          "url": "https://apps.apple.com/app/id6473753684",
-          "description": "Anthropic's Claude application for iPhone and iPad. As an entity here it is useful mainly as a control: a major model provider's consumer app is not an unknown rising, so movement on it measures how the App Store charts respond to a release rather than anything about early adoption.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 15,
-            "unit": "ratings",
-            "then": 214790,
-            "now": 227908,
-            "change_pct": 6.1
           },
           "briefed_on": "2026-07-30"
         }
