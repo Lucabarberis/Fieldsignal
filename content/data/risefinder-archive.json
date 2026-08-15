@@ -109,7 +109,7 @@
         {
           "name": "AntigmaLabs/ante",
           "type": "repo",
-          "brief": "Stars up 14.1% and forks up 10.2% while HackerNews went the other way, front page presence gone entirely and posts down 33%. The thread ended and the growth did not. 34 forks on 1,443 stars is a 2.4% ratio, so most arrivals are still evaluating it.",
+          "brief": "Stars 1,239 to 1,443 in a day, up 16.5%, with forks up 17.2% and open issues up 9.1%. HackerNews contributed almost nothing at 1.9%. The thread ended and the growth did not.",
           "sources": [
             "github",
             "hackernews",
@@ -131,7 +131,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "Weekly downloads 11,161, up 7% today and up 147% since the 4,518 recorded nine days ago. Stars moved 0% and forks 1.1% in the same window. Sixth appearance, and the gap has widened on every one of them: attention flat, installation compounding.",
+          "brief": "Weekly downloads 9,386 to 11,161, up 18.9% in a day, while forks moved 1.4% and stars not at all. The week over week figure itself rose 28.9%, so the rate is still climbing rather than settling.",
           "sources": [
             "github",
             "hackernews",
@@ -159,7 +159,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "Weekly downloads 9,386, up 11.2% today and more than doubled since the 4,518 recorded four days ago. Stars moved 1.6% in the same window, so downloads are growing seven times faster than attention. Fifth appearance and the gap has widened each time.",
+          "brief": "Weekly downloads 7,109 to 9,386, up 32% in a day, against stars up 1.8%. Downloads growing eighteen times faster than attention, and the week over week rate itself up 81%.",
           "sources": [
             "github",
             "hackernews",
@@ -256,7 +256,7 @@
         {
           "name": "palamim/starboard",
           "type": "repo",
-          "brief": "Stars up 4.9%, forks up 6.7%, open issues up 20%, consistent in direction across the board. On a 144 star repo that is a handful of real users, and the fork to star ratio says some of them are already changing it. Two days since the last push.",
+          "brief": "Stars 125 to 144, up 15.2%, and forks 4 to 6. A terminal pinned beside the Dock is a narrow idea with an obvious audience, and the fork ratio says some of them are already changing it. Two days since the last push.",
           "sources": [
             "github",
             "hackernews"
@@ -359,7 +359,7 @@
         {
           "name": "V4bel/Zapscape",
           "type": "repo",
-          "brief": "Three independent collectors on day one, GitHub, HackerNews and Lobsters at once. Stars and forks both up 12.9% in exact lockstep, with Lobsters comments up 25%. Ten forks on 110 stars this early says people are running the exploit to see it work.",
+          "brief": "Stars 71 to 110 in a day, up 54.9%, forks 6 to 10, and Lobsters points up 44.4%. Ten forks on 110 stars this early says people are running the exploit rather than reading about it.",
           "sources": [
             "github",
             "hackernews",
@@ -381,7 +381,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "Weekly downloads up 9.7% while the week over week growth figure itself jumped 342%, so the acceleration is accelerating. 4,518 downloads a week against 1,621 stars means more people are installing it than have bookmarked it, and that ratio almost never runs this way round. Fourth appearance and the first where downloads rather than attention are doing the work.",
+          "brief": "Weekly downloads 2,668 to 4,518, up 69.3%, while stars moved 2.1%. Watchers went 3 to 10. More people are installing it than have bookmarked it, and that ratio almost never runs this way round.",
           "sources": [
             "github",
             "hackernews",
@@ -403,7 +403,7 @@
         {
           "name": "pg83/shitty",
           "type": "repo",
-          "brief": "Fourth day and the shape has held. Open issues up 42.9% against 2% star growth, long after HackerNews stopped talking, where comments moved 1.2%. Most launch driven repos flatten within seventy two hours. This one kept the adoption after losing the audience.",
+          "brief": "Open issues 4 to 7, up 75%, and forks 16 to 18, against stars up 3.9%. HackerNews has stopped at 1.2%. The discussion ended and the adoption did not.",
           "sources": [
             "github",
             "hackernews"
@@ -430,7 +430,7 @@
         {
           "name": "pg83/shitty",
           "type": "repo",
-          "brief": "Third appearance, and this is where a thread and a trend separate. Stars up 6.7% and open issues up 16.7% while HackerNews comments moved 0.6%. The discussion has stopped and the adoption has not.",
+          "brief": "Stars 228 to 259, up 13.6%, and open issues 3 to 4, while HackerNews comments barely moved. Third appearance, and this is where a thread and a trend separate.",
           "sources": [
             "github",
             "hackernews"
@@ -451,7 +451,7 @@
         {
           "name": "veedstudio/open-edit",
           "type": "repo",
-          "brief": "Second day and the ratios held. Stars up 8.2%, forks up 12.1%, with forks again outpacing stars: 141 stars and 8 forks yesterday, 172 and 12 today. At that size a dozen people move it, so the direction carries the information rather than the magnitude.",
+          "brief": "Stars 141 to 172, up 22%, and forks 8 to 12, up 50%. Forks outpacing stars again on the second day. At this size a dozen people move it, so the direction carries the information rather than the magnitude.",
           "sources": [
             "github",
             "hackernews"
@@ -500,7 +500,7 @@
         {
           "name": "garagehq/nightcrawler",
           "type": "repo",
-          "brief": "Forks jumped 32.7% against 23.3% star growth in a day, with watchers up 25%. Three ratios moving together is harder to fake than any one of them spiking. 44 forks on 593 stars is a 7% ratio, so the people finding it are running it rather than filing it.",
+          "brief": "Forks 27 to 44 in a day, up 63%, against stars up 35.4%, with watchers up 25%. Three ratios moving together is harder to fake than any one of them spiking. 44 forks on 593 stars means people are running it rather than filing it.",
           "sources": [
             "github",
             "hackernews"
@@ -521,7 +521,7 @@
         {
           "name": "veedstudio/open-edit",
           "type": "repo",
-          "brief": "Stars up 14.7% and forks up 17.9% on the same day, from a base of 141 and 8. The pitch is a video editor you own rather than rent, driven by a coding agent, and this is day one on the list.",
+          "brief": "Stars 94 to 141, up 50%, and forks 3 to 8. The pitch is a video editor you own rather than rent, driven by a coding agent, and this is day one on the list.",
           "sources": [
             "github",
             "hackernews"
@@ -543,38 +543,12 @@
     },
     {
       "date": "2026-08-05",
-      "count": 6,
+      "count": 5,
       "items": [
-        {
-          "name": "pudding.cool",
-          "type": "domain",
-          "brief": "The Pudding, a visual-essay publication, with 157 HackerNews comments and its best rank up 23.3%. Comments are actually down 16% from the previous window, so the thread is past its peak; what put this here is the rank move, which follows front-page placement rather than leading it. Attention, not adoption.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://pudding.cool",
-          "description": "The Pudding, a digital publication that answers cultural questions with interactive visual essays rather than articles. Recent pieces analyse 200,000 similes from popular fiction, track a thousand people through their relationships, and map the vocabulary taught to English learners over time. Each essay is a custom built page, which is why the site is cited as a reference for data journalism.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-05",
-            "days_ago": 6,
-            "unit": "authority",
-            "then": 7.62,
-            "now": 7.62,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-05"
-        },
         {
           "name": "pg83/shitty",
           "type": "repo",
-          "brief": "160 HackerNews comments against 172 points is a 93% comment to point ratio, roughly triple what a well received post produces. That shape means argument rather than applause. Stars up 5.7% and forks up 5.4% the same day says some readers stopped arguing and cloned it.",
+          "brief": "160 HackerNews comments against 172 points is a 93% comment to point ratio, roughly triple what a well received post produces, and that shape means argument. Stars 193 to 217 and forks 11 to 13 the same day says some readers stopped arguing and cloned it.",
           "sources": [
             "github",
             "hackernews"
@@ -595,7 +569,7 @@
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Stars have more than doubled in five days, 2,196 to 4,945, and forks are still outpacing them at 7.8% against 5.6% in the last day alone. Open issues rose 11.6% in the same window. Five days on this list and the ratios have not softened.",
+          "brief": "Stars 4,671 to 4,945 and forks 231 to 251, with open issues up 12.8%. Five days on this list and the ratios have not softened.",
           "sources": [
             "github",
             "hackernews"
@@ -638,7 +612,7 @@
         {
           "name": "0xchasercat/draco",
           "type": "repo",
-          "brief": "Open issues jumped 50% today against 2.8% star growth, so the few people who found it are using it hard enough to break it. A self hosted replacement for a paid crawling service, at 67 stars. Two days since the last push.",
+          "brief": "Stars 59 to 67 and forks 3 to 4, with open issues up 33.3%. A self hosted replacement for a paid crawling service, and the few people who found it are using it hard enough to break it.",
           "sources": [
             "github",
             "hackernews"
@@ -732,7 +706,7 @@
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Forks growing faster than stars, 10.1% against 8.3%, with 231 forks on 4,671 stars. The HackerNews thread drew 343 comments against 913 points, a 38% ratio meaning argument rather than applause. Pushed today, so the maintainer is still in it.",
+          "brief": "Forks 208 to 231, up 11.1%, against stars up 8.7%, with 231 forks on 4,671 stars. The HackerNews thread drew 343 comments against 913 points, which is argument rather than applause. Pushed today.",
           "sources": [
             "github",
             "hackernews"
@@ -759,7 +733,7 @@
         {
           "name": "mokshablr/gander",
           "type": "repo",
-          "brief": "207 HackerNews points and 75 comments against 287 stars and 4 forks. Attention running well ahead of adoption: a lot of people read about it, very few took it home. Stars grew 7.4% and forks 9.1% overnight, so the gap is closing slowly rather than not at all. It has already left the front page, which makes the next two days the test.",
+          "brief": "Stars 254 to 293, up 15.4%, and forks 2 to 4. An offline Android file viewer holding no permissions at all is a specific enough claim to attract either real users or real scepticism.",
           "sources": [
             "github",
             "hackernews"
@@ -780,7 +754,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "Fourth day and the only entry confirmed by three unrelated collectors: npm downloads, GitHub stars and HackerNews. Downloads up 41% week over week against 4.4% star growth, and 65 open issues on 1,296 stars means people are running it in anger.",
+          "brief": "Fourth day and the only entry confirmed by three unrelated collectors: npm downloads, GitHub stars and HackerNews. Downloads 2,613 to 2,779 with the week over week rate up 38.3%, stars 1,233 to 1,301 and forks 42 to 45.",
           "sources": [
             "github",
             "hackernews",
@@ -803,134 +777,12 @@
     },
     {
       "date": "2026-08-02",
-      "count": 7,
+      "count": 4,
       "items": [
-        {
-          "name": "yc-software/qm",
-          "type": "repo",
-          "brief": "Stars up 121% and forks up 150% in a day, with open issues up 124% and its HackerNews rank improving sharply. Forks growing faster than stars on a repo this young means people are cloning to modify rather than to watch. Everything about it is early enough that a single day could reverse it, but the fork-to-star ratio is the healthiest in today's set.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/yc-software/qm",
-          "description": "An agent harness built for a whole company rather than one person, running in Slack and on the web. Each employee gets an isolated workspace with its own memory, files, credentials and permissions, and can also work with the agent in shared channels and projects. The model and the underlying harness are swappable, so a deployment is not tied to one vendor.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-02",
-            "days_ago": 13,
-            "unit": "stars",
-            "then": 5567,
-            "now": 13586,
-            "change_pct": 144.0
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "projectpluto.com",
-          "type": "domain",
-          "brief": "79 comments on the front page with a 0.6% Tranco move. Astronomy software with a long history. The pattern across today's domain set is clear and worth naming: HackerNews plus a tiny traffic bump almost always means one popular post, not a rising business.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "techstack",
-            "tranco"
-          ],
-          "url": "https://projectpluto.com",
-          "description": "Project Pluto supplies astronomical software to amateur and professional astronomers, some commercial and much of it free. Find_Orb takes a set of positional measurements of an asteroid, comet or satellite and determines its orbit; Sat_ID identifies artificial satellites from an observation. These are working tools for people doing orbit determination, and several run in the browser.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-02",
-            "days_ago": 8,
-            "unit": "authority",
-            "then": 5.32,
-            "now": 5.32,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "seriot.ch",
-          "type": "domain",
-          "brief": "HackerNews points up 20% from a base of 4, with one comment. This is noise that cleared the bar because the domain population was quiet. Listed so the set stays honest about what qualified rather than quietly dropping it.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://seriot.ch",
-          "description": "The site of Nicolas Seriot, a software engineer who looks for computation in places nobody intended to put any. Recent work shows that three lines of Unicode transliteration rules are Turing complete on the library shipping with every major operating system, and compiles OpenStreetMap into static packs a browser rasterises without a server.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-02",
-            "days_ago": 8,
-            "unit": "authority",
-            "then": 6.63,
-            "now": 6.63,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "chriscoyier.net",
-          "type": "domain",
-          "brief": "52 comments, front page, 0.6% traffic gain. Chris Coyier is a well-known web developer; this is his personal site. Fourth example of the same shape today, which is a stronger argument for a gate rule about personal blogs than it is about any of these four domains.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://chriscoyier.net",
-          "description": "The personal site of Chris Coyier, who founded CSS-Tricks and co-founded CodePen, and has been one of the most widely read voices in front end web development for fifteen years. The blog runs shorter and more personal than his published work, which is why a post here occasionally reaches a wider audience than the company announcement it refers to.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-02",
-            "days_ago": 9,
-            "unit": "authority",
-            "then": 6.59,
-            "now": 6.59,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-02"
-        },
-        {
-          "name": "maurycyz.com",
-          "type": "domain",
-          "brief": "HackerNews comments up 156% to 180 with its front-page rank improving 12%. A personal site pulling that much discussion is usually one essay landing rather than a site becoming popular. Worth reading what it published today; not worth tracking the domain.",
-          "sources": [
-            "crunchbase",
-            "dataforseo",
-            "hackernews",
-            "openpagerank",
-            "pricing",
-            "tranco"
-          ],
-          "url": "https://maurycyz.com",
-          "description": "A blog about electronics and software, with occasional chemistry and photography, written by someone who takes apart received wisdom and checks it. A recent piece works through the Phoebus lightbulb cartel story and shows that the usual telling gets the engineering backwards. It also keeps a hand checked list of other blogs verified as not machine generated.",
-          "appearances": 1,
-          "track": {
-            "first_flagged": "2026-08-02",
-            "days_ago": 9,
-            "unit": "authority",
-            "then": 4.03,
-            "now": 4.03,
-            "change_pct": 0.0
-          },
-          "briefed_on": "2026-08-02"
-        },
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Third day climbing and the shape got better. Stars up 25% to 3,848 while forks rose 33% and open issues 58%. Forks and issues both outpacing stars means people are running the code and hitting real edges. HackerNews has gone quiet at 1.5%.",
+          "brief": "Stars 3,038 to 3,848, up 26.7%, with forks up 38.8% and open issues up 66.7%. Forks and issues both outpacing stars means people are running the code and hitting real edges. HackerNews has gone quiet at 1.5%.",
           "sources": [
             "github",
             "hackernews"
@@ -949,9 +801,30 @@
           "briefed_on": "2026-08-02"
         },
         {
+          "name": "yc-software/qm",
+          "type": "repo",
+          "brief": "Stars 2,410 to 5,567 in a day, up 131%, with forks 217 to 576 and open issues up 136.7%. Forks growing faster than stars at that scale means teams are taking it away to run themselves.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/yc-software/qm",
+          "description": "An agent harness built for a whole company rather than one person, running in Slack and on the web. Each employee gets an isolated workspace with its own memory, files, credentials and permissions, and can also work with the agent in shared channels and projects. The model and the underlying harness are swappable, so a deployment is not tied to one vendor.",
+          "appearances": 1,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 13,
+            "unit": "stars",
+            "then": 5567,
+            "now": 13586,
+            "change_pct": 144.0
+          },
+          "briefed_on": "2026-08-02"
+        },
+        {
           "name": "sqliteai/waste",
           "type": "repo",
-          "brief": "Stars up 74% and forks up 69% while comments more than doubled to 161 against just 9 points. Roughly eighteen comments per point means the discussion is an argument. Two days of doubling says the idea is surviving it.",
+          "brief": "Stars 344 to 745, up 116.6%, forks up 115.2%, and HackerNews comments up 114.7% to 161 against just 9 points. Roughly eighteen comments per point means the discussion is an argument, and two days of doubling says the idea is surviving it.",
           "sources": [
             "github",
             "hackernews"
@@ -966,6 +839,31 @@
             "then": 344,
             "now": 2006,
             "change_pct": 483.1
+          },
+          "briefed_on": "2026-08-02"
+        },
+        {
+          "name": "maurycyz.com",
+          "type": "domain",
+          "brief": "HackerNews comments 69 to 180, up 160.9%, on a blog that takes apart received wisdom and checks it. The argument is the whole signal here.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://maurycyz.com",
+          "description": "A blog about electronics and software, with occasional chemistry and photography, written by someone who takes apart received wisdom and checks it. A recent piece works through the Phoebus lightbulb cartel story and shows that the usual telling gets the engineering backwards. It also keeps a hand checked list of other blogs verified as not machine generated.",
+          "appearances": 1,
+          "track": {
+            "first_flagged": "2026-08-02",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 4.03,
+            "now": 4.03,
+            "change_pct": 0.0
           },
           "briefed_on": "2026-08-02"
         }
@@ -1028,27 +926,6 @@
           "briefed_on": "2026-08-01"
         },
         {
-          "name": "sqliteai/waste",
-          "type": "repo",
-          "brief": "75 comments against 9 points is an eight-to-one ratio, and that only happens when people are arguing. Stars still more than doubled and forks rose 86%, so the argument is drawing builders rather than repelling them. It is on the front page now, which means tomorrow tells you whether the stars were the idea or the fight.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/sqliteai/waste",
-          "description": "An inference engine written in C with no runtime dependencies, built to run frontier models that do not fit in memory. It holds the shared trunk of the model in RAM, streams the selected experts straight off NVMe and uses whatever memory is left as a cache. The full 2.78 trillion parameter Kimi K3, not a distilled or pruned version, runs on a 64 GB MacBook Pro at about 0.6 tokens per second.",
-          "appearances": 2,
-          "track": {
-            "first_flagged": "2026-08-01",
-            "days_ago": 9,
-            "unit": "stars",
-            "then": 344,
-            "now": 2006,
-            "change_pct": 483.1
-          },
-          "briefed_on": "2026-08-01"
-        },
-        {
           "name": "Reelo - Media Hub",
           "type": "app",
           "brief": "Reelo holds rank 7 on a paid chart with 10 ratings and 5,000 Android installs. Those numbers do not belong together: a paid chart position that high on that little evidence usually means a thin category rather than a real hit. It slipped in both the UK and US today. Treat as a category artefact until a second source says otherwise.",
@@ -1072,7 +949,7 @@
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Grew from 2,196 to 3,038 stars overnight, 36%, with forks up 42%, and it did that after leaving the HackerNews front page. Attention there flattened to 1% while the repo kept climbing. Open issues up 22% says people are hitting real edges.",
+          "brief": "Stars 2,196 to 3,038 overnight, up 38.3%, with forks up 45.7%, and it did that after leaving the HackerNews front page. Attention there flattened to 1.1% while the repo kept climbing. Open issues up 23.5%.",
           "sources": [
             "github",
             "hackernews"
@@ -1091,9 +968,30 @@
           "briefed_on": "2026-08-01"
         },
         {
+          "name": "sqliteai/waste",
+          "type": "repo",
+          "brief": "Stars 86 to 344 overnight, up 300%, forks 14 to 33, and HackerNews comments 2 to 75. An engine claiming to run a 2.78 trillion parameter model on a laptop is either the year's best trick or nonsense, and the comment volume says people are checking.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/sqliteai/waste",
+          "description": "An inference engine written in C with no runtime dependencies, built to run frontier models that do not fit in memory. It holds the shared trunk of the model in RAM, streams the selected experts straight off NVMe and uses whatever memory is left as a cache. The full 2.78 trillion parameter Kimi K3, not a distilled or pruned version, runs on a 64 GB MacBook Pro at about 0.6 tokens per second.",
+          "appearances": 2,
+          "track": {
+            "first_flagged": "2026-08-01",
+            "days_ago": 9,
+            "unit": "stars",
+            "then": 344,
+            "now": 2006,
+            "change_pct": 483.1
+          },
+          "briefed_on": "2026-08-01"
+        },
+        {
           "name": "gavamedia/deltafin",
           "type": "repo",
-          "brief": "Forks up 20% and open issues up 40% against 11.9% star growth, the third day running that usage has outpaced attention. Six open issues on 567 stars is still a clean tracker, so the friction is early rather than accumulating.",
+          "brief": "Forks 52 to 64, up 23.1%, and open issues 4 to 6, against 14.8% star growth. Third day running that usage has outpaced attention. Six open issues on 567 stars is still a clean tracker.",
           "sources": [
             "github",
             "hackernews"
@@ -1114,7 +1012,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "The first thing this system has confirmed from three unrelated places at once: npm downloads, GitHub stars, HackerNews. Downloads up 139% week over week against 9.9% star growth, and 64 open issues on 1,119 stars means those installs are hitting production.",
+          "brief": "The first thing this system confirmed from three unrelated places at once: npm downloads, GitHub stars, HackerNews. Stars 1,007 to 1,119 with forks up 15.2% and open issues 59 to 64, which means those installs are hitting production.",
           "sources": [
             "github",
             "hackernews",
@@ -1142,7 +1040,7 @@
         {
           "name": "reflex-dev/xy",
           "type": "repo",
-          "brief": "Forks up 17.9% and open issues up 25.5% against only 8.5% star growth. The same shape as deltafin: usage outpacing attention. At 1,007 stars with 59 open issues this is a project being deployed rather than starred, and the 46 HackerNews comments suggest the discussion is technical rather than promotional.",
+          "brief": "Stars 928 to 1,007, forks 28 to 33, and open issues 47 to 59, up 25.5%. Issues climbing faster than stars on a library this young means people are running it rather than admiring it.",
           "sources": [
             "github",
             "hackernews",
@@ -1164,7 +1062,7 @@
         {
           "name": "openai/codex-security",
           "type": "repo",
-          "brief": "Still climbing three days after first appearing: stars up 18.8% and forks up 18.3% in twenty four hours, now at 7,237 and 472. Still on the HackerNews front page with 197 comments. Most launches decay by day three and this one has not.",
+          "brief": "Still climbing three days after first appearing: stars 6,090 to 7,237 and forks 399 to 472 in twenty four hours, with HackerNews comments up 78.7%. Most launches decay by day three and this one has not.",
           "sources": [
             "github",
             "hackernews"
@@ -1179,27 +1077,6 @@
             "then": 6090,
             "now": 9846,
             "change_pct": 61.7
-          },
-          "briefed_on": "2026-07-31"
-        },
-        {
-          "name": "gavamedia/deltafin",
-          "type": "repo",
-          "brief": "Open issues jumped 300% while forks rose 26.8% and stars 15.2%. Issue counts growing faster than stars means people are running it and hitting problems, not admiring the README. That friction is a better adoption signal than a clean tracker, though it also means the project is about to be tested by how fast the maintainer responds.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/gavamedia/deltafin",
-          "description": "A single native binary that runs the complete 2.8 trillion parameter Kimi K3 on consumer hardware with nothing pruned and nothing skipped. Small draft models are allowed to guess ahead for speed, but K3 checks every guess, so quality is never traded away. The published benchmark history shows throughput on an M1 Max laptop rising from 0.014 to 0.29 tokens per second over three weeks.",
-          "appearances": 3,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 5,
-            "unit": "stars",
-            "then": 429,
-            "now": 663,
-            "change_pct": 54.5
           },
           "briefed_on": "2026-07-31"
         },
@@ -1227,7 +1104,7 @@
         {
           "name": "drumih/turbo-fieldfare",
           "type": "repo",
-          "brief": "Forks grew 41.5% in a day against 18.6% star growth, so people are copying it to build on roughly twice as fast as they are bookmarking it. At 2,196 stars with 326 HackerNews comments it is past the point where a single post explains the numbers.",
+          "brief": "Forks 65 to 92, up 41.5%, against stars up 18.6%, so people are copying it to build on roughly twice as fast as they are bookmarking it. At 2,196 stars with 326 HackerNews comments it is past the point where a single post explains the numbers.",
           "sources": [
             "github",
             "hackernews"
@@ -1244,6 +1121,27 @@
             "change_pct": 172.7
           },
           "briefed_on": "2026-07-31"
+        },
+        {
+          "name": "gavamedia/deltafin",
+          "type": "repo",
+          "brief": "Stars 429 to 494 and forks 41 to 52, with open issues 1 to 4. Early friction on a repo running a 2.8 trillion parameter model on consumer hardware.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/gavamedia/deltafin",
+          "description": "A single native binary that runs the complete 2.8 trillion parameter Kimi K3 on consumer hardware with nothing pruned and nothing skipped. Small draft models are allowed to guess ahead for speed, but K3 checks every guess, so quality is never traded away. The published benchmark history shows throughput on an M1 Max laptop rising from 0.014 to 0.29 tokens per second over three weeks.",
+          "appearances": 3,
+          "track": {
+            "first_flagged": "2026-07-30",
+            "days_ago": 5,
+            "unit": "stars",
+            "then": 429,
+            "now": 663,
+            "change_pct": 54.5
+          },
+          "briefed_on": "2026-07-31"
         }
       ]
     },
@@ -1254,7 +1152,7 @@
         {
           "name": "FrigadeHQ/yap",
           "type": "repo",
-          "brief": "Stars up 8% to 290, forks up 16%, 104 HackerNews points with 43 comments. The numbers are in proportion to each other rather than one of them spiking alone.",
+          "brief": "Stars 259 to 290 and forks 11 to 14, with 104 HackerNews points and 43 comments. The numbers are in proportion to each other rather than one of them spiking alone.",
           "sources": [
             "github",
             "hackernews"
@@ -1275,7 +1173,7 @@
         {
           "name": "wassgha/rescript",
           "type": "repo",
-          "brief": "Forks up 11% and open issues up 40% against 16% star growth, with 43 forks on 384 stars. Better than one fork per nine stars, which suggests a tool people modify for their own use rather than adopt as is.",
+          "brief": "Stars 314 to 384, up 22.3%, with forks 38 to 43 and open issues 4 to 6. A tool people modify for their own use rather than adopt as is.",
           "sources": [
             "github",
             "hackernews"
@@ -1296,7 +1194,7 @@
         {
           "name": "openai/codex-security",
           "type": "repo",
-          "brief": "Forks up 70% and open issues up 84% against 47% star growth, reaching 6,090 stars and 399 forks. Issues climbing faster than stars is the signature of a repository people are running rather than reading, and at this size that means real deployments.",
+          "brief": "Stars 4,093 to 6,090 in a day, up 48.8%, with forks up 72% and open issues up 85.7%. Issues climbing faster than stars is the signature of a repository people are running rather than reading, and at this size that means real deployments.",
           "sources": [
             "github",
             "hackernews"
@@ -1317,7 +1215,7 @@
         {
           "name": "gavamedia/deltafin",
           "type": "repo",
-          "brief": "Forks up 63% against 42% star growth, on the HackerNews front page with 87 comments. A fork-to-star ratio that high on a 429-star project means people are cloning to modify, not to bookmark. Open issues sitting at 1 says nobody has hit a wall yet, which is either a clean codebase or too early to tell.",
+          "brief": "Stars 264 to 429, up 62.5%, and forks 22 to 41, up 86.4%. Forks growing faster than stars on day one, on the HackerNews front page with 87 comments. Open issues sitting at 1 means nobody has hit a wall yet.",
           "sources": [
             "github",
             "hackernews"
@@ -1338,7 +1236,7 @@
         {
           "name": "twalichiewicz/HNewhere",
           "type": "repo",
-          "brief": "419 HackerNews points with comments up 22%, but only 192 stars and 7 forks. Attention running far ahead of adoption: a lot of people found it interesting and very few took it home. It has left the front page, so this is close to its peak unless the star count starts closing the gap.",
+          "brief": "Stars 150 to 192, up 28%, with HackerNews points 365 to 419 and comments 100 to 122. Open issues fell 8 to 5, so the maintainer is clearing them faster than they arrive.",
           "sources": [
             "github",
             "hackernews"
