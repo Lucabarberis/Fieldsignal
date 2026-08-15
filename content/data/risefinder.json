@@ -1121,7 +1121,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-14T06:30:35Z",
+  "generated_at": "2026-08-15T02:32:42Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1708,16 +1708,91 @@
       "items": []
     }
   ],
-  "data_through": "2026-08-14",
-  "briefed_through": "2026-08-14",
+  "data_through": "2026-08-15",
+  "briefed_through": "2026-08-15",
   "stats": {
-    "entities": 21150,
-    "snapshots": 577352,
-    "sources_live": 23,
+    "entities": 21853,
+    "snapshots": 581721,
+    "sources_live": 1,
     "first_day": "2026-07-28",
-    "days_collected": 18
+    "days_collected": 19
   },
   "items": [
+    {
+      "name": "antigma.ai",
+      "type": "domain",
+      "brief": "Forks up 30.8% against stars up 12.7% \u2014 forks growing more than twice as fast, which is the ratio that separates a tool people run from one they bookmark. HackerNews contributed 1.8% and has effectively stopped, so this is now growing without a thread pushing it.",
+      "sources": [
+        "dataforseo",
+        "hackernews",
+        "openpagerank"
+      ],
+      "url": "https://antigma.ai",
+      "description": "Antigma, a self-contained harness for running AI coding agents in a terminal, published as the repository AntigmaLabs/ante. The pitch is that the agent loop, the tool calls and the sandboxing all ship in one binary rather than being assembled from a stack of services \u2014 which is what makes it possibl",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-15"
+    },
+    {
+      "name": "starrykit.com",
+      "type": "domain",
+      "brief": "HackerNews points up 20% from a base of three, on 89 stars. Everything here is small enough that a handful of people move it, and open issues fell 25% \u2014 one bug closed. Early, and honestly labelled as such.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "hackernews",
+        "pricing",
+        "wikipedia"
+      ],
+      "url": "https://starrykit.com",
+      "description": "StarryKit, a plugin that lets coding agents such as Claude Code and Cursor produce finished slides, posters and social images from a prompt. It occupies the gap between a design tool, which expects a human to lay things out, and a template engine, which expects a fixed format \u2014 the agent decides the",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-15"
+    },
+    {
+      "name": "TheRealYT/git-knife",
+      "type": "repo",
+      "brief": "Stars up 12.3% and open issues up 33.3% on 291 stars. Issues rising faster than stars on a young tool means people are using it hard enough to break it. The repo still publishes no description on GitHub, so what it does is undocumented anywhere the pipeline can read.",
+      "sources": [
+        "github",
+        "hackernews",
+        "search_trends"
+      ],
+      "url": "https://github.com/TheRealYT/git-knife",
+      "description": "A command-line tool for git, published without a description on GitHub \u2014 judged on its registry entry and its HackerNews thread rather than any stated claim.",
+      "appearances": 2,
+      "track": null,
+      "briefed_on": "2026-08-15"
+    },
+    {
+      "name": "activeing123/mcptoon",
+      "type": "repo",
+      "brief": "Stars up 1.8% and HackerNews at 1.4% \u2014 growth has flattened since the launch. Kept on the list because the claim is falsifiable, 97% fewer tokens on tool discovery, which is rare enough to be worth watching even as the numbers settle.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/activeing123/mcptoon",
+      "description": "A command-line client for the Model Context Protocol, built to cut the number of tokens an agent spends discovering and calling tools.",
+      "appearances": 2,
+      "track": null,
+      "briefed_on": "2026-08-15"
+    },
+    {
+      "name": "overflowy/zhist",
+      "type": "repo",
+      "brief": "HackerNews comments up 33.3% and points up 21.4% on 25 stars, with the maintainer closing issues faster than they arrive. The numbers are tiny; the shape is right.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/overflowy/zhist",
+      "description": "A replacement for zsh's shell history that indexes commands so they can be searched by intent rather than recalled by prefix. Shell history has barely changed in thirty years, which is either a sign it is solved or a sign nobody has tried; this is a bet on the second.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-15"
+    },
     {
       "name": "reflex-dev/xy",
       "type": "repo",
@@ -1737,71 +1812,6 @@
         "now": 1731,
         "change_pct": 71.9
       },
-      "briefed_on": "2026-08-14"
-    },
-    {
-      "name": "AntigmaLabs/ante",
-      "type": "repo",
-      "brief": "Forks up 30.8% and stars up 12.7% in a day, with HackerNews contributing almost nothing at 1.8%. Forks growing more than twice as fast as stars is the strongest single-day ratio on this list, and 50 forks on 1,652 stars means people are taking the code away to change it. Second appearance since the thread ended, and the second time the growth has arrived without an audience.",
-      "sources": [
-        "github",
-        "hackernews",
-        "search_trends"
-      ],
-      "url": "https://github.com/AntigmaLabs/ante",
-      "description": "A self-contained harness for running AI coding agents in a terminal.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-13",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 1443,
-        "now": 1652,
-        "change_pct": 14.5
-      },
-      "briefed_on": "2026-08-14"
-    },
-    {
-      "name": "TheRealYT/git-knife",
-      "type": "repo",
-      "brief": "Stars up 12.3% and open issues up 33.3% on a repo with 291 stars \u2014 small numbers, but issues rising faster than stars on a young tool means the people who found it are using it hard enough to break it. Worth stating plainly: this repo has no description on GitHub, so what it actually does is not documented anywhere the pipeline can read. The numbers are real and the claim is unknown.",
-      "sources": [
-        "github",
-        "hackernews",
-        "search_trends"
-      ],
-      "url": "https://github.com/TheRealYT/git-knife",
-      "description": "A command-line tool for git, published without a description on GitHub \u2014 judged on its registry entry and its HackerNews thread rather than any stated claim.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-14"
-    },
-    {
-      "name": "activeing123/mcptoon",
-      "type": "repo",
-      "brief": "An MCP client claiming 97% fewer tokens on tool discovery and 40-60% on results \u2014 a specific, falsifiable number, which is rare enough to be worth noting on its own. Growth has slowed sharply: stars up 1.8% today against 138 total, HackerNews at 1.4%. Second appearance and the first day it looks like a launch settling rather than something building.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/activeing123/mcptoon",
-      "description": "A command-line client for the Model Context Protocol, built to cut the number of tokens an agent spends discovering and calling tools.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-14"
-    },
-    {
-      "name": "StarryKit/starrykit-plugin",
-      "type": "repo",
-      "brief": "89 stars, 3 forks, and HackerNews points up 20% from a base of four. Everything here is too small to read as a trend, and open issues actually fell 25% \u2014 one bug closed. On the list because two collectors saw it move; included so the bottom of a qualifying day stays visible rather than quietly filtered out.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/StarryKit/starrykit-plugin",
-      "description": "A plugin that lets coding agents like Claude Code and Cursor generate presentations and posters.",
-      "appearances": 1,
-      "track": null,
       "briefed_on": "2026-08-14"
     },
     {
@@ -1923,27 +1933,6 @@
       "appearances": 1,
       "track": null,
       "briefed_on": "2026-08-11"
-    },
-    {
-      "name": "MakazhanAlpamys/Soup",
-      "type": "repo",
-      "brief": "68 open issues against 430 stars \u2014 a 16% ratio, roughly five times what a healthy young repo shows, and forks up 5.5% against 3% star growth. Both point the same way: the people arriving are running it and hitting walls, not bookmarking it. For a tool claiming to fine-tune an 8-billion-parameter model on ordinary hardware, hitting walls is exactly what you would expect and exactly what makes the claim testable. HackerNews has gone quiet at 0.7%, so this is now growing without a thread pushing it.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine-tunes large language models from a single configuration file, streaming layers so an 8-billion-parameter model fits on ordinary hardware.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-10",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 430,
-        "now": 495,
-        "change_pct": 15.1
-      },
-      "briefed_on": "2026-08-10"
     }
   ]
 }
