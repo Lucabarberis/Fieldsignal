@@ -33,7 +33,7 @@ import { formatBriefingDay } from "@/lib/risefinder";
 export const metadata = pageMetadata({
   title: "RiseFinder",
   description:
-    "A daily briefing on things that are rising before they are obvious — repos, apps, packages and domains, each with the evidence and a short explanation of what is happening.",
+    "A daily briefing on things that are rising before they are obvious. Repos, apps, packages and domains, each with the evidence and a short explanation of what is happening.",
   path: "/risefinder",
   noindex: true,
 });
@@ -68,9 +68,9 @@ export default async function RiseFinderPage({
                 silently; one read from the data cannot. */}
             A daily scan of {stats.sources_live} public data sources for things
             that are <b>rising before they are obvious</b>. Every entry below was seen
-            moving by at least two unrelated collectors on the same day — any
-            single signal can be bought, so agreement between independent
-            sources is the thing worth reading.
+            moving by at least two unrelated collectors on the same day. Any single
+            signal can be bought, so agreement between independent sources is
+            the thing worth reading.
           </>
         }
         meta={[
@@ -92,7 +92,7 @@ export default async function RiseFinderPage({
       {params.error && (
         <div className="px-4 sm:px-9 py-4 bg-paper-2 border-y border-rule-2 font-mono text-mono uppercase tracking-[0.08em] text-red">
           {params.error === "email"
-            ? "That address did not look valid — try again."
+            ? "That address did not look valid. Try again."
             : "Something went wrong storing it. Try again shortly."}
         </div>
       )}
@@ -126,8 +126,8 @@ export default async function RiseFinderPage({
           />
           <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
             Flagged earlier in the week and still climbing. Each entry carries
-            the day it was first seen moving — these are not today&rsquo;s
-            findings, and the briefing above is.
+            the day it was first seen moving. These are not today&rsquo;s findings,
+            and the briefing above is.
           </div>
           <RiseFinderList items={stillMoving as Item[]} stampDate />
         </>
@@ -172,30 +172,34 @@ export default async function RiseFinderPage({
         <div className="text-body text-ink-2 space-y-4">
           <p>
             Every number here is a <b>rate of change</b>, never a total. Size is
-            not news: the largest repository on GitHub is not rising, it has
-            arrived. What the system looks for is movement, and specifically
-            movement that more than one unrelated source noticed at the same
-            time.
+            not news. The largest repository on GitHub is not rising, it arrived
+            years ago. What this looks for is movement, and specifically
+            movement that more than one unrelated source noticed on the same
+            day.
           </p>
           <p>
             That second condition is the whole method. Stars can be bought,
-            backlinks can be built, app installs can be farmed — this project
-            has already caught a 161-domain network manufacturing exactly the
-            signal one of its sources measures. Faking two unrelated signals
-            simultaneously is a different order of effort, so an entry confirmed
-            by GitHub <i>and</i> HackerNews, or by the App Store <i>and</i>{" "}
-            Google Play, is worth more than one showing a larger number in a
-            single place.
+            backlinks can be built, app installs can be farmed. This project has
+            already killed 2,601 domains for sitting inside link networks, one
+            of which ran to 2,046 sites and covered 98% of everything it tracked
+            on .it. All of them were manufacturing the exact signal one of these
+            sources measures. Faking two unrelated signals at once is far harder
+            work, so a repository seen moving by GitHub <i>and</i> HackerNews,
+            or an app seen by the App Store <i>and</i> Google Play, counts for
+            more than a bigger number in one place.
           </p>
           <p>
-            Sources that share data underneath do not count as two witnesses.
-            Where one feed is built partly from another, they are treated as a
-            single voice — otherwise a list fills up with one measurement
-            agreeing with itself.
+            Whether two sources are genuinely independent is measured rather
+            than assumed. Majestic ranks domains by backlinks and Tranco ranks
+            them by traffic, and the two were treated as one voice for weeks.
+            Comparing their daily movement across 83,000 domains showed no
+            relationship at all, so they now count as two. Any pair that turns
+            out to share data underneath gets folded back into one.
           </p>
           <p>
-            Entries are written to be read, not scanned. Where something looks
-            impressive but is not, the entry says so.
+            Entries are written to be read rather than scanned. When the
+            evidence is thin, or the story behind it does not hold up, the entry
+            is left out rather than published with a caveat.
           </p>
         </div>
       </div>

@@ -179,7 +179,7 @@ export function RiseFinderWindows({
             <p className="text-body text-ink-2">
               Only Majestic and Tranco publish a ranked list of everything.
               GitHub returns repositories matching a search, HackerNews returns
-              a front page — there is no <i>every repository</i> file to
+              a front page. There is no <i>every repository</i> file to
               download. So a window over these covers{" "}
               <b>what has been watched</b>, not what exists. A weaker claim, and
               worth stating rather than blurring.
@@ -224,7 +224,7 @@ export function RiseFinderWindows({
             <div className="px-4 sm:px-9 py-4 border-y border-rule font-mono text-micro text-ink-3 tracking-[0.04em] leading-relaxed">
               {trackedWaiting.length} more source windows are still filling up
               {soonest !== null && soonest > 0 && (
-                <> — the first opens in <b className="text-ink">{soonest} days</b></>
+                <>, and the first opens in <b className="text-ink">{soonest} days</b></>
               )}
               . Each needs its own full window of daily readings before it can
               say anything.
@@ -234,10 +234,10 @@ export function RiseFinderWindows({
       )}
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
-        Domains re-entering the list from beyond rank 800,000 are excluded — a
-        list that ends at a million drops and re-admits the same borderline
-        domains constantly, and re-entry reads as an enormous climb without
-        anything having happened.
+        Domains re-entering the list from beyond rank 800,000 are excluded. A list
+        that ends at a million drops and re-admits the same borderline domains
+        constantly, and re-entry reads as an enormous climb without anything
+        having happened.
       </div>
     </>
   );

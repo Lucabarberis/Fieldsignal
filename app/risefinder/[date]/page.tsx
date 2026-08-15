@@ -35,7 +35,7 @@ export async function generateMetadata({
 }) {
   const { date } = await params;
   return pageMetadata({
-    title: `RiseFinder — ${formatBriefingDay(date)}`,
+    title: `RiseFinder · ${formatBriefingDay(date)}`,
     description: `The RiseFinder breakout briefing for ${formatBriefingDay(date)}.`,
     path: `/risefinder/${date}`,
     noindex: true,
