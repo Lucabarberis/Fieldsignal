@@ -1,6 +1,41 @@
 {
   "days": [
     {
+      "date": "2026-08-15",
+      "count": 2,
+      "items": [
+        {
+          "name": "nanonets.ai",
+          "type": "domain",
+          "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://nanonets.ai",
+          "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-15"
+        },
+        {
+          "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+          "type": "repo",
+          "brief": "491 new stars in a day, up 43.4%, and forks up 109 to 131, a fork ratio of 8.1%. Its first two issues were filed the same day, alongside 173 HackerNews comments.",
+          "sources": [
+            "github",
+            "hackernews",
+            "lobsters"
+          ],
+          "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+          "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-15"
+        }
+      ]
+    },
+    {
       "date": "2026-08-14",
       "count": 3,
       "items": [
@@ -18,11 +53,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-08-14"
         },
@@ -38,7 +73,14 @@
           "url": "https://github.com/TheRealYT/git-knife",
           "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-14",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 291,
+            "now": 313,
+            "change_pct": 7.6
+          },
           "briefed_on": "2026-08-14"
         },
         {
@@ -78,11 +120,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-13",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 1443,
-            "now": 1652,
-            "change_pct": 14.5
+            "now": 1794,
+            "change_pct": 24.3
           },
           "briefed_on": "2026-08-13"
         },
@@ -100,11 +142,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-08-13"
         }
@@ -128,11 +170,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-08-12"
         },
@@ -149,11 +191,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 1432,
-            "now": 1802,
-            "change_pct": 25.8
+            "now": 1875,
+            "change_pct": 30.9
           },
           "briefed_on": "2026-08-12"
         }
@@ -246,11 +288,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 13242,
-            "now": 14564,
-            "change_pct": 10.0
+            "now": 14855,
+            "change_pct": 12.2
           },
           "briefed_on": "2026-08-10"
         }
@@ -350,11 +392,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-08-08"
         },
@@ -371,11 +413,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 217,
-            "now": 277,
-            "change_pct": 27.6
+            "now": 279,
+            "change_pct": 28.6
           },
           "briefed_on": "2026-08-08"
         }
@@ -398,11 +440,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 217,
-            "now": 277,
-            "change_pct": 27.6
+            "now": 279,
+            "change_pct": 28.6
           },
           "briefed_on": "2026-08-07"
         },
@@ -542,11 +584,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 217,
-            "now": 277,
-            "change_pct": 27.6
+            "now": 279,
+            "change_pct": 28.6
           },
           "briefed_on": "2026-08-05"
         },
@@ -563,11 +605,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
+            "now": 5988,
+            "change_pct": 172.7
           },
           "briefed_on": "2026-08-05"
         },
@@ -585,11 +627,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 13242,
-            "now": 14564,
-            "change_pct": 10.0
+            "now": 14855,
+            "change_pct": 12.2
           },
           "briefed_on": "2026-08-05"
         },
@@ -606,11 +648,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 6,
+            "days_ago": 10,
             "unit": "stars",
             "then": 67.0,
-            "now": 82.0,
-            "change_pct": 22.4
+            "now": 84.0,
+            "change_pct": 25.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -627,11 +669,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 341,
-            "now": 414,
-            "change_pct": 21.4
+            "now": 416,
+            "change_pct": 22.0
           },
           "briefed_on": "2026-08-05"
         }
@@ -700,11 +742,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
+            "now": 5988,
+            "change_pct": 172.7
           },
           "briefed_on": "2026-08-04"
         }
@@ -749,11 +791,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-08-03"
         }
@@ -776,11 +818,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 12,
+            "days_ago": 13,
             "unit": "stars",
             "then": 5567,
-            "now": 13478,
-            "change_pct": 142.1
+            "now": 13586,
+            "change_pct": 144.0
           },
           "briefed_on": "2026-08-02"
         },
@@ -898,11 +940,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
+            "now": 5988,
+            "change_pct": 172.7
           },
           "briefed_on": "2026-08-02"
         },
@@ -1040,11 +1082,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
+            "now": 5988,
+            "change_pct": 172.7
           },
           "briefed_on": "2026-08-01"
         },
@@ -1083,11 +1125,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-08-01"
         }
@@ -1111,11 +1153,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 1007,
-            "now": 1731,
-            "change_pct": 71.9
+            "now": 1737,
+            "change_pct": 72.5
           },
           "briefed_on": "2026-07-31"
         },
@@ -1132,11 +1174,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 6090,
-            "now": 9785,
-            "change_pct": 60.7
+            "now": 9846,
+            "change_pct": 61.7
           },
           "briefed_on": "2026-07-31"
         },
@@ -1195,11 +1237,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 2196,
-            "now": 5934,
-            "change_pct": 170.2
+            "now": 5988,
+            "change_pct": 172.7
           },
           "briefed_on": "2026-07-31"
         }
@@ -1243,11 +1285,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 384,
-            "now": 785,
-            "change_pct": 104.4
+            "now": 789,
+            "change_pct": 105.5
           },
           "briefed_on": "2026-07-30"
         },
@@ -1264,11 +1306,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 6090,
-            "now": 9785,
-            "change_pct": 60.7
+            "now": 9846,
+            "change_pct": 61.7
           },
           "briefed_on": "2026-07-30"
         },
