@@ -46,7 +46,7 @@ export default async function RiseFinderPage({
 }) {
   const params = await searchParams;
   const { items, stats, data_through, briefed_through } = data;
-  const stillMoving = (data as { still_moving?: unknown[] }).still_moving ?? [];
+  const combined = (data as { combined?: unknown[] }).combined ?? items;
   const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
 
   // Collection is automatic and daily; writing a brief is not. On any day the
@@ -77,11 +77,19 @@ export default async function RiseFinderPage({
         meta={[
           { label: "Data through", value: formatBriefingDay(data_through) },
           { label: "Sources live", value: String(stats.sources_live) },
-          { label: "Days collected", value: String(stats.days_collected) },
+          // WHAT THE FILTER ACTUALLY COSTS, in the header where a visitor
+          // decides whether to keep reading. Eleven entries reads as thin
+          // unless you know it is eleven out of 3,669 measured and scored the
+          // same day. "Measurements 591,650" was impressive and abstract; this
+          // is the same claim made checkable.
           {
-            label: "Measurements",
-            value: stats.snapshots.toLocaleString("en-GB"),
+            label: "Scored yesterday",
+            value: (
+              (stats as { scored_on_briefing_day?: number })
+                .scored_on_briefing_day ?? 0
+            ).toLocaleString("en-GB"),
           },
+          { label: "Published", value: String(combined.length) },
         ]}
       />
 
@@ -105,36 +113,26 @@ export default async function RiseFinderPage({
           "Today's briefing" above 14 August's entries and reasonably asked what
           was wrong. The date is never a cost to show and repeatedly a cost to
           omit. */}
+      {/* ONE LIST, NOT TWO. The briefing and the days behind it were separate
+          sections, which put two identical looking type filters on one page
+          doing different things, and made a reader work out that the second was
+          not a second product. The per card date stamp already prevents an
+          older entry reading as today's, which is the only thing the split was
+          protecting against. */}
       <SectionBand
         num="01"
-        label="Latest briefing"
-        meta={`${items.length} entries · ${formatBriefingDay(briefedDay)}`}
+        label="The briefing"
+        meta={`${combined.length} entries · latest ${formatBriefingDay(briefedDay)}`}
       />
 
-      <RiseFinderList items={items as Item[]} />
+      <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
+        Each entry carries the day we first saw it move, and whether it is{" "}
+        <b>still moving</b> on the most recent day of collection. Nothing here is
+        a prediction: every figure is a measured change, and every entry was seen
+        by at least two unrelated sources.
+      </div>
 
-      {/* The days behind the latest briefing, shown AS earlier days. The
-          briefing above is one day and one day only; when that day is thin,
-          this carries the rest of the week without the front page pretending
-          any of it happened this morning. Every card is stamped with its own
-          date for the same reason. */}
-      {stillMoving.length > 0 && (
-        <>
-          <SectionBand
-            num="02"
-            label="Earlier this week"
-            meta={`${stillMoving.length} from the previous days`}
-          />
-          <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
-            Flagged in the last seven days and not since. Each entry carries the
-            day it was flagged and what it has done on the most recent day of
-            collection, so <b>Still moving</b> and <b>Flat since</b>{" "}
-            are measured rather than assumed. These are not today&rsquo;s
-            findings, and the briefing above is.
-          </div>
-          <RiseFinderList items={stillMoving as Item[]} stampDate />
-        </>
-      )}
+      <RiseFinderList items={combined as Item[]} stampDate />
 
       <RiseFinderWindows
         windows={(data.windows ?? []) as WindowBlock[]}
@@ -146,7 +144,7 @@ export default async function RiseFinderPage({
       {past.length > 0 && (
         <>
           <SectionBand
-            num="05"
+            num="04"
             label="Previous briefings"
             meta={`${past.length} archived`}
           />
@@ -169,7 +167,7 @@ export default async function RiseFinderPage({
         </>
       )}
 
-      <RiseFinderMethod num="06" />
+      <RiseFinderMethod num="05" />
 
       <div className="px-4 sm:px-9 pb-12 font-mono text-micro uppercase tracking-[0.08em] text-ink-3">
         Data through {formatBriefingDay(data_through)} ·{" "}

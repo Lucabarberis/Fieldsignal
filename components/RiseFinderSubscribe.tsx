@@ -18,7 +18,7 @@ import { SectionBand } from "@/components/SectionBand";
  * consent obligations attached, and it is not something a signup form should
  * quietly start doing.
  */
-export function RiseFinderSubscribe({ num = "04" }: { num?: string }) {
+export function RiseFinderSubscribe({ num = "03" }: { num?: string }) {
   return (
     <>
       <SectionBand num={num} label="Get it by email" meta="Every morning" />

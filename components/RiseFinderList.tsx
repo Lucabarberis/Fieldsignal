@@ -76,6 +76,17 @@ const SOURCE_LABEL: Record<string, string> = {
   pricing: "Pricing page",
   techstack: "Tech stack",
   hiring: "Hiring",
+  // EVERY SOURCE NEEDS A LABEL, or its internal name reaches the reader. The
+  // page was showing "search_trends", "dataforseo" and "lobsters" to visitors,
+  // which name a module in this codebase rather than anything a reader knows.
+  lobsters: "Lobsters",
+  homebrew: "Homebrew",
+  crunchbase: "Crunchbase",
+  wikipedia: "Wikipedia",
+  youtube: "YouTube",
+  edgar: "SEC filings",
+  search_trends: "Google Trends",
+  dataforseo: "Search volume",
 };
 
 /** Coarse groups, because ten type names is not a filter, it is a menu. */
@@ -121,6 +132,16 @@ export function RiseFinderList({
   stampDate?: boolean;
 }) {
   const [group, setGroup] = useState("all");
+
+  // THE NEWEST DAY IN THE LIST IS "NEW". Merging the two sections cost the
+  // distinction between a first sighting and something found on Monday that has
+  // not stopped, because every card fell through to the still-moving badge.
+  // Those mean opposite things to a reader: one is a discovery, the other is a
+  // trend that survived its own news cycle.
+  const newestDay = useMemo(
+    () => items.reduce((a, i) => (i.briefed_on && i.briefed_on > a ? i.briefed_on : a), ""),
+    [items],
+  );
 
   const shown = useMemo(() => {
     const g = GROUPS.find((x) => x.key === group);
@@ -184,7 +205,11 @@ export function RiseFinderList({
                     section used to assert "still climbing" for every entry
                     while seven of nine had flatlined, so the claim now comes
                     from the data one entry at a time. */}
-                {stampDate && item.since ? (
+                {stampDate && item.briefed_on === newestDay ? (
+                  <span className="font-mono text-micro uppercase tracking-[0.12em] px-2 py-0.5 bg-red text-paper">
+                    New today
+                  </span>
+                ) : stampDate && item.since ? (
                   <span
                     className={[
                       "font-mono text-micro uppercase tracking-[0.12em] px-2 py-0.5",
