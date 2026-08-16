@@ -5,119 +5,119 @@
       "label": "GitHub \u00b7 stars",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
+          "name": "ShawnPana/phone-harness",
+          "entity_type": "repo",
+          "description": null,
+          "was": 319,
+          "now": 1843,
+          "unit": "stars",
+          "gain_pct": 477.7,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
+        },
+        {
+          "name": "oil-oil/oil-motion",
+          "entity_type": "repo",
+          "description": null,
+          "was": 327,
+          "now": 1816,
+          "unit": "stars",
+          "gain_pct": 455.4,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
+        },
+        {
           "name": "eternityspring/shuohao-skills",
           "entity_type": "repo",
           "description": null,
-          "was": 200,
-          "now": 1492,
+          "was": 328,
+          "now": 1567,
           "unit": "stars",
-          "gain_pct": 646.0,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "MiniMax-AI/MiniMax-H3",
-          "entity_type": "repo",
-          "description": null,
-          "was": 1153,
-          "now": 6022,
-          "unit": "stars",
-          "gain_pct": 422.3,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 377.7,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "spinabot/brigade",
           "entity_type": "repo",
           "description": null,
-          "was": 570,
-          "now": 2693,
+          "was": 572,
+          "now": 2728,
           "unit": "stars",
-          "gain_pct": 372.5,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 376.9,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "onetoken-oss/K3Flight",
+          "name": "NikoDemon80/ComfyUI-H3-Motion-Context",
           "entity_type": "repo",
           "description": null,
-          "was": 273,
-          "now": 1015,
+          "was": 133,
+          "now": 491,
           "unit": "stars",
-          "gain_pct": 271.8,
-          "from_day": "2026-08-05",
+          "gain_pct": 269.2,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-13"
+        },
+        {
+          "name": "Appllama/top-welcome-screens",
+          "entity_type": "repo",
+          "description": null,
+          "was": 134,
+          "now": 471,
+          "unit": "stars",
+          "gain_pct": 251.5,
+          "from_day": "2026-08-09",
           "to_day": "2026-08-14"
         },
         {
-          "name": "Zeejay0/gathered-scenes-zine-skill",
+          "name": "MengTo/kage",
           "entity_type": "repo",
           "description": null,
-          "was": 1017,
-          "now": 3591,
+          "was": 302,
+          "now": 1020,
           "unit": "stars",
-          "gain_pct": 253.1,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 237.7,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "openTrinity/mycontext",
+          "name": "MiniMax-AI/MiniMax-H3",
           "entity_type": "repo",
           "description": null,
-          "was": 275,
-          "now": 926,
+          "was": 1988,
+          "now": 6265,
           "unit": "stars",
-          "gain_pct": 236.7,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 215.1,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
+        },
+        {
+          "name": "Anionex/agent-vision-toolkit",
+          "entity_type": "repo",
+          "description": null,
+          "was": 334,
+          "now": 941,
+          "unit": "stars",
+          "gain_pct": 181.7,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-16"
         },
         {
           "name": "jd-opensource/JoyAI-Video-Edit",
           "entity_type": "repo",
           "description": null,
-          "was": 436,
-          "now": 1255,
+          "was": 530,
+          "now": 1459,
           "unit": "stars",
-          "gain_pct": 187.8,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "ZzzLc0405/photo-abstract-editorial",
-          "entity_type": "repo",
-          "description": null,
-          "was": 1523,
-          "now": 3777,
-          "unit": "stars",
-          "gain_pct": 148.0,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "google-gemma/gemma-translator",
-          "entity_type": "repo",
-          "description": null,
-          "was": 443,
-          "now": 1084,
-          "unit": "stars",
-          "gain_pct": 144.7,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "duolahypercho/codex-router",
-          "entity_type": "repo",
-          "description": null,
-          "was": 937,
-          "now": 2263,
-          "unit": "stars",
-          "gain_pct": 141.5,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 175.3,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         }
       ]
     },
@@ -126,7 +126,7 @@
       "label": "GitHub \u00b7 stars",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -398,7 +398,7 @@
       "label": "HuggingFace \u00b7 downloads",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
@@ -407,110 +407,110 @@
           "entity_type": "dataset",
           "description": null,
           "was": 3281,
-          "now": 156726,
+          "now": 160754,
           "unit": "downloads",
-          "gain_pct": 4676.8,
+          "gain_pct": 4799.5,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "to_day": "2026-08-16"
         },
         {
           "name": "MatrAIx2026/MatrAIx_Persona_1M",
           "entity_type": "dataset",
           "description": null,
-          "was": 354,
-          "now": 11740,
+          "was": 1398,
+          "now": 12232,
           "unit": "downloads",
-          "gain_pct": 3216.4,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 775.0,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Akahsizrr/fuse-1-Lite",
           "entity_type": "model",
           "description": null,
-          "was": 201,
-          "now": 2273,
+          "was": 309,
+          "now": 2321,
           "unit": "downloads",
-          "gain_pct": 1030.8,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "LiquidAI/LFM2.5-2.6B-GGUF",
-          "entity_type": "model",
-          "description": null,
-          "was": 31489,
-          "now": 285661,
-          "unit": "downloads",
-          "gain_pct": 807.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 651.1,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "deepgrove/maple-preview",
           "entity_type": "model",
           "description": null,
-          "was": 686,
-          "now": 6098,
+          "was": 896,
+          "now": 6359,
           "unit": "downloads",
-          "gain_pct": 788.9,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 609.7,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "badtheorylabs/BTL-4",
+          "name": "LiquidAI/LFM2.5-2.6B-GGUF",
           "entity_type": "model",
           "description": null,
-          "was": 282,
-          "now": 1981,
+          "was": 49562,
+          "now": 312645,
           "unit": "downloads",
-          "gain_pct": 602.5,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-12"
+          "gain_pct": 530.8,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "mistralai/Shieldstral-1.0-3B",
-          "entity_type": "model",
+          "name": "biglam/british-library-book-images",
+          "entity_type": "dataset",
           "description": null,
-          "was": 2480,
-          "now": 13877,
+          "was": 353,
+          "now": 2192,
           "unit": "downloads",
-          "gain_pct": 459.6,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 521.0,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "oddadmix/dialectal-arabic-lahgtna-v2",
           "entity_type": "dataset",
           "description": null,
-          "was": 711,
-          "now": 3677,
+          "was": 888,
+          "now": 4147,
           "unit": "downloads",
-          "gain_pct": 417.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 367.0,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "nvidia/NVIDIA-Nemotron-Parse-2.0",
           "entity_type": "model",
           "description": null,
-          "was": 2156,
+          "was": 2648,
           "now": 10496,
           "unit": "downloads",
-          "gain_pct": 386.8,
-          "from_day": "2026-08-08",
+          "gain_pct": 296.4,
+          "from_day": "2026-08-09",
           "to_day": "2026-08-15"
         },
         {
           "name": "SyzygyResearch/Mach-1-Additive-35B",
           "entity_type": "model",
           "description": null,
-          "was": 799,
+          "was": 910,
           "now": 3559,
           "unit": "downloads",
-          "gain_pct": 345.4,
-          "from_day": "2026-08-08",
+          "gain_pct": 291.1,
+          "from_day": "2026-08-09",
           "to_day": "2026-08-14"
+        },
+        {
+          "name": "r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
+          "entity_type": "dataset",
+          "description": null,
+          "was": 994,
+          "now": 3819,
+          "unit": "downloads",
+          "gain_pct": 284.2,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         }
       ]
     },
@@ -519,7 +519,7 @@
       "label": "HuggingFace \u00b7 downloads",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -529,7 +529,7 @@
       "label": "App Store \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
@@ -537,111 +537,111 @@
           "name": "StoryReel: Exclusive Drama",
           "entity_type": "app",
           "description": null,
-          "was": 20601,
-          "now": 23330,
+          "was": 20851,
+          "now": 23760,
           "unit": "ratings",
-          "gain_pct": 13.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 14.0,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Vinted: Pre-loved marketplace",
           "entity_type": "app",
           "description": null,
-          "was": 157018,
-          "now": 172833,
+          "was": 159109,
+          "now": 175491,
           "unit": "ratings",
-          "gain_pct": 10.1,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 10.3,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "VibeShort: AI Short Dramas",
           "entity_type": "app",
           "description": null,
-          "was": 24489,
-          "now": 26702,
+          "was": 24718,
+          "now": 27050,
           "unit": "ratings",
-          "gain_pct": 9.0,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 9.4,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Netflix Game Controller",
           "entity_type": "app",
           "description": null,
-          "was": 161575,
-          "now": 171270,
+          "was": 162461,
+          "now": 172907,
           "unit": "ratings",
-          "gain_pct": 6.0,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 6.4,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Meta AI",
           "entity_type": "app",
           "description": null,
-          "was": 194420,
-          "now": 204536,
+          "was": 195664,
+          "now": 206008,
           "unit": "ratings",
-          "gain_pct": 5.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 5.3,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Lidl Plus",
           "entity_type": "app",
           "description": null,
-          "was": 1880,
-          "now": 1966,
+          "was": 1891,
+          "now": 1979,
           "unit": "ratings",
-          "gain_pct": 4.6,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 4.7,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "NetShort - \u4eba\u6c17\u77ed\u7de8\u30c9\u30e9\u30de",
+          "name": "NetShort - Popular Dramas & TV",
           "entity_type": "app",
           "description": null,
-          "was": 128294,
-          "now": 132093,
+          "was": 129077,
+          "now": 132665,
           "unit": "ratings",
-          "gain_pct": 3.0,
-          "from_day": "2026-08-07",
-          "to_day": "2026-08-15"
+          "gain_pct": 2.8,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Moment Pro Camera II",
           "entity_type": "app",
           "description": null,
           "was": 387,
-          "now": 394,
+          "now": 398,
           "unit": "ratings",
-          "gain_pct": 1.8,
+          "gain_pct": 2.8,
           "from_day": "2026-08-06",
-          "to_day": "2026-08-15"
+          "to_day": "2026-08-16"
+        },
+        {
+          "name": "Ye said",
+          "entity_type": "app",
+          "description": null,
+          "was": 157,
+          "now": 160,
+          "unit": "ratings",
+          "gain_pct": 1.9,
+          "from_day": "2026-08-06",
+          "to_day": "2026-08-16"
         },
         {
           "name": "AutoSnore: Snoring Recorder",
           "entity_type": "app",
           "description": null,
-          "was": 1204,
-          "now": 1222,
+          "was": 1207,
+          "now": 1223,
           "unit": "ratings",
-          "gain_pct": 1.5,
-          "from_day": "2026-08-07",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "Teach Your Monster to Read",
-          "entity_type": "app",
-          "description": null,
-          "was": 28011,
-          "now": 28344,
-          "unit": "ratings",
-          "gain_pct": 1.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 1.3,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         }
       ]
     },
@@ -650,7 +650,7 @@
       "label": "App Store \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -660,7 +660,7 @@
       "label": "Google Play \u00b7 reviews",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
@@ -668,56 +668,45 @@
           "name": "Wipr 2",
           "entity_type": "app",
           "description": null,
-          "was": 58800,
-          "now": 103000,
+          "was": 587000,
+          "now": 4790000,
           "unit": "reviews",
-          "gain_pct": 75.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-14"
+          "gain_pct": 716.0,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Antizuck Smart Glasses Scanner",
           "entity_type": "app",
           "description": null,
-          "was": 419,
-          "now": 431,
+          "was": 423,
+          "now": 434,
           "unit": "reviews",
-          "gain_pct": 2.9,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 2.6,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "NightCap Camera",
           "entity_type": "app",
           "description": null,
-          "was": 407,
-          "now": 419,
+          "was": 408,
+          "now": 418,
           "unit": "reviews",
-          "gain_pct": 2.9,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 2.5,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "NetShort - \u4eba\u6c17\u77ed\u7de8\u30c9\u30e9\u30de",
+          "name": "NetShort - Popular Dramas & TV",
           "entity_type": "app",
           "description": null,
           "was": 1350000,
-          "now": 1370000,
+          "now": 1380000,
           "unit": "reviews",
-          "gain_pct": 1.5,
+          "gain_pct": 2.2,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-13"
-        },
-        {
-          "name": "LumaFusion",
-          "entity_type": "app",
-          "description": null,
-          "was": 3220,
-          "now": 3240,
-          "unit": "reviews",
-          "gain_pct": 0.6,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-13"
+          "to_day": "2026-08-16"
         }
       ]
     },
@@ -726,7 +715,7 @@
       "label": "Google Play \u00b7 reviews",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -736,21 +725,10 @@
       "label": "WordPress \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
-        {
-          "name": "Better Messages &#8211; Chat Rooms, Group Chat, Private Messages &amp; AI Chat Bots",
-          "entity_type": "plugin",
-          "description": null,
-          "was": 138,
-          "now": 139,
-          "unit": "ratings",
-          "gain_pct": 0.7,
-          "from_day": "2026-08-05",
-          "to_day": "2026-08-15"
-        },
         {
           "name": "Product Feed Manager for WooCommerce \u2013 CTX Feed \u2013 Support 220+ Shopping &amp; Social Channels",
           "entity_type": "plugin",
@@ -769,7 +747,7 @@
       "label": "WordPress \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -779,7 +757,7 @@
       "label": "Chrome \u00b7 ratings",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 0,
+      "have_days": 1,
       "need_days": 7,
       "first_day": "2026-08-15",
       "items": []
@@ -789,7 +767,7 @@
       "label": "Chrome \u00b7 ratings",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 0,
+      "have_days": 1,
       "need_days": 30,
       "first_day": "2026-08-15",
       "items": []
@@ -799,7 +777,7 @@
       "label": "Shopify \u00b7 reviews",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": []
@@ -809,7 +787,7 @@
       "label": "Shopify \u00b7 reviews",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -819,119 +797,119 @@
       "label": "ProductHunt \u00b7 votes",
       "window": "weekly",
       "window_days": 7,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 7,
       "first_day": "2026-07-29",
       "items": [
         {
-          "name": "Soloop",
+          "name": "The GTM Co-Founder",
           "entity_type": "launch",
           "description": null,
-          "was": 425,
-          "now": 484,
+          "was": 360,
+          "now": 410,
           "unit": "votes",
           "gain_pct": 13.9,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "Coldtea.ai",
-          "entity_type": "launch",
-          "description": null,
-          "was": 458,
-          "now": 518,
-          "unit": "votes",
-          "gain_pct": 13.1,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "Rindler",
-          "entity_type": "launch",
-          "description": null,
-          "was": 229,
-          "now": 257,
-          "unit": "votes",
-          "gain_pct": 12.2,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "AdAnt AI",
           "entity_type": "launch",
           "description": null,
-          "was": 544,
-          "now": 608,
+          "was": 546,
+          "now": 609,
           "unit": "votes",
-          "gain_pct": 11.8,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 11.5,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "BrowserOS neo",
+          "name": "AstraPixels",
           "entity_type": "launch",
           "description": null,
-          "was": 190,
-          "now": 209,
+          "was": 262,
+          "now": 283,
           "unit": "votes",
-          "gain_pct": 10.0,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
-        },
-        {
-          "name": "Nitro 4.0",
-          "entity_type": "launch",
-          "description": null,
-          "was": 242,
-          "now": 256,
-          "unit": "votes",
-          "gain_pct": 5.8,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 8.0,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Hey Noah",
           "entity_type": "launch",
           "description": null,
-          "was": 570,
-          "now": 602,
+          "was": 571,
+          "now": 608,
           "unit": "votes",
-          "gain_pct": 5.6,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 6.5,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
+        },
+        {
+          "name": "Coldtea.ai",
+          "entity_type": "launch",
+          "description": null,
+          "was": 497,
+          "now": 521,
+          "unit": "votes",
+          "gain_pct": 4.8,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
+        },
+        {
+          "name": "Wispr Flow Notetaker",
+          "entity_type": "launch",
+          "description": null,
+          "was": 575,
+          "now": 586,
+          "unit": "votes",
+          "gain_pct": 1.9,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
           "name": "Progress AI Observability",
           "entity_type": "launch",
           "description": null,
-          "was": 160,
-          "now": 166,
+          "was": 164,
+          "now": 167,
           "unit": "votes",
-          "gain_pct": 3.8,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 1.8,
+          "from_day": "2026-08-09",
+          "to_day": "2026-08-16"
         },
         {
-          "name": "Crew",
+          "name": "Superunit",
           "entity_type": "launch",
           "description": null,
-          "was": 137,
-          "now": 141,
+          "was": 138,
+          "now": 140,
           "unit": "votes",
-          "gain_pct": 2.9,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 1.4,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-10"
         },
         {
-          "name": "Muse Code",
+          "name": "Ycode AI Agents",
           "entity_type": "launch",
           "description": null,
-          "was": 242,
-          "now": 248,
+          "was": 167,
+          "now": 169,
           "unit": "votes",
-          "gain_pct": 2.5,
-          "from_day": "2026-08-08",
-          "to_day": "2026-08-15"
+          "gain_pct": 1.2,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-10"
+        },
+        {
+          "name": "EasyCircuit",
+          "entity_type": "launch",
+          "description": null,
+          "was": 188,
+          "now": 190,
+          "unit": "votes",
+          "gain_pct": 1.1,
+          "from_day": "2026-08-07",
+          "to_day": "2026-08-11"
         }
       ]
     },
@@ -940,7 +918,7 @@
       "label": "ProductHunt \u00b7 votes",
       "window": "monthly",
       "window_days": 30,
-      "have_days": 17,
+      "have_days": 18,
       "need_days": 30,
       "first_day": "2026-07-29",
       "items": []
@@ -966,7 +944,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-16T14:05:37Z",
+  "generated_at": "2026-08-16T15:08:11Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1553,308 +1531,70 @@
       "items": []
     }
   ],
-  "data_through": "2026-08-15",
-  "briefed_through": "2026-08-15",
+  "data_through": "2026-08-16",
+  "briefed_through": "2026-08-16",
   "stats": {
-    "entities": 24293,
-    "snapshots": 598034,
+    "entities": 24712,
+    "snapshots": 607458,
     "sources_live": 24,
     "first_day": "2026-07-28",
-    "scored_on_briefing_day": 3669,
+    "scored_on_briefing_day": 4452,
     "days_collected": 20
   },
   "items": [
     {
-      "name": "nanonets.ai",
+      "name": "gitlawb.com",
       "type": "domain",
-      "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
+      "brief": "Stars went 1,324 to 1,459 in a day, up 10.2%, and forks rose 9.2% to 155. The forks are the part worth reading: those are people taking a copy to work on rather than bookmarking it. GitHub, Homebrew and Tranco each recorded it moving on the same day, three collectors with nothing in common. Homebrew installs went the other way over 30 days, 115 down to 106, so the packaged version is not yet where the attention is.",
       "sources": [
+        "dataforseo",
         "github",
-        "hackernews",
-        "hiring"
+        "homebrew",
+        "pricing",
+        "tranco"
       ],
-      "url": "https://nanonets.ai",
-      "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
+      "url": "https://gitlawb.com",
+      "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
       "appearances": 1,
       "track": null,
-      "briefed_on": "2026-08-15",
+      "briefed_on": "2026-08-16",
       "since": {
         "moving": true,
-        "metric": "hn_comments",
-        "change_pct": 4200.0
+        "metric": "stars",
+        "change_pct": 8.7
       }
     },
     {
-      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "name": "fellowgeek/mcp-memory",
       "type": "repo",
-      "brief": "491 new stars in a day, up 43.4%, and forks up 109 to 131, a fork ratio of 8.1%. Its first two issues were filed the same day, alongside 173 HackerNews comments.",
+      "brief": "Three days old and holding 173 stars, up 10.2% in a day, with forks up from 7 to 10. Its HackerNews thread went 62 to 67 points and carries 35 comments, so the conversation outlasted the post rather than spiking and stopping. The base is small enough that one quiet week would end it, which is the price of seeing something this early.",
       "sources": [
         "github",
-        "hackernews",
-        "lobsters"
+        "hackernews"
       ],
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
+      "url": "https://github.com/fellowgeek/mcp-memory",
+      "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
       "appearances": 1,
       "track": null,
-      "briefed_on": "2026-08-15",
+      "briefed_on": "2026-08-16",
       "since": {
         "moving": true,
-        "metric": "open_issues",
-        "change_pct": 66.7
+        "metric": "forks",
+        "change_pct": 9.7
       }
     }
   ],
   "still_moving": [
     {
-      "name": "reflex-dev/xy",
-      "type": "repo",
-      "brief": "13,544 weekly downloads, up 21.4% in a day from 11,161, while stars did not move at all. Seventh straight appearance, and the gap between installing it and bookmarking it has never once closed.",
-      "sources": [
-        "github",
-        "hackernews",
-        "packages"
-      ],
-      "url": "https://github.com/reflex-dev/xy",
-      "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
-      "appearances": 7,
-      "track": {
-        "first_flagged": "2026-07-31",
-        "days_ago": 15,
-        "unit": "stars",
-        "then": 1007,
-        "now": 1737,
-        "change_pct": 72.5
-      },
-      "briefed_on": "2026-08-14",
-      "since": {
-        "moving": true,
-        "metric": "prior_week_downloads",
-        "change_pct": 32.5
-      }
-    },
-    {
-      "name": "TheRealYT/git-knife",
-      "type": "repo",
-      "brief": "Stars 237 to 291 in a day, up 22.8%, with 165 HackerNews points and 101 comments. Forks up 14.3% on the same day: the people who found it are taking the code away, not just reading it.",
-      "sources": [
-        "github",
-        "hackernews",
-        "search_trends"
-      ],
-      "url": "https://github.com/TheRealYT/git-knife",
-      "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-14",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 291,
-        "now": 313,
-        "change_pct": 7.6
-      },
-      "briefed_on": "2026-08-14",
-      "since": {
-        "moving": true,
-        "metric": "forks",
-        "change_pct": 7.1
-      }
-    },
-    {
-      "name": "antigma.ai",
-      "type": "domain",
-      "brief": "Forks 34 to 50 in a day, up 47.1%, against stars up 14.5%. Forks growing three times faster than stars, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
-      "sources": [
-        "dataforseo",
-        "github",
-        "hackernews",
-        "openpagerank",
-        "search_trends"
-      ],
-      "url": "https://antigma.ai",
-      "description": "Antigma, a terminal harness for running AI coding agents, published as the repository AntigmaLabs/ante. The agent loop, the tool calls and the sandbox ship in a single binary rather than being assembled from separate services, so the whole run happens on one machine and can be inspected afterwards. For a tool of this kind the fork count is the number that carries information: forking means taking the code away to change it, which is a different act from starring it.",
-      "appearances": 1,
-      "track": null,
-      "briefed_on": "2026-08-14",
-      "since": {
-        "moving": true,
-        "metric": "forks",
-        "change_pct": 8.6
-      }
-    },
-    {
-      "name": "antirez/h3.c",
-      "type": "repo",
-      "brief": "Stars 533 to 1,432 in a day, up 168.7%, with forks up 184%, open issues up 550% and HackerNews comments up 481%. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/antirez/h3.c",
-      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-12",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 1432,
-        "now": 1875,
-        "change_pct": 30.9
-      },
-      "briefed_on": "2026-08-12",
-      "since": {
-        "moving": true,
-        "metric": "open_issues",
-        "change_pct": 9.7
-      }
-    },
-    {
-      "name": "palamim/starboard",
-      "type": "repo",
-      "brief": "Second appearance, and stars, forks and open issues all moved together again: 144 to 156, 6 to 7, 1 to 2. Pushed the same day rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/palamim/starboard",
-      "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-10",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 144,
-        "now": 165,
-        "change_pct": 14.6
-      },
-      "briefed_on": "2026-08-11",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
-    },
-    {
-      "name": "MakazhanAlpamys/Soup",
-      "type": "repo",
-      "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 8.5% against 4.9% star growth. The people arriving are running it and hitting walls rather than bookmarking it.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-10",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 430,
-        "now": 495,
-        "change_pct": 15.1
-      },
-      "briefed_on": "2026-08-10",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
-    },
-    {
-      "name": "t8y2/dbx",
-      "type": "repo",
-      "brief": "Third appearance. 13,242 stars with 1,344 forks is one fork per ten stars, where most repos manage one in fifty, and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch, because a package manager install puts it on a machine.",
-      "sources": [
-        "github",
-        "homebrew",
-        "packages"
-      ],
-      "url": "https://github.com/t8y2/dbx",
-      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
-      "appearances": 2,
-      "track": {
-        "first_flagged": "2026-08-05",
-        "days_ago": 10,
-        "unit": "stars",
-        "then": 13242,
-        "now": 14855,
-        "change_pct": 12.2
-      },
-      "briefed_on": "2026-08-10",
-      "since": {
-        "moving": true,
-        "metric": "brew_installs_30d",
-        "change_pct": 1.0
-      }
-    },
-    {
-      "name": "runtimewire.com",
-      "type": "domain",
-      "brief": "Pricing tiers went 2 to 4, which means it added plans, and a new plan is the monetisation trigger this system treats as a signal on its own. On the HackerNews front page the same day with 22 comments.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "hackernews",
-        "openpagerank",
-        "pricing",
-        "tranco",
-        "wikipedia"
-      ],
-      "url": "https://runtimewire.com",
-      "description": "A news site covering the AI industry as it happens: funding rounds, model launches, infrastructure changes and founder moves, filed as short scoops rather than weekly summaries. It competes on speed of publication against the general technology press, so the interesting measurement for a site like this is whether readers arrive directly or only through aggregators.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-09",
-        "days_ago": 2,
-        "unit": "authority",
-        "then": 3.49,
-        "now": 3.49,
-        "change_pct": 0.0
-      },
-      "briefed_on": "2026-08-09",
-      "since": {
-        "moving": true,
-        "metric": "tranco_rank",
-        "change_pct": 1.2
-      }
-    },
-    {
-      "name": "xoreaxeaxeax/asm-hall-of-shame",
-      "type": "repo",
-      "brief": "Stars 339 to 567 in a day, up 67.3%, with forks up 150% and open issues up 100%, and GitHub, HackerNews and Lobsters all seeing it at once. Lobsters points more than tripled, 16 to 54. Five forks on 567 stars this early says people are submitting entries, not just reading them.",
-      "sources": [
-        "github",
-        "hackernews",
-        "lobsters"
-      ],
-      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-      "description": "A leaderboard for the slowest possible single machine instruction, from the reverse engineer behind the sandsifter processor fuzzer. Instruction analysis normally chases speed; this deliberately searches for the floor. The current x86 champion takes 198 billion cycles, about 62 seconds, by making one instruction load processor state across a deliberately saturated PCIe fabric. Setup can be anything, but only one instruction is scored.",
-      "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-09",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 567,
-        "now": 777,
-        "change_pct": 37.0
-      },
-      "briefed_on": "2026-08-09",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
-    }
-  ],
-  "combined": [
-    {
       "name": "nanonets.ai",
       "type": "domain",
       "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
       "sources": [
+        "dataforseo",
         "github",
         "hackernews",
-        "hiring"
+        "hiring",
+        "wikipedia"
       ],
       "url": "https://nanonets.ai",
       "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
@@ -1863,8 +1603,8 @@
       "briefed_on": "2026-08-15",
       "since": {
         "moving": true,
-        "metric": "hn_comments",
-        "change_pct": 4200.0
+        "metric": "forks",
+        "change_pct": 10.5
       }
     },
     {
@@ -1879,12 +1619,19 @@
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
       "appearances": 1,
-      "track": null,
+      "track": {
+        "first_flagged": "2026-08-15",
+        "days_ago": 1,
+        "unit": "stars",
+        "then": 1622,
+        "now": 1702,
+        "change_pct": 4.9
+      },
       "briefed_on": "2026-08-15",
       "since": {
         "moving": true,
-        "metric": "open_issues",
-        "change_pct": 66.7
+        "metric": "stars",
+        "change_pct": 4.3
       }
     },
     {
@@ -1901,17 +1648,17 @@
       "appearances": 7,
       "track": {
         "first_flagged": "2026-07-31",
-        "days_ago": 15,
+        "days_ago": 16,
         "unit": "stars",
         "then": 1007,
-        "now": 1737,
-        "change_pct": 72.5
+        "now": 1748,
+        "change_pct": 73.6
       },
       "briefed_on": "2026-08-14",
       "since": {
         "moving": true,
         "metric": "prior_week_downloads",
-        "change_pct": 32.5
+        "change_pct": 7.1
       }
     },
     {
@@ -1928,17 +1675,17 @@
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-14",
-        "days_ago": 1,
+        "days_ago": 2,
         "unit": "stars",
         "then": 291,
-        "now": 313,
-        "change_pct": 7.6
+        "now": 338,
+        "change_pct": 16.2
       },
       "briefed_on": "2026-08-14",
       "since": {
         "moving": true,
-        "metric": "forks",
-        "change_pct": 7.1
+        "metric": "stars",
+        "change_pct": 4.7
       }
     },
     {
@@ -1959,8 +1706,8 @@
       "briefed_on": "2026-08-14",
       "since": {
         "moving": true,
-        "metric": "forks",
-        "change_pct": 8.6
+        "metric": "open_issues",
+        "change_pct": 14.3
       }
     },
     {
@@ -1976,17 +1723,17 @@
       "appearances": 1,
       "track": {
         "first_flagged": "2026-08-12",
-        "days_ago": 3,
+        "days_ago": 4,
         "unit": "stars",
         "then": 1432,
-        "now": 1875,
-        "change_pct": 30.9
+        "now": 2022,
+        "change_pct": 41.2
       },
       "briefed_on": "2026-08-12",
       "since": {
         "moving": true,
-        "metric": "open_issues",
-        "change_pct": 9.7
+        "metric": "stars",
+        "change_pct": 7.0
       }
     },
     {
@@ -2055,75 +1802,290 @@
       "appearances": 2,
       "track": {
         "first_flagged": "2026-08-05",
-        "days_ago": 10,
+        "days_ago": 11,
         "unit": "stars",
         "then": 13242,
-        "now": 14855,
-        "change_pct": 12.2
+        "now": 15076,
+        "change_pct": 13.8
       },
       "briefed_on": "2026-08-10",
       "since": {
         "moving": true,
         "metric": "brew_installs_30d",
-        "change_pct": 1.0
+        "change_pct": 2.6
       }
-    },
+    }
+  ],
+  "combined": [
     {
-      "name": "runtimewire.com",
+      "name": "gitlawb.com",
       "type": "domain",
-      "brief": "Pricing tiers went 2 to 4, which means it added plans, and a new plan is the monetisation trigger this system treats as a signal on its own. On the HackerNews front page the same day with 22 comments.",
+      "brief": "Stars went 1,324 to 1,459 in a day, up 10.2%, and forks rose 9.2% to 155. The forks are the part worth reading: those are people taking a copy to work on rather than bookmarking it. GitHub, Homebrew and Tranco each recorded it moving on the same day, three collectors with nothing in common. Homebrew installs went the other way over 30 days, 115 down to 106, so the packaged version is not yet where the attention is.",
       "sources": [
-        "crunchbase",
         "dataforseo",
-        "hackernews",
-        "openpagerank",
+        "github",
+        "homebrew",
         "pricing",
-        "tranco",
-        "wikipedia"
+        "tranco"
       ],
-      "url": "https://runtimewire.com",
-      "description": "A news site covering the AI industry as it happens: funding rounds, model launches, infrastructure changes and founder moves, filed as short scoops rather than weekly summaries. It competes on speed of publication against the general technology press, so the interesting measurement for a site like this is whether readers arrive directly or only through aggregators.",
+      "url": "https://gitlawb.com",
+      "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
       "appearances": 1,
-      "track": {
-        "first_flagged": "2026-08-09",
-        "days_ago": 2,
-        "unit": "authority",
-        "then": 3.49,
-        "now": 3.49,
-        "change_pct": 0.0
-      },
-      "briefed_on": "2026-08-09",
+      "track": null,
+      "briefed_on": "2026-08-16",
       "since": {
         "moving": true,
-        "metric": "tranco_rank",
-        "change_pct": 1.2
+        "metric": "stars",
+        "change_pct": 8.7
       }
     },
     {
-      "name": "xoreaxeaxeax/asm-hall-of-shame",
+      "name": "fellowgeek/mcp-memory",
       "type": "repo",
-      "brief": "Stars 339 to 567 in a day, up 67.3%, with forks up 150% and open issues up 100%, and GitHub, HackerNews and Lobsters all seeing it at once. Lobsters points more than tripled, 16 to 54. Five forks on 567 stars this early says people are submitting entries, not just reading them.",
+      "brief": "Three days old and holding 173 stars, up 10.2% in a day, with forks up from 7 to 10. Its HackerNews thread went 62 to 67 points and carries 35 comments, so the conversation outlasted the post rather than spiking and stopping. The base is small enough that one quiet week would end it, which is the price of seeing something this early.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/fellowgeek/mcp-memory",
+      "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-16",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 9.7
+      }
+    },
+    {
+      "name": "nanonets.ai",
+      "type": "domain",
+      "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
+      "sources": [
+        "dataforseo",
+        "github",
+        "hackernews",
+        "hiring",
+        "wikipedia"
+      ],
+      "url": "https://nanonets.ai",
+      "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-15",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 10.5
+      }
+    },
+    {
+      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "type": "repo",
+      "brief": "491 new stars in a day, up 43.4%, and forks up 109 to 131, a fork ratio of 8.1%. Its first two issues were filed the same day, alongside 173 HackerNews comments.",
       "sources": [
         "github",
         "hackernews",
         "lobsters"
       ],
-      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-      "description": "A leaderboard for the slowest possible single machine instruction, from the reverse engineer behind the sandsifter processor fuzzer. Instruction analysis normally chases speed; this deliberately searches for the floor. The current x86 champion takes 198 billion cycles, about 62 seconds, by making one instruction load processor state across a deliberately saturated PCIe fabric. Setup can be anything, but only one instruction is scored.",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
       "appearances": 1,
       "track": {
-        "first_flagged": "2026-08-09",
+        "first_flagged": "2026-08-15",
+        "days_ago": 1,
+        "unit": "stars",
+        "then": 1622,
+        "now": 1702,
+        "change_pct": 4.9
+      },
+      "briefed_on": "2026-08-15",
+      "since": {
+        "moving": true,
+        "metric": "stars",
+        "change_pct": 4.3
+      }
+    },
+    {
+      "name": "reflex-dev/xy",
+      "type": "repo",
+      "brief": "13,544 weekly downloads, up 21.4% in a day from 11,161, while stars did not move at all. Seventh straight appearance, and the gap between installing it and bookmarking it has never once closed.",
+      "sources": [
+        "github",
+        "hackernews",
+        "packages"
+      ],
+      "url": "https://github.com/reflex-dev/xy",
+      "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
+      "appearances": 7,
+      "track": {
+        "first_flagged": "2026-07-31",
+        "days_ago": 16,
+        "unit": "stars",
+        "then": 1007,
+        "now": 1748,
+        "change_pct": 73.6
+      },
+      "briefed_on": "2026-08-14",
+      "since": {
+        "moving": true,
+        "metric": "prior_week_downloads",
+        "change_pct": 7.1
+      }
+    },
+    {
+      "name": "TheRealYT/git-knife",
+      "type": "repo",
+      "brief": "Stars 237 to 291 in a day, up 22.8%, with 165 HackerNews points and 101 comments. Forks up 14.3% on the same day: the people who found it are taking the code away, not just reading it.",
+      "sources": [
+        "github",
+        "hackernews",
+        "search_trends"
+      ],
+      "url": "https://github.com/TheRealYT/git-knife",
+      "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-14",
+        "days_ago": 2,
+        "unit": "stars",
+        "then": 291,
+        "now": 338,
+        "change_pct": 16.2
+      },
+      "briefed_on": "2026-08-14",
+      "since": {
+        "moving": true,
+        "metric": "stars",
+        "change_pct": 4.7
+      }
+    },
+    {
+      "name": "antigma.ai",
+      "type": "domain",
+      "brief": "Forks 34 to 50 in a day, up 47.1%, against stars up 14.5%. Forks growing three times faster than stars, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
+      "sources": [
+        "dataforseo",
+        "github",
+        "hackernews",
+        "openpagerank",
+        "search_trends"
+      ],
+      "url": "https://antigma.ai",
+      "description": "Antigma, a terminal harness for running AI coding agents, published as the repository AntigmaLabs/ante. The agent loop, the tool calls and the sandbox ship in a single binary rather than being assembled from separate services, so the whole run happens on one machine and can be inspected afterwards. For a tool of this kind the fork count is the number that carries information: forking means taking the code away to change it, which is a different act from starring it.",
+      "appearances": 1,
+      "track": null,
+      "briefed_on": "2026-08-14",
+      "since": {
+        "moving": true,
+        "metric": "open_issues",
+        "change_pct": 14.3
+      }
+    },
+    {
+      "name": "antirez/h3.c",
+      "type": "repo",
+      "brief": "Stars 533 to 1,432 in a day, up 168.7%, with forks up 184%, open issues up 550% and HackerNews comments up 481%. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/antirez/h3.c",
+      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-12",
+        "days_ago": 4,
+        "unit": "stars",
+        "then": 1432,
+        "now": 2022,
+        "change_pct": 41.2
+      },
+      "briefed_on": "2026-08-12",
+      "since": {
+        "moving": true,
+        "metric": "stars",
+        "change_pct": 7.0
+      }
+    },
+    {
+      "name": "palamim/starboard",
+      "type": "repo",
+      "brief": "Second appearance, and stars, forks and open issues all moved together again: 144 to 156, 6 to 7, 1 to 2. Pushed the same day rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/palamim/starboard",
+      "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-10",
         "days_ago": 3,
         "unit": "stars",
-        "then": 567,
-        "now": 777,
-        "change_pct": 37.0
+        "then": 144,
+        "now": 165,
+        "change_pct": 14.6
       },
-      "briefed_on": "2026-08-09",
+      "briefed_on": "2026-08-11",
       "since": {
         "moving": false,
         "metric": null,
         "change_pct": null
+      }
+    },
+    {
+      "name": "MakazhanAlpamys/Soup",
+      "type": "repo",
+      "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 8.5% against 4.9% star growth. The people arriving are running it and hitting walls rather than bookmarking it.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
+      "appearances": 1,
+      "track": {
+        "first_flagged": "2026-08-10",
+        "days_ago": 1,
+        "unit": "stars",
+        "then": 430,
+        "now": 495,
+        "change_pct": 15.1
+      },
+      "briefed_on": "2026-08-10",
+      "since": {
+        "moving": false,
+        "metric": null,
+        "change_pct": null
+      }
+    },
+    {
+      "name": "t8y2/dbx",
+      "type": "repo",
+      "brief": "Third appearance. 13,242 stars with 1,344 forks is one fork per ten stars, where most repos manage one in fifty, and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch, because a package manager install puts it on a machine.",
+      "sources": [
+        "github",
+        "homebrew",
+        "packages"
+      ],
+      "url": "https://github.com/t8y2/dbx",
+      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
+      "appearances": 2,
+      "track": {
+        "first_flagged": "2026-08-05",
+        "days_ago": 11,
+        "unit": "stars",
+        "then": 13242,
+        "now": 15076,
+        "change_pct": 13.8
+      },
+      "briefed_on": "2026-08-10",
+      "since": {
+        "moving": true,
+        "metric": "brew_installs_30d",
+        "change_pct": 2.6
       }
     }
   ]

@@ -1,6 +1,43 @@
 {
   "days": [
     {
+      "date": "2026-08-16",
+      "count": 2,
+      "items": [
+        {
+          "name": "gitlawb.com",
+          "type": "domain",
+          "brief": "Stars went 1,324 to 1,459 in a day, up 10.2%, and forks rose 9.2% to 155. The forks are the part worth reading: those are people taking a copy to work on rather than bookmarking it. GitHub, Homebrew and Tranco each recorded it moving on the same day, three collectors with nothing in common. Homebrew installs went the other way over 30 days, 115 down to 106, so the packaged version is not yet where the attention is.",
+          "sources": [
+            "dataforseo",
+            "github",
+            "homebrew",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://gitlawb.com",
+          "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-16"
+        },
+        {
+          "name": "fellowgeek/mcp-memory",
+          "type": "repo",
+          "brief": "Three days old and holding 173 stars, up 10.2% in a day, with forks up from 7 to 10. Its HackerNews thread went 62 to 67 points and carries 35 comments, so the conversation outlasted the post rather than spiking and stopping. The base is small enough that one quiet week would end it, which is the price of seeing something this early.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/fellowgeek/mcp-memory",
+          "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
+          "appearances": 1,
+          "track": null,
+          "briefed_on": "2026-08-16"
+        }
+      ]
+    },
+    {
       "date": "2026-08-15",
       "count": 2,
       "items": [
@@ -9,9 +46,11 @@
           "type": "domain",
           "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
           "sources": [
+            "dataforseo",
             "github",
             "hackernews",
-            "hiring"
+            "hiring",
+            "wikipedia"
           ],
           "url": "https://nanonets.ai",
           "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
@@ -31,7 +70,14 @@
           "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
           "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
           "appearances": 1,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-15",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 1622,
+            "now": 1702,
+            "change_pct": 4.9
+          },
           "briefed_on": "2026-08-15"
         }
       ]
@@ -54,11 +100,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-08-14"
         },
@@ -76,11 +122,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-14",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 291,
-            "now": 313,
-            "change_pct": 7.6
+            "now": 338,
+            "change_pct": 16.2
           },
           "briefed_on": "2026-08-14"
         },
@@ -121,11 +167,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-13",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 1443,
-            "now": 1794,
-            "change_pct": 24.3
+            "now": 1781,
+            "change_pct": 23.4
           },
           "briefed_on": "2026-08-13"
         },
@@ -143,11 +189,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-08-13"
         }
@@ -171,11 +217,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-08-12"
         },
@@ -192,11 +238,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 1432,
-            "now": 1875,
-            "change_pct": 30.9
+            "now": 2022,
+            "change_pct": 41.2
           },
           "briefed_on": "2026-08-12"
         }
@@ -289,11 +335,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 13242,
-            "now": 14855,
-            "change_pct": 12.2
+            "now": 15076,
+            "change_pct": 13.8
           },
           "briefed_on": "2026-08-10"
         }
@@ -393,11 +439,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-08-08"
         },
@@ -414,11 +460,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 217,
-            "now": 279,
-            "change_pct": 28.6
+            "now": 289,
+            "change_pct": 33.2
           },
           "briefed_on": "2026-08-08"
         }
@@ -441,11 +487,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 217,
-            "now": 279,
-            "change_pct": 28.6
+            "now": 289,
+            "change_pct": 33.2
           },
           "briefed_on": "2026-08-07"
         },
@@ -559,11 +605,11 @@
           "appearances": 3,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 217,
-            "now": 279,
-            "change_pct": 28.6
+            "now": 289,
+            "change_pct": 33.2
           },
           "briefed_on": "2026-08-05"
         },
@@ -580,11 +626,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 2196,
-            "now": 5988,
-            "change_pct": 172.7
+            "now": 6066,
+            "change_pct": 176.2
           },
           "briefed_on": "2026-08-05"
         },
@@ -602,11 +648,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 13242,
-            "now": 14855,
-            "change_pct": 12.2
+            "now": 15076,
+            "change_pct": 13.8
           },
           "briefed_on": "2026-08-05"
         },
@@ -623,11 +669,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 67.0,
-            "now": 84.0,
-            "change_pct": 25.4
+            "now": 85.0,
+            "change_pct": 26.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -644,11 +690,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 341,
-            "now": 416,
-            "change_pct": 22.0
+            "now": 417,
+            "change_pct": 22.3
           },
           "briefed_on": "2026-08-05"
         }
@@ -717,11 +763,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 2196,
-            "now": 5988,
-            "change_pct": 172.7
+            "now": 6066,
+            "change_pct": 176.2
           },
           "briefed_on": "2026-08-04"
         }
@@ -766,11 +812,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-08-03"
         }
@@ -793,11 +839,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 2196,
-            "now": 5988,
-            "change_pct": 172.7
+            "now": 6066,
+            "change_pct": 176.2
           },
           "briefed_on": "2026-08-02"
         },
@@ -814,11 +860,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 5567,
-            "now": 13586,
-            "change_pct": 144.0
+            "now": 13675,
+            "change_pct": 145.6
           },
           "briefed_on": "2026-08-02"
         },
@@ -960,11 +1006,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 2196,
-            "now": 5988,
-            "change_pct": 172.7
+            "now": 6066,
+            "change_pct": 176.2
           },
           "briefed_on": "2026-08-01"
         },
@@ -1024,11 +1070,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-08-01"
         }
@@ -1052,11 +1098,11 @@
           "appearances": 7,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 1007,
-            "now": 1737,
-            "change_pct": 72.5
+            "now": 1748,
+            "change_pct": 73.6
           },
           "briefed_on": "2026-07-31"
         },
@@ -1073,11 +1119,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 16,
+            "days_ago": 17,
             "unit": "stars",
             "then": 6090,
-            "now": 9846,
-            "change_pct": 61.7
+            "now": 9874,
+            "change_pct": 62.1
           },
           "briefed_on": "2026-07-31"
         },
@@ -1115,11 +1161,11 @@
           "appearances": 5,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 15,
+            "days_ago": 16,
             "unit": "stars",
             "then": 2196,
-            "now": 5988,
-            "change_pct": 172.7
+            "now": 6066,
+            "change_pct": 176.2
           },
           "briefed_on": "2026-07-31"
         },
@@ -1163,11 +1209,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 15,
+            "days_ago": 17,
             "unit": "stars",
             "then": 290,
-            "now": 359,
-            "change_pct": 23.8
+            "now": 360,
+            "change_pct": 24.1
           },
           "briefed_on": "2026-07-30"
         },
@@ -1184,11 +1230,11 @@
           "appearances": 1,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 16,
+            "days_ago": 17,
             "unit": "stars",
             "then": 384,
-            "now": 789,
-            "change_pct": 105.5
+            "now": 795,
+            "change_pct": 107.0
           },
           "briefed_on": "2026-07-30"
         },
@@ -1205,11 +1251,11 @@
           "appearances": 2,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 16,
+            "days_ago": 17,
             "unit": "stars",
             "then": 6090,
-            "now": 9846,
-            "change_pct": 61.7
+            "now": 9874,
+            "change_pct": 62.1
           },
           "briefed_on": "2026-07-30"
         },
