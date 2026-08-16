@@ -43,6 +43,14 @@ export type Item = {
     metric: string | null;
     change_pct: number | null;
   } | null;
+  /** Open roles, and how many of them are go-to-market. */
+  hiring?: {
+    open_roles: number;
+    gtm_roles: number | null;
+    /** Absent below five roles — a share off three job posts means nothing. */
+    gtm_ratio: number | null;
+    as_of: string;
+  } | null;
   track: Track | null;
 };
 
@@ -273,6 +281,43 @@ export function RiseFinderList({
                 <p className="text-body text-ink mb-3 leading-relaxed">
                   {item.description}
                 </p>
+              )}
+
+              {/* WHAT THE COMPANY IS DOING, as opposed to what its audience is
+                  doing. Every other number on this card is other people
+                  reacting — stars, points, downloads. A job posting is the
+                  company itself committing money to a direction, which is why
+                  the build guide calls it the highest-conviction signal, and
+                  the page was showing "Hiring" in the source list without a
+                  single figure from it.
+
+                  The share is only printed when there are enough roles for it
+                  to mean anything; below that the counts appear alone rather
+                  than a percentage nobody should trust. */}
+              {item.hiring && (
+                <div className="border-y border-rule py-2.5 mb-3 font-mono text-micro tracking-[0.04em] text-ink-2">
+                  <span className="text-ink font-semibold uppercase">
+                    Hiring {item.hiring.open_roles}{" "}
+                    {item.hiring.open_roles === 1 ? "role" : "roles"}
+                  </span>
+                  {item.hiring.gtm_ratio != null &&
+                    item.hiring.gtm_roles != null && (
+                      <>
+                        {" · "}
+                        <b className="text-ink">{item.hiring.gtm_roles}</b> in
+                        sales and marketing{" "}
+                        <b
+                          className={
+                            item.hiring.gtm_ratio >= 40
+                              ? "text-red"
+                              : "text-ink-2"
+                          }
+                        >
+                          ({item.hiring.gtm_ratio}%)
+                        </b>
+                      </>
+                    )}
+                </div>
               )}
 
               {/* The track record. Only rendered where there is one — an entry

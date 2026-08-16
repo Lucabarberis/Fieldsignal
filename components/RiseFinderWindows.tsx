@@ -38,6 +38,9 @@ export type WindowBlock = {
     domain?: string;
     rank?: number;
     name?: string;
+    /** Where the thing itself lives. Null for ProductHunt, which has no
+     *  linkable destination — every URL it publishes is a redirect that 403s. */
+    url?: string | null;
     unit?: string;
     now?: number;
     was: number;
@@ -202,8 +205,25 @@ export function RiseFinderWindows({
                     {b.items.map((r) => (
                       <div key={r.name} className="px-5 sm:px-7 py-3">
                         <div className="flex items-baseline justify-between gap-3">
+                          {/* LINKED LIKE THE DOMAIN TABLES ABOVE. Majestic and
+                              Tranco rows are domains, so a URL falls out of the
+                              name; a repository or a package name is not an
+                              address, so these rendered as dead text beside two
+                              clickable lists — which reads as the other sources
+                              being somehow less real than the two that are. */}
                           <span className="font-mono text-mono text-ink break-all">
-                            {r.name}
+                            {r.url ? (
+                              <a
+                                href={r.url}
+                                target="_blank"
+                                rel="noopener noreferrer nofollow"
+                                className="hover:text-red transition-colors"
+                              >
+                                {r.name} <span aria-hidden>↗</span>
+                              </a>
+                            ) : (
+                              r.name
+                            )}
                           </span>
                           <span className="font-mono text-mono text-red whitespace-nowrap">
                             +{r.gain_pct}%

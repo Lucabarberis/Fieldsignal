@@ -10,6 +10,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "repo:shawnpana/phone-harness",
           "name": "ShawnPana/phone-harness",
           "entity_type": "repo",
           "description": null,
@@ -18,9 +19,11 @@
           "unit": "stars",
           "gain_pct": 477.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/ShawnPana/phone-harness"
         },
         {
+          "entity_key": "repo:oil-oil/oil-motion",
           "name": "oil-oil/oil-motion",
           "entity_type": "repo",
           "description": null,
@@ -29,9 +32,11 @@
           "unit": "stars",
           "gain_pct": 455.4,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/oil-oil/oil-motion"
         },
         {
+          "entity_key": "repo:eternityspring/shuohao-skills",
           "name": "eternityspring/shuohao-skills",
           "entity_type": "repo",
           "description": null,
@@ -40,9 +45,11 @@
           "unit": "stars",
           "gain_pct": 377.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/eternityspring/shuohao-skills"
         },
         {
+          "entity_key": "repo:spinabot/brigade",
           "name": "spinabot/brigade",
           "entity_type": "repo",
           "description": null,
@@ -51,9 +58,11 @@
           "unit": "stars",
           "gain_pct": 376.9,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/spinabot/brigade"
         },
         {
+          "entity_key": "repo:nikodemon80/comfyui-h3-motion-context",
           "name": "NikoDemon80/ComfyUI-H3-Motion-Context",
           "entity_type": "repo",
           "description": null,
@@ -62,9 +71,11 @@
           "unit": "stars",
           "gain_pct": 269.2,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-13"
+          "to_day": "2026-08-13",
+          "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context"
         },
         {
+          "entity_key": "repo:appllama/top-welcome-screens",
           "name": "Appllama/top-welcome-screens",
           "entity_type": "repo",
           "description": null,
@@ -73,9 +84,11 @@
           "unit": "stars",
           "gain_pct": 251.5,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-14"
+          "to_day": "2026-08-14",
+          "url": "https://github.com/Appllama/top-welcome-screens"
         },
         {
+          "entity_key": "repo:mengto/kage",
           "name": "MengTo/kage",
           "entity_type": "repo",
           "description": null,
@@ -84,9 +97,11 @@
           "unit": "stars",
           "gain_pct": 237.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/MengTo/kage"
         },
         {
+          "entity_key": "repo:minimax-ai/minimax-h3",
           "name": "MiniMax-AI/MiniMax-H3",
           "entity_type": "repo",
           "description": null,
@@ -95,9 +110,11 @@
           "unit": "stars",
           "gain_pct": 215.1,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/MiniMax-AI/MiniMax-H3"
         },
         {
+          "entity_key": "repo:anionex/agent-vision-toolkit",
           "name": "Anionex/agent-vision-toolkit",
           "entity_type": "repo",
           "description": null,
@@ -106,9 +123,11 @@
           "unit": "stars",
           "gain_pct": 181.7,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/Anionex/agent-vision-toolkit"
         },
         {
+          "entity_key": "repo:jd-opensource/joyai-video-edit",
           "name": "jd-opensource/JoyAI-Video-Edit",
           "entity_type": "repo",
           "description": null,
@@ -117,7 +136,8 @@
           "unit": "stars",
           "gain_pct": 175.3,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://github.com/jd-opensource/JoyAI-Video-Edit"
         }
       ]
     },
@@ -141,6 +161,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "repo:satyasairay/remembrane",
           "name": "satyasairay/remembrane",
           "entity_type": "repo",
           "description": null,
@@ -149,9 +170,11 @@
           "unit": "points",
           "gain_pct": 18.2,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-12"
+          "to_day": "2026-08-12",
+          "url": "https://github.com/satyasairay/remembrane"
         },
         {
+          "entity_key": "domain:kuber.studio",
           "name": "kuber.studio",
           "entity_type": "domain",
           "description": null,
@@ -160,9 +183,11 @@
           "unit": "points",
           "gain_pct": 13.0,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-11",
+          "url": "https://kuber.studio"
         },
         {
+          "entity_key": "domain:usehope.app",
           "name": "usehope.app",
           "entity_type": "domain",
           "description": null,
@@ -171,9 +196,11 @@
           "unit": "points",
           "gain_pct": 9.1,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-11",
+          "url": "https://usehope.app"
         },
         {
+          "entity_key": "domain:ma-r-s.com",
           "name": "ma-r-s.com",
           "entity_type": "domain",
           "description": null,
@@ -182,9 +209,11 @@
           "unit": "points",
           "gain_pct": 7.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-11",
+          "url": "https://ma-r-s.com"
         },
         {
+          "entity_key": "domain:revise.io",
           "name": "revise.io",
           "entity_type": "domain",
           "description": null,
@@ -193,9 +222,11 @@
           "unit": "points",
           "gain_pct": 7.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-10",
+          "url": "https://revise.io"
         },
         {
+          "entity_key": "domain:sundaradnus.ca",
           "name": "sundaradnus.ca",
           "entity_type": "domain",
           "description": null,
@@ -204,9 +235,11 @@
           "unit": "points",
           "gain_pct": 6.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-11",
+          "url": "https://sundaradnus.ca"
         },
         {
+          "entity_key": "repo:schroedinger-hat/certo",
           "name": "Schroedinger-Hat/certo",
           "entity_type": "repo",
           "description": null,
@@ -215,9 +248,11 @@
           "unit": "points",
           "gain_pct": 6.2,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-11",
+          "url": "https://github.com/schroedinger-Hat/certo"
         },
         {
+          "entity_key": "repo:mattdeeds/pokeemerald-rp2350",
           "name": "mattdeeds/pokeemerald-rp2350",
           "entity_type": "repo",
           "description": null,
@@ -226,9 +261,11 @@
           "unit": "points",
           "gain_pct": 5.5,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-12"
+          "to_day": "2026-08-12",
+          "url": "https://github.com/mattdeeds/pokeemerald-rp2350"
         },
         {
+          "entity_key": "repo:wyzer-lang/wyzer",
           "name": "Wyzer-Lang/wyzer",
           "entity_type": "repo",
           "description": null,
@@ -237,9 +274,11 @@
           "unit": "points",
           "gain_pct": 5.1,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-14"
+          "to_day": "2026-08-14",
+          "url": "https://github.com/Wyzer-Lang/wyzer"
         },
         {
+          "entity_key": "repo:matt-w-horn/morningprint",
           "name": "matt-w-horn/morningprint",
           "entity_type": "repo",
           "description": null,
@@ -248,7 +287,8 @@
           "unit": "points",
           "gain_pct": 4.5,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-10",
+          "url": "https://github.com/matt-w-horn/morningprint"
         }
       ]
     },
@@ -272,6 +312,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "npm:@earendil-works/pi-telemetry",
           "name": "@earendil-works/pi-telemetry",
           "entity_type": "package",
           "description": null,
@@ -280,9 +321,11 @@
           "unit": "weekly downloads",
           "gain_pct": 699.7,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@earendil-works/pi-telemetry"
         },
         {
+          "entity_key": "pypi:xy",
           "name": "xy",
           "entity_type": "package",
           "description": null,
@@ -291,9 +334,11 @@
           "unit": "weekly downloads",
           "gain_pct": 188.2,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://pypi.org/project/xy/"
         },
         {
+          "entity_key": "npm:@agentskit/memory",
           "name": "@agentskit/memory",
           "entity_type": "package",
           "description": null,
@@ -302,9 +347,11 @@
           "unit": "weekly downloads",
           "gain_pct": 169.6,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@agentskit/memory"
         },
         {
+          "entity_key": "npm:@askexenow/exe-os",
           "name": "@askexenow/exe-os",
           "entity_type": "package",
           "description": null,
@@ -313,9 +360,11 @@
           "unit": "weekly downloads",
           "gain_pct": 114.0,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@askexenow/exe-os"
         },
         {
+          "entity_key": "npm:4runr-os",
           "name": "4runr-os",
           "entity_type": "package",
           "description": null,
@@ -324,9 +373,11 @@
           "unit": "weekly downloads",
           "gain_pct": 107.3,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/4runr-os"
         },
         {
+          "entity_key": "npm:@chat-adapter/twilio",
           "name": "@chat-adapter/twilio",
           "entity_type": "package",
           "description": null,
@@ -335,9 +386,11 @@
           "unit": "weekly downloads",
           "gain_pct": 105.6,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@chat-adapter/twilio"
         },
         {
+          "entity_key": "npm:@chat-adapter/messenger",
           "name": "@chat-adapter/messenger",
           "entity_type": "package",
           "description": null,
@@ -346,9 +399,11 @@
           "unit": "weekly downloads",
           "gain_pct": 105.4,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@chat-adapter/messenger"
         },
         {
+          "entity_key": "npm:@agent-link/server",
           "name": "@agent-link/server",
           "entity_type": "package",
           "description": null,
@@ -357,9 +412,11 @@
           "unit": "weekly downloads",
           "gain_pct": 69.2,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-10",
+          "url": "https://www.npmjs.com/package/@agent-link/server"
         },
         {
+          "entity_key": "npm:@clipboard-health/playwright-reporter-llm",
           "name": "@clipboard-health/playwright-reporter-llm",
           "entity_type": "package",
           "description": null,
@@ -368,9 +425,11 @@
           "unit": "weekly downloads",
           "gain_pct": 63.9,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@clipboard-health/playwright-reporter-llm"
         },
         {
+          "entity_key": "npm:@chat-adapter/web",
           "name": "@chat-adapter/web",
           "entity_type": "package",
           "description": null,
@@ -379,7 +438,8 @@
           "unit": "weekly downloads",
           "gain_pct": 57.1,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://www.npmjs.com/package/@chat-adapter/web"
         }
       ]
     },
@@ -403,6 +463,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "dataset:rekaai/rekadaily-10k-raw",
           "name": "RekaAI/RekaDaily-10k-raw",
           "entity_type": "dataset",
           "description": null,
@@ -411,9 +472,11 @@
           "unit": "downloads",
           "gain_pct": 4799.5,
           "from_day": "2026-08-08",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/datasets/RekaAI/RekaDaily-10k-raw"
         },
         {
+          "entity_key": "dataset:matraix2026/matraix_persona_1m",
           "name": "MatrAIx2026/MatrAIx_Persona_1M",
           "entity_type": "dataset",
           "description": null,
@@ -422,9 +485,11 @@
           "unit": "downloads",
           "gain_pct": 775.0,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/datasets/MatrAIx2026/MatrAIx_Persona_1M"
         },
         {
+          "entity_key": "model:akahsizrr/fuse-1-lite",
           "name": "Akahsizrr/fuse-1-Lite",
           "entity_type": "model",
           "description": null,
@@ -433,9 +498,11 @@
           "unit": "downloads",
           "gain_pct": 651.1,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/Akahsizrr/fuse-1-Lite"
         },
         {
+          "entity_key": "model:deepgrove/maple-preview",
           "name": "deepgrove/maple-preview",
           "entity_type": "model",
           "description": null,
@@ -444,9 +511,11 @@
           "unit": "downloads",
           "gain_pct": 609.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/deepgrove/maple-preview"
         },
         {
+          "entity_key": "model:liquidai/lfm2.5-2.6b-gguf",
           "name": "LiquidAI/LFM2.5-2.6B-GGUF",
           "entity_type": "model",
           "description": null,
@@ -455,9 +524,11 @@
           "unit": "downloads",
           "gain_pct": 530.8,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF"
         },
         {
+          "entity_key": "dataset:biglam/british-library-book-images",
           "name": "biglam/british-library-book-images",
           "entity_type": "dataset",
           "description": null,
@@ -466,9 +537,11 @@
           "unit": "downloads",
           "gain_pct": 521.0,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/datasets/biglam/british-library-book-images"
         },
         {
+          "entity_key": "dataset:oddadmix/dialectal-arabic-lahgtna-v2",
           "name": "oddadmix/dialectal-arabic-lahgtna-v2",
           "entity_type": "dataset",
           "description": null,
@@ -477,9 +550,11 @@
           "unit": "downloads",
           "gain_pct": 367.0,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/datasets/oddadmix/dialectal-arabic-lahgtna-v2"
         },
         {
+          "entity_key": "model:nvidia/nvidia-nemotron-parse-2.0",
           "name": "nvidia/NVIDIA-Nemotron-Parse-2.0",
           "entity_type": "model",
           "description": null,
@@ -488,9 +563,11 @@
           "unit": "downloads",
           "gain_pct": 296.4,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-15"
+          "to_day": "2026-08-15",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0"
         },
         {
+          "entity_key": "model:syzygyresearch/mach-1-additive-35b",
           "name": "SyzygyResearch/Mach-1-Additive-35B",
           "entity_type": "model",
           "description": null,
@@ -499,9 +576,11 @@
           "unit": "downloads",
           "gain_pct": 291.1,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-14"
+          "to_day": "2026-08-14",
+          "url": "https://huggingface.co/SyzygyResearch/Mach-1-Additive-35B"
         },
         {
+          "entity_key": "dataset:r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
           "name": "r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
           "entity_type": "dataset",
           "description": null,
@@ -510,7 +589,8 @@
           "unit": "downloads",
           "gain_pct": 284.2,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://huggingface.co/datasets/r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation"
         }
       ]
     },
@@ -534,6 +614,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "app:ios:6761538521",
           "name": "StoryReel: Exclusive Drama",
           "entity_type": "app",
           "description": null,
@@ -542,9 +623,11 @@
           "unit": "ratings",
           "gain_pct": 14.0,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6761538521"
         },
         {
+          "entity_key": "app:ios:632064380",
           "name": "Vinted: Pre-loved marketplace",
           "entity_type": "app",
           "description": null,
@@ -553,9 +636,11 @@
           "unit": "ratings",
           "gain_pct": 10.3,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id632064380"
         },
         {
+          "entity_key": "app:ios:6758667154",
           "name": "VibeShort: AI Short Dramas",
           "entity_type": "app",
           "description": null,
@@ -564,9 +649,11 @@
           "unit": "ratings",
           "gain_pct": 9.4,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6758667154"
         },
         {
+          "entity_key": "app:ios:6447582581",
           "name": "Netflix Game Controller",
           "entity_type": "app",
           "description": null,
@@ -575,9 +662,11 @@
           "unit": "ratings",
           "gain_pct": 6.4,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6447582581"
         },
         {
+          "entity_key": "app:ios:1558240027",
           "name": "Meta AI",
           "entity_type": "app",
           "description": null,
@@ -586,9 +675,11 @@
           "unit": "ratings",
           "gain_pct": 5.3,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id1558240027"
         },
         {
+          "entity_key": "app:ios:1238611143",
           "name": "Lidl Plus",
           "entity_type": "app",
           "description": null,
@@ -597,9 +688,11 @@
           "unit": "ratings",
           "gain_pct": 4.7,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id1238611143"
         },
         {
+          "entity_key": "app:ios:6504849169",
           "name": "NetShort - Popular Dramas & TV",
           "entity_type": "app",
           "description": null,
@@ -608,9 +701,11 @@
           "unit": "ratings",
           "gain_pct": 2.8,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6504849169"
         },
         {
+          "entity_key": "app:ios:6748837351",
           "name": "Moment Pro Camera II",
           "entity_type": "app",
           "description": null,
@@ -619,9 +714,11 @@
           "unit": "ratings",
           "gain_pct": 2.8,
           "from_day": "2026-08-06",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6748837351"
         },
         {
+          "entity_key": "app:ios:6463562198",
           "name": "Ye said",
           "entity_type": "app",
           "description": null,
@@ -630,9 +727,11 @@
           "unit": "ratings",
           "gain_pct": 1.9,
           "from_day": "2026-08-06",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6463562198"
         },
         {
+          "entity_key": "app:ios:6746705608",
           "name": "AutoSnore: Snoring Recorder",
           "entity_type": "app",
           "description": null,
@@ -641,7 +740,8 @@
           "unit": "ratings",
           "gain_pct": 1.3,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6746705608"
         }
       ]
     },
@@ -665,6 +765,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "app:ios:1662217862",
           "name": "Wipr 2",
           "entity_type": "app",
           "description": null,
@@ -673,9 +774,11 @@
           "unit": "reviews",
           "gain_pct": 716.0,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id1662217862"
         },
         {
+          "entity_key": "app:ios:6785557805",
           "name": "Antizuck Smart Glasses Scanner",
           "entity_type": "app",
           "description": null,
@@ -684,9 +787,11 @@
           "unit": "reviews",
           "gain_pct": 2.6,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6785557805"
         },
         {
+          "entity_key": "app:ios:754105884",
           "name": "NightCap Camera",
           "entity_type": "app",
           "description": null,
@@ -695,9 +800,11 @@
           "unit": "reviews",
           "gain_pct": 2.5,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id754105884"
         },
         {
+          "entity_key": "app:ios:6504849169",
           "name": "NetShort - Popular Dramas & TV",
           "entity_type": "app",
           "description": null,
@@ -706,7 +813,8 @@
           "unit": "reviews",
           "gain_pct": 2.2,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": "https://apps.apple.com/app/id6504849169"
         }
       ]
     },
@@ -730,6 +838,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "plugin:wordpress:webappick-product-feed-for-woocommerce",
           "name": "Product Feed Manager for WooCommerce \u2013 CTX Feed \u2013 Support 220+ Shopping &amp; Social Channels",
           "entity_type": "plugin",
           "description": null,
@@ -738,7 +847,8 @@
           "unit": "ratings",
           "gain_pct": 0.1,
           "from_day": "2026-08-06",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-10",
+          "url": "https://wordpress.org/plugins/webappick-product-feed-for-woocommerce/"
         }
       ]
     },
@@ -802,6 +912,7 @@
       "first_day": "2026-07-29",
       "items": [
         {
+          "entity_key": "launch:ph:1207906",
           "name": "The GTM Co-Founder",
           "entity_type": "launch",
           "description": null,
@@ -810,9 +921,11 @@
           "unit": "votes",
           "gain_pct": 13.9,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1212030",
           "name": "AdAnt AI",
           "entity_type": "launch",
           "description": null,
@@ -821,9 +934,11 @@
           "unit": "votes",
           "gain_pct": 11.5,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1216176",
           "name": "AstraPixels",
           "entity_type": "launch",
           "description": null,
@@ -832,9 +947,11 @@
           "unit": "votes",
           "gain_pct": 8.0,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1090720",
           "name": "Hey Noah",
           "entity_type": "launch",
           "description": null,
@@ -843,9 +960,11 @@
           "unit": "votes",
           "gain_pct": 6.5,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1198904",
           "name": "Coldtea.ai",
           "entity_type": "launch",
           "description": null,
@@ -854,9 +973,11 @@
           "unit": "votes",
           "gain_pct": 4.8,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1214897",
           "name": "Wispr Flow Notetaker",
           "entity_type": "launch",
           "description": null,
@@ -865,9 +986,11 @@
           "unit": "votes",
           "gain_pct": 1.9,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1215770",
           "name": "Progress AI Observability",
           "entity_type": "launch",
           "description": null,
@@ -876,9 +999,11 @@
           "unit": "votes",
           "gain_pct": 1.8,
           "from_day": "2026-08-09",
-          "to_day": "2026-08-16"
+          "to_day": "2026-08-16",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1192497",
           "name": "Superunit",
           "entity_type": "launch",
           "description": null,
@@ -887,9 +1012,11 @@
           "unit": "votes",
           "gain_pct": 1.4,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-10",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1205332",
           "name": "Ycode AI Agents",
           "entity_type": "launch",
           "description": null,
@@ -898,9 +1025,11 @@
           "unit": "votes",
           "gain_pct": 1.2,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-10"
+          "to_day": "2026-08-10",
+          "url": null
         },
         {
+          "entity_key": "launch:ph:1208295",
           "name": "EasyCircuit",
           "entity_type": "launch",
           "description": null,
@@ -909,7 +1038,8 @@
           "unit": "votes",
           "gain_pct": 1.1,
           "from_day": "2026-08-07",
-          "to_day": "2026-08-11"
+          "to_day": "2026-08-11",
+          "url": null
         }
       ]
     },
@@ -944,7 +1074,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-16T15:08:11Z",
+  "generated_at": "2026-08-16T15:17:46Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1556,6 +1686,7 @@
       "url": "https://gitlawb.com",
       "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
       "appearances": 1,
+      "hiring": null,
       "track": null,
       "briefed_on": "2026-08-16",
       "since": {
@@ -1575,6 +1706,7 @@
       "url": "https://github.com/fellowgeek/mcp-memory",
       "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
       "appearances": 1,
+      "hiring": null,
       "track": null,
       "briefed_on": "2026-08-16",
       "since": {
@@ -1599,6 +1731,12 @@
       "url": "https://nanonets.ai",
       "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
       "appearances": 1,
+      "hiring": {
+        "open_roles": 11,
+        "gtm_roles": 6,
+        "gtm_ratio": 55,
+        "as_of": "2026-08-16"
+      },
       "track": null,
       "briefed_on": "2026-08-15",
       "since": {
@@ -1619,6 +1757,7 @@
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-15",
         "days_ago": 1,
@@ -1646,6 +1785,7 @@
       "url": "https://github.com/reflex-dev/xy",
       "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
       "appearances": 7,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-07-31",
         "days_ago": 16,
@@ -1673,6 +1813,7 @@
       "url": "https://github.com/TheRealYT/git-knife",
       "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-14",
         "days_ago": 2,
@@ -1702,6 +1843,7 @@
       "url": "https://antigma.ai",
       "description": "Antigma, a terminal harness for running AI coding agents, published as the repository AntigmaLabs/ante. The agent loop, the tool calls and the sandbox ship in a single binary rather than being assembled from separate services, so the whole run happens on one machine and can be inspected afterwards. For a tool of this kind the fork count is the number that carries information: forking means taking the code away to change it, which is a different act from starring it.",
       "appearances": 1,
+      "hiring": null,
       "track": null,
       "briefed_on": "2026-08-14",
       "since": {
@@ -1721,6 +1863,7 @@
       "url": "https://github.com/antirez/h3.c",
       "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-12",
         "days_ago": 4,
@@ -1747,6 +1890,7 @@
       "url": "https://github.com/palamim/starboard",
       "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
       "appearances": 2,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-10",
         "days_ago": 3,
@@ -1773,6 +1917,7 @@
       "url": "https://github.com/MakazhanAlpamys/Soup",
       "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-10",
         "days_ago": 1,
@@ -1800,6 +1945,7 @@
       "url": "https://github.com/t8y2/dbx",
       "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
       "appearances": 2,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-05",
         "days_ago": 11,
@@ -1831,6 +1977,7 @@
       "url": "https://gitlawb.com",
       "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
       "appearances": 1,
+      "hiring": null,
       "track": null,
       "briefed_on": "2026-08-16",
       "since": {
@@ -1850,6 +1997,7 @@
       "url": "https://github.com/fellowgeek/mcp-memory",
       "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
       "appearances": 1,
+      "hiring": null,
       "track": null,
       "briefed_on": "2026-08-16",
       "since": {
@@ -1872,6 +2020,12 @@
       "url": "https://nanonets.ai",
       "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
       "appearances": 1,
+      "hiring": {
+        "open_roles": 11,
+        "gtm_roles": 6,
+        "gtm_ratio": 55,
+        "as_of": "2026-08-16"
+      },
       "track": null,
       "briefed_on": "2026-08-15",
       "since": {
@@ -1892,6 +2046,7 @@
       "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
       "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-15",
         "days_ago": 1,
@@ -1919,6 +2074,7 @@
       "url": "https://github.com/reflex-dev/xy",
       "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
       "appearances": 7,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-07-31",
         "days_ago": 16,
@@ -1946,6 +2102,7 @@
       "url": "https://github.com/TheRealYT/git-knife",
       "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-14",
         "days_ago": 2,
@@ -1975,6 +2132,7 @@
       "url": "https://antigma.ai",
       "description": "Antigma, a terminal harness for running AI coding agents, published as the repository AntigmaLabs/ante. The agent loop, the tool calls and the sandbox ship in a single binary rather than being assembled from separate services, so the whole run happens on one machine and can be inspected afterwards. For a tool of this kind the fork count is the number that carries information: forking means taking the code away to change it, which is a different act from starring it.",
       "appearances": 1,
+      "hiring": null,
       "track": null,
       "briefed_on": "2026-08-14",
       "since": {
@@ -1994,6 +2152,7 @@
       "url": "https://github.com/antirez/h3.c",
       "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-12",
         "days_ago": 4,
@@ -2020,6 +2179,7 @@
       "url": "https://github.com/palamim/starboard",
       "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
       "appearances": 2,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-10",
         "days_ago": 3,
@@ -2046,6 +2206,7 @@
       "url": "https://github.com/MakazhanAlpamys/Soup",
       "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
       "appearances": 1,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-10",
         "days_ago": 1,
@@ -2073,6 +2234,7 @@
       "url": "https://github.com/t8y2/dbx",
       "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
       "appearances": 2,
+      "hiring": null,
       "track": {
         "first_flagged": "2026-08-05",
         "days_ago": 11,
