@@ -1061,7 +1061,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-17T07:45:14Z",
+  "generated_at": "2026-08-17T07:51:51Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1649,321 +1649,61 @@
     }
   ],
   "data_through": "2026-08-17",
-  "briefed_through": "2026-08-16",
+  "briefed_through": "2026-08-17",
   "stats": {
     "entities": 25329,
     "snapshots": 621614,
     "sources_live": 23,
     "first_day": "2026-07-28",
-    "scored_on_briefing_day": 4426,
+    "scored_on_briefing_day": 4737,
     "days_collected": 21
   },
   "items": [
     {
-      "name": "gitlawb.com",
+      "name": "jitpass.com",
       "type": "domain",
-      "brief": "Stars went 1,324 to 1,459 in a day, up 10.2%, and forks rose 9.2% to 155. The forks are the part worth reading: those are people taking a copy to work on rather than bookmarking it. GitHub, Homebrew and Tranco each recorded it moving on the same day, three collectors with nothing in common. Homebrew installs went the other way over 30 days, 115 down to 106, so the packaged version is not yet where the attention is.",
+      "brief": "Stars went 93 to 115, up 23.7%, behind a HackerNews thread that went 69 comments to 78 while its points moved only 49 to 51. More comments than points is an argument rather than a wave, which for a tool that puts itself between every credential on a developer machine and the tools that read them is the reaction to expect. A month old, and two unrelated collectors saw it move on the same day.",
       "sources": [
-        "crunchbase",
-        "dataforseo",
         "github",
-        "homebrew",
-        "pricing",
-        "techstack",
-        "tranco",
-        "wikipedia"
+        "hackernews",
+        "pricing"
       ],
-      "url": "https://gitlawb.com",
-      "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
+      "url": "https://jitpass.com",
+      "description": "jit, a macOS command line tool that finds the credentials sitting in plain text on a developer's machine, in .env files, ~/.aws/credentials, shell exports, .npmrc tokens and MCP configs, and moves them behind Touch ID. Each secret is then handed to the process that asks for it only at the moment it runs. Free, local only, written in Go.",
       "appearances": 1,
       "hiring": null,
       "track": null,
-      "briefed_on": "2026-08-16",
+      "briefed_on": "2026-08-17",
       "since": {
         "moving": true,
-        "metric": "stars",
-        "change_pct": 8.7
+        "metric": "hn_comments",
+        "change_pct": 12.9
       }
     },
     {
-      "name": "fellowgeek/mcp-memory",
+      "name": "djc/oxish",
       "type": "repo",
-      "brief": "Three days old and holding 173 stars, up 10.2% in a day, with forks up from 7 to 10. Its HackerNews thread went 62 to 67 points and carries 35 comments, so the conversation outlasted the post rather than spiking and stopping. The base is small enough that one quiet week would end it, which is the price of seeing something this early.",
+      "brief": "Stars went 113 to 253 in a day, up 123.9%, and forks doubled from 5 to 10. The discussion moved with it: Lobsters points went 7 to 53 and its comments 1 to 6, while GitHub and HackerNews recorded the same day independently. Three unrelated collectors, and open issues doubled as well, which is what adoption looks like when people are running the thing rather than bookmarking it.",
       "sources": [
         "github",
-        "hackernews"
+        "hackernews",
+        "lobsters"
       ],
-      "url": "https://github.com/fellowgeek/mcp-memory",
-      "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
+      "url": "https://github.com/djc/oxish",
+      "description": "OxiSH, an SSH server written from scratch in Rust rather than a binding around an existing one. Where it sits is the point: sshd is the daemon most machines leave exposed to the open internet, it has to handle authentication before it can trust anything, and the implementations in wide use are written in C. Dual licensed MIT and Apache 2.0.",
       "appearances": 1,
       "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-16",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 173,
-        "now": 177,
-        "change_pct": 2.3
-      },
-      "briefed_on": "2026-08-16",
+      "track": null,
+      "briefed_on": "2026-08-17",
       "since": {
         "moving": true,
-        "metric": "forks",
-        "change_pct": 9.7
+        "metric": "lobsters_points",
+        "change_pct": 191.7
       }
     }
   ],
   "still_moving": [
     {
-      "name": "nanonets.ai",
-      "type": "domain",
-      "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
-      "sources": [
-        "crunchbase",
-        "dataforseo",
-        "github",
-        "hackernews",
-        "hiring",
-        "pricing",
-        "techstack",
-        "wikipedia"
-      ],
-      "url": "https://nanonets.ai",
-      "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
-      "appearances": 1,
-      "hiring": {
-        "open_roles": 11,
-        "gtm_roles": 6,
-        "gtm_ratio": 55,
-        "as_of": "2026-08-16"
-      },
-      "track": null,
-      "briefed_on": "2026-08-15",
-      "since": {
-        "moving": true,
-        "metric": "forks",
-        "change_pct": 10.5
-      }
-    },
-    {
-      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
-      "type": "repo",
-      "brief": "491 new stars in a day, up 43.4%, and forks up 109 to 131, a fork ratio of 8.1%. Its first two issues were filed the same day, alongside 173 HackerNews comments.",
-      "sources": [
-        "github",
-        "hackernews",
-        "lobsters"
-      ],
-      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
-      "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-15",
-        "days_ago": 2,
-        "unit": "stars",
-        "then": 1622,
-        "now": 1737,
-        "change_pct": 7.1
-      },
-      "briefed_on": "2026-08-15",
-      "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 4.3
-      }
-    },
-    {
-      "name": "reflex-dev/xy",
-      "type": "repo",
-      "brief": "13,544 weekly downloads, up 21.4% in a day from 11,161, while stars did not move at all. Seventh straight appearance, and the gap between installing it and bookmarking it has never once closed.",
-      "sources": [
-        "github",
-        "hackernews",
-        "packages"
-      ],
-      "url": "https://github.com/reflex-dev/xy",
-      "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
-      "appearances": 7,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-07-31",
-        "days_ago": 17,
-        "unit": "stars",
-        "then": 1007,
-        "now": 1750,
-        "change_pct": 73.8
-      },
-      "briefed_on": "2026-08-14",
-      "since": {
-        "moving": true,
-        "metric": "prior_week_downloads",
-        "change_pct": 7.1
-      }
-    },
-    {
-      "name": "TheRealYT/git-knife",
-      "type": "repo",
-      "brief": "Stars 237 to 291 in a day, up 22.8%, with 165 HackerNews points and 101 comments. Forks up 14.3% on the same day: the people who found it are taking the code away, not just reading it.",
-      "sources": [
-        "github",
-        "hackernews",
-        "search_trends"
-      ],
-      "url": "https://github.com/TheRealYT/git-knife",
-      "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-14",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 291,
-        "now": 356,
-        "change_pct": 22.3
-      },
-      "briefed_on": "2026-08-14",
-      "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 4.7
-      }
-    },
-    {
-      "name": "antigma.ai",
-      "type": "domain",
-      "brief": "Forks 34 to 50 in a day, up 47.1%, against stars up 14.5%. Forks growing three times faster than stars, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
-      "sources": [
-        "dataforseo",
-        "github",
-        "hackernews",
-        "openpagerank",
-        "search_trends"
-      ],
-      "url": "https://antigma.ai",
-      "description": "Antigma, a terminal harness for running AI coding agents, published as the repository AntigmaLabs/ante. The agent loop, the tool calls and the sandbox ship in a single binary rather than being assembled from separate services, so the whole run happens on one machine and can be inspected afterwards. For a tool of this kind the fork count is the number that carries information: forking means taking the code away to change it, which is a different act from starring it.",
-      "appearances": 1,
-      "hiring": null,
-      "track": null,
-      "briefed_on": "2026-08-14",
-      "since": {
-        "moving": true,
-        "metric": "open_issues",
-        "change_pct": 14.3
-      }
-    },
-    {
-      "name": "antirez/h3.c",
-      "type": "repo",
-      "brief": "Stars 533 to 1,432 in a day, up 168.7%, with forks up 184%, open issues up 550% and HackerNews comments up 481%. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/antirez/h3.c",
-      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-12",
-        "days_ago": 5,
-        "unit": "stars",
-        "then": 1432,
-        "now": 2086,
-        "change_pct": 45.7
-      },
-      "briefed_on": "2026-08-12",
-      "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 7.0
-      }
-    },
-    {
-      "name": "palamim/starboard",
-      "type": "repo",
-      "brief": "Second appearance, and stars, forks and open issues all moved together again: 144 to 156, 6 to 7, 1 to 2. Pushed the same day rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/palamim/starboard",
-      "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
-      "appearances": 2,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-10",
-        "days_ago": 3,
-        "unit": "stars",
-        "then": 144,
-        "now": 165,
-        "change_pct": 14.6
-      },
-      "briefed_on": "2026-08-11",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
-    },
-    {
-      "name": "MakazhanAlpamys/Soup",
-      "type": "repo",
-      "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 8.5% against 4.9% star growth. The people arriving are running it and hitting walls rather than bookmarking it.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-10",
-        "days_ago": 1,
-        "unit": "stars",
-        "then": 430,
-        "now": 495,
-        "change_pct": 15.1
-      },
-      "briefed_on": "2026-08-10",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
-    },
-    {
-      "name": "t8y2/dbx",
-      "type": "repo",
-      "brief": "Third appearance. 13,242 stars with 1,344 forks is one fork per ten stars, where most repos manage one in fifty, and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch, because a package manager install puts it on a machine.",
-      "sources": [
-        "github",
-        "homebrew",
-        "packages"
-      ],
-      "url": "https://github.com/t8y2/dbx",
-      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
-      "appearances": 2,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-05",
-        "days_ago": 12,
-        "unit": "stars",
-        "then": 13242,
-        "now": 15195,
-        "change_pct": 14.7
-      },
-      "briefed_on": "2026-08-10",
-      "since": {
-        "moving": true,
-        "metric": "brew_installs_30d",
-        "change_pct": 2.6
-      }
-    }
-  ],
-  "combined": [
-    {
       "name": "gitlawb.com",
       "type": "domain",
       "brief": "Stars went 1,324 to 1,459 in a day, up 10.2%, and forks rose 9.2% to 155. The forks are the part worth reading: those are people taking a copy to work on rather than bookmarking it. GitHub, Homebrew and Tranco each recorded it moving on the same day, three collectors with nothing in common. Homebrew installs went the other way over 30 days, 115 down to 106, so the packaged version is not yet where the attention is.",
@@ -1985,8 +1725,8 @@
       "briefed_on": "2026-08-16",
       "since": {
         "moving": true,
-        "metric": "stars",
-        "change_pct": 8.7
+        "metric": "forks",
+        "change_pct": 3.8
       }
     },
     {
@@ -2012,8 +1752,8 @@
       "briefed_on": "2026-08-16",
       "since": {
         "moving": true,
-        "metric": "forks",
-        "change_pct": 9.7
+        "metric": "open_issues",
+        "change_pct": 25.0
       }
     },
     {
@@ -2043,8 +1783,8 @@
       "briefed_on": "2026-08-15",
       "since": {
         "moving": true,
-        "metric": "forks",
-        "change_pct": 10.5
+        "metric": "stars",
+        "change_pct": 3.5
       }
     },
     {
@@ -2072,7 +1812,7 @@
       "since": {
         "moving": true,
         "metric": "stars",
-        "change_pct": 4.3
+        "change_pct": 1.8
       }
     },
     {
@@ -2099,8 +1839,8 @@
       "briefed_on": "2026-08-14",
       "since": {
         "moving": true,
-        "metric": "prior_week_downloads",
-        "change_pct": 7.1
+        "metric": "weekly_downloads",
+        "change_pct": 3.0
       }
     },
     {
@@ -2127,8 +1867,8 @@
       "briefed_on": "2026-08-14",
       "since": {
         "moving": true,
-        "metric": "stars",
-        "change_pct": 4.7
+        "metric": "forks",
+        "change_pct": 4.9
       }
     },
     {
@@ -2150,8 +1890,8 @@
       "briefed_on": "2026-08-14",
       "since": {
         "moving": true,
-        "metric": "open_issues",
-        "change_pct": 14.3
+        "metric": "hn_points",
+        "change_pct": 1.2
       }
     },
     {
@@ -2177,8 +1917,8 @@
       "briefed_on": "2026-08-12",
       "since": {
         "moving": true,
-        "metric": "stars",
-        "change_pct": 7.0
+        "metric": "open_issues",
+        "change_pct": 8.1
       }
     },
     {
@@ -2207,60 +1947,294 @@
         "metric": null,
         "change_pct": null
       }
+    }
+  ],
+  "combined": [
+    {
+      "name": "jitpass.com",
+      "type": "domain",
+      "brief": "Stars went 93 to 115, up 23.7%, behind a HackerNews thread that went 69 comments to 78 while its points moved only 49 to 51. More comments than points is an argument rather than a wave, which for a tool that puts itself between every credential on a developer machine and the tools that read them is the reaction to expect. A month old, and two unrelated collectors saw it move on the same day.",
+      "sources": [
+        "github",
+        "hackernews",
+        "pricing"
+      ],
+      "url": "https://jitpass.com",
+      "description": "jit, a macOS command line tool that finds the credentials sitting in plain text on a developer's machine, in .env files, ~/.aws/credentials, shell exports, .npmrc tokens and MCP configs, and moves them behind Touch ID. Each secret is then handed to the process that asks for it only at the moment it runs. Free, local only, written in Go.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-17",
+      "since": {
+        "moving": true,
+        "metric": "hn_comments",
+        "change_pct": 12.9
+      }
     },
     {
-      "name": "MakazhanAlpamys/Soup",
+      "name": "djc/oxish",
       "type": "repo",
-      "brief": "68 open issues against 430 stars is a 16% ratio, five times what a young repo usually carries, and forks are up 8.5% against 4.9% star growth. The people arriving are running it and hitting walls rather than bookmarking it.",
+      "brief": "Stars went 113 to 253 in a day, up 123.9%, and forks doubled from 5 to 10. The discussion moved with it: Lobsters points went 7 to 53 and its comments 1 to 6, while GitHub and HackerNews recorded the same day independently. Three unrelated collectors, and open issues doubled as well, which is what adoption looks like when people are running the thing rather than bookmarking it.",
+      "sources": [
+        "github",
+        "hackernews",
+        "lobsters"
+      ],
+      "url": "https://github.com/djc/oxish",
+      "description": "OxiSH, an SSH server written from scratch in Rust rather than a binding around an existing one. Where it sits is the point: sshd is the daemon most machines leave exposed to the open internet, it has to handle authentication before it can trust anything, and the implementations in wide use are written in C. Dual licensed MIT and Apache 2.0.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-17",
+      "since": {
+        "moving": true,
+        "metric": "lobsters_points",
+        "change_pct": 191.7
+      }
+    },
+    {
+      "name": "gitlawb.com",
+      "type": "domain",
+      "brief": "Stars went 1,324 to 1,459 in a day, up 10.2%, and forks rose 9.2% to 155. The forks are the part worth reading: those are people taking a copy to work on rather than bookmarking it. GitHub, Homebrew and Tranco each recorded it moving on the same day, three collectors with nothing in common. Homebrew installs went the other way over 30 days, 115 down to 106, so the packaged version is not yet where the attention is.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "github",
+        "homebrew",
+        "pricing",
+        "techstack",
+        "tranco",
+        "wikipedia"
+      ],
+      "url": "https://gitlawb.com",
+      "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-16",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 3.8
+      }
+    },
+    {
+      "name": "fellowgeek/mcp-memory",
+      "type": "repo",
+      "brief": "Three days old and holding 173 stars, up 10.2% in a day, with forks up from 7 to 10. Its HackerNews thread went 62 to 67 points and carries 35 comments, so the conversation outlasted the post rather than spiking and stopping. The base is small enough that one quiet week would end it, which is the price of seeing something this early.",
       "sources": [
         "github",
         "hackernews"
       ],
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine tunes a large language model from a single YAML file, with no SSH into a training box and no framework configuration to assemble. It streams layers rather than loading the whole model, which is what lets an 8 billion parameter model train on a laptop GPU with 4 GB of memory. Distributed on PyPI as soup-cli, so installs are countable separately from stars.",
+      "url": "https://github.com/fellowgeek/mcp-memory",
+      "description": "A Model Context Protocol server that gives an AI agent memory outlasting a single conversation. It keeps what the agent has been told in SQLite and searches it back through FTS5 full-text indexing, so a coding assistant can recall a decision made last week instead of being reintroduced to the same codebase at the start of every session.",
       "appearances": 1,
       "hiring": null,
       "track": {
-        "first_flagged": "2026-08-10",
+        "first_flagged": "2026-08-16",
         "days_ago": 1,
         "unit": "stars",
-        "then": 430,
-        "now": 495,
-        "change_pct": 15.1
+        "then": 173,
+        "now": 177,
+        "change_pct": 2.3
       },
-      "briefed_on": "2026-08-10",
+      "briefed_on": "2026-08-16",
+      "since": {
+        "moving": true,
+        "metric": "open_issues",
+        "change_pct": 25.0
+      }
+    },
+    {
+      "name": "nanonets.ai",
+      "type": "domain",
+      "brief": "215 new stars and 17 new forks in a day, a fork ratio of 8.6%. Open issues went 37 to 62 over four days while stars rose 68%: adoption fast enough that the bug reports are keeping pace.",
+      "sources": [
+        "crunchbase",
+        "dataforseo",
+        "github",
+        "hackernews",
+        "hiring",
+        "pricing",
+        "techstack",
+        "wikipedia"
+      ],
+      "url": "https://nanonets.ai",
+      "description": "Graft, an open source context layer for coding agents, published by Nanonets as the repository NanoNets/Graft. It parses a codebase into a graph of symbols and the relationships between them, then hands an agent only the nodes a given prompt actually needs, rather than leaving it to grep its way around a large repository. It wires into Claude Code, Cursor, Codex and Gemini through an MCP server and editor hooks, and rebuilds the graph in the background after each turn, so the index never has to be rebuilt by hand.",
+      "appearances": 1,
+      "hiring": {
+        "open_roles": 11,
+        "gtm_roles": 6,
+        "gtm_ratio": 55,
+        "as_of": "2026-08-16"
+      },
+      "track": null,
+      "briefed_on": "2026-08-15",
+      "since": {
+        "moving": true,
+        "metric": "stars",
+        "change_pct": 3.5
+      }
+    },
+    {
+      "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "type": "repo",
+      "brief": "491 new stars in a day, up 43.4%, and forks up 109 to 131, a fork ratio of 8.1%. Its first two issues were filed the same day, alongside 173 HackerNews comments.",
+      "sources": [
+        "github",
+        "hackernews",
+        "lobsters"
+      ],
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "description": "A security research tool that attacks the memory hierarchy from underneath, by reprogramming the DRAM controller's address translation registers on AMD Family 16h processors, the last generation whose datasheets document those registers and confirm they cannot be locked. Remapping physical addresses breaks the assumption every platform security primitive rests on, exposing regions of DRAM the kernel itself cannot see: the Platform Security Processor, System Management Mode, C6 memory and CPU microcode.",
+      "appearances": 1,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-15",
+        "days_ago": 2,
+        "unit": "stars",
+        "then": 1622,
+        "now": 1737,
+        "change_pct": 7.1
+      },
+      "briefed_on": "2026-08-15",
+      "since": {
+        "moving": true,
+        "metric": "stars",
+        "change_pct": 1.8
+      }
+    },
+    {
+      "name": "reflex-dev/xy",
+      "type": "repo",
+      "brief": "13,544 weekly downloads, up 21.4% in a day from 11,161, while stars did not move at all. Seventh straight appearance, and the gap between installing it and bookmarking it has never once closed.",
+      "sources": [
+        "github",
+        "hackernews",
+        "packages"
+      ],
+      "url": "https://github.com/reflex-dev/xy",
+      "description": "A charting library for Python, from the team behind the Reflex web framework. It renders interactive charts directly from Python objects, so the analysis and the chart live in the same place instead of the data being handed to a JavaScript layer to draw. It ships on PyPI, and that is what makes the adoption measurable: a download is someone installing it into a project, a star is someone bookmarking it, and those two numbers have been moving in opposite directions here for two weeks.",
+      "appearances": 7,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-07-31",
+        "days_ago": 17,
+        "unit": "stars",
+        "then": 1007,
+        "now": 1750,
+        "change_pct": 73.8
+      },
+      "briefed_on": "2026-08-14",
+      "since": {
+        "moving": true,
+        "metric": "weekly_downloads",
+        "change_pct": 3.0
+      }
+    },
+    {
+      "name": "TheRealYT/git-knife",
+      "type": "repo",
+      "brief": "Stars 237 to 291 in a day, up 22.8%, with 165 HackerNews points and 101 comments. Forks up 14.3% on the same day: the people who found it are taking the code away, not just reading it.",
+      "sources": [
+        "github",
+        "hackernews",
+        "search_trends"
+      ],
+      "url": "https://github.com/TheRealYT/git-knife",
+      "description": "A desktop GUI for editing git commit metadata: the message, the author, and both the author and the committer dates. Existing git interfaces reword and reorder commits well but treat dates as fixed, and the tools that can rewrite them, git-filter-repo and commit-tree, have no interface at all. git-knife covers that gap by shelling out to the system git and rebuilding each commit from its original tree, so file contents are provably never altered.",
+      "appearances": 1,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-14",
+        "days_ago": 3,
+        "unit": "stars",
+        "then": 291,
+        "now": 356,
+        "change_pct": 22.3
+      },
+      "briefed_on": "2026-08-14",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 4.9
+      }
+    },
+    {
+      "name": "antigma.ai",
+      "type": "domain",
+      "brief": "Forks 34 to 50 in a day, up 47.1%, against stars up 14.5%. Forks growing three times faster than stars, and HackerNews has gone quiet at 1.8%, so the growth is running without a thread behind it.",
+      "sources": [
+        "dataforseo",
+        "github",
+        "hackernews",
+        "openpagerank",
+        "search_trends"
+      ],
+      "url": "https://antigma.ai",
+      "description": "Antigma, a terminal harness for running AI coding agents, published as the repository AntigmaLabs/ante. The agent loop, the tool calls and the sandbox ship in a single binary rather than being assembled from separate services, so the whole run happens on one machine and can be inspected afterwards. For a tool of this kind the fork count is the number that carries information: forking means taking the code away to change it, which is a different act from starring it.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-14",
+      "since": {
+        "moving": true,
+        "metric": "hn_points",
+        "change_pct": 1.2
+      }
+    },
+    {
+      "name": "antirez/h3.c",
+      "type": "repo",
+      "brief": "Stars 533 to 1,432 in a day, up 168.7%, with forks up 184%, open issues up 550% and HackerNews comments up 481%. 71 forks on 1,432 stars is a 5% ratio within hours, and 13 open issues means people are running it on their own machines rather than reading the README.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/antirez/h3.c",
+      "description": "An inference engine written in C that runs the MiniMax H3 language model on Apple hardware, from Salvatore Sanfilippo, who wrote Redis. Its claim is that a model this size can be served from one self contained C program with no Python runtime and no framework at all. That matters because the usual stack is several gigabytes of dependencies before the model itself is even loaded.",
+      "appearances": 1,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-12",
+        "days_ago": 5,
+        "unit": "stars",
+        "then": 1432,
+        "now": 2086,
+        "change_pct": 45.7
+      },
+      "briefed_on": "2026-08-12",
+      "since": {
+        "moving": true,
+        "metric": "open_issues",
+        "change_pct": 8.1
+      }
+    },
+    {
+      "name": "palamim/starboard",
+      "type": "repo",
+      "brief": "Second appearance, and stars, forks and open issues all moved together again: 144 to 156, 6 to 7, 1 to 2. Pushed the same day rather than abandoned after the thread. At this size that is a handful of people, and it is the same handful coming back.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/palamim/starboard",
+      "description": "A macOS terminal that sits permanently beside the Dock instead of appearing on a hotkey. It stays on screen across every Space, including over full screen apps, and never takes focus from whatever you are working in. Inside it is a real login shell, so directory, history and state carry between commands rather than each one starting fresh. The bet is that a terminal you glance at gets used differently from one you summon.",
+      "appearances": 2,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-10",
+        "days_ago": 3,
+        "unit": "stars",
+        "then": 144,
+        "now": 165,
+        "change_pct": 14.6
+      },
+      "briefed_on": "2026-08-11",
       "since": {
         "moving": false,
         "metric": null,
         "change_pct": null
-      }
-    },
-    {
-      "name": "t8y2/dbx",
-      "type": "repo",
-      "brief": "Third appearance. 13,242 stars with 1,344 forks is one fork per ten stars, where most repos manage one in fifty, and the ratio has held for a week rather than spiking and fading. Homebrew installs are the number to watch, because a package manager install puts it on a machine.",
-      "sources": [
-        "github",
-        "homebrew",
-        "packages"
-      ],
-      "url": "https://github.com/t8y2/dbx",
-      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
-      "appearances": 2,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-05",
-        "days_ago": 12,
-        "unit": "stars",
-        "then": 13242,
-        "now": 15195,
-        "change_pct": 14.7
-      },
-      "briefed_on": "2026-08-10",
-      "since": {
-        "moving": true,
-        "metric": "brew_installs_30d",
-        "change_pct": 2.6
       }
     }
   ]

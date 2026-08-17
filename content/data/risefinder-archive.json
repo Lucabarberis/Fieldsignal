@@ -1,6 +1,44 @@
 {
   "days": [
     {
+      "date": "2026-08-17",
+      "count": 2,
+      "items": [
+        {
+          "name": "jitpass.com",
+          "type": "domain",
+          "brief": "Stars went 93 to 115, up 23.7%, behind a HackerNews thread that went 69 comments to 78 while its points moved only 49 to 51. More comments than points is an argument rather than a wave, which for a tool that puts itself between every credential on a developer machine and the tools that read them is the reaction to expect. A month old, and two unrelated collectors saw it move on the same day.",
+          "sources": [
+            "github",
+            "hackernews",
+            "pricing"
+          ],
+          "url": "https://jitpass.com",
+          "description": "jit, a macOS command line tool that finds the credentials sitting in plain text on a developer's machine, in .env files, ~/.aws/credentials, shell exports, .npmrc tokens and MCP configs, and moves them behind Touch ID. Each secret is then handed to the process that asks for it only at the moment it runs. Free, local only, written in Go.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-17"
+        },
+        {
+          "name": "djc/oxish",
+          "type": "repo",
+          "brief": "Stars went 113 to 253 in a day, up 123.9%, and forks doubled from 5 to 10. The discussion moved with it: Lobsters points went 7 to 53 and its comments 1 to 6, while GitHub and HackerNews recorded the same day independently. Three unrelated collectors, and open issues doubled as well, which is what adoption looks like when people are running the thing rather than bookmarking it.",
+          "sources": [
+            "github",
+            "hackernews",
+            "lobsters"
+          ],
+          "url": "https://github.com/djc/oxish",
+          "description": "OxiSH, an SSH server written from scratch in Rust rather than a binding around an existing one. Where it sits is the point: sshd is the daemon most machines leave exposed to the open internet, it has to handle authentication before it can trust anything, and the implementations in wide use are written in C. Dual licensed MIT and Apache 2.0.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-17"
+        }
+      ]
+    },
+    {
       "date": "2026-08-16",
       "count": 2,
       "items": [
