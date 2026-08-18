@@ -125,6 +125,35 @@ export default async function RiseFinderPage({
         meta={`${combined.length} entries · latest ${formatBriefingDay(briefedDay)}`}
       />
 
+      {/* WHY THERE IS NOTHING NEW TODAY, said out loud. Collection is daily and
+          judgement is not, so on any day nothing clears the bar the newest
+          entry is yesterday's and the page looks stale. A reader cannot tell
+          the difference between a system that ran and found nothing worth
+          publishing, one that broke, and one nobody is maintaining. The first
+          is the truth and the most convincing of the three, and it was the only
+          one left invisible.
+
+          Rendered only when the two dates actually differ, so it never states
+          the obvious on a normal day. */}
+      {briefedDay !== data_through && (
+        <div className="px-4 sm:px-9 pt-6 max-w-4xl">
+          <div className="border-l-2 border-red pl-4 py-1 text-body text-ink">
+            Collection ran on {formatBriefingDay(data_through)} and scored{" "}
+            <b>
+              {(
+                (stats as { scored_on_briefing_day?: number })
+                  .scored_on_briefing_day ?? 0
+              ).toLocaleString("en-GB")}
+            </b>{" "}
+            things. Nothing among them met the bar of two unrelated sources
+            agreeing, so the newest entries below are from{" "}
+            {formatBriefingDay(briefedDay)}. Most days genuinely have no
+            breakout, and an entry published to fill the day would be worth less
+            than the silence.
+          </div>
+        </div>
+      )}
+
       <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
         Each entry carries the day we first saw it move, and whether it is{" "}
         <b>still moving</b> on the most recent day of collection. Nothing here is
