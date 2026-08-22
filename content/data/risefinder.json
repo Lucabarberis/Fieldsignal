@@ -1022,7 +1022,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-21T19:50:57Z",
+  "generated_at": "2026-08-22T03:08:30Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -1643,8 +1643,8 @@
       "briefed_on": "2026-08-20",
       "since": {
         "moving": true,
-        "metric": "hn_comments",
-        "change_pct": 62.8
+        "metric": "stars",
+        "change_pct": 14.3
       }
     }
   ],
@@ -1671,11 +1671,7 @@
         "change_pct": 24.7
       },
       "briefed_on": "2026-08-19",
-      "since": {
-        "moving": true,
-        "metric": "lobsters_comments",
-        "change_pct": 187.5
-      }
+      "since": null
     },
     {
       "name": "jitpass.com",
@@ -1697,7 +1693,7 @@
       "since": {
         "moving": true,
         "metric": "stars",
-        "change_pct": 1.0
+        "change_pct": 0.8
       }
     },
     {
@@ -1715,11 +1711,7 @@
       "hiring": null,
       "track": null,
       "briefed_on": "2026-08-17",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
+      "since": null
     },
     {
       "name": "gitlawb.com",
@@ -1744,7 +1736,7 @@
       "since": {
         "moving": true,
         "metric": "forks",
-        "change_pct": 0.5
+        "change_pct": 1.0
       }
     },
     {
@@ -1768,11 +1760,7 @@
         "change_pct": 9.8
       },
       "briefed_on": "2026-08-16",
-      "since": {
-        "moving": true,
-        "metric": "forks",
-        "change_pct": 2.5
-      }
+      "since": null
     },
     {
       "name": "nanonets.ai",
@@ -1801,8 +1789,8 @@
       "briefed_on": "2026-08-15",
       "since": {
         "moving": true,
-        "metric": "open_issues",
-        "change_pct": 26.6
+        "metric": "forks",
+        "change_pct": 2.2
       }
     },
     {
@@ -1828,9 +1816,9 @@
       },
       "briefed_on": "2026-08-15",
       "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 1.1
+        "moving": false,
+        "metric": null,
+        "change_pct": null
       }
     },
     {
@@ -1858,7 +1846,7 @@
       "since": {
         "moving": true,
         "metric": "prior_week_downloads",
-        "change_pct": 7.4
+        "change_pct": 7.1
       }
     },
     {
@@ -1883,11 +1871,7 @@
         "change_pct": 31.6
       },
       "briefed_on": "2026-08-14",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
+      "since": null
     }
   ],
   "combined": [
@@ -1914,8 +1898,8 @@
       "briefed_on": "2026-08-20",
       "since": {
         "moving": true,
-        "metric": "hn_comments",
-        "change_pct": 62.8
+        "metric": "stars",
+        "change_pct": 14.3
       }
     },
     {
@@ -1940,11 +1924,7 @@
         "change_pct": 24.7
       },
       "briefed_on": "2026-08-19",
-      "since": {
-        "moving": true,
-        "metric": "lobsters_comments",
-        "change_pct": 187.5
-      }
+      "since": null
     },
     {
       "name": "jitpass.com",
@@ -1966,7 +1946,7 @@
       "since": {
         "moving": true,
         "metric": "stars",
-        "change_pct": 1.0
+        "change_pct": 0.8
       }
     },
     {
@@ -1984,11 +1964,7 @@
       "hiring": null,
       "track": null,
       "briefed_on": "2026-08-17",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
+      "since": null
     },
     {
       "name": "gitlawb.com",
@@ -2013,7 +1989,7 @@
       "since": {
         "moving": true,
         "metric": "forks",
-        "change_pct": 0.5
+        "change_pct": 1.0
       }
     },
     {
@@ -2037,11 +2013,7 @@
         "change_pct": 9.8
       },
       "briefed_on": "2026-08-16",
-      "since": {
-        "moving": true,
-        "metric": "forks",
-        "change_pct": 2.5
-      }
+      "since": null
     },
     {
       "name": "nanonets.ai",
@@ -2070,8 +2042,8 @@
       "briefed_on": "2026-08-15",
       "since": {
         "moving": true,
-        "metric": "open_issues",
-        "change_pct": 26.6
+        "metric": "forks",
+        "change_pct": 2.2
       }
     },
     {
@@ -2097,9 +2069,9 @@
       },
       "briefed_on": "2026-08-15",
       "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 1.1
+        "moving": false,
+        "metric": null,
+        "change_pct": null
       }
     },
     {
@@ -2127,7 +2099,7 @@
       "since": {
         "moving": true,
         "metric": "prior_week_downloads",
-        "change_pct": 7.4
+        "change_pct": 7.1
       }
     },
     {
@@ -2152,11 +2124,7 @@
         "change_pct": 31.6
       },
       "briefed_on": "2026-08-14",
-      "since": {
-        "moving": false,
-        "metric": null,
-        "change_pct": null
-      }
+      "since": null
     }
   ]
 }
