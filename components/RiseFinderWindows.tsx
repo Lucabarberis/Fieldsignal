@@ -184,8 +184,7 @@ export function RiseFinderWindows({
               GitHub returns repositories matching a search, HackerNews returns
               a front page. There is no <i>every repository</i> file to
               download. So a window over these covers{" "}
-              <b>what has been watched</b>, not what exists. A weaker claim, and
-              worth stating rather than blurring.
+              <b>what has been watched</b>, not what exists.
             </p>
           </div>
 
