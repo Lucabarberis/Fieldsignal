@@ -1,6 +1,49 @@
 {
   "days": [
     {
+      "date": "2026-08-24",
+      "count": 2,
+      "items": [
+        {
+          "name": "luma-touch.com",
+          "type": "domain",
+          "brief": "US paid rank 68 to 46, and charting in four countries where it charted in three. Both app stores carry it and both moved the same way. A paid video editor climbing the paid chart in four storefronts at once is demand, not a promotion in one market.",
+          "sources": [
+            "android_apps",
+            "dataforseo",
+            "ios_apps",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://luma-touch.com",
+          "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-24"
+        },
+        {
+          "name": "peakfinder.com",
+          "type": "domain",
+          "brief": "Best chart position 5 to 3, and 5 to 3 in Germany specifically, holding four countries. Small absolute moves, but inside a top five that is hard to reach at all \u2014 and it is a paid app, so every place gained was bought by someone.",
+          "sources": [
+            "android_apps",
+            "dataforseo",
+            "ios_apps",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://peakfinder.com",
+          "description": "PeakFinder names the mountains around you: point a phone at a skyline and it draws and labels the peaks from elevation data, entirely offline, anywhere in the world. It is a paid app with no subscription, used by hikers, climbers and alpine walkers to identify summits without a signal.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-24"
+        }
+      ]
+    },
+    {
       "date": "2026-08-20",
       "count": 1,
       "items": [
@@ -18,11 +61,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-20",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 537,
-            "now": 694,
-            "change_pct": 29.2
+            "now": 707,
+            "change_pct": 31.7
           },
           "briefed_on": "2026-08-20"
         }
@@ -47,11 +90,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-19",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 401,
-            "now": 562,
-            "change_pct": 40.1
+            "now": 568,
+            "change_pct": 41.6
           },
           "briefed_on": "2026-08-19"
         }
@@ -94,11 +137,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-17",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 253,
-            "now": 312,
-            "change_pct": 23.3
+            "now": 325,
+            "change_pct": 28.5
           },
           "briefed_on": "2026-08-17"
         }
@@ -198,11 +241,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-15",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 1622,
-            "now": 1893,
-            "change_pct": 16.7
+            "now": 1913,
+            "change_pct": 17.9
           },
           "briefed_on": "2026-08-15"
         }
@@ -227,11 +270,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-08-14"
         },
@@ -250,11 +293,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-14",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 291,
-            "now": 425,
-            "change_pct": 46.0
+            "now": 431,
+            "change_pct": 48.1
           },
           "briefed_on": "2026-08-14"
         },
@@ -297,11 +340,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-13",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 1443,
-            "now": 1837,
-            "change_pct": 27.3
+            "now": 1841,
+            "change_pct": 27.6
           },
           "briefed_on": "2026-08-13"
         },
@@ -320,11 +363,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-08-13"
         }
@@ -349,11 +392,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-08-12"
         },
@@ -371,11 +414,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 1432,
-            "now": 2359,
-            "change_pct": 64.7
+            "now": 2384,
+            "change_pct": 66.5
           },
           "briefed_on": "2026-08-12"
         }
@@ -399,11 +442,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 3,
+            "days_ago": 14,
             "unit": "stars",
             "then": 144,
-            "now": 165,
-            "change_pct": 14.6
+            "now": 201,
+            "change_pct": 39.6
           },
           "briefed_on": "2026-08-11"
         }
@@ -449,11 +492,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 3,
+            "days_ago": 14,
             "unit": "stars",
             "then": 144,
-            "now": 165,
-            "change_pct": 14.6
+            "now": 201,
+            "change_pct": 39.6
           },
           "briefed_on": "2026-08-10"
         },
@@ -472,11 +515,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 13242,
-            "now": 16284,
-            "change_pct": 23.0
+            "now": 16355,
+            "change_pct": 23.5
           },
           "briefed_on": "2026-08-10"
         }
@@ -528,11 +571,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-09",
-            "days_ago": 14,
+            "days_ago": 15,
             "unit": "stars",
             "then": 567,
-            "now": 929,
-            "change_pct": 63.8
+            "now": 931,
+            "change_pct": 64.2
           },
           "briefed_on": "2026-08-09"
         }
@@ -580,11 +623,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-08-08"
         },
@@ -602,11 +645,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 217,
-            "now": 301,
-            "change_pct": 38.7
+            "now": 303,
+            "change_pct": 39.6
           },
           "briefed_on": "2026-08-08"
         }
@@ -630,11 +673,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 217,
-            "now": 301,
-            "change_pct": 38.7
+            "now": 303,
+            "change_pct": 39.6
           },
           "briefed_on": "2026-08-07"
         },
@@ -675,10 +718,10 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-07",
-            "days_ago": 16,
+            "days_ago": 17,
             "unit": "stars",
             "then": 30245,
-            "now": 30515,
+            "now": 30528,
             "change_pct": 0.9
           },
           "briefed_on": "2026-08-07"
@@ -753,11 +796,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 217,
-            "now": 301,
-            "change_pct": 38.7
+            "now": 303,
+            "change_pct": 39.6
           },
           "briefed_on": "2026-08-05"
         },
@@ -775,11 +818,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 2196,
-            "now": 6267,
-            "change_pct": 185.4
+            "now": 6290,
+            "change_pct": 186.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -798,11 +841,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 13242,
-            "now": 16284,
-            "change_pct": 23.0
+            "now": 16355,
+            "change_pct": 23.5
           },
           "briefed_on": "2026-08-05"
         },
@@ -820,11 +863,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 16,
+            "days_ago": 19,
             "unit": "stars",
             "then": 67.0,
-            "now": 89.0,
-            "change_pct": 32.8
+            "now": 90.0,
+            "change_pct": 34.3
           },
           "briefed_on": "2026-08-05"
         },
@@ -842,11 +885,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 14,
+            "days_ago": 19,
             "unit": "stars",
             "then": 341,
-            "now": 420,
-            "change_pct": 23.2
+            "now": 424,
+            "change_pct": 24.3
           },
           "briefed_on": "2026-08-05"
         }
@@ -918,11 +961,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 2196,
-            "now": 6267,
-            "change_pct": 185.4
+            "now": 6290,
+            "change_pct": 186.4
           },
           "briefed_on": "2026-08-04"
         }
@@ -969,11 +1012,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-08-03"
         }
@@ -997,11 +1040,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 2196,
-            "now": 6267,
-            "change_pct": 185.4
+            "now": 6290,
+            "change_pct": 186.4
           },
           "briefed_on": "2026-08-02"
         },
@@ -1019,11 +1062,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 21,
+            "days_ago": 22,
             "unit": "stars",
             "then": 5567,
-            "now": 14088,
-            "change_pct": 153.1
+            "now": 14124,
+            "change_pct": 153.7
           },
           "briefed_on": "2026-08-02"
         },
@@ -1171,11 +1214,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 2196,
-            "now": 6267,
-            "change_pct": 185.4
+            "now": 6290,
+            "change_pct": 186.4
           },
           "briefed_on": "2026-08-01"
         },
@@ -1238,11 +1281,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-08-01"
         }
@@ -1267,11 +1310,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 1007,
-            "now": 1778,
-            "change_pct": 76.6
+            "now": 1784,
+            "change_pct": 77.2
           },
           "briefed_on": "2026-07-31"
         },
@@ -1289,11 +1332,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 24,
+            "days_ago": 25,
             "unit": "stars",
             "then": 6090,
-            "now": 10086,
-            "change_pct": 65.6
+            "now": 10126,
+            "change_pct": 66.3
           },
           "briefed_on": "2026-07-31"
         },
@@ -1333,11 +1376,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 2196,
-            "now": 6267,
-            "change_pct": 185.4
+            "now": 6290,
+            "change_pct": 186.4
           },
           "briefed_on": "2026-07-31"
         },
@@ -1405,11 +1448,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 24,
+            "days_ago": 25,
             "unit": "stars",
             "then": 384,
-            "now": 817,
-            "change_pct": 112.8
+            "now": 820,
+            "change_pct": 113.5
           },
           "briefed_on": "2026-07-30"
         },
@@ -1427,11 +1470,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 24,
+            "days_ago": 25,
             "unit": "stars",
             "then": 6090,
-            "now": 10086,
-            "change_pct": 65.6
+            "now": 10126,
+            "change_pct": 66.3
           },
           "briefed_on": "2026-07-30"
         },
