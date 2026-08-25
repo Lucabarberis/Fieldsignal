@@ -396,7 +396,7 @@
           "entity_key": "repo:paulsp94/omacosy",
           "name": "paulsp94/omacosy",
           "entity_type": "repo",
-          "description": null,
+          "description": "Omacosy is a pre-1.0 desktop environment for macOS in the style of Omarchy: tiling windows with a real Super key, a dwindle layout, a purpose-written themed status bar, focus-follows-mouse, trackpad workspace swipes and a live workspace overview. Six self-built Swift binaries in one repository, built and tested on Apple Silicon.",
           "was": 56.0,
           "now": 57.0,
           "unit": "points",
@@ -3148,7 +3148,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-25T08:51:33Z",
+  "generated_at": "2026-08-25T08:56:58Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -3736,177 +3736,67 @@
     }
   ],
   "data_through": "2026-08-25",
-  "briefed_through": "2026-08-24",
+  "briefed_through": "2026-08-25",
   "stats": {
     "entities": 44438,
     "snapshots": 809872,
     "sources_live": 30,
     "first_day": "2026-07-28",
-    "scored_on_briefing_day": 16477,
+    "scored_on_briefing_day": 17121,
     "days_collected": 29
   },
   "items": [
     {
-      "name": "luma-touch.com",
+      "name": "iverify.io",
       "type": "domain",
-      "brief": "US paid rank 68 to 46, and charting in four countries where it charted in three. Both app stores carry it and both moved the same way. A paid video editor climbing the paid chart in four storefronts at once is demand, not a promotion in one market.",
+      "brief": "Open roles 4 to 5, and engineering roles 1 to 2 \u2014 a small board, but it doubled the half of it that builds. Traffic rank improved 1.1% the same day. Hiring is the signal a company pays for months before anything public moves, and a two-person engineering team becoming a four-person one is a decision already taken.",
       "sources": [
-        "android_apps",
-        "crunchbase",
         "dataforseo",
+        "hiring",
         "ios_apps",
         "pricing",
-        "techstack",
-        "tranco",
-        "wikipedia",
-        "youtube"
+        "tranco"
       ],
-      "url": "https://luma-touch.com",
-      "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
+      "url": "https://iverify.io",
+      "description": "iVerify is a mobile endpoint detection and response platform for iOS and Android fleets, built by the team that came out of Trail of Bits. It looks for spyware, smishing, SIM swaps and zero-click exploits on employee phones, and it does so without requiring an MDM enrolment, which is what distinguishes it from most mobile device management tooling.",
       "appearances": 1,
-      "hiring": null,
+      "hiring": {
+        "open_roles": 5,
+        "gtm_roles": 2,
+        "gtm_ratio": 40,
+        "as_of": "2026-08-25"
+      },
       "track": null,
-      "briefed_on": "2026-08-24",
+      "briefed_on": "2026-08-25",
       "since": {
         "moving": true,
-        "metric": "rank_us_top_paid",
-        "change_pct": 49.5
+        "metric": "open_roles",
+        "change_pct": 1.4
       }
     },
     {
-      "name": "peakfinder.com",
-      "type": "domain",
-      "brief": "Best chart position 5 to 3, and 5 to 3 in Germany specifically, holding four countries. Small absolute moves, but inside a top five that is hard to reach at all \u2014 and it is a paid app, so every place gained was bought by someone.",
+      "name": "paulsp94/omacosy",
+      "type": "repo",
+      "brief": "Stars 146 to 151 and forks 3 to 4 in a day, with 57 HackerNews points behind 45 comments. Comments running close to points is argument rather than applause, and forks climbing faster than stars is people running it rather than bookmarking it \u2014 the open issue count went 1 to 0 the same day.",
       "sources": [
-        "android_apps",
-        "dataforseo",
-        "ios_apps",
-        "techstack",
-        "tranco"
+        "github",
+        "hackernews"
       ],
-      "url": "https://peakfinder.com",
-      "description": "PeakFinder names the mountains around you: point a phone at a skyline and it draws and labels the peaks from elevation data, entirely offline, anywhere in the world. It is a paid app with no subscription, used by hikers, climbers and alpine walkers to identify summits without a signal.",
+      "url": "https://github.com/paulsp94/omacosy",
+      "description": "Omacosy is a pre-1.0 desktop environment for macOS in the style of Omarchy: tiling windows with a real Super key, a dwindle layout, a purpose-written themed status bar, focus-follows-mouse, trackpad workspace swipes and a live workspace overview. Six self-built Swift binaries in one repository, built and tested on Apple Silicon.",
       "appearances": 1,
       "hiring": null,
       "track": null,
-      "briefed_on": "2026-08-24",
+      "briefed_on": "2026-08-25",
       "since": {
         "moving": true,
-        "metric": "rank_gb_top_paid",
-        "change_pct": 7.2
+        "metric": "forks",
+        "change_pct": 2.7
       }
     }
   ],
   "still_moving": [
     {
-      "name": "DenisSergeevitch/desktop-fly",
-      "type": "repo",
-      "brief": "Stars 398 to 537 in a day, up 34.9%, with forks 25 to 31, up 24.0%. Open issues 3 to 5 on a repository two days old: people are running it, not just starring it.",
-      "sources": [
-        "github",
-        "hackernews"
-      ],
-      "url": "https://github.com/DenisSergeevitch/desktop-fly",
-      "description": "DesktopFly puts a 3D fruit fly on a macOS desktop and drives it with a live simulation of an actual fly brain. It runs 668 neurons and roughly 19,000 real synaptic connections taken from the FlyWire v783 connectome as a leaky integrate and fire model at 1 kHz, so the behaviour is computed rather than animated. Lunge the cursor at it and the takeoff happens only once the Giant Fiber genuinely spikes through its own synapses, which is why a slow approach is tolerated and a fast one is not.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-20",
-        "days_ago": 5,
-        "unit": "stars",
-        "then": 537,
-        "now": 717,
-        "change_pct": 33.5
-      },
-      "briefed_on": "2026-08-20",
-      "since": {
-        "moving": true,
-        "metric": "forks",
-        "change_pct": 1.3
-      }
-    },
-    {
-      "name": "pg83/solo",
-      "type": "repo",
-      "brief": "Stars 185 to 401 in a day, up 116.8%, with forks 6 to 10, up 66.7%. Its Show HN went from nothing to 171 comments and rank 14, and Lobsters picked it up the same day.",
-      "sources": [
-        "github",
-        "hackernews",
-        "lobsters"
-      ],
-      "url": "https://github.com/pg83/solo",
-      "description": "SoLo lets a fully static Linux executable load the host machine's shared libraries. A musl linked static binary normally cannot dlopen a glibc built GPU driver, which is why graphics software still ships as a container or an AppImage. SoLo supplies its own ELF loader for x86_64 and aarch64 plus a glibc ABI bridge over musl, so one ordinary static file can drive the Vulkan implementation already installed on the machine. Its CI loads shared objects from the 1,000 most installed Debian packages on every commit.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-19",
-        "days_ago": 6,
-        "unit": "stars",
-        "then": 401,
-        "now": 578,
-        "change_pct": 44.1
-      },
-      "briefed_on": "2026-08-19",
-      "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 1.2
-      }
-    },
-    {
-      "name": "jitpass.com",
-      "type": "domain",
-      "brief": "Stars went 93 to 115, up 23.7%, behind a HackerNews thread that went 69 comments to 78 while its points moved only 49 to 51. More comments than points is an argument rather than a wave, which for a tool that puts itself between every credential on a developer machine and the tools that read them is the reaction to expect. A month old, and two unrelated collectors saw it move on the same day.",
-      "sources": [
-        "dataforseo",
-        "github",
-        "hackernews",
-        "pricing",
-        "wikipedia"
-      ],
-      "url": "https://jitpass.com",
-      "description": "jit, a macOS command line tool that finds the credentials sitting in plain text on a developer's machine, in .env files, ~/.aws/credentials, shell exports, .npmrc tokens and MCP configs, and moves them behind Touch ID. Each secret is then handed to the process that asks for it only at the moment it runs. Free, local only, written in Go.",
-      "appearances": 1,
-      "hiring": null,
-      "track": null,
-      "briefed_on": "2026-08-17",
-      "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 1.0
-      }
-    },
-    {
-      "name": "djc/oxish",
-      "type": "repo",
-      "brief": "Stars 113 to 253, up 123.9%, and forks 5 to 10, measured across three days, 14 to 17 August. Open issues 5 to 10 and Lobsters points 7 to 53: people running it, not bookmarking it.",
-      "sources": [
-        "github",
-        "hackernews",
-        "lobsters"
-      ],
-      "url": "https://github.com/djc/oxish",
-      "description": "OxiSH, an SSH server written from scratch in Rust rather than a binding around an existing one. Where it sits is the point: sshd is the daemon most machines leave exposed to the open internet, it has to handle authentication before it can trust anything, and the implementations in wide use are written in C. Dual licensed MIT and Apache 2.0.",
-      "appearances": 1,
-      "hiring": null,
-      "track": {
-        "first_flagged": "2026-08-17",
-        "days_ago": 8,
-        "unit": "stars",
-        "then": 253,
-        "now": 335,
-        "change_pct": 32.4
-      },
-      "briefed_on": "2026-08-17",
-      "since": {
-        "moving": true,
-        "metric": "stars",
-        "change_pct": 1.7
-      }
-    }
-  ],
-  "combined": [
-    {
       "name": "luma-touch.com",
       "type": "domain",
       "brief": "US paid rank 68 to 46, and charting in four countries where it charted in three. Both app stores carry it and both moved the same way. A paid video editor climbing the paid chart in four storefronts at once is demand, not a promotion in one market.",
@@ -4010,56 +3900,160 @@
         "metric": "stars",
         "change_pct": 1.2
       }
-    },
+    }
+  ],
+  "combined": [
     {
-      "name": "jitpass.com",
+      "name": "iverify.io",
       "type": "domain",
-      "brief": "Stars went 93 to 115, up 23.7%, behind a HackerNews thread that went 69 comments to 78 while its points moved only 49 to 51. More comments than points is an argument rather than a wave, which for a tool that puts itself between every credential on a developer machine and the tools that read them is the reaction to expect. A month old, and two unrelated collectors saw it move on the same day.",
+      "brief": "Open roles 4 to 5, and engineering roles 1 to 2 \u2014 a small board, but it doubled the half of it that builds. Traffic rank improved 1.1% the same day. Hiring is the signal a company pays for months before anything public moves, and a two-person engineering team becoming a four-person one is a decision already taken.",
       "sources": [
         "dataforseo",
-        "github",
-        "hackernews",
+        "hiring",
+        "ios_apps",
         "pricing",
-        "wikipedia"
+        "tranco"
       ],
-      "url": "https://jitpass.com",
-      "description": "jit, a macOS command line tool that finds the credentials sitting in plain text on a developer's machine, in .env files, ~/.aws/credentials, shell exports, .npmrc tokens and MCP configs, and moves them behind Touch ID. Each secret is then handed to the process that asks for it only at the moment it runs. Free, local only, written in Go.",
+      "url": "https://iverify.io",
+      "description": "iVerify is a mobile endpoint detection and response platform for iOS and Android fleets, built by the team that came out of Trail of Bits. It looks for spyware, smishing, SIM swaps and zero-click exploits on employee phones, and it does so without requiring an MDM enrolment, which is what distinguishes it from most mobile device management tooling.",
       "appearances": 1,
-      "hiring": null,
+      "hiring": {
+        "open_roles": 5,
+        "gtm_roles": 2,
+        "gtm_ratio": 40,
+        "as_of": "2026-08-25"
+      },
       "track": null,
-      "briefed_on": "2026-08-17",
+      "briefed_on": "2026-08-25",
       "since": {
         "moving": true,
-        "metric": "stars",
-        "change_pct": 1.0
+        "metric": "open_roles",
+        "change_pct": 1.4
       }
     },
     {
-      "name": "djc/oxish",
+      "name": "paulsp94/omacosy",
       "type": "repo",
-      "brief": "Stars 113 to 253, up 123.9%, and forks 5 to 10, measured across three days, 14 to 17 August. Open issues 5 to 10 and Lobsters points 7 to 53: people running it, not bookmarking it.",
+      "brief": "Stars 146 to 151 and forks 3 to 4 in a day, with 57 HackerNews points behind 45 comments. Comments running close to points is argument rather than applause, and forks climbing faster than stars is people running it rather than bookmarking it \u2014 the open issue count went 1 to 0 the same day.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/paulsp94/omacosy",
+      "description": "Omacosy is a pre-1.0 desktop environment for macOS in the style of Omarchy: tiling windows with a real Super key, a dwindle layout, a purpose-written themed status bar, focus-follows-mouse, trackpad workspace swipes and a live workspace overview. Six self-built Swift binaries in one repository, built and tested on Apple Silicon.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-25",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 2.7
+      }
+    },
+    {
+      "name": "luma-touch.com",
+      "type": "domain",
+      "brief": "US paid rank 68 to 46, and charting in four countries where it charted in three. Both app stores carry it and both moved the same way. A paid video editor climbing the paid chart in four storefronts at once is demand, not a promotion in one market.",
+      "sources": [
+        "android_apps",
+        "crunchbase",
+        "dataforseo",
+        "ios_apps",
+        "pricing",
+        "techstack",
+        "tranco",
+        "wikipedia",
+        "youtube"
+      ],
+      "url": "https://luma-touch.com",
+      "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-24",
+      "since": {
+        "moving": true,
+        "metric": "rank_us_top_paid",
+        "change_pct": 49.5
+      }
+    },
+    {
+      "name": "peakfinder.com",
+      "type": "domain",
+      "brief": "Best chart position 5 to 3, and 5 to 3 in Germany specifically, holding four countries. Small absolute moves, but inside a top five that is hard to reach at all \u2014 and it is a paid app, so every place gained was bought by someone.",
+      "sources": [
+        "android_apps",
+        "dataforseo",
+        "ios_apps",
+        "techstack",
+        "tranco"
+      ],
+      "url": "https://peakfinder.com",
+      "description": "PeakFinder names the mountains around you: point a phone at a skyline and it draws and labels the peaks from elevation data, entirely offline, anywhere in the world. It is a paid app with no subscription, used by hikers, climbers and alpine walkers to identify summits without a signal.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-24",
+      "since": {
+        "moving": true,
+        "metric": "rank_gb_top_paid",
+        "change_pct": 7.2
+      }
+    },
+    {
+      "name": "DenisSergeevitch/desktop-fly",
+      "type": "repo",
+      "brief": "Stars 398 to 537 in a day, up 34.9%, with forks 25 to 31, up 24.0%. Open issues 3 to 5 on a repository two days old: people are running it, not just starring it.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "description": "DesktopFly puts a 3D fruit fly on a macOS desktop and drives it with a live simulation of an actual fly brain. It runs 668 neurons and roughly 19,000 real synaptic connections taken from the FlyWire v783 connectome as a leaky integrate and fire model at 1 kHz, so the behaviour is computed rather than animated. Lunge the cursor at it and the takeoff happens only once the Giant Fiber genuinely spikes through its own synapses, which is why a slow approach is tolerated and a fast one is not.",
+      "appearances": 1,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-20",
+        "days_ago": 5,
+        "unit": "stars",
+        "then": 537,
+        "now": 717,
+        "change_pct": 33.5
+      },
+      "briefed_on": "2026-08-20",
+      "since": {
+        "moving": true,
+        "metric": "forks",
+        "change_pct": 1.3
+      }
+    },
+    {
+      "name": "pg83/solo",
+      "type": "repo",
+      "brief": "Stars 185 to 401 in a day, up 116.8%, with forks 6 to 10, up 66.7%. Its Show HN went from nothing to 171 comments and rank 14, and Lobsters picked it up the same day.",
       "sources": [
         "github",
         "hackernews",
         "lobsters"
       ],
-      "url": "https://github.com/djc/oxish",
-      "description": "OxiSH, an SSH server written from scratch in Rust rather than a binding around an existing one. Where it sits is the point: sshd is the daemon most machines leave exposed to the open internet, it has to handle authentication before it can trust anything, and the implementations in wide use are written in C. Dual licensed MIT and Apache 2.0.",
+      "url": "https://github.com/pg83/solo",
+      "description": "SoLo lets a fully static Linux executable load the host machine's shared libraries. A musl linked static binary normally cannot dlopen a glibc built GPU driver, which is why graphics software still ships as a container or an AppImage. SoLo supplies its own ELF loader for x86_64 and aarch64 plus a glibc ABI bridge over musl, so one ordinary static file can drive the Vulkan implementation already installed on the machine. Its CI loads shared objects from the 1,000 most installed Debian packages on every commit.",
       "appearances": 1,
       "hiring": null,
       "track": {
-        "first_flagged": "2026-08-17",
-        "days_ago": 8,
+        "first_flagged": "2026-08-19",
+        "days_ago": 6,
         "unit": "stars",
-        "then": 253,
-        "now": 335,
-        "change_pct": 32.4
+        "then": 401,
+        "now": 578,
+        "change_pct": 44.1
       },
-      "briefed_on": "2026-08-17",
+      "briefed_on": "2026-08-19",
       "since": {
         "moving": true,
         "metric": "stars",
-        "change_pct": 1.7
+        "change_pct": 1.2
       }
     }
   ]

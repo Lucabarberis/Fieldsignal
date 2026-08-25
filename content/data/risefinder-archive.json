@@ -1,6 +1,50 @@
 {
   "days": [
     {
+      "date": "2026-08-25",
+      "count": 2,
+      "items": [
+        {
+          "name": "iverify.io",
+          "type": "domain",
+          "brief": "Open roles 4 to 5, and engineering roles 1 to 2 \u2014 a small board, but it doubled the half of it that builds. Traffic rank improved 1.1% the same day. Hiring is the signal a company pays for months before anything public moves, and a two-person engineering team becoming a four-person one is a decision already taken.",
+          "sources": [
+            "dataforseo",
+            "hiring",
+            "ios_apps",
+            "pricing",
+            "tranco"
+          ],
+          "url": "https://iverify.io",
+          "description": "iVerify is a mobile endpoint detection and response platform for iOS and Android fleets, built by the team that came out of Trail of Bits. It looks for spyware, smishing, SIM swaps and zero-click exploits on employee phones, and it does so without requiring an MDM enrolment, which is what distinguishes it from most mobile device management tooling.",
+          "appearances": 1,
+          "hiring": {
+            "open_roles": 5,
+            "gtm_roles": 2,
+            "gtm_ratio": 40,
+            "as_of": "2026-08-25"
+          },
+          "track": null,
+          "briefed_on": "2026-08-25"
+        },
+        {
+          "name": "paulsp94/omacosy",
+          "type": "repo",
+          "brief": "Stars 146 to 151 and forks 3 to 4 in a day, with 57 HackerNews points behind 45 comments. Comments running close to points is argument rather than applause, and forks climbing faster than stars is people running it rather than bookmarking it \u2014 the open issue count went 1 to 0 the same day.",
+          "sources": [
+            "github",
+            "hackernews"
+          ],
+          "url": "https://github.com/paulsp94/omacosy",
+          "description": "Omacosy is a pre-1.0 desktop environment for macOS in the style of Omarchy: tiling windows with a real Super key, a dwindle layout, a purpose-written themed status bar, focus-follows-mouse, trackpad workspace swipes and a live workspace overview. Six self-built Swift binaries in one repository, built and tested on Apple Silicon.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-25"
+        }
+      ]
+    },
+    {
       "date": "2026-08-24",
       "count": 2,
       "items": [
