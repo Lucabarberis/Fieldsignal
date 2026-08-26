@@ -3514,7 +3514,7 @@
       "items": []
     }
   ],
-  "generated_at": "2026-08-26T22:12:38Z",
+  "generated_at": "2026-08-26T22:17:47Z",
   "windows": [
     {
       "source": "majestic_million",
@@ -4102,16 +4102,88 @@
     }
   ],
   "data_through": "2026-08-26",
-  "briefed_through": "2026-08-25",
+  "briefed_through": "2026-08-26",
   "stats": {
     "entities": 45624,
     "snapshots": 846017,
     "sources_live": 30,
     "first_day": "2026-07-28",
-    "scored_on_briefing_day": 17089,
+    "scored_on_briefing_day": 17719,
     "days_collected": 30
   },
   "items": [
+    {
+      "name": "t8y2/dbx",
+      "type": "repo",
+      "brief": "Week-on-week download growth 1.9% to 19.3%, with Homebrew installs 359 to 374 over thirty days. Two unrelated ways of getting the same tool moved together \u2014 npm and a package manager people use deliberately \u2014 which is harder to arrange than either one alone.",
+      "sources": [
+        "github",
+        "homebrew",
+        "packages"
+      ],
+      "url": "https://github.com/t8y2/dbx",
+      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
+      "appearances": 3,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-05",
+        "days_ago": 21,
+        "unit": "stars",
+        "then": 13242,
+        "now": 16635,
+        "change_pct": 25.6
+      },
+      "briefed_on": "2026-08-26",
+      "since": {
+        "moving": true,
+        "metric": "wow_growth_pct",
+        "change_pct": 64.0
+      }
+    },
+    {
+      "name": "xpay.sh",
+      "type": "domain",
+      "brief": "Its WordPress plugin's download count moved 1,460 to 1,482 while traffic rank improved 1.5% the same day. Small numbers, but the two came from different places: one counts installs on the plugin directory, the other counts people arriving at the site, and neither knows about the other.",
+      "sources": [
+        "dataforseo",
+        "techstack",
+        "tranco",
+        "wordpress"
+      ],
+      "url": "https://xpay.sh",
+      "description": "xpay is a service for making an online store legible to AI shopping agents: it audits and adapts a merchant's catalogue, content and checkout so an assistant can read, recommend and buy from it, then reports the orders that came back through that channel. It offers a free agent-readiness audit without signup, and ships a WordPress plugin for WooCommerce stores.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-26",
+      "since": {
+        "moving": true,
+        "metric": "tranco_rank",
+        "change_pct": 1.0
+      }
+    },
+    {
+      "name": "tobi/walgit",
+      "type": "repo",
+      "brief": "Stars 1,192 to 1,662 and forks 63 to 92 in a day, with HackerNews comments going 8 to 58 on a front-page post. Forks climbing faster than stars means people are standing it up rather than bookmarking it, and a three-day-old repository holding a front page while its comment count grows sevenfold is argument, not applause.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/tobi/walgit",
+      "description": "walgit is a git server that runs as a single binary in front of an object store: no database, no leader, no local state that matters. Point it at an S3 or GCS bucket and it serves smart HTTP fetch and push, bundle-uri clones as static files, Git LFS, a browsing web UI and a JSON API, with every machine running it treated as a disposable cache and the bucket as the repository.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-26",
+      "since": {
+        "moving": true,
+        "metric": "hn_comments",
+        "change_pct": 454.5
+      }
+    }
+  ],
+  "still_moving": [
     {
       "name": "iverify.io",
       "type": "domain",
@@ -4166,9 +4238,7 @@
         "metric": "stars",
         "change_pct": 53.4
       }
-    }
-  ],
-  "still_moving": [
+    },
     {
       "name": "luma-touch.com",
       "type": "domain",
@@ -4276,6 +4346,76 @@
     }
   ],
   "combined": [
+    {
+      "name": "t8y2/dbx",
+      "type": "repo",
+      "brief": "Week-on-week download growth 1.9% to 19.3%, with Homebrew installs 359 to 374 over thirty days. Two unrelated ways of getting the same tool moved together \u2014 npm and a package manager people use deliberately \u2014 which is harder to arrange than either one alone.",
+      "sources": [
+        "github",
+        "homebrew",
+        "packages"
+      ],
+      "url": "https://github.com/t8y2/dbx",
+      "description": "A desktop database client that speaks to more than 70 systems, MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB and SQL Server among them, in a 20 MB download. The same build ships as a desktop app, a Docker image and a command line tool, with an AI assistant and an MCP server included. Most clients of this scope are hundreds of megabytes, so the size is the claim being made.",
+      "appearances": 3,
+      "hiring": null,
+      "track": {
+        "first_flagged": "2026-08-05",
+        "days_ago": 21,
+        "unit": "stars",
+        "then": 13242,
+        "now": 16635,
+        "change_pct": 25.6
+      },
+      "briefed_on": "2026-08-26",
+      "since": {
+        "moving": true,
+        "metric": "wow_growth_pct",
+        "change_pct": 64.0
+      }
+    },
+    {
+      "name": "xpay.sh",
+      "type": "domain",
+      "brief": "Its WordPress plugin's download count moved 1,460 to 1,482 while traffic rank improved 1.5% the same day. Small numbers, but the two came from different places: one counts installs on the plugin directory, the other counts people arriving at the site, and neither knows about the other.",
+      "sources": [
+        "dataforseo",
+        "techstack",
+        "tranco",
+        "wordpress"
+      ],
+      "url": "https://xpay.sh",
+      "description": "xpay is a service for making an online store legible to AI shopping agents: it audits and adapts a merchant's catalogue, content and checkout so an assistant can read, recommend and buy from it, then reports the orders that came back through that channel. It offers a free agent-readiness audit without signup, and ships a WordPress plugin for WooCommerce stores.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-26",
+      "since": {
+        "moving": true,
+        "metric": "tranco_rank",
+        "change_pct": 1.0
+      }
+    },
+    {
+      "name": "tobi/walgit",
+      "type": "repo",
+      "brief": "Stars 1,192 to 1,662 and forks 63 to 92 in a day, with HackerNews comments going 8 to 58 on a front-page post. Forks climbing faster than stars means people are standing it up rather than bookmarking it, and a three-day-old repository holding a front page while its comment count grows sevenfold is argument, not applause.",
+      "sources": [
+        "github",
+        "hackernews"
+      ],
+      "url": "https://github.com/tobi/walgit",
+      "description": "walgit is a git server that runs as a single binary in front of an object store: no database, no leader, no local state that matters. Point it at an S3 or GCS bucket and it serves smart HTTP fetch and push, bundle-uri clones as static files, Git LFS, a browsing web UI and a JSON API, with every machine running it treated as a disposable cache and the bucket as the repository.",
+      "appearances": 1,
+      "hiring": null,
+      "track": null,
+      "briefed_on": "2026-08-26",
+      "since": {
+        "moving": true,
+        "metric": "hn_comments",
+        "change_pct": 454.5
+      }
+    },
     {
       "name": "iverify.io",
       "type": "domain",
