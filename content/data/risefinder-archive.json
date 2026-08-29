@@ -1,6 +1,44 @@
 {
   "days": [
     {
+      "date": "2026-08-29",
+      "count": 2,
+      "items": [
+        {
+          "name": "opslane.com",
+          "type": "domain",
+          "brief": "Stars 16 to 35 and HackerNews points 18 to 35 in a day, with comments 4 to 11 \u2014 comments growing faster than points, and open issues 7 to 9 behind them. Small numbers, and worth saying so: thirty-five stars is a handful of people. What makes it worth a second look is that all four moved together on a project whose pitch is that it opens the pull request itself, which is a claim people either try or ignore.",
+          "sources": [
+            "github",
+            "hackernews",
+            "pricing"
+          ],
+          "url": "https://opslane.com",
+          "description": "Opslane is an open-source error tracking and session replay tool that goes a step further than reporting: it reads the errors and session recordings from a running application, works out which bugs are actually hitting users, and opens a pull request with the fix rather than a ticket. The pitch is closing the loop between an error report and the change that resolves it.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-29"
+        },
+        {
+          "name": "magicpatterns.com",
+          "type": "domain",
+          "brief": "HackerNews points 51 to 55 and comments 23 to 25 while traffic rank improved 1.4% the same day. A modest move on all three, but the third one is the interesting one: attention on a link aggregator is cheap and people arriving at the site afterwards is not, and here the two moved together rather than one without the other.",
+          "sources": [
+            "dataforseo",
+            "hackernews",
+            "tranco"
+          ],
+          "url": "https://magicpatterns.com",
+          "description": "Magic Patterns is an AI design tool for product teams that turns prompts into production-ready user interface code. It works against a team's existing design system rather than generating in isolation, and is aimed at getting from an idea to a shareable prototype quickly enough that design and engineering can iterate on the same artefact.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-08-29"
+        }
+      ]
+    },
+    {
       "date": "2026-08-28",
       "count": 2,
       "items": [
@@ -41,7 +79,14 @@
           "description": "OpenExecutive is an AI-powered virtual executive team: a single coherent executive persona backed by eight specialist Claude agents, built on FastAPI with a Next.js front end. The idea is that a founder or small team can put a question to one \"executive\" and have it answered with the specialist reasoning of a full leadership bench behind it.",
           "appearances": 1,
           "hiring": null,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-28",
+            "days_ago": 1,
+            "unit": "stars",
+            "then": 1650,
+            "now": 2607,
+            "change_pct": 58.0
+          },
           "briefed_on": "2026-08-28"
         }
       ]
@@ -64,11 +109,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 5085,
-            "now": 5196,
-            "change_pct": 2.2
+            "now": 5300,
+            "change_pct": 4.2
           },
           "briefed_on": "2026-08-27"
         },
@@ -86,11 +131,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 1,
+            "days_ago": 2,
             "unit": "stars",
             "then": 158,
-            "now": 172,
-            "change_pct": 8.9
+            "now": 179,
+            "change_pct": 13.3
           },
           "briefed_on": "2026-08-27"
         }
@@ -115,11 +160,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 13242,
-            "now": 17138,
-            "change_pct": 29.4
+            "now": 17312,
+            "change_pct": 30.7
           },
           "briefed_on": "2026-08-26"
         },
@@ -154,11 +199,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-26",
-            "days_ago": 2,
+            "days_ago": 3,
             "unit": "stars",
             "then": 1662,
-            "now": 2265,
-            "change_pct": 36.3
+            "now": 2310,
+            "change_pct": 39.0
           },
           "briefed_on": "2026-08-26"
         }
@@ -205,11 +250,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-25",
-            "days_ago": 3,
+            "days_ago": 4,
             "unit": "stars",
             "then": 151,
-            "now": 485,
-            "change_pct": 221.2
+            "now": 543,
+            "change_pct": 259.6
           },
           "briefed_on": "2026-08-25"
         }
@@ -459,11 +504,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-15",
-            "days_ago": 13,
+            "days_ago": 14,
             "unit": "stars",
             "then": 1622,
-            "now": 1945,
-            "change_pct": 19.9
+            "now": 1952,
+            "change_pct": 20.3
           },
           "briefed_on": "2026-08-15"
         }
@@ -488,11 +533,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-08-14"
         },
@@ -582,11 +627,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-08-13"
         }
@@ -611,11 +656,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-08-12"
         },
@@ -633,11 +678,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 16,
+            "days_ago": 17,
             "unit": "stars",
             "then": 1432,
-            "now": 2472,
-            "change_pct": 72.6
+            "now": 2488,
+            "change_pct": 73.7
           },
           "briefed_on": "2026-08-12"
         }
@@ -661,11 +706,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 144,
-            "now": 209,
-            "change_pct": 45.1
+            "now": 210,
+            "change_pct": 45.8
           },
           "briefed_on": "2026-08-11"
         }
@@ -711,11 +756,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 18,
+            "days_ago": 19,
             "unit": "stars",
             "then": 144,
-            "now": 209,
-            "change_pct": 45.1
+            "now": 210,
+            "change_pct": 45.8
           },
           "briefed_on": "2026-08-10"
         },
@@ -734,11 +779,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 13242,
-            "now": 17138,
-            "change_pct": 29.4
+            "now": 17312,
+            "change_pct": 30.7
           },
           "briefed_on": "2026-08-10"
         }
@@ -842,11 +887,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-08-08"
         },
@@ -1037,11 +1082,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 28,
+            "days_ago": 29,
             "unit": "stars",
             "then": 2196,
-            "now": 6436,
-            "change_pct": 193.1
+            "now": 6468,
+            "change_pct": 194.5
           },
           "briefed_on": "2026-08-05"
         },
@@ -1060,11 +1105,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 13242,
-            "now": 17138,
-            "change_pct": 29.4
+            "now": 17312,
+            "change_pct": 30.7
           },
           "briefed_on": "2026-08-05"
         },
@@ -1082,11 +1127,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 23,
+            "days_ago": 24,
             "unit": "stars",
             "then": 67.0,
-            "now": 92.0,
-            "change_pct": 37.3
+            "now": 93.0,
+            "change_pct": 38.8
           },
           "briefed_on": "2026-08-05"
         },
@@ -1180,11 +1225,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 28,
+            "days_ago": 29,
             "unit": "stars",
             "then": 2196,
-            "now": 6436,
-            "change_pct": 193.1
+            "now": 6468,
+            "change_pct": 194.5
           },
           "briefed_on": "2026-08-04"
         }
@@ -1231,11 +1276,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-08-03"
         }
@@ -1259,11 +1304,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 28,
+            "days_ago": 29,
             "unit": "stars",
             "then": 2196,
-            "now": 6436,
-            "change_pct": 193.1
+            "now": 6468,
+            "change_pct": 194.5
           },
           "briefed_on": "2026-08-02"
         },
@@ -1281,11 +1326,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 26,
+            "days_ago": 27,
             "unit": "stars",
             "then": 5567,
-            "now": 14276,
-            "change_pct": 156.4
+            "now": 14313,
+            "change_pct": 157.1
           },
           "briefed_on": "2026-08-02"
         },
@@ -1433,11 +1478,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 28,
+            "days_ago": 29,
             "unit": "stars",
             "then": 2196,
-            "now": 6436,
-            "change_pct": 193.1
+            "now": 6468,
+            "change_pct": 194.5
           },
           "briefed_on": "2026-08-01"
         },
@@ -1500,11 +1545,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-08-01"
         }
@@ -1529,11 +1574,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 27,
+            "days_ago": 29,
             "unit": "stars",
             "then": 1007,
-            "now": 1792,
-            "change_pct": 78.0
+            "now": 1802,
+            "change_pct": 78.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -1551,11 +1596,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 29,
+            "days_ago": 30,
             "unit": "stars",
             "then": 6090,
-            "now": 10231,
-            "change_pct": 68.0
+            "now": 10250,
+            "change_pct": 68.3
           },
           "briefed_on": "2026-07-31"
         },
@@ -1595,11 +1640,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 28,
+            "days_ago": 29,
             "unit": "stars",
             "then": 2196,
-            "now": 6436,
-            "change_pct": 193.1
+            "now": 6468,
+            "change_pct": 194.5
           },
           "briefed_on": "2026-07-31"
         },
@@ -1645,11 +1690,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 29,
+            "days_ago": 30,
             "unit": "stars",
             "then": 290,
-            "now": 372,
-            "change_pct": 28.3
+            "now": 373,
+            "change_pct": 28.6
           },
           "briefed_on": "2026-07-30"
         },
@@ -1667,11 +1712,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 28,
+            "days_ago": 30,
             "unit": "stars",
             "then": 384,
-            "now": 832,
-            "change_pct": 116.7
+            "now": 833,
+            "change_pct": 116.9
           },
           "briefed_on": "2026-07-30"
         },
@@ -1689,11 +1734,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 29,
+            "days_ago": 30,
             "unit": "stars",
             "then": 6090,
-            "now": 10231,
-            "change_pct": 68.0
+            "now": 10250,
+            "change_pct": 68.3
           },
           "briefed_on": "2026-07-30"
         },
