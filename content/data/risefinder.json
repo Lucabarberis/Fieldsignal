@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:02:19Z",
+  "generated_at": "2026-08-30T10:42:25Z",
   "explorer": [
     {
       "id": "majestic_million",
@@ -8311,7 +8311,7 @@
               "key": "shopify_app:custom-options",
               "name": "Infinite Options: Product opt",
               "url": "https://apps.shopify.com/custom-options",
-              "description": "Adds unlimited custom fields to Shopify products \u2014 text, dropdowns, checkboxes, dates and swatches \u2014 for anything sold personalised.",
+              "description": "Adds unlimited custom fields to Shopify products, including text, dropdowns, checkboxes, dates and swatches, for anything sold personalised.",
               "lower_is_better": false,
               "was": 2440,
               "now": 2445,
@@ -12654,7 +12654,7 @@
               "key": "plugin:gworkspace:form_builder_plus",
               "name": "Form Builder Plus",
               "url": "https://workspace.google.com/marketplace/app/form_builder_plus/235019714744",
-              "description": "Builds a Google Form from almost any source file \u2014 Sheets, Docs, Slides, PDFs, Word, PowerPoint or an image \u2014 rather than from a blank form.",
+              "description": "Builds a Google Form from almost any source file, including Sheets, Docs, Slides, PDFs, Word, PowerPoint or an image, rather than from a blank form.",
               "lower_is_better": false,
               "was": 1297,
               "now": 1298,
@@ -13457,7 +13457,7 @@
               "key": "plugin:codecanyon:45408109",
               "name": "MagicAI - All-In-One SaaS Platform for AI Text, Image and Content Generation",
               "url": "https://codecanyon.net/item/magicai-openai-content-text-image-chat-code-generator-as-saas/45408109",
-              "description": "A ready-made platform for reselling AI features \u2014 chat, image generation and writing tools \u2014 as your own branded subscription product.",
+              "description": "A ready-made platform for reselling AI features such as chat, image generation and writing tools as your own branded subscription product.",
               "lower_is_better": false,
               "was": 9546,
               "now": 9547,
@@ -13513,7 +13513,7 @@
               "key": "plugin:codecanyon:7908619",
               "name": "Extra Product Options & Add-Ons for WooCommerce",
               "url": "https://codecanyon.net/item/woocommerce-extra-product-options/7908619",
-              "description": "Adds custom option fields to WooCommerce products \u2014 engraving, sizing, extras \u2014 with per-option pricing, to raise average order value.",
+              "description": "Adds custom option fields to WooCommerce products, covering engraving, sizing and extras, with per-option pricing to raise average order value.",
               "lower_is_better": false,
               "was": 36571,
               "now": 36572,

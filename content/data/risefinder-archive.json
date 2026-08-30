@@ -432,7 +432,7 @@
             "wikipedia"
           ],
           "url": "https://gitlawb.com",
-          "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at \u2014 Anthropic, OpenAI, Gemini, or a local Ollama install \u2014 rather than being tied to one vendor's service. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it, which is the claim its own tagline leads with.",
+          "description": "Zero, a coding agent that runs in the terminal and works against whichever model it is pointed at, whether Anthropic, OpenAI, Gemini or a local Ollama install, rather than being tied to one vendor. Written in Go and installed through Homebrew, it is built around keeping the model, the machine and the rules in the hands of the person running it.",
           "appearances": 1,
           "hiring": null,
           "track": null,
