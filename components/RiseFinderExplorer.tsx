@@ -137,7 +137,7 @@ function movement(item: ExplorerItem, source: ExplorerSource) {
     item.also_in.length === 1
       ? item.also_in[0]
       : `${item.also_in.slice(0, -1).join(", ")} and ${item.also_in[item.also_in.length - 1]}`;
-  return `${lead} Also rising in ${others} — ${item.also_in.length + 1} unrelated sources have it moving at once, which is the part that is hard to fake.`;
+  return `${lead} Also rising in ${others}. ${item.also_in.length + 1} unrelated sources have it moving at once, which is the part that is hard to fake.`;
 }
 
 export function RiseFinderExplorer({
@@ -398,7 +398,7 @@ export function RiseFinderExplorer({
         >
           <p className="text-body text-ink-2 max-w-4xl mb-4">
             The three windows above are computed nightly and shipped with the
-            page. A custom range is answered live from the stored history —{" "}
+            page. A custom range is answered live from the stored history:{" "}
             <b className="text-ink">every daily reading since collection began</b>.
             Pick one source and two dates.
           </p>
@@ -483,7 +483,7 @@ export function RiseFinderExplorer({
               <>
                 <b className="text-ink">{s.label}</b> publishes a ranked list of
                 every domain it knows, so these are the biggest {s.metric}{" "}
-                improvements <b>across the whole list</b> — a million rows a day,
+                improvements <b>across the whole list</b>: a million rows a day,
                 not a sample.
               </>
             ) : (

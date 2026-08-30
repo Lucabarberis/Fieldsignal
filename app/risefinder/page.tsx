@@ -46,7 +46,7 @@ import { formatBriefingDay } from "@/lib/risefinder";
  */
 
 export const metadata = pageMetadata({
-  title: "RiseFinder — what is rising, before it is obvious",
+  title: "RiseFinder: what is rising, before it is obvious",
   description:
     "A daily scan of public data sources for the fastest-rising websites, repositories, apps, packages and marketplace plugins. Filter by source and by window, with the measured change behind every row.",
   path: "/risefinder",
@@ -153,14 +153,11 @@ export default async function RiseFinderPage({
               is what stops them becoming orphans. */}
           <div className="px-4 sm:px-9 pt-10 pb-2 max-w-4xl">
             <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-              Archive · the daily briefing, {archive.days.length} days
+              Archive
             </div>
             <p className="text-body text-ink-2">
-              Through August this page led with a written shortlist: the few
-              things each day that two unrelated sources agreed were moving,
-              each with an explanation. It is no longer produced — the cut was
-              too small and rested too much on one reading — but the days it
-              covered are kept here as they were written.
+              A written briefing ran every day from 30 July to 29 August 2026.
+              Pick a date to read it.
             </p>
           </div>
           {/* A CALENDAR, NOT A GRID OF TILES. Twenty-seven days is a pleasant

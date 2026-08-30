@@ -9,33 +9,29 @@ import { useMemo, useState } from "react";
  * A GRID OF CARDS DOES NOT SURVIVE ITS OWN SUCCESS. Twenty-seven days is a
  * pleasant row of tiles; three years is a thousand of them, and a page that
  * ends in a thousand tiles has no end. A calendar is the shape this data
- * already has — one entry per day, most days empty — and it stays the same size
- * however many years accumulate.
+ * already has, one entry per day and most days empty, and it stays the same
+ * size however many years accumulate.
+ *
+ * THE HEADING IS TWO CONTROLS, NOT A LABEL. Stepping a month at a time is fine
+ * for last week and useless for eighteen months ago, which is twelve clicks and
+ * a lot of hoping. The month and the year each open their own picker, so any
+ * date in the archive is two clicks away and stays two clicks away as the
+ * archive grows.
  *
  * EVERY DATE IS STILL IN THE MARKUP, and that is not a detail. A month view
  * renders one month of links, so on its own it would orphan every other day the
- * moment the archive outgrew a single month — the exact problem the section was
- * demoted rather than deleted to avoid. The full list is emitted below in a
- * <details>, which crawlers read regardless of the open state and which works
+ * moment the archive outgrew a single month. The full list is emitted below in
+ * a <details>, which crawlers read regardless of its open state and which works
  * with no JavaScript at all.
  */
 
 export type ArchiveDay = { date: string; count: number };
 
 const WEEKDAYS = ["M", "T", "W", "T", "F", "S", "S"];
-
-function monthKey(iso: string) {
-  return iso.slice(0, 7);
-}
-
-function monthLabel(key: string) {
-  const [y, m] = key.split("-").map(Number);
-  return new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString("en-GB", {
-    month: "long",
-    year: "numeric",
-    timeZone: "UTC",
-  });
-}
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
 
 function formatDay(iso: string) {
   const [y, m, d] = iso.split("-").map(Number);
@@ -48,13 +44,11 @@ function formatDay(iso: string) {
 }
 
 /** Monday-first index of the 1st, and how many days the month has. */
-function monthShape(key: string) {
-  const [y, m] = key.split("-").map(Number);
-  const first = new Date(Date.UTC(y, m - 1, 1));
+function monthShape(year: number, month: number) {
+  const first = new Date(Date.UTC(year, month - 1, 1));
   // getUTCDay is Sunday-first; this calendar is Monday-first, as UK ones are.
   const lead = (first.getUTCDay() + 6) % 7;
-  const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
-  return { lead, days, y, m };
+  return { lead, length: new Date(Date.UTC(year, month, 0)).getUTCDate() };
 }
 
 export function RiseFinderArchive({ days }: { days: ArchiveDay[] }) {
@@ -63,101 +57,209 @@ export function RiseFinderArchive({ days }: { days: ArchiveDay[] }) {
     [days],
   );
 
-  // Newest first, because the last thing written is the thing most likely
-  // wanted. Only months that actually contain a briefing are offered — an empty
-  // month is a month nobody needs to page through.
-  const months = useMemo(
-    () => Array.from(new Set(days.map((d) => monthKey(d.date)))).sort().reverse(),
-    [days],
+  /** Which months hold something, as { 2026: Set(7, 8) }. */
+  const filled = useMemo(() => {
+    const out: Record<number, Set<number>> = {};
+    for (const d of days) {
+      const [y, m] = d.date.split("-").map(Number);
+      (out[y] ??= new Set()).add(m);
+    }
+    return out;
+  }, [days]);
+
+  const years = useMemo(
+    () => Object.keys(filled).map(Number).sort((a, b) => b - a),
+    [filled],
   );
 
-  const [index, setIndex] = useState(0);
-  const key = months[index];
-  if (!key) return null;
+  // Newest first, because the last thing written is the thing most likely
+  // wanted.
+  const newest = days.reduce((a, d) => (d.date > a ? d.date : a), "");
+  const [year, setYear] = useState(Number(newest.slice(0, 4)));
+  const [month, setMonth] = useState(Number(newest.slice(5, 7)));
+  const [picking, setPicking] = useState<"month" | "year" | null>(null);
 
-  const { lead, days: length, y, m } = monthShape(key);
+  if (!newest) return null;
+
+  const { lead, length } = monthShape(year, month);
   const cells = Array.from({ length: lead + length }, (_, i) =>
     i < lead
       ? null
-      : `${y}-${String(m).padStart(2, "0")}-${String(i - lead + 1).padStart(2, "0")}`,
+      : `${year}-${String(month).padStart(2, "0")}-${String(i - lead + 1).padStart(2, "0")}`,
   );
-  const inMonth = days.filter((d) => monthKey(d.date) === key);
+  const inMonth = days.filter((d) => d.date.startsWith(`${year}-${String(month).padStart(2, "0")}`));
+
+  /** Move one month, carrying the year, and close any open picker. */
+  function step(by: number) {
+    let m = month + by;
+    let y = year;
+    if (m < 1) { m = 12; y -= 1; }
+    if (m > 12) { m = 1; y += 1; }
+    setMonth(m);
+    setYear(y);
+    setPicking(null);
+  }
+
+  const pickerButton =
+    "font-mono text-[13px] font-semibold tracking-[0.06em] px-2 py-1 border transition-colors";
 
   return (
     <div className="px-4 sm:px-9 pb-10">
-      <div className="max-w-md border border-rule">
-        <div className="flex items-center justify-between border-b border-rule px-4 py-3">
+      <div className="w-full max-w-[26rem] border border-ink bg-paper">
+        {/* Heading: two pickers and a step control either side. */}
+        <div className="flex items-center justify-between gap-2 border-b border-ink px-3 py-2.5">
           <button
             type="button"
-            onClick={() => setIndex((i) => Math.min(i + 1, months.length - 1))}
-            disabled={index >= months.length - 1}
-            aria-label="Earlier month"
-            className="font-mono text-mono text-ink-2 hover:text-red disabled:opacity-25 disabled:cursor-not-allowed px-2"
+            onClick={() => step(-1)}
+            aria-label="Previous month"
+            className="font-mono text-mono text-ink-3 hover:text-red transition-colors px-1.5"
           >
             ←
           </button>
-          <span className="font-mono text-[13px] font-semibold tracking-[0.06em] text-ink">
-            {monthLabel(key)}
-          </span>
+
+          <div className="flex items-center gap-1.5">
+            <button
+              type="button"
+              onClick={() => setPicking(picking === "month" ? null : "month")}
+              aria-expanded={picking === "month"}
+              className={[
+                pickerButton,
+                picking === "month"
+                  ? "bg-ink text-paper border-ink"
+                  : "border-rule-2 text-ink hover:border-ink",
+              ].join(" ")}
+            >
+              {MONTHS[month - 1]} <span className="opacity-50">▾</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setPicking(picking === "year" ? null : "year")}
+              aria-expanded={picking === "year"}
+              className={[
+                pickerButton,
+                picking === "year"
+                  ? "bg-ink text-paper border-ink"
+                  : "border-rule-2 text-ink hover:border-ink",
+              ].join(" ")}
+            >
+              {year} <span className="opacity-50">▾</span>
+            </button>
+          </div>
+
           <button
             type="button"
-            onClick={() => setIndex((i) => Math.max(i - 1, 0))}
-            disabled={index === 0}
-            aria-label="Later month"
-            className="font-mono text-mono text-ink-2 hover:text-red disabled:opacity-25 disabled:cursor-not-allowed px-2"
+            onClick={() => step(1)}
+            aria-label="Next month"
+            className="font-mono text-mono text-ink-3 hover:text-red transition-colors px-1.5"
           >
             →
           </button>
         </div>
 
+        {/* MONTH PICKER. Twelve cells, and a month with nothing in it is
+            disabled rather than hidden, so the shape of the year stays
+            readable: which months this ran and which it did not. */}
+        {picking === "month" && (
+          <div className="grid grid-cols-3 gap-px border-b border-ink bg-rule">
+            {MONTHS.map((name, i) => {
+              const has = filled[year]?.has(i + 1);
+              const active = month === i + 1;
+              return (
+                <button
+                  key={name}
+                  type="button"
+                  disabled={!has}
+                  onClick={() => { setMonth(i + 1); setPicking(null); }}
+                  className={[
+                    "bg-paper py-2.5 font-mono text-micro uppercase tracking-[0.1em] transition-colors",
+                    active ? "bg-ink text-paper" : "text-ink hover:bg-paper-3",
+                    !has ? "text-ink-3 opacity-30 cursor-not-allowed hover:bg-paper" : "",
+                  ].join(" ")}
+                >
+                  {name.slice(0, 3)}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {picking === "year" && (
+          <div className="grid grid-cols-3 gap-px border-b border-ink bg-rule">
+            {years.map((y) => (
+              <button
+                key={y}
+                type="button"
+                onClick={() => {
+                  setYear(y);
+                  // Landing on a month that year never had would show an empty
+                  // grid and look broken. Snap to its latest month instead.
+                  if (!filled[y]?.has(month)) {
+                    setMonth(Math.max(...Array.from(filled[y] ?? [1])));
+                  }
+                  setPicking(null);
+                }}
+                className={[
+                  "bg-paper py-2.5 font-mono text-micro tracking-[0.1em] transition-colors",
+                  year === y ? "bg-ink text-paper" : "text-ink hover:bg-paper-3",
+                ].join(" ")}
+              >
+                {y}
+              </button>
+            ))}
+          </div>
+        )}
+
         <div className="grid grid-cols-7 gap-px bg-rule">
           {WEEKDAYS.map((d, i) => (
             <div
               key={i}
-              className="bg-paper py-1.5 text-center font-mono text-micro uppercase tracking-[0.12em] text-ink-3"
+              className="bg-paper py-2 text-center font-mono text-micro uppercase tracking-[0.12em] text-ink-3"
             >
               {d}
             </div>
           ))}
           {cells.map((iso, i) => {
-            const count = iso ? byDate[iso] : undefined;
-            if (!iso) return <div key={i} className="bg-paper py-2.5" />;
+            if (!iso) return <div key={i} className="bg-paper aspect-square" />;
+            const count = byDate[iso];
             const day = Number(iso.slice(8));
-            return count ? (
+            if (!count) {
+              return (
+                <div
+                  key={i}
+                  className="bg-paper aspect-square flex items-center justify-center font-mono text-mono text-ink-3 opacity-30"
+                >
+                  {day}
+                </div>
+              );
+            }
+            return (
               <Link
                 key={i}
                 href={`/risefinder/${iso}`}
-                title={`${formatDay(iso)} — ${count} ${count === 1 ? "entry" : "entries"}`}
-                className="bg-paper py-2 text-center hover:bg-ink group transition-colors"
+                title={`${formatDay(iso)}: ${count} ${count === 1 ? "entry" : "entries"}`}
+                className="bg-paper aspect-square flex flex-col items-center justify-center gap-0.5 hover:bg-ink group transition-colors"
               >
-                <span className="block font-mono text-mono text-ink group-hover:text-paper">
+                <span className="font-mono text-mono font-semibold text-ink group-hover:text-paper">
                   {day}
                 </span>
-                <span className="block font-mono text-micro text-red group-hover:text-paper">
+                <span className="font-mono text-micro text-red group-hover:text-paper">
                   {count}
                 </span>
               </Link>
-            ) : (
-              <div key={i} className="bg-paper py-2 text-center">
-                <span className="block font-mono text-mono text-ink-3 opacity-40">
-                  {day}
-                </span>
-                <span className="block font-mono text-micro">&nbsp;</span>
-              </div>
             );
           })}
         </div>
 
-        <div className="border-t border-rule px-4 py-2.5 font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
-          {inMonth.length} {inMonth.length === 1 ? "day" : "days"} this month ·{" "}
-          {days.length} in total
+        <div className="border-t border-ink px-3 py-2 font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
+          {inMonth.length} {inMonth.length === 1 ? "day" : "days"} in{" "}
+          {MONTHS[month - 1]} · {days.length} in all
         </div>
       </div>
 
       {/* EVERY DATE, IN THE MARKUP, WHATEVER MONTH IS SHOWING. A crawler reads
-          the contents of a closed <details>; it does not click a month arrow.
+          the contents of a closed <details>; it does not click a month picker.
           Without this the calendar would quietly orphan every day outside the
-          current month, which is the one thing this section was kept to avoid. */}
+          current month. */}
       <details className="mt-4 max-w-4xl">
         <summary className="cursor-pointer font-mono text-micro uppercase tracking-[0.12em] text-ink-3 hover:text-ink">
           All {days.length} days as a list
