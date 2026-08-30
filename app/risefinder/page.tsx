@@ -1,24 +1,40 @@
 import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
-import { RiseFinderList, type Item } from "@/components/RiseFinderList";
 import { RiseFinderSubscribe } from "@/components/RiseFinderSubscribe";
 import { RiseFinderMethod } from "@/components/RiseFinderMethod";
-import { RiseFinderWindows, type WindowBlock } from "@/components/RiseFinderWindows";
+import {
+  RiseFinderExplorer,
+  type ExplorerSource,
+} from "@/components/RiseFinderExplorer";
+import {
+  RiseFinderFunding,
+  type FundingWindow,
+} from "@/components/RiseFinderFunding";
 import { pageMetadata } from "@/lib/seo";
 import data from "@/content/data/risefinder.json";
 import archive from "@/content/data/risefinder-archive.json";
 import { formatBriefingDay } from "@/lib/risefinder";
 
 /**
- * RiseFinder — the daily breakout briefing.
+ * RiseFinder — what is rising, by source and window.
  *
- * UNLISTED BY DESIGN. Nothing links here: not the masthead, not the footer,
- * not the sitemap, and robots.ts disallows the path. It is reachable only by
- * typing the URL. `noindex` is the part that actually enforces that — without
- * it a crawler that discovers the path from a referrer header or a shared link
- * would put it in search results, and "no button" would stop meaning "not
- * public".
+ * PUBLIC AS OF THIS CHANGE. It spent its first month unlisted on purpose:
+ * noindex, disallowed in robots.txt, absent from the sitemap, linked from
+ * nowhere. That was the right posture while the only thing on it was a
+ * hand-written shortlist of a dozen entries. It is now in the masthead, in the
+ * sitemap and indexable, and all three had to move together — a page linked
+ * from every header and then blocked in robots.txt is the configuration that
+ * produces "Indexed, though blocked by robots.txt" in Search Console.
+ *
+ * THE BRIEFING IS GONE. The page used to open with a judged shortlist: the
+ * things that cleared a bar of two unrelated sources agreeing, each with a
+ * written explanation of why it mattered. It read well and it was the weakest
+ * thing here. On a normal day it published two entries out of twelve thousand
+ * scored, the cut was one person's judgement on one morning, and on the days
+ * nobody wrote anything the page had to explain its own silence. What is left
+ * is every measured mover, filterable, with the corroboration count carried
+ * down onto the rows so the good idea in the briefing survives the format.
  *
  * CONTENT COMES FROM A DATA FILE, not from the RiseFinder database. The
  * pipeline runs on a laptop against local SQLite; the site is a static build.
@@ -26,17 +42,15 @@ import { formatBriefingDay } from "@/lib/risefinder";
  * content/data/risefinder.json, and a deploy publishes whatever that file last
  * said. So the update loop is: run the pipeline, export, commit, push.
  *
- * NO SCORES ON THIS PAGE. The build guide is explicit that "the brief is the
- * product. Not the score. The explanation." Numbers that do not change what a
- * reader does next stay in the diagnostic report, which is not deployed.
+ * NO SCORES ON THIS PAGE. Numbers that do not change what a reader does next
+ * stay in the diagnostic report, which is not deployed.
  */
 
 export const metadata = pageMetadata({
-  title: "RiseFinder",
+  title: "RiseFinder — what is rising, before it is obvious",
   description:
-    "A daily briefing on things that are rising before they are obvious. Repos, apps, packages and domains, each with the evidence and a short explanation of what is happening.",
+    "A daily scan of public data sources for the fastest-rising websites, repositories, apps, packages and marketplace plugins. Filter by source and by window, with the measured change behind every row.",
   path: "/risefinder",
-  noindex: true,
 });
 
 export default async function RiseFinderPage({
@@ -45,16 +59,21 @@ export default async function RiseFinderPage({
   searchParams: Promise<{ subscribed?: string; error?: string }>;
 }) {
   const params = await searchParams;
-  const { items, stats, data_through, briefed_through } = data;
-  const combined = (data as { combined?: unknown[] }).combined ?? items;
-  const past = archive.days.filter((d) => d.date !== archive.days[0]?.date);
+  const { stats, data_through } = data;
+  const explorer = (data.explorer ?? []) as ExplorerSource[];
 
-  // Collection is automatic and daily; writing a brief is not. On any day the
-  // writing step is skipped, `data_through` advances and `briefed_through` does
-  // not — and the heading read "Today's briefing" regardless, sitting above
-  // entries judged three days earlier. The label now states the date it is
-  // actually showing, so a missed day is visible rather than papered over.
-  const briefedDay = briefed_through ?? data_through;
+  // Counted from the data rather than written into the prose. Every number in
+  // a sentence on this page has been wrong at least once by being typed.
+  const moving = explorer.reduce(
+    (a, s) => a + (s.windows.find((w) => w.window === "1d")?.items.length ?? 0),
+    0,
+  );
+  const live = explorer.filter((s) => s.windows.some((w) => w.items.length > 0))
+    .length;
+  // Money disclosed in the last 30 days, for the header. The one figure on
+  // this page that is denominated in dollars rather than in attention.
+  const funded =
+    (data.funding ?? []).find((w) => w.window === "30d")?.total ?? 0;
 
   return (
     <>
@@ -68,28 +87,31 @@ export default async function RiseFinderPage({
                 twelve after nine more were added. A number in prose ages
                 silently; one read from the data cannot. */}
             A daily scan of {stats.sources_live} public data sources for things
-            that are <b>rising before they are obvious</b>. Every entry below was seen
-            moving by at least two unrelated collectors on the same day. Any single
-            signal can be bought, so agreement between independent sources is
-            the thing worth reading.
+            that are <b>rising before they are obvious</b>. Websites,
+            repositories, apps, packages and marketplace plugins, each with the
+            measured change behind it. Filter by source and by window — nothing
+            below has been shortlisted, and where more than one unrelated source
+            has the same thing moving, the page says so.
           </>
         }
         meta={[
           { label: "Data through", value: formatBriefingDay(data_through) },
           { label: "Sources live", value: String(stats.sources_live) },
           // WHAT THE FILTER ACTUALLY COSTS, in the header where a visitor
-          // decides whether to keep reading. Eleven entries reads as thin
-          // unless you know it is eleven out of 3,669 measured and scored the
-          // same day. "Measurements 591,650" was impressive and abstract; this
-          // is the same claim made checkable.
+          // decides whether to keep reading.
           {
-            label: "Scored yesterday",
+            label: "Measured yesterday",
             value: (
               (stats as { scored_on_briefing_day?: number })
                 .scored_on_briefing_day ?? 0
             ).toLocaleString("en-GB"),
           },
-          { label: "Published", value: String(combined.length) },
+          { label: "Moving today", value: String(moving) },
+          { label: "Sources reporting", value: String(live) },
+          {
+            label: "Funding disclosed, 30d",
+            value: `$${(funded / 1_000_000_000).toFixed(1)}bn`,
+          },
         ]}
       />
 
@@ -106,79 +128,35 @@ export default async function RiseFinderPage({
         </div>
       )}
 
-      {/* ALWAYS DATED. This said "Today's briefing" with no date whenever the
-          brief day matched the data day — which is true even when both are
-          yesterday, because collection runs once a day and the briefing follows
-          the data, not the clock. A reader in New Zealand on the 15th saw
-          "Today's briefing" above 14 August's entries and reasonably asked what
-          was wrong. The date is never a cost to show and repeatedly a cost to
-          omit. */}
-      {/* ONE LIST, NOT TWO. The briefing and the days behind it were separate
-          sections, which put two identical looking type filters on one page
-          doing different things, and made a reader work out that the second was
-          not a second product. The per card date stamp already prevents an
-          older entry reading as today's, which is the only thing the split was
-          protecting against. */}
-      <SectionBand
-        num="01"
-        label="The briefing"
-        meta={`${combined.length} entries · latest ${formatBriefingDay(briefedDay)}`}
-      />
+      <RiseFinderExplorer sources={explorer} dataThrough={data_through} />
 
-      {/* WHY THERE IS NOTHING NEW TODAY, said out loud. Collection is daily and
-          judgement is not, so on any day nothing clears the bar the newest
-          entry is yesterday's and the page looks stale. A reader cannot tell
-          the difference between a system that ran and found nothing worth
-          publishing, one that broke, and one nobody is maintaining. The first
-          is the truth and the most convincing of the three, and it was the only
-          one left invisible.
-
-          Rendered only when the two dates actually differ, so it never states
-          the obvious on a normal day. */}
-      {briefedDay !== data_through && (
-        <div className="px-4 sm:px-9 pt-6 max-w-4xl">
-          <div className="border-l-2 border-red pl-4 py-1 text-body text-ink">
-            Collection ran on {formatBriefingDay(data_through)} and scored{" "}
-            <b>
-              {(
-                (stats as { scored_on_briefing_day?: number })
-                  .scored_on_briefing_day ?? 0
-              ).toLocaleString("en-GB")}
-            </b>{" "}
-            things. Nothing among them met the bar of two unrelated sources
-            agreeing, so the newest entries below are from{" "}
-            {formatBriefingDay(briefedDay)}. Most days genuinely have no
-            breakout, and an entry published to fill the day would be worth less
-            than the silence.
-          </div>
-        </div>
-      )}
-
-      <div className="px-4 sm:px-9 pt-6 max-w-4xl text-body text-ink-2">
-        Each entry carries the day we first saw it move, and whether it is{" "}
-        <b>still moving</b> on the most recent day of collection. Nothing here is
-        a prediction: every figure is a measured change, and every entry was seen
-        by at least two unrelated sources.
-      </div>
-
-      <RiseFinderList items={combined as Item[]} stampDate />
-
-      <RiseFinderWindows
-        windows={(data.windows ?? []) as WindowBlock[]}
-        tracked={(data.tracked_windows ?? []) as WindowBlock[]}
-      />
+      <RiseFinderFunding windows={(data.funding ?? []) as FundingWindow[]} />
 
       <RiseFinderSubscribe />
 
-      {past.length > 0 && (
+      {archive.days.length > 0 && (
         <>
+          {/* THE RETIRED BRIEFING, KEPT AS A RECORD. These are the judged
+              shortlists from the month the page led with them. They are not
+              produced any more, so this is an archive rather than a feature —
+              but the days themselves were real, each entry was written against
+              evidence, and the pages are already indexed. Deleting them to tidy
+              up the navigation would throw away the only dated record of what
+              this system called early. */}
           <SectionBand
-            num="04"
-            label="Previous briefings"
-            meta={`${past.length} archived`}
+            num="03"
+            label="Archive · the daily briefing"
+            meta={`${archive.days.length} days · retired`}
           />
+          <div className="px-4 sm:px-9 pt-6 pb-2 max-w-4xl text-body text-ink-2">
+            Through August the page led with a written shortlist: the few things
+            each day that two unrelated sources agreed were moving, each with an
+            explanation. It is no longer produced — the cut was too small and too
+            dependent on one reading — but the days it covered are kept here as
+            written.
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule">
-            {past.map((d) => (
+            {archive.days.map((d) => (
               <Link
                 key={d.date}
                 href={`/risefinder/${d.date}`}
@@ -196,11 +174,11 @@ export default async function RiseFinderPage({
         </>
       )}
 
-      <RiseFinderMethod num="05" />
+      <RiseFinderMethod num="04" />
 
       <div className="px-4 sm:px-9 pb-12 font-mono text-micro uppercase tracking-[0.08em] text-ink-3">
-        Data through {formatBriefingDay(data_through)} ·{" "}
-        {stats.days_collected} days collected
+        Data through {formatBriefingDay(data_through)} · {stats.days_collected}{" "}
+        days collected
       </div>
     </>
   );

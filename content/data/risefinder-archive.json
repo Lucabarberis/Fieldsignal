@@ -14,7 +14,7 @@
             "pricing"
           ],
           "url": "https://opslane.com",
-          "description": "Opslane is an open-source error tracking and session replay tool that goes a step further than reporting: it reads the errors and session recordings from a running application, works out which bugs are actually hitting users, and opens a pull request with the fix rather than a ticket. The pitch is closing the loop between an error report and the change that resolves it.",
+          "description": null,
           "appearances": 1,
           "hiring": null,
           "track": null,
@@ -30,7 +30,7 @@
             "tranco"
           ],
           "url": "https://magicpatterns.com",
-          "description": "Magic Patterns is an AI design tool for product teams that turns prompts into production-ready user interface code. It works against a team's existing design system rather than generating in isolation, and is aimed at getting from an idea to a shareable prototype quickly enough that design and engineering can iterate on the same artefact.",
+          "description": null,
           "appearances": 1,
           "hiring": null,
           "track": null,

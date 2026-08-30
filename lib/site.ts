@@ -38,6 +38,16 @@ export const SITE = {
 } as const;
 
 export const NAV_LINKS = [
+  // RISEFINDER SITS FIRST, AHEAD OF SERVICES. It is the only thing on the bar
+  // that changes every day, and the only one a visitor might come back for
+  // without being in a buying cycle. Everything after it is evergreen.
+  //
+  // The bar holds nine before it wraps, so adding one meant removing one:
+  // "Tools" was a single page (the cost estimator) and now hangs off Resources
+  // alongside the guides and the glossary, which is where a reader already
+  // looks for it. Nothing was orphaned — the estimator keeps its URL and both
+  // the Resources hover panel and the footer still link it.
+  { href: "/risefinder", label: "RiseFinder" },
   { href: "/services", label: "Services" },
   { href: "/gtm-intelligence", label: "GTM Intelligence" },
   { href: "/industries", label: "Sectors" },
@@ -45,7 +55,6 @@ export const NAV_LINKS = [
   { href: "/transcripts", label: "Transcripts" },
   { href: "/pricing", label: "Pricing" },
   { href: "/alternatives", label: "Alternatives" },
-  { href: "/tools/expert-network-cost-estimator", label: "Tools" },
   { href: "/resources", label: "Resources" },
 ] as const;
 
@@ -57,6 +66,11 @@ export const NAV_PREVIEWS: Record<
   string,
   { blurb: string; sublinks?: readonly { href: string; label: string }[] }
 > = {
+  "/risefinder": {
+    blurb:
+      "A daily scan of public data for things that are rising before they are obvious. Filter by source and window.",
+    sublinks: [{ href: "/risefinder", label: "Today's risers" }],
+  },
   "/services": {
     blurb: "Expert consultations, panel calls and B2B surveys — scoped to your research question.",
     sublinks: [
@@ -98,26 +112,15 @@ export const NAV_PREVIEWS: Record<
       { href: "/compare", label: "Head-to-head" },
     ],
   },
-  "/tools/expert-network-cost-estimator": {
-    blurb: "Free interactive tools built on our published research.",
-    sublinks: [
-      {
-        href: "/tools/expert-network-cost-estimator",
-        label: "Cost estimator",
-      },
-      {
-        href: "/resources/blog/expert-network-pricing-and-pay-benchmark-2026",
-        label: "Pricing & pay benchmark",
-      },
-    ],
-  },
   "/resources": {
-    blurb: "Guides, the research glossary, and the FieldSignal blog.",
+    blurb: "Guides, the research glossary, the cost estimator, and the FieldSignal blog.",
     sublinks: [
       { href: "/resources/blog", label: "Blog" },
-      { href: "/resources/case-studies", label: "Case Studies" },
       { href: "/resources/guides", label: "Guides" },
       { href: "/resources/glossary", label: "Glossary" },
+      // The estimator's own nav slot went to RiseFinder. This is now the only
+      // link to it in the masthead, so it is not optional.
+      { href: "/tools/expert-network-cost-estimator", label: "Cost Estimator" },
     ],
   },
 };

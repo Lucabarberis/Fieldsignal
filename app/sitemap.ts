@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
 import { CONTENT_MODIFIED } from "@/content/data/content-modified";
+import risefinder from "@/content/data/risefinder.json";
+import risefinderArchive from "@/content/data/risefinder-archive.json";
 import { getAllPosts } from "@/lib/posts";
 import { services } from "@/content/data/services";
 import { industries } from "@/content/data/industries";
@@ -56,6 +58,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
     // Core
     { url: `${SITE.url}/`, changeFrequency: "monthly", priority: 1.0 },
+    // RiseFinder. The only daily-changing page on the site, so it is the only
+    // one that earns changeFrequency "daily" — and it carries a real
+    // lastModified because, unlike every other static route here, it has an
+    // actual content date to report: the last day collection ran.
+    {
+      url: `${SITE.url}/risefinder`,
+      lastModified: new Date(risefinder.data_through),
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
     { url: `${SITE.url}/about`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/team`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.url}/pricing`, changeFrequency: "monthly", priority: 0.9 },
@@ -285,8 +297,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
+  // Archived briefings. Each is a prerendered page of dated, unchanging
+  // entries, so it gets its own date and never claims to change again.
+  const risefinderRoutes: MetadataRoute.Sitemap = risefinderArchive.days.map(
+    (d) => ({
+      url: `${SITE.url}/risefinder/${d.date}`,
+      lastModified: new Date(d.date),
+      changeFrequency: "yearly" as const,
+      priority: 0.5,
+    }),
+  );
+
   return [
     ...staticRoutes,
+    ...risefinderRoutes,
     ...serviceRoutes,
     ...industryRoutes,
     ...subnicheRoutes,
