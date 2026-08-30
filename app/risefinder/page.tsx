@@ -134,26 +134,35 @@ export default async function RiseFinderPage({
 
       <RiseFinderSubscribe />
 
+      <RiseFinderMethod num="03" />
+
       {archive.days.length > 0 && (
         <>
-          {/* THE RETIRED BRIEFING, KEPT AS A RECORD. These are the judged
-              shortlists from the month the page led with them. They are not
-              produced any more, so this is an archive rather than a feature —
-              but the days themselves were real, each entry was written against
-              evidence, and the pages are already indexed. Deleting them to tidy
-              up the navigation would throw away the only dated record of what
-              this system called early. */}
-          <SectionBand
-            num="03"
-            label="Archive · the daily briefing"
-            meta={`${archive.days.length} days · retired`}
-          />
-          <div className="px-4 sm:px-9 pt-6 pb-2 max-w-4xl text-body text-ink-2">
-            Through August the page led with a written shortlist: the few things
-            each day that two unrelated sources agreed were moving, each with an
-            explanation. It is no longer produced — the cut was too small and too
-            dependent on one reading — but the days it covered are kept here as
-            written.
+          {/* THE RETIRED BRIEFING, DEMOTED BUT NOT DELETED.
+              
+              It had a numbered section of its own, which gave a product that no
+              longer exists the same billing as the two that do. It now sits
+              below the method, unnumbered, as what it is: a record.
+
+              NOT REMOVED, and the filter above is not a replacement for it.
+              That answers "what moved between two dates" from stored numbers.
+              These are 73 entries of written interpretation across 27 dated
+              pages — roughly eight thousand words that no query reproduces, and
+              the only evidence of what this system called early. All 27 are
+              indexed and in the sitemap, so deleting them would also be
+              deleting 27 live URLs. Every one is still linked from here, which
+              is what stops them becoming orphans. */}
+          <div className="px-4 sm:px-9 pt-10 pb-2 max-w-4xl">
+            <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
+              Archive · the daily briefing, {archive.days.length} days
+            </div>
+            <p className="text-body text-ink-2">
+              Through August this page led with a written shortlist: the few
+              things each day that two unrelated sources agreed were moving,
+              each with an explanation. It is no longer produced — the cut was
+              too small and rested too much on one reading — but the days it
+              covered are kept here as they were written.
+            </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule">
             {archive.days.map((d) => (
@@ -173,8 +182,6 @@ export default async function RiseFinderPage({
           </div>
         </>
       )}
-
-      <RiseFinderMethod num="04" />
 
       <div className="px-4 sm:px-9 pb-12 font-mono text-micro uppercase tracking-[0.08em] text-ink-3">
         Data through {formatBriefingDay(data_through)} · {stats.days_collected}{" "}
