@@ -1,6 +1,4 @@
-import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
-import { SectionBand } from "@/components/SectionBand";
 import { RiseFinderSubscribe } from "@/components/RiseFinderSubscribe";
 import { RiseFinderMethod } from "@/components/RiseFinderMethod";
 import {
@@ -11,6 +9,7 @@ import {
   RiseFinderFunding,
   type FundingWindow,
 } from "@/components/RiseFinderFunding";
+import { RiseFinderArchive } from "@/components/RiseFinderArchive";
 import { pageMetadata } from "@/lib/seo";
 import data from "@/content/data/risefinder.json";
 import archive from "@/content/data/risefinder-archive.json";
@@ -164,22 +163,12 @@ export default async function RiseFinderPage({
               covered are kept here as they were written.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule">
-            {archive.days.map((d) => (
-              <Link
-                key={d.date}
-                href={`/risefinder/${d.date}`}
-                className="bg-paper px-7 py-6 hover:bg-paper-3 transition-colors"
-              >
-                <div className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mb-2">
-                  {d.count} {d.count === 1 ? "entry" : "entries"}
-                </div>
-                <div className="font-mono text-[14px] font-semibold tracking-[0.06em] text-ink">
-                  {formatBriefingDay(d.date)} →
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* A CALENDAR, NOT A GRID OF TILES. Twenty-seven days is a pleasant
+              row; three years is a thousand tiles and a page with no end. The
+              data is one entry per day and mostly empty days, which is what a
+              calendar already is, and it stays the same size however long this
+              runs. */}
+          <RiseFinderArchive days={archive.days} />
         </>
       )}
 
