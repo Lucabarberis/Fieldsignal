@@ -50,7 +50,22 @@ export function createRiseFinderClient(): SupabaseClient {
     );
   }
 
-  cached = createClient(url, key, {
+  // THE SHAPE OF THE VALUE, CHECKED BEFORE THE CLIENT REJECTS IT. createClient
+  // answers "Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL", which is
+  // accurate and does not say the likeliest cause: the whole .env line was
+  // pasted into the dashboard, so the value is
+  // "SUPABASE_URL=https://..." rather than "https://...". Quotes and a
+  // trailing newline do the same thing and look identical in a form field.
+  if (!/^https?:\/\//.test(url.trim())) {
+    throw new Error(
+      "RISEFINDER_SUPABASE_URL does not start with http:// or https://. It is " +
+        `${url.length} characters long. The usual cause is pasting the whole ` +
+        "line from .env, so the value reads SUPABASE_URL=https://... instead " +
+        "of https://... — paste only the part after the equals sign, with no quotes.",
+    );
+  }
+
+  cached = createClient(url.trim(), key.trim(), {
     auth: { persistSession: false, autoRefreshToken: false },
   });
   return cached;
