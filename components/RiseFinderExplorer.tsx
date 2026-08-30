@@ -275,7 +275,11 @@ export function RiseFinderExplorer({
       <SectionBand
         num="01"
         label="Risers by source"
-        meta={`${rows.length} moving · ${WINDOWS.find((w) => w.key === win)?.label}`}
+        meta={
+          win === "custom" && !custom
+            ? "Custom range · pick a source and two dates"
+            : `${rows.length} moving · ${WINDOWS.find((w) => w.key === win)?.label}`
+        }
       />
 
       <div className="px-4 sm:px-9 py-6 max-w-4xl">
@@ -329,32 +333,58 @@ export function RiseFinderExplorer({
         <span className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 mr-1">
           Source
         </span>
-        {[{ id: "all", label: "Everything", unit_noun: "" }, ...sources].map((s) => {
-          const active = source === s.id;
-          const n =
-            s.id === "all"
-              ? blocks.reduce((a, b) => a + b.block.items.length, 0)
-              : (blocks.find((b) => b.source.id === s.id)?.block.items.length ?? 0);
-          return (
-            <button
-              key={s.id}
-              type="button"
-              onClick={() => choose(() => setSource(s.id))}
-              aria-pressed={active}
-              disabled={n === 0 && s.id !== "all"}
-              title={s.unit_noun || undefined}
-              className={[
-                "font-mono text-micro uppercase tracking-[0.12em] px-3 py-2 border transition-colors",
-                active
-                  ? "bg-ink text-paper border-ink"
-                  : "border-rule-2 text-ink-2 hover:text-ink hover:border-ink",
-                n === 0 && s.id !== "all" ? "opacity-35 cursor-not-allowed" : "",
-              ].join(" ")}
-            >
-              {s.label} <span className="opacity-60">{n}</span>
-            </button>
-          );
-        })}
+        {[{ id: "all", label: "Everything", unit_noun: "", metric_key: null }, ...sources].map(
+          (s) => {
+            const active = source === s.id;
+            // COUNTS BELONG TO A PRECOMPUTED WINDOW AND CUSTOM IS NOT ONE.
+            //
+            // `blocks` looks up the window named by `win`, and no source has a
+            // window called "custom" — so in custom mode every count came back
+            // zero, every chip disabled itself on that zero, and the form below
+            // said "choose one source above" while making it impossible. The
+            // control asked for something it had just forbidden.
+            //
+            // A custom range has no count until it has been run, so none is
+            // shown. What matters instead is whether a source CAN answer one.
+            const n =
+              s.id === "all"
+                ? blocks.reduce((a, b) => a + b.block.items.length, 0)
+                : (blocks.find((b) => b.source.id === s.id)?.block.items.length ?? 0);
+
+            // Majestic and Tranco are computed from stored rank files rather
+            // than the snapshot table, so Postgres cannot answer a date range
+            // for them however the dates are chosen. "Everything" is out too:
+            // the endpoint answers one source at a time.
+            const off = win === "custom"
+              ? s.id === "all" || !s.metric_key
+              : n === 0 && s.id !== "all";
+
+            return (
+              <button
+                key={s.id}
+                type="button"
+                onClick={() => choose(() => setSource(s.id))}
+                aria-pressed={active}
+                disabled={off}
+                title={
+                  win === "custom" && !s.metric_key && s.id !== "all"
+                    ? `${s.label} is computed from stored rank files, so it cannot answer a date range`
+                    : s.unit_noun || undefined
+                }
+                className={[
+                  "font-mono text-micro uppercase tracking-[0.12em] px-3 py-2 border transition-colors",
+                  active
+                    ? "bg-ink text-paper border-ink"
+                    : "border-rule-2 text-ink-2 hover:text-ink hover:border-ink",
+                  off ? "opacity-35 cursor-not-allowed" : "",
+                ].join(" ")}
+              >
+                {s.label}
+                {win !== "custom" && <span className="opacity-60"> {n}</span>}
+              </button>
+            );
+          },
+        )}
       </div>
 
       {/* THE CUSTOM RANGE. Everything above this point is baked into the
@@ -484,14 +514,22 @@ export function RiseFinderExplorer({
       {rows.length === 0 ? (
         <div className="px-4 sm:px-9 py-10 max-w-4xl">
           <div className="font-mono text-mono uppercase text-ink-3 mb-2">
-            Nothing to show for this window
+            {/* AN UNRUN QUERY IS NOT AN EMPTY RESULT. Before a custom range has
+                been submitted there is nothing to show because nothing has been
+                asked, and saying "nothing to show for this window" made a
+                waiting form read as a broken one. */}
+            {win === "custom" && !custom
+              ? "No range run yet"
+              : "Nothing to show for this window"}
           </div>
           <p className="text-body text-ink-2">
-            {waiting.length > 0
-              ? `This window needs more days of collection than have been stored. The first of these opens in ${Math.min(
-                  ...waiting.map((w) => w.block.opens_in),
-                )} days.`
-              : "Collection ran and nothing in this source cleared the noise floor over this window."}
+            {win === "custom" && !custom
+              ? "Choose one source, set a start and end date, and the stored history will be queried for the biggest movers between them."
+              : waiting.length > 0
+                ? `This window needs more days of collection than have been stored. The first of these opens in ${Math.min(
+                    ...waiting.map((w) => w.block.opens_in),
+                  )} days.`
+                : "Collection ran and nothing in this source cleared the noise floor over this window."}
           </p>
         </div>
       ) : (
