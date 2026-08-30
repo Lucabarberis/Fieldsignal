@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T03:29:30Z",
+  "generated_at": "2026-08-30T05:17:45Z",
   "explorer": [
     {
       "id": "majestic_million",
@@ -81,7 +81,7 @@
               "key": "domain:line.biz",
               "name": "line.biz",
               "url": "https://line.biz",
-              "description": null,
+              "description": "The business side of LINE, the messaging app that is default infrastructure in Japan, Taiwan and Thailand. This is where companies run official accounts, broadcast to followers and build in-chat storefronts.",
               "lower_is_better": true,
               "was": 24188,
               "now": 3696,
@@ -207,7 +207,7 @@
               "key": "domain:museumofwesternco.com",
               "name": "museumofwesternco.com",
               "url": "https://museumofwesternco.com",
-              "description": null,
+              "description": "The Museums of Western Colorado, a group of regional history and dinosaur museums around Grand Junction.",
               "lower_is_better": true,
               "was": 390530,
               "now": 86506,
@@ -232,24 +232,10 @@
               "also_in": []
             },
             {
-              "key": "domain:bola169vip.com",
-              "name": "bola169vip.com",
-              "url": "https://bola169vip.com",
-              "description": null,
-              "lower_is_better": true,
-              "was": 560081,
-              "now": 131103,
-              "unit": "backlink rank",
-              "gain_pct": 76.6,
-              "from_day": "2026-08-28",
-              "to_day": "2026-08-29",
-              "also_in": []
-            },
-            {
               "key": "domain:smart-retailer.com",
               "name": "smart-retailer.com",
               "url": "https://smart-retailer.com",
-              "description": null,
+              "description": "A trade publication and buyers' directory for independent retail, covering gift and home shops in the United States.",
               "lower_is_better": true,
               "was": 745681,
               "now": 179080,
@@ -316,20 +302,6 @@
               "also_in": []
             },
             {
-              "key": "domain:1-win-apk.com.co",
-              "name": "1-win-apk.com.co",
-              "url": "https://1-win-apk.com.co",
-              "description": null,
-              "lower_is_better": true,
-              "was": 680007,
-              "now": 181753,
-              "unit": "backlink rank",
-              "gain_pct": 73.3,
-              "from_day": "2026-08-28",
-              "to_day": "2026-08-29",
-              "also_in": []
-            },
-            {
               "key": "domain:julianospizza.com",
               "name": "julianospizza.com",
               "url": "https://julianospizza.com",
@@ -361,12 +333,40 @@
               "key": "domain:goplay.co.id",
               "name": "goplay.co.id",
               "url": "https://goplay.co.id",
-              "description": null,
+              "description": "GoPlay, the Indonesian streaming service from GoTo, the group behind Gojek and Tokopedia, carrying local drama and live entertainment.",
               "lower_is_better": true,
               "was": 509788,
               "now": 147743,
               "unit": "backlink rank",
               "gain_pct": 71.0,
+              "from_day": "2026-08-28",
+              "to_day": "2026-08-29",
+              "also_in": []
+            },
+            {
+              "key": "domain:kumojapanbeckleywv.com",
+              "name": "kumojapanbeckleywv.com",
+              "url": "https://kumojapanbeckleywv.com",
+              "description": null,
+              "lower_is_better": true,
+              "was": 297859,
+              "now": 86569,
+              "unit": "backlink rank",
+              "gain_pct": 70.9,
+              "from_day": "2026-08-28",
+              "to_day": "2026-08-29",
+              "also_in": []
+            },
+            {
+              "key": "domain:libra168.co.in",
+              "name": "libra168.co.in",
+              "url": "https://libra168.co.in",
+              "description": null,
+              "lower_is_better": true,
+              "was": 518206,
+              "now": 150633,
+              "unit": "backlink rank",
+              "gain_pct": 70.9,
               "from_day": "2026-08-28",
               "to_day": "2026-08-29",
               "also_in": []
@@ -456,7 +456,7 @@
               "key": "domain:line.biz",
               "name": "line.biz",
               "url": "https://line.biz",
-              "description": null,
+              "description": "The business side of LINE, the messaging app that is default infrastructure in Japan, Taiwan and Thailand. This is where companies run official accounts, broadcast to followers and build in-chat storefronts.",
               "lower_is_better": true,
               "was": 24574,
               "now": 3696,
@@ -582,7 +582,7 @@
               "key": "domain:museumofwesternco.com",
               "name": "museumofwesternco.com",
               "url": "https://museumofwesternco.com",
-              "description": null,
+              "description": "The Museums of Western Colorado, a group of regional history and dinosaur museums around Grand Junction.",
               "lower_is_better": true,
               "was": 410003,
               "now": 86506,
@@ -691,20 +691,6 @@
               "also_in": []
             },
             {
-              "key": "domain:bola169vip.com",
-              "name": "bola169vip.com",
-              "url": "https://bola169vip.com",
-              "description": null,
-              "lower_is_better": true,
-              "was": 534104,
-              "now": 131103,
-              "unit": "backlink rank",
-              "gain_pct": 75.5,
-              "from_day": "2026-08-22",
-              "to_day": "2026-08-29",
-              "also_in": []
-            },
-            {
               "key": "domain:lomedis.com",
               "name": "lomedis.com",
               "url": "https://lomedis.com",
@@ -728,6 +714,20 @@
               "now": 175417,
               "unit": "backlink rank",
               "gain_pct": 74.9,
+              "from_day": "2026-08-22",
+              "to_day": "2026-08-29",
+              "also_in": []
+            },
+            {
+              "key": "domain:vizcom.com",
+              "name": "vizcom.com",
+              "url": "https://vizcom.com",
+              "description": null,
+              "lower_is_better": true,
+              "was": 388821,
+              "now": 99132,
+              "unit": "backlink rank",
+              "gain_pct": 74.5,
               "from_day": "2026-08-22",
               "to_day": "2026-08-29",
               "also_in": []
@@ -784,7 +784,7 @@
               "key": "domain:viasat.io",
               "name": "viasat.io",
               "url": "https://viasat.io",
-              "description": null,
+              "description": "Viasat, a satellite communications operator supplying broadband to aircraft, ships and rural households, and defence communications to governments.",
               "lower_is_better": true,
               "was": 17478,
               "now": 7974,
@@ -798,7 +798,7 @@
               "key": "domain:databricks.us",
               "name": "databricks.us",
               "url": "https://databricks.us",
-              "description": null,
+              "description": "A Databricks domain. Databricks sells a data and AI platform built on Apache Spark and the lakehouse model, and filed a five billion dollar round with the SEC on 28 August, which also appears in the funding section of this page.",
               "lower_is_better": true,
               "was": 373271,
               "now": 174479,
@@ -854,7 +854,7 @@
               "key": "domain:swiftype.net",
               "name": "swiftype.net",
               "url": "https://swiftype.net",
-              "description": null,
+              "description": "Swiftype was a hosted site search product, acquired by Elastic in 2017 and folded into Elastic Enterprise Search. The domain still serves the infrastructure behind installations that have not migrated.",
               "lower_is_better": true,
               "was": 107424,
               "now": 61271,
@@ -888,6 +888,20 @@
               "now": 127327,
               "unit": "traffic rank",
               "gain_pct": 38.2,
+              "from_day": "2026-08-28",
+              "to_day": "2026-08-29",
+              "also_in": []
+            },
+            {
+              "key": "domain:clubsextury21.com",
+              "name": "clubsextury21.com",
+              "url": "https://clubsextury21.com",
+              "description": null,
+              "lower_is_better": true,
+              "was": 227206,
+              "now": 148068,
+              "unit": "traffic rank",
+              "gain_pct": 34.8,
               "from_day": "2026-08-28",
               "to_day": "2026-08-29",
               "also_in": []
@@ -994,7 +1008,7 @@
               "key": "domain:seagate.com",
               "name": "seagate.com",
               "url": "https://seagate.com",
-              "description": null,
+              "description": "Seagate Technology, one of the two remaining makers of hard disk drives, alongside Western Digital. Sells storage to consumers and, increasingly, to data centres.",
               "lower_is_better": true,
               "was": 4641,
               "now": 3336,
@@ -1092,24 +1106,10 @@
               "key": "domain:nixys.io",
               "name": "nixys.io",
               "url": "https://nixys.io",
-              "description": null,
+              "description": "Nixys, a DevOps and cloud infrastructure consultancy that also publishes open-source Kubernetes and backup tooling.",
               "lower_is_better": true,
               "was": 230600,
               "now": 170581,
-              "unit": "traffic rank",
-              "gain_pct": 26.0,
-              "from_day": "2026-08-28",
-              "to_day": "2026-08-29",
-              "also_in": []
-            },
-            {
-              "key": "domain:bagsadmin.com",
-              "name": "bagsadmin.com",
-              "url": "https://bagsadmin.com",
-              "description": null,
-              "lower_is_better": true,
-              "was": 255646,
-              "now": 189291,
               "unit": "traffic rank",
               "gain_pct": 26.0,
               "from_day": "2026-08-28",
@@ -1394,6 +1394,20 @@
               "also_in": []
             },
             {
+              "key": "domain:hot-matures.vip",
+              "name": "hot-matures.vip",
+              "url": "https://hot-matures.vip",
+              "description": null,
+              "lower_is_better": true,
+              "was": 678956,
+              "now": 153329,
+              "unit": "traffic rank",
+              "gain_pct": 77.4,
+              "from_day": "2026-08-22",
+              "to_day": "2026-08-29",
+              "also_in": []
+            },
+            {
               "key": "domain:statsigapi.net",
               "name": "statsigapi.net",
               "url": "https://statsigapi.net",
@@ -1459,20 +1473,6 @@
               "now": 118776,
               "unit": "traffic rank",
               "gain_pct": 76.5,
-              "from_day": "2026-08-22",
-              "to_day": "2026-08-29",
-              "also_in": []
-            },
-            {
-              "key": "domain:sabb.tech",
-              "name": "sabb.tech",
-              "url": "https://sabb.tech",
-              "description": null,
-              "lower_is_better": true,
-              "was": 271596,
-              "now": 64419,
-              "unit": "traffic rank",
-              "gain_pct": 76.3,
               "from_day": "2026-08-22",
               "to_day": "2026-08-29",
               "also_in": []
@@ -1603,7 +1603,7 @@
               "key": "repo:elyosh/opentie",
               "name": "elyosh/OpenTIE",
               "url": "https://github.com/elyosh/OpenTIE",
-              "description": null,
+              "description": "An open-source project that gained 125 to 217 stars in a day with no description set on the repository, which is unusual enough to be worth noting: a repository climbing this fast normally has a README pitch.",
               "lower_is_better": false,
               "was": 125,
               "now": 217,
@@ -1719,7 +1719,7 @@
               "key": "repo:breslee1707/vi-translate",
               "name": "breslee1707/VI-Translate",
               "url": "https://github.com/breslee1707/VI-Translate",
-              "description": null,
+              "description": "A Vietnamese translation tool published on GitHub. The repository carries no description, so what it translates between and how is not stated by the author.",
               "lower_is_better": false,
               "was": 259,
               "now": 373,
@@ -1733,7 +1733,7 @@
               "key": "repo:hejustinsun/my-girlfriend-jingtian-latex",
               "name": "HEJustinSun/my-girlfriend-jingtian-latex",
               "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
-              "description": null,
+              "description": "A LaTeX template published as a personal project, one of the joke or tribute repositories that periodically collect stars quickly on GitHub without being software anyone installs.",
               "lower_is_better": false,
               "was": 2624,
               "now": 3778,
@@ -1803,7 +1803,7 @@
               "key": "repo:pound0423/ai-drama-pound",
               "name": "POUND0423/AI-drama-pound",
               "url": "https://github.com/POUND0423/AI-drama-pound",
-              "description": null,
+              "description": "A Chinese-language repository around AI-generated drama and short-form video. The author has left it undescribed, so the specific function is not stated.",
               "lower_is_better": false,
               "was": 379,
               "now": 496,
@@ -2657,7 +2657,7 @@
               "key": "repo:elyosh/opentie",
               "name": "elyosh/OpenTIE",
               "url": "https://github.com/elyosh/OpenTIE",
-              "description": null,
+              "description": "An open-source project that gained 125 to 217 stars in a day with no description set on the repository, which is unusual enough to be worth noting: a repository climbing this fast normally has a README pitch.",
               "lower_is_better": false,
               "was": 134,
               "now": 217,
@@ -7333,7 +7333,7 @@
               "key": "extension:chrome:jhnleheckmknfcgijgkadoemagpecfol",
               "name": "Auto Tab Discard (suspend)",
               "url": "https://chromewebstore.google.com/detail/jhnleheckmknfcgijgkadoemagpecfol",
-              "description": null,
+              "description": "Suspends browser tabs that have not been used for a set time, freeing the memory they hold while keeping them in the tab strip.",
               "lower_is_better": false,
               "was": 383,
               "now": 384,
@@ -7347,7 +7347,7 @@
               "key": "extension:chrome:eljapbgkmlngdpckoiiibecpemleclhh",
               "name": "Fonts Ninja",
               "url": "https://chromewebstore.google.com/detail/eljapbgkmlngdpckoiiibecpemleclhh",
-              "description": null,
+              "description": "Identifies the fonts used on any web page by hovering over the text, and lets designers try them in their own layouts.",
               "lower_is_better": false,
               "was": 896,
               "now": 897,
@@ -7456,7 +7456,7 @@
               "key": "extension:chrome:jhnleheckmknfcgijgkadoemagpecfol",
               "name": "Auto Tab Discard (suspend)",
               "url": "https://chromewebstore.google.com/detail/jhnleheckmknfcgijgkadoemagpecfol",
-              "description": null,
+              "description": "Suspends browser tabs that have not been used for a set time, freeing the memory they hold while keeping them in the tab strip.",
               "lower_is_better": false,
               "was": 382,
               "now": 384,
@@ -8431,7 +8431,7 @@
             {
               "key": "launch:ph:1233567",
               "name": "Speko",
-              "url": null,
+              "url": "https://www.producthunt.com/products/speko",
               "description": "A single API in front of many voice and speech models, the way OpenRouter is a single API in front of many text models, so switching provider does not mean rewriting.",
               "lower_is_better": false,
               "was": 233,
@@ -8445,7 +8445,7 @@
             {
               "key": "launch:ph:1214277",
               "name": "Skydive",
-              "url": null,
+              "url": "https://www.producthunt.com/products/skydive",
               "description": "Builds agents that run in the cloud and act across the tools a company already uses, rather than in a chat window on one machine.",
               "lower_is_better": false,
               "was": 387,
@@ -8459,7 +8459,7 @@
             {
               "key": "launch:ph:1113358",
               "name": "Lenz",
-              "url": null,
+              "url": "https://www.producthunt.com/products/lenz-2",
               "description": "A fact-checking API that runs a claim past several independent models and reports where they disagree, meant to sit inside another AI product rather than be used directly.",
               "lower_is_better": false,
               "was": 242,
@@ -8473,7 +8473,7 @@
             {
               "key": "launch:ph:1232678",
               "name": "GitNexus (Akon Labs)",
-              "url": null,
+              "url": "https://www.producthunt.com/products/gitnexus-akon-labs",
               "description": "An open-source core for building coding agents, handling the parts every agent needs \u2014 running tools, tracking file state, managing the session \u2014 so a team is not rebuilding that layer.",
               "lower_is_better": false,
               "was": 142,
@@ -8487,7 +8487,7 @@
             {
               "key": "launch:ph:1227752",
               "name": "Enter Pro",
-              "url": null,
+              "url": "https://www.producthunt.com/products/enter-pro",
               "description": "A hosting and deployment platform built around applications that are written by agents rather than by people, handling the infrastructure those need.",
               "lower_is_better": false,
               "was": 367,
@@ -8501,7 +8501,7 @@
             {
               "key": "launch:ph:1229394",
               "name": "Traccia",
-              "url": null,
+              "url": "https://www.producthunt.com/products/traccia",
               "description": "A control plane for AI agents that is not tied to one model vendor, giving one place to set policy, route requests and watch what agents are doing across providers.",
               "lower_is_better": false,
               "was": 186,
@@ -8515,7 +8515,7 @@
             {
               "key": "launch:ph:1207898",
               "name": "Yomi",
-              "url": null,
+              "url": "https://www.producthunt.com/products/yomi-3",
               "description": "A reading companion for children built around a cat character that listens while they read aloud, aimed at making reading practice something a child chooses.",
               "lower_is_better": false,
               "was": 148,
@@ -8529,7 +8529,7 @@
             {
               "key": "launch:ph:1230722",
               "name": "SpacebarX",
-              "url": null,
+              "url": "https://www.producthunt.com/products/spacebarx",
               "description": "A keyboard-first outliner that holds notes, tasks and projects in one nested document, for people who would rather never touch a mouse.",
               "lower_is_better": false,
               "was": 120,
@@ -8543,7 +8543,7 @@
             {
               "key": "launch:ph:1204828",
               "name": "Memoria",
-              "url": null,
+              "url": "https://www.producthunt.com/products/memoria-5",
               "description": "Photo search that runs entirely on your own machine: finds images by description, spoken word, object or face, with nothing uploaded.",
               "lower_is_better": false,
               "was": 152,
@@ -8557,7 +8557,7 @@
             {
               "key": "launch:ph:1232208",
               "name": "Mac mini",
-              "url": null,
+              "url": "https://www.producthunt.com/products/apple",
               "description": "Apple's Mac mini, refreshed with the M6 and M5 Pro chips.",
               "lower_is_better": false,
               "was": 116,
@@ -8571,7 +8571,7 @@
             {
               "key": "launch:ph:1230818",
               "name": "Altar II",
-              "url": null,
+              "url": "https://www.producthunt.com/products/electronic-materials-office-altar-i",
               "description": "A mechanical keyboard designed to match Apple hardware, filling a gap Apple has never made a product for.",
               "lower_is_better": false,
               "was": 130,
@@ -8585,7 +8585,7 @@
             {
               "key": "launch:ph:1233386",
               "name": "Gemini 3.5 Transcribe",
-              "url": null,
+              "url": "https://www.producthunt.com/products/gemini-3-5-transcribe",
               "description": "Google's speech-to-text model in the Gemini 3.5 family, sold on transcription accuracy rather than on speed or price.",
               "lower_is_better": false,
               "was": 220,
@@ -8599,7 +8599,7 @@
             {
               "key": "launch:ph:1222691",
               "name": "Meridian",
-              "url": null,
+              "url": "https://www.producthunt.com/products/meridian-16",
               "description": "Keeps a record of what someone actually did at work over a review period, so the case for a promotion is evidenced rather than remembered.",
               "lower_is_better": false,
               "was": 511,
@@ -8613,7 +8613,7 @@
             {
               "key": "launch:ph:1230236",
               "name": "Purchase API by Agentcard",
-              "url": null,
+              "url": "https://www.producthunt.com/products/agent-card",
               "description": "An API that lets an autonomous agent complete an online purchase in a single call, handling the checkout and payment steps a browser agent otherwise has to click through.",
               "lower_is_better": false,
               "was": 131,
@@ -8627,7 +8627,7 @@
             {
               "key": "launch:ph:1232603",
               "name": "OpenComputer",
-              "url": null,
+              "url": "https://www.producthunt.com/products/opencomputer",
               "description": "A hosted backend for AI agents, offering the ready-made building blocks Firebase gives mobile apps: storage, state and identity, shaped for agents instead.",
               "lower_is_better": false,
               "was": 138,
@@ -8641,7 +8641,7 @@
             {
               "key": "launch:ph:1218375",
               "name": "Hubble",
-              "url": null,
+              "url": "https://www.producthunt.com/products/hubble-11",
               "description": "An API for retrieving patient medical records, targeting the sources other health data APIs cannot reach.",
               "lower_is_better": false,
               "was": 204,
@@ -8655,7 +8655,7 @@
             {
               "key": "launch:ph:1229949",
               "name": "WorldMap.lol",
-              "url": null,
+              "url": "https://www.producthunt.com/products/worldmap-lol",
               "description": "Puts a startup on a public world map, a directory organised by geography rather than by category.",
               "lower_is_better": false,
               "was": 194,
@@ -8669,7 +8669,7 @@
             {
               "key": "launch:ph:1216588",
               "name": "akta.pro",
-              "url": null,
+              "url": "https://www.producthunt.com/products/akta-pro",
               "description": "An API of private company data and signals, built to be queried by agents rather than read by an analyst.",
               "lower_is_better": false,
               "was": 425,
@@ -8683,7 +8683,7 @@
             {
               "key": "launch:ph:1229906",
               "name": "Bumply",
-              "url": null,
+              "url": "https://www.producthunt.com/products/bumply",
               "description": "Updates a project's dependencies and keeps every change reversible, so an upgrade that breaks the build can be undone rather than debugged.",
               "lower_is_better": false,
               "was": 113,
@@ -8697,7 +8697,7 @@
             {
               "key": "launch:ph:1202963",
               "name": "Clipto MCP",
-              "url": null,
+              "url": "https://www.producthunt.com/products/clipto-ai",
               "description": "An MCP server that lets an agent search and pull clips out of a local video library, so terabytes of footage become addressable without uploading any of it.",
               "lower_is_better": false,
               "was": 601,
@@ -8711,7 +8711,7 @@
             {
               "key": "launch:ph:1223171",
               "name": "AirBuddy 3",
-              "url": null,
+              "url": "https://www.producthunt.com/products/airbuddy-2",
               "description": "A macOS utility for managing AirPods and other Bluetooth devices, showing battery levels and switching them between Macs in one click.",
               "lower_is_better": false,
               "was": 130,
@@ -8725,7 +8725,7 @@
             {
               "key": "launch:ph:1225417",
               "name": "Shepherd Terminal",
-              "url": null,
+              "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
               "description": "A terminal that keeps Codex and Claude running side by side in persistent sessions, so neither loses its context when a window closes.",
               "lower_is_better": false,
               "was": 119,
@@ -8739,7 +8739,7 @@
             {
               "key": "launch:ph:1231169",
               "name": "Termy",
-              "url": null,
+              "url": "https://www.producthunt.com/products/termy-language-learning",
               "description": "Teaches languages from material the learner already watches \u2014 games, videos and web pages \u2014 instead of from a fixed course.",
               "lower_is_better": false,
               "was": 122,
@@ -8753,7 +8753,7 @@
             {
               "key": "launch:ph:1220459",
               "name": "Replay QA for Teams",
-              "url": null,
+              "url": "https://www.producthunt.com/products/replayio",
               "description": "Autonomous QA that tests a product continuously, aimed at teams shipping faster than they can manually verify.",
               "lower_is_better": false,
               "was": 150,
@@ -8767,7 +8767,7 @@
             {
               "key": "launch:ph:1224615",
               "name": "Superflow AI",
-              "url": null,
+              "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
               "description": "Agents that click through a website before it ships and report what breaks, replacing a manual pre-launch QA pass.",
               "lower_is_better": false,
               "was": 269,
@@ -8792,7 +8792,7 @@
             {
               "key": "launch:ph:1202963",
               "name": "Clipto MCP",
-              "url": null,
+              "url": "https://www.producthunt.com/products/clipto-ai",
               "description": "An MCP server that lets an agent search and pull clips out of a local video library, so terabytes of footage become addressable without uploading any of it.",
               "lower_is_better": false,
               "was": 474,
@@ -8806,7 +8806,7 @@
             {
               "key": "launch:ph:1222691",
               "name": "Meridian",
-              "url": null,
+              "url": "https://www.producthunt.com/products/meridian-16",
               "description": "Keeps a record of what someone actually did at work over a review period, so the case for a promotion is evidenced rather than remembered.",
               "lower_is_better": false,
               "was": 460,
@@ -8820,7 +8820,7 @@
             {
               "key": "launch:ph:1227471",
               "name": "fx (by Vercel)",
-              "url": null,
+              "url": "https://www.producthunt.com/products/fx-by-vercel",
               "description": null,
               "lower_is_better": false,
               "was": 201,
@@ -8834,7 +8834,7 @@
             {
               "key": "launch:ph:1224395",
               "name": "Astute",
-              "url": null,
+              "url": "https://www.producthunt.com/products/astute-2",
               "description": null,
               "lower_is_better": false,
               "was": 532,
@@ -8848,7 +8848,7 @@
             {
               "key": "launch:ph:1223186",
               "name": "Mindcase",
-              "url": null,
+              "url": "https://www.producthunt.com/products/mindcase",
               "description": null,
               "lower_is_better": false,
               "was": 228,
@@ -8862,7 +8862,7 @@
             {
               "key": "launch:ph:1220506",
               "name": "Supernova",
-              "url": null,
+              "url": "https://www.producthunt.com/products/supernova-ai",
               "description": null,
               "lower_is_better": false,
               "was": 309,
@@ -8876,7 +8876,7 @@
             {
               "key": "launch:ph:1225966",
               "name": "Origin by Cursor",
-              "url": null,
+              "url": "https://www.producthunt.com/products/cursor",
               "description": null,
               "lower_is_better": false,
               "was": 343,
@@ -8890,7 +8890,7 @@
             {
               "key": "launch:ph:1221450",
               "name": "nenspace",
-              "url": null,
+              "url": "https://www.producthunt.com/products/nenspace/launches/nenspace",
               "description": null,
               "lower_is_better": false,
               "was": 142,
@@ -8904,7 +8904,7 @@
             {
               "key": "launch:ph:1227181",
               "name": "Plow Latch",
-              "url": null,
+              "url": "https://www.producthunt.com/products/plow-latch",
               "description": null,
               "lower_is_better": false,
               "was": 140,
@@ -8918,7 +8918,7 @@
             {
               "key": "launch:ph:1227218",
               "name": "Hermai Brand API",
-              "url": null,
+              "url": "https://www.producthunt.com/products/hermai-brand-api",
               "description": null,
               "lower_is_better": false,
               "was": 139,
@@ -8932,7 +8932,7 @@
             {
               "key": "launch:ph:1215949",
               "name": "HyNote for Mac",
-              "url": null,
+              "url": "https://www.producthunt.com/products/hynote-ai",
               "description": null,
               "lower_is_better": false,
               "was": 377,
@@ -8946,7 +8946,7 @@
             {
               "key": "launch:ph:1228265",
               "name": "Antigravity IDE Extensions",
-              "url": null,
+              "url": "https://www.producthunt.com/products/google-antigravity",
               "description": null,
               "lower_is_better": false,
               "was": 156,
@@ -8960,7 +8960,7 @@
             {
               "key": "launch:ph:1222356",
               "name": "Expert Chase 2.0",
-              "url": null,
+              "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920",
               "description": null,
               "lower_is_better": false,
               "was": 136,
@@ -8974,7 +8974,7 @@
             {
               "key": "launch:ph:1224529",
               "name": "Vendo",
-              "url": null,
+              "url": "https://www.producthunt.com/products/vendo",
               "description": null,
               "lower_is_better": false,
               "was": 359,
@@ -8988,7 +8988,7 @@
             {
               "key": "launch:ph:1227792",
               "name": "Wizstar",
-              "url": null,
+              "url": "https://www.producthunt.com/products/wizstar",
               "description": null,
               "lower_is_better": false,
               "was": 319,
@@ -9002,7 +9002,7 @@
             {
               "key": "launch:ph:1221388",
               "name": "Samepage Artifacts",
-              "url": null,
+              "url": "https://www.producthunt.com/products/samepage-signals",
               "description": null,
               "lower_is_better": false,
               "was": 117,
@@ -9016,7 +9016,7 @@
             {
               "key": "launch:ph:1220287",
               "name": "Grok Bot",
-              "url": null,
+              "url": "https://www.producthunt.com/products/grok/launches/grok-bot",
               "description": null,
               "lower_is_better": false,
               "was": 530,
@@ -9030,7 +9030,7 @@
             {
               "key": "launch:ph:1227327",
               "name": "The New Calendly",
-              "url": null,
+              "url": "https://www.producthunt.com/products/calendly",
               "description": null,
               "lower_is_better": false,
               "was": 209,
@@ -9044,7 +9044,7 @@
             {
               "key": "launch:ph:1216898",
               "name": "Paper Critters",
-              "url": null,
+              "url": "https://www.producthunt.com/products/paper-critters",
               "description": null,
               "lower_is_better": false,
               "was": 137,
@@ -9058,7 +9058,7 @@
             {
               "key": "launch:ph:1226377",
               "name": "Fairphone Gen 6+",
-              "url": null,
+              "url": "https://www.producthunt.com/products/fairphone",
               "description": null,
               "lower_is_better": false,
               "was": 137,
@@ -9072,7 +9072,7 @@
             {
               "key": "launch:ph:1226457",
               "name": "MeetStream AI",
-              "url": null,
+              "url": "https://www.producthunt.com/products/meetstream-ai",
               "description": null,
               "lower_is_better": false,
               "was": 178,
@@ -9086,7 +9086,7 @@
             {
               "key": "launch:ph:1226841",
               "name": "Grok 4.6",
-              "url": null,
+              "url": "https://www.producthunt.com/products/grok-4-6-7",
               "description": null,
               "lower_is_better": false,
               "was": 296,
@@ -9100,7 +9100,7 @@
             {
               "key": "launch:ph:1223212",
               "name": "OpenTrade",
-              "url": null,
+              "url": "https://www.producthunt.com/products/opentrade",
               "description": null,
               "lower_is_better": false,
               "was": 161,
@@ -9114,7 +9114,7 @@
             {
               "key": "launch:ph:1224615",
               "name": "Superflow AI",
-              "url": null,
+              "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
               "description": "Agents that click through a website before it ships and report what breaks, replacing a manual pre-launch QA pass.",
               "lower_is_better": false,
               "was": 266,
@@ -9128,7 +9128,7 @@
             {
               "key": "launch:ph:1220249",
               "name": "Clara AI SDR",
-              "url": null,
+              "url": "https://www.producthunt.com/products/clara-ai-sdr",
               "description": null,
               "lower_is_better": false,
               "was": 453,
@@ -9153,7 +9153,7 @@
             {
               "key": "launch:ph:1208711",
               "name": "SKI",
-              "url": null,
+              "url": "https://www.producthunt.com/products/ski/launches/ski",
               "description": null,
               "lower_is_better": false,
               "was": 354,
@@ -9167,7 +9167,7 @@
             {
               "key": "launch:ph:1203499",
               "name": "Memmy Agent",
-              "url": null,
+              "url": "https://www.producthunt.com/products/memmy/launches/memmy-agent",
               "description": null,
               "lower_is_better": false,
               "was": 328,
@@ -9181,7 +9181,7 @@
             {
               "key": "launch:ph:1187127",
               "name": "AI Search Console",
-              "url": null,
+              "url": "https://www.producthunt.com/products/ai-search-console/launches/ai-search-console",
               "description": null,
               "lower_is_better": false,
               "was": 331,
@@ -9195,7 +9195,7 @@
             {
               "key": "launch:ph:1208851",
               "name": "Claude Code usage tracking by LangWatch",
-              "url": null,
+              "url": "https://www.producthunt.com/products/langwatch/launches/claude-code-usage-tracking-by-langwatch",
               "description": null,
               "lower_is_better": false,
               "was": 248,
@@ -9209,7 +9209,7 @@
             {
               "key": "launch:ph:1210286",
               "name": "Pally",
-              "url": null,
+              "url": "https://www.producthunt.com/products/pally/launches/pally-3",
               "description": null,
               "lower_is_better": false,
               "was": 176,
@@ -9223,7 +9223,7 @@
             {
               "key": "launch:ph:1052113",
               "name": "NINA",
-              "url": null,
+              "url": "https://www.producthunt.com/products/agenq-nina-ai-product-assistant/launches/nina-5",
               "description": null,
               "lower_is_better": false,
               "was": 229,
@@ -9237,7 +9237,7 @@
             {
               "key": "launch:ph:1200627",
               "name": "Prelint",
-              "url": null,
+              "url": "https://www.producthunt.com/products/prelint/launches/prelint",
               "description": null,
               "lower_is_better": false,
               "was": 563,
@@ -9251,7 +9251,7 @@
             {
               "key": "launch:ph:1190808",
               "name": "Prefactor",
-              "url": null,
+              "url": "https://www.producthunt.com/products/prefactor/launches/prefactor",
               "description": null,
               "lower_is_better": false,
               "was": 602,
@@ -9265,7 +9265,7 @@
             {
               "key": "launch:ph:1205704",
               "name": "Claude Opus 5",
-              "url": null,
+              "url": "https://www.producthunt.com/products/claude/launches/claude-opus-5",
               "description": "Anthropic's Claude Opus 5 model, posted to Product Hunt on release day. The listing is a launch record rather than a product page, so what it measures is how a frontier model release lands with an audience that is mostly building software on top of one.",
               "lower_is_better": false,
               "was": 442,
@@ -9279,7 +9279,7 @@
             {
               "key": "launch:ph:1112188",
               "name": "Adomate",
-              "url": null,
+              "url": "https://www.producthunt.com/products/adomate/launches/adomate",
               "description": null,
               "lower_is_better": false,
               "was": 551,
@@ -9293,7 +9293,7 @@
             {
               "key": "launch:ph:1207552",
               "name": "Firstpass",
-              "url": null,
+              "url": "https://www.producthunt.com/products/glaze-4/launches/firstpass",
               "description": null,
               "lower_is_better": false,
               "was": 147,
@@ -9307,7 +9307,7 @@
             {
               "key": "launch:ph:1207308",
               "name": "Grok 4.5",
-              "url": null,
+              "url": "https://www.producthunt.com/products/grok/launches/grok-4-5-6",
               "description": null,
               "lower_is_better": false,
               "was": 176,
@@ -9321,7 +9321,7 @@
             {
               "key": "launch:ph:1188822",
               "name": "SoundGate Guitar",
-              "url": null,
+              "url": "https://www.producthunt.com/products/soundgate-guitar-app/launches/soundgate-guitar",
               "description": null,
               "lower_is_better": false,
               "was": 438,
@@ -9335,7 +9335,7 @@
             {
               "key": "launch:ph:1207467",
               "name": "superfile",
-              "url": null,
+              "url": "https://www.producthunt.com/products/superfile/launches/superfile",
               "description": null,
               "lower_is_better": false,
               "was": 194,
@@ -9349,7 +9349,7 @@
             {
               "key": "launch:ph:1138570",
               "name": "Denovo",
-              "url": null,
+              "url": "https://www.producthunt.com/products/denovo-business-manager/launches/denovo-2",
               "description": null,
               "lower_is_better": false,
               "was": 340,
@@ -9363,7 +9363,7 @@
             {
               "key": "launch:ph:1178721",
               "name": "Fuzzy AI",
-              "url": null,
+              "url": "https://www.producthunt.com/products/fuzzy-ai-2/launches/fuzzy-ai-2",
               "description": null,
               "lower_is_better": false,
               "was": 689,
@@ -9377,7 +9377,7 @@
             {
               "key": "launch:ph:1208194",
               "name": "/mission for Claude Code",
-              "url": null,
+              "url": "https://www.producthunt.com/products/spine-2/launches/mission-for-claude-code",
               "description": null,
               "lower_is_better": false,
               "was": 304,
@@ -9391,7 +9391,7 @@
             {
               "key": "launch:ph:1185439",
               "name": "Jotform Website Widgets",
-              "url": null,
+              "url": "https://www.producthunt.com/products/jotform/launches/jotform-website-widgets",
               "description": null,
               "lower_is_better": false,
               "was": 174,
@@ -9405,7 +9405,7 @@
             {
               "key": "launch:ph:1205300",
               "name": "Estera",
-              "url": null,
+              "url": "https://www.producthunt.com/products/estera/launches/estera",
               "description": null,
               "lower_is_better": false,
               "was": 142,
@@ -9419,7 +9419,7 @@
             {
               "key": "launch:ph:1200340",
               "name": "FlowTask 2.0",
-              "url": null,
+              "url": "https://www.producthunt.com/products/flowtask/launches/flowtask-2-0",
               "description": null,
               "lower_is_better": false,
               "was": 150,
@@ -9433,7 +9433,7 @@
             {
               "key": "launch:ph:1203012",
               "name": "canitbebuilt",
-              "url": null,
+              "url": "https://www.producthunt.com/products/canitbebuilt/launches/canitbebuilt",
               "description": null,
               "lower_is_better": false,
               "was": 149,
@@ -9447,7 +9447,7 @@
             {
               "key": "launch:ph:1205906",
               "name": "Health in ChatGPT",
-              "url": null,
+              "url": "https://www.producthunt.com/products/openai/launches/health-in-chatgpt",
               "description": null,
               "lower_is_better": false,
               "was": 154,
@@ -9461,7 +9461,7 @@
             {
               "key": "launch:ph:1208746",
               "name": "Totem",
-              "url": null,
+              "url": "https://www.producthunt.com/products/totem-5/launches/totem-9f559682-9d40-4768-991c-921b6ff46a75",
               "description": null,
               "lower_is_better": false,
               "was": 152,
@@ -9475,7 +9475,7 @@
             {
               "key": "launch:ph:1205055",
               "name": "Buzz",
-              "url": null,
+              "url": "https://www.producthunt.com/products/buzz-3/launches/buzz-4",
               "description": null,
               "lower_is_better": false,
               "was": 176,
@@ -9489,7 +9489,7 @@
             {
               "key": "launch:ph:1200903",
               "name": "Moxie Docs: Knowledgebases",
-              "url": null,
+              "url": "https://www.producthunt.com/products/moxie-docs/launches/moxie-docs-knowledgebases",
               "description": null,
               "lower_is_better": false,
               "was": 182,
@@ -11189,7 +11189,7 @@
             {
               "key": "plugin:codecanyon:63956049",
               "name": "WhatsMine \u2014 AI Omnichannel Marketing, Automation & Chatbot SaaS (WhatsApp, Messenger, SMS & Email)",
-              "url": null,
+              "url": "https://codecanyon.net/item/whatsmine-ai-omnichannel-marketing-automation-chatbot-saas-whatsapp-messenger-sms-email/63956049",
               "description": null,
               "lower_is_better": false,
               "was": 89.0,
@@ -12422,11 +12422,11 @@
   "data_through": "2026-08-29",
   "briefed_through": "2026-08-29",
   "stats": {
-    "entities": 48464,
+    "entities": 48608,
     "snapshots": 933215,
     "sources_live": 29,
     "first_day": "2026-07-28",
-    "scored_on_briefing_day": 12322,
+    "scored_on_briefing_day": 12315,
     "days_collected": 33
   },
   "items": [
