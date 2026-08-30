@@ -108,12 +108,17 @@ export async function GET(request: Request) {
   let client;
   try {
     client = createRiseFinderClient();
-  } catch {
+  } catch (err) {
+    // The client's own message names the missing variable and lists which
+    // RISEFINDER_ names this deployment can see. Surfaced rather than
+    // swallowed: the generic sentence was true and useless, and the fix is
+    // always a name that somebody has to read off a dashboard.
     return NextResponse.json(
       {
         error:
           "Custom ranges are not configured on this deployment yet. The fixed " +
           "1, 7 and 30 day windows are unaffected.",
+        detail: err instanceof Error ? err.message : String(err),
       },
       { status: 503 },
     );
