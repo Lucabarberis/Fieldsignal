@@ -57,11 +57,22 @@ export function createRiseFinderClient(): SupabaseClient {
   // "SUPABASE_URL=https://..." rather than "https://...". Quotes and a
   // trailing newline do the same thing and look identical in a form field.
   if (!/^https?:\/\//.test(url.trim())) {
+    // SHOWS THE START OF THE VALUE, because describing the mistake twice has
+    // not fixed it and the value itself says immediately what was pasted.
+    //
+    // A Supabase project URL is not a secret -- the same host is shipped to
+    // every browser as NEXT_PUBLIC_SUPABASE_URL. A service key very much is,
+    // so if the value looks like a JWT it is described rather than echoed, in
+    // case the two were pasted into each other's boxes.
+    const looksLikeKey = /^ey[A-Za-z0-9_-]{8,}/.test(url.trim());
+    const preview = looksLikeKey
+      ? "the value looks like a JWT — a service key appears to have been pasted into the URL field"
+      : `the value starts: "${url.slice(0, 32)}"`;
     throw new Error(
       "RISEFINDER_SUPABASE_URL does not start with http:// or https://. It is " +
-        `${url.length} characters long. The usual cause is pasting the whole ` +
-        "line from .env, so the value reads SUPABASE_URL=https://... instead " +
-        "of https://... — paste only the part after the equals sign, with no quotes.",
+        `${url.length} characters long and ${preview}. It should be exactly ` +
+        "https://<project-ref>.supabase.co and nothing else — no variable name, " +
+        "no equals sign, no quotes, no second line.",
     );
   }
 
