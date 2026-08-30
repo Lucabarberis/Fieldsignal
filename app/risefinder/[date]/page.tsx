@@ -38,7 +38,7 @@ export async function generateMetadata({
   const { date } = await params;
   return pageMetadata({
     title: `RiseFinder · ${formatBriefingDay(date)}`,
-    description: `The RiseFinder breakout briefing for ${formatBriefingDay(date)} — what was rising that day, with the evidence and a short explanation for each entry.`,
+    description: `The RiseFinder breakout briefing for ${formatBriefingDay(date)}: what was rising that day, with the evidence and a short explanation for each entry.`,
     path: `/risefinder/${date}`,
     // Indexable with the rest of RiseFinder. These are dated pages of written
     // entries that never change again, which is the one thing on this site

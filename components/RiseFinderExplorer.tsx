@@ -505,8 +505,8 @@ export function RiseFinderExplorer({
       {rows.length > 0 && described < rows.length && (
         <div className="px-4 sm:px-9 py-3 border-b border-rule font-mono text-micro tracking-[0.04em] text-ink-3 leading-relaxed">
           <b className="text-ink">{described}</b> of {rows.length} rows carry a
-          written description. The rest are measured but not yet described —
-          descriptions are written by hand, one thing at a time, and the backlog
+          written description. The rest are measured but not yet described.
+          Descriptions are written by hand, one thing at a time, and the backlog
           is worked through newest first.
         </div>
       )}
@@ -650,7 +650,7 @@ export function RiseFinderExplorer({
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
         Measured through {shortDay(dataThrough)}. Domains re-entering a ranked
-        list from beyond rank 800,000 are excluded — a list that ends at a
+        list from beyond rank 800,000 are excluded. A list that ends at a
         million drops and re-admits the same borderline domains constantly, and
         re-entry reads as an enormous climb without anything having happened.
       </div>

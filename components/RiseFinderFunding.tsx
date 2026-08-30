@@ -86,7 +86,7 @@ export function RiseFinderFunding({ windows }: { windows: FundingWindow[] }) {
         <p className="text-body text-ink-2">
           Every other section counts attention. This one counts money. A{" "}
           <b>Form D</b> is a company telling the SEC it has sold securities,
-          filed within 15 days of the sale — so these are rounds that have
+          filed within 15 days of the sale, so these are rounds that have
           actually closed, or are closing, rather than rounds somebody announced.
           Amounts are the issuer&rsquo;s own figures. Each row links to the
           filing.
@@ -191,9 +191,9 @@ export function RiseFinderFunding({ windows }: { windows: FundingWindow[] }) {
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
         Funds raising their own capital, real-estate vehicles and single-deal
-        SPVs are filtered out — they are two thirds of the daily Form D list and
-        none of them is a company growing. Form D gives the amount and the date;
-        it does not name the investors, so no lead is claimed here.
+        SPVs are filtered out. They are two thirds of the daily Form D list and
+        none of them is a company growing. Form D gives the amount and the date.
+        It does not name the investors, so no lead is claimed here.
       </div>
     </>
   );

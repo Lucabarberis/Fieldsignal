@@ -88,9 +88,9 @@ export default async function RiseFinderPage({
             A daily scan of {stats.sources_live} public data sources for things
             that are <b>rising before they are obvious</b>. Websites,
             repositories, apps, packages and marketplace plugins, each with the
-            measured change behind it. Filter by source and by window — nothing
-            below has been shortlisted, and where more than one unrelated source
-            has the same thing moving, the page says so.
+            measured change behind it. Filter by source and by window.
+            Nothing below has been shortlisted, and where more than one
+            unrelated source has the same thing moving, the page says so.
           </>
         }
         meta={[
