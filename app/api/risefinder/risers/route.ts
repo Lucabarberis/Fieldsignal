@@ -81,18 +81,19 @@ export async function GET(request: Request) {
   // Cast through unknown: the JSON's inferred type is a union of every box
   // shape the exporter has ever written, and TypeScript will not narrow it to
   // Box on its own. The fields are validated below rather than by the compiler.
-  const box = (catalogue.explorer as unknown as Box[]).find(
-    (b) => b.id === source,
-  );
-  if (!box) return bad("Unknown source.");
-  if (!box.metric_key) {
-    // The two universe sources are computed from stored rank files on disk, not
-    // from the snapshot table, so Postgres cannot answer for them. Said plainly
-    // rather than returning an empty list that reads as "nothing moved".
-    return bad(
-      `${box.label} is computed from stored rank files rather than the snapshot history, so custom ranges are not available for it yet.`,
-    );
-  }
+  const boxes = catalogue.explorer as unknown as Box[];
+
+  // EVERY SOURCE CAN ANSWER A RANGE, "Everything" included, and saying the
+  // universe sources could not was wrong. Their fixed windows come from stored
+  // rank files that Postgres has never seen, but `majestic_million/global_rank`
+  // and `tranco/tranco_rank` are in the snapshot table like everything else.
+  // The coverage is narrower there, which the page says rather than the control
+  // being disabled with no reason given.
+  const wanted =
+    source === "all"
+      ? boxes.filter((b) => b.metric_key)
+      : boxes.filter((b) => b.id === source && b.metric_key);
+  if (!wanted.length) return bad("Unknown source.");
 
   // The generated database types are produced from the tables and know nothing
   // about functions added by migration, so `rpc` types its own arguments as
@@ -130,20 +131,44 @@ export async function GET(request: Request) {
       args: Record<string, unknown>,
     ) => Promise<{ data: unknown; error: { message: string } | null }>;
   };
-  const { data, error } = await supabase.rpc("risefinder_risers", {
-    p_source: box.db_source ?? source,
-    p_metric: box.metric_key,
+  // ONE ROUND TRIP FOR HOWEVER MANY SOURCES. Asking each in turn meant
+  // eighteen calls to Supabase, and measured, each query executes in 21ms while
+  // each round trip costs 370 to 1,000ms: the work was 0.4 seconds and the
+  // talking about it was 7.5, which overran the statement timeout and returned
+  // nothing. Bounding the concurrency did not help, because concurrency was
+  // never what was slow. The spec list goes over as JSON and Postgres loops.
+  const { data, error } = await supabase.rpc("risefinder_risers_multi", {
+    p_specs: wanted.map((b) => ({
+      source: b.db_source ?? b.id,
+      metric: b.metric_key,
+      min_baseline: b.min_baseline,
+      lower_is_better: b.lower_is_better ?? false,
+      label: b.label,
+    })),
     p_from: from,
     p_to: to,
-    p_min_baseline: box.min_baseline,
     p_limit: limit,
   });
 
   if (error) {
-    console.error("risefinder_risers failed", error);
+    console.error("risefinder_risers_multi failed", error);
+    // A TIMEOUT IS NOT A BREAKAGE AND SHOULD NOT READ AS ONE. Asking all
+    // eighteen sources at once lands between five and nine seconds against an
+    // eight second statement timeout, and the variance is the database's rather
+    // than the query's: the same range measured 5.9s and a NARROWER one 8.5s
+    // minutes apart. One source at a time is comfortably inside it, so the
+    // message says that instead of "could not query", which sounds broken and
+    // suggests nothing.
+    const timedOut = /statement timeout|57014/.test(error.message ?? "");
     return NextResponse.json(
-      { error: "Could not query the riser history." },
-      { status: 502 },
+      {
+        error: timedOut
+          ? source === "all"
+            ? "That range took too long across every source at once. Pick a single source and it will answer."
+            : "That range took too long to compute. Try a shorter one."
+          : "Could not query the riser history.",
+      },
+      { status: timedOut ? 504 : 502 },
     );
   }
 
@@ -166,12 +191,17 @@ export async function GET(request: Request) {
     gain_pct: number;
   };
 
-  const items = ((data ?? []) as Row[]).map((r) => ({
+  const byLabel = new Map(wanted.map((b) => [b.label, b]));
+  const items = ((data ?? []) as (Row & { source_label: string })[]).map((r) => {
+    const box = byLabel.get(r.source_label) ?? wanted[0];
+    return {
     key: r.entity_key,
     name: r.name,
+    // Named per row, because a merged result spans sources.
+    source: r.source_label,
     url: entityUrl(r.entity_key, r),
     description: r.description?.trim() || null,
-    lower_is_better: box.lower_is_better,
+    lower_is_better: box.lower_is_better ?? false,
     was: r.was,
     now: r.now_value,
     unit: box.metric,
@@ -180,15 +210,21 @@ export async function GET(request: Request) {
     to_day: r.to_day,
     // CORROBORATION IS NOT AVAILABLE HERE, and is returned empty rather than
     // omitted. The precomputed windows know it because every source was built
-    // in one pass and could be compared; one range query against one source
-    // cannot see the others without running the whole set. An empty array
-    // renders as "single source", which is the honest reading: this query
-    // checked one.
+    // in one pass and could be compared; a range query does not run that
+    // comparison. An empty array renders as "single source", which is the
+    // honest reading.
     also_in: [] as string[],
-  }));
+    };
+  });
 
   return NextResponse.json(
-    { source: box.id, label: box.label, from, to, items },
+    {
+      source,
+      label: source === "all" ? "Everything" : wanted[0].label,
+      from,
+      to,
+      items,
+    },
     // A given (source, from, to) never changes once those days are collected,
     // so the answer is cacheable for a long time. Kept to an hour anyway
     // because a range ending today gains rows as today's collection lands.

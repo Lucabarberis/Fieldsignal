@@ -41,6 +41,8 @@ export type ExplorerItem = {
   to_day: string;
   /** Other sources this same thing is also rising in today. */
   also_in: string[];
+  /** Set only on merged custom-range results, which span sources. */
+  source?: string;
 };
 
 export type ExplorerWindow = {
@@ -178,7 +180,6 @@ export function RiseFinderExplorer({
 
   async function runCustom(event: React.FormEvent) {
     event.preventDefault();
-    if (!customSource) return;
     setLoading(true);
     setFailed(null);
     try {
@@ -223,8 +224,16 @@ export function RiseFinderExplorer({
     // one. It came from a different query against a different store, and
     // blending the two would put rows from two date ranges in one sorted list.
     if (win === "custom") {
-      if (!custom || !customSource) return [];
-      return custom.map((item) => ({ item, source: customSource }));
+      if (!custom) return [];
+      // A merged "Everything" result carries rows from several sources, so each
+      // row names the one it came from rather than inheriting the filter's.
+      return custom.map((item) => ({
+        item,
+        source:
+          sources.find((s) => s.label === item.source) ??
+          customSource ??
+          sources[0],
+      }));
     }
     const flat = visible.flatMap((b) =>
       b.block.items.map((item) => ({ item, source: b.source })),
@@ -260,7 +269,7 @@ export function RiseFinderExplorer({
         b.item.also_in.length - a.item.also_in.length ||
         b.item.gain_pct - a.item.gain_pct,
     );
-  }, [visible, source, win, custom, customSource]);
+  }, [visible, source, win, custom, customSource, sources]);
 
   // Sources with nothing for this window, and why. A source that has not
   // collected enough days yet and one that collected them and found nothing
@@ -351,12 +360,11 @@ export function RiseFinderExplorer({
                 ? blocks.reduce((a, b) => a + b.block.items.length, 0)
                 : (blocks.find((b) => b.source.id === s.id)?.block.items.length ?? 0);
 
-            // Majestic and Tranco are computed from stored rank files rather
-            // than the snapshot table, so Postgres cannot answer a date range
-            // for them however the dates are chosen. "Everything" is out too:
-            // the endpoint answers one source at a time.
+            // Every source can answer a range now, "Everything" included: the
+            // endpoint asks each one and merges. Only a source with no
+            // queryable metric at all stays out.
             const off = win === "custom"
-              ? s.id === "all" || !s.metric_key
+              ? s.id !== "all" && !s.metric_key
               : n === 0 && s.id !== "all";
 
             return (
@@ -366,11 +374,7 @@ export function RiseFinderExplorer({
                 onClick={() => choose(() => setSource(s.id))}
                 aria-pressed={active}
                 disabled={off}
-                title={
-                  win === "custom" && !s.metric_key && s.id !== "all"
-                    ? `${s.label} is computed from stored rank files, so it cannot answer a date range`
-                    : s.unit_noun || undefined
-                }
+                title={s.unit_noun || undefined}
                 className={[
                   "font-mono text-micro uppercase tracking-[0.12em] px-3 py-2 border transition-colors",
                   active
@@ -431,28 +435,23 @@ export function RiseFinderExplorer({
             </label>
             <button
               type="submit"
-              disabled={loading || !customSource || !from || !to}
+              disabled={loading || !from || !to}
               className="font-mono text-mono uppercase tracking-[0.14em] px-4 py-2.5 bg-ink text-paper hover:bg-red transition-colors disabled:opacity-35 disabled:cursor-not-allowed"
             >
               {loading ? "Querying…" : "Show risers →"}
             </button>
           </div>
 
-          {/* THE SOURCE IS NOT OPTIONAL HERE, and saying so beats a disabled
-              button with no explanation. The endpoint answers one source at a
-              time; "Everything" would be nineteen scans of a 900,000-row table
-              for one click. */}
-          {!customSource && (
-            <div className="mt-3 font-mono text-micro tracking-[0.04em] text-red">
-              Choose one source above. A custom range is answered one source at
-              a time.
-            </div>
-          )}
-          {customSource && !customSource.metric_key && (
-            <div className="mt-3 font-mono text-micro tracking-[0.04em] text-red">
-              {customSource.label} is computed from stored rank files rather
-              than the snapshot history, so custom ranges are not available for
-              it yet.
+          {/* THE UNIVERSE SOURCES ANSWER A NARROWER QUESTION HERE, and it
+              would be dishonest to let that pass unsaid. Their fixed windows
+              are computed over the whole published million-row list; a range is
+              computed from the snapshot table, which holds the domains we
+              track. Same control, different coverage. */}
+          {customSource?.basis === "web" && (
+            <div className="mt-3 font-mono text-micro tracking-[0.04em] text-ink-2">
+              Over a custom range, {customSource.label} covers the domains we
+              track rather than its whole published list. The fixed windows
+              above cover the whole list.
             </div>
           )}
           {failed && (
@@ -463,8 +462,9 @@ export function RiseFinderExplorer({
           {custom && !failed && (
             <div className="mt-3 font-mono text-micro tracking-[0.04em] text-ink-2">
               <b className="text-ink">{custom.length}</b>{" "}
-              {custom.length === 1 ? "riser" : "risers"} in {customSource?.label}{" "}
-              between {shortDay(from)} and {shortDay(to)}.
+              {custom.length === 1 ? "riser" : "risers"} in{" "}
+              {customSource?.label ?? "all sources"} between {shortDay(from)} and{" "}
+              {shortDay(to)}.
             </div>
           )}
         </form>

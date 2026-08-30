@@ -36,7 +36,12 @@ create or replace function risefinder_risers(
   p_to            text,
   p_min_baseline  double precision default 0,
   p_limit         int  default 25,
-  p_lag_days      int  default 3
+  p_lag_days      int  default 3,
+  -- RANKS RUN THE OTHER WAY. Majestic and Tranco measure position, where
+  -- 460,092 improving to 11,003 is a rise, and every other metric here is a
+  -- count where bigger is better. Computing a rank the ordinary way returns a
+  -- leaderboard of the domains falling fastest, presented as the ones rising.
+  p_lower_is_better boolean default false
 )
 returns table (
   entity_key   text,
@@ -89,14 +94,25 @@ as $$
          l.value  as now_value,
          b.captured_on as from_day,
          l.captured_on as to_day,
-         round((100.0 * (l.value - b.value) / b.value)::numeric, 1)::double precision
-           as gain_pct
+         round((100.0 * (case when p_lower_is_better
+                              then b.value - l.value
+                              else l.value - b.value end) / b.value)::numeric,
+               1)::double precision as gain_pct
     from baseline b
     join latest   l on l.entity_key = b.entity_key
     join entities e on e.entity_key = b.entity_key
    where b.value > 0
-     and b.value >= p_min_baseline
-     and l.value > b.value
+     -- THE FLOOR IS A CEILING FOR A RANK, and treating it as a floor was
+     -- backwards. For a count, "at least 25 stars" excludes the noise. For a
+     -- rank, where smaller is better, "at least 25" excludes nothing and
+     -- "at least 200,000" would keep only the WORST ranked domains, which is
+     -- the opposite of the intent. universe.py has always capped Majestic and
+     -- Tranco at rank 200,000 for the same reason: the bottom of a
+     -- million-row list churns constantly and means nothing.
+     and (case when p_lower_is_better
+               then b.value <= p_min_baseline
+               else b.value >= p_min_baseline end)
+     and (case when p_lower_is_better then l.value < b.value else l.value > b.value end)
      and e.gate_status not in ('killed', 'deprioritized')
    order by gain_pct desc
    limit greatest(1, least(p_limit, 100));
@@ -105,8 +121,8 @@ $$;
 -- Read-only and called only from a server route holding the service role key.
 -- Granting to anon as well would put an unbounded scan of the snapshot table
 -- behind a public key, which is the one thing this table cannot afford.
-revoke all on function risefinder_risers(text, text, text, text, double precision, int, int) from public, anon;
-grant execute on function risefinder_risers(text, text, text, text, double precision, int, int) to service_role;
+revoke all on function risefinder_risers(text, text, text, text, double precision, int, int, boolean) from public, anon;
+grant execute on function risefinder_risers(text, text, text, text, double precision, int, int, boolean) to service_role;
 
 -- AND TO `authenticator`, WHICH IS NOT THE SAME AS MAKING IT PUBLIC.
 --
@@ -120,9 +136,72 @@ grant execute on function risefinder_risers(text, text, text, text, double preci
 -- Execution is still gated: PostgREST switches role per request, so an
 -- anonymous caller runs as `anon`, which the revoke above left with no EXECUTE
 -- and therefore still cannot call this. This grant buys visibility, not access.
-grant execute on function risefinder_risers(text, text, text, text, double precision, int, int) to authenticator;
+grant execute on function risefinder_risers(text, text, text, text, double precision, int, int, boolean) to authenticator;
 
 -- The function reads snapshots by (source, metric, captured_on) on every call.
 -- Without this it is a sequential scan of ~933,000 rows per request.
 create index if not exists idx_snapshots_source_metric_day
   on snapshots (source, metric, captured_on);
+
+-- ---------------------------------------------------------------------------
+-- Many sources, one round trip
+-- ---------------------------------------------------------------------------
+-- WHY THIS EXISTS AND `Promise.all` DOES NOT DO THE JOB. Asking eighteen
+-- sources for a custom range meant eighteen calls from Vercel to Supabase.
+-- Measured: each query PLANS AND EXECUTES IN 21ms against the index, and each
+-- round trip costs 370 to 1,000ms. So the work was 0.4 seconds and the talking
+-- about the work was 7.5, which overran the statement timeout and returned
+-- nothing at all.
+--
+-- Bounding the concurrency did not help, because concurrency was never the
+-- problem. The fix is to stop having the conversation eighteen times: hand the
+-- whole list over as JSON and let Postgres loop.
+--
+-- The per-source function is called through LATERAL rather than reimplemented,
+-- so there is exactly one definition of what a riser is and no chance of the
+-- single-source and merged answers drifting apart.
+create or replace function risefinder_risers_multi(
+  p_specs    jsonb,
+  p_from     text,
+  p_to       text,
+  p_limit    int default 25,
+  p_lag_days int default 3
+)
+returns table (
+  source_label text,
+  entity_key   text,
+  name         text,
+  entity_type  text,
+  description  text,
+  listing_url  text,
+  domain       text,
+  github_repo  text,
+  npm_package  text,
+  pypi_package text,
+  hf_model     text,
+  app_store_id text,
+  was          double precision,
+  now_value    double precision,
+  from_day     text,
+  to_day       text,
+  gain_pct     double precision
+)
+language sql
+stable
+as $$
+  select s.label, r.entity_key, r.name, r.entity_type, r.description,
+         r.listing_url, r.domain, r.github_repo, r.npm_package, r.pypi_package,
+         r.hf_model, r.app_store_id, r.was, r.now_value, r.from_day, r.to_day,
+         r.gain_pct
+    from jsonb_to_recordset(p_specs) as s(
+           source text, metric text, min_baseline double precision,
+           lower_is_better boolean, label text)
+   cross join lateral risefinder_risers(
+           s.source, s.metric, p_from, p_to, s.min_baseline,
+           p_limit, p_lag_days, coalesce(s.lower_is_better, false)) r
+   order by r.gain_pct desc
+   limit greatest(1, least(p_limit, 100));
+$$;
+
+revoke all on function risefinder_risers_multi(jsonb, text, text, int, int) from public, anon;
+grant execute on function risefinder_risers_multi(jsonb, text, text, int, int) to service_role, authenticator;

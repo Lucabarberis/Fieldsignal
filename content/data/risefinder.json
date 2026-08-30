@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:42:25Z",
+  "generated_at": "2026-08-30T11:07:54Z",
   "explorer": [
     {
       "id": "majestic_million",
@@ -8,8 +8,8 @@
       "unit_noun": "Websites",
       "metric": "backlink rank",
       "basis": "web",
-      "metric_key": null,
-      "min_baseline": 0,
+      "metric_key": "global_rank",
+      "min_baseline": 100000,
       "lower_is_better": true,
       "windows": [
         {
@@ -1104,8 +1104,8 @@
       "unit_noun": "Websites",
       "metric": "traffic rank",
       "basis": "web",
-      "metric_key": null,
-      "min_baseline": 0,
+      "metric_key": "tranco_rank",
+      "min_baseline": 100000,
       "lower_is_better": true,
       "windows": [
         {

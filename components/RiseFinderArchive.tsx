@@ -105,9 +105,9 @@ export function RiseFinderArchive({ days }: { days: ArchiveDay[] }) {
 
   return (
     <div className="px-4 sm:px-9 pb-10">
-      <div className="w-full max-w-[26rem] border border-ink bg-paper">
+      <div className="w-full max-w-[24rem] border border-rule-2 bg-paper">
         {/* Heading: two pickers and a step control either side. */}
-        <div className="flex items-center justify-between gap-2 border-b border-ink px-3 py-2.5">
+        <div className="flex items-center justify-between gap-2 border-b border-rule px-3 py-3">
           <button
             type="button"
             onClick={() => step(-1)}
@@ -160,7 +160,7 @@ export function RiseFinderArchive({ days }: { days: ArchiveDay[] }) {
             disabled rather than hidden, so the shape of the year stays
             readable: which months this ran and which it did not. */}
         {picking === "month" && (
-          <div className="grid grid-cols-3 gap-px border-b border-ink bg-rule">
+          <div className="grid grid-cols-3 gap-px border-b border-rule bg-rule">
             {MONTHS.map((name, i) => {
               const has = filled[year]?.has(i + 1);
               const active = month === i + 1;
@@ -184,7 +184,7 @@ export function RiseFinderArchive({ days }: { days: ArchiveDay[] }) {
         )}
 
         {picking === "year" && (
-          <div className="grid grid-cols-3 gap-px border-b border-ink bg-rule">
+          <div className="grid grid-cols-3 gap-px border-b border-rule bg-rule">
             {years.map((y) => (
               <button
                 key={y}
@@ -209,48 +209,64 @@ export function RiseFinderArchive({ days }: { days: ArchiveDay[] }) {
           </div>
         )}
 
-        <div className="grid grid-cols-7 gap-px bg-rule">
+        {/* NO GRIDLINES. The first version drew a full border between every
+            cell, which turns a calendar into a spreadsheet and gives the empty
+            days the same weight as the ones with something in them. Whitespace
+            separates these; only the days that can be clicked carry any ink. */}
+        <div className="grid grid-cols-7 px-2 pt-2">
           {WEEKDAYS.map((d, i) => (
             <div
               key={i}
-              className="bg-paper py-2 text-center font-mono text-micro uppercase tracking-[0.12em] text-ink-3"
+              className="pb-2 text-center font-mono text-micro uppercase tracking-[0.14em] text-ink-3"
             >
               {d}
             </div>
           ))}
+        </div>
+        <div className="grid grid-cols-7 gap-0.5 px-2 pb-2">
           {cells.map((iso, i) => {
-            if (!iso) return <div key={i} className="bg-paper aspect-square" />;
+            if (!iso) return <div key={i} className="aspect-square" />;
             const count = byDate[iso];
             const day = Number(iso.slice(8));
+
+            // A day with no briefing is a number and nothing else. It was a
+            // filled grey block, which made the empty days the loudest thing
+            // on the calendar.
             if (!count) {
               return (
                 <div
                   key={i}
-                  className="bg-paper aspect-square flex items-center justify-center font-mono text-mono text-ink-3 opacity-30"
+                  className="aspect-square flex items-center justify-center font-mono text-mono text-ink-3 opacity-25"
                 >
                   {day}
                 </div>
               );
             }
+
+            // A day with one carries a dot rather than a red number under every
+            // date. Twenty-five red numerals in a grid is noise; a dot says
+            // "something here" and the count is on the tooltip for anyone who
+            // wants it.
             return (
               <Link
                 key={i}
                 href={`/risefinder/${iso}`}
                 title={`${formatDay(iso)}: ${count} ${count === 1 ? "entry" : "entries"}`}
-                className="bg-paper aspect-square flex flex-col items-center justify-center gap-0.5 hover:bg-ink group transition-colors"
+                className="aspect-square flex flex-col items-center justify-center gap-1 border border-rule-2 hover:border-red hover:bg-red group transition-colors"
               >
-                <span className="font-mono text-mono font-semibold text-ink group-hover:text-paper">
+                <span className="font-mono text-mono font-semibold text-ink group-hover:text-paper leading-none">
                   {day}
                 </span>
-                <span className="font-mono text-micro text-red group-hover:text-paper">
-                  {count}
-                </span>
+                <span
+                  aria-hidden
+                  className="block w-1 h-1 rounded-full bg-red group-hover:bg-paper"
+                />
               </Link>
             );
           })}
         </div>
 
-        <div className="border-t border-ink px-3 py-2 font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
+        <div className="border-t border-rule px-3 py-2.5 font-mono text-micro uppercase tracking-[0.12em] text-ink-3">
           {inMonth.length} {inMonth.length === 1 ? "day" : "days"} in{" "}
           {MONTHS[month - 1]} · {days.length} in all
         </div>
