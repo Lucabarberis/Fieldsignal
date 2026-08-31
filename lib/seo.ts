@@ -22,6 +22,13 @@ type Args = {
   description: string;    // meta description, 140–160 chars target
   path: string;           // canonical path, e.g. "/compliance"
   noindex?: boolean;
+  /**
+   * Open Graph locale for pages not in the site's default language, e.g.
+   * "de_DE". Omit for English. There is no `alternateLocale` here on
+   * purpose: the German and French articles are per-market originals, not
+   * translations, so no page is another page's alternate.
+   */
+  locale?: string;
 };
 
 export function pageMetadata({
@@ -29,6 +36,7 @@ export function pageMetadata({
   description,
   path,
   noindex = false,
+  locale,
 }: Args): Metadata {
   const url = `${SITE.url}${path}`;
   const ogImage = {
@@ -52,6 +60,7 @@ export function pageMetadata({
       description,
       siteName: SITE.name,
       images: [ogImage],
+      ...(locale ? { locale } : {}),
     },
     twitter: {
       card: "summary_large_image",

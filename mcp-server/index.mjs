@@ -63,6 +63,19 @@ const slugifyTranscript = (s) => slugify(s, 120);
 
 // ─── Row ↔ domain mapping ──────────────────────────────────────────
 
+/** Languages the blog publishes in. Mirrors the DB check constraint. */
+const POST_LANGUAGES = ["en", "de", "fr", "ja"];
+
+function assertLanguage(value) {
+  if (value === undefined) return undefined;
+  if (!POST_LANGUAGES.includes(value)) {
+    throw new Error(
+      `language must be one of ${POST_LANGUAGES.join(", ")} — got "${value}"`,
+    );
+  }
+  return value;
+}
+
 function rowToPostMeta(row) {
   return {
     slug: row.slug,
@@ -71,6 +84,7 @@ function rowToPostMeta(row) {
     author: row.author,
     tags: row.tags ?? [],
     status: row.status,
+    language: row.language ?? "en",
     publishedAt: (row.published_at ?? "").slice(0, 10),
     updatedAt: row.updated_at ? row.updated_at.slice(0, 10) : undefined,
   };
@@ -185,7 +199,7 @@ const tools = [
   {
     name: "create_post",
     description:
-      "Create a new blog post. Slug is auto-derived from title using the same algorithm as the admin UI. Defaults: status='draft', publishedAt=today, author='FieldSignal Team', tags=[].",
+      "Create a new blog post. Slug is auto-derived from title using the same algorithm as the admin UI. Defaults: status='draft', publishedAt=today, author='FieldSignal Team', tags=[], language='en'. Set language for non-English posts — it drives the page's lang attribute, schema.org inLanguage, and which market's index the post appears in.",
     inputSchema: {
       type: "object",
       properties: {
@@ -197,6 +211,11 @@ const tools = [
         status: { type: "string", enum: ["draft", "published"] },
         publishedAt: { type: "string", description: "ISO date YYYY-MM-DD. Future date + status='published' = scheduled." },
         slug: { type: "string", description: "Optional explicit slug; otherwise derived from title." },
+        language: {
+          type: "string",
+          enum: ["en", "de", "fr", "ja"],
+          description: "Language the body is written in. Defaults to 'en'. Posts are per-market originals, not translations of one another.",
+        },
       },
       required: ["title", "description", "body"],
     },
@@ -216,6 +235,7 @@ const tools = [
         tags: { type: "array", items: { type: "string" } },
         status: { type: "string", enum: ["draft", "published"] },
         publishedAt: { type: "string" },
+        language: { type: "string", enum: ["en", "de", "fr", "ja"] },
       },
       required: ["slug"],
     },
@@ -438,6 +458,7 @@ const handlers = {
       author: args.author ?? "FieldSignal Team",
       tags: Array.isArray(args.tags) ? args.tags : [],
       status: args.status ?? "draft",
+      language: assertLanguage(args.language) ?? "en",
       published_at: args.publishedAt ?? todayISO(),
     };
 
@@ -472,6 +493,7 @@ const handlers = {
     if (rest.tags !== undefined) update.tags = rest.tags;
     if (rest.status !== undefined) update.status = rest.status;
     if (rest.publishedAt !== undefined) update.published_at = rest.publishedAt;
+    if (rest.language !== undefined) update.language = assertLanguage(rest.language);
 
     if (Object.keys(update).length === 0) {
       throw new Error("update_post requires at least one field besides slug");

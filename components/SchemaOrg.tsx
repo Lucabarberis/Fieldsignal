@@ -140,6 +140,12 @@ type ArticleProps = {
    * and AI-citation.
    */
   image?: ArticleImage;
+  /**
+   * BCP-47 language of the article body. Posts are per-market originals
+   * rather than translations, so this is declared without hreflang
+   * alternates.
+   */
+  inLanguage?: string;
 };
 
 function authorNode(author: string | ArticleAuthor) {
@@ -161,6 +167,7 @@ export function ArticleSchema({
   dateModified,
   author,
   image,
+  inLanguage,
 }: ArticleProps) {
   const data: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -181,6 +188,7 @@ export function ArticleSchema({
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
+  if (inLanguage) data.inLanguage = inLanguage;
   if (image) {
     data.image = {
       "@type": "ImageObject",

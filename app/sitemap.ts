@@ -55,6 +55,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     transcripts.map((t) => t.updatedAt ?? t.publishedAt),
   );
 
+  // Per-market blog indexes. Each is listed only once it actually has posts:
+  // the pages noindex themselves while empty, and a sitemap entry for a
+  // noindexed URL is a contradiction Search Console reports as an error.
+  const marketIndexRoutes: MetadataRoute.Sitemap = (
+    [
+      ["de", "/resources/blog/de"],
+      ["fr", "/resources/blog/fr"],
+    ] as const
+  ).flatMap(([lang, path]) => {
+    const inMarket = posts.filter((p) => p.language === lang);
+    if (inMarket.length === 0) return [];
+    return [
+      {
+        url: `${SITE.url}${path}`,
+        lastModified: newest(inMarket.map((p) => p.updatedAt ?? p.publishedAt)),
+        changeFrequency: "weekly" as const,
+        priority: 0.8,
+      },
+    ];
+  });
+
   const staticRoutes: MetadataRoute.Sitemap = [
     // Core
     { url: `${SITE.url}/`, changeFrequency: "monthly", priority: 1.0 },
@@ -310,6 +331,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...staticRoutes,
+    ...marketIndexRoutes,
     ...risefinderRoutes,
     ...serviceRoutes,
     ...industryRoutes,

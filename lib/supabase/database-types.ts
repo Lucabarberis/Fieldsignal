@@ -20,6 +20,10 @@ export type Database = {
           author: string;
           tags: string[] | null;
           status: "draft" | "published";
+          // Added by supabase/posts-language.sql. Constrained in the DB to
+          // en | de | fr | ja; widened to string here because older rows
+          // predate the column and read through the column default.
+          language: string | null;
           published_at: string;
           updated_at: string;
           created_at: string;
@@ -32,6 +36,7 @@ export type Database = {
           author?: string;
           tags?: string[];
           status?: "draft" | "published";
+          language?: string;
           published_at?: string;
         };
         Update: Partial<Database["public"]["Tables"]["posts"]["Insert"]>;

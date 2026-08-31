@@ -22,7 +22,12 @@ export const metadata = pageMetadata({
 export const revalidate = 60;
 
 export default async function BlogIndexPage() {
-  const posts = await getAllPosts();
+  // English only. The blog publishes German, French and Japanese articles
+  // alongside these, but they are per-market originals rather than
+  // translations, so mixing them into one index would show a reader
+  // articles they cannot read and dilute the page's own language signal.
+  // Each market gets its own index.
+  const posts = await getAllPosts("en");
 
   return (
     <>
@@ -82,6 +87,49 @@ export default async function BlogIndexPage() {
             ))}
           </ul>
         )}
+      </div>
+
+      {/* Discovery path to the other markets. Without a crawlable link from
+          somewhere in the site, the German and French indexes are reachable
+          only via the sitemap — and readers never find them at all. `hreflang`
+          on these is deliberately absent: the articles behind them are
+          per-market originals, not translations of anything here. */}
+      <SectionBand num="02" label="Other Markets" />
+      <div className="px-4 sm:px-9 py-8">
+        <ul className="grid gap-px bg-rule grid-cols-1 sm:grid-cols-2">
+          {[
+            {
+              href: "/resources/blog/de",
+              lang: "de",
+              title: "Der FieldSignal Blog",
+              note: "Beiträge auf Deutsch zu Primärforschung und Expertennetzwerken.",
+            },
+            {
+              href: "/resources/blog/fr",
+              lang: "fr",
+              title: "Le blog FieldSignal",
+              note: "Articles en français sur la recherche primaire et les réseaux d'experts.",
+            },
+          ].map((m) => (
+            <li key={m.href} className="bg-paper">
+              <Link
+                href={m.href}
+                hrefLang={m.lang}
+                className="block px-7 pt-6 pb-5 hover:bg-paper-3 transition-colors h-full"
+              >
+                <h2
+                  lang={m.lang}
+                  className="font-sans font-medium text-wide leading-[1.15] tracking-[-0.012em] text-ink mb-2"
+                >
+                  {m.title}
+                </h2>
+                <p lang={m.lang} className="text-[13px] leading-[1.55] text-ink-2">
+                  {m.note}
+                </p>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <CtaBand

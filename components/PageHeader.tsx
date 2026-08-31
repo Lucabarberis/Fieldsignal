@@ -14,9 +14,15 @@ type Props = {
   title: string;
   lede?: React.ReactNode;
   meta?: MetaItem[];
+  /**
+   * BCP-47 language of `title` and `lede`, when they are not in the site's
+   * default language. The breadcrumb and meta labels stay English, so this
+   * sits on the heading block rather than the whole section.
+   */
+  lang?: string;
 };
 
-export function PageHeader({ current, title, lede, meta }: Props) {
+export function PageHeader({ current, title, lede, meta, lang }: Props) {
   return (
     <section className="px-4 sm:px-9 pt-10 pb-8 sm:pt-16 sm:pb-12 border-b border-rule">
       <nav
@@ -30,12 +36,17 @@ export function PageHeader({ current, title, lede, meta }: Props) {
         <span className="text-ink">{current}</span>
       </nav>
 
-      <h1 className="font-sans font-medium text-[clamp(40px,6vw,72px)] leading-[0.95] tracking-[-0.028em] text-ink max-w-4xl">
+      <h1
+        lang={lang}
+        className="font-sans font-medium text-[clamp(40px,6vw,72px)] leading-[0.95] tracking-[-0.028em] text-ink max-w-4xl"
+      >
         {title}
       </h1>
 
       {lede && (
-        <p className="mt-6 text-lede text-ink-2 max-w-3xl">{lede}</p>
+        <p lang={lang} className="mt-6 text-lede text-ink-2 max-w-3xl">
+          {lede}
+        </p>
       )}
 
       {meta && meta.length > 0 && (

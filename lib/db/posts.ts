@@ -16,7 +16,7 @@
  */
 
 import { createSupabaseAdminClient } from "@/lib/supabase/admin";
-import type { Post, PostInput, PostMeta, PostStatus } from "./types";
+import type { Post, PostInput, PostLanguage, PostMeta, PostStatus } from "./types";
 
 /** Which slice of the library an admin list is showing. */
 export type PostView = "all" | "scheduled" | "drafts";
@@ -40,9 +40,13 @@ export type PostSearchOpts = {
 };
 
 export interface PostsRepo {
-  list(opts?: { includeUnpublished?: boolean }): Promise<PostMeta[]>;
+  list(opts?: {
+    includeUnpublished?: boolean;
+    /** Restrict to one market. Omit for every language. */
+    language?: PostLanguage;
+  }): Promise<PostMeta[]>;
   /** Slugs only. Avoids pulling every post body when just the set is needed. */
-  listSlugs(): Promise<string[]>;
+  listSlugs(language?: PostLanguage): Promise<string[]>;
   /**
    * One page of admin results, filtered and searched in Postgres.
    * The admin screens use this instead of list() — at 265 posts and
@@ -97,6 +101,7 @@ type Row = {
   author: string;
   tags: string[] | null;
   status: PostStatus;
+  language: string | null;
   published_at: string;
   updated_at: string;
   created_at: string;
@@ -104,7 +109,7 @@ type Row = {
 
 /** Every column PostMeta needs — deliberately excludes the heavy `body`. */
 const META_COLUMNS =
-  "slug, title, description, author, tags, status, published_at, updated_at";
+  "slug, title, description, author, tags, status, language, published_at, updated_at";
 
 function rowToMeta(row: Row): PostMeta {
   return {
@@ -114,6 +119,9 @@ function rowToMeta(row: Row): PostMeta {
     author: row.author,
     tags: row.tags ?? undefined,
     status: row.status,
+    // Rows predating the language column read as English, matching the
+    // column default. Never surface null -- it would reach `lang`.
+    language: (row.language ?? "en") as PostLanguage,
     publishedAt: row.published_at.slice(0, 10),
     updatedAt: row.updated_at?.slice(0, 10),
   };
@@ -153,19 +161,22 @@ const supabaseImpl: PostsRepo = {
       const nowIso = new Date().toISOString();
       query = query.eq("status", "published").lte("published_at", nowIso);
     }
+    if (opts?.language) query = query.eq("language", opts.language);
     const { data, error } = await query;
     if (error) throw new Error(`posts.list failed: ${error.message}`);
     return (data as Row[]).map(rowToMeta);
   },
 
-  async listSlugs() {
+  async listSlugs(language) {
     const sb = createSupabaseAdminClient();
     const nowIso = new Date().toISOString();
-    const { data, error } = await sb
+    let q = sb
       .from("posts")
       .select("slug")
       .eq("status", "published")
       .lte("published_at", nowIso);
+    if (language) q = q.eq("language", language);
+    const { data, error } = await q;
     if (error) throw new Error(`posts.listSlugs failed: ${error.message}`);
     return (data as { slug: string }[]).map((r) => r.slug);
   },
@@ -291,6 +302,7 @@ const supabaseImpl: PostsRepo = {
       author: input.author,
       tags: input.tags ?? [],
       status: input.status,
+      language: input.language ?? "en",
       published_at: (input.publishedAt ?? today),
     };
 
@@ -311,6 +323,7 @@ const supabaseImpl: PostsRepo = {
       author: input.author,
       tags: input.tags ?? [],
       status: input.status,
+      ...(input.language ? { language: input.language } : {}),
       ...(input.publishedAt ? { published_at: input.publishedAt } : {}),
     };
 
