@@ -1,0 +1,156 @@
+[
+  {
+    "file": "FR Content/surfer-content-editor-alphasights-31-08-2026.md",
+    "title": "AlphaSights : avis, fonctionnement et alternatives",
+    "slug": "alphasights-avis-fonctionnement-et-alternatives",
+    "description": "AlphaSights en détail : origine, fonctionnement du réseau, profils d'experts, transparence tarifaire réelle et alternatives pour les fonds mid-market.",
+    "tags": [
+      "alternatives",
+      "expert-networks"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-canaux de distribution-31-08-2026.md",
+    "title": "Canaux de distribution : choisir et combiner",
+    "slug": "canaux-de-distribution-choisir-et-combiner",
+    "description": "Définition, typologie et critères de choix des canaux de distribution : direct, indirect, hybride, et comment combiner plusieurs circuits sans les opposer.",
+    "tags": [
+      "market-research",
+      "buyers"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-due diligence technique-30-08-2026.md",
+    "title": "Due diligence technique : périmètre et déroulé",
+    "slug": "due-diligence-technique-perimetre-et-deroule",
+    "description": "Ce que couvre une due diligence technique, comment la mener en trois étapes et quels profils interroger pour tester vos hypothèses avant de signer.",
+    "tags": [
+      "due-diligence",
+      "methods"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-ipsos avis-30-08-2026.md",
+    "title": "Ipsos : avis, solutions et alternatives",
+    "slug": "ipsos-avis-solutions-et-alternatives",
+    "description": "Ipsos passé en revue : solutions d'études, panels, certifications, ce que le groupe publie ou non, et quand une alternative B2B ciblée convient mieux.",
+    "tags": [
+      "alternatives",
+      "market-research"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-kantar avis-30-08-2026.md",
+    "title": "Kantar : avis, solutions et alternatives",
+    "slug": "kantar-avis-solutions-et-alternatives",
+    "description": "Kantar en 2026 : périmètre réel après les cessions de Worldpanel et Kantar Media, solutions disponibles, et alternatives pour un besoin B2B ciblé.",
+    "tags": [
+      "alternatives",
+      "market-research"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-net promoter score-30-08-2026.md",
+    "title": "Net Promoter Score : calcul, interprétation et limites",
+    "slug": "net-promoter-score-calcul-interpretation-et-limites",
+    "description": "Comment calculer un NPS, comment lire le résultat sans se fier aux seuils du marché, et ce que la recherche dit réellement de son pouvoir prédictif.",
+    "tags": [
+      "methods",
+      "market-research"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-parcours client-30-08-2026.md",
+    "title": "Parcours client B2B : cartographie et points de friction",
+    "slug": "parcours-client-b2b-cartographie-et-points-de-friction",
+    "description": "Cartographier un parcours client B2B : étapes, personas du comité d'achat, points de friction fréquents et méthodes pour les repérer dans vos données.",
+    "tags": [
+      "buyers",
+      "market-research"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-positionnement-30-08-2026.md",
+    "title": "Positionnement : méthode et exemples B2B",
+    "slug": "positionnement-methode-et-exemples-b2b",
+    "description": "Construire un positionnement B2B : segmentation, carte perceptuelle, énoncé de positionnement et exemples pour tester votre différenciation réelle.",
+    "tags": [
+      "market-research",
+      "methods"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-proposition de valeur-30-08-2026.md",
+    "title": "Proposition de valeur : méthode et exemples",
+    "slug": "proposition-de-valeur-methode-et-exemples",
+    "description": "Formuler une proposition de valeur : Value Proposition Canvas, Business Model Canvas, jobs to be done, et exemples pour tester la vôtre sur le marché.",
+    "tags": [
+      "market-research",
+      "methods"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-satisfaction client-30-08-2026.md",
+    "title": "Satisfaction client : mesure et leviers",
+    "slug": "satisfaction-client-mesure-et-leviers",
+    "description": "Mesurer la satisfaction client avec le CSAT, le NPS et le CES, choisir la bonne méthode d'enquête, et identifier les leviers qui agissent sur la fidélité.",
+    "tags": [
+      "methods",
+      "market-research"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-tegus-30-08-2026.md",
+    "title": "Tegus : avis, fonctionnement et alternatives",
+    "slug": "tegus-avis-fonctionnement-et-alternatives",
+    "description": "Tegus depuis son intégration à AlphaSense : bibliothèque de transcriptions, organisation des calls, facturation publiée et alternatives à comparer.",
+    "tags": [
+      "alternatives",
+      "expert-networks"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-tunnel de vente-30-08-2026.md",
+    "title": "Tunnel de vente : étapes et indicateurs à suivre",
+    "slug": "tunnel-de-vente-etapes-et-indicateurs-a-suivre",
+    "description": "Structurer un tunnel de vente B2B : les transitions à instrumenter, les indicateurs à suivre et comment construire votre propre base de référence.",
+    "tags": [
+      "buyers",
+      "methods"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-vendor due diligence-31-08-2026.md",
+    "title": "Vendor due diligence : guide pour les vendeurs",
+    "slug": "vendor-due-diligence-guide-pour-les-vendeurs",
+    "description": "Préparer une vendor due diligence côté vendeur : périmètre, workstreams, calendrier et obligations réglementaires à anticiper avant la data room.",
+    "tags": [
+      "due-diligence",
+      "m-and-a"
+    ],
+    "language": "fr"
+  },
+  {
+    "file": "FR Content/surfer-content-editor-xperts council-30-08-2026.md",
+    "title": "Xperts Council : avis et alternatives pour le recrutement d'experts",
+    "slug": "xperts-council-avis-et-alternatives-pour-le-recrutement-d-experts",
+    "description": "Xperts Council passé en revue : positionnement, fonctionnement, ce qui est documenté publiquement, et critères pour comparer les réseaux d'experts.",
+    "tags": [
+      "expert-networks",
+      "alternatives"
+    ],
+    "language": "fr"
+  }
+]
