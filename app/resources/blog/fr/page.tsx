@@ -39,6 +39,7 @@ export default async function FrenchBlogIndexPage() {
         sectionLabel: "Articles récents",
         countLabel: (n) => (n === 1 ? "1 article" : `${n} articles`),
         empty: "Aucun article pour le moment.",
+        readIn: "Lire en",
         readMore: "Lire l'article",
         ctaTitle: (
           <>

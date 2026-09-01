@@ -48,6 +48,7 @@ export default async function GermanBlogIndexPage() {
         sectionLabel: "Aktuelle Beiträge",
         countLabel: (n) => (n === 1 ? "1 Beitrag" : `${n} Beiträge`),
         empty: "Noch keine Beiträge.",
+        readIn: "Lesen auf",
         readMore: "Beitrag lesen",
         ctaTitle: (
           <>

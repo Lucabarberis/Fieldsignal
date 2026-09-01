@@ -17,6 +17,13 @@ import { authorForPost } from "@/content/data/authors";
  * The English index at /resources/blog is deliberately left untouched and
  * does not use this component.
  */
+/** Every market that has a blog index, in its own language. */
+const MARKETS = [
+  { lang: "en", name: "English", href: "/resources/blog" },
+  { lang: "de", name: "Deutsch", href: "/resources/blog/de" },
+  { lang: "fr", name: "Français", href: "/resources/blog/fr" },
+] as const;
+
 type Strings = {
   /** Breadcrumb leaf, and the Blog node's name in the breadcrumb schema. */
   breadcrumb: string;
@@ -27,6 +34,8 @@ type Strings = {
   countLabel: (n: number) => string;
   empty: string;
   readMore: string;
+  /** Label on the language switch, e.g. "Lesen auf" / "Lire en". */
+  readIn: string;
   ctaTitle: React.ReactNode;
   ctaMeta: React.ReactNode;
   ctaLabel: string;
@@ -66,6 +75,32 @@ export function LocalisedBlogIndex({
         lede={s.lede}
         lang={lang}
       />
+
+      {/* Language switch, directly under the header — the same place the
+          English index carries it, so a reader who switches once knows where
+          to look next time. The current market is plain text, not a link. */}
+      <div className="px-4 sm:px-9 py-3 border-b border-rule bg-paper-2 flex gap-x-5 gap-y-1 flex-wrap font-mono text-mono uppercase tracking-[0.08em]">
+        <span className="text-ink-3" lang={lang}>
+          {s.readIn}
+        </span>
+        {MARKETS.map((m) =>
+          m.lang === lang ? (
+            <span key={m.lang} className="text-ink" lang={m.lang}>
+              {m.name}
+            </span>
+          ) : (
+            <Link
+              key={m.lang}
+              href={m.href}
+              hrefLang={m.lang}
+              lang={m.lang}
+              className="text-ink-3 hover:text-ink transition-colors"
+            >
+              {m.name}
+            </Link>
+          ),
+        )}
+      </div>
 
       <SectionBand
         num="01"
@@ -110,6 +145,14 @@ export function LocalisedBlogIndex({
                 </Link>
               </li>
             ))}
+            {/* The grid draws its rules by letting the ul's background show
+                through a 1px gap. On an odd count the trailing half-row has
+                no tile, so that background renders as a grey block. This
+                fills it. Only on the 2-column layout — single column never
+                leaves a hole. */}
+            {posts.length % 2 === 1 && (
+              <li className="bg-paper hidden md:block" aria-hidden="true" />
+            )}
           </ul>
         )}
       </div>

@@ -45,6 +45,22 @@ export default async function BlogIndexPage() {
         lede="Weekly writing on primary research methods, expert network industry shifts and sector intelligence."
       />
 
+      {/* Language switch, directly under the header. It lived below the post
+          list until a reader went looking for it and could not find it — at
+          194 posts, anything after the list is invisible. `hreflang` on the
+          anchors describes the linked document's language; it is NOT a
+          rel=alternate claim, since these markets are separate originals. */}
+      <div className="px-4 sm:px-9 py-3 border-b border-rule bg-paper-2 flex gap-x-5 gap-y-1 flex-wrap font-mono text-mono uppercase tracking-[0.08em]">
+        <span className="text-ink-3">Read in</span>
+        <span className="text-ink">English</span>
+        <Link href="/resources/blog/de" hrefLang="de" lang="de" className="text-ink-3 hover:text-ink transition-colors">
+          Deutsch
+        </Link>
+        <Link href="/resources/blog/fr" hrefLang="fr" lang="fr" className="text-ink-3 hover:text-ink transition-colors">
+          Français
+        </Link>
+      </div>
+
       <SectionBand
         num="01"
         label="Recent Posts"
@@ -87,49 +103,6 @@ export default async function BlogIndexPage() {
             ))}
           </ul>
         )}
-      </div>
-
-      {/* Discovery path to the other markets. Without a crawlable link from
-          somewhere in the site, the German and French indexes are reachable
-          only via the sitemap — and readers never find them at all. `hreflang`
-          on these is deliberately absent: the articles behind them are
-          per-market originals, not translations of anything here. */}
-      <SectionBand num="02" label="Other Markets" />
-      <div className="px-4 sm:px-9 py-8">
-        <ul className="grid gap-px bg-rule grid-cols-1 sm:grid-cols-2">
-          {[
-            {
-              href: "/resources/blog/de",
-              lang: "de",
-              title: "Der FieldSignal Blog",
-              note: "Beiträge auf Deutsch zu Primärforschung und Expertennetzwerken.",
-            },
-            {
-              href: "/resources/blog/fr",
-              lang: "fr",
-              title: "Le blog FieldSignal",
-              note: "Articles en français sur la recherche primaire et les réseaux d'experts.",
-            },
-          ].map((m) => (
-            <li key={m.href} className="bg-paper">
-              <Link
-                href={m.href}
-                hrefLang={m.lang}
-                className="block px-7 pt-6 pb-5 hover:bg-paper-3 transition-colors h-full"
-              >
-                <h2
-                  lang={m.lang}
-                  className="font-sans font-medium text-wide leading-[1.15] tracking-[-0.012em] text-ink mb-2"
-                >
-                  {m.title}
-                </h2>
-                <p lang={m.lang} className="text-[13px] leading-[1.55] text-ink-2">
-                  {m.note}
-                </p>
-              </Link>
-            </li>
-          ))}
-        </ul>
       </div>
 
       <CtaBand
