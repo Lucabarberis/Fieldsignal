@@ -54,6 +54,7 @@
             "dataforseo",
             "hiring",
             "ios_apps",
+            "majestic_million",
             "openpagerank",
             "pricing",
             "techstack",
@@ -63,10 +64,10 @@
           "description": "OnePay is a US consumer mobile banking app offering saving, spending, borrowing, credit building and rewards in one account. It is backed by Walmart and aimed at customers underserved by traditional banks, competing with Cash App and Chime rather than with high-street lenders.",
           "appearances": 1,
           "hiring": {
-            "open_roles": 38,
+            "open_roles": 39,
             "gtm_roles": 5,
             "gtm_ratio": 13,
-            "as_of": "2026-09-01"
+            "as_of": "2026-09-02"
           },
           "track": {
             "first_flagged": "2026-08-28",
@@ -92,11 +93,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-28",
-            "days_ago": 4,
+            "days_ago": 5,
             "unit": "stars",
             "then": 1650,
-            "now": 3246,
-            "change_pct": 96.7
+            "now": 3403,
+            "change_pct": 106.2
           },
           "briefed_on": "2026-08-28"
         }
@@ -120,11 +121,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 5085,
-            "now": 5557,
-            "change_pct": 9.3
+            "now": 5657,
+            "change_pct": 11.2
           },
           "briefed_on": "2026-08-27"
         },
@@ -142,11 +143,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 5,
+            "days_ago": 6,
             "unit": "stars",
             "then": 158,
-            "now": 181,
-            "change_pct": 14.6
+            "now": 182,
+            "change_pct": 15.2
           },
           "briefed_on": "2026-08-27"
         }
@@ -171,11 +172,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 13242,
-            "now": 17620,
-            "change_pct": 33.1
+            "now": 17729,
+            "change_pct": 33.9
           },
           "briefed_on": "2026-08-26"
         },
@@ -185,6 +186,7 @@
           "brief": "Its WordPress plugin's download count moved 1,460 to 1,482 while traffic rank improved 1.5% the same day. Small numbers, but the two came from different places: one counts installs on the plugin directory, the other counts people arriving at the site, and neither knows about the other.",
           "sources": [
             "dataforseo",
+            "openpagerank",
             "techstack",
             "tranco",
             "wordpress"
@@ -193,7 +195,14 @@
           "description": "xpay is a service for making an online store legible to AI shopping agents: it audits and adapts a merchant's catalogue, content and checkout so an assistant can read, recommend and buy from it, then reports the orders that came back through that channel. It offers a free agent-readiness audit without signup, and ships a WordPress plugin for WooCommerce stores.",
           "appearances": 1,
           "hiring": null,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-26",
+            "days_ago": 7,
+            "unit": "authority",
+            "then": 3.54,
+            "now": 3.54,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-26"
         },
         {
@@ -210,11 +219,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-26",
-            "days_ago": 6,
+            "days_ago": 7,
             "unit": "stars",
             "then": 1662,
-            "now": 2366,
-            "change_pct": 42.4
+            "now": 2392,
+            "change_pct": 43.9
           },
           "briefed_on": "2026-08-26"
         }
@@ -232,6 +241,7 @@
             "dataforseo",
             "hiring",
             "ios_apps",
+            "openpagerank",
             "pricing",
             "tranco"
           ],
@@ -244,7 +254,14 @@
             "gtm_ratio": 40,
             "as_of": "2026-08-25"
           },
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-25",
+            "days_ago": 8,
+            "unit": "authority",
+            "then": 6.05,
+            "now": 6.05,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-25"
         },
         {
@@ -261,11 +278,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-25",
-            "days_ago": 7,
+            "days_ago": 8,
             "unit": "stars",
             "then": 151,
-            "now": 596,
-            "change_pct": 294.7
+            "now": 603,
+            "change_pct": 299.3
           },
           "briefed_on": "2026-08-25"
         }
@@ -284,6 +301,7 @@
             "crunchbase",
             "dataforseo",
             "ios_apps",
+            "openpagerank",
             "pricing",
             "techstack",
             "tranco",
@@ -294,7 +312,14 @@
           "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
           "appearances": 1,
           "hiring": null,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-24",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 5.99,
+            "now": 5.99,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-24"
         },
         {
@@ -305,6 +330,7 @@
             "android_apps",
             "dataforseo",
             "ios_apps",
+            "openpagerank",
             "techstack",
             "tranco"
           ],
@@ -312,7 +338,14 @@
           "description": "PeakFinder names the mountains around you: point a phone at a skyline and it draws and labels the peaks from elevation data, entirely offline, anywhere in the world. It is a paid app with no subscription, used by hikers, climbers and alpine walkers to identify summits without a signal.",
           "appearances": 1,
           "hiring": null,
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-24",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 4.72,
+            "now": 4.72,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-24"
         }
       ]
@@ -492,6 +525,7 @@
             "github",
             "hackernews",
             "hiring",
+            "openpagerank",
             "pricing",
             "techstack",
             "wikipedia"
@@ -505,7 +539,14 @@
             "gtm_ratio": 56,
             "as_of": "2026-08-18"
           },
-          "track": null,
+          "track": {
+            "first_flagged": "2026-08-15",
+            "days_ago": 18,
+            "unit": "authority",
+            "then": 1.28,
+            "now": 1.28,
+            "change_pct": 0.0
+          },
           "briefed_on": "2026-08-15"
         },
         {
@@ -523,11 +564,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-15",
-            "days_ago": 17,
+            "days_ago": 18,
             "unit": "stars",
             "then": 1622,
-            "now": 1967,
-            "change_pct": 21.3
+            "now": 1975,
+            "change_pct": 21.8
           },
           "briefed_on": "2026-08-15"
         }
@@ -552,11 +593,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-08-14"
         },
@@ -646,11 +687,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-08-13"
         }
@@ -675,11 +716,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-08-12"
         },
@@ -697,11 +738,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 20,
+            "days_ago": 21,
             "unit": "stars",
             "then": 1432,
-            "now": 2523,
-            "change_pct": 76.2
+            "now": 2534,
+            "change_pct": 77.0
           },
           "briefed_on": "2026-08-12"
         }
@@ -725,11 +766,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 22,
+            "days_ago": 23,
             "unit": "stars",
             "then": 144,
-            "now": 254,
-            "change_pct": 76.4
+            "now": 311,
+            "change_pct": 116.0
           },
           "briefed_on": "2026-08-11"
         }
@@ -775,11 +816,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 22,
+            "days_ago": 23,
             "unit": "stars",
             "then": 144,
-            "now": 254,
-            "change_pct": 76.4
+            "now": 311,
+            "change_pct": 116.0
           },
           "briefed_on": "2026-08-10"
         },
@@ -798,11 +839,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 13242,
-            "now": 17620,
-            "change_pct": 33.1
+            "now": 17729,
+            "change_pct": 33.9
           },
           "briefed_on": "2026-08-10"
         }
@@ -906,11 +947,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-08-08"
         },
@@ -928,11 +969,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 26,
+            "days_ago": 28,
             "unit": "stars",
             "then": 217,
-            "now": 306,
-            "change_pct": 41.0
+            "now": 308,
+            "change_pct": 41.9
           },
           "briefed_on": "2026-08-08"
         }
@@ -956,11 +997,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 26,
+            "days_ago": 28,
             "unit": "stars",
             "then": 217,
-            "now": 306,
-            "change_pct": 41.0
+            "now": 308,
+            "change_pct": 41.9
           },
           "briefed_on": "2026-08-07"
         },
@@ -1079,11 +1120,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 26,
+            "days_ago": 28,
             "unit": "stars",
             "then": 217,
-            "now": 306,
-            "change_pct": 41.0
+            "now": 308,
+            "change_pct": 41.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -1101,11 +1142,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 2196,
-            "now": 6524,
-            "change_pct": 197.1
+            "now": 6542,
+            "change_pct": 197.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -1124,11 +1165,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 13242,
-            "now": 17620,
-            "change_pct": 33.1
+            "now": 17729,
+            "change_pct": 33.9
           },
           "briefed_on": "2026-08-05"
         },
@@ -1168,11 +1209,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 341,
-            "now": 427,
-            "change_pct": 25.2
+            "now": 428,
+            "change_pct": 25.5
           },
           "briefed_on": "2026-08-05"
         }
@@ -1244,11 +1285,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 2196,
-            "now": 6524,
-            "change_pct": 197.1
+            "now": 6542,
+            "change_pct": 197.9
           },
           "briefed_on": "2026-08-04"
         }
@@ -1295,11 +1336,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-08-03"
         }
@@ -1323,11 +1364,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 2196,
-            "now": 6524,
-            "change_pct": 197.1
+            "now": 6542,
+            "change_pct": 197.9
           },
           "briefed_on": "2026-08-02"
         },
@@ -1345,11 +1386,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 30,
+            "days_ago": 31,
             "unit": "stars",
             "then": 5567,
-            "now": 14402,
-            "change_pct": 158.7
+            "now": 14436,
+            "change_pct": 159.3
           },
           "briefed_on": "2026-08-02"
         },
@@ -1498,11 +1539,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 2196,
-            "now": 6524,
-            "change_pct": 197.1
+            "now": 6542,
+            "change_pct": 197.9
           },
           "briefed_on": "2026-08-01"
         },
@@ -1565,11 +1606,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-08-01"
         }
@@ -1594,11 +1635,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 1007,
-            "now": 1810,
-            "change_pct": 79.7
+            "now": 1817,
+            "change_pct": 80.4
           },
           "briefed_on": "2026-07-31"
         },
@@ -1616,11 +1657,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 33,
+            "days_ago": 34,
             "unit": "stars",
             "then": 6090,
-            "now": 10310,
-            "change_pct": 69.3
+            "now": 10326,
+            "change_pct": 69.6
           },
           "briefed_on": "2026-07-31"
         },
@@ -1660,11 +1701,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 2196,
-            "now": 6524,
-            "change_pct": 197.1
+            "now": 6542,
+            "change_pct": 197.9
           },
           "briefed_on": "2026-07-31"
         },
@@ -1710,11 +1751,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 33,
+            "days_ago": 34,
             "unit": "stars",
             "then": 290,
-            "now": 380,
-            "change_pct": 31.0
+            "now": 381,
+            "change_pct": 31.4
           },
           "briefed_on": "2026-07-30"
         },
@@ -1732,11 +1773,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 33,
+            "days_ago": 34,
             "unit": "stars",
             "then": 384,
-            "now": 843,
-            "change_pct": 119.5
+            "now": 852,
+            "change_pct": 121.9
           },
           "briefed_on": "2026-07-30"
         },
@@ -1754,11 +1795,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 33,
+            "days_ago": 34,
             "unit": "stars",
             "then": 6090,
-            "now": 10310,
-            "change_pct": 69.3
+            "now": 10326,
+            "change_pct": 69.6
           },
           "briefed_on": "2026-07-30"
         },
