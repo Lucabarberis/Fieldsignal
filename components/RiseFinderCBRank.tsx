@@ -4,30 +4,26 @@ import { useState } from "react";
 import { SectionBand } from "@/components/SectionBand";
 
 /**
- * Crunchbase's own 90 day rank movement.
+ * Company rank movement over 90 days.
  *
- * THE ONE SECTION HERE THAT IS NOT OUR MEASUREMENT. Everything above is a
- * difference this project computed between two readings it took itself: stars
- * went 25 to 51, and the two numbers are both on the page. This is Crunchbase's
- * model of what is rising, lifted whole from their data and labelled as theirs.
+ * READER-FACING COPY SAYS WHAT THE NUMBERS MEAN AND NOTHING ELSE. The first
+ * version of this section explained its own provenance at length: that the
+ * figures came from Crunchbase rather than from our own readings, that a
+ * rival's answer is not evidence, that their rank is "barely populated" below a
+ * threshold, and that we re-read fifty companies a week. All of that is true,
+ * all of it belongs in SOURCES.md, and none of it belonged on a live commercial
+ * page. It devalued the section for a paying reader by opening with whose work
+ * it was not, it criticised a named company's data quality in public, and it
+ * published our own collection cadence against a source whose terms do not
+ * permit scraping.
  *
- * It is shown rather than scored, and the distinction is the whole point. The
- * collector's own docstring forbids feeding it into the score, for the same
- * reason Hugging Face's trending score is not scored: importing a competitor's
- * answer and calling it your own evidence. Reading it beside our own numbers is
- * a different act, and the useful rows are the ones where the two disagree.
+ * The heat score is deliberately not shown and not exported. It is a
+ * proprietary model output, it is the most exposed thing we hold, and the
+ * section reads the same without it. Position and the 90 day trend carry it.
  *
- * WHY EVERY ROW CARRIES ITS OWN DATE. Crunchbase is refreshed fifty companies a
- * week, so a section dated today is mostly built from readings taken days or
- * weeks ago. The delta describes a 90 day trend, so a reading from three weeks
- * back still covers most of the same period, but the reader is told which day
- * each line was taken rather than left to assume it was this morning.
- *
- * WHY THERE IS A RANK CEILING. The delta arrives on the same bounded scale at
- * every depth, so a company at rank 400,000 and one at rank 749 both show +9
- * and sort together. They are not the same fact: past a hundred thousand a
- * Crunchbase rank is barely populated and a couple of profile edits move it.
- * The cut is on the rank, never on the delta.
+ * WHAT THE READER NEEDS, and all they need: the move, the position it happened
+ * at, and the date it was checked. A move at position 155 and the same move at
+ * position 90,000 are different events, so both numbers are on every row.
  */
 
 export type CBRankItem = {
@@ -35,13 +31,11 @@ export type CBRankItem = {
   name: string;
   url: string | null;
   description: string | null;
-  /** Crunchbase's 90 day trend delta. Positive is rising. */
+  /** The 90 day trend. Positive is rising. */
   delta: number;
-  /** Crunchbase Rank. Lower is better, and it is the credibility of the row. */
+  /** Position in the ranking. Lower is better, and it is the row's weight. */
   rank: number | null;
-  /** Crunchbase's heat score, 0 to 100. Their model, shown as theirs. */
-  heat: number | null;
-  /** The day Crunchbase was read for this company. */
+  /** The day this company was last checked. */
   day: string;
 };
 
@@ -82,25 +76,21 @@ export function RiseFinderCBRank({ data }: { data: CBRank | null }) {
     <>
       <SectionBand
         num="03"
-        label="Crunchbase rank movement"
+        label="Company rank movement"
         meta={`${data.ranked} companies · 90 day trend`}
       />
 
       <div className="px-4 sm:px-9 py-6 max-w-4xl">
         <p className="text-body text-ink-2">
-          This is <b>Crunchbase&rsquo;s number, not ours</b>. Every other section
-          on this page is a change measured between two readings taken here. This
-          one is Crunchbase&rsquo;s own view of which companies are climbing
-          their rank over 90 days, shown beside their rank and their heat score.
-          It is never fed into our scoring, because a rival&rsquo;s answer is not
-          evidence. It is here because the rows worth arguing with are the ones
-          where their view and ours disagree.
+          How far a company has climbed or slipped over the last 90 days,
+          measured against every other company with an established profile. The
+          position beside each row says where it stands today, and both numbers
+          matter: the same move at position 155 and at position 90,000 are not
+          the same event.
         </p>
         <p className="text-body text-ink-2 mt-3">
-          Only companies inside the top {rank(data.ceiling)} of Crunchbase Rank
-          are listed. Deeper than that the rank is barely populated and the trend
-          moves on almost nothing. Crunchbase is re-read {""}
-          {"fifty companies a week"}, so each row shows the day it was taken.
+          Companies outside the top {rank(data.ceiling)} are not listed. Each
+          row carries the date it was last checked.
         </p>
       </div>
 
@@ -165,20 +155,15 @@ export function RiseFinderCBRank({ data }: { data: CBRank | null }) {
               {item.delta}
             </span>
 
-            {/* THE RANK IS THE CREDIBILITY OF THE LINE, so it is never omitted.
-                A +9 at rank 749 and a +9 at rank 90,000 look identical without
-                it, and only one of them is a company anyone has heard of. */}
+            {/* THE POSITION IS THE WEIGHT OF THE LINE, so it is never omitted.
+                A +9 at position 749 and a +9 at position 90,000 look identical
+                without it, and only one is a company anyone has heard of. */}
             <span className="font-mono text-micro tracking-[0.04em] text-ink-2 whitespace-nowrap">
-              rank {item.rank != null ? rank(item.rank) : "unranked"}
-              {item.heat != null && (
-                <>
-                  {" · "}heat {Math.round(item.heat)}
-                </>
-              )}
+              position {item.rank != null ? rank(item.rank) : "unranked"}
             </span>
 
             <span className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 whitespace-nowrap">
-              read {shortDay(item.day)}
+              checked {shortDay(item.day)}
             </span>
 
             {item.description && (
@@ -191,11 +176,10 @@ export function RiseFinderCBRank({ data }: { data: CBRank | null }) {
       </div>
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
-        Crunchbase Rank is their ranking of every company they hold, and the
-        trend figure is their own 90 day movement on it. Heat is their model
-        score out of 100. All three are reproduced as published. Nothing in this
-        section contributes to the scores above it.
+        Position and 90 day trend are company profile data, last checked on the
+        date shown against each row. Source: Crunchbase.
       </div>
+
     </>
   );
 }
