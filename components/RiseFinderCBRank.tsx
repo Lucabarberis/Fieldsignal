@@ -177,7 +177,7 @@ export function RiseFinderCBRank({ data }: { data: CBRank | null }) {
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
         Position and 90 day trend are company profile data, last checked on the
-        date shown against each row. Source: Crunchbase.
+        date shown against each row.
       </div>
 
     </>
