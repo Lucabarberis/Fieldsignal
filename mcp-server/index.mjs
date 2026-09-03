@@ -411,7 +411,7 @@ const handlers = {
 
     let q = supabase
       .from("posts")
-      .select("slug,title,description,status,published_at,updated_at,author,tags")
+      .select("slug,title,description,status,published_at,updated_at,author,tags,language")
       .order("published_at", { ascending: false })
       .limit(limit);
     if (status === "draft") q = q.eq("status", "draft");
