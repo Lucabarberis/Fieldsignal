@@ -9,6 +9,7 @@ import {
   RiseFinderFunding,
   type FundingWindow,
 } from "@/components/RiseFinderFunding";
+import { RiseFinderCBRank, type CBRank } from "@/components/RiseFinderCBRank";
 import { RiseFinderArchive } from "@/components/RiseFinderArchive";
 import { pageMetadata } from "@/lib/seo";
 import data from "@/content/data/risefinder.json";
@@ -131,9 +132,11 @@ export default async function RiseFinderPage({
 
       <RiseFinderFunding windows={(data.funding ?? []) as FundingWindow[]} />
 
+      <RiseFinderCBRank data={(data.cbrank ?? null) as CBRank | null} />
+
       <RiseFinderSubscribe />
 
-      <RiseFinderMethod num="03" />
+      <RiseFinderMethod num="04" />
 
       {archive.days.length > 0 && (
         <>
