@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T01:20:44Z",
+  "generated_at": "2026-09-04T03:46:13Z",
   "explorer": [
     {
       "id": "majestic_million",
@@ -15732,7 +15732,7 @@
   "briefed_through": "2026-08-29",
   "stats": {
     "entities": 53065,
-    "snapshots": 1324549,
+    "snapshots": 1324567,
     "sources_live": 32,
     "first_day": "2026-07-28",
     "scored_on_briefing_day": 12137,
