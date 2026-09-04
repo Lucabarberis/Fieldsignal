@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T23:33:33Z",
+  "generated_at": "2026-09-04T00:24:37Z",
   "explorer": [
     {
       "id": "majestic_million",
@@ -13977,7 +13977,8 @@
         {
           "key": "sec:1790169",
           "name": "ZeroStack Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1790169&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 1000000000.0,
           "target": 1000000000.0,
           "closed_pct": 100.0,
@@ -13986,7 +13987,8 @@
         {
           "key": "sec:2152822",
           "name": "Zing Health Consolidator, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152822&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 22500000.0,
           "target": 30000000.0,
           "closed_pct": 75.0,
@@ -13995,7 +13997,8 @@
         {
           "key": "sec:1964363",
           "name": "Sensible Biotechnologies, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1964363&type=D&dateb=&owner=include&count=40",
+          "url": "https://sensible.bio",
+          "description": null,
           "raised": 13518941.0,
           "target": 15000000.0,
           "closed_pct": 90.1,
@@ -14004,7 +14007,8 @@
         {
           "key": "sec:2152408",
           "name": "Sylvan Labs, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152408&type=D&dateb=&owner=include&count=40",
+          "url": "https://sylvanlabs.com",
+          "description": null,
           "raised": 10940500.0,
           "target": 10940500.0,
           "closed_pct": 100.0,
@@ -14013,7 +14017,8 @@
         {
           "key": "sec:2153058",
           "name": "Quantizr, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153058&type=D&dateb=&owner=include&count=40",
+          "url": "https://quantizr.com",
+          "description": null,
           "raised": 7574897.0,
           "target": 7574897.0,
           "closed_pct": 100.0,
@@ -14022,7 +14027,8 @@
         {
           "key": "sec:2153126",
           "name": "Aclarity Genomics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153126&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 4625000.0,
           "target": 4625000.0,
           "closed_pct": 100.0,
@@ -14031,7 +14037,8 @@
         {
           "key": "sec:2148502",
           "name": "Esger, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148502&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 3839991.0,
           "target": 3839991.0,
           "closed_pct": 100.0,
@@ -14040,7 +14047,8 @@
         {
           "key": "sec:2135277",
           "name": "FlexEtc, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135277&type=D&dateb=&owner=include&count=40",
+          "url": "https://flexetc.com",
+          "description": null,
           "raised": 3509066.0,
           "target": 3769994.0,
           "closed_pct": 93.1,
@@ -14049,7 +14057,8 @@
         {
           "key": "sec:2152880",
           "name": "OnPeak Weather Group, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152880&type=D&dateb=&owner=include&count=40",
+          "url": "https://onpeakweathergroup.com",
+          "description": null,
           "raised": 3000000.0,
           "target": 3000000.0,
           "closed_pct": 100.0,
@@ -14058,7 +14067,8 @@
         {
           "key": "sec:2146282",
           "name": "Radian Forge Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2146282&type=D&dateb=&owner=include&count=40",
+          "url": "https://radianforge.com",
+          "description": null,
           "raised": 2301750.0,
           "target": 3000000.0,
           "closed_pct": 76.7,
@@ -14067,7 +14077,8 @@
         {
           "key": "sec:1898640",
           "name": "Noble Brands Inc /DE",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1898640&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 2125389.0,
           "target": 2500000.0,
           "closed_pct": 85.0,
@@ -14076,7 +14087,8 @@
         {
           "key": "sec:2152871",
           "name": "Bluefields, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152871&type=D&dateb=&owner=include&count=40",
+          "url": "https://bluefieldsspecialty.com",
+          "description": null,
           "raised": 1999999.0,
           "target": 3000000.0,
           "closed_pct": 66.7,
@@ -14085,7 +14097,8 @@
         {
           "key": "sec:2071774",
           "name": "Cheddr Picks Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2071774&type=D&dateb=&owner=include&count=40",
+          "url": "https://cheddr.xyz",
+          "description": null,
           "raised": 1685000.0,
           "target": 5000000.0,
           "closed_pct": 33.7,
@@ -14094,7 +14107,8 @@
         {
           "key": "sec:2152177",
           "name": "Overwatch AI Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152177&type=D&dateb=&owner=include&count=40",
+          "url": "https://overwatch-ai.com",
+          "description": null,
           "raised": 1667010.0,
           "target": 1667010.0,
           "closed_pct": 100.0,
@@ -14103,7 +14117,8 @@
         {
           "key": "sec:2153044",
           "name": "Idealab AZ, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153044&type=D&dateb=&owner=include&count=40",
+          "url": "https://idealab.com",
+          "description": null,
           "raised": 1250000.0,
           "target": 20000000.0,
           "closed_pct": 6.2,
@@ -14112,7 +14127,8 @@
         {
           "key": "sec:2135437",
           "name": "01 Labs, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135437&type=D&dateb=&owner=include&count=40",
+          "url": "https://o1labs.org",
+          "description": null,
           "raised": 1000002.0,
           "target": 1000002.0,
           "closed_pct": 100.0,
@@ -14121,7 +14137,8 @@
         {
           "key": "sec:2153093",
           "name": "PIRL Network, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153093&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 195000.0,
           "target": 300000.0,
           "closed_pct": 65.0,
@@ -14130,7 +14147,8 @@
         {
           "key": "sec:2152986",
           "name": "Telemachus Therapeutics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152986&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 125000.0,
           "target": 1500000.0,
           "closed_pct": 8.3,
@@ -14139,7 +14157,8 @@
         {
           "key": "sec:2152948",
           "name": "AlgoChains Inc",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152948&type=D&dateb=&owner=include&count=40",
+          "url": "https://algochains.ai",
+          "description": null,
           "raised": 100000.0,
           "target": 1500000.0,
           "closed_pct": 6.7,
@@ -14148,7 +14167,8 @@
         {
           "key": "sec:2127436",
           "name": "Agen Genomics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2127436&type=D&dateb=&owner=include&count=40",
+          "url": "https://agengenomics.com",
+          "description": null,
           "raised": 25000.0,
           "target": 1500000.0,
           "closed_pct": 1.7,
@@ -14157,7 +14177,8 @@
         {
           "key": "sec:2152244",
           "name": "Biftx Global Exchange Inc",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152244&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 0.0,
           "target": 100000000.0,
           "closed_pct": 0.0,
@@ -14174,7 +14195,8 @@
         {
           "key": "sec:1587468",
           "name": "Databricks, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1587468&type=D&dateb=&owner=include&count=40",
+          "url": "https://databricks.com",
+          "description": null,
           "raised": 4999997255.0,
           "target": 5000000000.0,
           "closed_pct": 100.0,
@@ -14183,7 +14205,8 @@
         {
           "key": "sec:1790169",
           "name": "ZeroStack Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1790169&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 1000000000.0,
           "target": 1000000000.0,
           "closed_pct": 100.0,
@@ -14192,7 +14215,8 @@
         {
           "key": "sec:1973707",
           "name": "Castelion Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1973707&type=D&dateb=&owner=include&count=40",
+          "url": "https://castelion.com",
+          "description": null,
           "raised": 647001000.0,
           "target": 800000000.0,
           "closed_pct": 80.9,
@@ -14201,7 +14225,8 @@
         {
           "key": "sec:2069488",
           "name": "Medici Brands, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2069488&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 270920144.0,
           "target": 381925350.0,
           "closed_pct": 70.9,
@@ -14210,7 +14235,8 @@
         {
           "key": "sec:2088132",
           "name": "Modal Labs, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2088132&type=D&dateb=&owner=include&count=40",
+          "url": "https://modal.com",
+          "description": null,
           "raised": 175277185.0,
           "target": 175365831.0,
           "closed_pct": 99.9,
@@ -14219,7 +14245,8 @@
         {
           "key": "sec:2096698",
           "name": "Gnau Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2096698&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 100109625.0,
           "target": 100109653.0,
           "closed_pct": 100.0,
@@ -14228,7 +14255,8 @@
         {
           "key": "sec:1945179",
           "name": "Felix Technologies Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1945179&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 87812283.0,
           "target": 87812283.0,
           "closed_pct": 100.0,
@@ -14237,7 +14265,8 @@
         {
           "key": "sec:1979783",
           "name": "DealerCue Automotive Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1979783&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 73229500.0,
           "target": 73229500.0,
           "closed_pct": 100.0,
@@ -14246,7 +14275,8 @@
         {
           "key": "sec:2152603",
           "name": "Bank Iowa Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152603&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 71000000.0,
           "target": 71000000.0,
           "closed_pct": 100.0,
@@ -14255,7 +14285,8 @@
         {
           "key": "sec:1929303",
           "name": "Tabnam, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1929303&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 40000000.0,
           "target": 40000000.0,
           "closed_pct": 100.0,
@@ -14264,7 +14295,8 @@
         {
           "key": "sec:1682149",
           "name": "Datavault AI Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1682149&type=D&dateb=&owner=include&count=40",
+          "url": "https://dvlt.ai",
+          "description": null,
           "raised": 29172366.0,
           "target": 29172366.0,
           "closed_pct": 100.0,
@@ -14273,7 +14305,8 @@
         {
           "key": "sec:2152822",
           "name": "Zing Health Consolidator, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152822&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 22500000.0,
           "target": 30000000.0,
           "closed_pct": 75.0,
@@ -14282,7 +14315,8 @@
         {
           "key": "sec:1956774",
           "name": "Levanta.io Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1956774&type=D&dateb=&owner=include&count=40",
+          "url": "https://levanta.io",
+          "description": null,
           "raised": 22030628.0,
           "target": 22030628.0,
           "closed_pct": 100.0,
@@ -14291,7 +14325,8 @@
         {
           "key": "sec:2097048",
           "name": "NantOptiFab, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2097048&type=D&dateb=&owner=include&count=40",
+          "url": "https://nantoptifab.com",
+          "description": null,
           "raised": 20000000.0,
           "target": 20000000.0,
           "closed_pct": 100.0,
@@ -14300,7 +14335,8 @@
         {
           "key": "sec:1964363",
           "name": "Sensible Biotechnologies, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1964363&type=D&dateb=&owner=include&count=40",
+          "url": "https://sensible.bio",
+          "description": null,
           "raised": 13518941.0,
           "target": 15000000.0,
           "closed_pct": 90.1,
@@ -14309,7 +14345,8 @@
         {
           "key": "sec:2152408",
           "name": "Sylvan Labs, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152408&type=D&dateb=&owner=include&count=40",
+          "url": "https://sylvanlabs.com",
+          "description": null,
           "raised": 10940500.0,
           "target": 10940500.0,
           "closed_pct": 100.0,
@@ -14318,7 +14355,8 @@
         {
           "key": "sec:1702634",
           "name": "Virtualitics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1702634&type=D&dateb=&owner=include&count=40",
+          "url": "https://virtualitics.com",
+          "description": null,
           "raised": 10000000.0,
           "target": 15000000.0,
           "closed_pct": 66.7,
@@ -14327,7 +14365,8 @@
         {
           "key": "sec:2152374",
           "name": "Innabox, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152374&type=D&dateb=&owner=include&count=40",
+          "url": "https://innabox.co.uk",
+          "description": null,
           "raised": 9795824.0,
           "target": 10000000.0,
           "closed_pct": 98.0,
@@ -14336,7 +14375,8 @@
         {
           "key": "sec:1908717",
           "name": "Koxa Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1908717&type=D&dateb=&owner=include&count=40",
+          "url": "https://koxa.io",
+          "description": null,
           "raised": 8664773.0,
           "target": 8664773.0,
           "closed_pct": 100.0,
@@ -14345,7 +14385,8 @@
         {
           "key": "sec:2040587",
           "name": "Trexity Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2040587&type=D&dateb=&owner=include&count=40",
+          "url": "https://trexity.com",
+          "description": null,
           "raised": 8385000.0,
           "target": 10384999.0,
           "closed_pct": 80.7,
@@ -14354,7 +14395,8 @@
         {
           "key": "sec:1329147",
           "name": "Orthobond Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1329147&type=D&dateb=&owner=include&count=40",
+          "url": "https://orthobond.com",
+          "description": null,
           "raised": 8346000.0,
           "target": 10000000.0,
           "closed_pct": 83.5,
@@ -14363,7 +14405,8 @@
         {
           "key": "sec:2153058",
           "name": "Quantizr, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153058&type=D&dateb=&owner=include&count=40",
+          "url": "https://quantizr.com",
+          "description": null,
           "raised": 7574897.0,
           "target": 7574897.0,
           "closed_pct": 100.0,
@@ -14372,7 +14415,8 @@
         {
           "key": "sec:1478304",
           "name": "Noveome Biotherapeutics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1478304&type=D&dateb=&owner=include&count=40",
+          "url": "https://noveome.com",
+          "description": null,
           "raised": 6750503.0,
           "target": 15000000.0,
           "closed_pct": 45.0,
@@ -14381,7 +14425,8 @@
         {
           "key": "sec:2150609",
           "name": "Nexus Bedside, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2150609&type=D&dateb=&owner=include&count=40",
+          "url": "https://nexus-rn.com",
+          "description": null,
           "raised": 6250000.0,
           "target": 6250000.0,
           "closed_pct": 100.0,
@@ -14390,7 +14435,8 @@
         {
           "key": "sec:2153126",
           "name": "Aclarity Genomics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2153126&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 4625000.0,
           "target": 4625000.0,
           "closed_pct": 100.0,
@@ -14399,7 +14445,8 @@
         {
           "key": "sec:770811",
           "name": "BUCKEYE CORRUGATED, INC.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=770811&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 4434560.0,
           "target": 9999600.0,
           "closed_pct": 44.3,
@@ -14408,7 +14455,8 @@
         {
           "key": "sec:2075147",
           "name": "D5Cash Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2075147&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 4000000.0,
           "target": 4000000.0,
           "closed_pct": 100.0,
@@ -14417,7 +14465,8 @@
         {
           "key": "sec:2148502",
           "name": "Esger, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148502&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 3839991.0,
           "target": 3839991.0,
           "closed_pct": 100.0,
@@ -14426,7 +14475,8 @@
         {
           "key": "sec:2069519",
           "name": "Conavi Medical Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2069519&type=D&dateb=&owner=include&count=40",
+          "url": "https://conavi.com",
+          "description": null,
           "raised": 3529074.0,
           "target": 3529074.0,
           "closed_pct": 100.0,
@@ -14435,7 +14485,8 @@
         {
           "key": "sec:2135277",
           "name": "FlexEtc, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2135277&type=D&dateb=&owner=include&count=40",
+          "url": "https://flexetc.com",
+          "description": null,
           "raised": 3509066.0,
           "target": 3769994.0,
           "closed_pct": 93.1,
@@ -14444,7 +14495,8 @@
         {
           "key": "sec:1829255",
           "name": "Halia Therapeutics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1829255&type=D&dateb=&owner=include&count=40",
+          "url": "https://haliatx.com",
+          "description": null,
           "raised": 3486474.0,
           "target": 20000000.0,
           "closed_pct": 17.4,
@@ -14453,7 +14505,8 @@
         {
           "key": "sec:2151206",
           "name": "TechniSoil Industrial, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151206&type=D&dateb=&owner=include&count=40",
+          "url": "https://technisoil.com",
+          "description": null,
           "raised": 3485365.0,
           "target": 5825338.0,
           "closed_pct": 59.8,
@@ -14462,7 +14515,8 @@
         {
           "key": "sec:2152880",
           "name": "OnPeak Weather Group, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152880&type=D&dateb=&owner=include&count=40",
+          "url": "https://onpeakweathergroup.com",
+          "description": null,
           "raised": 3000000.0,
           "target": 3000000.0,
           "closed_pct": 100.0,
@@ -14471,7 +14525,8 @@
         {
           "key": "sec:2152778",
           "name": "Neo Agent Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152778&type=D&dateb=&owner=include&count=40",
+          "url": "https://neoagent.io",
+          "description": null,
           "raised": 2744996.0,
           "target": 2744996.0,
           "closed_pct": 100.0,
@@ -14480,7 +14535,8 @@
         {
           "key": "sec:2104266",
           "name": "TranscendAP, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2104266&type=D&dateb=&owner=include&count=40",
+          "url": "https://transcendap.com",
+          "description": null,
           "raised": 2549998.0,
           "target": 2549998.0,
           "closed_pct": 100.0,
@@ -14489,7 +14545,8 @@
         {
           "key": "sec:2148251",
           "name": "Waitly, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148251&type=D&dateb=&owner=include&count=40",
+          "url": "https://waitly.com",
+          "description": null,
           "raised": 2500000.0,
           "target": 2500000.0,
           "closed_pct": 100.0,
@@ -14498,7 +14555,8 @@
         {
           "key": "sec:2152314",
           "name": "Forecast Bio, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152314&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 2400000.0,
           "target": 3150000.0,
           "closed_pct": 76.2,
@@ -14507,7 +14565,8 @@
         {
           "key": "sec:2146282",
           "name": "Radian Forge Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2146282&type=D&dateb=&owner=include&count=40",
+          "url": "https://radianforge.com",
+          "description": null,
           "raised": 2301750.0,
           "target": 3000000.0,
           "closed_pct": 76.7,
@@ -14516,7 +14575,8 @@
         {
           "key": "sec:1797825",
           "name": "Aegle Therapeutics Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1797825&type=D&dateb=&owner=include&count=40",
+          "url": "https://aegletherapeutics.com",
+          "description": null,
           "raised": 2277700.0,
           "target": 2277700.0,
           "closed_pct": 100.0,
@@ -14525,7 +14585,8 @@
         {
           "key": "sec:2041826",
           "name": "Voxcell BioInnovation Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2041826&type=D&dateb=&owner=include&count=40",
+          "url": "https://voxcell.com",
+          "description": null,
           "raised": 2200676.0,
           "target": 2200676.0,
           "closed_pct": 100.0,
@@ -14542,7 +14603,8 @@
         {
           "key": "sec:1587468",
           "name": "Databricks, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1587468&type=D&dateb=&owner=include&count=40",
+          "url": "https://databricks.com",
+          "description": null,
           "raised": 4999997255.0,
           "target": 5000000000.0,
           "closed_pct": 100.0,
@@ -14551,7 +14613,8 @@
         {
           "key": "sec:1806928",
           "name": "Kalshi Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1806928&type=D&dateb=&owner=include&count=40",
+          "url": "https://kalshi.com",
+          "description": null,
           "raised": 1120010122.0,
           "target": 1499997894.0,
           "closed_pct": 74.7,
@@ -14560,7 +14623,8 @@
         {
           "key": "sec:1790169",
           "name": "ZeroStack Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1790169&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 1000000000.0,
           "target": 1000000000.0,
           "closed_pct": 100.0,
@@ -14569,7 +14633,8 @@
         {
           "key": "sec:1973707",
           "name": "Castelion Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1973707&type=D&dateb=&owner=include&count=40",
+          "url": "https://castelion.com",
+          "description": null,
           "raised": 647001000.0,
           "target": 800000000.0,
           "closed_pct": 80.9,
@@ -14578,7 +14643,8 @@
         {
           "key": "sec:1844768",
           "name": "Whatnot Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1844768&type=D&dateb=&owner=include&count=40",
+          "url": "https://whatnot.com",
+          "description": null,
           "raised": 547000000.0,
           "target": 547000000.0,
           "closed_pct": 100.0,
@@ -14587,7 +14653,8 @@
         {
           "key": "sec:2082245",
           "name": "Antora Energy, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2082245&type=D&dateb=&owner=include&count=40",
+          "url": "https://antora.com",
+          "description": null,
           "raised": 457629785.0,
           "target": 550000000.0,
           "closed_pct": 83.2,
@@ -14596,7 +14663,8 @@
         {
           "key": "sec:2055162",
           "name": "Lovable Labs Inc",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2055162&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 382498612.0,
           "target": 400204068.0,
           "closed_pct": 95.6,
@@ -14605,7 +14673,8 @@
         {
           "key": "sec:2069488",
           "name": "Medici Brands, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2069488&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 270920144.0,
           "target": 381925350.0,
           "closed_pct": 70.9,
@@ -14614,7 +14683,8 @@
         {
           "key": "sec:2137708",
           "name": "Generalist AI, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2137708&type=D&dateb=&owner=include&count=40",
+          "url": "https://generalistai.com",
+          "description": null,
           "raised": 198224662.0,
           "target": 208224570.0,
           "closed_pct": 95.2,
@@ -14623,7 +14693,8 @@
         {
           "key": "sec:2151604",
           "name": "Epicrispr Biotechnologies, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151604&type=D&dateb=&owner=include&count=40",
+          "url": "https://epicrispr.com",
+          "description": null,
           "raised": 176754406.0,
           "target": 212755230.0,
           "closed_pct": 83.1,
@@ -14632,7 +14703,8 @@
         {
           "key": "sec:2088132",
           "name": "Modal Labs, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2088132&type=D&dateb=&owner=include&count=40",
+          "url": "https://modal.com",
+          "description": null,
           "raised": 175277185.0,
           "target": 175365831.0,
           "closed_pct": 99.9,
@@ -14641,7 +14713,8 @@
         {
           "key": "sec:2011617",
           "name": "SIERRA INTERNATIONAL NETWORK INC",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2011617&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 145000000.0,
           "target": 145000000.0,
           "closed_pct": 100.0,
@@ -14650,7 +14723,8 @@
         {
           "key": "sec:2014393",
           "name": "CodeRabbit Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2014393&type=D&dateb=&owner=include&count=40",
+          "url": "https://coderabbit.ai",
+          "description": null,
           "raised": 142998760.0,
           "target": 142998877.0,
           "closed_pct": 100.0,
@@ -14659,7 +14733,8 @@
         {
           "key": "sec:1788028",
           "name": "Jasper Therapeutics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1788028&type=D&dateb=&owner=include&count=40",
+          "url": "https://jaspertx.com",
+          "description": null,
           "raised": 131999611.0,
           "target": 131999611.0,
           "closed_pct": 100.0,
@@ -14668,7 +14743,8 @@
         {
           "key": "sec:1751463",
           "name": "ICON Technology, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1751463&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 114887843.0,
           "target": 200000000.0,
           "closed_pct": 57.4,
@@ -14677,7 +14753,8 @@
         {
           "key": "sec:1815159",
           "name": "Blank Street Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1815159&type=D&dateb=&owner=include&count=40",
+          "url": "https://blankstreet.com",
+          "description": null,
           "raised": 104999981.0,
           "target": 104999981.0,
           "closed_pct": 100.0,
@@ -14686,7 +14763,8 @@
         {
           "key": "sec:2096698",
           "name": "Gnau Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2096698&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 100109625.0,
           "target": 100109653.0,
           "closed_pct": 100.0,
@@ -14695,7 +14773,8 @@
         {
           "key": "sec:2002716",
           "name": "EfficientAI Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2002716&type=D&dateb=&owner=include&count=40",
+          "url": "https://efficient.computer",
+          "description": null,
           "raised": 93074666.0,
           "target": 103074664.0,
           "closed_pct": 90.3,
@@ -14704,7 +14783,8 @@
         {
           "key": "sec:2148230",
           "name": "Georgiamune, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148230&type=D&dateb=&owner=include&count=40",
+          "url": "https://georgiamune.com",
+          "description": null,
           "raised": 92692709.0,
           "target": 131852011.0,
           "closed_pct": 70.3,
@@ -14713,7 +14793,8 @@
         {
           "key": "sec:2047797",
           "name": "Emerald AI, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2047797&type=D&dateb=&owner=include&count=40",
+          "url": "https://emeraldai.co",
+          "description": null,
           "raised": 90229639.0,
           "target": 150000000.0,
           "closed_pct": 60.2,
@@ -14722,7 +14803,8 @@
         {
           "key": "sec:1945179",
           "name": "Felix Technologies Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1945179&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 87812283.0,
           "target": 87812283.0,
           "closed_pct": 100.0,
@@ -14731,7 +14813,8 @@
         {
           "key": "sec:2149647",
           "name": "Obsidian Security, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2149647&type=D&dateb=&owner=include&count=40",
+          "url": "https://obsidiansecurity.com",
+          "description": null,
           "raised": 81463045.0,
           "target": 109868667.0,
           "closed_pct": 74.1,
@@ -14740,7 +14823,8 @@
         {
           "key": "sec:1716947",
           "name": "Ensysce Biosciences, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1716947&type=D&dateb=&owner=include&count=40",
+          "url": "https://ensysce.com",
+          "description": null,
           "raised": 77200000.0,
           "target": 77200000.0,
           "closed_pct": 100.0,
@@ -14749,7 +14833,8 @@
         {
           "key": "sec:2146817",
           "name": "C.S.I. Enterprises, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2146817&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 75000000.0,
           "target": 75000000.0,
           "closed_pct": 100.0,
@@ -14758,7 +14843,8 @@
         {
           "key": "sec:1979783",
           "name": "DealerCue Automotive Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1979783&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 73229500.0,
           "target": 73229500.0,
           "closed_pct": 100.0,
@@ -14767,7 +14853,8 @@
         {
           "key": "sec:1818777",
           "name": "Pixxel Space Technologies, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1818777&type=D&dateb=&owner=include&count=40",
+          "url": "https://pixxel.space",
+          "description": null,
           "raised": 72999975.0,
           "target": 125000000.0,
           "closed_pct": 58.4,
@@ -14776,7 +14863,8 @@
         {
           "key": "sec:2152603",
           "name": "Bank Iowa Corp",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2152603&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 71000000.0,
           "target": 71000000.0,
           "closed_pct": 100.0,
@@ -14785,7 +14873,8 @@
         {
           "key": "sec:1698021",
           "name": "EXUMA Biotech Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1698021&type=D&dateb=&owner=include&count=40",
+          "url": "https://exumabio.com",
+          "description": null,
           "raised": 70000000.0,
           "target": 70000000.0,
           "closed_pct": 100.0,
@@ -14794,7 +14883,8 @@
         {
           "key": "sec:2148371",
           "name": "Integrated Biosciences, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2148371&type=D&dateb=&owner=include&count=40",
+          "url": "https://integratedbio.com",
+          "description": null,
           "raised": 68374977.0,
           "target": 100000000.0,
           "closed_pct": 68.4,
@@ -14803,7 +14893,8 @@
         {
           "key": "sec:2074110",
           "name": "Blacksmith Software Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2074110&type=D&dateb=&owner=include&count=40",
+          "url": "https://blacksmith.sh",
+          "description": null,
           "raised": 66264021.0,
           "target": 66264021.0,
           "closed_pct": 100.0,
@@ -14812,7 +14903,8 @@
         {
           "key": "sec:1736697",
           "name": "Prefect Technologies, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1736697&type=D&dateb=&owner=include&count=40",
+          "url": "https://prefect.io",
+          "description": null,
           "raised": 65330314.0,
           "target": 65330314.0,
           "closed_pct": 100.0,
@@ -14821,7 +14913,8 @@
         {
           "key": "sec:1998786",
           "name": "Antares Nuclear, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1998786&type=D&dateb=&owner=include&count=40",
+          "url": null,
+          "description": null,
           "raised": 59999682.0,
           "target": 84999666.0,
           "closed_pct": 70.6,
@@ -14830,7 +14923,8 @@
         {
           "key": "sec:1689694",
           "name": "K Health, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1689694&type=D&dateb=&owner=include&count=40",
+          "url": "https://khealth.com",
+          "description": null,
           "raised": 58949942.0,
           "target": 68949885.0,
           "closed_pct": 85.5,
@@ -14839,7 +14933,8 @@
         {
           "key": "sec:2151004",
           "name": "Ultra Robotics Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2151004&type=D&dateb=&owner=include&count=40",
+          "url": "https://ultra.tech",
+          "description": null,
           "raised": 57089457.0,
           "target": 62089507.0,
           "closed_pct": 91.9,
@@ -14848,7 +14943,8 @@
         {
           "key": "sec:1809726",
           "name": "Claris Biotherapeutics, Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1809726&type=D&dateb=&owner=include&count=40",
+          "url": "https://clarisbio.com",
+          "description": null,
           "raised": 55737646.0,
           "target": 121477910.0,
           "closed_pct": 45.9,
@@ -14857,7 +14953,8 @@
         {
           "key": "sec:1109242",
           "name": "HANMI FINANCIAL CORP",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1109242&type=D&dateb=&owner=include&count=40",
+          "url": "https://hanmi.com",
+          "description": null,
           "raised": 55000000.0,
           "target": 55000000.0,
           "closed_pct": 100.0,
@@ -14866,7 +14963,8 @@
         {
           "key": "sec:1977563",
           "name": "Daytona Platforms Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1977563&type=D&dateb=&owner=include&count=40",
+          "url": "https://daytona.io",
+          "description": null,
           "raised": 48274000.0,
           "target": 60000000.0,
           "closed_pct": 80.5,
@@ -14875,7 +14973,8 @@
         {
           "key": "sec:1771706",
           "name": "Vireo Growth Inc.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1771706&type=D&dateb=&owner=include&count=40",
+          "url": "https://vireogrowth.com",
+          "description": null,
           "raised": 47676969.0,
           "target": 48676969.0,
           "closed_pct": 97.9,
@@ -14884,7 +14983,8 @@
         {
           "key": "sec:1676668",
           "name": "Locus Robotics Corp.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1676668&type=D&dateb=&owner=include&count=40",
+          "url": "https://locusrobotics.com",
+          "description": null,
           "raised": 41599804.0,
           "target": 41599804.0,
           "closed_pct": 100.0,
@@ -14893,7 +14993,8 @@
         {
           "key": "sec:2074564",
           "name": "CORGI INSURANCE SERVICES, INC.",
-          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2074564&type=D&dateb=&owner=include&count=40",
+          "url": "https://corgi.insure",
+          "description": null,
           "raised": 40678902.0,
           "target": 40678902.0,
           "closed_pct": 100.0,
