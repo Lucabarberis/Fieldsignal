@@ -31,6 +31,7 @@ export type FundingItem = {
   /** The full offering. Null where the filing did not state one. */
   target: number | null;
   closed_pct: number | null;
+  description: string | null;
   day: string;
 };
 
@@ -77,19 +78,18 @@ export function RiseFinderFunding({ windows }: { windows: FundingWindow[] }) {
         label="Funding disclosed"
         meta={
           block
-            ? `${block.count} filings · ${money(block.total)}`
-            : "SEC Form D"
+            ? `${block.count} rounds · ${money(block.total)}`
+            : "Disclosed rounds"
         }
       />
 
       <div className="px-4 sm:px-9 py-6 max-w-4xl">
         <p className="text-body text-ink-2">
-          Every other section counts attention. This one counts money. A{" "}
-          <b>Form D</b> is a company telling the SEC it has sold securities,
-          filed within 15 days of the sale, so these are rounds that have
-          actually closed, or are closing, rather than rounds somebody announced.
-          Amounts are the issuer&rsquo;s own figures. Each row links to the
-          filing.
+          Every other section counts attention. This one counts money. These are
+          rounds a company has formally disclosed as sold, within fifteen days
+          of the sale, so they have actually closed or are closing rather than
+          being rounds somebody announced. Amounts are the company&rsquo;s own
+          figures.
         </p>
       </div>
 
@@ -121,7 +121,7 @@ export function RiseFinderFunding({ windows }: { windows: FundingWindow[] }) {
 
       {!block || block.items.length === 0 ? (
         <div className="px-4 sm:px-9 py-10 font-mono text-mono uppercase text-ink-3">
-          No Form D filings cleared the size floor in this window.
+          No disclosed rounds cleared the size floor in this window.
         </div>
       ) : (
         <div className="divide-y divide-rule border-b border-rule">
@@ -184,6 +184,15 @@ export function RiseFinderFunding({ windows }: { windows: FundingWindow[] }) {
               <span className="font-mono text-micro uppercase tracking-[0.12em] text-ink-3 whitespace-nowrap">
                 {shortDay(item.day)}
               </span>
+
+              {/* A COMPANY NOBODY HAS HEARD OF IS THE POINT OF THIS SECTION,
+                  and its name alone says nothing. "Sylvan Labs, Inc." raising
+                  eleven million is only useful once you know what it does. */}
+              {item.description && (
+                <p className="text-body text-ink-2 basis-full mt-1">
+                  {item.description}
+                </p>
+              )}
             </article>
           ))}
         </div>
@@ -191,8 +200,8 @@ export function RiseFinderFunding({ windows }: { windows: FundingWindow[] }) {
 
       <div className="px-4 sm:px-9 py-4 font-mono text-micro text-ink-3 tracking-[0.04em] border-b border-rule leading-relaxed">
         Funds raising their own capital, real-estate vehicles and single-deal
-        SPVs are filtered out. They are two thirds of the daily Form D list and
-        none of them is a company growing. Form D gives the amount and the date.
+        SPVs are filtered out. They are two thirds of the daily list and none of
+        them is a company growing. The disclosure gives the amount and the date.
         It does not name the investors, so no lead is claimed here.
       </div>
     </>
