@@ -120,7 +120,8 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       <PageHeader
-        current="Article"
+        current={post.title}
+        parent={{ label: "Blog", href: "/resources/blog" }}
         title={post.title}
         lede={post.description}
         lang={post.language}

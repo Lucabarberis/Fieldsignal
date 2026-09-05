@@ -57,6 +57,7 @@ export default async function CaseStudyPage({ params }: Props) {
 
       <PageHeader
         current={categoryLabel}
+        parent={{ label: "Case Studies", href: "/resources/case-studies" }}
         title={cs.title.split(" - ")[0]}
         lede={cs.pageLede}
         meta={[

@@ -74,7 +74,8 @@ export default async function TranscriptPage({ params }: Props) {
       />
 
       <PageHeader
-        current="Transcript"
+        current={t.title}
+        parent={{ label: "Transcripts", href: "/transcripts" }}
         title={t.topicLabel}
         lede={t.expertRole}
         meta={[

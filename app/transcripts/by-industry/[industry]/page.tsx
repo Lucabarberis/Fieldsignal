@@ -57,6 +57,7 @@ export default async function TranscriptsByIndustryPage({ params }: Props) {
 
       <PageHeader
         current={ind.name}
+        parent={{ label: "Transcripts", href: "/transcripts" }}
         title={`${ind.name.split(" ")[0]} Transcripts`}
         lede={
           <>

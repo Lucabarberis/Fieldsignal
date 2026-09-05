@@ -67,6 +67,7 @@ export default async function ArchivedBriefingPage({
     <>
       <PageHeader
         current={formatBriefingDay(date)}
+        parent={{ label: "RiseFinder", href: "/risefinder" }}
         title={formatBriefingDay(date)}
         lede={
           <>

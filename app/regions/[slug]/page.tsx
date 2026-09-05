@@ -54,6 +54,7 @@ export default async function RegionPage({ params }: Props) {
 
       <PageHeader
         current={r.name}
+        parent={{ label: "Regions", href: "/regions" }}
         title={r.title.split(" - ")[0]}
         lede={r.pageLede}
         meta={[

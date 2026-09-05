@@ -52,6 +52,7 @@ export default async function ExpertSubPage({ params }: Props) {
 
       <PageHeader
         current={page.name}
+        parent={{ label: "For Experts", href: "/experts" }}
         title={page.title.split(" - ")[0]}
         lede={page.pageLede}
         meta={[

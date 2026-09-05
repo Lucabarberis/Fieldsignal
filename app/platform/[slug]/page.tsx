@@ -47,6 +47,7 @@ export default async function PlatformSubPage({ params }: Props) {
 
       <PageHeader
         current={p.name}
+        parent={{ label: "Platform", href: "/platform" }}
         title={p.title.split(" - ")[0]}
         lede={p.pageLede}
         meta={[

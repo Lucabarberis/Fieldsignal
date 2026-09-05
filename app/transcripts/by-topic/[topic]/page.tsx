@@ -57,6 +57,7 @@ export default async function TranscriptsByTopicPage({ params }: Props) {
 
       <PageHeader
         current={label}
+        parent={{ label: "Transcripts", href: "/transcripts" }}
         title={label}
         lede={
           <>

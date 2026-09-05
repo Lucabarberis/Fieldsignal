@@ -49,6 +49,7 @@ export default async function ComplianceSubPage({ params }: Props) {
 
       <PageHeader
         current={c.name}
+        parent={{ label: "Compliance Framework", href: "/compliance" }}
         title={c.title.split(" - ")[0]}
         lede={c.pageLede}
         meta={c.metaItems.map((m) => ({ ...m }))}

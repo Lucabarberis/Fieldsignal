@@ -48,6 +48,7 @@ export default async function UseCasePage({ params }: Props) {
 
       <PageHeader
         current={uc.name}
+        parent={{ label: "Use Cases", href: "/use-cases" }}
         title={uc.title.split(" - ")[0]}
         lede={uc.pageLede}
         meta={[

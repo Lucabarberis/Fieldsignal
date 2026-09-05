@@ -52,6 +52,7 @@ export default async function ComparePage({ params }: Props) {
 
       <PageHeader
         current={`vs ${competitor.name}`}
+        parent={{ label: "Compare", href: "/compare" }}
         title={`FieldSignal vs ${competitor.name}.`}
         lede={cmp.pageLede}
         meta={[

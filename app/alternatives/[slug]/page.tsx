@@ -58,6 +58,7 @@ export default async function AlternativePage({ params }: Props) {
 
       <PageHeader
         current={alt.name}
+        parent={{ label: "Alternatives", href: "/alternatives" }}
         title={alt.title.split(" - ")[0]}
         lede={alt.pageLede}
         meta={

@@ -9,6 +9,8 @@ import type React from "react";
  */
 type MetaItem = { label: string; value: React.ReactNode };
 
+type ParentCrumb = { label: string; href: string };
+
 type Props = {
   current: string;            // displayed at the end of the breadcrumb
   title: string;
@@ -20,21 +22,47 @@ type Props = {
    * sits on the heading block rather than the whole section.
    */
   lang?: string;
+  /**
+   * The listing this page belongs to, e.g.
+   * `{ label: "Blog", href: "/resources/blog" }` on a post detail page.
+   * Inserts a middle breadcrumb crumb (Home / Blog / current) and a
+   * "← Back to Blog" link. Omit on listing pages themselves.
+   */
+  parent?: ParentCrumb;
 };
 
-export function PageHeader({ current, title, lede, meta, lang }: Props) {
+export function PageHeader({ current, title, lede, meta, lang, parent }: Props) {
   return (
     <section className="px-4 sm:px-9 pt-10 pb-8 sm:pt-16 sm:pb-12 border-b border-rule">
-      <nav
-        aria-label="Breadcrumb"
-        className="font-mono text-mono uppercase tracking-[0.08em] text-ink-3 mb-6 flex gap-2 flex-wrap"
-      >
-        <Link href="/" className="hover:text-ink transition-colors">
-          Home
-        </Link>
-        <span aria-hidden>/</span>
-        <span className="text-ink">{current}</span>
-      </nav>
+      <div className="mb-6 flex items-center justify-between gap-x-4 gap-y-2 flex-wrap">
+        <nav
+          aria-label="Breadcrumb"
+          className="font-mono text-mono uppercase tracking-[0.08em] text-ink-3 flex gap-2 flex-wrap"
+        >
+          <Link href="/" className="hover:text-ink transition-colors">
+            Home
+          </Link>
+          <span aria-hidden>/</span>
+          {parent && (
+            <>
+              <Link href={parent.href} className="hover:text-ink transition-colors">
+                {parent.label}
+              </Link>
+              <span aria-hidden>/</span>
+            </>
+          )}
+          <span className="text-ink">{current}</span>
+        </nav>
+
+        {parent && (
+          <Link
+            href={parent.href}
+            className="font-mono text-micro uppercase tracking-[0.12em] text-ink-2 hover:text-ink transition-colors"
+          >
+            ← Back to {parent.label}
+          </Link>
+        )}
+      </div>
 
       <h1
         lang={lang}

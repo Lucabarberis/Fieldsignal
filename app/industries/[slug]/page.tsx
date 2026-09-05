@@ -56,6 +56,7 @@ export default async function IndustryDetailPage({ params }: Props) {
 
       <PageHeader
         current={ind.name}
+        parent={{ label: "Industries", href: "/industries" }}
         title={ind.title.split(" - ")[0]}
         lede={ind.pageLede}
         meta={[

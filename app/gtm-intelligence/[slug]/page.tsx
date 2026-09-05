@@ -88,6 +88,7 @@ export default async function GtmEngagementPage({ params }: Props) {
 
       <PageHeader
         current={page.name}
+        parent={{ label: "GTM Intelligence", href: "/gtm-intelligence" }}
         title={page.title.split(":")[0]}
         lede={page.pageLede}
         meta={[

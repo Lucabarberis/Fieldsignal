@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { SectionBand } from "@/components/SectionBand";
 import { TileGrid } from "@/components/TileGrid";
@@ -60,6 +59,7 @@ export default async function GlossaryTermPage({ params }: Props) {
 
       <PageHeader
         current={t.name}
+        parent={{ label: "Glossary", href: "/resources/glossary" }}
         title={t.term}
         lede={t.definition}
         meta={[
@@ -182,16 +182,6 @@ export default async function GlossaryTermPage({ params }: Props) {
           </div>
         </>
       )}
-
-      {/* ── Back-to-glossary link ──────────────────────────────── */}
-      <div className="px-4 sm:px-9 py-6">
-        <Link
-          href="/resources/glossary"
-          className="font-mono text-mono uppercase tracking-[0.12em] text-ink-2 hover:text-red transition-colors"
-        >
-          ← Back to glossary
-        </Link>
-      </div>
 
       <CtaBand
         title={<>Need help applying this concept? <span className="text-red">Tell us the decision.</span></>}

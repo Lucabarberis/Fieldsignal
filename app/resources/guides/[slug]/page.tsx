@@ -68,6 +68,7 @@ export default async function GuidePage({ params }: Props) {
 
       <PageHeader
         current={g.name}
+        parent={{ label: "Guides", href: "/resources/guides" }}
         title={g.title.split(" - ")[0]}
         lede={g.pageLede}
         meta={[

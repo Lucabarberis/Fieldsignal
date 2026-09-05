@@ -61,6 +61,7 @@ export default async function ServiceDetailPage({ params }: Props) {
 
       <PageHeader
         current={service.name}
+        parent={{ label: "Services", href: "/services" }}
         title={service.title.split(" - ")[0]}
         lede={service.pageLede}
         meta={[

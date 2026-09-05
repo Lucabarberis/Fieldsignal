@@ -49,6 +49,7 @@ export default async function ClientDetailPage({ params }: Props) {
 
       <PageHeader
         current={c.name}
+        parent={{ label: "Clients", href: "/clients" }}
         title={c.title.split(" - ")[0]}
         lede={c.pageLede}
         meta={[

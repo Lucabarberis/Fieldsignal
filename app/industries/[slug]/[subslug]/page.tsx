@@ -60,6 +60,7 @@ export default async function SubnichePage({ params }: Props) {
 
       <PageHeader
         current={sub.name}
+        parent={{ label: parent.name, href: `/industries/${parent.slug}` }}
         title={sub.title.split(" - ")[0]}
         lede={sub.pageLede}
         meta={[
