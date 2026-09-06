@@ -1,6 +1,62 @@
 {
   "days": [
     {
+      "date": "2026-09-06",
+      "count": 2,
+      "items": [
+        {
+          "name": "luma-touch.com",
+          "type": "domain",
+          "brief": "Best paid chart position 82 to 50 in a day, with the United States 99 to 63 and Japan 82 to 50, and a third country entering the charts where there were two. Britain went the other way, 82 to 89, so this is not one global promotion moving everything at once. It is a 29 dollar professional video editor with 24,740 ratings, and at that price every place gained is a deliberate purchase rather than a free download.",
+          "sources": [
+            "android_apps",
+            "crunchbase",
+            "dataforseo",
+            "ios_apps",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco",
+            "wikipedia",
+            "youtube"
+          ],
+          "url": "https://luma-touch.com",
+          "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
+          "appearances": 2,
+          "hiring": null,
+          "track": {
+            "first_flagged": "2026-08-24",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 5.99,
+            "now": 5.99,
+            "change_pct": 0.0
+          },
+          "briefed_on": "2026-09-06"
+        },
+        {
+          "name": "kaylees.site",
+          "type": "domain",
+          "brief": "Second day running. Britain 44 to 26 and the best position 18 to 16, after yesterday's move from 40 to 18 across three storefronts. The first day could have been a feature slot; a second day of gains in the same direction is harder to explain that way, and the app is still paid, so the buying has continued rather than a promotion having ended.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "ios_apps",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco"
+          ],
+          "url": "https://kaylees.site",
+          "description": "The site of an independent developer selling paid iPhone apps, whose entire statement of intent is that they make apps for humans. The apps are bought outright rather than subscribed to, which is why they appear on the paid charts rather than the free ones.",
+          "appearances": 2,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-09-06"
+        }
+      ]
+    },
+    {
       "date": "2026-09-05",
       "count": 3,
       "items": [
@@ -54,7 +110,7 @@
           ],
           "url": "https://kaylees.site",
           "description": "The site of an independent developer selling paid iPhone apps, whose entire statement of intent is that they make apps for humans. The apps are bought outright rather than subscribed to, which is why they appear on the paid charts rather than the free ones.",
-          "appearances": 1,
+          "appearances": 2,
           "hiring": null,
           "track": null,
           "briefed_on": "2026-09-05"
@@ -177,7 +233,7 @@
             "open_roles": 41,
             "gtm_roles": 5,
             "gtm_ratio": 12,
-            "as_of": "2026-09-03"
+            "as_of": "2026-09-06"
           },
           "track": {
             "first_flagged": "2026-08-28",
@@ -203,11 +259,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-28",
-            "days_ago": 8,
+            "days_ago": 9,
             "unit": "stars",
             "then": 1650,
-            "now": 3796,
-            "change_pct": 130.1
+            "now": 3842,
+            "change_pct": 132.8
           },
           "briefed_on": "2026-08-28"
         }
@@ -231,11 +287,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 5085,
-            "now": 6031,
-            "change_pct": 18.6
+            "now": 6103,
+            "change_pct": 20.0
           },
           "briefed_on": "2026-08-27"
         },
@@ -253,11 +309,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 158,
-            "now": 184,
-            "change_pct": 16.5
+            "now": 185,
+            "change_pct": 17.1
           },
           "briefed_on": "2026-08-27"
         }
@@ -282,11 +338,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 31,
+            "days_ago": 32,
             "unit": "stars",
             "then": 13242,
-            "now": 18070,
-            "change_pct": 36.5
+            "now": 18104,
+            "change_pct": 36.7
           },
           "briefed_on": "2026-08-26"
         },
@@ -330,11 +386,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-26",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 1662,
-            "now": 2432,
-            "change_pct": 46.3
+            "now": 2438,
+            "change_pct": 46.7
           },
           "briefed_on": "2026-08-26"
         }
@@ -390,11 +446,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-25",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 151,
-            "now": 618,
-            "change_pct": 309.3
+            "now": 620,
+            "change_pct": 310.6
           },
           "briefed_on": "2026-08-25"
         }
@@ -422,7 +478,7 @@
           ],
           "url": "https://luma-touch.com",
           "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
-          "appearances": 1,
+          "appearances": 2,
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-24",
@@ -684,11 +740,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-15",
-            "days_ago": 21,
+            "days_ago": 22,
             "unit": "stars",
             "then": 1622,
-            "now": 1991,
-            "change_pct": 22.7
+            "now": 1994,
+            "change_pct": 22.9
           },
           "briefed_on": "2026-08-15"
         }
@@ -858,11 +914,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 24,
+            "days_ago": 25,
             "unit": "stars",
             "then": 1432,
-            "now": 2568,
-            "change_pct": 79.3
+            "now": 2572,
+            "change_pct": 79.6
           },
           "briefed_on": "2026-08-12"
         }
@@ -886,11 +942,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 26,
+            "days_ago": 27,
             "unit": "stars",
             "then": 144,
-            "now": 344,
-            "change_pct": 138.9
+            "now": 347,
+            "change_pct": 141.0
           },
           "briefed_on": "2026-08-11"
         }
@@ -936,11 +992,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 26,
+            "days_ago": 27,
             "unit": "stars",
             "then": 144,
-            "now": 344,
-            "change_pct": 138.9
+            "now": 347,
+            "change_pct": 141.0
           },
           "briefed_on": "2026-08-10"
         },
@@ -959,11 +1015,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 31,
+            "days_ago": 32,
             "unit": "stars",
             "then": 13242,
-            "now": 18070,
-            "change_pct": 36.5
+            "now": 18104,
+            "change_pct": 36.7
           },
           "briefed_on": "2026-08-10"
         }
@@ -1015,11 +1071,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-09",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 567,
-            "now": 949,
-            "change_pct": 67.4
+            "now": 950,
+            "change_pct": 67.5
           },
           "briefed_on": "2026-08-09"
         }
@@ -1262,11 +1318,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 36,
+            "days_ago": 37,
             "unit": "stars",
             "then": 2196,
-            "now": 6635,
-            "change_pct": 202.1
+            "now": 6649,
+            "change_pct": 202.8
           },
           "briefed_on": "2026-08-05"
         },
@@ -1285,11 +1341,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 31,
+            "days_ago": 32,
             "unit": "stars",
             "then": 13242,
-            "now": 18070,
-            "change_pct": 36.5
+            "now": 18104,
+            "change_pct": 36.7
           },
           "briefed_on": "2026-08-05"
         },
@@ -1307,11 +1363,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 30,
+            "days_ago": 32,
             "unit": "stars",
             "then": 67.0,
-            "now": 95.0,
-            "change_pct": 41.8
+            "now": 96.0,
+            "change_pct": 43.3
           },
           "briefed_on": "2026-08-05"
         },
@@ -1405,11 +1461,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 36,
+            "days_ago": 37,
             "unit": "stars",
             "then": 2196,
-            "now": 6635,
-            "change_pct": 202.1
+            "now": 6649,
+            "change_pct": 202.8
           },
           "briefed_on": "2026-08-04"
         }
@@ -1484,11 +1540,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 36,
+            "days_ago": 37,
             "unit": "stars",
             "then": 2196,
-            "now": 6635,
-            "change_pct": 202.1
+            "now": 6649,
+            "change_pct": 202.8
           },
           "briefed_on": "2026-08-02"
         },
@@ -1506,11 +1562,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 34,
+            "days_ago": 35,
             "unit": "stars",
             "then": 5567,
-            "now": 14578,
-            "change_pct": 161.9
+            "now": 14610,
+            "change_pct": 162.4
           },
           "briefed_on": "2026-08-02"
         },
@@ -1659,11 +1715,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 36,
+            "days_ago": 37,
             "unit": "stars",
             "then": 2196,
-            "now": 6635,
-            "change_pct": 202.1
+            "now": 6649,
+            "change_pct": 202.8
           },
           "briefed_on": "2026-08-01"
         },
@@ -1777,11 +1833,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 6090,
-            "now": 10382,
-            "change_pct": 70.5
+            "now": 10474,
+            "change_pct": 72.0
           },
           "briefed_on": "2026-07-31"
         },
@@ -1821,11 +1877,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 36,
+            "days_ago": 37,
             "unit": "stars",
             "then": 2196,
-            "now": 6635,
-            "change_pct": 202.1
+            "now": 6649,
+            "change_pct": 202.8
           },
           "briefed_on": "2026-07-31"
         },
@@ -1871,11 +1927,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 290,
-            "now": 383,
-            "change_pct": 32.1
+            "now": 384,
+            "change_pct": 32.4
           },
           "briefed_on": "2026-07-30"
         },
@@ -1893,11 +1949,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 384,
-            "now": 862,
-            "change_pct": 124.5
+            "now": 863,
+            "change_pct": 124.7
           },
           "briefed_on": "2026-07-30"
         },
@@ -1915,11 +1971,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-30",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 6090,
-            "now": 10382,
-            "change_pct": 70.5
+            "now": 10474,
+            "change_pct": 72.0
           },
           "briefed_on": "2026-07-30"
         },
