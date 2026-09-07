@@ -1,6 +1,84 @@
 {
   "days": [
     {
+      "date": "2026-09-07",
+      "count": 3,
+      "items": [
+        {
+          "name": "groove.cm",
+          "type": "domain",
+          "brief": "Search intent 2.1 to 5.5, up 161.9% in a day, while search interest went the other way and slipped 1.1%. That combination usually means people are looking for something specific rather than browsing, and here the site says what: Groove.cm is becoming Scale.gg, new enrollment is closed, and existing members keep access. The spike is people finding out it is shutting to newcomers, not demand arriving. Worth recording precisely because the score reads it as a rise and the page says otherwise.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "majestic_million",
+            "openpagerank",
+            "pricing",
+            "search_trends",
+            "techstack",
+            "tranco",
+            "wikipedia"
+          ],
+          "url": "https://groove.cm",
+          "description": "An all in one marketing platform selling funnels, email and checkout in one subscription, which is now closing to new customers as it becomes Scale.gg. Existing members keep their access, and the site carries eleven separate payment processors from the years it was selling hard.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-09-07"
+        },
+        {
+          "name": "hnglance.com",
+          "type": "domain",
+          "brief": "A pricing page appeared where there was none, with three tiers on it, and the traffic rank improved 2.1% in the same day. The pricing signal is the one that matters: it is the moment somebody decides a side project is a product. The Hacker News numbers behind it are four points and four comments, so almost nobody has noticed yet, and that is the interesting part rather than a reason to discount it.",
+          "sources": [
+            "crunchbase",
+            "dataforseo",
+            "hackernews",
+            "openpagerank",
+            "pricing",
+            "tranco",
+            "wikipedia"
+          ],
+          "url": "https://hnglance.com",
+          "description": "A reader that shows the current Hacker News front page as a single view of what the site is talking about, rather than a ranked list you scroll. It has just started charging, with three tiers where there was previously nothing to buy.",
+          "appearances": 1,
+          "hiring": null,
+          "track": null,
+          "briefed_on": "2026-09-07"
+        },
+        {
+          "name": "luma-touch.com",
+          "type": "domain",
+          "brief": "Second day. Japan 50 to 41 and the best position with it, but the United States went 63 to 64 and the number of countries charting fell from three to two. Yesterday's move was three storefronts climbing together; today only one is still climbing. That is what the end of a promotion looks like, and the next two days decide whether the Japanese gain was the same wave arriving late or something holding on its own.",
+          "sources": [
+            "android_apps",
+            "crunchbase",
+            "dataforseo",
+            "ios_apps",
+            "openpagerank",
+            "pricing",
+            "techstack",
+            "tranco",
+            "wikipedia",
+            "youtube"
+          ],
+          "url": "https://luma-touch.com",
+          "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
+          "appearances": 3,
+          "hiring": null,
+          "track": {
+            "first_flagged": "2026-08-24",
+            "days_ago": 9,
+            "unit": "authority",
+            "then": 5.99,
+            "now": 5.99,
+            "change_pct": 0.0
+          },
+          "briefed_on": "2026-09-07"
+        }
+      ]
+    },
+    {
       "date": "2026-09-06",
       "count": 2,
       "items": [
@@ -22,7 +100,7 @@
           ],
           "url": "https://luma-touch.com",
           "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
-          "appearances": 2,
+          "appearances": 3,
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-24",
@@ -65,7 +143,9 @@
           "type": "domain",
           "brief": "Traffic rank 102,193 to 89,988, a climb of 12,205 places in a day, alongside a fourth pricing tier appearing where there were three. Three unrelated collectors saw it: one measuring traffic, one reading the pricing page, one reading the technology stack. The stack is the odd detail, carrying twelve separate payment processors, which is far more than a shop this size needs unless it is selling into several countries with local methods in each.",
           "sources": [
+            "crunchbase",
             "dataforseo",
+            "openpagerank",
             "pricing",
             "techstack",
             "tranco"
@@ -233,7 +313,7 @@
             "open_roles": 41,
             "gtm_roles": 5,
             "gtm_ratio": 12,
-            "as_of": "2026-09-06"
+            "as_of": "2026-09-07"
           },
           "track": {
             "first_flagged": "2026-08-28",
@@ -259,11 +339,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-28",
-            "days_ago": 9,
+            "days_ago": 10,
             "unit": "stars",
             "then": 1650,
-            "now": 3842,
-            "change_pct": 132.8
+            "now": 3893,
+            "change_pct": 135.9
           },
           "briefed_on": "2026-08-28"
         }
@@ -287,11 +367,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-27",
-            "days_ago": 10,
+            "days_ago": 11,
             "unit": "stars",
             "then": 5085,
-            "now": 6103,
-            "change_pct": 20.0
+            "now": 6194,
+            "change_pct": 21.8
           },
           "briefed_on": "2026-08-27"
         },
@@ -338,11 +418,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 13242,
-            "now": 18104,
-            "change_pct": 36.7
+            "now": 18163,
+            "change_pct": 37.2
           },
           "briefed_on": "2026-08-26"
         },
@@ -386,11 +466,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-26",
-            "days_ago": 11,
+            "days_ago": 12,
             "unit": "stars",
             "then": 1662,
-            "now": 2438,
-            "change_pct": 46.7
+            "now": 2444,
+            "change_pct": 47.1
           },
           "briefed_on": "2026-08-26"
         }
@@ -478,7 +558,7 @@
           ],
           "url": "https://luma-touch.com",
           "description": "LumaFusion is a professional multi-track video and audio editor for iPad, iPhone and Android, made by Luma Touch. It is sold as a paid app with optional add-ons rather than a subscription, and is aimed at mobile journalists, filmmakers and social video producers who edit on a tablet instead of a desktop.",
-          "appearances": 2,
+          "appearances": 3,
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-24",
@@ -740,11 +820,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-15",
-            "days_ago": 22,
+            "days_ago": 23,
             "unit": "stars",
             "then": 1622,
-            "now": 1994,
-            "change_pct": 22.9
+            "now": 1996,
+            "change_pct": 23.1
           },
           "briefed_on": "2026-08-15"
         }
@@ -914,11 +994,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-12",
-            "days_ago": 25,
+            "days_ago": 26,
             "unit": "stars",
             "then": 1432,
-            "now": 2572,
-            "change_pct": 79.6
+            "now": 2579,
+            "change_pct": 80.1
           },
           "briefed_on": "2026-08-12"
         }
@@ -942,11 +1022,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 144,
-            "now": 347,
-            "change_pct": 141.0
+            "now": 352,
+            "change_pct": 144.4
           },
           "briefed_on": "2026-08-11"
         }
@@ -992,11 +1072,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-10",
-            "days_ago": 27,
+            "days_ago": 28,
             "unit": "stars",
             "then": 144,
-            "now": 347,
-            "change_pct": 141.0
+            "now": 352,
+            "change_pct": 144.4
           },
           "briefed_on": "2026-08-10"
         },
@@ -1015,11 +1095,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 13242,
-            "now": 18104,
-            "change_pct": 36.7
+            "now": 18163,
+            "change_pct": 37.2
           },
           "briefed_on": "2026-08-10"
         }
@@ -1071,11 +1151,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-09",
-            "days_ago": 28,
+            "days_ago": 29,
             "unit": "stars",
             "then": 567,
-            "now": 950,
-            "change_pct": 67.5
+            "now": 955,
+            "change_pct": 68.4
           },
           "briefed_on": "2026-08-09"
         }
@@ -1145,11 +1225,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 28,
+            "days_ago": 33,
             "unit": "stars",
             "then": 217,
-            "now": 308,
-            "change_pct": 41.9
+            "now": 309,
+            "change_pct": 42.4
           },
           "briefed_on": "2026-08-08"
         }
@@ -1173,11 +1253,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 28,
+            "days_ago": 33,
             "unit": "stars",
             "then": 217,
-            "now": 308,
-            "change_pct": 41.9
+            "now": 309,
+            "change_pct": 42.4
           },
           "briefed_on": "2026-08-07"
         },
@@ -1296,11 +1376,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 28,
+            "days_ago": 33,
             "unit": "stars",
             "then": 217,
-            "now": 308,
-            "change_pct": 41.9
+            "now": 309,
+            "change_pct": 42.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -1318,11 +1398,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 2196,
-            "now": 6649,
-            "change_pct": 202.8
+            "now": 6662,
+            "change_pct": 203.4
           },
           "briefed_on": "2026-08-05"
         },
@@ -1341,11 +1421,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 13242,
-            "now": 18104,
-            "change_pct": 36.7
+            "now": 18163,
+            "change_pct": 37.2
           },
           "briefed_on": "2026-08-05"
         },
@@ -1363,7 +1443,7 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-05",
-            "days_ago": 32,
+            "days_ago": 33,
             "unit": "stars",
             "then": 67.0,
             "now": 96.0,
@@ -1461,11 +1541,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 2196,
-            "now": 6649,
-            "change_pct": 202.8
+            "now": 6662,
+            "change_pct": 203.4
           },
           "briefed_on": "2026-08-04"
         }
@@ -1540,11 +1620,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 2196,
-            "now": 6649,
-            "change_pct": 202.8
+            "now": 6662,
+            "change_pct": 203.4
           },
           "briefed_on": "2026-08-02"
         },
@@ -1562,11 +1642,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-08-02",
-            "days_ago": 35,
+            "days_ago": 36,
             "unit": "stars",
             "then": 5567,
-            "now": 14610,
-            "change_pct": 162.4
+            "now": 14643,
+            "change_pct": 163.0
           },
           "briefed_on": "2026-08-02"
         },
@@ -1715,11 +1795,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 2196,
-            "now": 6649,
-            "change_pct": 202.8
+            "now": 6662,
+            "change_pct": 203.4
           },
           "briefed_on": "2026-08-01"
         },
@@ -1877,11 +1957,11 @@
           "hiring": null,
           "track": {
             "first_flagged": "2026-07-31",
-            "days_ago": 37,
+            "days_ago": 38,
             "unit": "stars",
             "then": 2196,
-            "now": 6649,
-            "change_pct": 202.8
+            "now": 6662,
+            "change_pct": 203.4
           },
           "briefed_on": "2026-07-31"
         },
@@ -1906,122 +1986,6 @@
             "change_pct": 54.5
           },
           "briefed_on": "2026-07-31"
-        }
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "count": 5,
-      "items": [
-        {
-          "name": "FrigadeHQ/yap",
-          "type": "repo",
-          "brief": "Stars 259 to 290 and forks 11 to 14, with 104 HackerNews points and 43 comments. The numbers are in proportion to each other rather than one of them spiking alone.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/FrigadeHQ/yap",
-          "description": "Voice dictation for macOS that runs on the device using Apple's own speech framework, with no account, no API key and no audio leaving the machine. Press a shortcut, talk, press it again, and the text lands in whatever field you were already typing in. Transcripts are kept locally so anything can be copied again later. It is free and open source.",
-          "appearances": 1,
-          "hiring": null,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 38,
-            "unit": "stars",
-            "then": 290,
-            "now": 384,
-            "change_pct": 32.4
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
-          "name": "wassgha/rescript",
-          "type": "repo",
-          "brief": "Stars 314 to 384, up 22.3%, with forks 38 to 43 and open issues 4 to 6. A tool people modify for their own use rather than adopt as is.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/wassgha/rescript",
-          "description": "A video and audio editor where you edit the transcript instead of a timeline. Drop in a file and it is transcribed on the device with per word timestamps and speaker labels; delete a word and the matching piece of media is cut. Nothing is uploaded, and it runs either in a browser or as a desktop application on macOS, Windows and Linux.",
-          "appearances": 1,
-          "hiring": null,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 38,
-            "unit": "stars",
-            "then": 384,
-            "now": 863,
-            "change_pct": 124.7
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
-          "name": "openai/codex-security",
-          "type": "repo",
-          "brief": "Stars 4,093 to 6,090 in a day, up 48.8%, with forks up 72% and open issues up 85.7%. Issues climbing faster than stars is the signature of a repository people are running rather than reading, and at this size that means real deployments.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/openai/codex-security",
-          "description": "A command line tool and TypeScript SDK from OpenAI that scans a codebase for security vulnerabilities, validates what it finds and proposes fixes. It runs against OpenAI's models by default but takes any provider, and a deep scan mode can run for hours across many workers. Some categories of finding require approved access before the tool will return them.",
-          "appearances": 2,
-          "hiring": null,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 38,
-            "unit": "stars",
-            "then": 6090,
-            "now": 10474,
-            "change_pct": 72.0
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
-          "name": "gavamedia/deltafin",
-          "type": "repo",
-          "brief": "Stars 264 to 429, up 62.5%, and forks 22 to 41, up 86.4%. Forks growing faster than stars on day one, on the HackerNews front page with 87 comments. Open issues sitting at 1 means nobody has hit a wall yet.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/gavamedia/deltafin",
-          "description": "A single native binary that runs the complete 2.8 trillion parameter Kimi K3 on consumer hardware with nothing pruned and nothing skipped. Small draft models are allowed to guess ahead for speed, but K3 checks every guess, so quality is never traded away. The published benchmark history shows throughput on an M1 Max laptop rising from 0.014 to 0.29 tokens per second over three weeks.",
-          "appearances": 3,
-          "hiring": null,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 5,
-            "unit": "stars",
-            "then": 429,
-            "now": 663,
-            "change_pct": 54.5
-          },
-          "briefed_on": "2026-07-30"
-        },
-        {
-          "name": "twalichiewicz/HNewhere",
-          "type": "repo",
-          "brief": "Stars 150 to 192, up 28%, with HackerNews points 365 to 419 and comments 100 to 122. Open issues fell 8 to 5, so the maintainer is clearing them faster than they arrive.",
-          "sources": [
-            "github",
-            "hackernews"
-          ],
-          "url": "https://github.com/twalichiewicz/HNewhere",
-          "description": "A small userscript that shows the Hacker News discussion for whatever page you are reading, if that page has ever been submitted. It closes the gap between finding an article and finding out what people said about it, which normally means a separate search on a separate site.",
-          "appearances": 1,
-          "hiring": null,
-          "track": {
-            "first_flagged": "2026-07-30",
-            "days_ago": 5,
-            "unit": "stars",
-            "then": 192,
-            "now": 220,
-            "change_pct": 14.6
-          },
-          "briefed_on": "2026-07-30"
         }
       ]
     }
