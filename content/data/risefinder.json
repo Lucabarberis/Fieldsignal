@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:48:39Z",
+  "generated_at": "2026-09-08T08:59:02Z",
   "explorer": [
     {
       "id": "majestic_million",
@@ -162,20 +162,6 @@
               "also_in": []
             },
             {
-              "key": "domain:goplay.co.id",
-              "name": "goplay.co.id",
-              "url": "https://goplay.co.id",
-              "description": "GoPlay, the Indonesian streaming service from GoTo, the group behind Gojek and Tokopedia, carrying local drama and live entertainment.",
-              "lower_is_better": true,
-              "was": 495768,
-              "now": 147306,
-              "unit": "backlink rank",
-              "gain_pct": 70.3,
-              "from_day": "2026-09-07",
-              "to_day": "2026-09-08",
-              "also_in": []
-            },
-            {
               "key": "domain:mashreq.edu.sd",
               "name": "mashreq.edu.sd",
               "url": "https://mashreq.edu.sd",
@@ -241,20 +227,6 @@
               "now": 69501,
               "unit": "backlink rank",
               "gain_pct": 60.8,
-              "from_day": "2026-09-07",
-              "to_day": "2026-09-08",
-              "also_in": []
-            },
-            {
-              "key": "domain:donaldrossgolfclub.com",
-              "name": "donaldrossgolfclub.com",
-              "url": "https://donaldrossgolfclub.com",
-              "description": null,
-              "lower_is_better": true,
-              "was": 380819,
-              "now": 152938,
-              "unit": "backlink rank",
-              "gain_pct": 59.8,
               "from_day": "2026-09-07",
               "to_day": "2026-09-08",
               "also_in": []
@@ -828,20 +800,6 @@
               "also_in": []
             },
             {
-              "key": "domain:botkyrkavc.se",
-              "name": "botkyrkavc.se",
-              "url": "https://botkyrkavc.se",
-              "description": null,
-              "lower_is_better": true,
-              "was": 489704,
-              "now": 77848,
-              "unit": "backlink rank",
-              "gain_pct": 84.1,
-              "from_day": "2026-08-09",
-              "to_day": "2026-09-08",
-              "also_in": []
-            },
-            {
               "key": "domain:chatgpt.site",
               "name": "chatgpt.site",
               "url": "https://chatgpt.site",
@@ -1005,6 +963,20 @@
               "now": 120191,
               "unit": "backlink rank",
               "gain_pct": 81.6,
+              "from_day": "2026-08-09",
+              "to_day": "2026-09-08",
+              "also_in": []
+            },
+            {
+              "key": "domain:sensus.org.ua",
+              "name": "sensus.org.ua",
+              "url": "https://sensus.org.ua",
+              "description": null,
+              "lower_is_better": true,
+              "was": 707122,
+              "now": 130901,
+              "unit": "backlink rank",
+              "gain_pct": 81.5,
               "from_day": "2026-08-09",
               "to_day": "2026-09-08",
               "also_in": []
@@ -15289,7 +15261,7 @@
     "snapshots": 1579024,
     "sources_live": 31,
     "first_day": "2026-07-28",
-    "scored_on_briefing_day": 12810,
+    "scored_on_briefing_day": 12803,
     "days_collected": 43
   },
   "items": [
