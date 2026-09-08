@@ -47,7 +47,6 @@ export const NAV_LINKS = [
   // alongside the guides and the glossary, which is where a reader already
   // looks for it. Nothing was orphaned — the estimator keeps its URL and both
   // the Resources hover panel and the footer still link it.
-  { href: "/risefinder", label: "RiseFinder" },
   { href: "/services", label: "Services" },
   { href: "/gtm-intelligence", label: "GTM Intelligence" },
   { href: "/industries", label: "Sectors" },
@@ -66,11 +65,6 @@ export const NAV_PREVIEWS: Record<
   string,
   { blurb: string; sublinks?: readonly { href: string; label: string }[] }
 > = {
-  "/risefinder": {
-    blurb:
-      "A daily scan of public data for things that are rising before they are obvious. Filter by source and window.",
-    sublinks: [{ href: "/risefinder", label: "Today's risers" }],
-  },
   "/services": {
     blurb: "Expert consultations, panel calls and B2B surveys — scoped to your research question.",
     sublinks: [

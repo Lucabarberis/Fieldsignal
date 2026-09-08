@@ -82,6 +82,35 @@ const nextConfig: NextConfig = {
         destination: "/resources/blog/:slug",
         permanent: true,
       },
+      /**
+       * RISEFINDER MOVED TO ITS OWN DOMAIN, 8 September 2026.
+       *
+       * It lived here for its first six weeks and accumulated 31 indexed
+       * URLs — the hub plus 30 dated briefings, each one a page of written
+       * research that no query reproduces. Deleting the routes without
+       * these would throw away every one of them along with whatever
+       * ranking they had earned.
+       *
+       * PERMANENT, so the authority transfers rather than being lent. The
+       * dated rule must come FIRST: Next matches in order, and the bare
+       * /risefinder rule would otherwise be reached first by nothing —
+       * but keeping the specific one above the general one is the habit
+       * that stops the next person breaking it.
+       *
+       * These stay indefinitely. A 301 is not a forwarding address you
+       * cancel once the post catches up; old links live for years, and
+       * removing it turns every one of them into a 404.
+       */
+      {
+        source: "/risefinder/:date",
+        destination: "https://risefinder.co/:date",
+        permanent: true,
+      },
+      {
+        source: "/risefinder",
+        destination: "https://risefinder.co",
+        permanent: true,
+      },
     ];
   },
 };

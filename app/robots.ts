@@ -14,13 +14,11 @@ export default function robots(): MetadataRoute.Robots {
         // Block admin + future gated routes from crawl. Defense in depth;
         // /admin layout also sets robots:{ index:false } at the meta level.
         //
-        // /risefinder USED TO BE DISALLOWED HERE. It was unlisted by design:
-        // no link to it, absent from the sitemap, noindex in its own metadata.
-        // It is now in the masthead and in the sitemap, so the disallow had to
-        // go with them — a page linked from every header on the site and then
-        // blocked in robots.txt is the configuration that produces "Indexed,
-        // though blocked by robots.txt" in Search Console, which is worse than
-        // either choice made cleanly.
+        // /risefinder IS NOT LISTED HERE, and must not be. It moved to
+        // risefinder.co on 8 September 2026 and its 31 old URLs are 301s now.
+        // A crawler has to be allowed to FETCH a redirect in order to follow
+        // it, so disallowing the old paths would strand every one of them
+        // mid-move: the redirect would exist and nothing would ever read it.
         disallow: ["/admin", "/admin/"],
         // Future: disallow gated routes when transcripts library lands
         // disallow: ["/platform/login/", "/api/", "/transcripts/full/"],
